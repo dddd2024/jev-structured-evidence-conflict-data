@@ -9,7 +9,7 @@ Research-data mirror for the A461 experiments on the typed model scorers **kev-4
 - [`MIGRATION_MANIFEST.json`](MIGRATION_MANIFEST.json) — original paths, full SHA-256 checksums, complete exclusions, and original source commit.
 - [`EXCLUSIONS.md`](EXCLUSIONS.md) — why some files are withheld.
 
-**Dataset status:** 1,794 of 2,004 source files mirrored (311,495,311 bytes). Another 210 files are individually recorded as withheld, mainly because they embed nonpublic university-machine details (183) or are documents/tensor/binary formats without clearance (27). The curated mirror is therefore **not a complete unredacted publication**. The private research repository and server originals remain unchanged.
+**Verified public status:** 1,799 of 2,004 A461 source files are published: 1,794 byte-identical copies and 5 machine-identifier-redacted records. The other 205 files remain excluded: 178 require sanitization/review and 27 are binary or document artifacts without redistribution clearance. Large capture tensors have **not** been published in this repository's Releases. The source private repository and server originals remain unchanged.
 
 **Hidden-state captures:** Very large float16 `.pt` captures are distributed separately when cleared and uploaded, via [GitHub Releases](../../releases). Do not infer their availability from entries in the raw JSONL files.
 
