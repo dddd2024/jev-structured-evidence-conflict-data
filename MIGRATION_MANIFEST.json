@@ -1,10 +1,10 @@
 {
-  "status": "CURATED_WITH_EXCLUSIONS",
+  "status": "CURATED_WITH_FIVE_REDACTED_FILES_AND_REMAINING_EXCLUSIONS",
   "source_repository": "dddd2024/jev",
   "source_commit": "03302ef7867606d2cec527ec0aa8a5abdd0257ee",
-  "copied_files": 1794,
+  "copied_files": 1799,
   "copied_bytes": 311495311,
-  "excluded_files": 210,
+  "excluded_files": 205,
   "files": [
     {
       "path": "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
@@ -8978,11 +8978,6 @@
     }
   ],
   "excluded": {
-    "A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json": "review_required_private_machine_reference",
-    "A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/logs_g0_impl1_attempt4.log": "review_required_private_machine_reference",
-    "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G0C_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G1C_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v2.docx": "excluded_binary_or_document",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v3.docx": "excluded_binary_or_document",
@@ -9188,5 +9183,32 @@
     "A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
     "A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
     "A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference"
+  },
+  "sanitized_files": {
+    "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json": {
+      "status": "SANITIZED_MACHINE_REFERENCES",
+      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json",
+      "published_git_blob_sha1": "35cd6be4feb7d8d74db8e22e721f5938376039e4"
+    },
+    "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json": {
+      "status": "SANITIZED_MACHINE_REFERENCES",
+      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json",
+      "published_git_blob_sha1": "8731f55fdd13bbf09d2559c9e108d09fb0a508e1"
+    },
+    "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt.json": {
+      "status": "SANITIZED_MACHINE_REFERENCES",
+      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt.json",
+      "published_git_blob_sha1": "2191301cf41335c4b2c61230713eb3f807f2be87"
+    },
+    "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/logs_g0_impl1_attempt4.log": {
+      "status": "SANITIZED_MACHINE_REFERENCES",
+      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/logs_g0_impl1_attempt4.log",
+      "published_git_blob_sha1": "bc3435a56c142621903dc10a1f749b54ee713a93"
+    },
+    "data/A461/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G0C_REAL_20261025/execution_receipt.json": {
+      "status": "SANITIZED_MACHINE_REFERENCES",
+      "source_path": "research/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G0C_REAL_20261025/execution_receipt.json",
+      "published_git_blob_sha1": "86a9311046e273baefa29e4048bb5d27ae8f63d5"
+    }
   }
 }
