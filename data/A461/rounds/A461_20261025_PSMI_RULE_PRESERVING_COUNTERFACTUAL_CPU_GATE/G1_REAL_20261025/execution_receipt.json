@@ -1,0 +1,16 @@
+{
+  "backprop_calls": 0,
+  "error_message": "replay determinism/ledger failure: {\"LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old\":[100],\"LANL_L1_B_THRESHOLD:7465d5a079055d8b:old\":[101],\"LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old\":[102],\"LANL_L1_B_THRESHOLD:7d0d542458e93847:old\":[103]}",
+  "error_type": "RuntimeError",
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 103,
+  "native_question_branch_rows": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-psmi-counterfactual-cpu-gate-20261025-v1/G1",
+  "run_id": "a461-psmi-counterfactual-cpu-gate-20261025-v1",
+  "schema": "JEV_A461_PSMI_G1_EXECUTION_RECEIPT_V1",
+  "status": "FAIL_A461_PSMI_G1",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_g1_paired_pilot_fp32_v1.py\", line 268, in main\n    ck(all(r[\"verdict\"] == \"IDENTICAL\" for r in replay_results) and len(replay_results) == REPLAYS,\n  File \"/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_g1_paired_pilot_fp32_v1.py\", line 38, in ck\n    raise RuntimeError(m)\nRuntimeError: replay determinism/ledger failure: {\"LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old\":[100],\"LANL_L1_B_THRESHOLD:7465d5a079055d8b:old\":[101],\"LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old\":[102],\"LANL_L1_B_THRESHOLD:7d0d542458e93847:old\":[103]}\n"
+}

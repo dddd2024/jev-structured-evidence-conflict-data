@@ -1,0 +1,24 @@
+{
+  "backbone_forwards": 0,
+  "cpu_model_loads": 1,
+  "cross_checks": {
+    "lanl_rows": 328,
+    "twins_scenes": 12
+  },
+  "forward_budget_cap": 128,
+  "gpu_forwards": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-psmi-counterfactual-cpu-gate-20261025-v1/G0",
+  "pairs_selected": {
+    "LANL_L1": 9,
+    "LANL_L3A": 6,
+    "N2_LANL": 3,
+    "T1": 6,
+    "T2": 6,
+    "T3": 4
+  },
+  "schema": "JEV_A461_PSMI_G0_CPU_RECEIPT_V1",
+  "status": "COMPLETE_A461_PSMI_G0_CPU_GATE_IMPL1",
+  "test_or_calibration_rows": 0,
+  "total_arms": 65
+}

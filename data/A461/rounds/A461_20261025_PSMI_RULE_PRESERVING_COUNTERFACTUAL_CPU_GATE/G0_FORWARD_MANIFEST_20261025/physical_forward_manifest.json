@@ -1,0 +1,2314 @@
+{
+  "baseline_reuse_policy": "one old-arm forward per pair_key (34 total)",
+  "forward_cap": 128,
+  "g0_dir": "/REDACTED_RESEARCH_ROOT/a461-psmi-counterfactual-cpu-gate-20261025-v1/G0",
+  "n1_rows_total": 31,
+  "n1_token_matched": 0,
+  "n1_token_mismatched": 31,
+  "note": "CPU-only derivation; no model run. N1 rows with N1_equal_token_count=false are excluded from strict matched-length causal contrast vs arXiv:2610.12292 per shadow QA QA-1.",
+  "repeated_baseline_precision_replays_planned": 4,
+  "rows": [
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "1be5102b0f7b22b6",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 520,
+      "token_sha": "d6fbe7e663fe19c42da7f1eb4cb0f43e3d4e2541ae5b5ffca719f059885a67e9"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "46b8f81f4934c8b88e43d5bf4e16e18e5e1e613035cbf3bf2ede88f3754dc4d5",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "1be5102b0f7b22b6",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0013",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 580,
+      "token_sha": "b774caa8ccc7bdf781527c5535322351dc6ee5adcd9c683c73c1a10430b3e6a8"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "cf23ee4cb99952348d397ac440cccdfa7b2acc3313f2da2440d4293ab029af5d",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "1be5102b0f7b22b6",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0014",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 580,
+      "token_sha": "f5030715ba6bbd22cdea97cb80c77b45b2a1cde6014f8d0b9795cace7f0aff18"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "7465d5a079055d8b",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:7465d5a079055d8b:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 520,
+      "token_sha": "0fa68ccb39ba6a3a4f172d778f2e940f3a21b43b81d843b06de323d13cc57f1e"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "6d820d519ba5345ccb8b3bb0e251a01b45c86683b9c4f3ec2847b843f89ac800",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7465d5a079055d8b",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0011",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 580,
+      "token_sha": "c4d8d0d7d4b0da795ca61229fe73e8aaf3536d01ed34f9d06fa8cc52e313aca1"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "4129e1dfc1f6ab7859efd387649d8e7e6205a7fdcaa598cd3bbbf5d44bb7ce65",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7465d5a079055d8b",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0012",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 580,
+      "token_sha": "bdae59be1f52a000d70b16268f22c7ad518a809cf05cc187d7a6625964843cee"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "7affc3f35f85fa15",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 520,
+      "token_sha": "e4eba881620aadb294c9ea2da0d0c489fa611ea0185333e787541d076f7dffaf"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "7596d7a767d0e3d22aa9038366542865b127b8011c2bca96d3b1c03a4397d524",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7affc3f35f85fa15",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0017",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 580,
+      "token_sha": "563cc48639240b832b0b5dd5d2c20b76b59cec8929d1ea2b05fe42893d35bff7"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "c81e18300023ff36d80dac79b1f48dc35c68159560f1e4742d2eadd480282e64",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7affc3f35f85fa15",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0018",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 580,
+      "token_sha": "28b9f7421d355b7744899955529c9f4f379598f3505cba04bcfe23e1394b7171"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "7d0d542458e93847",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:7d0d542458e93847:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 521,
+      "token_sha": "ca00fb80332ef272990e96542264193f1fc6220877ba6e5f013e048f15948a98"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "9609b85eaaab77122bcb0b41097cd258e1a5fad51b6dbebf10c02edaa045b387",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7d0d542458e93847",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0015",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 581,
+      "token_sha": "f9f9e028e220e427a3b2e88c2600efd23d6017664a0415dd93074062806ae00d"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "e6e9058171e91284c2a32ecb7dc74793009acb26ff046d44051dcd2a49235a61",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7d0d542458e93847",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0016",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 581,
+      "token_sha": "d793d80053e5e5a6f66a9ddfa88b01b68b8110f9260736e4c67b54ccd5626100"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "8405be21110e3ceb",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:8405be21110e3ceb:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 520,
+      "token_sha": "4dd56de2715b158ac9310a4353674ad9b23ea6de012148b27a2b179f59a581f9"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "01e9f248ddbdc088c0409b04338acac51ae297835feab85497d46b4fe9d71420",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "8405be21110e3ceb",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0001",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 580,
+      "token_sha": "077c7a9d18760d0651bc2fc21375d6102d93f5453508606def081e98a52b54af"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "42902b87cd6bc8124f8ba2a0fd01540973210b0142a948db9dd0aeac63239505",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "8405be21110e3ceb",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0002",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 580,
+      "token_sha": "5f9868f32a5f8bea8ca09026b6b529b13fce183c63b6f46f86422908ff31d4f5"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "86b3c8c1022b4f14",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:86b3c8c1022b4f14:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 521,
+      "token_sha": "f7edc381680392b45f71ac9c2f70306f469b9ffb084a307cf35a790d8a288d30"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "0d9276d03b39e17bb0c1afa185037ea36425508d68dcac402a1cedc83ea6d9c0",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "86b3c8c1022b4f14",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0003",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 581,
+      "token_sha": "4e5f409839dcf61469463aded49ea31be19329395cdfb1da85c9ccb0b8d4fbf0"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "3ec9b9f2050380c5da49e33fbec01bbf33950ad7b319ac37c3a794360bff186a",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "86b3c8c1022b4f14",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0004",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 581,
+      "token_sha": "57450392d1e4b06769d96ca62a39c20d384194a98ee0f9c3a7c3bb2979c5a8e7"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "9ffd190c8c9483e9",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:9ffd190c8c9483e9:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 521,
+      "token_sha": "4da960226191f2be8912043a5c93a4be27a1fd305bee10aa8f84d39056d52632"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "625269aba4abcef8b766535793abfdbb6738ef8a3cbceacfbbe664f0ed74b028",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "9ffd190c8c9483e9",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0007",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 581,
+      "token_sha": "8ffa6b91521caee12933e1a2d3e773f1e36e98e9e0c3bbf07da9a0bcdbe334b2"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "9e0b601ec68dc7bdbd5ca9833c403af551d639264f4c49fda4187f6939c2af5c",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "9ffd190c8c9483e9",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0008",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 581,
+      "token_sha": "afae44ac758d7cfbf0c2b9c2b9de80d55d2533acd912f2eb7e2cd333bd13d089"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "a130d2f53d664c52",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:a130d2f53d664c52:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 521,
+      "token_sha": "7c98fabbc481eb5b7e7cd0ef9629d617994fa286df2c859e7ab04b10319355ae"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "4ffedb87927cfea4e3f058cddf53c1c053a64fada9606ed8d2103d6be0ae7432",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "a130d2f53d664c52",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0009",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 581,
+      "token_sha": "1f2d4340e396e1c7cadb897e8132a62a142f4ccc956b407462c2ff38b3e7ba62"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "6cc46f435ba8a4adbb8d726d798f8b2403439c1457cf7321dcbac2bf78be55d6",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "a130d2f53d664c52",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0010",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 581,
+      "token_sha": "af85728d002475ec14d6e5502a4b2b4ebe9bfea8ca859b464c46c6156208320a"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "a72a7fed4bffa02a",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L1_B_THRESHOLD:a72a7fed4bffa02a:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 521,
+      "token_sha": "42e227d32f8564bdab3215f3153c08f50da6b0bd6964f906767ea5668e56b154"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "1d1f44f5688d43f152609612bcf81e070c20dc57c149c6c1c0825df2ad37fff6",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "a72a7fed4bffa02a",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0005",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 581,
+      "token_sha": "bc4269de430b698ad37b3bb0fde6b5c98ba33d1196dfcef64da5c5c47980ac31"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L1_B_THRESHOLD",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "dec899aa26399b4e7f218da23c7f243b27edf8d22767643cad1ac65468ba4ca2",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "a72a7fed4bffa02a",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0006",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 581,
+      "token_sha": "7bad589e75f238cb3ebc60edc40488c798e98ee036df2b85cb1c64f83fa9f8d3"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "316ad9c214d93ced",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:316ad9c214d93ced:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 580,
+      "token_sha": "29af30b4b1203df211f3ace35d7798b3cb5f5f9c0d49c688a1ecd6b605ec18c8"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "6d674412f9eecbd0fb8d280b001807e8214c01ad2366107ab2a3a42049f68d0d",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "316ad9c214d93ced",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0021",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 640,
+      "token_sha": "18c2940f89213b5bbd9ef7423118f5020b29b4ad73f86f5b01982b70cdade822"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "472541ec9121093fa8099d434682e7a6a10ac55ef6fbcbfa9c775ec6565525cc",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "316ad9c214d93ced",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0022",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 640,
+      "token_sha": "6f89d30ed39a850220afedc39b0eb41c47b5150002e7bf270ddbe5cdf8986c37"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "7066ecae690fe43d",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:7066ecae690fe43d:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 640,
+      "token_sha": "173b910dc20f58fe691f0625ea755f7696a8cd7a93090022afdd086d9d2aa516"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "f33db05bc99ee8f417a04d8f09fd9fef23f6fb16e9a4c5e064519def16a076e9",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7066ecae690fe43d",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0023",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 700,
+      "token_sha": "91ef04c07a526f669f5469c276d1d40bf4b366eecad86a1d58e66033012309c7"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "14e9d3e540c6730c243826033a0f01e7e0a88098b3d4ff5064bc1151a676e426",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "7066ecae690fe43d",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0024",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 700,
+      "token_sha": "0d72c40756ed0cf2a916b1c8fd407b1a35da91c8f54a3fa1a74b3d6cf465ddfd"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "80fc84af3d0f7b03",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:80fc84af3d0f7b03:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 698,
+      "token_sha": "190810f0787ef8b9793f2dd14ca4cb392f60c5e1e429193250a472e9004dc37a"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "3b06b7d47d6541d63417ce1d8c40d431484025d2c733e2bc11041b419a09ff23",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "80fc84af3d0f7b03",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0029",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 758,
+      "token_sha": "e5cc54b9a5d2f8efbb6b1b550031fba46877876a0bd64669b5a980fcf3bfa249"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "2402c79053b5997a8bf60d015cf1899f9631a2ea0fa6480a27b15732247e34e1",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "80fc84af3d0f7b03",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0030",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 758,
+      "token_sha": "d5dbf7fadcc5c6b8fa75655928ac081245cc181ccdcf06ad7dcb7d63982266d2"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "ad9edc02d71c5e24",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:ad9edc02d71c5e24:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 581,
+      "token_sha": "6308a38b90723bcdae6c46596456dabd2164cd46bff8539eab5f4a2090f596cc"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "4ce04e506892c9bc910c95c14e78abaf3b41a78cf7c74772e8631beb8703c663",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "ad9edc02d71c5e24",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0025",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 641,
+      "token_sha": "9c3a7d83eaa59c3172c5c8212133f156290b043df4944c107874042d2f7d64e9"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "44cf340bf8051d7aa1bec30fa1303203bc33a178814d8e54be270960ed56c33f",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "ad9edc02d71c5e24",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0026",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 641,
+      "token_sha": "a83b307654160807056d001a523da8d0edb6483891033889a9e3125a58616792"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "cb6958b659e9f26c",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:cb6958b659e9f26c:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 938,
+      "token_sha": "fcdd8b374654bdbc0faf027bbf4565f058528c2b82eef9b2f25665f56bb9b307"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "523a266a097226a75d286d64d6c41dcad18b931588a0f011e7e1cbd2d29962e6",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "cb6958b659e9f26c",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0019",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 998,
+      "token_sha": "c3c731768b4ccb538bf07c620dd0b262e2615e1b6867088b249905afa7e9c2f1"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "c4820c9f4dadab2d64ac76eda3809eb4b5ab0ca4d9b0d65dea8924f064c5ed9c",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "cb6958b659e9f26c",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0020",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 998,
+      "token_sha": "048d91f47ce9fd3a496f9429be2e58e24421f2d5d4fd05879defa8884ad4923b"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "d48e5d5fb80f313f",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_L3A_RISK_NONREGRESSION:d48e5d5fb80f313f:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 640,
+      "token_sha": "5e45a254c7b1d191fe1e662404a6fde56eeb219bca249bfb9714d97b8192ca98"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "7bc8098f704336ac6d58c34cc2d4490e252816e999151773c206991559e78c19",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "d48e5d5fb80f313f",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0027",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 700,
+      "token_sha": "ad2bad0f700bc9d14e8ebefcb36a5bcaf59755d463718249a0aa295035a355ee"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "LANL_L3A_RISK_NONREGRESSION",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "5b1b2476308d5e8b384d2101c71b666787f3c3243d79e23c07425884c6b2fd88",
+      "new_rule_gold": {
+        "failure_burst": true,
+        "triage": "investigate"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "d48e5d5fb80f313f",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0028",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 700,
+      "token_sha": "c1970913c037184f47a42603f83e6e1e110dae9f305f29058dd4f16d191078ef"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "1be5102b0f7b22b6",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_N2_TIMESTAMP_INVARIANCE:1be5102b0f7b22b6:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 520,
+      "token_sha": "d6fbe7e663fe19c42da7f1eb4cb0f43e3d4e2541ae5b5ffca719f059885a67e9"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "4bcedc99a060eeaee05cc9ed7a0989a3247263a5b478fd0439ff571c3ddcb8a2",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "1be5102b0f7b22b6",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N2_retime",
+      "row_id": "A461P_0033",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:50",
+      "token_count": 520,
+      "token_sha": "0676622aef6253dd6321b6b1fc21602f23b236ae7297a79f84f986a44360b44d"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "8405be21110e3ceb",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_N2_TIMESTAMP_INVARIANCE:8405be21110e3ceb:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 520,
+      "token_sha": "4dd56de2715b158ac9310a4353674ad9b23ea6de012148b27a2b179f59a581f9"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "8ad97cf59a3fba883f4b7b3504b66fb9685847e1f347aa07914f55b640ad22ef",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "8405be21110e3ceb",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N2_retime",
+      "row_id": "A461P_0031",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:48",
+      "token_count": 520,
+      "token_sha": "aac9bc81e4a4f1a0d2be9c7a0a73706021f2613810a991308c0df8fd4c1489ad"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "9ffd190c8c9483e9",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "LANL_N2_TIMESTAMP_INVARIANCE:9ffd190c8c9483e9:old",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 521,
+      "token_sha": "4da960226191f2be8912043a5c93a4be27a1fd305bee10aa8f84d39056d52632"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "LANL_N2_TIMESTAMP_INVARIANCE",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "f6e1a666987786617357be0a6f2e3a615fc9a9f4963e8a99ea82b146cf7440c0",
+      "new_rule_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "9ffd190c8c9483e9",
+      "question_order": [
+        "failure_burst",
+        "triage"
+      ],
+      "role": "N2_retime",
+      "row_id": "A461P_0032",
+      "source_family": "lanl_auth_policy",
+      "source_group": "lanl:day:49",
+      "token_count": 521,
+      "token_sha": "60ab2e8b94252987447e03cc70e29b7f3c91544fb55584e9ab5b1d21ba034dfe"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "14823a97e481548e",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:14823a97e481548e:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 249,
+      "token_sha": "94af1b47b8c1ccfe7920240c2924e011acbfec0eeb45b701c25858ae101d4e08"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "8a423207d893fbe7a7700a1d1866edcdabc9528f4353dcda7ec9efd4657f3188",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "14823a97e481548e",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0036",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 283,
+      "token_sha": "1906f14ce1b69df16104b415117fe9f969433f68e3aac4a0549bf4ef1b66b70b"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "d694425f6583821a37e6104aade44647352272bd5203c4049ac0576f163e08d3",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "14823a97e481548e",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0037",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 283,
+      "token_sha": "babbdc42bb6c2e92d424054d5f25fd9a37f1f27504757c70df3eeb7d676712a2"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "1b0e96fb22c6aebe",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:1b0e96fb22c6aebe:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 536,
+      "token_sha": "44568fd8342af458f0c37e7d197fbc15d7210e8d578f5686ad082c155e82825c"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "9e2a79b1fd5f01d45fd47eff6fbbacc135a0cb7bf637587695451ecbd8655a4f",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "1b0e96fb22c6aebe",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0038",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 570,
+      "token_sha": "1634b71f480ba05d12c85627e91680120c4344ba70e75f5338900964adb85843"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "534631b705db012def0302af50b3f97792e7e126ddecdba57aa3650d1c67bfd0",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "1b0e96fb22c6aebe",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0039",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 570,
+      "token_sha": "08432b523fb125303aefaf626cd20bfad8694a9f9b5d1f0faea6969afc8e6d80"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "39834f1dfb7861f1",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:39834f1dfb7861f1:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-154",
+      "token_count": 373,
+      "token_sha": "50d612f3cef0531f2238ab0f91e9b1a757eed6f993f36012b0c1e80894db9349"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "5a8ddc1ec981bd66efadb2539d043ce26a5ed5d212f676db0c5a23ce33d39b87",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "39834f1dfb7861f1",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0044",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-154",
+      "token_count": 406,
+      "token_sha": "484282c3e5e88865b89b3df0d9fe329d6482d277a6bd7673bc7de4d16994ab45"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "3f577eb154c6b36c41cadc5b80b09f8e937d65e2a5be0edf9979320bdbb86d08",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "39834f1dfb7861f1",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0045",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-154",
+      "token_count": 406,
+      "token_sha": "3fd815c2bccad2c3414b32ee3509822cf9d45e8d4e5ac7696a4918ca88a5ef1b"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "addf18719636d0cd",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:addf18719636d0cd:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 241,
+      "token_sha": "014e6dc56c4e32b0f57dad45e6de0baa225a221f5fe7f695e1a8e2057c0445dd"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "fe368f4ba8b301177e64a8124a28b96c034031a8206b8bf7bf7bb31e437c9f81",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "addf18719636d0cd",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0034",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 274,
+      "token_sha": "470e320ec80796381f4a4dcf757e399e3920ee09a8d49cbc8b4ef2fc40d81c5d"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "465b605d3ed9461cd4afd85a2385661f63578c10492295660ec23cdbf971b6cf",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "addf18719636d0cd",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0035",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 274,
+      "token_sha": "12c86e45ef2d016e71e92716949c8709567dd48d8b1720ef9676514e10d60b8a"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "e35b601759fb4800",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:e35b601759fb4800:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 249,
+      "token_sha": "9ca7f2bfd87ac6b803163ed48f1b3b2f8def8bb2eb5c3520722d39465bf17a00"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "23b6f110d787ed7ba05cd1d64a5895c436b105997bdea1ee944de062dea83ce9",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e35b601759fb4800",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0042",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 283,
+      "token_sha": "ff144341a82f04994d37a64fe3bb2259780084df5af75c5b0710e4deab332f5e"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "28c0c896a68f7727c1da80726f7438cb650d9e017d6fb855f8cdf922496224f8",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e35b601759fb4800",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0043",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 283,
+      "token_sha": "cb64a69695f1101fcb2dc0d291547fc9f5f1ed38dc7392c4d4cbe15270b9888a"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T1_QUORUM_AXIS:e5b68bed342aaa85:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 401,
+      "token_sha": "6b00dc076ca01beb5bcf5443cba46699b44efcc6966d7cbf45fb8d70f5092ac4"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "093c9da974e116cc51fd6dc4fde32e9d9c7fb121fa85cf63614c394b69721ef9",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0040",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 434,
+      "token_sha": "22a2d571d3025b8512f8f28cf891fc98a0f2dc22710ff9b8c4ab207f35a96109"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "605c8127daaa781a0e9ec9f6b3d29a290cd4989aed073e81ca1a3a90cf5c8b2c",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0041",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 434,
+      "token_sha": "3b446194f64a4433cd801ae422ea3738eda2b2cbcba0a751942192751b2319aa"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "23a492683724bfef",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:23a492683724bfef:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 536,
+      "token_sha": "8298617a9c5f30593fc589420eb28d7b6be24d92acce6065e31e6c187db6a149"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "70cb3a49ed4417081eb5db40cfd09bf6279e90f81c06bdc202a36704b8808afb",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "23a492683724bfef",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0052",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 570,
+      "token_sha": "4d6266ed8dc52722b6803af96c9cb61157496526bdc85f535409c49009574eb2"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "0f3073efbf778edca041e200bc13fccd85e33604673f7495e2d4e0092cab7769",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "23a492683724bfef",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0053",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 570,
+      "token_sha": "f10518827681a7a3629725bf80ce6d9020014cc608546c7618a3592725c7e673"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "47ab1e2e276380f6",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-100",
+      "token_count": 1053,
+      "token_sha": "75df5fcc712ae173111c5e234387b39c2b72163a3843a4e726c9e04344d4675c"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "12b8eddcc620425e95e5c98ff13fe7c13dfa1322c8f8e5c00e82e852fc872014",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "47ab1e2e276380f6",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0046",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-100",
+      "token_count": 1086,
+      "token_sha": "9e6266ddfcc594d9457af6ca65018e2ba70312657b249f35d43f14a7a96950ee"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "4231bb067caf3e9dfd1f7e8f6c6af4a1a559b7946618b4d55cfc92961afa81a4",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "47ab1e2e276380f6",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0047",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-100",
+      "token_count": 1090,
+      "token_sha": "a9594af3189b6b479c977a8a01a0aa51b6ca4574ac5fe1a0a5dc87034cd007a0"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "77ac7c784fa27f11",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:77ac7c784fa27f11:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 385,
+      "token_sha": "ff2ffe497b2bde3b43fa95386ce00a40b4593baf4a3a4a03338f4cbf92dc4b5b"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "ab1f89a0c9ed8c35cc1fdd8ffa0b3ed40149bc31e51575f8c6b9c2cd22d8727f",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "77ac7c784fa27f11",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0050",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 419,
+      "token_sha": "b60512c8bd15ef1a90881ff3eb77ce426fae187b8edc6c08af0978009de1100f"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "04a5c428c828a899e7b62a2d06b6c47c7e2822734bb0396f4cde7d63ab564123",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "77ac7c784fa27f11",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0051",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 419,
+      "token_sha": "22bd60e0ad4de6416f2543803eb4cc2ae094360aac04e49d7bc7469a800d4626"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "bb385759da896be4",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:bb385759da896be4:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 340,
+      "token_sha": "a67e569553b2e8e247bb9cd2115c2c081d92bde3081f74a7c8fcbb124d514f64"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "feeef8eba687faf6199156fe4292c3d6a7b322f8bf0384c73a4f0609a74bcbb6",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "bb385759da896be4",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0048",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 373,
+      "token_sha": "e2369f9ddfd5d450a6fac82cda9abec8f4dbbd3101485eea56ce89010b5bc71e"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "0762c3f9aaaf62966eb48a139dd8bad543ed6c186a76cb27161c7ec713359d36",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "bb385759da896be4",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0049",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-101",
+      "token_count": 373,
+      "token_sha": "15fb7582166a2054e45084d044a3babd417709682bb5b3d41ce87b37d49aad43"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "dce1d033e0c2a951",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 378,
+      "token_sha": "65e41e2c3f85269ceb796c7264675938514d72105f983bccb75566bcaad889f0"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "7ae08299ee8a0448603c2e35de37bafb208708997fd18834ba4fa342d05dbca2",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "dce1d033e0c2a951",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0056",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 411,
+      "token_sha": "aefe4ae705a2f7ae04ae64e440a3afa3240824952e256b9d762d7c87326ea93f"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "58bea6bfb6f8aafdcc4abe12e16bcc7421a26d92c99639e14d38ec8849d6ee98",
+      "new_rule_gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "dce1d033e0c2a951",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0057",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 415,
+      "token_sha": "34f24deaad398ea876be5ffcc936402b6000c0d42428f10253eb98a64c80afe6"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T2_CONFLICT_AXIS:e5b68bed342aaa85:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 401,
+      "token_sha": "6b00dc076ca01beb5bcf5443cba46699b44efcc6966d7cbf45fb8d70f5092ac4"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "58280ab5e3f6325479ee32510f749805d11dfb282faf14ccbc5f6ada875bea4c",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0054",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 434,
+      "token_sha": "b8f71e7c456d36dd8244776ab47522597e128a89937aa3b4f6795d77a149969c"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "6f4246282676450c01b137b9ba79326c5568d246758ebeb58dd926f0325056b9",
+      "new_rule_gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "evidence_level": 1,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e5b68bed342aaa85",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0055",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-121",
+      "token_count": 434,
+      "token_sha": "bd834458b0006c922938504fee551d0b581ad117b635abd0370960f2b0d82175"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "6f8c5dea5cf8cea6",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T3_CONFLICT_STABILITY:6f8c5dea5cf8cea6:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 352,
+      "token_sha": "c5e70ae73eb4df1e04759295ea7893841ee13251305914cd7e756b6a457b0744"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "c70c21cf635c40158bb5646ab103ac69c7f0396f4b4a4c0423433e8b013c07ab",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "6f8c5dea5cf8cea6",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0058",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 386,
+      "token_sha": "71a00a8a4ea1e64a81a6b0d2deb749db9f46537bba93e5a667447413051970b7"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "5da2b52f9d248c64c1d44d1c1ab682a71f585a423fdc979eef29d6f1780b8457",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "6f8c5dea5cf8cea6",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0059",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-105",
+      "token_count": 386,
+      "token_sha": "56fe58e96291068b739ebc4cdfbc6fd3ef3a0d539a2222fadf92886b5a51d48a"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "9044f95302e93e25",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T3_CONFLICT_STABILITY:9044f95302e93e25:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 1202,
+      "token_sha": "faf5cbc06ea75247514ae2033d149e04b3dde06c8b12313c6604b9a6dabeb54e"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "bb7992b61f9da0d61f179528a1729a11dd9f9bb6e4eaee248916a9eb776e6ff4",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "9044f95302e93e25",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0060",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 1236,
+      "token_sha": "eaea5df168be8d59dfecf8e9f1e8d2d2d5cd2fe4a514a2c2c7e5704008de348c"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "dd683c8811cf75dbd8737686c396921319ec4d3f34028a94e159f9b4d1ad7d92",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "9044f95302e93e25",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0061",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-114",
+      "token_count": 1236,
+      "token_sha": "4dfe801cd59275b9e3a27bcef3932901adb69568354c5d1e4d276abf4e6bcbf6"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "e90ece230eef6871",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T3_CONFLICT_STABILITY:e90ece230eef6871:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 451,
+      "token_sha": "7b31c7e5c7ee25d934c90904c59f626f911b08ed896be6180f29673630d52c3d"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "b48102298759970cf71f18082854fb40dac52780bc24068294ee682cde8ba1be",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e90ece230eef6871",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0064",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 485,
+      "token_sha": "a49416c8003bcec8b6225c7c16e7a494593527034b6e6da404c049548a7f57a0"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "e89aa7573559d7e0702f60ca7fd74f514b945930ef362003d3c628a4bc230628",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "e90ece230eef6871",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0065",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-129",
+      "token_count": 485,
+      "token_sha": "ea98359f91d962678b422083208634b0bcc200d6efb07a99aec0147843f824c8"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "one physical old-arm forward per pair; shared by treatment/neutral/retimed arms of the same scene via exact native_request hash identity",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": null,
+      "new_rule_gold": null,
+      "old_rule_gold": null,
+      "original_scene_sha": "fb273c6528f29225",
+      "question_order": null,
+      "role": "old_baseline",
+      "row_id": "TWINS_T3_CONFLICT_STABILITY:fb273c6528f29225:old",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 735,
+      "token_sha": "0e432da9dafc92278c73b3d11ebe49dc316e5e07eb1df4199e40f9aafc429fb4"
+    },
+    {
+      "N1_equal_token_count": null,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "576401c8e83e85d4bc2983611d970202b76f5ef9defb0e05056dbb6dfc63ae83",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "fb273c6528f29225",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "treatment",
+      "row_id": "A461P_0062",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 768,
+      "token_sha": "fd9103833e9e141937891addc1183f83da16d280fdd29dafcfa542960679e70e"
+    },
+    {
+      "N1_equal_token_count": false,
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "cached_baseline_policy": "reuses old_baseline row of its pair",
+      "intended_forward_count": 1,
+      "model_precision": "fp32_planned_g1_cpu_audited_only",
+      "native_request_sha256": "14a5f47c96e28409c6eefb67c262df45260dd2fc00ee3acdd8223ee704816064",
+      "new_rule_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": false
+      },
+      "old_rule_gold": null,
+      "original_scene_sha": "fb273c6528f29225",
+      "question_order": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "role": "N1_neutral",
+      "row_id": "A461P_0063",
+      "source_family": "twins_streamlet",
+      "source_group": "twins_streamlet:run-125",
+      "token_count": 768,
+      "token_sha": "66c47cb57194c9d810fca1b4a4ea405b1a3c12b30bc9666f2ab4ea5b1139afb1"
+    }
+  ],
+  "schema": "JEV_A461_PSMI_PHYSICAL_FORWARD_MANIFEST_V1",
+  "total_planned_forwards": 103
+}

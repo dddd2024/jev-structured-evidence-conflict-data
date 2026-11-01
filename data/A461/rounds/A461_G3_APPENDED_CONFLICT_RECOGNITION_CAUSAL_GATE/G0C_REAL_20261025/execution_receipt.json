@@ -1,0 +1,16 @@
+{
+  "backbone_forwards": 0,
+  "budget": 128,
+  "cpu_model_loads": 1,
+  "gpu_forwards": 0,
+  "n1b_matched_vs_treatment": 19,
+  "n1b_total": 26,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g3-conflict-gate-20261025-v1/G0C",
+  "pairs": 26,
+  "planned_forwards": 109,
+  "schema": "JEV_A461_G3_G0C_CPU_RECEIPT_V1",
+  "status": "COMPLETE_A461_G3_G0C_CPU_GATE_IMPL1",
+  "test_or_calibration_rows": 0,
+  "total_arms": 79
+}
