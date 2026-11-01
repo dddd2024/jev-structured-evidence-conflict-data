@@ -1,0 +1,17 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 2292, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+FAIL fake_full_path_2292_with_60_captures_and_class_files :: status=COMPLETE_A461_MECH_M17 rows=2292 batches=18 captures=60 files=120 (sha ok=True, shapes ok=True); cross-row max 3.4e-05
+PASS class_contributions_partition_and_sum_to_oproj_input :: 5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)
+PASS benign_target_wiring :: rows per arm as frozen; targets {'new': 48, 'SA': 728, 'ROUND': 728, 'OUTSIDER': 728}; op/classes: True; target = host's variant: True; benign patch identical across SA / ROUND / OUTSIDER but for the 
+PASS benign_patches_reach_the_benign_target :: benign patches moving the benign target's readouts: 2184/2184 (fake model)
+PASS identities_on_benign_targets :: full with source = target on host SA == its capture, bitwise; meanD on host new != on host SA (same cell and source); max |logit diff| cs1_vs_meanD_OUTSIDER 4.1e-06, cshift_donor_only_vs_pool_donor 0.
+PASS patch_target_outside_benign_set_refused :: OKALT target refused at the manifest check: patch target 61
+PASS benign_captures_rebuilt_with_host_new_classes :: benign captures (8 hosts x SA / ROUND / OUTSIDER): G1.0 token sha where defined, host new's span and key classes, tokens distinct from host new: 24/24 (SA token sha is gated by the runner)
+PASS tampered_g10_counterfactuals_refused :: one variant round edited: refused at the blob pin
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission from a new out dir after a complete 2292-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: manifest with one patch row's classes changed: refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "FAIL", "passed": 15, "tests": 16, "runner_blob": "dee985df0a515d04c0f9d341912db433c320970a", "manifest_blob": "8b3c015224e5725d7c8ac0b3849f657478d3649b"}

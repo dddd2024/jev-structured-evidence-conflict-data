@@ -1,0 +1,183 @@
+{
+ "schema": "JEV_A461_RECOMPUTE_MECH_V1",
+ "python": "3.12.12",
+ "stages": {
+  "M1": {
+   "script": "A461_MECH_M1_ROUND_BINDING_GPU/A461_mech_m1_analysis_v1.py",
+   "expected": "A461_MECH_M1_ROUND_BINDING_GPU/M1_ANALYSIS_R1/m1_analysis.json",
+   "exit": 0,
+   "seconds": 0.1,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M2": {
+   "script": "A461_MECH_M2_SUBLAYER_LOCUS_GPU/A461_mech_m2_analysis_v1.py",
+   "expected": "A461_MECH_M2_SUBLAYER_LOCUS_GPU/M2_ANALYSIS_R1/m2_analysis.json",
+   "exit": 0,
+   "seconds": 0.3,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M3": {
+   "script": "A461_MECH_M3_HEAD_ROUTING_GPU/A461_mech_m3_analysis_v1.py",
+   "expected": "A461_MECH_M3_HEAD_ROUTING_GPU/M3_ANALYSIS_R1/m3_analysis.json",
+   "exit": 0,
+   "seconds": 2.5,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M4": {
+   "script": "A461_MECH_M4_KEYCLASS_VALUE_GPU/A461_mech_m4_analysis_v1.py",
+   "expected": "A461_MECH_M4_KEYCLASS_VALUE_GPU/M4_ANALYSIS_R1/m4_analysis.json",
+   "exit": 0,
+   "seconds": 0.5,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M5": {
+   "script": "A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/A461_mech_m5_analysis_v1.py",
+   "expected": "A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/M5_ANALYSIS_R1/m5_analysis.json",
+   "exit": 0,
+   "seconds": 2.8,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M6": {
+   "script": "A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/A461_mech_m6_analysis_v1.py",
+   "expected": "A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/M6_ANALYSIS_R1/m6_analysis.json",
+   "exit": 0,
+   "seconds": 0.6,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M7": {
+   "script": "A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/A461_mech_m7_analysis_v1.py",
+   "expected": "A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/M7_ANALYSIS_R1/m7_analysis.json",
+   "exit": 0,
+   "seconds": 0.7,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M8": {
+   "script": "A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/A461_mech_m8_analysis_v1.py",
+   "expected": "A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/M8_ANALYSIS_R1/m8_analysis.json",
+   "exit": 0,
+   "seconds": 0.9,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M9": {
+   "script": "A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/A461_mech_m9_analysis_v1.py",
+   "expected": "A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/M9_ANALYSIS_R1/m9_analysis.json",
+   "exit": 0,
+   "seconds": 1.4,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M10": {
+   "script": "A461_MECH_M10_HEADS_POSITIONS_GPU/A461_mech_m10_analysis_v1.py",
+   "expected": "A461_MECH_M10_HEADS_POSITIONS_GPU/M10_ANALYSIS_R1/m10_analysis.json",
+   "exit": 0,
+   "seconds": 1.3,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M11": {
+   "script": "A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/A461_mech_m11_analysis_v1.py",
+   "expected": "A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/M11_ANALYSIS_R1/m11_analysis.json",
+   "exit": 0,
+   "seconds": 1.3,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M12": {
+   "script": "A461_MECH_M12_P30_FIELDS_COSNULL_GPU/A461_mech_m12_analysis_v1.py",
+   "expected": "A461_MECH_M12_P30_FIELDS_COSNULL_GPU/M12_ANALYSIS_R1/m12_analysis.json",
+   "exit": 0,
+   "seconds": 1.6,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M13": {
+   "script": "A461_MECH_M13_AB_SHIFT_TILT_GPU/A461_mech_m13_analysis_v1.py",
+   "expected": "A461_MECH_M13_AB_SHIFT_TILT_GPU/M13_ANALYSIS_R1/m13_analysis.json",
+   "exit": 0,
+   "seconds": 1.9,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M14": {
+   "script": "A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/A461_mech_m14_analysis_v1.py",
+   "expected": "A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/M14_ANALYSIS_R1/m14_analysis.json",
+   "exit": 0,
+   "seconds": 2.1,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M15": {
+   "script": "A461_MECH_M15_Q1_SPLIT_NULL24_GPU/A461_mech_m15_analysis_v1.py",
+   "expected": "A461_MECH_M15_Q1_SPLIT_NULL24_GPU/M15_ANALYSIS_R1/m15_analysis.json",
+   "exit": 0,
+   "seconds": 2.7,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M16": {
+   "script": "A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/A461_mech_m16_analysis_v1.py",
+   "expected": "A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/M16_ANALYSIS_R1/m16_analysis.json",
+   "exit": 0,
+   "seconds": 2.2,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M17": {
+   "script": "A461_MECH_M17_FALSE_VETO_BENIGN_GPU/A461_mech_m17_analysis_v1_1.py",
+   "expected": "A461_MECH_M17_FALSE_VETO_BENIGN_GPU/M17_ANALYSIS_R1_V1_1/m17_analysis.json",
+   "exit": 0,
+   "seconds": 1.7,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M18": {
+   "script": "A461_MON_M18_SPAN_MONITOR_GPU/A461_mon_m18_analysis_v1.py",
+   "expected": "A461_MON_M18_SPAN_MONITOR_GPU/M18_ANALYSIS_R1/m18_analysis.json",
+   "exit": 0,
+   "seconds": 2280.8,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M19": {
+   "script": "A461_MECH_M19_READOUT_GAIN_GPU/A461_mech_m19_analysis_v1.py",
+   "expected": "A461_MECH_M19_READOUT_GAIN_GPU/M19_ANALYSIS_R1/m19_analysis.json",
+   "exit": 0,
+   "seconds": 265.0,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M20": {
+   "script": "A461_MECH_M20_NATURAL_NECESSITY_GPU/A461_mech_m20_analysis_v1.py",
+   "expected": "A461_MECH_M20_NATURAL_NECESSITY_GPU/M20_ANALYSIS_R1/m20_analysis.json",
+   "exit": 0,
+   "seconds": 0.2,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M21": {
+   "script": "A461_MECH_M21_READOUT_MEANDIFF_GPU/A461_mech_m21_analysis_v1.py",
+   "expected": "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_ANALYSIS_R1/m21_analysis.json",
+   "exit": 0,
+   "seconds": 327.1,
+   "status": "EQUAL",
+   "diffs": []
+  },
+  "M22": {
+   "script": "A461_MON_M22_SECJEV_REPLICATION_GPU/A461_mon_m22_analysis_v1.py",
+   "expected": "A461_MON_M22_SECJEV_REPLICATION_GPU/M22_ANALYSIS_R1/m22_analysis.json",
+   "exit": 0,
+   "seconds": 956.5,
+   "status": "EQUAL",
+   "diffs": []
+  }
+ },
+ "all_equal": true
+}

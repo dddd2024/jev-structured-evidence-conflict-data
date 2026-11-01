@@ -1,0 +1,17 @@
+{
+  "archive_commit": "bd8d2cf",
+  "backbone_forwards": 0,
+  "checked_utc": "2026-10-25",
+  "cpu_model_loads": 2,
+  "files_checked": 13,
+  "files_failed": 0,
+  "files_ok": 13,
+  "gpu_forwards": 0,
+  "n1b_verification": "14 rows, 14 token_count_matched",
+  "schema": "JEV_A461_PSMI_G0_GITHUB_BACKUP_STATUS_V1",
+  "server_originals": "~/wjc/a461-psmi-counterfactual-cpu-gate-20261025-v1/ (incl. preserved failure-attempt dirs)",
+  "stage": "G0_REAL_20261025 + G0_VERIFY_REAL_20261025 + G0_N1B_REAL_20261025 + G0_FORWARD_MANIFEST_20261025",
+  "token_rerender": "65/65 MATCH",
+  "verification": "gh api contents readback, sha256 byte-compare vs manifests_SHA256SUMS_G0.txt",
+  "verifier_status": "PASS_A461_PSMI_G0_INDEPENDENT_VERIFICATION"
+}

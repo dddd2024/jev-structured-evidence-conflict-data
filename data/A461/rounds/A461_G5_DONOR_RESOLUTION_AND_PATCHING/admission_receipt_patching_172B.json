@@ -1,0 +1,31 @@
+{
+  "approved_max_native_forwards": 94,
+  "authorizing_evidence_ref": "User standing authorization series 2026-10-25 (white-box mechanism goal); patching protocol V1 (9684e37) frozen and submitted for blind review",
+  "composition": {
+    "donor_captures": 2,
+    "donor_new_baseline": 1,
+    "necessity_patches": 18,
+    "necessity_source_captures": 3,
+    "random_token": 30,
+    "sa_sham_rest": 40,
+    "total": 94
+  },
+  "composition_disclosed": true,
+  "created_utc": "2026-10-25",
+  "deviation_note": "protocol V1 split froze 84/88 on miscounts; A469 audit P0-D/F and V3 recount give 94 (identity capture forwards, donor-new necessity baseline, and the remaining SA-sham layers itemized); under the 128 absolute cap; disclosed before execution",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows"
+  ],
+  "run_id": "a461-g5-donor-resolution-20261025-v1",
+  "runner_version": "v3",
+  "schema": "JEV_A461_G5_PATCHING_172B_ADMISSION_RECEIPT_V1",
+  "substage": "172B",
+  "v2_risk_remediation": {
+    "V2-RISK-1": "explicit linear width map recorded per pair when host/donor span widths differ",
+    "V2-RISK-2": "appended_span() asserts first divergence == old state length (span = exactly the appended event tokens)"
+  }
+}

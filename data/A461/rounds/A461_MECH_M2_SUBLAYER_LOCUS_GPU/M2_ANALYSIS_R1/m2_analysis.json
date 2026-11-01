@@ -1,0 +1,361 @@
+{
+  "L_f": 11,
+  "L_ref": 11,
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-140": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-154": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-169": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-181": {
+      "L_f": 8,
+      "L_ref": 8,
+      "verdict": "NEITHER_ALONE"
+    },
+    "twins_streamlet:run-212": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-220": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-272": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-283": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-301": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-337": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-338": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    },
+    "twins_streamlet:run-344": {
+      "L_f": 8,
+      "L_ref": 8,
+      "verdict": "NEITHER_ALONE"
+    },
+    "twins_streamlet:run-68": {
+      "L_f": 11,
+      "L_ref": 11,
+      "verdict": "MIXER_WRITER"
+    }
+  },
+  "per_host_S": {
+    "1c7158b6b838": {
+      "mixer_L10": 0,
+      "mixer_L11": 1,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 0,
+      "resid_L11": 1,
+      "resid_L7": 0,
+      "resid_L8": 0,
+      "resid_L9": 0
+    },
+    "1fb5651c643e": {
+      "mixer_L10": 2,
+      "mixer_L11": 13,
+      "mixer_L8": 0,
+      "mixer_L9": 3,
+      "mlp_L10": 3,
+      "mlp_L11": 1,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 3,
+      "resid_L11": 5,
+      "resid_L7": 0,
+      "resid_L8": 1,
+      "resid_L9": 0
+    },
+    "264c458dbed5": {
+      "mixer_L10": 3,
+      "mixer_L11": 10,
+      "mixer_L8": 0,
+      "mixer_L9": 1,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 2,
+      "resid_L11": 8,
+      "resid_L7": 3,
+      "resid_L8": 4,
+      "resid_L9": 2
+    },
+    "2a4f596d9dd7": {
+      "mixer_L10": 0,
+      "mixer_L11": 0,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 0,
+      "resid_L11": 0,
+      "resid_L7": 0,
+      "resid_L8": 0,
+      "resid_L9": 0
+    },
+    "2c9118bbcc3b": {
+      "mixer_L10": 0,
+      "mixer_L11": 5,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 1,
+      "resid_L11": 5,
+      "resid_L7": 2,
+      "resid_L8": 2,
+      "resid_L9": 2
+    },
+    "4bcbaf15f7ab": {
+      "mixer_L10": 3,
+      "mixer_L11": 11,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 2,
+      "resid_L10": 5,
+      "resid_L11": 9,
+      "resid_L7": 6,
+      "resid_L8": 6,
+      "resid_L9": 6
+    },
+    "756424185463": {
+      "mixer_L10": 0,
+      "mixer_L11": 7,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 6,
+      "resid_L11": 12,
+      "resid_L7": 5,
+      "resid_L8": 6,
+      "resid_L9": 6
+    },
+    "8ae8575481a0": {
+      "mixer_L10": 1,
+      "mixer_L11": 4,
+      "mixer_L8": 0,
+      "mixer_L9": 0,
+      "mlp_L10": 0,
+      "mlp_L11": 0,
+      "mlp_L8": 0,
+      "mlp_L9": 0,
+      "resid_L10": 4,
+      "resid_L11": 12,
+      "resid_L7": 4,
+      "resid_L8": 5,
+      "resid_L9": 4
+    }
+  },
+  "rules": {
+    "F_formation": "L_f = smallest L in 7..11 with S(resid, L) >= 1/2 * S(resid, 11) and SPEC(resid, L); reported with the full profile",
+    "S": "S(comp, L) = #cells where the main-source patch is JOINT and the ROUND-source patch (same comp, L) is not; resid at L11 is taken from the pinned M1 raw (main and round arms)",
+    "SPEC": "SPEC(comp, L) iff dM_main > dM_round in >= 75% of cells AND in a majority of cells for >= 10 of 14 donor groups",
+    "W_writer": "at each L in 8..11, component X in {mixer, mlp} is a SUFFICIENT_WRITER iff S(X, L) >= 1/2 * S(resid, L) and SPEC(X, L)",
+    "always_reported": "S and median dM per (comp, L, source); leave-one-donor-group-out of the verdict; per host; all nulls",
+    "interpretation_fixed_in_advance": "MIXER_WRITER: the evaluation enters the span through token mixing (context -> span) at L_ref; the failing host's deficit is in what its mixer brings into the span. MLP_WRITER: the donor's span MLP output at L_ref carries the evaluation; the deficit is in the span's own nonlinear computation (or its inputs). Sufficiency of a sublayer patch does not show necessity; no ablation is run",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run host capture)",
+    "units": "the 104 cross-group cells; source groups are the unit; cells share donors and hosts, counts are descriptive decision rules, not independent tests",
+    "verdict": "at L_ref = max(L_f, 8): MIXER_WRITER if only mixer is a sufficient writer; MLP_WRITER if only mlp; BOTH_SUFFICIENT if both; NEITHER_ALONE if neither (consistent with an evaluation spread over both sublayers or an interaction); the per-layer writer table is always reported"
+  },
+  "schema": "JEV_A461_MECH_M2_ANALYSIS_V1",
+  "table": {
+    "mixer_L10": {
+      "J_main": 20,
+      "J_round": 14,
+      "S": 9,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5962,
+      "groups_majority": 11,
+      "median_dM_main": 0.1134,
+      "median_dM_round": 0.1003
+    },
+    "mixer_L11": {
+      "J_main": 58,
+      "J_round": 7,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_main": 0.3542,
+      "median_dM_round": -0.3714
+    },
+    "mixer_L8": {
+      "J_main": 14,
+      "J_round": 16,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.25,
+      "groups_majority": 0,
+      "median_dM_main": 0.0957,
+      "median_dM_round": 0.1017
+    },
+    "mixer_L9": {
+      "J_main": 18,
+      "J_round": 16,
+      "S": 4,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5481,
+      "groups_majority": 7,
+      "median_dM_main": 0.0952,
+      "median_dM_round": 0.1007
+    },
+    "mlp_L10": {
+      "J_main": 7,
+      "J_round": 7,
+      "S": 3,
+      "SPEC": false,
+      "frac_main_gt_round": 0.2019,
+      "groups_majority": 0,
+      "median_dM_main": -0.0219,
+      "median_dM_round": 0.0282
+    },
+    "mlp_L11": {
+      "J_main": 2,
+      "J_round": 1,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4423,
+      "groups_majority": 5,
+      "median_dM_main": 0.0186,
+      "median_dM_round": 0.0166
+    },
+    "mlp_L8": {
+      "J_main": 1,
+      "J_round": 2,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5481,
+      "groups_majority": 8,
+      "median_dM_main": -0.0092,
+      "median_dM_round": -0.0072
+    },
+    "mlp_L9": {
+      "J_main": 7,
+      "J_round": 5,
+      "S": 2,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4038,
+      "groups_majority": 3,
+      "median_dM_main": -0.0016,
+      "median_dM_round": 0.0387
+    },
+    "resid_L10": {
+      "J_main": 21,
+      "J_round": 2,
+      "S": 21,
+      "SPEC": true,
+      "frac_main_gt_round": 0.8558,
+      "groups_majority": 14,
+      "median_dM_main": -0.2775,
+      "median_dM_round": -1.0795
+    },
+    "resid_L11": {
+      "J_main": 53,
+      "J_round": 1,
+      "S": 52,
+      "SPEC": true,
+      "frac_main_gt_round": 1.0,
+      "groups_majority": 14,
+      "median_dM_main": 0.3772,
+      "median_dM_round": -1.134
+    },
+    "resid_L7": {
+      "J_main": 20,
+      "J_round": 2,
+      "S": 20,
+      "SPEC": true,
+      "frac_main_gt_round": 0.8269,
+      "groups_majority": 14,
+      "median_dM_main": -0.3748,
+      "median_dM_round": -1.1631
+    },
+    "resid_L8": {
+      "J_main": 24,
+      "J_round": 2,
+      "S": 24,
+      "SPEC": true,
+      "frac_main_gt_round": 0.8462,
+      "groups_majority": 14,
+      "median_dM_main": -0.3759,
+      "median_dM_round": -1.1836
+    },
+    "resid_L9": {
+      "J_main": 20,
+      "J_round": 2,
+      "S": 20,
+      "SPEC": true,
+      "frac_main_gt_round": 0.8462,
+      "groups_majority": 14,
+      "median_dM_main": -0.3559,
+      "median_dM_round": -1.1357
+    }
+  },
+  "verdict": "MIXER_WRITER",
+  "writers": {
+    "10": {
+      "mixer": false,
+      "mlp": false
+    },
+    "11": {
+      "mixer": true,
+      "mlp": false
+    },
+    "8": {
+      "mixer": false,
+      "mlp": false
+    },
+    "9": {
+      "mixer": false,
+      "mlp": false
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "corpus_census": {
+    "states": 797,
+    "votes": 7403,
+    "votes_non_candidate_round": 2938
+  },
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_pairs": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "kc_design": "cd4cd9e5632cfa1b8aa476b94a332e3705af2f0f",
+    "kc_raw": "19d3a06c27953b1f2b4dcd2770394d28741a69fd",
+    "roster": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_forwards": 0,
+  "helper_sha256": "241fe70dd1c34e53023b3ffa9e05613360dda335055989ef4d20f3ac1af50ea3",
+  "model_loads": 0,
+  "part_I": {
+    "fail": [],
+    "kc_fail": 0,
+    "kc_scenes": 22,
+    "pass": 172,
+    "scenes": 172
+  },
+  "part_III": {
+    "cells": 104,
+    "span_len_equal": 104,
+    "span_positions_differing_hist": {
+      "0": 1,
+      "1": 8,
+      "2": 3,
+      "3": 58,
+      "4": 34
+    },
+    "specific_joint": 53,
+    "strata": {
+      "author_in_host_validators": {
+        "False": {
+          "cells": 0,
+          "donor_groups": 0,
+          "hosts": 0,
+          "median_dM_main_minus_dose": null,
+          "sj_donor_groups": 0,
+          "specific_joint": 0
+        },
+        "True": {
+          "cells": 104,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.44578470289707184,
+          "sj_donor_groups": 14,
+          "specific_joint": 53
+        }
+      },
+      "author_is_host_supporter": {
+        "False": {
+          "cells": 34,
+          "donor_groups": 12,
+          "hosts": 3,
+          "median_dM_main_minus_dose": 0.20797762274742126,
+          "sj_donor_groups": 4,
+          "specific_joint": 5
+        },
+        "True": {
+          "cells": 70,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.5595931261777878,
+          "sj_donor_groups": 14,
+          "specific_joint": 48
+        }
+      },
+      "block_neq_host_candidate": {
+        "False": {
+          "cells": 11,
+          "donor_groups": 7,
+          "hosts": 7,
+          "median_dM_main_minus_dose": 0.47688430547714233,
+          "sj_donor_groups": 5,
+          "specific_joint": 7
+        },
+        "True": {
+          "cells": 93,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.4263656884431839,
+          "sj_donor_groups": 14,
+          "specific_joint": 46
+        }
+      },
+      "gold_sub_conflict": {
+        "False": {
+          "cells": 97,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.45996972918510437,
+          "sj_donor_groups": 14,
+          "specific_joint": 49
+        },
+        "True": {
+          "cells": 7,
+          "donor_groups": 6,
+          "hosts": 6,
+          "median_dM_main_minus_dose": 0.37537403404712677,
+          "sj_donor_groups": 4,
+          "specific_joint": 4
+        }
+      },
+      "received_within_host_deadline": {
+        "False": {
+          "cells": 27,
+          "donor_groups": 12,
+          "hosts": 6,
+          "median_dM_main_minus_dose": 0.42427399940788746,
+          "sj_donor_groups": 11,
+          "specific_joint": 16
+        },
+        "True": {
+          "cells": 77,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.45996972918510437,
+          "sj_donor_groups": 13,
+          "specific_joint": 37
+        }
+      },
+      "round_eq_host_candidate": {
+        "False": {
+          "cells": 86,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.45996972918510437,
+          "sj_donor_groups": 14,
+          "specific_joint": 44
+        },
+        "True": {
+          "cells": 18,
+          "donor_groups": 10,
+          "hosts": 7,
+          "median_dM_main_minus_dose": 0.4263656884431839,
+          "sj_donor_groups": 6,
+          "specific_joint": 9
+        }
+      },
+      "same_author_label_as_host_msg": {
+        "False": {
+          "cells": 56,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.44164183735847473,
+          "sj_donor_groups": 6,
+          "specific_joint": 21
+        },
+        "True": {
+          "cells": 48,
+          "donor_groups": 13,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.45996972918510437,
+          "sj_donor_groups": 11,
+          "specific_joint": 32
+        }
+      },
+      "same_block_label_as_host_msg": {
+        "False": {
+          "cells": 93,
+          "donor_groups": 14,
+          "hosts": 8,
+          "median_dM_main_minus_dose": 0.4263656884431839,
+          "sj_donor_groups": 14,
+          "specific_joint": 45
+        },
+        "True": {
+          "cells": 11,
+          "donor_groups": 8,
+          "hosts": 7,
+          "median_dM_main_minus_dose": 0.7744134217500687,
+          "sj_donor_groups": 6,
+          "specific_joint": 8
+        }
+      }
+    }
+  },
+  "part_II_coverage": {
+    "LATE": {
+      "donor_groups": 0,
+      "donor_groups_of": 14,
+      "hosts": 0,
+      "hosts_of": 8,
+      "missing_donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "missing_hosts": [
+        "1c7158b6b838",
+        "1fb5651c643e",
+        "264c458dbed5",
+        "2a4f596d9dd7",
+        "2c9118bbcc3b",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0"
+      ]
+    },
+    "NONSUP": {
+      "donor_groups": 7,
+      "donor_groups_of": 14,
+      "hosts": 3,
+      "hosts_of": 8,
+      "missing_donors": [
+        "70ede3f8992d",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "missing_hosts": [
+        "264c458dbed5",
+        "2c9118bbcc3b",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0"
+      ]
+    },
+    "OK_ALT": {
+      "donor_groups": 14,
+      "donor_groups_of": 14,
+      "hosts": 8,
+      "hosts_of": 8,
+      "missing_donors": [],
+      "missing_hosts": []
+    },
+    "OUTSIDER": {
+      "donor_groups": 14,
+      "donor_groups_of": 14,
+      "hosts": 8,
+      "hosts_of": 8,
+      "missing_donors": [],
+      "missing_hosts": []
+    },
+    "ROUND": {
+      "donor_groups": 14,
+      "donor_groups_of": 14,
+      "hosts": 8,
+      "hosts_of": 8,
+      "missing_donors": [],
+      "missing_hosts": []
+    }
+  },
+  "schema": "JEV_A461_MECH_G10_CPU_GATE_RECEIPT_V1",
+  "script_sha256": "bae08393f138207b7c196939d82ddc0d38febeaf1489e06d6624b418edd5c40d",
+  "status": "COMPLETE",
+  "tokenizer_loads": 1,
+  "verdict": "G10_NOT_ADMITTED"
+}

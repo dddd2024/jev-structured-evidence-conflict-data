@@ -1,0 +1,445 @@
+{
+  "answers": "paper audit 64faaee: P1-3 decision-class prototype, P0-1 content vs recognition, P0-2 joint repair dominated by one donor",
+  "donors": [
+    {
+      "M": {
+        "SA": -7.198084,
+        "new": 2.250621,
+        "old": -1.701655
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "06dabe0512b76afb68977fd574f7725aac20f4c40b6194dc33657f478efd31d0",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -1.681692,
+        "new": 3.511954,
+        "old": -2.380373
+      },
+      "action": {
+        "SA": "wait",
+        "new": "reject_conflict",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "scene_sha256": "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+      "source_group": "twins_streamlet:run-338"
+    },
+    {
+      "M": {
+        "SA": -8.363268,
+        "new": 0.861979,
+        "old": -4.523354
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "508ecd55774f634a16e03254e24ad195318300f588fa3dd69fd6e76e62462326",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -3.594846,
+        "new": 4.449639,
+        "old": -5.2535
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "90dbf6d6536f757d7ee4717ef79313a72c53f84e48b5080e718be4fb68f2cee5",
+      "source_group": "twins_streamlet:run-140"
+    }
+  ],
+  "gpu_status": "0 Stage-F forwards; needs the user's explicit approval of 296 calls / [104, 64, 64, 64]",
+  "hosts": [
+    {
+      "M": {
+        "SA": -5.889073,
+        "new": -0.715097,
+        "old": -7.001886
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "wait",
+      "scene_sha256": "7b32d70d2f1d6f1fdd049292803c24665b6dc44e25fbe86624da2ca16a38471a",
+      "source_group": "twins_streamlet:run-337"
+    },
+    {
+      "M": {
+        "SA": -3.932384,
+        "new": -1.50364,
+        "old": -1.637943
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "wait",
+      "scene_sha256": "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+      "source_group": "twins_streamlet:run-181"
+    },
+    {
+      "M": {
+        "SA": -5.257569,
+        "new": -2.301714,
+        "old": -4.312428
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "wait",
+      "scene_sha256": "4cda623cbcdf9480e7a210c260ebc10d228e7e7af3e2cd27ef95f20035e165b2",
+      "source_group": "twins_streamlet:run-121"
+    },
+    {
+      "M": {
+        "SA": -7.104275,
+        "new": -2.986744,
+        "old": -6.128101
+      },
+      "action": {
+        "SA": "accept",
+        "new": "wait",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "57c807cc7e4e43f889a54405d574fbd83981bf649953be0bb4f4eaa4e08c7a11",
+      "source_group": "twins_streamlet:run-121"
+    },
+    {
+      "M": {
+        "SA": -6.041136,
+        "new": -3.082745,
+        "old": -7.006793
+      },
+      "action": {
+        "SA": "accept",
+        "new": "wait",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "9db379427ccda30752155e240b425421f92e55625d7f50bc364127a38f4fa181",
+      "source_group": "twins_streamlet:run-68"
+    },
+    {
+      "M": {
+        "SA": -5.393504,
+        "new": -3.398143,
+        "old": -4.427648
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "scene_sha256": "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+      "source_group": "twins_streamlet:run-272"
+    },
+    {
+      "M": {
+        "SA": -7.22687,
+        "new": -3.743055,
+        "old": -6.480178
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "scene_sha256": "7838a9f7e56792dee149415f9b3e5151b3fa697ea98dbeb7e27445aca3230a73",
+      "source_group": "twins_streamlet:run-154"
+    },
+    {
+      "M": {
+        "SA": -4.674708,
+        "new": -3.915316,
+        "old": -2.336803
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "wait",
+      "scene_sha256": "182278047cc5664e138ff7e46558f8b5ab9e695b083bee1aee0d15ca3d959364",
+      "source_group": "twins_streamlet:run-169"
+    }
+  ],
+  "inputs": {
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_d_manifest_blob": "be9bcba2fbaeb25b78434b1387846d4522579039",
+    "stage_d_raw_blob": "974fe3e34e124cc42127929d5c6238793642dbd0",
+    "stage_e_design_blob": "af68448c27ebbb04a59a8691d4b6c23447fdf6b0",
+    "stage_e_raw_blob": "932cf380c4e4699a902aa01f5685bd7ddc80d0c8"
+  },
+  "layer": 11,
+  "plan": [
+    104,
+    64,
+    64,
+    64
+  ],
+  "preregistered_analysis": {
+    "H_F1_class_prototype": "content beyond decision class iff JOINT(ttt_new) - JOINT(ttt_sa) >= 5 cells (of 72) AND JOINT(ttt_new) >= 2 x JOINT(ttt_sa); otherwise the repair is reported as consistent with a positive-class-associated representation",
+    "H_F2_recognition": "recognition matters iff JOINT(fff_new) <= 2 cells (of 48) AND JOINT(donor_new) - JOINT(fff_new) >= 5 cells",
+    "H_F3_source_diversity": "joint repair from recognized conflict spans beyond run-140 iff ttt_new JOINT cells come from >= 3 source groups and >= 3 host groups",
+    "endpoints": "per cell (source, host): C = logit(true) > logit(false) on the conflict row; R = argmax certificate_action == reject_conflict; JOINT = C and R in the same forward",
+    "replication": "64 donor_new/donor_sa rows bitwise == Stage-E all-row rows; captures bitwise == Stage-A or Stage-D screen rows",
+    "reported_always": "C-only, R-only and JOINT counts per source kind, per source group and per host; leave-one-source-group-out for every kind",
+    "units": "source groups; cells share sources and hosts; counts are descriptive decision rules"
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_F_DESIGN_V1",
+  "scope": "all question rows",
+  "source_rules": {
+    "fff": "Stage-A pattern FFF, not a host, group not host/donor; first scene per group by SHA",
+    "ttt": "pattern TTT, W31, source group not a host or donor group (all qualifying)"
+  },
+  "sources": {
+    "fff": [
+      {
+        "M": {
+          "SA": -11.038735,
+          "new": -11.397852,
+          "old": -11.192782
+        },
+        "action": {
+          "SA": "accept",
+          "new": "accept",
+          "old": "accept"
+        },
+        "scene_sha256": "06c941a749f2b81e3c496d0600268c8344c2051a177576c0450ab8958591e97f",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "M": {
+          "SA": -10.543791,
+          "new": -9.600635,
+          "old": -9.472007
+        },
+        "action": {
+          "SA": "accept",
+          "new": "accept",
+          "old": "accept"
+        },
+        "scene_sha256": "078ca2d1fd3e1e089e641f0cd15ac8d0057336046c04fb2502fe592b4c56442c",
+        "source_group": "twins_streamlet:run-283"
+      },
+      {
+        "M": {
+          "SA": -11.417932,
+          "new": -10.765585,
+          "old": -11.442208
+        },
+        "action": {
+          "SA": "accept",
+          "new": "accept",
+          "old": "accept"
+        },
+        "scene_sha256": "0b79af185ea8d7e35baabbd9f2c5b54efb9fafaf53042ccec10e43bb1fdddd50",
+        "source_group": "twins_streamlet:run-301"
+      },
+      {
+        "M": {
+          "SA": -3.024412,
+          "new": -4.858912,
+          "old": -4.085765
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "scene_sha256": "7e654528c6383e3391a36daf0d8706d535169b22486c62936f987e5c7275ee12",
+        "source_group": "twins_streamlet:run-328"
+      },
+      {
+        "M": {
+          "SA": -6.083513,
+          "new": -6.882301,
+          "old": -4.825685
+        },
+        "action": {
+          "SA": "accept",
+          "new": "accept",
+          "old": "accept"
+        },
+        "scene_sha256": "9ae2bde298c1435295e18a129eca0d28576dce232678eaee8278a74989ea448a",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "M": {
+          "SA": -9.339976,
+          "new": -6.96945,
+          "old": -7.797075
+        },
+        "action": {
+          "SA": "accept",
+          "new": "accept",
+          "old": "accept"
+        },
+        "scene_sha256": "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "source_group": "twins_streamlet:run-344"
+      }
+    ],
+    "ttt": [
+      {
+        "M": {
+          "SA": 4.882578,
+          "new": 5.300045,
+          "old": 6.06541
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "source_group": "twins_streamlet:run-283"
+      },
+      {
+        "M": {
+          "SA": 3.12751,
+          "new": 0.615325,
+          "old": 3.863297
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "source_group": "twins_streamlet:run-301"
+      },
+      {
+        "M": {
+          "SA": 3.492996,
+          "new": 3.920785,
+          "old": 3.903038
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "209d4f64c49cf5b85864237f1f54abcc2586bd0495b6f05052ed3b8012f3212f",
+        "source_group": "twins_streamlet:run-283"
+      },
+      {
+        "M": {
+          "SA": 4.575132,
+          "new": 5.005001,
+          "old": 5.238728
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "32f19a11f1ecf773728d4c1cf71809485bf739abad57de2359ba01f5b07cbd88",
+        "source_group": "twins_streamlet:run-283"
+      },
+      {
+        "M": {
+          "SA": 4.723238,
+          "new": 5.312582,
+          "old": 6.075811
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "52f285efcd79b1a61bed63637e754e2cf3e74c0bdf6e5503babdc84c60303ef6",
+        "source_group": "twins_streamlet:run-100"
+      },
+      {
+        "M": {
+          "SA": 4.945048,
+          "new": 5.302713,
+          "old": 6.660899
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "A",
+        "scene_sha256": "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "source_group": "twins_streamlet:run-283"
+      },
+      {
+        "M": {
+          "SA": 5.437916,
+          "new": 6.896145,
+          "old": 6.407339
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "D1",
+        "scene_sha256": "ce68b61325274a19f01ab67fea257341ccf032ed84e8a114acd52401e6a66213",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "M": {
+          "SA": 1.942848,
+          "new": 1.040287,
+          "old": 4.350354
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "wait",
+          "old": "reject_conflict"
+        },
+        "origin": "D1",
+        "scene_sha256": "e231b7318a5d4b5a4f28e90e4a9041b5142244fd016c95b155a2f3b7191c2204",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "M": {
+          "SA": 3.029783,
+          "new": 0.410326,
+          "old": 4.285583
+        },
+        "action": {
+          "SA": "reject_conflict",
+          "new": "reject_conflict",
+          "old": "reject_conflict"
+        },
+        "origin": "D1",
+        "scene_sha256": "f7aee5baf43037b8c760c5d24d44e2609aad4cdd2bce264bd180314574d09857",
+        "source_group": "twins_streamlet:run-161"
+      }
+    ]
+  },
+  "status": "FROZEN_CPU_BEFORE_ANY_STAGE_F_FORWARD",
+  "total": 296
+}

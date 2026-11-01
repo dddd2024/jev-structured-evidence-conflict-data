@@ -1,0 +1,20 @@
+{
+  "arms": 72,
+  "consistency_with_G3": "G3 genuine recognition 1/20 + G5 1/36 => 2/56 constructed appended-conflict scenes recognized overall; the phenomenon replicates across independent construction rounds",
+  "forwards": 112,
+  "interpretation": ">=1 qualified donor exists per the G5 protocol gate => the bidirectional patching stage may be frozen; with n=1 donor the patching is an exploratory single-donor case study labeled as such",
+  "next_gate": "patching protocol freeze requires: branch-relative anchor alignment across scenes, SA-sham same-location controls, random-token controls, off-target head metrics, budget freeze, blind review of G0E memo",
+  "pairs": 36,
+  "qualification": {
+    "criteria": "qualified = old C=false AND new C=true AND SA neutral C=false",
+    "failed": 31,
+    "partial_new_true_with_old_false_alarm": 4,
+    "qualified_positive_donor": 1,
+    "sa_neutrals_reading_C_false": "33/36 (3 exceptions = the new-C-true arms' SA? no: SA reads false on 33; cross-check in per-pair)",
+    "the_qualified_donor": {
+      "cell": "wait_to_reject",
+      "pair_key_hash": "433890d1"
+    }
+  },
+  "schema": "JEV_A461_G5_DONOR_SEARCH_RESULT_V1"
+}

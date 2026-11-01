@@ -1,0 +1,285 @@
+{
+  "C_rate": {
+    "SA": 0.0968,
+    "new": 0.1129,
+    "old": 0.1452
+  },
+  "accounting": {
+    "batches": [
+      [
+        1,
+        128
+      ],
+      [
+        2,
+        128
+      ],
+      [
+        3,
+        122
+      ]
+    ],
+    "physical": 378,
+    "raw_sha256": "c2801aed5a19bfb6c97080a4cd098367893318347ae78c378fb608835a2786ac",
+    "reserved": 378
+  },
+  "action_counts": {
+    "SA": {
+      "accept": 96,
+      "reject_conflict": 11,
+      "wait": 17
+    },
+    "new": {
+      "accept": 69,
+      "reject_conflict": 14,
+      "wait": 41
+    },
+    "old": {
+      "accept": 90,
+      "reject_conflict": 11,
+      "wait": 23
+    }
+  },
+  "decision": "PROCEED_STAGE_B_DESIGN",
+  "groups": {
+    "twins_streamlet:run-100": {
+      "qualified": 0,
+      "scenes": 1
+    },
+    "twins_streamlet:run-121": {
+      "qualified": 0,
+      "scenes": 8
+    },
+    "twins_streamlet:run-140": {
+      "qualified": 1,
+      "scenes": 16
+    },
+    "twins_streamlet:run-154": {
+      "qualified": 0,
+      "scenes": 6
+    },
+    "twins_streamlet:run-169": {
+      "qualified": 0,
+      "scenes": 5
+    },
+    "twins_streamlet:run-181": {
+      "qualified": 0,
+      "scenes": 6
+    },
+    "twins_streamlet:run-212": {
+      "qualified": 2,
+      "scenes": 15
+    },
+    "twins_streamlet:run-220": {
+      "qualified": 0,
+      "scenes": 14
+    },
+    "twins_streamlet:run-24": {
+      "qualified": 0,
+      "scenes": 1
+    },
+    "twins_streamlet:run-272": {
+      "qualified": 0,
+      "scenes": 15
+    },
+    "twins_streamlet:run-283": {
+      "qualified": 0,
+      "scenes": 7
+    },
+    "twins_streamlet:run-301": {
+      "qualified": 0,
+      "scenes": 2
+    },
+    "twins_streamlet:run-328": {
+      "qualified": 0,
+      "scenes": 1
+    },
+    "twins_streamlet:run-337": {
+      "qualified": 0,
+      "scenes": 6
+    },
+    "twins_streamlet:run-338": {
+      "qualified": 1,
+      "scenes": 3
+    },
+    "twins_streamlet:run-344": {
+      "qualified": 0,
+      "scenes": 2
+    },
+    "twins_streamlet:run-68": {
+      "qualified": 0,
+      "scenes": 16
+    }
+  },
+  "median_delta_new_minus_SA": 0.4261,
+  "median_delta_new_minus_old": 0.1114,
+  "median_margin": {
+    "SA": -9.4041,
+    "new": -8.4587,
+    "old": -8.9194
+  },
+  "pattern_by_cell": {
+    "accept": {
+      "FFF": 83,
+      "FTF": 4,
+      "FTT": 1,
+      "TFF": 7,
+      "TFT": 2,
+      "TTT": 9
+    },
+    "wait": {
+      "FFF": 18
+    }
+  },
+  "pattern_counts_old_new_SA": {
+    "FFF": 101,
+    "FTF": 4,
+    "FTT": 1,
+    "TFF": 7,
+    "TFT": 2,
+    "TTT": 9
+  },
+  "qualified": [
+    {
+      "C": {
+        "SA": false,
+        "new": true,
+        "old": false
+      },
+      "M": {
+        "SA": -7.198084,
+        "new": 2.250621,
+        "old": -1.701655
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "delta_new_minus_SA": 9.448706,
+      "delta_new_minus_old": 3.952277,
+      "frozen_width": 31,
+      "pattern": "FTF",
+      "scene_sha256": "06dabe0512b76afb68977fd574f7725aac20f4c40b6194dc33657f478efd31d0",
+      "source_group": "twins_streamlet:run-212",
+      "strict_qualified": true
+    },
+    {
+      "C": {
+        "SA": false,
+        "new": true,
+        "old": false
+      },
+      "M": {
+        "SA": -1.681692,
+        "new": 3.511954,
+        "old": -2.380373
+      },
+      "action": {
+        "SA": "wait",
+        "new": "reject_conflict",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "delta_new_minus_SA": 5.193646,
+      "delta_new_minus_old": 5.892327,
+      "frozen_width": 31,
+      "pattern": "FTF",
+      "scene_sha256": "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+      "source_group": "twins_streamlet:run-338",
+      "strict_qualified": true
+    },
+    {
+      "C": {
+        "SA": false,
+        "new": true,
+        "old": false
+      },
+      "M": {
+        "SA": -8.363268,
+        "new": 0.861979,
+        "old": -4.523354
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "delta_new_minus_SA": 9.225247,
+      "delta_new_minus_old": 5.385334,
+      "frozen_width": 31,
+      "pattern": "FTF",
+      "scene_sha256": "508ecd55774f634a16e03254e24ad195318300f588fa3dd69fd6e76e62462326",
+      "source_group": "twins_streamlet:run-212",
+      "strict_qualified": true
+    },
+    {
+      "C": {
+        "SA": false,
+        "new": true,
+        "old": false
+      },
+      "M": {
+        "SA": -3.594846,
+        "new": 4.449639,
+        "old": -5.2535
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "delta_new_minus_SA": 8.044485,
+      "delta_new_minus_old": 9.703139,
+      "frozen_width": 31,
+      "pattern": "FTF",
+      "scene_sha256": "90dbf6d6536f757d7ee4717ef79313a72c53f84e48b5080e718be4fb68f2cee5",
+      "source_group": "twins_streamlet:run-140",
+      "strict_qualified": true
+    }
+  ],
+  "qualified_source_groups": [
+    "twins_streamlet:run-140",
+    "twins_streamlet:run-212",
+    "twins_streamlet:run-338"
+  ],
+  "replay_bitwise": [
+    {
+      "bitwise": true,
+      "forward_index": 127,
+      "of": 1
+    },
+    {
+      "bitwise": true,
+      "forward_index": 128,
+      "of": 1
+    },
+    {
+      "bitwise": true,
+      "forward_index": 255,
+      "of": 129
+    },
+    {
+      "bitwise": true,
+      "forward_index": 256,
+      "of": 129
+    },
+    {
+      "bitwise": true,
+      "forward_index": 377,
+      "of": 257
+    },
+    {
+      "bitwise": true,
+      "forward_index": 378,
+      "of": 257
+    }
+  ],
+  "rule": "strict: C(old)=false, C(new)=true, C(SA)=false; C = logit(true) > logit(false)",
+  "scenes": 124,
+  "schema": "JEV_A461_G5_G2_STAGE_A_ANALYSIS_V1",
+  "strict_qualified": 4
+}

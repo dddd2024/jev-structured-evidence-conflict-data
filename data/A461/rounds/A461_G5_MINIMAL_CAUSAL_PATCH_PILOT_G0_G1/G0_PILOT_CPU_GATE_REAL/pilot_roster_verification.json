@@ -1,0 +1,64 @@
+{
+  "donor": {
+    "new_margin": 1.446688,
+    "new_read": "true",
+    "old_margin": -1.803742,
+    "old_read": "false",
+    "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e",
+    "sa_margin": -0.256357,
+    "sa_read": "false"
+  },
+  "failed_count": 33,
+  "hosts": {
+    "T2_ACCEPT_TO_REJECT:231b919006dc1777": {
+      "new_margin": -7.992195,
+      "new_read": "false",
+      "old_margin": -9.299525,
+      "old_read": "false",
+      "pair_key": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "sa_margin": -9.390018,
+      "sa_read": "false"
+    },
+    "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe": {
+      "new_margin": -9.592203,
+      "new_read": "false",
+      "old_margin": -9.61966,
+      "old_read": "false",
+      "pair_key": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "sa_margin": -9.577639,
+      "sa_read": "false"
+    }
+  },
+  "partial": [
+    {
+      "new_margin": 5.188763,
+      "new_read": "true",
+      "old_margin": 4.990013,
+      "old_read": "true",
+      "pair_key": "T2_ACCEPT_TO_REJECT:e0745915cdd39460",
+      "sa_margin": 3.90128,
+      "sa_read": "true"
+    },
+    {
+      "new_margin": 6.659727,
+      "new_read": "true",
+      "old_margin": 7.013619,
+      "old_read": "true",
+      "pair_key": "T2_ACCEPT_TO_REJECT:3e7ea78d53c8814c",
+      "sa_margin": 7.200459,
+      "sa_read": "true"
+    }
+  ],
+  "qualified": [
+    {
+      "new_margin": 1.446688,
+      "new_read": "true",
+      "old_margin": -1.803742,
+      "old_read": "false",
+      "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e",
+      "sa_margin": -0.256357,
+      "sa_read": "false"
+    }
+  ],
+  "schema": "JEV_A461_G5_PILOT_ROSTER_VERIFICATION_V1"
+}

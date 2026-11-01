@@ -1,0 +1,1992 @@
+{
+  "arms": [
+    [
+      "all",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "head0",
+      [
+        0
+      ]
+    ],
+    [
+      "head1",
+      [
+        1
+      ]
+    ],
+    [
+      "head2",
+      [
+        2
+      ]
+    ],
+    [
+      "head3",
+      [
+        3
+      ]
+    ],
+    [
+      "head4",
+      [
+        4
+      ]
+    ],
+    [
+      "head5",
+      [
+        5
+      ]
+    ],
+    [
+      "head6",
+      [
+        6
+      ]
+    ],
+    [
+      "head7",
+      [
+        7
+      ]
+    ],
+    [
+      "head8",
+      [
+        8
+      ]
+    ],
+    [
+      "head9",
+      [
+        9
+      ]
+    ],
+    [
+      "head10",
+      [
+        10
+      ]
+    ],
+    [
+      "head11",
+      [
+        11
+      ]
+    ],
+    [
+      "head12",
+      [
+        12
+      ]
+    ],
+    [
+      "head13",
+      [
+        13
+      ]
+    ],
+    [
+      "head14",
+      [
+        14
+      ]
+    ],
+    [
+      "head15",
+      [
+        15
+      ]
+    ],
+    [
+      "drop0",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop1",
+      [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop2",
+      [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop3",
+      [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop4",
+      [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop5",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop6",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop7",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop8",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop9",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop10",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop11",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop12",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop13",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ]
+    ],
+    [
+      "drop14",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ]
+    ],
+    [
+      "drop15",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    ],
+    [
+      "group0",
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    [
+      "group1",
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    [
+      "group2",
+      [
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    [
+      "group3",
+      [
+        12,
+        13,
+        14,
+        15
+      ]
+    ]
+  ],
+  "gpu_status": "0 M3 forwards; 7740 calls / 61 batches under the standing GPU authorization",
+  "head_layer": 11,
+  "inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "m1_design_blob": "f3852efc21e7b55fdc1b7370a867454730422913",
+    "m1_raw_blob": "298c7cdfab634cd6a6a9122fac90d41c87219c21",
+    "m2_raw_blob": "e1c4b34fcef9221a98e8209f6bbff3f6536b15d4",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "model": "kev-4B (runner module f118ea59: identity, source, loader); L11 = Qwen3.5 full attention, 16 query heads x 256 in 4 KV groups, output gate, o_proj without bias",
+  "n_heads": 16,
+  "n_kv_groups": 4,
+  "plan": [
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    60
+  ],
+  "preregistered_analysis": {
+    "A1_round_gated_partner_attention": "within scene, D(s) = mP(s, new) - mP(s, ROUND). DONOR_GATED iff D > 0 for >= 11/14 donors; HOST_GATED iff D > 0 for >= 6/8 hosts",
+    "A2_donor_vs_host": "mP(new) of donors vs hosts: medians, and #hosts below the donor minimum; descriptive only",
+    "S": "S(arm) = #cells where the main-source patch is JOINT and the ROUND-source patch of the same arm is not",
+    "SPEC": "SPEC(arm) iff dM_main > dM_round in >= 75% of cells AND in a majority of cells for >= 10 of 14 donor groups",
+    "always_reported": "S, SPEC, J_main, J_round and median dM per arm; per-head class masses for every capture; leave-one-donor-group-out of the verdict and of H*; per host; all nulls",
+    "attention_readout": "per capture, head and span query: probability mass on PARTNER / ROUND_PEERS / SELF / REST keys (question row 0; the span is in the shared state prefix, cross-row equality is recorded); mP(scene, arm) = mean over span queries and over h in H* of the PARTNER mass",
+    "consistency_gate": "the all-heads arm reproduces M2 mixer_L11 (o_proj is linear without bias, so the all-heads o_proj-input patch equals the mixer-output patch up to GEMM rounding): |S(all) - S_M2(mixer, 11)| <= 5 AND main-source JOINT agrees with M2 mixer_L11 main in >= 98/104 cells; otherwise verdict INCONSISTENT_WITH_M2 and no head claim is made",
+    "head_rules": "SUF(h): S(head h) >= 1/2 S(all) and SPEC(head h). NEC(h): S(drop h) <= 1/2 S(all) (within-patch necessity: removing head h from the donor patch loses at least half the repairs). GSUF(g): S(group g) >= 1/2 S(all) and SPEC(group g)",
+    "implicated_heads": "H* = SUF u NEC; if empty, the heads of the GSUF groups; if still empty, the 3 heads with the largest S(head h) (ties: larger median dM_main - dM_round), labelled exploratory",
+    "interpretation_fixed_in_advance": "DONOR_GATED and HOST_GATED: the host's L11 heads find the partner vote in a round-dependent way just as donors do, so the failing host's deficit is in what those heads carry (the partner's value representation built upstream), not where they look. DONOR_GATED and not HOST_GATED: the host's heads do not route attention to the partner by round, an attention-pattern (routing) failure. Not DONOR_GATED: the round-specific evaluation is not explained by span-to-partner attention at L11. Head patches show sufficiency (SUF) and within-patch necessity (NEC), not necessity in the unpatched host",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run host new capture)",
+    "units": "the 104 cross-group cells of M1/M2; cells share donors and hosts, counts are descriptive decision rules, not independent tests",
+    "verdict": "SPARSE_HEADS if 1 <= |SUF u NEC| <= 3; BROAD_HEADS if |SUF u NEC| > 3; else KV_GROUP_LOCAL if some GSUF(g); else DISTRIBUTED"
+  },
+  "schema": "JEV_A461_MECH_M3_HEAD_ROUTING_DESIGN_V1",
+  "selection": {
+    "donors": [
+      [
+        "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e",
+        "twins_streamlet:run-337"
+      ],
+      [
+        "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "twins_streamlet:run-338"
+      ],
+      [
+        "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "twins_streamlet:run-344"
+      ],
+      [
+        "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce",
+        "twins_streamlet:run-68"
+      ]
+    ],
+    "hosts": [
+      [
+        "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70",
+        "twins_streamlet:run-121"
+      ]
+    ]
+  },
+  "sources": [
+    "new",
+    "ROUND"
+  ],
+  "status": "FROZEN_CPU_BEFORE_ANY_M3_FORWARD",
+  "token_classes": {
+    "ROUND:0153673a107a": {
+      "partner": [
+        [
+          441,
+          474
+        ]
+      ],
+      "round_peers": [
+        [
+          408,
+          441
+        ],
+        [
+          474,
+          507
+        ],
+        [
+          507,
+          540
+        ],
+        [
+          540,
+          573
+        ],
+        [
+          573,
+          606
+        ],
+        [
+          606,
+          639
+        ]
+      ],
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "eaa2cb88d4eb146a444d333d0c8c62c87e17380e0a95c63c57e5d3e255800d6d"
+    },
+    "ROUND:1218efed19de": {
+      "partner": [
+        [
+          312,
+          345
+        ]
+      ],
+      "round_peers": [
+        [
+          345,
+          378
+        ]
+      ],
+      "span": [
+        378,
+        409
+      ],
+      "state_len": 432,
+      "token_ids_sha256": "7d31b33f97214600a7a5323ae6eeb2c6847dbf7c8b214a88769c63f83ac0592d"
+    },
+    "ROUND:1b3e7af68bb3": {
+      "partner": [
+        [
+          383,
+          416
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ],
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ],
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ]
+      ],
+      "span": [
+        482,
+        513
+      ],
+      "state_len": 551,
+      "token_ids_sha256": "c606c8748a8650903c8a81d97badf5d6e42545d7f702cb1722b0ffcce8e55866"
+    },
+    "ROUND:1c7158b6b838": {
+      "partner": [
+        [
+          185,
+          218
+        ]
+      ],
+      "round_peers": [
+        [
+          152,
+          185
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "580cda186a3f004a3b43a4a13fcd6b213836c81ca49144fafe09cdaf30e49b2b"
+    },
+    "ROUND:1f8c0826ae47": {
+      "partner": [
+        [
+          515,
+          548
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "397445f9c346c2f60ac708863224a04e5ae82b0e6072be93357b7c7bb37b9047"
+    },
+    "ROUND:1fb5651c643e": {
+      "partner": [
+        [
+          218,
+          251
+        ]
+      ],
+      "round_peers": [
+        [
+          251,
+          284
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "e13cdbefd92634f38546684d21d451ae718107d6781ac4736e51123f2f6b4030"
+    },
+    "ROUND:264c458dbed5": {
+      "partner": [
+        [
+          581,
+          614
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "ce90a01699fcd877b4ac7308d076c304c7bc3d471965a839f8bc59e38b37985e"
+    },
+    "ROUND:2a4f596d9dd7": {
+      "partner": [
+        [
+          152,
+          185
+        ]
+      ],
+      "round_peers": [
+        [
+          185,
+          218
+        ],
+        [
+          218,
+          251
+        ]
+      ],
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "5e19929a1e3acd6ffb6209d34c2b6c6c87da8ed019afcc02084de39da250aa85"
+    },
+    "ROUND:2c9118bbcc3b": {
+      "partner": [
+        [
+          383,
+          416
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ],
+        [
+          416,
+          449
+        ]
+      ],
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "20d18f30becee0fc199cc66b6ae6b036933f4a45774e393989f17c26c310f233"
+    },
+    "ROUND:2f67e76cdc83": {
+      "partner": [
+        [
+          449,
+          482
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "bfc84a11a759d6420366895e91ca8831cb7218bda0f4e098f41e2ef297108f04"
+    },
+    "ROUND:35253a262059": {
+      "partner": [
+        [
+          284,
+          317
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ]
+      ],
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "cdedac3fecf04171b53ae442d3565e5d7132953d95a522aa283acba2dd3afcdb"
+    },
+    "ROUND:3cddd369d7a0": {
+      "partner": [
+        [
+          345,
+          378
+        ]
+      ],
+      "round_peers": [
+        [
+          312,
+          345
+        ]
+      ],
+      "span": [
+        378,
+        409
+      ],
+      "state_len": 432,
+      "token_ids_sha256": "42cbd8a51b019fbcaa79c7abdb162255d874e39f3532b285e265595c20e5446e"
+    },
+    "ROUND:4569d20d3e4c": {
+      "partner": [
+        [
+          251,
+          284
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "1cfaadc35aec4329d0aef6bdfbe12ee29d1376961a7c0b714a7bc4aed5ec1176"
+    },
+    "ROUND:45ef86e09e74": {
+      "partner": [
+        [
+          411,
+          444
+        ]
+      ],
+      "round_peers": [
+        [
+          312,
+          345
+        ],
+        [
+          345,
+          378
+        ],
+        [
+          378,
+          411
+        ]
+      ],
+      "span": [
+        444,
+        475
+      ],
+      "state_len": 498,
+      "token_ids_sha256": "d5bf2bce4103de2da92163c9d96a582b9083bf9c4007bbb31f917c6fe5943ec9"
+    },
+    "ROUND:4bcbaf15f7ab": {
+      "partner": [
+        [
+          515,
+          548
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "c51e9318cb9b0825449aac66794aea55df56e1817d09169da3c69716e2ae9068"
+    },
+    "ROUND:70ede3f8992d": {
+      "partner": [
+        [
+          350,
+          383
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          383,
+          416
+        ],
+        [
+          416,
+          449
+        ]
+      ],
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "845a476330150587121c37f988b06f7ede9af10a2ebca9b97b33603141246a85"
+    },
+    "ROUND:7167a21b6694": {
+      "partner": [
+        [
+          449,
+          482
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "dd8a366a716e46a7dd120f0ac566b8b395475d380cc1b7dd3191b79c6ad7f77f"
+    },
+    "ROUND:756424185463": {
+      "partner": [
+        [
+          482,
+          515
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "8569a038ebfb47697877ac2ead763ce0e6c7b108c85d4f6a2295937fce16e7ee"
+    },
+    "ROUND:77ebbee1fb2d": {
+      "partner": [
+        [
+          185,
+          218
+        ]
+      ],
+      "round_peers": [
+        [
+          152,
+          185
+        ]
+      ],
+      "span": [
+        350,
+        381
+      ],
+      "state_len": 404,
+      "token_ids_sha256": "ee5c163630eef7f9f5794e283eb383d0846ff04f6c3210341b66d54b4ecf2c05"
+    },
+    "ROUND:8ae8575481a0": {
+      "partner": [
+        [
+          507,
+          540
+        ]
+      ],
+      "round_peers": [
+        [
+          408,
+          441
+        ],
+        [
+          441,
+          474
+        ],
+        [
+          474,
+          507
+        ],
+        [
+          540,
+          573
+        ],
+        [
+          573,
+          606
+        ],
+        [
+          606,
+          639
+        ]
+      ],
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "90d351f84dbeac0d13b868862e56140f484c3d776f351a0b16e8382328f32839"
+    },
+    "ROUND:b7d11ed06ba2": {
+      "partner": [
+        [
+          680,
+          713
+        ]
+      ],
+      "round_peers": [
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ],
+        [
+          647,
+          680
+        ]
+      ],
+      "span": [
+        713,
+        744
+      ],
+      "state_len": 772,
+      "token_ids_sha256": "225ec37bedc7329d63582d209eeb6e8b73ea269f34079d8efd04b2287cd632ac"
+    },
+    "ROUND:c98f0db48cf6": {
+      "partner": [
+        [
+          152,
+          185
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "c0091181009d7905cf60a9eb102b2af334c51df8d0ec110ae67bf9e54a2b8519"
+    },
+    "new:0153673a107a": {
+      "partner": [
+        [
+          441,
+          474
+        ]
+      ],
+      "round_peers": [
+        [
+          408,
+          441
+        ],
+        [
+          474,
+          507
+        ],
+        [
+          507,
+          540
+        ],
+        [
+          540,
+          573
+        ],
+        [
+          573,
+          606
+        ],
+        [
+          606,
+          639
+        ]
+      ],
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "e0afe7e02b6075e888fbd718695557d9f5a7ee8aa88ee2b7bc20d765806554b5"
+    },
+    "new:1218efed19de": {
+      "partner": [
+        [
+          312,
+          345
+        ]
+      ],
+      "round_peers": [
+        [
+          345,
+          378
+        ]
+      ],
+      "span": [
+        378,
+        409
+      ],
+      "state_len": 432,
+      "token_ids_sha256": "5c35263a658c125a44bcae6f642d44bbe03e906c41832e68cbe098dd353a00ab"
+    },
+    "new:1b3e7af68bb3": {
+      "partner": [
+        [
+          383,
+          416
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ],
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ],
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ]
+      ],
+      "span": [
+        482,
+        513
+      ],
+      "state_len": 551,
+      "token_ids_sha256": "7853a44c942aff8dca4b2bc1cf09275d74ca08b394249e03d1c04a4637f511f1"
+    },
+    "new:1c7158b6b838": {
+      "partner": [
+        [
+          185,
+          218
+        ]
+      ],
+      "round_peers": [
+        [
+          152,
+          185
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "62395e6bb40ddd81d1685c4811fc56a715e89dabf025b14aeb34e59274a2f4c1"
+    },
+    "new:1f8c0826ae47": {
+      "partner": [
+        [
+          515,
+          548
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "1a266e592304619e576e539c7f35c9b6368d0424ea01398ac727155cb7e168ca"
+    },
+    "new:1fb5651c643e": {
+      "partner": [
+        [
+          218,
+          251
+        ]
+      ],
+      "round_peers": [
+        [
+          251,
+          284
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "cf8acf6421a886cb16a3ad2fd3d50626f7c2a6db0926f93209eb355bddb5e463"
+    },
+    "new:264c458dbed5": {
+      "partner": [
+        [
+          581,
+          614
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "8d283a7b1c9aa80b6ae1a9c4fe18e001f1012b42fcf06493849e17630c4ed51f"
+    },
+    "new:2a4f596d9dd7": {
+      "partner": [
+        [
+          152,
+          185
+        ]
+      ],
+      "round_peers": [
+        [
+          185,
+          218
+        ],
+        [
+          218,
+          251
+        ]
+      ],
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "cc4f06d89a68468b04878bf90e5a000d2a286d4caccc3582469f2d6cc9f47945"
+    },
+    "new:2c9118bbcc3b": {
+      "partner": [
+        [
+          383,
+          416
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ],
+        [
+          416,
+          449
+        ]
+      ],
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "6a774a5b1948964b4fa87e48954797fc739419ead907fa33eb6bc9b0ddad07c0"
+    },
+    "new:2f67e76cdc83": {
+      "partner": [
+        [
+          449,
+          482
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "b407da1f7e19cbf0ceadb9bc1c33965b650f1ce61979f7e059ea6a9b61f07b4c"
+    },
+    "new:35253a262059": {
+      "partner": [
+        [
+          284,
+          317
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          350,
+          383
+        ]
+      ],
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "41307cefaa5664a077aea497a548b5f839693c31a5defe11b11deaeaf18afd1b"
+    },
+    "new:3cddd369d7a0": {
+      "partner": [
+        [
+          345,
+          378
+        ]
+      ],
+      "round_peers": [
+        [
+          312,
+          345
+        ]
+      ],
+      "span": [
+        378,
+        409
+      ],
+      "state_len": 432,
+      "token_ids_sha256": "36a35e7d9fc77afa559547fb6f392d79a64ef23b2012f57110ed4eae06dfd518"
+    },
+    "new:4569d20d3e4c": {
+      "partner": [
+        [
+          251,
+          284
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "b4640c7c0742c1aa3421a918fbfcc084d59d59cbe0c46d8ef3d49b152886bfb6"
+    },
+    "new:45ef86e09e74": {
+      "partner": [
+        [
+          411,
+          444
+        ]
+      ],
+      "round_peers": [
+        [
+          312,
+          345
+        ],
+        [
+          345,
+          378
+        ],
+        [
+          378,
+          411
+        ]
+      ],
+      "span": [
+        444,
+        475
+      ],
+      "state_len": 498,
+      "token_ids_sha256": "ecc10d945284a0312a77f0a3ddad2a5609baad3ec62f5e375082890df57ee346"
+    },
+    "new:4bcbaf15f7ab": {
+      "partner": [
+        [
+          515,
+          548
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "be56d8e58b218e68e9c31e3b7e61e1c3f4194ef367484838243869902a1b0310"
+    },
+    "new:70ede3f8992d": {
+      "partner": [
+        [
+          350,
+          383
+        ]
+      ],
+      "round_peers": [
+        [
+          317,
+          350
+        ],
+        [
+          383,
+          416
+        ],
+        [
+          416,
+          449
+        ]
+      ],
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "c1e00a6a65f77e7ea00eeeec4ba07796bc990146aff13b31faeced4bad936b3f"
+    },
+    "new:7167a21b6694": {
+      "partner": [
+        [
+          449,
+          482
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          482,
+          515
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "e684708e2b65c5b628f0e44d76c432a5c54e84a9c780160ebdc071773493877e"
+    },
+    "new:756424185463": {
+      "partner": [
+        [
+          482,
+          515
+        ]
+      ],
+      "round_peers": [
+        [
+          416,
+          449
+        ],
+        [
+          449,
+          482
+        ],
+        [
+          515,
+          548
+        ],
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ]
+      ],
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "1ec13dd6bc2197d4102384e4634fee2098e26359e258ccca159e30a02e2252c4"
+    },
+    "new:77ebbee1fb2d": {
+      "partner": [
+        [
+          185,
+          218
+        ]
+      ],
+      "round_peers": [
+        [
+          152,
+          185
+        ]
+      ],
+      "span": [
+        350,
+        381
+      ],
+      "state_len": 404,
+      "token_ids_sha256": "e734936a955bfeec79efd6c7cce4acd6dd7726da1ae56e703ece8114a3e5a008"
+    },
+    "new:8ae8575481a0": {
+      "partner": [
+        [
+          507,
+          540
+        ]
+      ],
+      "round_peers": [
+        [
+          408,
+          441
+        ],
+        [
+          441,
+          474
+        ],
+        [
+          474,
+          507
+        ],
+        [
+          540,
+          573
+        ],
+        [
+          573,
+          606
+        ],
+        [
+          606,
+          639
+        ]
+      ],
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "e45fbbb67c5af9c440d047f5c80f826738ca1b3d9bcdec76826c893c8bfff6d3"
+    },
+    "new:b7d11ed06ba2": {
+      "partner": [
+        [
+          680,
+          713
+        ]
+      ],
+      "round_peers": [
+        [
+          548,
+          581
+        ],
+        [
+          581,
+          614
+        ],
+        [
+          614,
+          647
+        ],
+        [
+          647,
+          680
+        ]
+      ],
+      "span": [
+        713,
+        744
+      ],
+      "state_len": 772,
+      "token_ids_sha256": "2c84dc3f8b07681fcf986f732f13b97c89d835d8b24231717899281377be0dd0"
+    },
+    "new:c98f0db48cf6": {
+      "partner": [
+        [
+          152,
+          185
+        ]
+      ],
+      "round_peers": [
+        [
+          284,
+          317
+        ]
+      ],
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "d224ab57bb0f09e3a24b54e346947b86b06f5db36a704bfee3a10c1c89af0ae4"
+    }
+  },
+  "total": 7740
+}

@@ -1,0 +1,17 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 5244, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_5244_with_44_captures_and_class_files :: status=COMPLETE_A461_MECH_M11 rows=5244 batches=41 captures=44 files=88 (sha ok=True, shapes ok=True); cross-row max 2.4e-07
+PASS class_contributions_partition_and_sum_to_oproj_input :: 5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)
+PASS twentyfive_arms_wiring_and_size_bookkeeping :: 21 arms distinct in 208/208 (cell, source); cs1 vs meanD_host 9.5e-06; par + perp - 1 max 0.0e+00; p29 + p30 - 1 max 0.0e+00; swapped-norm and dose arms keep the position shares (max 0.0e+00, 0.0e+00)
+PASS rescaled_positions_shifts_and_parts_pass_the_size_gate :: 2912 rescaled rows: runner size gate max rel err 5.1e-08; contrast factor max 10.0 <= 10; shift factor max 4.397681 <= 10; capped shares of the swapped-norm arms {'cpos29_n30': 0.0, 'cpos30_n29': 1.0}
+PASS all_row_patches_reach_c_and_action :: host baselines=16; all-row patches moving both C and action rows: 5200/5200 (small arms can be tiny in the fake model)
+PASS identities_pool_heads_positions_shift_and_split :: full no-op, all-16-heads contrast == cs1 and all-31-positions contrast == cs1, bitwise; the rescaled-shift path with factor 1 == the plain shift; max |logit diff| all_heads_sm_vs_cs1 0.0e+00, cshift_d
+PASS round_arms_rebuilt_from_g10_and_used_as_sources :: ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 2600, 'ROUND': 2600}, targets {'new': 5200}; pools exclude the cell's donor and host, r
+PASS tampered_g10_counterfactuals_refused :: one variant round edited: refused at the blob pin
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission from a new out dir after a complete 5244-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: manifest with one patch row's key classes changed: refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 16, "tests": 16, "runner_blob": "54479b0480666fde9e2681346e8e46d384236610", "manifest_blob": "8e5762826973d49d2efd3f187f94c5c913f9b0c1"}

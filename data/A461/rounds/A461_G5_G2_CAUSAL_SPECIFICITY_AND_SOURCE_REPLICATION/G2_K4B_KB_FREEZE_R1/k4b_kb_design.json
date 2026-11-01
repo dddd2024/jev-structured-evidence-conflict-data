@@ -1,0 +1,208 @@
+{
+  "gpu_status": "0 kev-4B patch forwards; needs the user's explicit approval of 346 calls / [128, 128, 90]",
+  "inputs": {
+    "k4b_per_scene_blob": "ee1ca3b8196bdb3ae02ab164d878417a2f39832f",
+    "k4b_screen_raw_blob": "756e372a8b89eb5200f2baa4520e5f53282e8f09",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "layers": [
+    3,
+    7,
+    11,
+    15,
+    19,
+    23,
+    27
+  ],
+  "model": "kev-4B (runner module f118ea59: identity, source, loader)",
+  "plan": [
+    128,
+    128,
+    90
+  ],
+  "preregistered_analysis": {
+    "K-B_window_rule": "L* = argmax over scanned layers of median over cross-group cells of (dM_main - dM_dose); ties -> lower layer; reported with the full layer profile of dM_main, dM_dose, dA",
+    "K-C1_dose_specificity": "dM_main > dM_dose in >= 75% of cross-group cells AND in a majority of cells for >= 10 of the 14 donor groups",
+    "K-C2_sham_specificity": "dM_main > dM_sasham in >= 75% of cross-group cells",
+    "K-C3_joint_generality": "SPECIFIC_JOINT = main JOINT and neither SA-sham nor dose JOINT; generality iff SPECIFIC_JOINT cells come from >= 7 donor groups and no donor group supplies > 30% of them",
+    "K-C4_recognition": "JOINT rate of unrecognized sources <= one quarter of the main-arm JOINT rate",
+    "always_reported": "leave-one-donor-group-out for K-C1..K-C3, per-host results, flip rates of every arm (kev-4B margins are small, so flips are cheap; specificity is judged by contrasts)",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); C = M > 0; R = A > 0; JOINT = C and R; dM, dA vs the in-run host capture (bitwise == kev-4B screen row)",
+    "units": "only cross-group cells (donor group != host group) enter preregistered counts; same-group cells reported separately; source groups are the unit; counts are descriptive decision rules"
+  },
+  "schema": "JEV_A461_G5_G2_K4B_KB_DESIGN_V1",
+  "selection": {
+    "replication_donors": [
+      [
+        "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e",
+        "twins_streamlet:run-337"
+      ],
+      [
+        "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "twins_streamlet:run-338"
+      ],
+      [
+        "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "twins_streamlet:run-344"
+      ],
+      [
+        "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce",
+        "twins_streamlet:run-68"
+      ]
+    ],
+    "replication_hosts": [
+      [
+        "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274",
+        "twins_streamlet:run-220",
+        -0.055525
+      ],
+      [
+        "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f",
+        "twins_streamlet:run-169",
+        -0.072858
+      ],
+      [
+        "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920",
+        "twins_streamlet:run-272",
+        -0.197727
+      ],
+      [
+        "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8",
+        "twins_streamlet:run-212",
+        -0.234036
+      ],
+      [
+        "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5",
+        "twins_streamlet:run-140",
+        -0.245434
+      ],
+      [
+        "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "twins_streamlet:run-283",
+        -0.361516
+      ],
+      [
+        "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673",
+        "twins_streamlet:run-154",
+        -0.532978
+      ],
+      [
+        "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70",
+        "twins_streamlet:run-121",
+        -0.720338
+      ]
+    ],
+    "scan_donors": [
+      [
+        "162e052e4109dc6a3eb51fb157a4584ea1c9a81a34eacd727c9b053fda22033a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "3eb969a3511d97d9016f275ae9f2deb4106192f14ab91e4356b9122b74203f33",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "1247e79e9b08ff3beb5f091bceebd0b43596334726f2b061942bafe018955c64",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "aa44fbfa87b7390f9fe4fe8a839a67f024e47685eaa64041ca783be5d0edf989",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "2a48432fee00283ef4a4b61d904b6315c551529ee17a85008f629ed345998112",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "09ab1d2e49064a1d6517da2513435589c381d0236684f0501822ebbed7f51bb9",
+        "twins_streamlet:run-212"
+      ]
+    ],
+    "scan_hosts": [
+      [
+        "9f94fdfc48512aad71e475c541a6423d0bf457a884538fd24f2f38a2e8b76433",
+        "twins_streamlet:run-337",
+        -0.761376
+      ],
+      [
+        "9795433b674f7cbe28be10a752b21d5af8e45188eba217787a26c24706ae3504",
+        "twins_streamlet:run-68",
+        -0.826098
+      ],
+      [
+        "701ee9d599a78ba104a063fc7bba706d70fa96c4a6da1b15d71592379b793b37",
+        "twins_streamlet:run-338",
+        -0.826473
+      ],
+      [
+        "1b8baf4e66a5c1802752957229fc59a493675c756b08d1ec154089a769da677c",
+        "twins_streamlet:run-181",
+        -1.027017
+      ]
+    ],
+    "unrecognized_sources": [
+      [
+        "0b79af185ea8d7e35baabbd9f2c5b54efb9fafaf53042ccec10e43bb1fdddd50",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "52f285efcd79b1a61bed63637e754e2cf3e74c0bdf6e5503babdc84c60303ef6",
+        "twins_streamlet:run-100"
+      ],
+      [
+        "7e654528c6383e3391a36daf0d8706d535169b22486c62936f987e5c7275ee12",
+        "twins_streamlet:run-328"
+      ],
+      [
+        "9ae2bde298c1435295e18a129eca0d28576dce232678eaee8278a74989ea448a",
+        "twins_streamlet:run-24"
+      ],
+      [
+        "c5c25c84b0bad420bfec5a7360c5aefcdd6d22380fbce98e52ad0ac5cfd9378a",
+        "twins_streamlet:run-344"
+      ]
+    ]
+  },
+  "status": "FROZEN_CPU_BEFORE_ANY_KEV4B_PATCH_FORWARD",
+  "total": 346
+}

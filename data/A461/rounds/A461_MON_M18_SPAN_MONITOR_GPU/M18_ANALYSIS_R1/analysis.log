@@ -1,0 +1,170 @@
+{
+ "gate": {
+  "rows": 620,
+  "expected": 620,
+  "token_sha_ok": 620,
+  "max_cross_row": 0.0,
+  "pass": true
+ },
+ "verdicts": {
+  "V1_encoded": "ENCODED_AT_L11",
+  "V1_surface": "ABOVE_SURFACE",
+  "V2_location": "GENERIC_MATCHES",
+  "V2_novelty": "INFRASTRUCTURE_VALIDATION_ONLY",
+  "V3_useful": "MONITOR_USEFUL",
+  "best_generic": "PROBE:LAST_RESID_L19",
+  "calibrated": [
+   "NATIVE_A",
+   "NATIVE_M",
+   "PROBE:LAST_RESID_L11",
+   "PROBE:LAST_RESID_L15",
+   "PROBE:LAST_RESID_L19",
+   "PROBE:LAST_RESID_L23",
+   "PROBE:LAST_RESID_L27",
+   "PROBE:LAST_RESID_L3",
+   "PROBE:LAST_RESID_L31",
+   "PROBE:LAST_RESID_L7",
+   "PROBE:LAST_RESID_emb",
+   "PROBE:SPAN_ATTN11",
+   "PROBE:SPAN_ATTN11_W",
+   "PROBE:SPAN_RESID_L11",
+   "PROBE:SPAN_RESID_L15",
+   "PROBE:SPAN_RESID_L19",
+   "PROBE:SPAN_RESID_L23",
+   "PROBE:SPAN_RESID_L27",
+   "PROBE:SPAN_RESID_L3",
+   "PROBE:SPAN_RESID_L31",
+   "PROBE:SPAN_RESID_L7",
+   "PROBE:SPAN_RESID_emb",
+   "WHITEN:LAST_RESID_L11",
+   "WHITEN:LAST_RESID_L31",
+   "WHITEN:SPAN_ATTN11"
+  ]
+ },
+ "ci": {
+  "AUROC_span": [
+   0.9853,
+   0.998
+  ],
+  "AUROC_surface": [
+   0.7955,
+   0.836
+  ],
+  "AUROC_span_minus_surface": [
+   0.1576,
+   0.1967
+  ],
+  "TPR5_span_minus_G": [
+   -0.1087,
+   -0.0104
+  ],
+  "TPR5_span": [
+   0.8913,
+   0.9896
+  ],
+  "TPR1_span": [
+   0.6341,
+   0.9506
+  ]
+ },
+ "counts": {
+  "missed": 84,
+  "recognized": 40,
+  "benign": 483,
+  "natural_false_veto_by_arm": {
+   "ROUND": 7,
+   "OUTSIDER": 6
+  },
+  "groups": 17
+ },
+ "span": {
+  "AUROC": 0.9926550330277039,
+  "TPR_missed@FV5": 0.9523809523809523,
+  "FPR@FV5": 0.047619047619047616,
+  "FPR_old@FV5": 0.024193548387096774,
+  "FPR_SA@FV5": 0.08064516129032258,
+  "FPR_ROUND@FV5": 0.08547008547008547,
+  "FPR_OUTSIDER@FV5": 0.0,
+  "TPR_recognized@FV5": 0.825,
+  "TPR_missed@FV1": 0.8214285714285714,
+  "FPR@FV1": 0.016563146997929608,
+  "FPR_old@FV1": 0.016129032258064516,
+  "FPR_SA@FV1": 0.04032258064516129,
+  "FPR_ROUND@FV1": 0.008547008547008548,
+  "FPR_OUTSIDER@FV1": 0.0,
+  "TPR_recognized@FV1": 0.65
+ },
+ "best_generic": [
+  "PROBE:LAST_RESID_L19",
+  {
+   "AUROC": 0.9992359262545598,
+   "TPR_missed@FV5": 1.0,
+   "FPR@FV5": 0.043478260869565216,
+   "FPR_old@FV5": 0.024193548387096774,
+   "FPR_SA@FV5": 0.06451612903225806,
+   "FPR_ROUND@FV5": 0.02564102564102564,
+   "FPR_OUTSIDER@FV5": 0.059322033898305086,
+   "TPR_recognized@FV5": 0.975,
+   "TPR_missed@FV1": 0.9761904761904762,
+   "FPR@FV1": 0.010351966873706004,
+   "FPR_old@FV1": 0.008064516129032258,
+   "FPR_SA@FV1": 0.008064516129032258,
+   "FPR_ROUND@FV1": 0.017094017094017096,
+   "FPR_OUTSIDER@FV1": 0.00847457627118644,
+   "TPR_recognized@FV1": 0.975
+  }
+ ],
+ "surface": {
+  "AUROC": 0.8162032929113674,
+  "TPR_missed@FV5": 0.14285714285714285,
+  "FPR@FV5": 0.049689440993788817,
+  "FPR_old@FV5": 0.0,
+  "FPR_SA@FV5": 0.016129032258064516,
+  "FPR_ROUND@FV5": 0.18803418803418803,
+  "FPR_OUTSIDER@FV5": 0.0,
+  "TPR_recognized@FV5": 0.0,
+  "TPR_missed@FV1": 0.03571428571428571,
+  "FPR@FV1": 0.006211180124223602,
+  "FPR_old@FV1": 0.0,
+  "FPR_SA@FV1": 0.0,
+  "FPR_ROUND@FV1": 0.02564102564102564,
+  "FPR_OUTSIDER@FV1": 0.0,
+  "TPR_recognized@FV1": 0.0
+ },
+ "layer_profile_AUROC": {
+  "SPAN_RESID": {
+   "emb": 0.8162032929113674,
+   "L3": 0.985531893916987,
+   "L7": 0.9764615991324066,
+   "L11": 0.9966232869959578,
+   "L15": 0.999901409839298,
+   "L19": 0.9986197377501725,
+   "L23": 0.9949719018041999,
+   "L27": 0.994725426402445,
+   "L31": 0.9913733609385783
+  },
+  "LAST_RESID": {
+   "emb": 0.49611801242236025,
+   "L3": 0.8496746524696835,
+   "L7": 0.8842797988760722,
+   "L11": 0.9378142561372375,
+   "L15": 0.9849896480331263,
+   "L19": 0.9992359262545598,
+   "L23": 0.9973627132012225,
+   "L27": 0.9942817706792862,
+   "L31": 0.9895740905057675
+  }
+ },
+ "fp_groups": {
+  "FV5": {
+   "groups_with_fp": 8,
+   "of": 17,
+   "cp95_upper_group_rate": 0.6892
+  },
+  "FV1": {
+   "groups_with_fp": 2,
+   "of": 17,
+   "cp95_upper_group_rate": 0.3262
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "approved_max_native_forwards": 103,
+  "authorizing_evidence_ref": "ZCode AskUserQuestion answer '批准 GPU（A461 G1，103 次 forward）' by repo owner dddd2024, 2026-10-25 (this session); G0 dual-path PASS archived bd8d2cf, Issue #2 comment 6393697447",
+  "created_utc": "2026-10-25T05:04:55Z",
+  "equal_count_amendment": "within the approved 103 total: 17 unmatched-N1 rows substituted by 14 token-matched N1B rows (QA-1 strict contrast) + replays; hard cap 128 never exceeded",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows"
+  ],
+  "model": "SecJev-0.8B FP32 RTX 3090 pinned components (SHA vs A428 manifest)",
+  "run_id": "a461-psmi-counterfactual-cpu-gate-20261025-v1",
+  "schema": "JEV_A461_PSMI_G1_GPU_ADMISSION_RECEIPT_V1",
+  "stage": "A461_PSMI_G1_PAIRED_PILOT"
+}

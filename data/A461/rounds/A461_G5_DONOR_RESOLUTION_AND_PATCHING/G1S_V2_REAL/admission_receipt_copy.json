@@ -1,0 +1,16 @@
+{
+  "approved_max_native_forwards": 124,
+  "authorizing_evidence_ref": "User standing authorization series 2026-10-25 (latest: '现在的任务是做到能够支撑起一篇有明确创新性的白盒安全机制论文的成果'); budget 124 = 40 old + 40 treatment + 40 SA + 4 replays, frozen in A461_G5_DONOR_RESOLUTION_PROTOCOL_V1 stage_2 before execution",
+  "created_utc": "2026-10-25",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows",
+    "activation patching (separately frozen)"
+  ],
+  "run_id": "a461-g5-donor-resolution-20261025-v1",
+  "schema": "JEV_A461_G5_G1S_GPU_ADMISSION_RECEIPT_V1",
+  "stage": "A461_G5_G1S_DONOR_SEARCH"
+}

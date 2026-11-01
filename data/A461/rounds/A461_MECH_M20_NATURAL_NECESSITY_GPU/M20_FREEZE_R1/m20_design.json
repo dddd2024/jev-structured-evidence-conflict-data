@@ -1,0 +1,192 @@
+{
+  "donor_native": {
+    "0153673a107a": {
+      "A": 0.3571462631225586,
+      "JOINT": true,
+      "M": 0.14408924244344234
+    },
+    "1218efed19de": {
+      "A": 1.5607950091362,
+      "JOINT": true,
+      "M": 1.383035957813263
+    },
+    "1b3e7af68bb3": {
+      "A": -0.1961466670036316,
+      "JOINT": false,
+      "M": 0.28366148623172194
+    },
+    "1f8c0826ae47": {
+      "A": -0.2551550269126892,
+      "JOINT": false,
+      "M": 0.11091125756502151
+    },
+    "2f67e76cdc83": {
+      "A": -0.13288134336471558,
+      "JOINT": false,
+      "M": 0.05429120361804962
+    },
+    "35253a262059": {
+      "A": 0.5101892948150635,
+      "JOINT": true,
+      "M": 0.8891919180750847
+    },
+    "3cddd369d7a0": {
+      "A": 1.6808696389198303,
+      "JOINT": true,
+      "M": 1.481887087225914
+    },
+    "4569d20d3e4c": {
+      "A": 0.535509318113327,
+      "JOINT": true,
+      "M": 0.7905985545367002
+    },
+    "45ef86e09e74": {
+      "A": 0.47452932596206665,
+      "JOINT": true,
+      "M": 0.5236313939094543
+    },
+    "70ede3f8992d": {
+      "A": -0.2717365622520447,
+      "JOINT": false,
+      "M": 0.10175032913684845
+    },
+    "7167a21b6694": {
+      "A": 0.2542191743850708,
+      "JOINT": true,
+      "M": 0.27426267322152853
+    },
+    "77ebbee1fb2d": {
+      "A": 0.14463424682617188,
+      "JOINT": true,
+      "M": 0.15785818547010422
+    },
+    "b7d11ed06ba2": {
+      "A": 0.260710209608078,
+      "JOINT": true,
+      "M": 0.14498797059059143
+    },
+    "c98f0db48cf6": {
+      "A": 0.08028298616409302,
+      "JOINT": true,
+      "M": 0.42797139286994934
+    }
+  },
+  "gpu_status": "0 M20 forwards; 488 calls / 4 batches under the standing GPU authorization",
+  "inputs": {
+    "m16_design_blob": "c061686a5a3271e2b06f418f213bce81fa3ff05a",
+    "m1_raw_blob": "298c7cdfab634cd6a6a9122fac90d41c87219c21"
+  },
+  "plan": [
+    128,
+    128,
+    128,
+    104
+  ],
+  "preregistered_analysis": {
+    "consistency_gate": "the 36 M1 capture readouts bitwise (runner); every donor's new capture readout equals M1's; otherwise INCONSISTENT",
+    "interpretation_fixed_in_advance": "NEC_FULL / NEC_BULK: in the donors' own forward, the L11 append-span write (its context-read part) is necessary for recognition, not only sufficient for repair in hosts - with M1-M5 a two-directional (interchange) causal role at L11; a failing host's write carries a not-conflict reading of the same context. NOT_NEC: the donor recognises through other paths as well (redundancy); M1-M5 remain sufficiency only. Level S1-S3 boundary: an interchange intervention on natural recognition (the standard's par. 3.3 'local necessity'), not a natural error path in the failing hosts",
+    "measures": "C_loss(arm) = share of cells whose patched donor has M <= 0; J_loss(arm) = share of JOINT-donor cells whose patched donor is not JOINT; paired dM_host - dM_ctrl per cell; per-donor majorities",
+    "readouts": "M = conflict margin, A = action margin, JOINT = M > 0 and A > 0, on the donor's new arm; baselines = the donor's in-run new capture (bitwise == M1)",
+    "reported": "bulk_round_self and bulk_hostmean C_loss / J_loss / median dM (14 rows each); per host; leave one donor group out of each verdict",
+    "sets": "all 14 donors are strict recognizers (M > 0); 10 of them are JOINT natively (M1 / K-C captures); C_loss is scored over all cells, J_loss over the cells of the JOINT donors",
+    "verdict_bulk": "NEC_BULK: the same rule on bulk_host vs bulk_ctrl",
+    "verdict_full": "NEC_FULL iff C_loss(full_host) - C_loss(full_ctrl) >= 0.40 and dM(full_host) < dM(full_ctrl) in >= 75% of cells and in a majority of cells for >= 10 of 14 donors; NOT_NEC_FULL iff the difference < 0.10; else NEC_FULL_PARTIAL"
+  },
+  "schema": "JEV_A461_MECH_M20_NATURAL_NECESSITY_DESIGN_V1",
+  "selection": {
+    "donors": [
+      [
+        "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e",
+        "twins_streamlet:run-337"
+      ],
+      [
+        "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "twins_streamlet:run-338"
+      ],
+      [
+        "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "twins_streamlet:run-344"
+      ],
+      [
+        "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce",
+        "twins_streamlet:run-68"
+      ]
+    ],
+    "hosts": [
+      [
+        "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70",
+        "twins_streamlet:run-121"
+      ]
+    ]
+  },
+  "status": "FROZEN_CPU_BEFORE_ANY_M20_FORWARD",
+  "total": 488
+}

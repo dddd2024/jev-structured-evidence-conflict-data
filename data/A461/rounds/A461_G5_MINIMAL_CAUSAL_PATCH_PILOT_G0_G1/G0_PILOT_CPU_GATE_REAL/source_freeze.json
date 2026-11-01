@@ -1,0 +1,33 @@
+{
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+  "dev_split_only": true,
+  "expected_width": 34,
+  "g_minus_1_note": "novelty delta = first bidirectional activation patching on this scorer; prior art check per governance 5e35c044 (Tang et al. ICML 2026, activation-patching best practices) recorded in the pilot protocol",
+  "input_blobs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "pair_rows_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "pilot_gate_blob": "45000606e06f195d3ae0bb0390fb9d02a3652aed",
+    "raw_logits_blob": "13400252b360863a80baea66b39b9a7dbe0ca633",
+    "token_lengths_blob": "5cf52a37f4e420da86c39fd537c40a98336c3be7"
+  },
+  "layers": [
+    11,
+    23
+  ],
+  "roster": {
+    "donor": "T2_WAIT_TO_REJECT:433890d19a90625e",
+    "hosts": [
+      "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "T2_ACCEPT_TO_REJECT:231b919006dc1777"
+    ],
+    "source_groups": [
+      "twins_streamlet:run-114",
+      "twins_streamlet:run-182",
+      "twins_streamlet:run-83"
+    ]
+  },
+  "schema": "JEV_A461_G5_PILOT_SOURCE_FREEZE_V1",
+  "stop_rule": "any gate FAIL => STOP_PRE_GPU_<GATE>; GPU blocked until independent blind review explicit PASS AND fresh explicit user approval in the pilot admission receipt",
+  "twins_census": 797
+}

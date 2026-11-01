@@ -1,0 +1,18 @@
+{
+  "approved_max_native_forwards": 56,
+  "authorizing_evidence_ref": "User standing authorization series in-session 2026-10-25, latest '现在的任务是做到能够支撑起一篇有明确创新性的白盒安全机制论文的成果' - an explicit directive to reach white-box mechanism results; the G4 protocol V0 (be534e9) gates GPU on CPU acceptance (achieved: G0A-G0D archived e586a08) and an independent review of G3 v3 (landed: dd55688 + 3c559a7/a66493d, responded a6debce); the bidirectional PATCHING stage remains NOT_ADMITTED and is out of scope for this receipt",
+  "budget_derivation": "26 pairs x 2 arms (old/new) = 52 native forwards + 4 precision replays = 56 <= 128 absolute cap; N1B/T3-extra arms are not needed for the readout decomposition (N1B is readout-redundant per cohort manifest; T3 old/new included in the 26)",
+  "created_utc": "2026-10-25",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows",
+    "activation patching (separately gated)"
+  ],
+  "run_id": "a461-g4-pointer-patching-20261025-v0",
+  "schema": "JEV_A461_G4_G1R_GPU_ADMISSION_RECEIPT_V1",
+  "scope": "pointer readout decomposition ONLY: hook-capture h_decide and h_opts of every question branch, reconstruct native logits from q/k algebra to FP32 tolerance (reconstruction gate), compute Delta_M three-term decomposition per pair on the conflicting_vote branch; NO patching, NO backprop, NO network, NO TEST/CAL",
+  "stage": "A461_G4_G1R_POINTER_READOUT_DECOMPOSITION"
+}

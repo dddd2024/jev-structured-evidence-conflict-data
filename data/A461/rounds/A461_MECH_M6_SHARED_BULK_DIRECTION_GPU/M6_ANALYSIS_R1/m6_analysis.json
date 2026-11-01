@@ -1,0 +1,513 @@
+{
+  "consistency_gate": {
+    "S_M3_all": 51,
+    "S_full": 51,
+    "S_xdonor": 51,
+    "full_rows_bitwise_eq_M3": 208,
+    "pass": true,
+    "xdonor_rows_bitwise_eq_M5": 208
+  },
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-140": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-154": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-169": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-181": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-212": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-220": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-272": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-283": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-301": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-337": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-338": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-344": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    },
+    "twins_streamlet:run-68": {
+      "SUF": [
+        "full",
+        "meanD_donor",
+        "meanD_host",
+        "xdonor_BULK"
+      ],
+      "k_star": null,
+      "lowrank": "NOT_LOWRANK_LE64",
+      "shared": "SHARED_DONOR_COMPONENT"
+    }
+  },
+  "lowrank_verdict": "NOT_LOWRANK_LE64",
+  "median_change_norm_rel_full": {
+    "full": 1.0,
+    "lr1": 0.1239,
+    "lr16": 0.4101,
+    "lr4": 0.2601,
+    "lr64": 0.5546,
+    "meanD_donor": 0.8724,
+    "meanD_host": 0.6194,
+    "meanH_host": 0.6572,
+    "rand16": 0.4101,
+    "rand4": 0.2601,
+    "rand64": 0.5546,
+    "xdonor_BULK": 0.9818
+  },
+  "per_host_S": {
+    "1c7158b6b838": {
+      "full": 1,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 0,
+      "meanD_donor": 0,
+      "meanD_host": 0,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 0
+    },
+    "1fb5651c643e": {
+      "full": 13,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 1,
+      "meanD_donor": 13,
+      "meanD_host": 13,
+      "meanH_host": 13,
+      "rand16": 1,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 13
+    },
+    "264c458dbed5": {
+      "full": 10,
+      "lr1": 0,
+      "lr16": 1,
+      "lr4": 0,
+      "lr64": 7,
+      "meanD_donor": 13,
+      "meanD_host": 13,
+      "meanH_host": 4,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 10
+    },
+    "2a4f596d9dd7": {
+      "full": 0,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 0,
+      "meanD_donor": 0,
+      "meanD_host": 0,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 0
+    },
+    "2c9118bbcc3b": {
+      "full": 5,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 0,
+      "meanD_donor": 5,
+      "meanD_host": 0,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 4
+    },
+    "4bcbaf15f7ab": {
+      "full": 11,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 0,
+      "meanD_donor": 13,
+      "meanD_host": 13,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 11
+    },
+    "756424185463": {
+      "full": 7,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 0,
+      "meanD_donor": 8,
+      "meanD_host": 0,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 8
+    },
+    "8ae8575481a0": {
+      "full": 4,
+      "lr1": 0,
+      "lr16": 0,
+      "lr4": 0,
+      "lr64": 2,
+      "meanD_donor": 5,
+      "meanD_host": 0,
+      "meanH_host": 0,
+      "rand16": 0,
+      "rand4": 0,
+      "rand64": 0,
+      "xdonor_BULK": 5
+    }
+  },
+  "rules": {
+    "S": "S(arm) = #cells where the donor-new-source patch is JOINT and the donor-ROUND-source patch of the same arm is not (target host new)",
+    "SPEC": "SPEC iff dM_main > dM_round in >= 75% of cells AND in a majority of cells for >= 10 of 14 donor groups",
+    "SUF": "SUF(arm) iff S(arm) >= 1/2 S(full) and SPEC(arm)",
+    "always_reported": "S, SPEC, J_main, J_round and median dM per arm; per host; leave-one-donor-group-out of both verdicts; energy fraction of lr_k / rand_k; change norm of every arm relative to the full patch; all nulls",
+    "consistency_gate": "full = the M3 all-heads patch: its 208 rows equal M3's bitwise and S(full) = 51; xdonor_BULK = the M5 third-donor arm: its 208 rows equal M5's bitwise and S = 51 (GPU, checked in the run); otherwise verdict INCONSISTENT_WITH_M3_M5 and no claim",
+    "interpretation_fixed_in_advance": "SHARED_DONOR_COMPONENT: one averaged donor BULK contribution, from donors other than the cell's own, gives hosts the round-specific repair while the averaged BULK of other hosts does not: a donor-like shared component, not scene content. GENERIC_CONTEXT_SHIFT: any averaged context read works, so the M5 'donor-like' reading is not supported. SHARED_NEEDS_DONOR_REST: the averaged component works only together with the rest of the donor's write. NOT_SHARED_BY_AVERAGE: averaging destroys what a single third donor carries (M5 XD_HOLDS), e.g. donors agree in subspace but not in sign or position pattern. LOWRANK:k: the repairing part of delta_B lies in a k-dimensional subspace learned from other donors, and a random k-subspace of the same size does not repair. The pooled means change the host by their own size (not matched); their change norms relative to the full patch are reported. The subspace is fit on both arms (new and ROUND) of the pool donors, so round-specificity of lr_k comes from the cell's own delta_B, not from the basis",
+    "lowrank_verdict": "k* = the smallest k in 1, 4, 16, 64 with SUF(lr_k); null arm = rand_max(k*, 4); NULL holds iff S(null) <= 5 and not SPEC(null). LOWRANK:k* if k* exists and NULL holds; LOWRANK_UNRESOLVED:k* if k* exists and NULL fails; NOT_LOWRANK_LE64 if no k*",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run capture of host new)",
+    "shared_verdict": "SHARED_DONOR_COMPONENT if SUF(meanD_host) and not SUF(meanH_host); GENERIC_CONTEXT_SHIFT if SUF(meanD_host) and SUF(meanH_host); SHARED_NEEDS_DONOR_REST if not SUF(meanD_host) and SUF(meanD_donor); NOT_SHARED_BY_AVERAGE otherwise",
+    "size_gate": "for every rand_k row, ||patch - host|| per row and span position equals ||U_k U_k^T delta_B|| within 1e-3 relative (fail-closed in the runner); the energy fraction ||U_k U_k^T delta_B|| / ||delta_B|| is recorded in every lr_k and rand_k row",
+    "units": "the 104 cross-group cells of M1-M5; cells share donors and hosts, and the pooled-mean arms vary with the donor only through the pool exclusion (effectively 8 hosts), so counts are descriptive decision rules, not independent tests; per-host S is always reported"
+  },
+  "rules_applied": {
+    "SUF": {
+      "full": true,
+      "lr1": false,
+      "lr16": false,
+      "lr4": false,
+      "lr64": false,
+      "meanD_donor": true,
+      "meanD_host": true,
+      "meanH_host": false,
+      "rand16": false,
+      "rand4": false,
+      "rand64": false,
+      "xdonor_BULK": true
+    },
+    "k_star": null,
+    "lowrank": "NOT_LOWRANK_LE64",
+    "null_arm": null,
+    "shared": "SHARED_DONOR_COMPONENT"
+  },
+  "schema": "JEV_A461_MECH_M6_ANALYSIS_V1",
+  "shared_verdict": "SHARED_DONOR_COMPONENT",
+  "subspace_energy": {
+    "lr1": {
+      "basis_sv_share_median": 0.5068,
+      "energy_median_of_medians": 0.1415,
+      "energy_min": 0.0
+    },
+    "lr16": {
+      "basis_sv_share_median": 0.8459,
+      "energy_median_of_medians": 0.5014,
+      "energy_min": 0.0834
+    },
+    "lr4": {
+      "basis_sv_share_median": 0.6678,
+      "energy_median_of_medians": 0.3157,
+      "energy_min": 0.0243
+    },
+    "lr64": {
+      "basis_sv_share_median": 0.9528,
+      "energy_median_of_medians": 0.7023,
+      "energy_min": 0.1689
+    },
+    "rand16": {
+      "basis_sv_share_median": 0.8459,
+      "energy_median_of_medians": 0.5014,
+      "energy_min": 0.0834
+    },
+    "rand4": {
+      "basis_sv_share_median": 0.6678,
+      "energy_median_of_medians": 0.3157,
+      "energy_min": 0.0243
+    },
+    "rand64": {
+      "basis_sv_share_median": 0.9528,
+      "energy_median_of_medians": 0.7023,
+      "energy_min": 0.1689
+    }
+  },
+  "table": {
+    "full": {
+      "J_main": 58,
+      "J_round": 7,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.7138,
+      "median_dM_main": 0.3542,
+      "median_dM_round": -0.3714,
+      "n_cells": 104
+    },
+    "lr1": {
+      "J_main": 0,
+      "J_round": 0,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.3173,
+      "groups_majority": 1,
+      "median_dM_contrast": -0.0032,
+      "median_dM_main": 0.0062,
+      "median_dM_round": 0.0135,
+      "n_cells": 104
+    },
+    "lr16": {
+      "J_main": 10,
+      "J_round": 11,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4327,
+      "groups_majority": 2,
+      "median_dM_contrast": -0.0388,
+      "median_dM_main": 0.0367,
+      "median_dM_round": 0.1822,
+      "n_cells": 104
+    },
+    "lr4": {
+      "J_main": 0,
+      "J_round": 0,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.2019,
+      "groups_majority": 2,
+      "median_dM_contrast": -0.0578,
+      "median_dM_main": 0.0434,
+      "median_dM_round": 0.1013,
+      "n_cells": 104
+    },
+    "lr64": {
+      "J_main": 13,
+      "J_round": 3,
+      "S": 10,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9038,
+      "groups_majority": 12,
+      "median_dM_contrast": 0.386,
+      "median_dM_main": 0.0498,
+      "median_dM_round": -0.3395,
+      "n_cells": 104
+    },
+    "meanD_donor": {
+      "J_main": 59,
+      "J_round": 2,
+      "S": 57,
+      "SPEC": true,
+      "frac_main_gt_round": 1.0,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.7935,
+      "median_dM_main": 0.4017,
+      "median_dM_round": -0.4548,
+      "n_cells": 104
+    },
+    "meanD_host": {
+      "J_main": 39,
+      "J_round": 0,
+      "S": 39,
+      "SPEC": true,
+      "frac_main_gt_round": 1.0,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.5958,
+      "median_dM_main": 0.2438,
+      "median_dM_round": -0.6565,
+      "n_cells": 104
+    },
+    "meanH_host": {
+      "J_main": 17,
+      "J_round": 0,
+      "S": 17,
+      "SPEC": true,
+      "frac_main_gt_round": 1.0,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.6048,
+      "median_dM_main": 0.1534,
+      "median_dM_round": -0.7034,
+      "n_cells": 104
+    },
+    "rand16": {
+      "J_main": 1,
+      "J_round": 1,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4038,
+      "groups_majority": 2,
+      "median_dM_contrast": -0.0147,
+      "median_dM_main": 0.0147,
+      "median_dM_round": 0.025,
+      "n_cells": 104
+    },
+    "rand4": {
+      "J_main": 0,
+      "J_round": 0,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4615,
+      "groups_majority": 4,
+      "median_dM_contrast": -0.0021,
+      "median_dM_main": -0.0078,
+      "median_dM_round": 0.0057,
+      "n_cells": 104
+    },
+    "rand64": {
+      "J_main": 1,
+      "J_round": 4,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.3365,
+      "groups_majority": 2,
+      "median_dM_contrast": -0.0336,
+      "median_dM_main": -0.0166,
+      "median_dM_round": 0.0164,
+      "n_cells": 104
+    },
+    "xdonor_BULK": {
+      "J_main": 57,
+      "J_round": 6,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9808,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.762,
+      "median_dM_main": 0.3769,
+      "median_dM_round": -0.4794,
+      "n_cells": 104
+    }
+  }
+}

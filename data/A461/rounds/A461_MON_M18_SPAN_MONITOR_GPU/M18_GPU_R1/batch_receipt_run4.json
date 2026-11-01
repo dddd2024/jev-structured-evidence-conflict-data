@@ -1,0 +1,10 @@
+{
+  "attempt_id": "4eb8ac056b8843d2ba1ee042708e27e1",
+  "cumulative_physical_after": 512,
+  "physical": 128,
+  "planned": 128,
+  "rows": 128,
+  "run": 4,
+  "runner_blob": "f5e5c49974ec833c2df4b298f74b9fa5a0d3a214",
+  "status": "COMPLETE"
+}

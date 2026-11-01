@@ -1,0 +1,69 @@
+{
+  "aggregate": {
+    "T2_accept_to_reject": {
+      "C_head_recognized": 4,
+      "action_consistent_own_CQ": 9,
+      "action_correct": 3,
+      "margin_delta_positive": 9,
+      "old_action_correct": 8,
+      "pairs": 10
+    },
+    "T2_wait_to_reject": {
+      "C_head_recognized": 0,
+      "action_consistent_own_CQ": 9,
+      "action_correct": 0,
+      "margin_delta_positive": 8,
+      "old_action_correct": 9,
+      "pairs": 10
+    },
+    "T3_contrast": {
+      "C_head_true": 6,
+      "action_held_reject": 4,
+      "pairs": 6
+    },
+    "nuisance_N1": {
+      "C_differs_ref": 2,
+      "action_differs_ref": 2,
+      "arms": 6
+    },
+    "nuisance_N1B": {
+      "C_differs_ref": 3,
+      "action_differs_ref": 4,
+      "arms": 26
+    },
+    "nuisance_SHAM_RO": {
+      "C_differs_ref": 4,
+      "action_differs_ref": 5,
+      "arms": 6
+    },
+    "nuisance_SHAM_SA": {
+      "C_differs_ref": 0,
+      "action_differs_ref": 2,
+      "arms": 9
+    },
+    "nuisance_SHAM_TS": {
+      "C_differs_ref": 6,
+      "action_differs_ref": 6,
+      "arms": 6
+    }
+  },
+  "baselines": {
+    "deterministic_rule_ceiling": "100% by construction (oracle)",
+    "majority_class_old_gold_on_t2": {
+      "count": 10,
+      "label": "wait",
+      "of": 20
+    },
+    "persist_at_old_decision_on_t2": {
+      "correct": 16,
+      "of": 20
+    }
+  },
+  "forwards": 109,
+  "notes": [
+    "conflict-head margin delta > 0 means the true-minus-false logit gap moved toward recognizing the appended conflict",
+    "SHAM_TS/SHAM_RO reference gold is the treatment gold (treatment-format controls); N1B/N1/SHAM_SA reference the old gold"
+  ],
+  "pairs": 26,
+  "schema": "JEV_A461_G3_G2C_ANALYSIS_V1"
+}

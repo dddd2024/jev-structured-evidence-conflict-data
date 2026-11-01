@@ -1,0 +1,52 @@
+{
+ "gate": {
+  "rows": 248,
+  "expected": 248,
+  "new": 124,
+  "twin": 124,
+  "new_logits_bitwise_parent": 124,
+  "new_captures_bitwise_parent": 124,
+  "twin_emb_span_equal": 124,
+  "parent_auroc_reproduced": {
+   "PROBE:SPAN_ATTN11": false,
+   "PROBE:LAST_RESID_L23": false,
+   "PROBE:SPAN_RESID_L11": false,
+   "PROBE:LAST_RESID_L11": false,
+   "PROBE:SPAN_RESID_emb": false
+  },
+  "pass": false
+ },
+ "verdicts": {
+  "PROBE:SPAN_ATTN11": "INCONSISTENT",
+  "PROBE:LAST_RESID_L23": "INCONSISTENT",
+  "PROBE:SPAN_RESID_L11": "INCONSISTENT",
+  "PROBE:LAST_RESID_L11": "INCONSISTENT",
+  "PROBE:SPAN_RESID_emb": "INCONSISTENT"
+ },
+ "native": {
+  "twin_by_gold_pred": {
+   "accept->reject_conflict": 102,
+   "wait->reject_conflict": 22
+  },
+  "twin_false_veto": 124,
+  "new_rejected": 124,
+  "twin_rejected_where_new_missed": 0,
+  "twin_rejected_where_new_recognized": 124
+ },
+ "primary": {
+  "PROBE:SPAN_ATTN11": {
+   "AUROC_pair": null,
+   "ci_AUROC_pair": null,
+   "twin_flag@FV5": null,
+   "new_flag@FV5": null,
+   "paired_frac_new_gt_twin": null
+  },
+  "PROBE:LAST_RESID_L23": {
+   "AUROC_pair": null,
+   "ci_AUROC_pair": null,
+   "twin_flag@FV5": null,
+   "new_flag@FV5": null,
+   "paired_frac_new_gt_twin": null
+  }
+ }
+}

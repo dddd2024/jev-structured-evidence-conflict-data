@@ -1,0 +1,58 @@
+{
+  "baselines_corrected": {
+    "constant_reject_on_new_arms": "20/20 (degenerate by construction)",
+    "majority_class_old_gold": "10/20 (old-gold distribution, not a new-state classifier)",
+    "persist_old_decision_on_new_gold": "0/20 (all 20 T2 golds change to reject_conflict)",
+    "under_response_measure_relabel": "16/20 = new predictions equal to OLD GOLD (persistence/under-response, not a baseline)"
+  },
+  "d_c_specificity_valid_triples": {
+    "note": "M_C(treatment)-M_C(neutral) on the 13 valid+matched T2 triples; run-338 (0ec558cf) D_C=+7.219 with NEUTRAL false alarm C=true",
+    "positive": 7,
+    "rows": "see n1b roster and per-pair heads",
+    "total": 13
+  },
+  "evidence_level_integer_parse": {
+    "T2_accept": "1/10",
+    "T2_wait": "0/10",
+    "T3": "4/6",
+    "bug": "norm() mapped '0'/'1' to booleans leaving '2' as string vs gold int 2; all correct level-2 predictions were marked wrong",
+    "source": "3c559a7 section 5"
+  },
+  "fisher_restatement": {
+    "clopper_pearson": {
+      "T3_6_of_6": "[0.5407, 1.0]",
+      "genuine_1_of_17_clean_old": "[0.0015, 0.2869]",
+      "new_C_true_4_of_20": "[0.1118, 0.5166]"
+    },
+    "consistent_endpoint_4_20_vs_6_6": "p=9.12e-4 (new C=true outcome on both sides)",
+    "nonoverlap_T3_1_20_vs_4_4": "one-sided exact p=4.71e-4, descriptive only",
+    "pooled_1_20_vs_6_6": "nominal p=3.04e-5; estimands differ (transition vs state) and 2 T3 groups overlap T2"
+  },
+  "recognition_accounting": {
+    "t2_accept": {
+      "genuine": 1,
+      "genuine_of_all": "1/20",
+      "genuine_of_eligible": "1/7",
+      "new_C_true": 4,
+      "old_C_false": 7,
+      "old_C_true_false_alarms": 3
+    },
+    "t2_wait": {
+      "genuine": 0,
+      "new_C_true": 0,
+      "old_C_false": 10
+    },
+    "t3": {
+      "action_accept_despite_C_true": 2,
+      "new_C_true": 6,
+      "started_conflicted": true
+    },
+    "the_single_genuine": "run-338"
+  },
+  "schema": "JEV_A461_G3_CORRECTED_METRICS_V1",
+  "sham_reframing": {
+    "N1": "6/6 state-token SHA identical to their N1B counterparts => not independent variants",
+    "SHAM_SA": "9/9 all from wait cell; zero accept-cell coverage",
+    "SHAM_TS_SHAM_RO": "6/6 each violate received-nondecreasing chronology => out-of-distribution format stress tests, NOT chronology-preserving controls"
+  }
+}

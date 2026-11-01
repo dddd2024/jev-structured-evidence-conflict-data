@@ -1,0 +1,13 @@
+{
+  "backbone_forwards": 0,
+  "cpu_model_loads": 1,
+  "gpu_forwards": 0,
+  "pairs_total": 34,
+  "schema": "JEV_A461_PSMI_G0_N1B_RECEIPT_V1",
+  "stats": {
+    "LANL_infeasible_in_contract": 18,
+    "matched": 14,
+    "no_candidate": 2
+  },
+  "status": "COMPLETE_A461_PSMI_G0_N1B_CPU_ONLY"
+}

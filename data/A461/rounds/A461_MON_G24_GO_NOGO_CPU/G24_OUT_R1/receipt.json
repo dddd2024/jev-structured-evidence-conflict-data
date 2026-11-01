@@ -1,0 +1,57 @@
+{
+  "gpu_forwards": 0,
+  "model_loads": 0,
+  "partA_PARTNER_BLOCK_OTHER": {
+    "gold_eq_old": 1,
+    "groups": 1,
+    "groups_of": 17,
+    "no_third_block": 120,
+    "of": 124,
+    "scenes": 1,
+    "token_positions_changed": {
+      "1": 1
+    }
+  },
+  "partB_state_gap": {
+    "k": {
+      "ATTN11": {
+        "median_rel_between_scenes": 0.32836,
+        "median_rel_within_new_vs_twin": 0.06264,
+        "median_within_over_between": 0.187
+      },
+      "LAST": {
+        "median_rel_between_scenes": 0.02708,
+        "median_rel_within_new_vs_twin": 0.01394,
+        "median_within_over_between": 0.4981
+      },
+      "SPAN_L11": {
+        "median_rel_between_scenes": 0.17081,
+        "median_rel_within_new_vs_twin": 0.02662,
+        "median_within_over_between": 0.1558
+      },
+      "discordant_action_pairs": 15,
+      "discordant_reject_pairs": 11
+    },
+    "s": {
+      "ATTN11": {
+        "median_rel_between_scenes": 0.3483,
+        "median_rel_within_new_vs_twin": 0.12388,
+        "median_within_over_between": 0.347
+      },
+      "LAST": {
+        "median_rel_between_scenes": 0.02527,
+        "median_rel_within_new_vs_twin": 0.0091,
+        "median_within_over_between": 0.3541
+      },
+      "SPAN_L11": {
+        "median_rel_between_scenes": 0.29015,
+        "median_rel_within_new_vs_twin": 0.07473,
+        "median_within_over_between": 0.2621
+      },
+      "discordant_action_pairs": 15,
+      "discordant_reject_pairs": 1
+    }
+  },
+  "schema": "JEV_A461_MON_G24_GO_NOGO_CPU_V1",
+  "script_sha256": "eae3ca7570ad5dcd47cecfa60b0d543cd2d642e8a568e94748ac39b09ee61244"
+}

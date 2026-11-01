@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "c_decide_offset_in_branch": 25,
+      "c_keys": [
+        "false",
+        "true"
+      ],
+      "c_opts_offsets_in_branch": [
+        21,
+        24
+      ],
+      "conflicting_vote_branch_index": 1,
+      "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e"
+    },
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "c_decide_offset_in_branch": 25,
+      "c_keys": [
+        "false",
+        "true"
+      ],
+      "c_opts_offsets_in_branch": [
+        21,
+        24
+      ],
+      "conflicting_vote_branch_index": 1,
+      "pair_key": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe"
+    },
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "c_decide_offset_in_branch": 25,
+      "c_keys": [
+        "false",
+        "true"
+      ],
+      "c_opts_offsets_in_branch": [
+        21,
+        24
+      ],
+      "conflicting_vote_branch_index": 1,
+      "pair_key": "T2_ACCEPT_TO_REJECT:231b919006dc1777"
+    }
+  ],
+  "schema": "JEV_A461_G5_PILOT_C_ROW_RESOLUTION_V1"
+}

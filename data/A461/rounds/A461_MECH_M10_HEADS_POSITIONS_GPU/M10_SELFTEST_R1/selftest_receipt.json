@@ -1,0 +1,91 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "c67df778f46f9b3fecaf96fd55cb62c48455bfba",
+  "passed": 16,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 5244, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M10 rows=5244 batches=41 captures=44 files=88 (sha ok=True, shapes ok=True); cross-row max 2.4e-07",
+      "test": "fake_full_path_5244_with_44_captures_and_class_files",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)",
+      "test": "class_contributions_partition_and_sum_to_oproj_input",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "24 arms distinct in 208/208 (cell, source); cs1 vs meanD_host 9.5e-06; energy shares par + perp - 1 max 0.0e+00, writer + rest heads - 1 max 0.0e+00, rescaled slice share - unscaled slice share max 0.0e+00, writer-without-10 + 10 - writer max 1.0e-06, p29 + p30 - 1 max 0.0e+00; 25 arms x 208; op/classes match the frozen arm table: True",
+      "test": "twentyfive_arms_wiring_and_energy_bookkeeping",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2288 rescaled contrast rows: runner size gate max rel err 3.4e-08; median energy shares {'cpar16_sm': 0.9538, 'cperp16_sm': 0.0462, 'crand16_sm': 0.2506, 'crand16_sm_s1': 0.2292, 'crand16_sm_s2': 0.2399, 'crand16_sm_s3': 0.2555, 'crand16_sm_s4': 0.239, 'chW_sm': 0.47, 'ch10_sm': 0.0366, 'chR_sm': 0.53, 'chWx10_sm': 0.4319}; alpha max 10.0 <= cap 10; random frames uncapped (capped share 0.0)",
+      "test": "rescaled_slices_and_parts_pass_the_size_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "host baselines=16; all-row patches moving both C and action rows: 5200/5200 (small arms can be tiny in the fake model)",
+      "test": "all_row_patches_reach_c_and_action",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "full no-op, all-16-heads contrast == cs1 and all-31-positions contrast == cs1, bitwise; max |logit diff| all_heads_sm_vs_cs1 0.0e+00, cshift_donor_only_vs_pool_donor 0.0e+00, par_full_width_vs_cs1 0.0e+00, shift_all_positions_vs_cs1 5.8e-06",
+      "test": "identities_pool_heads_positions_and_split",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 2600, 'ROUND': 2600}, targets {'new': 5200}; pools exclude the cell's donor and host, right kind / arm / sign / t / heads / rescale / positions / basis: True; 5 distinct random frames per row: True",
+      "test": "round_arms_rebuilt_from_g10_and_used_as_sources",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one variant round edited: refused at the blob pin",
+      "test": "tampered_g10_counterfactuals_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 5244-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's key classes changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "7f2577cc1673d946692d962fddf857e05485a19a",
+  "schema": "JEV_A461_MECH_M10_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 16
+}

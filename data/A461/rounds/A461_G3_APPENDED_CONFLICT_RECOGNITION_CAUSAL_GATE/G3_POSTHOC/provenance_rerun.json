@@ -1,0 +1,21 @@
+{
+  "byte_comparison_vs_archived_G0C": {
+    "census.json": "IDENTICAL",
+    "pair_rows.jsonl": "IDENTICAL",
+    "token_audit.jsonl": "IDENTICAL"
+  },
+  "checked_out_head": "dd55688a",
+  "conclusion": "archived G0C IS reproducible byte-identically from the checked-in constructor; the earlier static reading ('cannot be reproduced', 3c559a7 section 6) is corrected by this direct evidence; the 106-vs-109 deviation is real, explained, and disclosed, not concealed",
+  "constructor": "A461_g3_conflict_gate_cpu_v1.py (checked-in, SHAM_CAP=6)",
+  "date": "2026-10-25",
+  "rerun_dir": "~/wjc/a461-g3-posthoc-erratum-20261025-v1/G0C_RERUN",
+  "result": {
+    "n1b_matched_vs_treatment_token_only": 19,
+    "pairs": 26,
+    "planned_forwards": 109,
+    "status": "COMPLETE_A461_G3_G0C_CPU_GATE_IMPL1",
+    "total_arms": 79
+  },
+  "schema": "JEV_A461_G3_PROVENANCE_RERUN_V1",
+  "sham_cap_semantics": "the loop breaks when sham_used >= SHAM_CAP where sham_used increments only on COMPLETED triples (SA+TS+RO); a TS-infeasible pair emits SA-only via continue WITHOUT consuming the cap, so SHAM_SA can exceed the per-family nominal count (9 > 6); 109 = 106 planned + 3 SA-only extensions, within the 128 absolute cap"
+}

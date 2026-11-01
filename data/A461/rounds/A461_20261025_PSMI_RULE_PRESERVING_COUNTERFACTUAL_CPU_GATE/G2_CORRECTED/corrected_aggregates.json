@@ -1,0 +1,48 @@
+{
+  "lanl_external_validity": "only 3 day groups, all previously touched by A428; no unseen-group validation possible on LANL",
+  "n1_match_vs_treatment": {
+    "matched": 29,
+    "mismatched": [
+      "TWINS_T2_CONFLICT_AXIS accept->reject cells run-100/run-125"
+    ],
+    "total": 31
+  },
+  "n1b_risk_endpoint": {
+    "detail": "T1 run105/114 round-shift vote misread as quorum-satisfied",
+    "old_clean_denominator": 12,
+    "strict_clean_to_wrong": 2,
+    "unconditional_action_wrong": 4
+  },
+  "n2": {
+    "gold_invariance_confirmed_by_independent_state_reconstruction": "3/3",
+    "own_third_oracle_bug": "acknowledged, superseded"
+  },
+  "nonregression": {
+    "L3A_baseline_wrong": 2,
+    "L3A_old_correct": "4/4 held",
+    "T3_baseline_wrong": 1,
+    "T3_old_correct": "3/3 held"
+  },
+  "schema": "JEV_A461_PSMI_G2_CORRECTED_AGGREGATES_V1",
+  "strict_sign_reversal": {
+    "count": "1/20 old-correct gold-changing pairs",
+    "matched_control": "absent",
+    "pair": "T2 run-100 (dM=-1.497)"
+  },
+  "supersedes": "G2_REAL_20261025/analysis.json aggregate section (errata 1-3 above)",
+  "t2_matched_contrast": {
+    "exact_two_sided_p": 0.125,
+    "neutral_errors": 0,
+    "note": "run-100/125 have no executed neutral; 6/6 failed_to_change is a gold-changing outcome statement only",
+    "pairs_with_executed_neutral": 4,
+    "treatment_errors": 4
+  },
+  "t2_phenotype_reclassification": {
+    "action_equals_f_of_model_CQ": "6/6",
+    "conflicting_vote_head_correct": "0/6",
+    "evidence_level_correct": "0/6",
+    "interpretation": "appended-conflict recognition failure (cross-message author x round x block binding), not action-threshold failure; same-run T3 contrast (105/114/125) shows pre-existing conflicts ARE recognized",
+    "quorum_head_correct": "6/6",
+    "source": "2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json"
+  }
+}

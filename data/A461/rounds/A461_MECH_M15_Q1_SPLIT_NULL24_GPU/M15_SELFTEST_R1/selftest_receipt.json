@@ -1,0 +1,91 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "bcefb29e5b9ab20150680232c1e7c723a9b857a2",
+  "passed": 16,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 5500, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M15 rows=5500 batches=43 captures=44 files=88 (sha ok=True, shapes ok=True); cross-row max 2.4e-07",
+      "test": "fake_full_path_5500_with_44_captures_and_class_files",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)",
+      "test": "class_contributions_partition_and_sum_to_oproj_input",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "26 full arms distinct in 208/208 (cell, source); 4 replay arms on 6 subset cells, 2 per host: True; tilt arms share r per cell (0.0e+00), energy share = 1 + lam^2 r_share (max 4.0e-09), tilt gate max 1.1e-15, min r_share 0.0119, |null cos to r| median max 0.210; c_30 weight 0 share = 1 - e_30 (0.0e+00); AB shift u as planned (0.0e+00); 30 arms; op/classes match the frozen arm table: True",
+      "test": "thirty_arms_wiring_and_size_bookkeeping",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "3768 tilt / null rows: tilt gate max 1.1e-15; median ||r|| / ||c|| 0.2099, median par energy share 0.9538; 0 shift_scale rows (none planned)",
+      "test": "tilt_and_shift_arms_pass_the_size_gates",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "host baselines=16; all-row patches moving both C and action rows: 5456/5456 (small arms can be tiny in the fake model)",
+      "test": "all_row_patches_reach_c_and_action",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "full no-op, all-16-heads contrast, weight 1 at position 30 and all-31-positions contrast == the cs arm (csc29_s05 without its c_30 weight), bitwise; the AB shift with c_30 weight 0 == with c kept at 29 only, bitwise; weight 0 at 30 == cpos29; cs1 rebuilt == meanD_host; AB shift_scale 1 == unscaled; the tilt and its null on a k = 64 basis (r = 0, r_share max 0.0e+00) == the cs arm; max |logit diff| ab_shift_scale_1_vs_unscaled 0.0e+00, cs1_vs_meanD_host 3.8e-06, cshift_donor_only_vs_pool_donor 0.0e+00, shift_all_positions_vs_cs1 3.1e-06, tilt_full_width_m2_vs_cs1 0.0e+00, tilt_full_width_null_vs_cs1 0.0e+00, tilt_full_width_vs_cs1 0.0e+00, weight_0_vs_cpos29 0.0e+00",
+      "test": "identities_pool_heads_positions_weights_shift_and_tilt",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 2728, 'ROUND': 2728}, targets {'new': 5456}; pools exclude the cell's donor and host, right kind / arm / sign / t / heads / rescale / positions / norms / shift / weights / basis / null: True; 16 distinct null seeds per cell (the M14 family, i 9-24, disjoint from M14 i 1-8), shared by main and round, and the M14 seed 1 on the replayed null: True",
+      "test": "round_arms_rebuilt_from_g10_and_used_as_sources",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one variant round edited: refused at the blob pin",
+      "test": "tampered_g10_counterfactuals_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 5500-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's key classes changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "8632c3a13fd430be348ccf36996c63f942266793",
+  "schema": "JEV_A461_MECH_M15_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 16
+}

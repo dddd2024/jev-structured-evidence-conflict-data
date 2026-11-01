@@ -1,0 +1,32 @@
+{
+  "stage": "A461_MON_M22_SECJEV_REPLICATION_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_MON_M22_GPU_20261101_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "governance_amendment": "GOVERNANCE_AMENDMENT_20261027_STANDING_GPU_AUTHORIZATION.md (standing GPU authorization; no per-experiment approval)",
+  "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+  "user_gpu_approval_utc": "2026-10-27T11:12:00Z",
+  "user_stage_instruction_quote": "按照高标准的来",
+  "approval_kind": "standing",
+  "approved_runner_blob": "caf75530060b7981b744c27e3aee74d5a5ce79b0",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 620,
+  "approved_batches": 5,
+  "approved_batch_plan": [
+    128,
+    128,
+    128,
+    128,
+    108
+  ],
+  "frozen_inputs": {
+    "manifest_blob": "c06d08ad1ebf9268bde44fc73ac21db0439ca542",
+    "design_blob": "759a4c83a5f205d9c606094502a5be07a33792e4",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+  "user_stage_instruction_context": "high-standard plan agreed with the user on 2026-10-31 ('按照高标准的来'): M20 necessity (done), M21 causal readout, M22 second-model replication, then packaging; M22 = the frozen M18 monitor-capture design on SecJev-0.8B (124 Stage-A scenes x old/new/SA/ROUND/OUTSIDER, read-only captures), old/new/SA bitwise == SecJev Stage-A raw rows; standing GPU authorization"
+}

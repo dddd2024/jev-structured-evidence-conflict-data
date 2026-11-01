@@ -1,0 +1,76 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "080bc5741bfc676f6d0f2b5dbc613652a6a9ddd4",
+  "passed": 13,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 5580, 'scenes': 124, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M19 rows=5580 capture files=620 sha=True conditions={'replay': 620, 'probe': 3720, 'random': 1240}",
+      "test": "fake_full_path_5580_rows",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "replay decide state x fake head reproduces the certificate_action logits in 40 rows (max abs 0.0e+00)",
+      "test": "decide_capture_is_the_head_readout",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "op rows 4960: dev = proj - c within 1.7e-06; |delta| = (gamma - 1)|dev| within 1.7e-05; certificate_action logits moved in 4960; other rows unchanged (runner-enforced, fake tol 1e-5)",
+      "test": "op_is_the_frozen_amplification",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: op row 2",
+      "test": "probe_direction_of_another_group_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one byte appended to the directions file: refused at its sha",
+      "test": "tampered_directions_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission after a complete 5580-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "tampered manifest refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "9c0a3108308510c7bc1a18807d8bd234d032758e",
+  "schema": "JEV_A461_MECH_M19_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 13
+}

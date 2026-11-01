@@ -1,0 +1,299 @@
+{
+ "ci95_group_bootstrap": {
+  "gain_L19_g32|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g32|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "gain_L31_g32|FV": [
+   0.007,
+   0.0619
+  ],
+  "gain_L31_g32|REPAIR": [
+   0.0,
+   0.0349
+  ],
+  "gain_L31_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L31_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b05|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b05|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b05|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b05|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "rand_L19_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "rand_L19_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "rand_L31_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "rand_L31_b20|REPAIR": [
+   0.0,
+   0.0
+  ]
+ },
+ "consistency_gate": {
+  "expected": 6820,
+  "op_conditions": {
+   "gain_L19_g32": 620,
+   "gain_L19_g8": 620,
+   "gain_L31_g32": 620,
+   "gain_L31_g8": 620,
+   "push_L19_b05": 620,
+   "push_L19_b20": 620,
+   "push_L31_b05": 620,
+   "push_L31_b20": 620,
+   "rand_L19_b20": 620,
+   "rand_L31_b20": 620
+  },
+  "op_rows": 6200,
+  "pass": true,
+  "replay_bitwise_m18": 620,
+  "replays": 620,
+  "rows": 6820
+ },
+ "counts": {
+  "BENIGN": 483,
+  "MISSED": 84,
+  "NATIVE_FV": 13,
+  "RECOGNIZED": 40
+ },
+ "fake_dry_run": false,
+ "head_pt_sha256": "dd633435998ecc751ac538717a3742e32149500fabf7d7276287dbf0693f347c",
+ "measures": {
+  "gain_L19_g32": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 0.95,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": 0.0066,
+   "median_dA_missed": -0.0119
+  },
+  "gain_L19_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": 0.0012,
+   "median_dA_missed": -0.0045
+  },
+  "gain_L31_g32": {
+   "FV": 0.035196687370600416,
+   "FV_OUTSIDER": 0.01694915254237288,
+   "FV_ROUND": 0.017094017094017096,
+   "FV_SA": 0.06451612903225806,
+   "FV_old": 0.04032258064516129,
+   "RECOGNIZED_kept": 0.975,
+   "REPAIR": 0.011904761904761904,
+   "fv_groups": {
+    "cp95_upper": 0.5219,
+    "groups_with_fv": 5,
+    "of": 17
+   },
+   "median_dA_benign": -0.001,
+   "median_dA_missed": -0.0274
+  },
+  "gain_L31_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0002,
+   "median_dA_missed": -0.0098
+  },
+  "push_L19_b05": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0021,
+   "median_dA_missed": -0.0019
+  },
+  "push_L19_b20": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0087,
+   "median_dA_missed": -0.0078
+  },
+  "push_L31_b05": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0125,
+   "median_dA_missed": -0.0112
+  },
+  "push_L31_b20": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0416,
+   "median_dA_missed": -0.0375
+  },
+  "rand_L19_b20": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0005,
+   "median_dA_missed": -0.0002
+  },
+  "rand_L31_b20": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": 0.0143,
+   "median_dA_missed": 0.0151
+  }
+ },
+ "readout_geometry": {
+  "median_cos_probe_vs_head_gradient": {
+   "BENIGN": -0.0624,
+   "MISSED": -0.0619,
+   "RECOGNIZED": 0.0182
+  },
+  "note": "cos > 0: moving along the held-out conflict direction raises z_reject - z_accept",
+  "status": "COMPUTED"
+ },
+ "rules": {
+  "consistency_gate": "620 replays bitwise == M18; every op row reaches only the certificate_action row (runner); conditions as planned; otherwise INCONSISTENT",
+  "direction": "u_{L,g} = (mean over training-group new rows - mean over training-group BENIGN rows) of the decide-token residual after layer L, normalised; training groups = all source groups except g; applied only to rows of group g (held out). BENIGN = old / SA / ROUND / OUTSIDER rows not rejected natively (M18)",
+  "interpretation_fixed_in_advance": "CAUSAL_SELECTIVE: the conflict information already present at the decide token is usable by the readout when its own deviation is amplified - an under-weighted readout, shown causally (closes M19's open question). CAUSAL_PUSH_ONLY: the conflict direction can drive the readout, but only as an input-independent push, which is not conditional on a conflict being present in the row; the readout reads the direction but the per-row conflict signal along it is too weak. NOT_READABLE: even a push of 20% of |h| along the conflict direction does not move the decision - the readout does not read this direction at all (consistent with the M19 orthogonality). Level S1-S2; not a defence (needs rule-labelled data)",
+  "measures": "REPAIR (MISSED -> reject_conflict), FV per benign arm, RECOGNIZED kept, median dA; group-level FV count with Clopper-Pearson bound; group bootstrap",
+  "operations": "only at the <decide> token of the certificate_action row, on the residual output of layer L: gain h + (gamma - 1)(h.u - c) u with c = training BENIGN mean of h.u, gamma 8 / 32; push h + beta |h| u, beta 0.05 / 0.2; rand h + 0.2 |h| v with v a unit Gaussian direction seeded per row and layer",
+  "sets": "as M19: MISSED 84, RECOGNIZED 40, BENIGN 483 (from the replays' native action)",
+  "verdict": "per layer: CAUSAL_SELECTIVE iff some gain gamma has REPAIR >= 0.5 and FV <= 0.05 on every benign arm; CAUSAL_PUSH_ONLY iff no gain arm qualifies but some push beta has REPAIR >= 0.5 with REPAIR - FV_max >= 0.30 and rand (beta 0.2) has REPAIR <= REPAIR(push 0.2) - 0.30; NOT_READABLE iff every gain and push arm has REPAIR < 0.5; else NONSELECTIVE"
+ },
+ "schema": "JEV_A461_MECH_M21_ANALYSIS_V1",
+ "verdicts": {
+  "L19": "NOT_READABLE",
+  "L19_selective_gammas": [],
+  "L31": "NOT_READABLE",
+  "L31_selective_gammas": []
+ }
+}

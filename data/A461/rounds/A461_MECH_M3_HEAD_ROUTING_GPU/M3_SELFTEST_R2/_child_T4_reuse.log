@@ -1,0 +1,6 @@
+returncode=2
+--- stdout ---
+{"batch_receipts":[],"denied_prehook_calls":0,"elapsed_seconds":null,"error_message":"cumulative overrun: ledger consumed 7740 + plan 7740 > approved 7740","physical_prehook_calls":0,"preflight":null,"status":"FAIL_A461_MECH_M3"}
+
+--- stderr ---
+

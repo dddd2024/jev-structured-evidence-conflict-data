@@ -1,0 +1,29 @@
+{
+  "bug": "G3 scene exclusion compared 16-hex truncated pair_key suffixes against 64-hex full state SHAs - formats could never match, so the exclusion was a no-op for G3 scenes (A428 exclusions used full SHAs and worked)",
+  "date": "2026-10-25",
+  "discovery": "independent pre-patching audit afbebb4 (P0-1): 7/36 V1 pairs reused G3 original states, found by full-state reconstruction",
+  "fix": "G3 original states reconstructed by removing the single appended treatment event from each archived new arm; excluded by full 64-hex SHA",
+  "protocol_impact": "patching protocol V2 (SA-host design) frozen with V2 rosters; V1 protocol preserved unmodified",
+  "schema": "JEV_A461_G5_CONS_EXCLUSION_ERRATUM_V1",
+  "sensitivity": "unique-original G5 scenes: 29 in V1 (1 qualified/1 partial/27 failed, SA matched 26/29) per audit afbebb4; V2 replaces the 7 duplicates with 7 fresh scenes (all failed in search)",
+  "v2_donor_search": {
+    "failed": 33,
+    "forwards": 112,
+    "note": "2 of the 4 V1 partials were among the 7 duplicates; the qualified donor (run83) is unique-original and remains valid",
+    "partial": 2,
+    "qualified": 1,
+    "sa_neutrals_C_false": "34/36",
+    "superseded_v1_counts": {
+      "failed": 31,
+      "partial": 4,
+      "qualified": 1
+    }
+  },
+  "v2_rerun": {
+    "donor_433890d1_present": true,
+    "g3_duplicate_scenes": 0,
+    "pairs": 36,
+    "planned_forwards": 112,
+    "receipt": "G0D_CONS/execution_receipt.json (V2)"
+  }
+}

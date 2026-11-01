@@ -1,0 +1,287 @@
+{
+ "gate": {
+  "rows": 6820,
+  "expected": 6820,
+  "replays": 620,
+  "op_rows": 6200,
+  "replay_bitwise_m18": 620,
+  "op_conditions": {
+   "gain_L19_g8": 620,
+   "gain_L19_g32": 620,
+   "push_L19_b05": 620,
+   "push_L19_b20": 620,
+   "rand_L19_b20": 620,
+   "gain_L31_g8": 620,
+   "gain_L31_g32": 620,
+   "push_L31_b05": 620,
+   "push_L31_b20": 620,
+   "rand_L31_b20": 620
+  },
+  "pass": true
+ },
+ "verdicts": {
+  "L19": "NOT_READABLE",
+  "L19_selective_gammas": [],
+  "L31": "NOT_READABLE",
+  "L31_selective_gammas": []
+ },
+ "measures": {
+  "gain_L19_g8": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0045,
+   "median_dA_benign": 0.0012,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "gain_L19_g32": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 0.95,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0119,
+   "median_dA_benign": 0.0066,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "push_L19_b05": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0019,
+   "median_dA_benign": -0.0021,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "push_L19_b20": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0078,
+   "median_dA_benign": -0.0087,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "rand_L19_b20": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0002,
+   "median_dA_benign": -0.0005,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "gain_L31_g8": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0098,
+   "median_dA_benign": -0.0002,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "gain_L31_g32": {
+   "REPAIR": 0.011904761904761904,
+   "FV": 0.035196687370600416,
+   "RECOGNIZED_kept": 0.975,
+   "FV_old": 0.04032258064516129,
+   "FV_SA": 0.06451612903225806,
+   "FV_ROUND": 0.017094017094017096,
+   "FV_OUTSIDER": 0.01694915254237288,
+   "median_dA_missed": -0.0274,
+   "median_dA_benign": -0.001,
+   "fv_groups": {
+    "groups_with_fv": 5,
+    "of": 17,
+    "cp95_upper": 0.5219
+   }
+  },
+  "push_L31_b05": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0112,
+   "median_dA_benign": -0.0125,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "push_L31_b20": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": -0.0375,
+   "median_dA_benign": -0.0416,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  },
+  "rand_L31_b20": {
+   "REPAIR": 0.0,
+   "FV": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "FV_old": 0.0,
+   "FV_SA": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "median_dA_missed": 0.0151,
+   "median_dA_benign": 0.0143,
+   "fv_groups": {
+    "groups_with_fv": 0,
+    "of": 17,
+    "cp95_upper": 0.1616
+   }
+  }
+ },
+ "ci": {
+  "gain_L19_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g32|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "gain_L19_g32|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b05|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b05|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L19_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "rand_L19_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "rand_L19_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L31_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "gain_L31_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "gain_L31_g32|REPAIR": [
+   0.0,
+   0.0349
+  ],
+  "gain_L31_g32|FV": [
+   0.007,
+   0.0619
+  ],
+  "push_L31_b05|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b05|FV": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "push_L31_b20|FV": [
+   0.0,
+   0.0
+  ],
+  "rand_L31_b20|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "rand_L31_b20|FV": [
+   0.0,
+   0.0
+  ]
+ },
+ "counts": {
+  "BENIGN": 483,
+  "RECOGNIZED": 40,
+  "MISSED": 84,
+  "NATIVE_FV": 13
+ },
+ "readout_geometry": {
+  "status": "COMPUTED",
+  "median_cos_probe_vs_head_gradient": {
+   "MISSED": -0.0619,
+   "RECOGNIZED": 0.0182,
+   "BENIGN": -0.0624
+  },
+  "note": "cos > 0: moving along the held-out conflict direction raises z_reject - z_accept"
+ }
+}

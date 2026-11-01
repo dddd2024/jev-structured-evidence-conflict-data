@@ -1,0 +1,509 @@
+{
+  "D1_screen": {
+    "excluded": "the single W32 scene (exploratory per Option A)",
+    "expected": "~1.5 donors at the Stage-A rate 4/124; new donors feed a later stage only",
+    "rule": "strict: C old=F, new=T, SA=F on the frozen witness (same as Stage-A); per width",
+    "scenes": [
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "cdbcd623e066e8f62371ff205e67d651ccc2f0295177a0433c6bf679657a5fd7",
+        "source_group": "twins_streamlet:run-125"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ce68b61325274a19f01ab67fea257341ccf032ed84e8a114acd52401e6a66213",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ce9ab1e9594535b400fdbe21ee14d902626d642828e37aee875145ae7ac055cb",
+        "source_group": "twins_streamlet:run-212"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "d0331185d6d06cad7599a7cb22721e8915894e4bd26271eff1e8dee28ac50881",
+        "source_group": "twins_streamlet:run-140"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "d0949d2b317131e35107e38c03090216eb3b113b97d740438e13632d7fea91da",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "d3cc1c0cdd0aba88ce3065ace1806f20fc8579571aadae2bfa1974e79167fb45",
+        "source_group": "twins_streamlet:run-344"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "d76efff999dea9f6cc279a117400e590a2f12e04c815acb65f50033b8ce7db58",
+        "source_group": "twins_streamlet:run-272"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "d7e13ffe2951aab308aa0829d6a2c4caab7093e24a3c91d46bc6b9937e0f9c4b",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "e0aae103b4ad838d6d6863b4d799ce897b371a75e5307f95d7725af7b50fe300",
+        "source_group": "twins_streamlet:run-212"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "e231b7318a5d4b5a4f28e90e4a9041b5142244fd016c95b155a2f3b7191c2204",
+        "source_group": "twins_streamlet:run-220"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "e40e45a9e5e99c649984d6818599ab21eebff923850401574aef4eb60cf74e7d",
+        "source_group": "twins_streamlet:run-272"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "e426a7ccd29b86f215ecf641996284c1937c27a745afaeb409b01d4058605cd3",
+        "source_group": "twins_streamlet:run-140"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "e5d06c8771d91da631ae957e6638f3837afceab144dd8ee00bebfae4923db55c",
+        "source_group": "twins_streamlet:run-68"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ea1836baaf4401428c7da6319df0df7c572be4f0f9a96117f4939393635f13ee",
+        "source_group": "twins_streamlet:run-68"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ebbfdf8928f1d8c3414967a0748a63f6b1e0acf41685edf6b458c49668c8447c",
+        "source_group": "twins_streamlet:run-272"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ed8f1def503e5956fef55fec7ab7472960b3e1f238943fe9ff91451dd8633f3d",
+        "source_group": "twins_streamlet:run-68"
+      },
+      {
+        "cell": "wait",
+        "frozen_width": 31,
+        "scene_sha256": "f3dedbe903bf4812254086dc79f52666c69fcf7c6e5301f486f642b6a2671b88",
+        "source_group": "twins_streamlet:run-337"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "f5328d2e28ba52f425b40e7388a5420218ba542f3864fef15128802f7c9c5e49",
+        "source_group": "twins_streamlet:run-344"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "f72b5b466fa63a7a0d2079998875ffe39a35243ff5158c13140a9e62c169ce9c",
+        "source_group": "twins_streamlet:run-212"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "f7aee5baf43037b8c760c5d24d44e2609aad4cdd2bce264bd180314574d09857",
+        "source_group": "twins_streamlet:run-161"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 31,
+        "scene_sha256": "ff395c22b8c783678b42e3487a64a6e3b15603d76ef4fa01ca0611a07dd9ee26",
+        "source_group": "twins_streamlet:run-338"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "0623d0da21670d1f2fde377a13d070c3a0be8b80f7f8b2340f29c8ae8977be3c",
+        "source_group": "twins_streamlet:run-279"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "13da00107c565f33954a46330fed5bb2af852b1b549a0cf5ab23c171c2214dec",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "1f221a1c19428819dc17ee06a50b8a140247d4aa4303cfc933bd309f6cea8a8f",
+        "source_group": "twins_streamlet:run-267"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "1f43b424ff33e022c58cf7805eedb16097882639bed53fb5d3d7b57008bc3c50",
+        "source_group": "twins_streamlet:run-267"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "25706997d8fc1b3354cb864485f81f3b8f3a2bd9103c5e3b7c353dacaf30748f",
+        "source_group": "twins_streamlet:run-351"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "429f467cf463b2622a9cd78acd2e5f47426d2e2cefb4e4e716163c4c02c97f6b",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "48aef4e804d1c1982588dff57d2d56bd31f3f6bda92d952ab30c32e32fb98fc7",
+        "source_group": "twins_streamlet:run-159"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "5acbbd97d80a0da52311c4c58d03abec3f034031f0ab7ffa201bf40d4ed49b0d",
+        "source_group": "twins_streamlet:run-336"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "5f3900d700dbb811c58463f3fda8660b7370042fff227be7ff2775c614445ddc",
+        "source_group": "twins_streamlet:run-279"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "67042a524d4f28f6eaa69d4626b0c1e8aab3107e1c72d4c7f4e5c65c84c4fd23",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "67d5e6208af2a9f476849c90259219b0fa6398ec8ff4b447b638a3da056d0de2",
+        "source_group": "twins_streamlet:run-159"
+      },
+      {
+        "cell": "wait",
+        "frozen_width": 34,
+        "scene_sha256": "68cf0f51b7dea879e543ed9b37c8a834d8d0762086417770a12db874a8f48add",
+        "source_group": "twins_streamlet:run-231"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "6bea7d2ee958d6e41762f502ee4104e2c21389e640122b3164e40fd4371b84c6",
+        "source_group": "twins_streamlet:run-342"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "8ecfab5d500017430aa38b11daba830a1525975db164bf5d9e92709695286cf0",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "9c35db59acee110272514224f03987c0feebe374550915d890bd7f7c877dcf7b",
+        "source_group": "twins_streamlet:run-267"
+      },
+      {
+        "cell": "wait",
+        "frozen_width": 34,
+        "scene_sha256": "a0d7e0abec0fcabc7a803bb268ba13d360c09629df3480148b17cf6019b310ea",
+        "source_group": "twins_streamlet:run-159"
+      },
+      {
+        "cell": "wait",
+        "frozen_width": 34,
+        "scene_sha256": "a56c7f865b21a30e242c417cca355099f8d8287b837b541e9d3f2b60b3bd2847",
+        "source_group": "twins_streamlet:run-231"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "be6bb83fc36a187da8d6929efc4d65e35c30ad668cdd5b002cb4f22abbdb4da0",
+        "source_group": "twins_streamlet:run-279"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "c25075e1c38c89c5d1574dab3a924738630194febdf699a394113ec2ddc7f9e4",
+        "source_group": "twins_streamlet:run-267"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "d591c1a72ef024009cb84f4b8eaeaa000054d8a485e86292b226deb21d7d7556",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "d824fa66adcfeddbaf3e9cfc57e9c5e6a6741fae3ada2a92cf3b9363bf0c97c8",
+        "source_group": "twins_streamlet:run-279"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "dc6d4a9ca2539832427671ba7d2d0c46139f7febc0f41579707be30a412b7641",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "e122f766186dba2c96d1b3b1f55d3f080d8f600d60fa6a55947c74dee1366efd",
+        "source_group": "twins_streamlet:run-159"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "e3c602006bbe852d12b1cc37e85a79f48be86d7f94d065b78b00f3755b8c8056",
+        "source_group": "twins_streamlet:run-24"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "e5b993df126c77f93dc5673b549c16f0208425bf3ed9b185c0e439123e020fb1",
+        "source_group": "twins_streamlet:run-159"
+      },
+      {
+        "cell": "accept",
+        "frozen_width": 34,
+        "scene_sha256": "f34f8c313ff8c1805f5610bae7ffaeaed926133749f64ef17c43d17f94ad0d22",
+        "source_group": "twins_streamlet:run-279"
+      }
+    ]
+  },
+  "D2_repair": {
+    "donors": [
+      {
+        "M": {
+          "SA": -7.198084,
+          "new": 2.250621,
+          "old": -1.701655
+        },
+        "action": {
+          "SA": "accept",
+          "new": "reject_conflict",
+          "old": "accept"
+        },
+        "cell": "accept",
+        "scene_sha256": "06dabe0512b76afb68977fd574f7725aac20f4c40b6194dc33657f478efd31d0",
+        "source_group": "twins_streamlet:run-212"
+      },
+      {
+        "M": {
+          "SA": -1.681692,
+          "new": 3.511954,
+          "old": -2.380373
+        },
+        "action": {
+          "SA": "wait",
+          "new": "reject_conflict",
+          "old": "wait"
+        },
+        "cell": "accept",
+        "scene_sha256": "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "source_group": "twins_streamlet:run-338"
+      },
+      {
+        "M": {
+          "SA": -8.363268,
+          "new": 0.861979,
+          "old": -4.523354
+        },
+        "action": {
+          "SA": "accept",
+          "new": "reject_conflict",
+          "old": "accept"
+        },
+        "cell": "accept",
+        "scene_sha256": "508ecd55774f634a16e03254e24ad195318300f588fa3dd69fd6e76e62462326",
+        "source_group": "twins_streamlet:run-212"
+      },
+      {
+        "M": {
+          "SA": -3.594846,
+          "new": 4.449639,
+          "old": -5.2535
+        },
+        "action": {
+          "SA": "accept",
+          "new": "reject_conflict",
+          "old": "accept"
+        },
+        "cell": "accept",
+        "scene_sha256": "90dbf6d6536f757d7ee4717ef79313a72c53f84e48b5080e718be4fb68f2cee5",
+        "source_group": "twins_streamlet:run-140"
+      }
+    ],
+    "host_rule": "Stage-A FFF, M_new >= -4.0, source group not a donor group; all qualifying (8)",
+    "hosts": [
+      {
+        "M": {
+          "SA": -5.889073,
+          "new": -0.715097,
+          "old": -7.001886
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "wait",
+        "scene_sha256": "7b32d70d2f1d6f1fdd049292803c24665b6dc44e25fbe86624da2ca16a38471a",
+        "source_group": "twins_streamlet:run-337"
+      },
+      {
+        "M": {
+          "SA": -3.932384,
+          "new": -1.50364,
+          "old": -1.637943
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "wait",
+        "scene_sha256": "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "source_group": "twins_streamlet:run-181"
+      },
+      {
+        "M": {
+          "SA": -5.257569,
+          "new": -2.301714,
+          "old": -4.312428
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "wait",
+        "scene_sha256": "4cda623cbcdf9480e7a210c260ebc10d228e7e7af3e2cd27ef95f20035e165b2",
+        "source_group": "twins_streamlet:run-121"
+      },
+      {
+        "M": {
+          "SA": -7.104275,
+          "new": -2.986744,
+          "old": -6.128101
+        },
+        "action": {
+          "SA": "accept",
+          "new": "wait",
+          "old": "accept"
+        },
+        "cell": "accept",
+        "scene_sha256": "57c807cc7e4e43f889a54405d574fbd83981bf649953be0bb4f4eaa4e08c7a11",
+        "source_group": "twins_streamlet:run-121"
+      },
+      {
+        "M": {
+          "SA": -6.041136,
+          "new": -3.082745,
+          "old": -7.006793
+        },
+        "action": {
+          "SA": "accept",
+          "new": "wait",
+          "old": "accept"
+        },
+        "cell": "accept",
+        "scene_sha256": "9db379427ccda30752155e240b425421f92e55625d7f50bc364127a38f4fa181",
+        "source_group": "twins_streamlet:run-68"
+      },
+      {
+        "M": {
+          "SA": -5.393504,
+          "new": -3.398143,
+          "old": -4.427648
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "accept",
+        "scene_sha256": "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "source_group": "twins_streamlet:run-272"
+      },
+      {
+        "M": {
+          "SA": -7.22687,
+          "new": -3.743055,
+          "old": -6.480178
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "accept",
+        "scene_sha256": "7838a9f7e56792dee149415f9b3e5151b3fa697ea98dbeb7e27445aca3230a73",
+        "source_group": "twins_streamlet:run-154"
+      },
+      {
+        "M": {
+          "SA": -4.674708,
+          "new": -3.915316,
+          "old": -2.336803
+        },
+        "action": {
+          "SA": "wait",
+          "new": "wait",
+          "old": "wait"
+        },
+        "cell": "wait",
+        "scene_sha256": "182278047cc5664e138ff7e46558f8b5ab9e695b083bee1aee0d15ca3d959364",
+        "source_group": "twins_streamlet:run-169"
+      }
+    ],
+    "layers": [
+      11,
+      12
+    ],
+    "target": "host's own new (missed conflict) span"
+  },
+  "gpu_status": "0 Stage-D forwards; needs the user's explicit approval of 349 calls / [71, 70, 112, 96]",
+  "inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_b_design_blob": "fd2a48b3384e08170676c3c90f95efb41c914eee"
+  },
+  "motivation": "Stage-C (8c5608c): dose-matched restoration into host SA is content-specific 16/16 at L11, span dependence ends at L13, but hosts sat at M ~ -11 so no readout/action changed; only 4 donors from 3 groups.",
+  "plan": [
+    71,
+    70,
+    112,
+    96
+  ],
+  "preregistered_analysis": {
+    "D1": "strict donor count per width; groups; patterns",
+    "cell": "(donor, host, layer): C_FLIP_x iff M_x > 0; ACTION_x = argmax action; SPECIFIC_FLIP iff main flips and neither SA-sham nor dose-random flips; SPECIFIC_REJECT iff main action == reject_conflict and neither control's action is",
+    "primary": "per layer (11 and 12; both reported, no multiplicity correction claimed): number of SPECIFIC_FLIP and SPECIFIC_REJECT cells out of 32; behavioural correction is claimed iff, at some layer, SPECIFIC_FLIP cells involve >= 2 donor groups and >= 2 host groups AND at least one SPECIFIC_REJECT exists",
+    "readout": "M = logit(true) - logit(false); dM vs the Stage-A host new baseline (bitwise replayed by the host capture); action = argmax certificate_action",
+    "secondary": "dose specificity dM_main > dM_dose per cell (replication of Stage-C with a new target arm); dM_main - dM_sasham; per-host flip curve vs baseline M_new",
+    "units": "source groups; cells not independent; counts are descriptive decision rules"
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_D_DESIGN_V1",
+  "status": "FROZEN_CPU_BEFORE_ANY_STAGE_D_FORWARD",
+  "total": 349
+}

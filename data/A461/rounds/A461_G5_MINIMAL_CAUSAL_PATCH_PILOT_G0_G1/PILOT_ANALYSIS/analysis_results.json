@@ -1,0 +1,349 @@
+{
+  "baseline_determinism_vs_archived": [
+    {
+      "archived_c_margin": -9.577639,
+      "archived_plan_row": "G5_0002",
+      "bitwise_all_heads": true,
+      "condition": "baseline_host_sa_unpatched",
+      "fresh_c_margin": -9.577639,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA",
+      "token_ids_sha256": "3ba89f351c3ac41dece98df3f9be3ea61c309feaed422cd3e0a6a13c1e3598fd"
+    },
+    {
+      "archived_c_margin": -9.390018,
+      "archived_plan_row": "G5_0052",
+      "bitwise_all_heads": true,
+      "condition": "baseline_host_sa_unpatched",
+      "fresh_c_margin": -9.390018,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA",
+      "token_ids_sha256": "752a51370ce9e8675cdd6895571284db2acbb3405bfbef01088413dcef9022be"
+    },
+    {
+      "archived_c_margin": 1.446688,
+      "archived_plan_row": "G5_0031",
+      "bitwise_all_heads": true,
+      "condition": "baseline_donor_new_unpatched",
+      "fresh_c_margin": 1.446688,
+      "target": "donor_new",
+      "token_ids_sha256": "ab5937d3862302a083157cc9f097f2fabf98d36f24a9a3737fe131fe48ad5fa4"
+    }
+  ],
+  "baselines": {
+    "donor_new_fresh_c_margin": 1.446688,
+    "donor_new_fresh_read": "true",
+    "host_sa_fresh_c_margins": {
+      "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA": -9.390018,
+      "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA": -9.577639
+    }
+  },
+  "identity_self_patch": [
+    {
+      "bitwise_equal": true,
+      "layer": 11,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "bitwise_equal": true,
+      "layer": 11,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    }
+  ],
+  "interpretation_label": "single-donor two-host two-layer DEV exploratory causal probe; not a mechanism proof",
+  "off_target": [
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_identity_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 8,
+      "layer": 11,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_identity_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 9,
+      "layer": 11,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_restoration_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 10,
+      "layer": 11,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_restoration_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 11,
+      "layer": 23,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_restoration_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 12,
+      "layer": 11,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_restoration_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 13,
+      "layer": 23,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_sasham_donor_sa_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 14,
+      "layer": 11,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_sasham_donor_sa_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 15,
+      "layer": 23,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_sasham_donor_sa_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 16,
+      "layer": 11,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_sasham_donor_sa_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 17,
+      "layer": 23,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_permuted_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 18,
+      "layer": 11,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -10.182664,
+      "condition": "patch_permuted_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -11.498123,
+      "forward_index": 19,
+      "layer": 23,
+      "quorum_margin_true": 5.387691,
+      "target": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_permuted_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 20,
+      "layer": 11,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": -13.329197,
+      "condition": "patch_permuted_donor_new_to_host_sa",
+      "evidence_margin_l2_l0": -13.00848,
+      "forward_index": 21,
+      "layer": 23,
+      "quorum_margin_true": 9.309024,
+      "target": "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA"
+    },
+    {
+      "action_margin_reject": 3.795129,
+      "condition": "patch_suppression_host_new_to_donor_new",
+      "evidence_margin_l2_l0": 3.010669,
+      "forward_index": 25,
+      "layer": 11,
+      "quorum_margin_true": 0.47048,
+      "target": "donor_new"
+    },
+    {
+      "action_margin_reject": 3.795129,
+      "condition": "patch_suppression_host_new_to_donor_new",
+      "evidence_margin_l2_l0": 3.010669,
+      "forward_index": 26,
+      "layer": 23,
+      "quorum_margin_true": 0.47048,
+      "target": "donor_new"
+    },
+    {
+      "action_margin_reject": 3.795129,
+      "condition": "patch_suppression_host_new_to_donor_new",
+      "evidence_margin_l2_l0": 3.010669,
+      "forward_index": 27,
+      "layer": 11,
+      "quorum_margin_true": 0.47048,
+      "target": "donor_new"
+    },
+    {
+      "action_margin_reject": 3.795129,
+      "condition": "patch_suppression_host_new_to_donor_new",
+      "evidence_margin_l2_l0": 3.010669,
+      "forward_index": 28,
+      "layer": 23,
+      "quorum_margin_true": 0.47048,
+      "target": "donor_new"
+    }
+  ],
+  "restoration": [
+    {
+      "baseline_margin": -9.577639,
+      "host": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "layer": 11,
+      "permuted": {
+        "delta_margin": 0.982751,
+        "margin": -8.594888,
+        "read": "false"
+      },
+      "restoration": {
+        "delta_margin": 1.80141,
+        "margin": -7.776229,
+        "read": "false"
+      },
+      "sa_sham": {
+        "delta_margin": 1.440941,
+        "margin": -8.136698,
+        "read": "false"
+      },
+      "supportive_preregistered": true
+    },
+    {
+      "baseline_margin": -9.577639,
+      "host": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "layer": 23,
+      "permuted": {
+        "delta_margin": 0.0,
+        "margin": -9.577639,
+        "read": "false"
+      },
+      "restoration": {
+        "delta_margin": 0.0,
+        "margin": -9.577639,
+        "read": "false"
+      },
+      "sa_sham": {
+        "delta_margin": 0.0,
+        "margin": -9.577639,
+        "read": "false"
+      },
+      "supportive_preregistered": false
+    },
+    {
+      "baseline_margin": -9.390018,
+      "host": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "layer": 11,
+      "permuted": {
+        "delta_margin": 0.982465,
+        "margin": -8.407553,
+        "read": "false"
+      },
+      "restoration": {
+        "delta_margin": 1.938604,
+        "margin": -7.451414,
+        "read": "false"
+      },
+      "sa_sham": {
+        "delta_margin": 1.044948,
+        "margin": -8.34507,
+        "read": "false"
+      },
+      "supportive_preregistered": true
+    },
+    {
+      "baseline_margin": -9.390018,
+      "host": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "layer": 23,
+      "permuted": {
+        "delta_margin": 0.0,
+        "margin": -9.390018,
+        "read": "false"
+      },
+      "restoration": {
+        "delta_margin": 0.0,
+        "margin": -9.390018,
+        "read": "false"
+      },
+      "sa_sham": {
+        "delta_margin": 0.0,
+        "margin": -9.390018,
+        "read": "false"
+      },
+      "supportive_preregistered": false
+    }
+  ],
+  "schema": "JEV_A461_G5_PILOT_ANALYSIS_V1",
+  "summary": {
+    "identity_all_bitwise": true,
+    "note": "supportive/negative are per-cell descriptive labels under the frozen decision rule; no claim beyond single-donor DEV exploratory evidence is licensed by this pilot",
+    "restoration_any_flip": false,
+    "restoration_supportive_cells": "2/4",
+    "suppression_any_flip": true,
+    "suppression_negative_cells": "2/4"
+  },
+  "suppression": [
+    {
+      "delta_margin": -4.640155,
+      "donor_baseline_margin": 1.446688,
+      "flip_away": true,
+      "host_source": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "layer": 11,
+      "negative": true,
+      "read": "false"
+    },
+    {
+      "delta_margin": 0.0,
+      "donor_baseline_margin": 1.446688,
+      "flip_away": false,
+      "host_source": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "layer": 23,
+      "negative": false,
+      "read": "true"
+    },
+    {
+      "delta_margin": -2.751554,
+      "donor_baseline_margin": 1.446688,
+      "flip_away": true,
+      "host_source": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "layer": 11,
+      "negative": true,
+      "read": "false"
+    },
+    {
+      "delta_margin": 0.0,
+      "donor_baseline_margin": 1.446688,
+      "flip_away": false,
+      "host_source": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "layer": 23,
+      "negative": false,
+      "read": "true"
+    }
+  ]
+}

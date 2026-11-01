@@ -1,0 +1,27 @@
+{
+  "approved_max_native_forwards": 97,
+  "authorizing_evidence_ref": "User standing authorization series 2026-10-25 (white-box mechanism goal); V4 fixes blind review 7098a19 P0-1..P0-7 (C-row patching, true divergence anchor, G1S-joined host roster with false-alarm exclusion, hoisted donor baseline, atomic saving); acceptance item (6) mock test passed",
+  "composition": {
+    "donor_prepass": 3,
+    "host_baselines": 10,
+    "identity_captures": 2,
+    "identity_patches": 2,
+    "sa_sham_cross": 4,
+    "sufficiency": 60,
+    "total": 97
+  },
+  "composition_disclosed": true,
+  "created_utc": "2026-10-25",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows",
+    "172B (separately admitted)"
+  ],
+  "run_id": "a461-g5-donor-resolution-20261025-v1",
+  "runner_version": "v4",
+  "schema": "JEV_A461_G5_PATCHING_172A_V4_ADMISSION_RECEIPT_V1",
+  "substage": "172A_V4"
+}

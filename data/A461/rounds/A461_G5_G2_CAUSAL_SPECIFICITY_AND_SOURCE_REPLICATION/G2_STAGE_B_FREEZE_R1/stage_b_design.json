@@ -1,0 +1,192 @@
+{
+  "budget": {
+    "H": 4,
+    "L": 3,
+    "batches": [
+      116,
+      116,
+      116,
+      116
+    ],
+    "cap_per_batch": 128,
+    "formula": "F(H,L) = 4 + 4H + 8HL per donor",
+    "per_donor_batch": 116,
+    "total": 464
+  },
+  "controls": {
+    "determinism": [
+      "donor new and host SA baselines bitwise == Stage-A raw logits",
+      "identity self-patch at L11 bitwise == fresh baseline",
+      "hook liveness per patch/capture"
+    ],
+    "restoration": [
+      "SA-sham: donor SA span (same-author duplicate, not recognized)",
+      "permuted: donor new span with a frozen position permutation",
+      "norm-matched random: Gaussian with each position rescaled to the donor new span's per-position L2 norm (seeded)"
+    ],
+    "suppression": [
+      "donor-side SA-sham: host SA span -> donor new",
+      "permuted: host new span permuted -> donor new",
+      "norm-matched random: Gaussian rescaled to host new span per-position norms -> donor new"
+    ]
+  },
+  "donors": [
+    {
+      "M": {
+        "SA": -7.198084,
+        "new": 2.250621,
+        "old": -1.701655
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "06dabe0512b76afb68977fd574f7725aac20f4c40b6194dc33657f478efd31d0",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -1.681692,
+        "new": 3.511954,
+        "old": -2.380373
+      },
+      "action": {
+        "SA": "wait",
+        "new": "reject_conflict",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "scene_sha256": "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+      "source_group": "twins_streamlet:run-338"
+    },
+    {
+      "M": {
+        "SA": -8.363268,
+        "new": 0.861979,
+        "old": -4.523354
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "508ecd55774f634a16e03254e24ad195318300f588fa3dd69fd6e76e62462326",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -3.594846,
+        "new": 4.449639,
+        "old": -5.2535
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "90dbf6d6536f757d7ee4717ef79313a72c53f84e48b5080e718be4fb68f2cee5",
+      "source_group": "twins_streamlet:run-140"
+    }
+  ],
+  "gpu_status": "0 Stage-B forwards; requires the user's explicit approval of 464 calls / 4 x 116",
+  "host_selection_rule": "Stage-A pattern FFF, accept cell, source group not a donor group, distinct groups, first 4 by scene_sha256; same hosts for every donor (crossed 4x4)",
+  "hosts": [
+    {
+      "M": {
+        "SA": -11.038735,
+        "new": -11.397852,
+        "old": -11.192782
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "06c941a749f2b81e3c496d0600268c8344c2051a177576c0450ab8958591e97f",
+      "source_group": "twins_streamlet:run-220"
+    },
+    {
+      "M": {
+        "SA": -10.543791,
+        "new": -9.600635,
+        "old": -9.472007
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "078ca2d1fd3e1e089e641f0cd15ac8d0057336046c04fb2502fe592b4c56442c",
+      "source_group": "twins_streamlet:run-283"
+    },
+    {
+      "M": {
+        "SA": -11.417932,
+        "new": -10.765585,
+        "old": -11.442208
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "0b79af185ea8d7e35baabbd9f2c5b54efb9fafaf53042ccec10e43bb1fdddd50",
+      "source_group": "twins_streamlet:run-301"
+    },
+    {
+      "M": {
+        "SA": -12.03192,
+        "new": -12.255905,
+        "old": -11.86054
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "1be7cc40f0726ac9a72122cf02b612fd1e8fe29919b52f175ee41aba24e38855",
+      "source_group": "twins_streamlet:run-68"
+    }
+  ],
+  "identity_layer": 11,
+  "inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0"
+  },
+  "layer_rationale": "outputs of full-attention layers 7/11/15 (hybrid 24-layer backbone, full attention every 4th layer); 11 = pilot replication (confirmatory), 7/15 = layer profile (exploratory); 23 excluded as a structural exact null",
+  "layers": [
+    7,
+    11,
+    15
+  ],
+  "not_claimed": [
+    "Key-only mediation (needs a separate K/Q component protocol)",
+    "never-seen source groups (tier-1 does not exist)"
+  ],
+  "preregistered_analysis": {
+    "confirmatory": "layer 11, both directions: report supportive cells /16 and flips /16; the claim 'specific causal carrier at L11' needs supportive cells in all 3 donor source groups and all 4 host source groups in BOTH directions, and no control with as many flips as the main arm",
+    "exploratory": "layers 7 and 15 profile; certificate_action argmax changes; span norm/cosine statistics; per-donor and per-host breakdown",
+    "independence": "statistical unit = source group (3 donor groups, 4 host groups); the 16 cells are not independent; sign counts are descriptive",
+    "negative_outcomes": [
+      "controls flip as often as the main arm -> no specificity claim",
+      "supportive only within one donor group -> no cross-group claim",
+      "restoration without suppression (or vice versa) -> report one-directional only"
+    ],
+    "readout": "M = logit(conflicting_vote=true) - logit(false) on the C row; C = M > 0",
+    "restoration_cell": "(donor, host, layer): dM_x = M(host SA patched by x) - M(host SA baseline); SUPPORTIVE iff dM_main > max(dM_sasham, dM_permuted, dM_normrand); FLIP iff M(main) > 0",
+    "suppression_cell": "(donor, host, layer): dM_x = M(donor new patched by x) - M(donor new baseline); SUPPORTIVE iff dM_main < min(dM_donorside_sasham, dM_permuted, dM_normrand); FLIP iff M(main) < 0"
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_B_DESIGN_V1",
+  "status": "FROZEN_CPU_BEFORE_ANY_STAGE_B_FORWARD",
+  "width": 31
+}

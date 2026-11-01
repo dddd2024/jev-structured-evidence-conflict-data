@@ -1,0 +1,86 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "1c8922b9acc9225be35a3270a099fc104a85781f",
+  "passed": 15,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 2532, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M2 rows=2532 batches=[(1, 128, 128, 'COMPLETE'), (2, 128, 128, 'COMPLETE'), (3, 128, 128, 'COMPLETE'), (4, 128, 128, 'COMPLETE'), (5, 128, 128, 'COMPLETE'), (6, 128, 128, 'COMPLETE'), (7, 128, 128, 'COMPLETE'), (8, 128, 128, 'COMPLETE'), (9, 128, 128, 'COMPLETE'), (10, 128, 128, 'COMPLETE'), (11, 128, 128, 'COMPLETE'), (12, 128, 128, 'COMPLETE'), (13, 128, 128, 'COMPLETE'), (14, 128, 128, 'COMPLETE'), (15, 128, 128, 'COMPLETE'), (16, 128, 128, 'COMPLETE'), (17, 128, 128, 'COMPLETE'), (18, 128, 128, 'COMPLETE'), (19, 128, 128, 'COMPLETE'), (20, 100, 100, 'COMPLETE')] captures saved=72 (sha+shape ok=True)",
+      "test": "fake_full_path_2532_with_36_captures_and_sublayers",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "host baselines=8; all-row patches moving both C and action rows at 7 layers: 2496/2496 (fake, 32 layers)",
+      "test": "all_row_patches_reach_c_and_action_32_layers",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "resid/mixer/mlp at L8 and L9 give 6 distinct outputs in 208/208 (cell, source); arms 12",
+      "test": "component_addressing_distinct_outputs",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "host-own-output patches (resid L7/L10, mixer L8/L11, mlp L9/L11) bitwise == host capture: 6/6",
+      "test": "identity_patch_bitwise_noop_every_component",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "ROUND captures with G1.0 token sha + span and distinct from new: 14/14; patch sources {'new': 1248, 'ROUND': 1248}",
+      "test": "variant_arms_rebuilt_from_g10_and_used_as_sources",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one variant round edited: refused at the blob pin",
+      "test": "tampered_g10_counterfactuals_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "deltarand: per-position ||out - target|| == ||source - target||, seeded-deterministic, random direction",
+      "test": "dose_matched_transform_unit",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 2532-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's seed changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "6fdc11a18d068da79aa26286fe3f82a5cfb3c471",
+  "schema": "JEV_A461_MECH_M2_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 15
+}

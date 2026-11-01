@@ -1,0 +1,303 @@
+{
+ "baselines": {
+  "never_reject": {
+   "SA": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   },
+   "new": {
+    "accept_wait_swap": 0.0,
+    "correct": 0.0,
+    "deferred_wait": 0.0,
+    "false_accept": 1.0,
+    "false_veto": 0.0
+   },
+   "old": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   }
+  },
+  "reject_every_appended_vote": {
+   "SA": {
+    "accept_wait_swap": 0.0,
+    "correct": 0.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 1.0
+   },
+   "new": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   },
+   "old": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   }
+  },
+  "rule_gold": {
+   "SA": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   },
+   "new": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   },
+   "old": {
+    "accept_wait_swap": 0.0,
+    "correct": 1.0,
+    "deferred_wait": 0.0,
+    "false_accept": 0.0,
+    "false_veto": 0.0
+   }
+  }
+ },
+ "boot": 10000,
+ "models": {
+  "SecJev08B": {
+   "ci95_cluster_bootstrap": {
+    "SA|accept_wait_swap": [
+     0.0629,
+     0.2419
+    ],
+    "SA|correct": [
+     0.6638,
+     0.8489
+    ],
+    "SA|deferred_wait": [
+     0.0,
+     0.0
+    ],
+    "SA|false_accept": [
+     0.0,
+     0.0
+    ],
+    "SA|false_veto": [
+     0.0303,
+     0.1754
+    ],
+    "new|accept_wait_swap": [
+     0.0,
+     0.0
+    ],
+    "new|correct": [
+     0.0539,
+     0.1964
+    ],
+    "new|deferred_wait": [
+     0.2137,
+     0.4653
+    ],
+    "new|false_accept": [
+     0.4286,
+     0.6667
+    ],
+    "new|false_veto": [
+     0.0,
+     0.0
+    ],
+    "old|accept_wait_swap": [
+     0.0508,
+     0.216
+    ],
+    "old|correct": [
+     0.687,
+     0.8639
+    ],
+    "old|deferred_wait": [
+     0.0,
+     0.0
+    ],
+    "old|false_accept": [
+     0.0,
+     0.0
+    ],
+    "old|false_veto": [
+     0.0303,
+     0.1754
+    ]
+   },
+   "counts": {
+    "SA|accept_wait_swap": 17,
+    "SA|correct": 96,
+    "SA|false_veto": 11,
+    "new|correct": 14,
+    "new|deferred_wait": 41,
+    "new|false_accept": 69,
+    "old|accept_wait_swap": 15,
+    "old|correct": 98,
+    "old|false_veto": 11
+   },
+   "gold_mix": {
+    "SA": {
+     "accept": 106,
+     "wait": 18
+    },
+    "new": {
+     "reject_conflict": 124
+    },
+    "old": {
+     "accept": 106,
+     "wait": 18
+    }
+   },
+   "rates": {
+    "SA": {
+     "accept_wait_swap": 0.1371,
+     "correct": 0.7742,
+     "deferred_wait": 0.0,
+     "false_accept": 0.0,
+     "false_veto": 0.0887
+    },
+    "new": {
+     "accept_wait_swap": 0.0,
+     "correct": 0.1129,
+     "deferred_wait": 0.3306,
+     "false_accept": 0.5565,
+     "false_veto": 0.0
+    },
+    "old": {
+     "accept_wait_swap": 0.121,
+     "correct": 0.7903,
+     "deferred_wait": 0.0,
+     "false_accept": 0.0,
+     "false_veto": 0.0887
+    }
+   },
+   "rows": 372,
+   "scenes": 124,
+   "source_groups": 17
+  },
+  "kev4B": {
+   "ci95_cluster_bootstrap": {
+    "SA|accept_wait_swap": [
+     0.0221,
+     0.2703
+    ],
+    "SA|correct": [
+     0.7297,
+     0.9779
+    ],
+    "SA|deferred_wait": [
+     0.0,
+     0.0
+    ],
+    "SA|false_accept": [
+     0.0,
+     0.0
+    ],
+    "SA|false_veto": [
+     0.0,
+     0.0
+    ],
+    "new|accept_wait_swap": [
+     0.0,
+     0.0
+    ],
+    "new|correct": [
+     0.244,
+     0.44
+    ],
+    "new|deferred_wait": [
+     0.0,
+     0.0286
+    ],
+    "new|false_accept": [
+     0.54,
+     0.754
+    ],
+    "new|false_veto": [
+     0.0,
+     0.0
+    ],
+    "old|accept_wait_swap": [
+     0.008,
+     0.1102
+    ],
+    "old|correct": [
+     0.8898,
+     0.992
+    ],
+    "old|deferred_wait": [
+     0.0,
+     0.0
+    ],
+    "old|false_accept": [
+     0.0,
+     0.0
+    ],
+    "old|false_veto": [
+     0.0,
+     0.0
+    ]
+   },
+   "counts": {
+    "SA|accept_wait_swap": 14,
+    "SA|correct": 110,
+    "new|correct": 40,
+    "new|deferred_wait": 1,
+    "new|false_accept": 83,
+    "old|accept_wait_swap": 6,
+    "old|correct": 118
+   },
+   "gold_mix": {
+    "SA": {
+     "accept": 106,
+     "wait": 18
+    },
+    "new": {
+     "reject_conflict": 124
+    },
+    "old": {
+     "accept": 106,
+     "wait": 18
+    }
+   },
+   "rates": {
+    "SA": {
+     "accept_wait_swap": 0.1129,
+     "correct": 0.8871,
+     "deferred_wait": 0.0,
+     "false_accept": 0.0,
+     "false_veto": 0.0
+    },
+    "new": {
+     "accept_wait_swap": 0.0,
+     "correct": 0.3226,
+     "deferred_wait": 0.0081,
+     "false_accept": 0.6694,
+     "false_veto": 0.0
+    },
+    "old": {
+     "accept_wait_swap": 0.0484,
+     "correct": 0.9516,
+     "deferred_wait": 0.0,
+     "false_accept": 0.0,
+     "false_veto": 0.0
+    }
+   },
+   "rows": 372,
+   "scenes": 124,
+   "source_groups": 17
+  }
+ },
+ "schema": "JEV_A461_SAFETY_S2_ENDPOINT_V1"
+}

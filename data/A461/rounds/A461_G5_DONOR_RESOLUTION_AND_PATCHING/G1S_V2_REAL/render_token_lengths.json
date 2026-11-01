@@ -1,0 +1,545 @@
+{
+  "rows": [
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:old",
+      "state_token_len": 536
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0001",
+      "state_token_len": 570
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0002",
+      "state_token_len": 570
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:e5b68bed342aaa85:old",
+      "state_token_len": 401
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0003",
+      "state_token_len": 434
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0004",
+      "state_token_len": 434
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:39834f1dfb7861f1:old",
+      "state_token_len": 373
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0005",
+      "state_token_len": 406
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0006",
+      "state_token_len": 406
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:d8324e2254ad0bb1:old",
+      "state_token_len": 311
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0007",
+      "state_token_len": 345
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0008",
+      "state_token_len": 345
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:948e3a6ceeb5bc9b:old",
+      "state_token_len": 307
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0009",
+      "state_token_len": 340
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0010",
+      "state_token_len": 340
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:530e71e6ee59fc02:old",
+      "state_token_len": 345
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0011",
+      "state_token_len": 378
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0012",
+      "state_token_len": 378
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:829456e15494356c:old",
+      "state_token_len": 340
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0013",
+      "state_token_len": 373
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0014",
+      "state_token_len": 373
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:af3d16ee2ad0bea9:old",
+      "state_token_len": 382
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0015",
+      "state_token_len": 415
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0016",
+      "state_token_len": 416
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:974ff72a4dcf05eb:old",
+      "state_token_len": 512
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0017",
+      "state_token_len": 547
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0018",
+      "state_token_len": 547
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:620676e6c00917c4:old",
+      "state_token_len": 440
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0019",
+      "state_token_len": 474
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0020",
+      "state_token_len": 475
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:d0ee41fbb9d08d09:old",
+      "state_token_len": 409
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0021",
+      "state_token_len": 443
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0022",
+      "state_token_len": 443
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:c07aa72f3f634532:old",
+      "state_token_len": 553
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0023",
+      "state_token_len": 587
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0024",
+      "state_token_len": 587
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:8ce9655b0833ec79:old",
+      "state_token_len": 340
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0025",
+      "state_token_len": 373
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0026",
+      "state_token_len": 373
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:a79780367d0fbd3f:old",
+      "state_token_len": 548
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0027",
+      "state_token_len": 582
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0028",
+      "state_token_len": 583
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:bfe4e0d122172fdd:old",
+      "state_token_len": 344
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0029",
+      "state_token_len": 378
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0030",
+      "state_token_len": 378
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_WAIT_TO_REJECT:433890d19a90625e:old",
+      "state_token_len": 652
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0031",
+      "state_token_len": 686
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0032",
+      "state_token_len": 686
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:47ab1e2e276380f6:old",
+      "state_token_len": 1053
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0033",
+      "state_token_len": 1086
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0034",
+      "state_token_len": 1086
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:bd034a59f68a5630:old",
+      "state_token_len": 406
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0035",
+      "state_token_len": 439
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0036",
+      "state_token_len": 439
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:dce1d033e0c2a951:old",
+      "state_token_len": 378
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0037",
+      "state_token_len": 411
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0038",
+      "state_token_len": 411
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:d0b328d09ffdd43e:old",
+      "state_token_len": 472
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0039",
+      "state_token_len": 505
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0040",
+      "state_token_len": 505
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:71c487a751274331:old",
+      "state_token_len": 373
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0041",
+      "state_token_len": 406
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0042",
+      "state_token_len": 406
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:6c574322ca200a03:old",
+      "state_token_len": 375
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0043",
+      "state_token_len": 409
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0044",
+      "state_token_len": 409
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:3b0d8024d8a17e32:old",
+      "state_token_len": 373
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0045",
+      "state_token_len": 406
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0046",
+      "state_token_len": 406
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:277ffa4df34c8e1e:old",
+      "state_token_len": 512
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0047",
+      "state_token_len": 545
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0048",
+      "state_token_len": 545
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:5aa76f5c0928ef7a:old",
+      "state_token_len": 401
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0049",
+      "state_token_len": 434
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0050",
+      "state_token_len": 434
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:231b919006dc1777:old",
+      "state_token_len": 484
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0051",
+      "state_token_len": 518
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0052",
+      "state_token_len": 518
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:e0745915cdd39460:old",
+      "state_token_len": 962
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0053",
+      "state_token_len": 995
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0054",
+      "state_token_len": 995
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:8a877d2c67d39cb1:old",
+      "state_token_len": 685
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0055",
+      "state_token_len": 718
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0056",
+      "state_token_len": 718
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:529adc3add76cf83:old",
+      "state_token_len": 677
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0057",
+      "state_token_len": 710
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0058",
+      "state_token_len": 710
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:e1f7405160730918:old",
+      "state_token_len": 519
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0059",
+      "state_token_len": 552
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0060",
+      "state_token_len": 552
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:7df8539bc0f49de2:old",
+      "state_token_len": 633
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0061",
+      "state_token_len": 667
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0062",
+      "state_token_len": 667
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:d3a8aaa2f5457371:old",
+      "state_token_len": 685
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0063",
+      "state_token_len": 718
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0064",
+      "state_token_len": 718
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:dc0985acea13f10d:old",
+      "state_token_len": 474
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0065",
+      "state_token_len": 508
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0066",
+      "state_token_len": 508
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:f55f73f458523f6d:old",
+      "state_token_len": 677
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0067",
+      "state_token_len": 710
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0068",
+      "state_token_len": 710
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:3e7ea78d53c8814c:old",
+      "state_token_len": 586
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0069",
+      "state_token_len": 619
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0070",
+      "state_token_len": 619
+    },
+    {
+      "arm": "old",
+      "row_id": "T2_ACCEPT_TO_REJECT:4480506f5fb72391:old",
+      "state_token_len": 747
+    },
+    {
+      "arm": "new",
+      "row_id": "G5_0071",
+      "state_token_len": 780
+    },
+    {
+      "arm": "SA",
+      "row_id": "G5_0072",
+      "state_token_len": 780
+    }
+  ],
+  "schema": "JEV_A461_G5_RENDER_TOKEN_LENGTHS_V1"
+}

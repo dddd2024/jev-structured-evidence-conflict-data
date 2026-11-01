@@ -1,0 +1,62 @@
+{
+ "gate": {
+  "rows": 248,
+  "expected": 248,
+  "new": 124,
+  "twin": 124,
+  "new_logits_bitwise_parent": 124,
+  "new_captures_bitwise_parent": 124,
+  "twin_emb_span_equal": 124,
+  "parent_auroc_reproduced": {
+   "PROBE:SPAN_ATTN11": true,
+   "PROBE:LAST_RESID_L23": true,
+   "PROBE:SPAN_RESID_L11": true,
+   "PROBE:LAST_RESID_L11": true,
+   "PROBE:SPAN_RESID_emb": true
+  },
+  "pass": true
+ },
+ "verdicts": {
+  "PROBE:SPAN_ATTN11": "ARM_SHORTCUT",
+  "PROBE:LAST_RESID_L23": "ARM_SHORTCUT",
+  "PROBE:SPAN_RESID_L11": "ARM_SHORTCUT",
+  "PROBE:LAST_RESID_L11": "ARM_SHORTCUT",
+  "PROBE:SPAN_RESID_emb": "ARM_SHORTCUT"
+ },
+ "native": {
+  "twin_by_gold_pred": {
+   "accept->accept": 55,
+   "accept->reject_conflict": 14,
+   "accept->wait": 33,
+   "wait->accept": 1,
+   "wait->reject_conflict": 1,
+   "wait->wait": 20
+  },
+  "twin_false_veto": 15,
+  "new_rejected": 14,
+  "twin_rejected_where_new_missed": 1,
+  "twin_rejected_where_new_recognized": 14
+ },
+ "primary": {
+  "PROBE:SPAN_ATTN11": {
+   "AUROC_pair": 0.697603305785124,
+   "ci_AUROC_pair": [
+    0.6419,
+    0.7721
+   ],
+   "twin_flag@FV5": 0.6545454545454545,
+   "new_flag@FV5": 0.8727272727272727,
+   "paired_frac_new_gt_twin": 0.9454545454545454
+  },
+  "PROBE:LAST_RESID_L23": {
+   "AUROC_pair": 0.46793388429752064,
+   "ci_AUROC_pair": [
+    0.4238,
+    0.5098
+   ],
+   "twin_flag@FV5": 0.8727272727272727,
+   "new_flag@FV5": 0.8636363636363636,
+   "paired_frac_new_gt_twin": 0.36363636363636365
+  }
+ }
+}

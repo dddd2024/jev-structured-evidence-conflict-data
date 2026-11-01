@@ -1,0 +1,135 @@
+{
+  "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+  "coverage": {
+    "all": {
+      "ANY": {
+        "gold_eq_old": 0,
+        "groups": 17,
+        "groups_of": 17,
+        "scenes": 124
+      },
+      "PARTNER_AUTHOR": {
+        "gold_eq_old": 23,
+        "groups": 7,
+        "groups_of": 17,
+        "scenes": 23
+      },
+      "PARTNER_BLOCK": {
+        "gold_eq_old": 120,
+        "groups": 17,
+        "groups_of": 17,
+        "scenes": 124
+      },
+      "PARTNER_ROUND": {
+        "gold_eq_old": 120,
+        "groups": 17,
+        "groups_of": 17,
+        "scenes": 124
+      },
+      "scenes": 124
+    },
+    "k4b_MISSED": {
+      "ANY": {
+        "gold_eq_old": 0,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 84
+      },
+      "PARTNER_AUTHOR": {
+        "gold_eq_old": 9,
+        "groups": 7,
+        "groups_of": 16,
+        "scenes": 9
+      },
+      "PARTNER_BLOCK": {
+        "gold_eq_old": 82,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 84
+      },
+      "PARTNER_ROUND": {
+        "gold_eq_old": 82,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 84
+      },
+      "scenes": 84
+    },
+    "k4b_RECOGNIZED": {
+      "ANY": {
+        "gold_eq_old": 0,
+        "groups": 14,
+        "groups_of": 14,
+        "scenes": 40
+      },
+      "PARTNER_AUTHOR": {
+        "gold_eq_old": 14,
+        "groups": 6,
+        "groups_of": 14,
+        "scenes": 14
+      },
+      "PARTNER_BLOCK": {
+        "gold_eq_old": 38,
+        "groups": 14,
+        "groups_of": 14,
+        "scenes": 40
+      },
+      "PARTNER_ROUND": {
+        "gold_eq_old": 38,
+        "groups": 14,
+        "groups_of": 14,
+        "scenes": 40
+      },
+      "scenes": 40
+    },
+    "secjev_MISSED": {
+      "ANY": {
+        "gold_eq_old": 0,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 110
+      },
+      "PARTNER_AUTHOR": {
+        "gold_eq_old": 21,
+        "groups": 6,
+        "groups_of": 16,
+        "scenes": 21
+      },
+      "PARTNER_BLOCK": {
+        "gold_eq_old": 107,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 110
+      },
+      "PARTNER_ROUND": {
+        "gold_eq_old": 107,
+        "groups": 16,
+        "groups_of": 16,
+        "scenes": 110
+      },
+      "scenes": 110
+    }
+  },
+  "gpu_forwards": 0,
+  "groups": 17,
+  "helper_sha256": "241fe70dd1c34e53023b3ffa9e05613360dda335055989ef4d20f3ac1af50ea3",
+  "m18_design_sha256": "0179c85a7e710e9ebb47af6f8a314e8a3636afc3798fd9a1a25b608b9149634c",
+  "model_loads": 0,
+  "partner_votes_hist": {
+    "1": 124
+  },
+  "schema": "JEV_A461_MON_G23_CTX_CF_CPU_V1",
+  "script_sha256": "c6e708b0fa71f75c0e8a5ecbfefacb7a34e2bf2859d1cc7017517e5010359435",
+  "status": "COMPLETE",
+  "token_positions_changed_hist": {
+    "PARTNER_AUTHOR": {
+      "1": 23
+    },
+    "PARTNER_BLOCK": {
+      "1": 124
+    },
+    "PARTNER_ROUND": {
+      "1": 124
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "003faaffa6359c895f72972f8d8802d21b645b12",
+  "passed": 13,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 248, 'scenes': 124, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MON_M23K rows=248 files=248 sha=True shapes=True arms={'new': 124, 'TWIN': 124}; span rows agree within 2.9e-06 (fake float32; the GPU run requires 0)",
+      "test": "fake_full_path_248_rows_and_feature_files",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "saved last-token state after layer 31 x fake head reproduces the certificate_action logits in 40 rows (max abs 0.0e+00); decision row = the certificate_action row: True",
+      "test": "decision_position_is_the_head_readout",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "emb-layer span mean of new == TWIN in 124/124 scenes (byte-identical span); full token sequences differ in 124/124",
+      "test": "span_features_cover_the_frozen_span",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: token gate 04a1e5f7:TWIN",
+      "test": "tampered_manifest_token_sha_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one Stage-A row edited: refused at the blob pin",
+      "test": "tampered_stage_a_raw_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission after a complete 248-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "tampered manifest refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "63308265ec6124a44fa7200df6327c265def9273",
+  "schema": "JEV_A461_MON_M23K_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 13
+}

@@ -1,0 +1,56 @@
+== 4bcbaf15 s0312  (baseline M,A median over hosts' rows)
+rem_m3_s0312     S  8  main M+ 13 A+ 13 J 13 medM +0.272 medA +0.135 | round M+ 13 A+  5 J  5 medM +0.208 medA -0.006
+rem_m1_s0312     S 11  main M+ 13 A+ 13 J 13 medM +0.255 medA +0.138 | round M+ 13 A+  2 J  2 medM +0.224 medA -0.009
+cs_s0312         S 12  main M+ 13 A+ 13 J 13 medM +0.245 medA +0.138 | round M+ 13 A+  1 J  1 medM +0.226 medA -0.017
+rem_p1_s0312     S 12  main M+ 13 A+ 13 J 13 medM +0.236 medA +0.136 | round M+ 13 A+  1 J  1 medM +0.226 medA -0.025
+rem_p3_s0312     S 12  main M+ 13 A+ 13 J 13 medM +0.213 medA +0.125 | round M+ 13 A+  1 J  1 medM +0.217 medA -0.053
+rnull3_s0312_1   S  9  main M+ 13 A+ 13 J 13 medM +0.249 medA +0.146 | round M+ 13 A+  4 J  4 medM +0.230 medA -0.038
+rnull3_s0312_2   S  8  main M+ 13 A+ 13 J 13 medM +0.243 medA +0.128 | round M+ 13 A+  5 J  5 medM +0.228 medA -0.018
+rnull3_s0312_3   S 10  main M+ 13 A+ 13 J 13 medM +0.247 medA +0.140 | round M+ 13 A+  3 J  3 medM +0.248 medA -0.019
+rnull3_s0312_4   S  7  main M+ 13 A+ 13 J 13 medM +0.249 medA +0.134 | round M+ 13 A+  6 J  6 medM +0.225 medA -0.003
+rnull3_s0312_5   S  9  main M+ 13 A+ 13 J 13 medM +0.250 medA +0.140 | round M+ 13 A+  4 J  4 medM +0.225 medA -0.022
+rnull3_s0312_6   S 10  main M+ 13 A+ 13 J 13 medM +0.253 medA +0.130 | round M+ 13 A+  3 J  3 medM +0.217 medA -0.027
+rnull3_s0312_7   S  5  main M+ 13 A+ 13 J 13 medM +0.238 medA +0.130 | round M+ 13 A+  8 J  8 medM +0.225 medA +0.003
+rnull3_s0312_8   S 10  main M+ 13 A+ 13 J 13 medM +0.251 medA +0.142 | round M+ 13 A+  3 J  3 medM +0.228 medA -0.020
+== 4bcbaf15 s0437  (baseline M,A median over hosts' rows)
+rem_m3_s0437     S 13  main M+ 13 A+ 13 J 13 medM +0.269 medA +0.131 | round M+ 10 A+  0 J  0 medM +0.038 medA -0.127
+rem_m1_s0437     S 13  main M+ 13 A+ 13 J 13 medM +0.245 medA +0.134 | round M+ 13 A+  0 J  0 medM +0.111 medA -0.102
+cs_s0437         S 13  main M+ 13 A+ 13 J 13 medM +0.229 medA +0.131 | round M+ 13 A+  0 J  0 medM +0.118 medA -0.104
+rem_p1_s0437     S 13  main M+ 13 A+ 13 J 13 medM +0.215 medA +0.126 | round M+ 13 A+  0 J  0 medM +0.113 medA -0.114
+rem_p3_s0437     S 13  main M+ 13 A+ 13 J 13 medM +0.175 medA +0.105 | round M+ 13 A+  0 J  0 medM +0.081 medA -0.144
+rnull3_s0437_1   S 13  main M+ 13 A+ 13 J 13 medM +0.234 medA +0.148 | round M+ 13 A+  0 J  0 medM +0.104 medA -0.134
+rnull3_s0437_2   S 13  main M+ 13 A+ 13 J 13 medM +0.226 medA +0.119 | round M+ 13 A+  0 J  0 medM +0.134 medA -0.114
+rnull3_s0437_3   S 13  main M+ 13 A+ 13 J 13 medM +0.233 medA +0.132 | round M+ 13 A+  0 J  0 medM +0.158 medA -0.111
+rnull3_s0437_4   S 13  main M+ 13 A+ 13 J 13 medM +0.236 medA +0.125 | round M+ 11 A+  0 J  0 medM +0.117 medA -0.085
+rnull3_s0437_5   S 13  main M+ 13 A+ 13 J 13 medM +0.237 medA +0.133 | round M+ 12 A+  0 J  0 medM +0.110 medA -0.120
+rnull3_s0437_6   S 12  main M+ 13 A+ 13 J 13 medM +0.238 medA +0.115 | round M+ 12 A+  1 J  1 medM +0.088 medA -0.116
+rnull3_s0437_7   S 13  main M+ 13 A+ 13 J 13 medM +0.219 medA +0.116 | round M+ 11 A+  0 J  0 medM +0.103 medA -0.072
+rnull3_s0437_8   S 13  main M+ 13 A+ 13 J 13 medM +0.240 medA +0.133 | round M+ 12 A+  0 J  0 medM +0.128 medA -0.124
+== 264c458d s0312  (baseline M,A median over hosts' rows)
+rem_m3_s0312     S  0  main M+ 13 A+ 13 J 13 medM +0.438 medA +0.287 | round M+ 13 A+ 13 J 13 medM +0.376 medA +0.073
+rem_m1_s0312     S  0  main M+ 13 A+ 13 J 13 medM +0.421 medA +0.282 | round M+ 13 A+ 13 J 13 medM +0.391 medA +0.088
+cs_s0312         S  0  main M+ 13 A+ 13 J 13 medM +0.408 medA +0.276 | round M+ 13 A+ 13 J 13 medM +0.395 medA +0.092
+rem_p1_s0312     S  0  main M+ 13 A+ 13 J 13 medM +0.396 medA +0.267 | round M+ 13 A+ 13 J 13 medM +0.396 medA +0.095
+rem_p3_s0312     S  0  main M+ 13 A+ 13 J 13 medM +0.362 medA +0.246 | round M+ 13 A+ 13 J 13 medM +0.395 medA +0.093
+rnull3_s0312_1   S  0  main M+ 13 A+ 13 J 13 medM +0.408 medA +0.294 | round M+ 13 A+ 13 J 13 medM +0.401 medA +0.089
+rnull3_s0312_2   S  0  main M+ 13 A+ 13 J 13 medM +0.407 medA +0.265 | round M+ 13 A+ 13 J 13 medM +0.413 medA +0.109
+rnull3_s0312_3   S  0  main M+ 13 A+ 13 J 13 medM +0.410 medA +0.288 | round M+ 13 A+ 13 J 13 medM +0.394 medA +0.086
+rnull3_s0312_4   S  0  main M+ 13 A+ 13 J 13 medM +0.417 medA +0.264 | round M+ 13 A+ 13 J 13 medM +0.375 medA +0.117
+rnull3_s0312_5   S  0  main M+ 13 A+ 13 J 13 medM +0.397 medA +0.278 | round M+ 13 A+ 13 J 13 medM +0.385 medA +0.089
+rnull3_s0312_6   S  0  main M+ 13 A+ 13 J 13 medM +0.406 medA +0.276 | round M+ 13 A+ 13 J 13 medM +0.416 medA +0.081
+rnull3_s0312_7   S  0  main M+ 13 A+ 13 J 13 medM +0.411 medA +0.299 | round M+ 13 A+ 13 J 13 medM +0.392 medA +0.096
+rnull3_s0312_8   S  0  main M+ 13 A+ 13 J 13 medM +0.418 medA +0.276 | round M+ 13 A+ 13 J 13 medM +0.386 medA +0.111
+== 264c458d s0437  (baseline M,A median over hosts' rows)
+rem_m3_s0437     S 12  main M+ 13 A+ 13 J 13 medM +0.425 medA +0.279 | round M+ 13 A+  1 J  1 medM +0.254 medA -0.054
+rem_m1_s0437     S  9  main M+ 13 A+ 13 J 13 medM +0.400 medA +0.275 | round M+ 13 A+  4 J  4 medM +0.308 medA -0.015
+cs_s0437         S  7  main M+ 13 A+ 13 J 13 medM +0.382 medA +0.265 | round M+ 13 A+  6 J  6 medM +0.324 medA -0.001
+rem_p1_s0437     S  2  main M+ 13 A+ 13 J 13 medM +0.362 medA +0.250 | round M+ 13 A+ 11 J 11 medM +0.333 medA +0.008
+rem_p3_s0437     S  2  main M+ 13 A+ 13 J 13 medM +0.312 medA +0.218 | round M+ 13 A+ 11 J 11 medM +0.337 medA +0.019
+rnull3_s0437_1   S  6  main M+ 13 A+ 13 J 13 medM +0.381 medA +0.279 | round M+ 13 A+  7 J  7 medM +0.337 medA +0.009
+rnull3_s0437_2   S  4  main M+ 13 A+ 13 J 13 medM +0.373 medA +0.247 | round M+ 13 A+  9 J  9 medM +0.346 medA +0.015
+rnull3_s0437_3   S  8  main M+ 13 A+ 13 J 13 medM +0.377 medA +0.280 | round M+ 13 A+  5 J  5 medM +0.295 medA -0.011
+rnull3_s0437_4   S  4  main M+ 13 A+ 13 J 13 medM +0.386 medA +0.239 | round M+ 13 A+  9 J  9 medM +0.295 medA +0.032
+rnull3_s0437_5   S  8  main M+ 13 A+ 13 J 13 medM +0.375 medA +0.262 | round M+ 13 A+  5 J  5 medM +0.310 medA -0.016
+rnull3_s0437_6   S 10  main M+ 13 A+ 13 J 13 medM +0.382 medA +0.261 | round M+ 13 A+  3 J  3 medM +0.362 medA -0.029
+rnull3_s0437_7   S  5  main M+ 13 A+ 13 J 13 medM +0.387 medA +0.291 | round M+ 13 A+  8 J  8 medM +0.338 medA +0.004
+rnull3_s0437_8   S  3  main M+ 13 A+ 13 J 13 medM +0.392 medA +0.269 | round M+ 13 A+ 10 J 10 medM +0.303 medA +0.019

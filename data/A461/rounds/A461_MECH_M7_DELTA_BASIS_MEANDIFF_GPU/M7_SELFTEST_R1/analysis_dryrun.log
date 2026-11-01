@@ -1,0 +1,119 @@
+{
+ "consistency_gate": {
+  "S_full": 0,
+  "S_M3_all": 51,
+  "full_rows_bitwise_eq_M3": 0,
+  "S_meanD_host": 0,
+  "meanD_host_rows_bitwise_eq_M6": 0,
+  "pass": false
+ },
+ "verdicts": {
+  "delta_lowrank": "INCONSISTENT_WITH_M3_M6",
+  "m6_lr64_size": "INCONSISTENT_WITH_M3_M6",
+  "meandiff": "INCONSISTENT_WITH_M3_M6",
+  "round_contrast": "INCONSISTENT_WITH_M3_M6"
+ },
+ "S": {
+  "full": 0,
+  "meanD_host": 0,
+  "dlr1_sm": 0,
+  "dlr4_sm": 0,
+  "dlr16_sm": 0,
+  "dlr64_sm": 0,
+  "dlr64": 0,
+  "lr64_sm": 0,
+  "rand64_sm": 0,
+  "mdir1": 0,
+  "mdir2": 0,
+  "rcH": 0,
+  "rcD": 0
+ },
+ "SPEC": {
+  "full": true,
+  "meanD_host": true,
+  "dlr1_sm": false,
+  "dlr4_sm": true,
+  "dlr16_sm": true,
+  "dlr64_sm": true,
+  "dlr64": true,
+  "lr64_sm": true,
+  "rand64_sm": true,
+  "mdir1": true,
+  "mdir2": true,
+  "rcH": true,
+  "rcD": true
+ },
+ "subspace_stats": {
+  "dlr16_sm": {
+   "energy_median_of_medians": 0.9343,
+   "energy_min": 0.6116,
+   "basis_sv_share_median": 0.9206,
+   "alpha_median_of_medians": 1.0703,
+   "alpha_max": 1.6352,
+   "capped_share_mean": 0.0
+  },
+  "dlr1_sm": {
+   "energy_median_of_medians": 0.4334,
+   "energy_min": 0.0007,
+   "basis_sv_share_median": 0.3249,
+   "alpha_median_of_medians": 2.31,
+   "alpha_max": 10.0,
+   "capped_share_mean": 0.1284
+  },
+  "dlr4_sm": {
+   "energy_median_of_medians": 0.7836,
+   "energy_min": 0.0609,
+   "basis_sv_share_median": 0.718,
+   "alpha_median_of_medians": 1.2762,
+   "alpha_max": 10.0,
+   "capped_share_mean": 0.0003
+  },
+  "dlr64": {
+   "energy_median_of_medians": 1.0,
+   "energy_min": 1.0,
+   "basis_sv_share_median": 1.0,
+   "alpha_median_of_medians": 1.0,
+   "alpha_max": 1.0,
+   "capped_share_mean": 0.0
+  },
+  "dlr64_sm": {
+   "energy_median_of_medians": 1.0,
+   "energy_min": 1.0,
+   "basis_sv_share_median": 1.0,
+   "alpha_median_of_medians": 1.0,
+   "alpha_max": 1.0,
+   "capped_share_mean": 0.0
+  },
+  "lr64_sm": {
+   "energy_median_of_medians": 1.0,
+   "energy_min": 1.0,
+   "basis_sv_share_median": 1.0,
+   "alpha_median_of_medians": 1.0,
+   "alpha_max": 1.0,
+   "capped_share_mean": 0.0
+  },
+  "rand64_sm": {
+   "energy_median_of_medians": 1.0,
+   "energy_min": 1.0,
+   "basis_sv_share_median": null,
+   "alpha_median_of_medians": 1.0,
+   "alpha_max": 1.0,
+   "capped_share_mean": 0.0
+  }
+ },
+ "median_change_norm_rel_full": {
+  "full": 1.0,
+  "meanD_host": 0.5298,
+  "dlr1_sm": 0.7158,
+  "dlr4_sm": 0.7262,
+  "dlr16_sm": 0.7262,
+  "dlr64_sm": 0.7262,
+  "dlr64": 0.7262,
+  "lr64_sm": 0.7262,
+  "rand64_sm": 0.7262,
+  "mdir1": 0.2068,
+  "mdir2": 0.4135,
+  "rcH": 0.0084,
+  "rcD": 0.0077
+ }
+}

@@ -1,0 +1,593 @@
+{
+  "consistency_gate": {
+    "S_M3_all": 51,
+    "S_full": 51,
+    "S_meanD_host": 39,
+    "full_rows_bitwise_eq_M3": 208,
+    "meanD_host_rows_bitwise_eq_M6": 208,
+    "pass": true
+  },
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-140": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-154": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-169": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-181": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-212": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-220": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-272": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-283": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-301": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-337": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-338": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-344": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    },
+    "twins_streamlet:run-68": {
+      "SUF": [
+        "full",
+        "meanD_host"
+      ],
+      "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+      "k_star": null,
+      "m6_lr64_size": "LR64_BASIS_LIMITED",
+      "meandiff": "NOT_MEANDIFF",
+      "null_holds": true,
+      "round_contrast": "RC_INSUFFICIENT",
+      "s_star": null
+    }
+  },
+  "median_change_norm_rel_full": {
+    "dlr16_sm": 0.7751,
+    "dlr1_sm": 0.6686,
+    "dlr4_sm": 0.7751,
+    "dlr64": 0.6461,
+    "dlr64_sm": 0.7751,
+    "full": 1.0,
+    "lr64_sm": 0.7751,
+    "mdir1": 0.2538,
+    "mdir2": 0.5077,
+    "meanD_host": 0.6194,
+    "rand64_sm": 0.7751,
+    "rcD": 0.0443,
+    "rcH": 0.0404
+  },
+  "per_host_S": {
+    "1c7158b6b838": {
+      "dlr16_sm": 0,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 0,
+      "dlr64_sm": 0,
+      "full": 1,
+      "lr64_sm": 0,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 0,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "1fb5651c643e": {
+      "dlr16_sm": 8,
+      "dlr1_sm": 0,
+      "dlr4_sm": 1,
+      "dlr64": 9,
+      "dlr64_sm": 9,
+      "full": 13,
+      "lr64_sm": 2,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 13,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 9
+    },
+    "264c458dbed5": {
+      "dlr16_sm": 0,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 2,
+      "dlr64_sm": 5,
+      "full": 10,
+      "lr64_sm": 10,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 13,
+      "rand64_sm": 1,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "2a4f596d9dd7": {
+      "dlr16_sm": 0,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 0,
+      "dlr64_sm": 0,
+      "full": 0,
+      "lr64_sm": 0,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 0,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "2c9118bbcc3b": {
+      "dlr16_sm": 0,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 0,
+      "dlr64_sm": 0,
+      "full": 5,
+      "lr64_sm": 0,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 0,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "4bcbaf15f7ab": {
+      "dlr16_sm": 5,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 7,
+      "dlr64_sm": 7,
+      "full": 11,
+      "lr64_sm": 1,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 13,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "756424185463": {
+      "dlr16_sm": 0,
+      "dlr1_sm": 0,
+      "dlr4_sm": 0,
+      "dlr64": 0,
+      "dlr64_sm": 0,
+      "full": 7,
+      "lr64_sm": 1,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 0,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    },
+    "8ae8575481a0": {
+      "dlr16_sm": 4,
+      "dlr1_sm": 2,
+      "dlr4_sm": 0,
+      "dlr64": 2,
+      "dlr64_sm": 3,
+      "full": 4,
+      "lr64_sm": 5,
+      "mdir1": 0,
+      "mdir2": 0,
+      "meanD_host": 0,
+      "rand64_sm": 0,
+      "rcD": 0,
+      "rcH": 0
+    }
+  },
+  "rules": {
+    "S": "S(arm) = #cells where the donor-new-source patch is JOINT and the donor-ROUND-source patch of the same arm is not (target host new)",
+    "SPEC": "SPEC iff dM_main > dM_round in >= 75% of cells AND in a majority of cells for >= 10 of 14 donor groups",
+    "SUF": "SUF(arm) iff S(arm) >= 1/2 S(full) and SPEC(arm)",
+    "always_reported": "S, SPEC, J_main, J_round and median dM per arm; per host; leave-one-donor-group-out of every verdict; energy, alpha and capped share of the subspace arms; change norm of every arm relative to the full patch; all nulls",
+    "consistency_gate": "full = the M3 all-heads patch: its 208 rows equal M3's bitwise and S(full) = 51; meanD_host = the M6 pooled-donor arm: its 208 rows equal M6's bitwise and S = 39 (GPU, checked in the run); otherwise every verdict is INCONSISTENT_WITH_M3_M6 and no claim",
+    "delta_lowrank_verdict": "k* = the smallest k in 1, 4, 16, 64 with SUF(dlr{k}_sm); NULL holds iff S(rand64_sm) <= 5 and not SPEC(rand64_sm). DELTA_LOWRANK:k* if k* exists and NULL holds; DELTA_LOWRANK_UNRESOLVED:k* if k* exists and NULL fails; NOT_DELTA_LOWRANK_LE64 if no k*",
+    "interpretation_fixed_in_advance": "DELTA_LOWRANK:k: the repairing part of the cell's donor-minus-host BULK difference lies in a k-dimensional subspace of OTHER donors' differences to the same host, at matched size, and a random subspace at that size does not repair. NOT_DELTA_LOWRANK_LE64: not even a 64-dimensional difference subspace carries it. LR64_SIZE_LIMITED: M6's lr64 failure (S 10) was a size effect of the unrescaled projection; LR64_BASIS_LIMITED: it was the raw basis. MEANDIFF_DIRECTION:s: one fixed position-wise vector per source kind, the pooled donor BULK minus the pooled host BULK, added to the host repairs it round-specifically: the shared component is a donor-vs-host difference, not the donor's absolute BULK. RC_GENERIC: the new-vs-ROUND contrast of other hosts' BULK alone, subtracted (main) or added (round), produces the round-specific JOINT pattern: the round contrast needs no repairing donor. RC_DONOR_POOL_ONLY: only the donors' contrast does. RC_INSUFFICIENT: the contrast alone is not enough. The mdir and rc arms vary with the donor only through the pool exclusion (effectively 8 hosts); per-host S is the honest unit there. The mdir and rc arms are not size-matched; their change norms relative to full are reported. A rescaled arm at large alpha (capped at 10) is off-distribution; alpha and the capped share are reported",
+    "m6_lr64_size": "LR64_SIZE_LIMITED if SUF(lr64_sm), else LR64_BASIS_LIMITED",
+    "meandiff_verdict": "s* = the smallest s in 1, 2 with SUF(mdir{s}); MEANDIFF_DIRECTION:s* if s* exists and NULL holds; MEANDIFF_UNRESOLVED:s* if s* exists and NULL fails; NOT_MEANDIFF otherwise",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run capture of host new)",
+    "round_contrast_verdict": "RC_GENERIC if SUF(rcH); RC_DONOR_POOL_ONLY if SUF(rcD) and not SUF(rcH); RC_INSUFFICIENT otherwise; the median dM of the round source (+contrast) and of the main source (-contrast) of rcH and rcD are always reported",
+    "size_gate": "per row and span position, the change of a rescaled arm equals min(||delta_B||, 10 ||U_k U_k^T delta_B||) (dlr*_sm, lr64_sm) or ||delta_B|| (rand64_sm) within 1e-3 relative (fail-closed in the runner); energy ||U_k U_k^T delta_B|| / ||delta_B||, alpha and the capped share are recorded",
+    "units": "the 104 cross-group cells of M1-M6; cells share donors and hosts, and the pooled-mean arms vary with the donor only through the pool exclusion (effectively 8 hosts), so counts are descriptive decision rules, not independent tests; per-host S is always reported"
+  },
+  "rules_applied": {
+    "SUF": {
+      "dlr16_sm": false,
+      "dlr1_sm": false,
+      "dlr4_sm": false,
+      "dlr64": false,
+      "dlr64_sm": false,
+      "full": true,
+      "lr64_sm": false,
+      "mdir1": false,
+      "mdir2": false,
+      "meanD_host": true,
+      "rand64_sm": false,
+      "rcD": false,
+      "rcH": false
+    },
+    "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+    "k_star": null,
+    "m6_lr64_size": "LR64_BASIS_LIMITED",
+    "meandiff": "NOT_MEANDIFF",
+    "null_holds": true,
+    "round_contrast": "RC_INSUFFICIENT",
+    "s_star": null
+  },
+  "schema": "JEV_A461_MECH_M7_ANALYSIS_V1",
+  "subspace_stats": {
+    "dlr16_sm": {
+      "alpha_max": 5.2687,
+      "alpha_median_of_medians": 1.5312,
+      "basis_sv_share_median": 0.6233,
+      "capped_share_mean": 0.0,
+      "energy_median_of_medians": 0.6531,
+      "energy_min": 0.1898
+    },
+    "dlr1_sm": {
+      "alpha_max": 10.0,
+      "alpha_median_of_medians": 4.7548,
+      "basis_sv_share_median": 0.1525,
+      "capped_share_mean": 0.3026,
+      "energy_median_of_medians": 0.2103,
+      "energy_min": 0.0001
+    },
+    "dlr4_sm": {
+      "alpha_max": 10.0,
+      "alpha_median_of_medians": 2.4658,
+      "basis_sv_share_median": 0.3408,
+      "capped_share_mean": 0.013,
+      "energy_median_of_medians": 0.4055,
+      "energy_min": 0.0403
+    },
+    "dlr64": {
+      "alpha_max": 1.0,
+      "alpha_median_of_medians": 1.0,
+      "basis_sv_share_median": 0.8685,
+      "capped_share_mean": 0.0,
+      "energy_median_of_medians": 0.8449,
+      "energy_min": 0.3998
+    },
+    "dlr64_sm": {
+      "alpha_max": 2.5014,
+      "alpha_median_of_medians": 1.1836,
+      "basis_sv_share_median": 0.8685,
+      "capped_share_mean": 0.0,
+      "energy_median_of_medians": 0.8449,
+      "energy_min": 0.3998
+    },
+    "lr64_sm": {
+      "alpha_max": 5.9197,
+      "alpha_median_of_medians": 1.4239,
+      "basis_sv_share_median": 0.9528,
+      "capped_share_mean": 0.0,
+      "energy_median_of_medians": 0.7023,
+      "energy_min": 0.1689
+    },
+    "rand64_sm": {
+      "alpha_max": 11.182,
+      "alpha_median_of_medians": 8.052,
+      "basis_sv_share_median": null,
+      "capped_share_mean": 0.0107,
+      "energy_median_of_medians": 0.1242,
+      "energy_min": 0.0894
+    }
+  },
+  "table": {
+    "dlr16_sm": {
+      "J_main": 51,
+      "J_round": 38,
+      "S": 17,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5385,
+      "groups_majority": 7,
+      "median_dM_contrast": 0.0133,
+      "median_dM_main": 0.2807,
+      "median_dM_round": 0.347,
+      "n_cells": 104
+    },
+    "dlr1_sm": {
+      "J_main": 52,
+      "J_round": 51,
+      "S": 2,
+      "SPEC": false,
+      "frac_main_gt_round": 0.2308,
+      "groups_majority": 1,
+      "median_dM_contrast": -0.0135,
+      "median_dM_main": 0.1097,
+      "median_dM_round": 0.1535,
+      "n_cells": 104
+    },
+    "dlr4_sm": {
+      "J_main": 34,
+      "J_round": 49,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.2788,
+      "groups_majority": 1,
+      "median_dM_contrast": -0.0747,
+      "median_dM_main": 0.1498,
+      "median_dM_round": 0.3065,
+      "n_cells": 104
+    },
+    "dlr64": {
+      "J_main": 37,
+      "J_round": 18,
+      "S": 20,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4712,
+      "groups_majority": 4,
+      "median_dM_contrast": -0.017,
+      "median_dM_main": 0.2029,
+      "median_dM_round": 0.2357,
+      "n_cells": 104
+    },
+    "dlr64_sm": {
+      "J_main": 42,
+      "J_round": 18,
+      "S": 24,
+      "SPEC": false,
+      "frac_main_gt_round": 0.7212,
+      "groups_majority": 13,
+      "median_dM_contrast": 0.0924,
+      "median_dM_main": 0.2336,
+      "median_dM_round": 0.0284,
+      "n_cells": 104
+    },
+    "full": {
+      "J_main": 58,
+      "J_round": 7,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.7138,
+      "median_dM_main": 0.3542,
+      "median_dM_round": -0.3714,
+      "n_cells": 104
+    },
+    "lr64_sm": {
+      "J_main": 21,
+      "J_round": 2,
+      "S": 19,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9712,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.604,
+      "median_dM_main": 0.066,
+      "median_dM_round": -0.6877,
+      "n_cells": 104
+    },
+    "mdir1": {
+      "J_main": 0,
+      "J_round": 5,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.0577,
+      "groups_majority": 0,
+      "median_dM_contrast": -0.0876,
+      "median_dM_main": 0.0878,
+      "median_dM_round": 0.1801,
+      "n_cells": 104
+    },
+    "mdir2": {
+      "J_main": 16,
+      "J_round": 47,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.0096,
+      "groups_majority": 0,
+      "median_dM_contrast": -0.1369,
+      "median_dM_main": 0.2193,
+      "median_dM_round": 0.4,
+      "n_cells": 104
+    },
+    "meanD_host": {
+      "J_main": 39,
+      "J_round": 0,
+      "S": 39,
+      "SPEC": true,
+      "frac_main_gt_round": 1.0,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.5958,
+      "median_dM_main": 0.2438,
+      "median_dM_round": -0.6565,
+      "n_cells": 104
+    },
+    "rand64_sm": {
+      "J_main": 1,
+      "J_round": 1,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4712,
+      "groups_majority": 4,
+      "median_dM_contrast": -0.0112,
+      "median_dM_main": -0.0282,
+      "median_dM_round": -0.0097,
+      "n_cells": 104
+    },
+    "rcD": {
+      "J_main": 0,
+      "J_round": 0,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.6538,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.0687,
+      "median_dM_main": -0.0814,
+      "median_dM_round": -0.1594,
+      "n_cells": 104
+    },
+    "rcH": {
+      "J_main": 9,
+      "J_round": 0,
+      "S": 9,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5,
+      "groups_majority": 4,
+      "median_dM_contrast": -0.0443,
+      "median_dM_main": -0.0095,
+      "median_dM_round": -0.0055,
+      "n_cells": 104
+    }
+  },
+  "verdicts": {
+    "delta_lowrank": "NOT_DELTA_LOWRANK_LE64",
+    "m6_lr64_size": "LR64_BASIS_LIMITED",
+    "meandiff": "NOT_MEANDIFF",
+    "round_contrast": "RC_INSUFFICIENT"
+  }
+}

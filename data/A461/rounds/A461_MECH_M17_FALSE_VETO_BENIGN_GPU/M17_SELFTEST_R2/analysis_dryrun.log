@@ -1,0 +1,112 @@
+{
+ "consistency_gate": {
+  "anchor_rows_bitwise": {},
+  "benign_capture_token_sha_ok": 24,
+  "host_new_baseline_action_as_M1": false,
+  "pass": false
+ },
+ "verdicts": {
+  "arm_verdicts": {
+   "full": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "meanD": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "cs0": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "abc05": "INCONSISTENT_WITH_M3_M6_M8_M14"
+  },
+  "fv_verdicts": {
+   "full@SA": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "full@ROUND": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "full@OUTSIDER": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "meanD@SA": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "meanD@ROUND": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "meanD@OUTSIDER": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "cs0@SA": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "cs0@ROUND": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "cs0@OUTSIDER": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "abc05@SA": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "abc05@ROUND": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "abc05@OUTSIDER": "INCONSISTENT_WITH_M3_M6_M8_M14"
+  },
+  "host_selectivity": {
+   "1fb5651c|full": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "1fb5651c|meanD": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "1fb5651c|cs0": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "1fb5651c|abc05": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "264c458d|full": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "264c458d|meanD": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "264c458d|cs0": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "264c458d|abc05": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "4bcbaf15|full": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "4bcbaf15|meanD": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "4bcbaf15|cs0": "INCONSISTENT_WITH_M3_M6_M8_M14",
+   "4bcbaf15|abc05": "INCONSISTENT_WITH_M3_M6_M8_M14"
+  }
+ },
+ "FV": {
+  "full@SA": [
+   0,
+   0,
+   0
+  ],
+  "full@ROUND": [
+   0,
+   0,
+   0
+  ],
+  "full@OUTSIDER": [
+   0,
+   0,
+   0
+  ],
+  "meanD@SA": [
+   0,
+   0,
+   0
+  ],
+  "meanD@ROUND": [
+   0,
+   0,
+   0
+  ],
+  "meanD@OUTSIDER": [
+   0,
+   0,
+   0
+  ],
+  "cs0@SA": [
+   0,
+   null,
+   0
+  ],
+  "cs0@ROUND": [
+   0,
+   null,
+   0
+  ],
+  "cs0@OUTSIDER": [
+   0,
+   null,
+   0
+  ],
+  "abc05@SA": [
+   0,
+   0,
+   0
+  ],
+  "abc05@ROUND": [
+   0,
+   0,
+   0
+  ],
+  "abc05@OUTSIDER": [
+   0,
+   0,
+   0
+  ]
+ },
+ "logo_stability": {
+  "full": 14,
+  "meanD": 14,
+  "cs0": 14,
+  "abc05": 14
+ }
+}

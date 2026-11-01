@@ -1,0 +1,11 @@
+{
+  "files": [
+    "per_pair_outcomes.jsonl",
+    "analysis.json"
+  ],
+  "gpu_forwards": 0,
+  "model_loads": 0,
+  "pairs": 31,
+  "schema": "JEV_A461_PSMI_G2_RECEIPT_V1",
+  "status": "COMPLETE_A461_PSMI_G2_INDEPENDENT_ANALYSIS"
+}

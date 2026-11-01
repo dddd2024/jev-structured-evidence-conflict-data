@@ -1,0 +1,6 @@
+{
+  "admission_id": "A461_MECH_M3_GPU_20261027_R1",
+  "attempt_id": "fd51a0c7a7094a10bf1c19140f067dea",
+  "backend": "gpu",
+  "runner_blob": "a285df3dcd64fad4f1a071f6f027601fe580ac09"
+}

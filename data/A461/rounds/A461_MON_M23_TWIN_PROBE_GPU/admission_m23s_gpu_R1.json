@@ -1,0 +1,29 @@
+{
+  "stage": "A461_MON_M23_TWIN_PROBE_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_MON_M23S_GPU_20261101_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "governance_amendment": "GOVERNANCE_AMENDMENT_20261027_STANDING_GPU_AUTHORIZATION.md (standing GPU authorization; no per-experiment approval)",
+  "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+  "user_gpu_approval_utc": "2026-10-27T11:12:00Z",
+  "user_stage_instruction_quote": "Run M23",
+  "approval_kind": "standing",
+  "approved_runner_blob": "a8955fe34308c4d2819bc60b45efe9257f90be04",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 248,
+  "approved_batches": 2,
+  "approved_batch_plan": [
+    128,
+    120
+  ],
+  "frozen_inputs": {
+    "manifest_blob": "ebe6979dba4b0e719bda66b7c849bec95553a170",
+    "design_blob": "480ca62c1e88ffa3fdd7348e557692c515415390",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+  "user_stage_instruction_context": "2026-11-01: after paper audit 02a2b73 (P0-1 arm confound) the user chose 'Narrow text + CPU check' (G2.3: same-span PARTNER_ROUND twins constructible 124/124) and then 'Run M23': score the twins with the refit M22 probes; 124 new replays (bitwise Stage-A anchors) + 124 TWIN rows, read-only captures; standing GPU authorization"
+}

@@ -1,0 +1,238 @@
+{
+  "conflicting_vote_branch_resolution": "dynamic from to_record meta ids",
+  "rows": [
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "arms": {
+        "SA": {
+          "appended_span_in_state": [
+            624,
+            658
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "message": {
+              "author": "v3",
+              "block": "b12",
+              "kind": "vote",
+              "received": 22.0,
+              "round": 3
+            },
+            "op": "SHAM_same_author_duplicate"
+          },
+          "first_divergence": 624,
+          "row_id": "G5_0032",
+          "state_growth": 34,
+          "state_token_len": 686,
+          "trailing_suffix_len": 28
+        },
+        "new": {
+          "appended_span_in_state": [
+            624,
+            658
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "block_width_scan": "same_width",
+            "message": {
+              "author": "v3",
+              "block": "b10",
+              "kind": "vote",
+              "received": 22.0,
+              "round": 3
+            },
+            "op": "append_conflict_vote"
+          },
+          "first_divergence": 624,
+          "row_id": "G5_0031",
+          "state_growth": 34,
+          "state_token_len": 686,
+          "trailing_suffix_len": 28
+        }
+      },
+      "branch_identity_old_vs_SA": true,
+      "branch_identity_old_vs_new": true,
+      "branch_identity_old_vs_sa": null,
+      "conflicting_vote_branch_index": 1,
+      "conflicting_vote_keys": [
+        "false",
+        "true"
+      ],
+      "family": "T2_WAIT_TO_REJECT",
+      "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e",
+      "source_group": "twins_streamlet:run-83",
+      "state_len_old": 652
+    },
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "arms": {
+        "SA": {
+          "appended_span_in_state": [
+            493,
+            527
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "message": {
+              "author": "v1",
+              "block": "b5",
+              "kind": "vote",
+              "received": 74.49,
+              "round": 7
+            },
+            "op": "SHAM_same_author_duplicate"
+          },
+          "first_divergence": 493,
+          "row_id": "G5_0002",
+          "state_growth": 34,
+          "state_token_len": 570,
+          "trailing_suffix_len": 43
+        },
+        "new": {
+          "appended_span_in_state": [
+            493,
+            527
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "block_width_scan": "same_width",
+            "message": {
+              "author": "v0",
+              "block": "b0",
+              "kind": "vote",
+              "received": 74.49,
+              "round": 7
+            },
+            "op": "append_conflict_vote"
+          },
+          "first_divergence": 493,
+          "row_id": "G5_0001",
+          "state_growth": 34,
+          "state_token_len": 570,
+          "trailing_suffix_len": 43
+        }
+      },
+      "branch_identity_old_vs_SA": true,
+      "branch_identity_old_vs_new": true,
+      "branch_identity_old_vs_sa": null,
+      "conflicting_vote_branch_index": 1,
+      "conflicting_vote_keys": [
+        "false",
+        "true"
+      ],
+      "family": "T2_WAIT_TO_REJECT",
+      "pair_key": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "source_group": "twins_streamlet:run-114",
+      "state_len_old": 536
+    },
+    {
+      "all_meta_ids": [
+        "certificate_action",
+        "conflicting_vote",
+        "evidence_level",
+        "quorum"
+      ],
+      "arms": {
+        "SA": {
+          "appended_span_in_state": [
+            456,
+            490
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "message": {
+              "author": "v2",
+              "block": "b12",
+              "kind": "vote",
+              "received": 72.0,
+              "round": 8
+            },
+            "op": "SHAM_same_author_duplicate"
+          },
+          "first_divergence": 456,
+          "row_id": "G5_0052",
+          "state_growth": 34,
+          "state_token_len": 518,
+          "trailing_suffix_len": 28
+        },
+        "new": {
+          "appended_span_in_state": [
+            456,
+            490
+          ],
+          "c_branch_len": 26,
+          "c_decide_offset_in_branch": 25,
+          "c_opts_offsets_in_branch": [
+            21,
+            24
+          ],
+          "declared_edit": {
+            "block_width_scan": "same_width",
+            "message": {
+              "author": "v2",
+              "block": "b11",
+              "kind": "vote",
+              "received": 72.0,
+              "round": 8
+            },
+            "op": "append_conflict_vote"
+          },
+          "first_divergence": 456,
+          "row_id": "G5_0051",
+          "state_growth": 34,
+          "state_token_len": 518,
+          "trailing_suffix_len": 28
+        }
+      },
+      "branch_identity_old_vs_SA": true,
+      "branch_identity_old_vs_new": true,
+      "branch_identity_old_vs_sa": null,
+      "conflicting_vote_branch_index": 1,
+      "conflicting_vote_keys": [
+        "false",
+        "true"
+      ],
+      "family": "T2_ACCEPT_TO_REJECT",
+      "pair_key": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "source_group": "twins_streamlet:run-182",
+      "state_len_old": 484
+    }
+  ],
+  "schema": "JEV_A461_G5_PILOT_ANCHOR_MAP_V1",
+  "tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927"
+}

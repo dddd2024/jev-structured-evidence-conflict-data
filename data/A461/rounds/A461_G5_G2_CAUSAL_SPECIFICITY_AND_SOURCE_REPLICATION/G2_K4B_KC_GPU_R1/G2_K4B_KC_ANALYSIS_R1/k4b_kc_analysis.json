@@ -1,0 +1,3798 @@
+{
+  "K_C1_dose_specificity": true,
+  "K_C2_sham_specificity": true,
+  "K_C3_joint_generality": true,
+  "K_C4_recognition": true,
+  "cells": [
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.1721261739730835,
+        "main": 1.2302277982234955,
+        "sasham": -0.9677769839763641
+      },
+      "dM": {
+        "doserand": 0.2323298454284668,
+        "main": 0.9517683163285255,
+        "sasham": -1.3161728233098984
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.04888784885406494,
+        "main": 0.3624535799026489,
+        "sasham": -0.49157559871673584
+      },
+      "dM": {
+        "doserand": -0.1773667335510254,
+        "main": 0.1397695690393448,
+        "sasham": -0.27379199862480164
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.18215227127075195,
+        "main": 1.4514712393283844,
+        "sasham": -1.0061752200126648
+      },
+      "dM": {
+        "doserand": 0.3241734653711319,
+        "main": 1.1880872249603271,
+        "sasham": -1.267791360616684
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.16033899784088135,
+        "main": 1.5923632979393005,
+        "sasham": -0.5290115475654602
+      },
+      "dM": {
+        "doserand": -0.04674789309501648,
+        "main": 1.4004637002944946,
+        "sasham": -1.3039872124791145
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.0647176057100296,
+        "main": 1.9854875653982162,
+        "sasham": -1.2761445119976997
+      },
+      "dM": {
+        "doserand": 0.13194257020950317,
+        "main": 1.3070494830608368,
+        "sasham": -1.6035281121730804
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.09127146005630493,
+        "main": 1.6327656507492065,
+        "sasham": -1.043343722820282
+      },
+      "dM": {
+        "doserand": 0.028042703866958618,
+        "main": 1.3339363858103752,
+        "sasham": -1.2759200930595398
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.2925484776496887,
+        "main": 0.5722541064023972,
+        "sasham": -0.9898241758346558
+      },
+      "dM": {
+        "doserand": -0.33513012528419495,
+        "main": 0.38082078099250793,
+        "sasham": -1.4535606503486633
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": -0.630124568939209,
+        "main": 0.1566249132156372,
+        "sasham": -0.6322309970855713
+      },
+      "dM": {
+        "doserand": -0.1155378520488739,
+        "main": 0.2498616874217987,
+        "sasham": -1.0099765062332153
+      },
+      "donor": "3cddd369d7a0",
+      "donor_group": "twins_streamlet:run-121",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.03751784563064575,
+        "main": 0.4421052634716034,
+        "sasham": -0.9984164237976074
+      },
+      "dM": {
+        "doserand": -0.0796353816986084,
+        "main": 0.4979303330183029,
+        "sasham": -1.3313191086053848
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.003482520580291748,
+        "main": 0.17159146070480347,
+        "sasham": -0.6018603444099426
+      },
+      "dM": {
+        "doserand": 0.018092453479766846,
+        "main": 0.03683820366859436,
+        "sasham": -0.37052783370018005
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.04426884651184082,
+        "main": 0.5512951016426086,
+        "sasham": -1.1153927743434906
+      },
+      "dM": {
+        "doserand": 0.16460636258125305,
+        "main": 0.6103910654783249,
+        "sasham": -1.4490439370274544
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.016234278678894043,
+        "main": 0.7620046436786652,
+        "sasham": -0.5752154886722565
+      },
+      "dM": {
+        "doserand": 0.32844845205545425,
+        "main": 0.7548141404986382,
+        "sasham": -1.4353446327149868
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": 0.12481939792633057,
+        "main": 0.6595557481050491,
+        "sasham": -1.425306275486946
+      },
+      "dM": {
+        "doserand": 0.03990849852561951,
+        "main": 0.3608965743333101,
+        "sasham": -1.7774889469146729
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.337782084941864,
+        "main": 0.6265269815921783,
+        "sasham": -1.1821999549865723
+      },
+      "dM": {
+        "doserand": -0.03380170464515686,
+        "main": 0.6881574243307114,
+        "sasham": -1.4604442119598389
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.11956015229225159,
+        "main": 0.14981726743280888,
+        "sasham": -1.0421034544706345
+      },
+      "dM": {
+        "doserand": -0.44480380415916443,
+        "main": 0.1141434907913208,
+        "sasham": -1.2995828986167908
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.41208314895629883,
+        "main": 0.13919758796691895,
+        "sasham": -0.6416775584220886
+      },
+      "dM": {
+        "doserand": 0.061822280287742615,
+        "main": 0.4612057954072952,
+        "sasham": -1.0054956376552582
+      },
+      "donor": "70ede3f8992d",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3553573489189148,
+        "main": -0.03922879695892334,
+        "sasham": -0.14488494396209717
+      },
+      "dM": {
+        "doserand": -0.10282516479492188,
+        "main": -0.24752721190452576,
+        "sasham": -1.1431776583194733
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.11816233396530151,
+        "main": 0.15580743551254272,
+        "sasham": -0.31343936920166016
+      },
+      "dM": {
+        "doserand": -0.031092345714569092,
+        "main": 0.11705449223518372,
+        "sasham": -0.35768070816993713
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.4486912488937378,
+        "main": 0.043018996715545654,
+        "sasham": -0.2710351347923279
+      },
+      "dM": {
+        "doserand": 0.30320501048117876,
+        "main": -0.10806766152381897,
+        "sasham": -0.9395057857036591
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.0909389853477478,
+        "main": 0.39934873580932617,
+        "sasham": -0.012889206409454346
+      },
+      "dM": {
+        "doserand": -0.39602580666542053,
+        "main": 0.29558946192264557,
+        "sasham": -1.0941208899021149
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.062389492988586426,
+        "main": 0.5278452783823013,
+        "sasham": -0.9568167179822922
+      },
+      "dM": {
+        "doserand": 0.2896932065486908,
+        "main": 0.20124760270118713,
+        "sasham": -1.5554290860891342
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3881467580795288,
+        "main": 0.35874390602111816,
+        "sasham": -0.6160339117050171
+      },
+      "dM": {
+        "doserand": -0.2885638475418091,
+        "main": 0.5385085791349411,
+        "sasham": -1.1348713040351868
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": -0.13548649847507477,
+        "main": -0.04298869942431338,
+        "sasham": -1.1335797011852264
+      },
+      "dM": {
+        "doserand": -0.37437543272972107,
+        "main": -0.12506893277168274,
+        "sasham": -1.3454376757144928
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.051489830017089844,
+        "main": 0.04236006736755371,
+        "sasham": -0.7818764448165894
+      },
+      "dM": {
+        "doserand": -0.41152381896972656,
+        "main": 0.3347781002521515,
+        "sasham": -0.7583101689815521
+      },
+      "donor": "77ebbee1fb2d",
+      "donor_group": "twins_streamlet:run-154",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.03216677904129028,
+        "main": 0.04502195119857788,
+        "sasham": -0.7805704474449158
+      },
+      "dM": {
+        "doserand": 0.2649662853218615,
+        "main": 0.08049008250236511,
+        "sasham": -0.9246141314506531
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": -0.04120922088623047,
+        "main": 0.3197128176689148,
+        "sasham": -0.36767739057540894
+      },
+      "dM": {
+        "doserand": -0.08557641506195068,
+        "main": 0.2928032176569104,
+        "sasham": -0.2521224319934845
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.15785294771194458,
+        "main": 0.46387195587158203,
+        "sasham": -0.9690918922424316
+      },
+      "dM": {
+        "doserand": -0.2401534914970398,
+        "main": 0.5433309450745583,
+        "sasham": -1.0706039369106293
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.04567497968673706,
+        "main": 1.27727784588933,
+        "sasham": -0.6452453136444092
+      },
+      "dM": {
+        "doserand": -0.2376658320426941,
+        "main": 0.9491319730877876,
+        "sasham": -1.2274076640605927
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.09138819575309753,
+        "main": 1.4108105897903442,
+        "sasham": -1.1872253026813269
+      },
+      "dM": {
+        "doserand": 0.07538282871246338,
+        "main": 0.7352884709835052,
+        "sasham": -1.4621163308620453
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.26802271604537964,
+        "main": 1.3544355779886246,
+        "sasham": -1.1198762655258179
+      },
+      "dM": {
+        "doserand": -0.27507707476615906,
+        "main": 1.0917323976755142,
+        "sasham": -1.2686370611190796
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.2025974616408348,
+        "main": 0.09423920884728432,
+        "sasham": -1.1825095266103745
+      },
+      "dM": {
+        "doserand": -0.02413901686668396,
+        "main": 0.3022945448756218,
+        "sasham": -1.161480873823166
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.2969961166381836,
+        "main": 0.03412806987762451,
+        "sasham": -0.7800531983375549
+      },
+      "dM": {
+        "doserand": -0.21836718916893005,
+        "main": 0.6929589547216892,
+        "sasham": -0.7825148552656174
+      },
+      "donor": "c98f0db48cf6",
+      "donor_group": "twins_streamlet:run-169",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.10264670848846436,
+        "main": 0.4566025733947754,
+        "sasham": -0.9420712292194366
+      },
+      "dM": {
+        "doserand": -0.019155636429786682,
+        "main": 0.38972286880016327,
+        "sasham": -1.3048362880945206
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.24093425273895264,
+        "main": 0.19644296169281006,
+        "sasham": -0.5121101140975952
+      },
+      "dM": {
+        "doserand": -0.020829707384109497,
+        "main": 0.09042626619338989,
+        "sasham": -0.2266710102558136
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.32905852794647217,
+        "main": 0.7028425931930542,
+        "sasham": -0.9805457592010498
+      },
+      "dM": {
+        "doserand": -0.06679239869117737,
+        "main": 0.715322270989418,
+        "sasham": -1.2777507454156876
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.0717393159866333,
+        "main": 0.9190316200256348,
+        "sasham": -0.61212357878685
+      },
+      "dM": {
+        "doserand": -0.2606881558895111,
+        "main": 0.8850897997617722,
+        "sasham": -1.3279207199811935
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.32928498089313507,
+        "main": 0.9725195318460464,
+        "sasham": -1.193289641290903
+      },
+      "dM": {
+        "doserand": 0.3127435892820358,
+        "main": 0.7045669704675674,
+        "sasham": -1.576708510518074
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.09389930963516235,
+        "main": 0.7692141830921173,
+        "sasham": -1.1081556677818298
+      },
+      "dM": {
+        "doserand": -0.08729720115661621,
+        "main": 0.8650411777198315,
+        "sasham": -1.333936870098114
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.31780650466680527,
+        "main": -0.12498665228486061,
+        "sasham": -1.0404049009084702
+      },
+      "dM": {
+        "doserand": -0.5874417424201965,
+        "main": -0.09384915232658386,
+        "sasham": -1.3862107694149017
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3026726245880127,
+        "main": -0.24060773849487305,
+        "sasham": -0.7801052331924438
+      },
+      "dM": {
+        "doserand": -0.07195472717285156,
+        "main": 0.07146388292312622,
+        "sasham": -1.0468518882989883
+      },
+      "donor": "4569d20d3e4c",
+      "donor_group": "twins_streamlet:run-181",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.2052525281906128,
+        "main": 0.13976836204528809,
+        "sasham": -0.8157162070274353
+      },
+      "dM": {
+        "doserand": -0.009172052145004272,
+        "main": 0.15929661691188812,
+        "sasham": -1.2157360166311264
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1705365777015686,
+        "main": 0.06033807992935181,
+        "sasham": -0.40287160873413086
+      },
+      "dM": {
+        "doserand": -0.12608787417411804,
+        "main": 0.012368828058242798,
+        "sasham": -0.3452860414981842
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.06420904397964478,
+        "main": 0.22808068990707397,
+        "sasham": -0.9911807179450989
+      },
+      "dM": {
+        "doserand": 0.11379346251487732,
+        "main": 0.31218674778938293,
+        "sasham": -1.3030522763729095
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": -0.14106065034866333,
+        "main": 0.5289231538772583,
+        "sasham": -0.46883755922317505
+      },
+      "dM": {
+        "doserand": -0.10821762681007385,
+        "main": 0.46592596266418695,
+        "sasham": -1.319307416677475
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.02926596999168396,
+        "main": 0.4190260022878647,
+        "sasham": -1.229812266305089
+      },
+      "dM": {
+        "doserand": 0.266033798456192,
+        "main": 0.1578507125377655,
+        "sasham": -1.5960636883974075
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.1292705535888672,
+        "main": 0.3040463924407959,
+        "sasham": -1.021450698375702
+      },
+      "dM": {
+        "doserand": -0.34486666321754456,
+        "main": 0.3735356628894806,
+        "sasham": -1.371604084968567
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.5883866399526596,
+        "main": -0.3746490702033043,
+        "sasham": -0.9511630088090897
+      },
+      "dM": {
+        "doserand": -0.3091987371444702,
+        "main": 0.13244310021400452,
+        "sasham": -1.2210825383663177
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.41185081005096436,
+        "main": -0.13718748092651367,
+        "sasham": -0.509063720703125
+      },
+      "dM": {
+        "doserand": 0.19275835156440735,
+        "main": 0.5098542273044586,
+        "sasham": -0.8579422980546951
+      },
+      "donor": "7167a21b6694",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": 0.11941379308700562,
+        "main": 0.04742950201034546,
+        "sasham": -0.7963050007820129
+      },
+      "dM": {
+        "doserand": -0.05031120777130127,
+        "main": 0.0005690455436706543,
+        "sasham": -1.0440187454223633
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.021092593669891357,
+        "main": 0.03033548593521118,
+        "sasham": -0.3602995276451111
+      },
+      "dM": {
+        "doserand": -0.13166528940200806,
+        "main": -0.00490376353263855,
+        "sasham": -0.1334458291530609
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.03668457269668579,
+        "main": 0.16286122798919678,
+        "sasham": -0.9029654860496521
+      },
+      "dM": {
+        "doserand": 0.22377103567123413,
+        "main": 0.2090408205986023,
+        "sasham": -1.0992566794157028
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.03552520275115967,
+        "main": 0.501176655292511,
+        "sasham": -0.46731531620025635
+      },
+      "dM": {
+        "doserand": -0.17755886912345886,
+        "main": 0.3820342570543289,
+        "sasham": -1.1452893763780594
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.42209814488887787,
+        "main": 0.34664852917194366,
+        "sasham": -1.2280803062021732
+      },
+      "dM": {
+        "doserand": -0.02727830410003662,
+        "main": 0.11406086385250092,
+        "sasham": -1.4664805978536606
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.23475879430770874,
+        "main": 0.20732074975967407,
+        "sasham": -1.0099418759346008
+      },
+      "dM": {
+        "doserand": 0.01566186547279358,
+        "main": 0.26434120535850525,
+        "sasham": -1.2303815186023712
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3129267990589142,
+        "main": -0.5936895161867142,
+        "sasham": -0.9735686779022217
+      },
+      "dM": {
+        "doserand": 0.03621476888656616,
+        "main": -0.3804328441619873,
+        "sasham": -1.0211479365825653
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.39777660369873047,
+        "main": -0.4185081720352173,
+        "sasham": -0.5327545404434204
+      },
+      "dM": {
+        "doserand": -0.408363938331604,
+        "main": -0.22535096108913422,
+        "sasham": -0.6675058901309967
+      },
+      "donor": "2f67e76cdc83",
+      "donor_group": "twins_streamlet:run-220",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.15766668319702148,
+        "main": 0.19732898473739624,
+        "sasham": -0.7456499338150024
+      },
+      "dM": {
+        "doserand": -0.2096657156944275,
+        "main": 0.19001397117972374,
+        "sasham": -1.2155678421258926
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.03851097822189331,
+        "main": -0.06655830144882202,
+        "sasham": -0.24648064374923706
+      },
+      "dM": {
+        "doserand": -0.21676304936408997,
+        "main": -0.1268174946308136,
+        "sasham": -0.18527546525001526
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": 0.05744898319244385,
+        "main": 0.17878180742263794,
+        "sasham": -0.8512972593307495
+      },
+      "dM": {
+        "doserand": -0.36851680278778076,
+        "main": 0.32193470001220703,
+        "sasham": -1.3176221996545792
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.03910708427429199,
+        "main": 0.5614227652549744,
+        "sasham": -0.37980979681015015
+      },
+      "dM": {
+        "doserand": -0.2537136971950531,
+        "main": 0.3658083453774452,
+        "sasham": -1.2832386046648026
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.18194188177585602,
+        "main": 0.3333577364683151,
+        "sasham": -1.2757192570716143
+      },
+      "dM": {
+        "doserand": 0.03646722435951233,
+        "main": 0.34916792064905167,
+        "sasham": -1.6494123488664627
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.07346445322036743,
+        "main": 0.30686503648757935,
+        "sasham": -1.0271997451782227
+      },
+      "dM": {
+        "doserand": 0.3589438796043396,
+        "main": 0.4911128133535385,
+        "sasham": -1.3798081576824188
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.6471209228038788,
+        "main": -0.6697461828589439,
+        "sasham": -1.066138818860054
+      },
+      "dM": {
+        "doserand": -0.42690959572792053,
+        "main": -0.41391539573669434,
+        "sasham": -1.2516881823539734
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.15716761350631714,
+        "main": -0.6213037967681885,
+        "sasham": -0.5888608694076538
+      },
+      "dM": {
+        "doserand": -0.07057751715183258,
+        "main": -0.2164081335067749,
+        "sasham": -0.8911797255277634
+      },
+      "donor": "1f8c0826ae47",
+      "donor_group": "twins_streamlet:run-272",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.31521254777908325,
+        "main": 0.39177924394607544,
+        "sasham": -0.8114296495914459
+      },
+      "dM": {
+        "doserand": -0.16981041431427002,
+        "main": 0.3245173692703247,
+        "sasham": -1.303915113210678
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.17139583826065063,
+        "main": 0.03334730863571167,
+        "sasham": -0.4666815400123596
+      },
+      "dM": {
+        "doserand": -0.11098828911781311,
+        "main": -0.10316300392150879,
+        "sasham": -0.343196839094162
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.02666562795639038,
+        "main": 0.445525586605072,
+        "sasham": -0.9193120002746582
+      },
+      "dM": {
+        "doserand": 0.18776170909404755,
+        "main": 0.3927101083099842,
+        "sasham": -1.3077762871980667
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1608104705810547,
+        "main": 0.6376083493232727,
+        "sasham": -0.42678457498550415
+      },
+      "dM": {
+        "doserand": 0.015271991491317749,
+        "main": 0.5676827132701874,
+        "sasham": -1.4090982526540756
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.08120685815811157,
+        "main": 0.5607311874628067,
+        "sasham": -1.2465467639267445
+      },
+      "dM": {
+        "doserand": 0.06359928846359253,
+        "main": 0.25879115611314774,
+        "sasham": -1.6945411413908005
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": false,
+      "dA": {
+        "doserand": -0.014113843441009521,
+        "main": 0.5568845272064209,
+        "sasham": -1.0190019011497498
+      },
+      "dM": {
+        "doserand": -0.10324960947036743,
+        "main": 0.5498331263661385,
+        "sasham": -1.4296690374612808
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.48372238874435425,
+        "main": 0.02593376487493515,
+        "sasham": -1.0405267030000687
+      },
+      "dM": {
+        "doserand": -0.18204516172409058,
+        "main": -0.019175246357917786,
+        "sasham": -1.36347097158432
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.25383198261260986,
+        "main": 0.07191884517669678,
+        "sasham": -0.573779821395874
+      },
+      "dM": {
+        "doserand": -0.32469308376312256,
+        "main": 0.4663034901022911,
+        "sasham": -0.9679076224565506
+      },
+      "donor": "0153673a107a",
+      "donor_group": "twins_streamlet:run-283",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.01711404323577881,
+        "main": 0.23182529211044312,
+        "sasham": -0.8254207968711853
+      },
+      "dM": {
+        "doserand": -0.08989912271499634,
+        "main": 0.26189322769641876,
+        "sasham": -1.2094436585903168
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.15827220678329468,
+        "main": 0.06742393970489502,
+        "sasham": -0.3551788330078125
+      },
+      "dM": {
+        "doserand": -0.20679035782814026,
+        "main": 0.03710472583770752,
+        "sasham": -0.2332618534564972
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.020019114017486572,
+        "main": 0.27964627742767334,
+        "sasham": -0.9602802991867065
+      },
+      "dM": {
+        "doserand": -0.21422651410102844,
+        "main": 0.39652469754219055,
+        "sasham": -1.3117916136980057
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.02102750539779663,
+        "main": 0.4755305051803589,
+        "sasham": -0.41971540451049805
+      },
+      "dM": {
+        "doserand": -0.1138046383857727,
+        "main": 0.26156939566135406,
+        "sasham": -1.249539278447628
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.017580576241016388,
+        "main": 0.33846427500247955,
+        "sasham": -1.3208953589200974
+      },
+      "dM": {
+        "doserand": 0.08186183869838715,
+        "main": 0.30562177300453186,
+        "sasham": -1.656506597995758
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.01791280508041382,
+        "main": 0.41611170768737793,
+        "sasham": -1.04395592212677
+      },
+      "dM": {
+        "doserand": 0.20331472158432007,
+        "main": 0.5337300524115562,
+        "sasham": -1.320316642522812
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3527391254901886,
+        "main": -0.09622753970324993,
+        "sasham": -1.0923390686511993
+      },
+      "dM": {
+        "doserand": -0.3166903555393219,
+        "main": -0.14647755026817322,
+        "sasham": -1.237830102443695
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3631019592285156,
+        "main": -0.044180870056152344,
+        "sasham": -0.5843123197555542
+      },
+      "dM": {
+        "doserand": -0.49158868193626404,
+        "main": 0.25372374057769775,
+        "sasham": -0.8984727263450623
+      },
+      "donor": "1b3e7af68bb3",
+      "donor_group": "twins_streamlet:run-301",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.2867468595504761,
+        "main": 1.3135609328746796,
+        "sasham": -0.785930335521698
+      },
+      "dM": {
+        "doserand": 0.29577988386154175,
+        "main": 0.9760478585958481,
+        "sasham": -1.1727792918682098
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1605215072631836,
+        "main": 0.289833128452301,
+        "sasham": -0.3767293691635132
+      },
+      "dM": {
+        "doserand": -0.06447504460811615,
+        "main": 0.14350257813930511,
+        "sasham": -0.19460338354110718
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1470584273338318,
+        "main": 1.5245903134346008,
+        "sasham": -0.8050459623336792
+      },
+      "dM": {
+        "doserand": -0.1535390019416809,
+        "main": 1.1970569491386414,
+        "sasham": -1.1303849071264267
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.0864982008934021,
+        "main": 1.5732507109642029,
+        "sasham": -0.4178454279899597
+      },
+      "dM": {
+        "doserand": -0.05128195881843567,
+        "main": 1.419459193944931,
+        "sasham": -1.1721003204584122
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.06364111602306366,
+        "main": 1.5534283959132154,
+        "sasham": -1.07171131670475
+      },
+      "dM": {
+        "doserand": -0.047876566648483276,
+        "main": 1.1161720752716064,
+        "sasham": -1.4375411421060562
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.31252390146255493,
+        "main": 1.668215572834015,
+        "sasham": -0.8887689709663391
+      },
+      "dM": {
+        "doserand": -0.019655704498291016,
+        "main": 1.4913823902606964,
+        "sasham": -1.1652869880199432
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.3058888912200928,
+        "main": 0.7184639498591423,
+        "sasham": -0.9344300180673599
+      },
+      "dM": {
+        "doserand": -0.37606215476989746,
+        "main": 0.005432069301605225,
+        "sasham": -1.2724892497062683
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1554248332977295,
+        "main": 0.5560435354709625,
+        "sasham": -0.4790428876876831
+      },
+      "dM": {
+        "doserand": -0.6898791790008545,
+        "main": 0.7372573092579842,
+        "sasham": -0.9161786288022995
+      },
+      "donor": "1218efed19de",
+      "donor_group": "twins_streamlet:run-337",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.12253028154373169,
+        "main": 0.6661121845245361,
+        "sasham": -0.9866358041763306
+      },
+      "dM": {
+        "doserand": 0.1356109231710434,
+        "main": 0.517195850610733,
+        "sasham": -1.3849564343690872
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.13437598943710327,
+        "main": 0.294414758682251,
+        "sasham": -0.4485253095626831
+      },
+      "dM": {
+        "doserand": -0.16988486051559448,
+        "main": 0.254389138892293,
+        "sasham": -0.21765431761741638
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.15647727251052856,
+        "main": 0.7747553884983063,
+        "sasham": -1.0521192848682404
+      },
+      "dM": {
+        "doserand": 0.1705835461616516,
+        "main": 0.6928153783082962,
+        "sasham": -1.3434564471244812
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1011459231376648,
+        "main": 0.8647427558898926,
+        "sasham": -0.5628560483455658
+      },
+      "dM": {
+        "doserand": 0.03091643750667572,
+        "main": 0.6951695680618286,
+        "sasham": -1.3853548094630241
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.24950481951236725,
+        "main": 1.0107874423265457,
+        "sasham": -1.2329356847330928
+      },
+      "dM": {
+        "doserand": 0.10699725151062012,
+        "main": 0.5838815569877625,
+        "sasham": -1.6357203274965286
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.0035014748573303223,
+        "main": 0.8345232605934143,
+        "sasham": -1.121777892112732
+      },
+      "dM": {
+        "doserand": 0.49561402201652527,
+        "main": 0.7120756655931473,
+        "sasham": -1.4285894632339478
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.5603110939264297,
+        "main": 0.29233742132782936,
+        "sasham": -1.1013838350772858
+      },
+      "dM": {
+        "doserand": -0.4319656789302826,
+        "main": -0.10538768768310547,
+        "sasham": -1.511574074625969
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.4406719207763672,
+        "main": 0.15027552843093872,
+        "sasham": -0.7731087803840637
+      },
+      "dM": {
+        "doserand": -0.3374890089035034,
+        "main": 0.6050300300121307,
+        "sasham": -1.1359769850969315
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.22161448001861572,
+        "main": 0.5633661150932312,
+        "sasham": -0.7694365978240967
+      },
+      "dM": {
+        "doserand": -0.00466388463973999,
+        "main": 0.4553058445453644,
+        "sasham": -1.2195973545312881
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.2978777289390564,
+        "main": 0.003280043601989746,
+        "sasham": -0.46058154106140137
+      },
+      "dM": {
+        "doserand": -0.1273590624332428,
+        "main": -0.016336828470230103,
+        "sasham": -0.29260459542274475
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.12006771564483643,
+        "main": 0.5677535533905029,
+        "sasham": -0.9123703241348267
+      },
+      "dM": {
+        "doserand": 0.1560908555984497,
+        "main": 0.42033126950263977,
+        "sasham": -1.2771071419119835
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.05510294437408447,
+        "main": 0.7320058941841125,
+        "sasham": -0.49244260787963867
+      },
+      "dM": {
+        "doserand": -0.29088354110717773,
+        "main": 0.6100540161132812,
+        "sasham": -1.3274706527590752
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.015542864799499512,
+        "main": 0.826727107167244,
+        "sasham": -1.2952012419700623
+      },
+      "dM": {
+        "doserand": 0.010487735271453857,
+        "main": 0.5249412208795547,
+        "sasham": -1.6775936782360077
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.038524746894836426,
+        "main": 0.5667480230331421,
+        "sasham": -1.0520646572113037
+      },
+      "dM": {
+        "doserand": -0.015531778335571289,
+        "main": 0.6419879347085953,
+        "sasham": -1.3818355649709702
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.7418385595083237,
+        "main": 0.1652514785528183,
+        "sasham": -1.0970639139413834
+      },
+      "dM": {
+        "doserand": -0.6648002862930298,
+        "main": 0.10961313545703888,
+        "sasham": -1.4685426354408264
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.10825455188751221,
+        "main": -0.07087695598602295,
+        "sasham": -0.644849419593811
+      },
+      "dM": {
+        "doserand": -0.5967728197574615,
+        "main": 0.18710294365882874,
+        "sasham": -0.9743300527334213
+      },
+      "donor": "b7d11ed06ba2",
+      "donor_group": "twins_streamlet:run-344",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.18941092491149902,
+        "main": 0.5973725318908691,
+        "sasham": -0.842981368303299
+      },
+      "dM": {
+        "doserand": -0.09602558612823486,
+        "main": 0.6184591501951218,
+        "sasham": -1.3043383210897446
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "264c458dbed5",
+      "host_group": "twins_streamlet:run-220",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.27971047163009644,
+        "main": 0.09970325231552124,
+        "sasham": -0.44650375843048096
+      },
+      "dM": {
+        "doserand": 0.0708705335855484,
+        "main": 0.003134205937385559,
+        "sasham": -0.20293453335762024
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "1fb5651c643e",
+      "host_group": "twins_streamlet:run-169",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.06385385990142822,
+        "main": 0.7104837894439697,
+        "sasham": -0.9415135979652405
+      },
+      "dM": {
+        "doserand": 0.09963884949684143,
+        "main": 0.779309406876564,
+        "sasham": -1.3237191885709763
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "4bcbaf15f7ab",
+      "host_group": "twins_streamlet:run-272",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.10601800680160522,
+        "main": 0.7590676844120026,
+        "sasham": -0.41788995265960693
+      },
+      "dM": {
+        "doserand": -0.2550893723964691,
+        "main": 0.7059478014707565,
+        "sasham": -1.3354843333363533
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "756424185463",
+      "host_group": "twins_streamlet:run-212",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.1856328248977661,
+        "main": 0.826222375035286,
+        "sasham": -1.2383166775107384
+      },
+      "dM": {
+        "doserand": -0.21975088119506836,
+        "main": 0.6797474399209023,
+        "sasham": -1.6888060569763184
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "2c9118bbcc3b",
+      "host_group": "twins_streamlet:run-140",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": 0.18417876958847046,
+        "main": 0.950644850730896,
+        "sasham": -0.985393762588501
+      },
+      "dM": {
+        "doserand": -0.0777142345905304,
+        "main": 0.9078254643827677,
+        "sasham": -1.36364284157753
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "8ae8575481a0",
+      "host_group": "twins_streamlet:run-283",
+      "joint": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.722761943936348,
+        "main": 0.06903091305866838,
+        "sasham": -0.975474551320076
+      },
+      "dM": {
+        "doserand": -0.18185004591941833,
+        "main": -0.16917118430137634,
+        "sasham": -1.3243125081062317
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "2a4f596d9dd7",
+      "host_group": "twins_streamlet:run-154",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    },
+    {
+      "C": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "R": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "cross_group": true,
+      "dA": {
+        "doserand": -0.39437180757522583,
+        "main": -0.06137490272521973,
+        "sasham": -0.5451090335845947
+      },
+      "dM": {
+        "doserand": -0.37474051117897034,
+        "main": 0.21121542155742645,
+        "sasham": -0.9842190891504288
+      },
+      "donor": "45ef86e09e74",
+      "donor_group": "twins_streamlet:run-68",
+      "host": "1c7158b6b838",
+      "host_group": "twins_streamlet:run-121",
+      "joint": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      }
+    }
+  ],
+  "cross_group_cells": 104,
+  "donor_groups": 14,
+  "flips_cross_group": {
+    "doserand": {
+      "C": 12,
+      "JOINT": 0,
+      "R": 5
+    },
+    "main": {
+      "C": 65,
+      "JOINT": 53,
+      "R": 62
+    },
+    "sasham": {
+      "C": 0,
+      "JOINT": 0,
+      "R": 0
+    },
+    "unrecognized": {
+      "C": 0,
+      "JOINT": 0,
+      "R": 0,
+      "cells": 40
+    }
+  },
+  "joint_rate_main": 0.5096,
+  "joint_rate_unrecognized": 0.0,
+  "layer": 11,
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "share_main_gt_dose": 0.9072,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 47,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1489
+    },
+    "twins_streamlet:run-140": {
+      "share_main_gt_dose": 0.9072,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 49,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1429
+    },
+    "twins_streamlet:run-154": {
+      "share_main_gt_dose": 0.9381,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 50,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.14
+    },
+    "twins_streamlet:run-169": {
+      "share_main_gt_dose": 0.9175,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 49,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1429
+    },
+    "twins_streamlet:run-181": {
+      "share_main_gt_dose": 0.9062,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 47,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1489
+    },
+    "twins_streamlet:run-212": {
+      "share_main_gt_dose": 0.9175,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 52,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1346
+    },
+    "twins_streamlet:run-220": {
+      "share_main_gt_dose": 0.9278,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 52,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1346
+    },
+    "twins_streamlet:run-272": {
+      "share_main_gt_dose": 0.9175,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 51,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1373
+    },
+    "twins_streamlet:run-283": {
+      "share_main_gt_dose": 0.9072,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 50,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.14
+    },
+    "twins_streamlet:run-301": {
+      "share_main_gt_dose": 0.9062,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 51,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1373
+    },
+    "twins_streamlet:run-337": {
+      "share_main_gt_dose": 0.9062,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 46,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1304
+    },
+    "twins_streamlet:run-338": {
+      "share_main_gt_dose": 0.9062,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 47,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1489
+    },
+    "twins_streamlet:run-344": {
+      "share_main_gt_dose": 0.9062,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 49,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1429
+    },
+    "twins_streamlet:run-68": {
+      "share_main_gt_dose": 0.9167,
+      "share_main_gt_sham": 1.0,
+      "specific_joint": 49,
+      "specific_joint_groups": 13,
+      "specific_joint_top_group_share": 0.1429
+    }
+  },
+  "main_eval": {
+    "K_C1": true,
+    "K_C2": true,
+    "K_C3": true,
+    "cells": 104,
+    "groups_majority_main_gt_dose": 14,
+    "share_main_gt_dose": 0.9135,
+    "share_main_gt_sham": 1.0,
+    "specific_joint": 53,
+    "specific_joint_by_group": {
+      "twins_streamlet:run-121": 6,
+      "twins_streamlet:run-140": 4,
+      "twins_streamlet:run-154": 3,
+      "twins_streamlet:run-169": 4,
+      "twins_streamlet:run-181": 6,
+      "twins_streamlet:run-212": 1,
+      "twins_streamlet:run-220": 1,
+      "twins_streamlet:run-272": 2,
+      "twins_streamlet:run-283": 3,
+      "twins_streamlet:run-301": 2,
+      "twins_streamlet:run-337": 7,
+      "twins_streamlet:run-338": 6,
+      "twins_streamlet:run-344": 4,
+      "twins_streamlet:run-68": 4
+    },
+    "specific_joint_groups": 14,
+    "specific_joint_top_group_share": 0.1321
+  },
+  "medians_cross_group": {
+    "doserand": {
+      "dA": -0.1019,
+      "dM": -0.0713
+    },
+    "main": {
+      "dA": 0.3771,
+      "dM": 0.3772
+    },
+    "sasham": {
+      "dA": -0.8959,
+      "dM": -1.2706
+    }
+  },
+  "per_host": {
+    "1c7158b6b838": {
+      "main_gt_dose": 12,
+      "specific_joint": 1
+    },
+    "1fb5651c643e": {
+      "main_gt_dose": 12,
+      "specific_joint": 5
+    },
+    "264c458dbed5": {
+      "main_gt_dose": 11,
+      "specific_joint": 8
+    },
+    "2a4f596d9dd7": {
+      "main_gt_dose": 12,
+      "specific_joint": 0
+    },
+    "2c9118bbcc3b": {
+      "main_gt_dose": 11,
+      "specific_joint": 5
+    },
+    "4bcbaf15f7ab": {
+      "main_gt_dose": 11,
+      "specific_joint": 9
+    },
+    "756424185463": {
+      "main_gt_dose": 13,
+      "specific_joint": 13
+    },
+    "8ae8575481a0": {
+      "main_gt_dose": 13,
+      "specific_joint": 12
+    }
+  },
+  "same_group_cells": 8,
+  "schema": "JEV_A461_G5_G2_K4B_KC_ANALYSIS_V1"
+}

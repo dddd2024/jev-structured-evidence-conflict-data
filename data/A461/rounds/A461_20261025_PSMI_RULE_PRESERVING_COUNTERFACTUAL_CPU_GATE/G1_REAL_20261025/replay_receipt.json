@@ -1,0 +1,45 @@
+{
+  "expected_bases": [
+    "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old",
+    "LANL_L1_B_THRESHOLD:7465d5a079055d8b:old",
+    "LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old",
+    "LANL_L1_B_THRESHOLD:7d0d542458e93847:old"
+  ],
+  "replay_ledger": {
+    "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old": [
+      100
+    ],
+    "LANL_L1_B_THRESHOLD:7465d5a079055d8b:old": [
+      101
+    ],
+    "LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old": [
+      102
+    ],
+    "LANL_L1_B_THRESHOLD:7d0d542458e93847:old": [
+      103
+    ]
+  },
+  "replays": [
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old",
+      "n_replays": 1,
+      "verdict": "INCOMPLETE_LEDGER"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7465d5a079055d8b:old",
+      "n_replays": 1,
+      "verdict": "INCOMPLETE_LEDGER"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old",
+      "n_replays": 1,
+      "verdict": "INCOMPLETE_LEDGER"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7d0d542458e93847:old",
+      "n_replays": 1,
+      "verdict": "INCOMPLETE_LEDGER"
+    }
+  ],
+  "schema": "JEV_A461_PSMI_G1_REPLAY_V1"
+}

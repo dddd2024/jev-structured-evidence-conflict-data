@@ -1,0 +1,117 @@
+{
+ "consistency_gate": {
+  "anchor_rows_bitwise": {
+   "full": 12,
+   "meanD_host": 12,
+   "cs0": 12,
+   "abc_s05": 12
+  },
+  "benign_capture_token_sha_ok": 24,
+  "host_new_baseline_action_as_M1": true,
+  "pass": true
+ },
+ "verdicts": {
+  "arm_verdicts": {
+   "full": "NONSELECTIVE",
+   "meanD": "MIXED",
+   "cs0": "MIXED",
+   "abc05": "MIXED"
+  },
+  "fv_verdicts": {
+   "full@SA": "FV_AS_REPAIR",
+   "full@ROUND": "FV_AS_REPAIR",
+   "full@OUTSIDER": "FV_PARTIAL",
+   "meanD@SA": "FV_NONE",
+   "meanD@ROUND": "FV_AS_REPAIR",
+   "meanD@OUTSIDER": "FV_NONE",
+   "cs0@SA": "FV_NONE",
+   "cs0@ROUND": "FV_NONE",
+   "cs0@OUTSIDER": "FV_PARTIAL",
+   "abc05@SA": "FV_NONE",
+   "abc05@ROUND": "FV_NONE",
+   "abc05@OUTSIDER": "FV_PARTIAL"
+  },
+  "host_selectivity": {
+   "1fb5651c|full": "HOST_NONSELECTIVE",
+   "1fb5651c|meanD": "HOST_NONSELECTIVE",
+   "1fb5651c|cs0": "HOST_NONSELECTIVE",
+   "1fb5651c|abc05": "HOST_NONSELECTIVE",
+   "264c458d|full": "HOST_NONSELECTIVE",
+   "264c458d|meanD": "HOST_NONSELECTIVE",
+   "264c458d|cs0": "HOST_SELECTIVE",
+   "264c458d|abc05": "HOST_SELECTIVE",
+   "4bcbaf15|full": "HOST_NONSELECTIVE",
+   "4bcbaf15|meanD": "HOST_SELECTIVE",
+   "4bcbaf15|cs0": "HOST_SELECTIVE",
+   "4bcbaf15|abc05": "HOST_SELECTIVE"
+  }
+ },
+ "FV": {
+  "full@SA": [
+   36,
+   14,
+   61
+  ],
+  "full@ROUND": [
+   43,
+   0,
+   61
+  ],
+  "full@OUTSIDER": [
+   7,
+   0,
+   61
+  ],
+  "meanD@SA": [
+   0,
+   0,
+   39
+  ],
+  "meanD@ROUND": [
+   24,
+   0,
+   39
+  ],
+  "meanD@OUTSIDER": [
+   0,
+   0,
+   39
+  ],
+  "cs0@SA": [
+   0,
+   null,
+   39
+  ],
+  "cs0@ROUND": [
+   0,
+   null,
+   39
+  ],
+  "cs0@OUTSIDER": [
+   11,
+   null,
+   39
+  ],
+  "abc05@SA": [
+   0,
+   0,
+   39
+  ],
+  "abc05@ROUND": [
+   0,
+   0,
+   39
+  ],
+  "abc05@OUTSIDER": [
+   9,
+   0,
+   39
+  ]
+ },
+ "logo_stability": {
+  "full": 14,
+  "meanD": 14,
+  "cs0": 14,
+  "abc05": 14
+ }
+}

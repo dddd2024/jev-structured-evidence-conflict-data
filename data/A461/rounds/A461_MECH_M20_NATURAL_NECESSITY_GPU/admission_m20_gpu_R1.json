@@ -1,0 +1,34 @@
+{
+  "stage": "A461_MECH_M20_NATURAL_NECESSITY_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_MECH_M20_GPU_20261031_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "governance_amendment": "GOVERNANCE_AMENDMENT_20261027_STANDING_GPU_AUTHORIZATION.md (standing GPU authorization; no per-experiment approval)",
+  "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+  "user_gpu_approval_utc": "2026-10-27T11:12:00Z",
+  "user_stage_instruction_quote": "按照高标准的来",
+  "approval_kind": "standing",
+  "approved_runner_blob": "52d8e74805814d7eac8e679f5bae3cefe4b5eaa8",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 488,
+  "approved_batches": 4,
+  "approved_batch_plan": [
+    128,
+    128,
+    128,
+    104
+  ],
+  "frozen_inputs": {
+    "manifest_blob": "22b761f2a55c69fa7b971678cb641f7979846712",
+    "design_blob": "8571841b8216ee13404bd0a16f5ad329421ebb80",
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "m1_raw_blob": "298c7cdfab634cd6a6a9122fac90d41c87219c21",
+    "m3_raw_blob": "a8c0fa6b5d96be7c7ab0433d4dcbb5d6f0411a0c",
+    "m6_raw_blob": "2147311c2cf913fad5b07033e43789bb61293611"
+  },
+  "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+  "user_stage_instruction_context": "the user asked for the high standard on 2026-10-31 ('按照高标准的来') and whether the mechanism was settled; plan: M20 necessity, M21 causal readout, M22 SecJev replication, then packaging; M20 = interchange of the L11 append-span write (whole / BULK) from failing hosts vs other recognizing donors INTO the 14 recognizing donors' own new arm; M17 runner code unchanged; standing GPU authorization"
+}

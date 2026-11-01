@@ -1,0 +1,42 @@
+{
+  "schema": "JEV_A461_G5_PILOT_GPU_ADMISSION_RECEIPT_V1",
+  "date": "2026-10-25",
+  "stage": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU",
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU_R1",
+  "planned_native_forwards": 28,
+  "approved_max_native_forwards": 28,
+  "hard_cap_per_run": 128,
+  "blind_review_verdict": "PASS",
+  "blind_review_comment": "https://github.com/dddd2024/jev/issues/2#issuecomment-6399106014",
+  "blind_review_report": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_REVIEW_V3_PASS_CODE_HOLD_AUTH.md (71a360a8)",
+  "blind_review_verdict_scope": "PASS_CODE binds runner blob d05b070e only; the HOLD_GPU_AUTH_RECONCILIATION rider is resolved by the user authorization record below",
+  "blind_review_runner_blob": "d05b070e0723de5af70c6afbfd312ac99fdbdbb3",
+  "blind_review_history": [
+    {"runner_blob": "d2efc395f8c7279695e893930105bcc2f75ce72e",
+     "verdict": "REJECT_HOLD_GPU_P0_GZIP_SOURCE_LOADER",
+     "review": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_INDEPENDENT_BLIND_REVIEW_V1_REJECT.md (ed537ae1)",
+     "delta_after": "gzip.open corpus loader; preflight-only mode; MIXED_STATE_BRANCH_UNUSED label on donor_old capture; physical prehook count on failure receipts; roster request keys fixed to archived row ids"},
+    {"runner_blob": "c5dd9e0cd376c20c50b75348f9aed4dad5e67418",
+     "verdict": "PASS",
+     "review": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_INDEPENDENT_REVIEW_V2_PASS.md (f1e38391); issue comment 6398920590",
+     "outcome": "first real GPU attempt failed closed at forward 1/28: runner emitted condition name 'capture_donor_old' deviating from the frozen plan name 'capture_donor_old_at_new_span_coords', tripping the MIXED-overhang legality assert; attempt archived (PATCHING_PILOT_ATTEMPT1_STOPPED, 1 physical forward, receipt records physical_prehook_count_at_failure=1)",
+     "delta_after": "runner condition names now equal the frozen plan exactly; FROZEN_CONDITIONS sequence gate asserts every executed condition position-by-position before each forward; raw rows are written to disk BEFORE any post-forward gate so a failure keeps every completed call's readout; overhang legality checked pre-forward"}
+  ],
+  "blind_review_scope_blobs": {
+    "gpu_runner": "c5dd9e0cd376c20c50b75348f9aed4dad5e67418",
+    "cpu_closed_loop_runner": "a8b507c1d0f5890575f882930bfd5a145f5e1b29",
+    "protocol": "111595a31f3fb18268142501602cf6d91df848dd",
+    "g0_artifacts_dir": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G0_PILOT_CPU_GATE_REAL/",
+    "g1_preflight_dir": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G1_PREFLIGHT_REAL/"
+  },
+  "explicit_user_gpu_approval": true,
+  "approval_authority": "user session authorization 2026-10-25 approving exactly this 28-native-forward minimal pilot (AskUserQuestion response after narrow-delta PASS); single model load, no backprop, fail-closed",
+  "authorization_reconciliation": {
+    "consumed_by_attempt1_fail_closed": 1,
+    "approved_rerun_forwards": 28,
+    "approved_cumulative_total": 29,
+    "reconciliation": "user explicitly approved the cumulative 29 total (1 consumed by the fail-closed attempt 1 + 28 rerun) in an AskUserQuestion response after round-3 review PASS_CODE; per-reviewer requirement in issue comment 6399106014",
+    "hard_cap_per_run": 128
+  },
+  "notes": "Planning-only receipt. The GPU runner refuses to load the backbone until blind_review_verdict == 'PASS' (pinned to the committed runner blob), explicit_user_gpu_approval == true, and approved_max_native_forwards == 28. This receipt is not a GPU authorization."
+}

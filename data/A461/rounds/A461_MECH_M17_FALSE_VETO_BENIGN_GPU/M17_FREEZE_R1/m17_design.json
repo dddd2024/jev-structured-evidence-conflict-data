@@ -1,0 +1,4987 @@
+{
+  "ab_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "anchor_names": {
+    "abc05": "abc_s05",
+    "cs0": "cs0",
+    "full": "full",
+    "meanD": "meanD_host"
+  },
+  "arms": [
+    [
+      "full",
+      "full",
+      [],
+      {}
+    ],
+    [
+      "meanD",
+      "pool",
+      [
+        "OTHER_ITEMS",
+        "CONTEXT"
+      ],
+      {
+        "base": "target"
+      }
+    ],
+    [
+      "cs0",
+      "cshift",
+      [
+        "OTHER_ITEMS",
+        "CONTEXT"
+      ],
+      {
+        "main_only": true,
+        "s": 0.0
+      }
+    ],
+    [
+      "abc05",
+      "cshift",
+      [
+        "OTHER_ITEMS",
+        "CONTEXT"
+      ],
+      {
+        "cw": 0.0,
+        "s": 0.5,
+        "shpos": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          29,
+          30
+        ]
+      }
+    ]
+  ],
+  "benign_gold": {
+    "OUTSIDER:1c7158b6b838": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "OUTSIDER:1fb5651c643e": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "OUTSIDER:264c458dbed5": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "OUTSIDER:2a4f596d9dd7": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "OUTSIDER:2c9118bbcc3b": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "OUTSIDER:4bcbaf15f7ab": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "OUTSIDER:756424185463": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "OUTSIDER:8ae8575481a0": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:1c7158b6b838": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "ROUND:1fb5651c643e": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "ROUND:264c458dbed5": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:2a4f596d9dd7": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:2c9118bbcc3b": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:4bcbaf15f7ab": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:756424185463": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "ROUND:8ae8575481a0": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:1c7158b6b838": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "SA:1fb5651c643e": {
+      "certificate_action": "wait",
+      "conflicting_vote": false,
+      "quorum": false
+    },
+    "SA:264c458dbed5": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:2a4f596d9dd7": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:2c9118bbcc3b": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:4bcbaf15f7ab": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:756424185463": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    },
+    "SA:8ae8575481a0": {
+      "certificate_action": "accept",
+      "conflicting_vote": false,
+      "quorum": true
+    }
+  },
+  "benign_spans": {
+    "OUTSIDER:1c7158b6b838": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            185,
+            218
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            152,
+            185
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v4",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 2
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "ca53679b71a1e277e2cb181ff5825a9f7c5185ae71f6f4f1165ecef7cb336ff3"
+    },
+    "OUTSIDER:1fb5651c643e": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            218,
+            251
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            251,
+            284
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v5",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "5c08ed7baec7b0ef8bd9620311390c5d1211fd3da41b8864d2ba330c02831424"
+    },
+    "OUTSIDER:264c458dbed5": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            581,
+            614
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v7",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "f8516c38d9c67115a999d09457e733a82691f2db1a472cc3bbfe2856cca7aaf7"
+    },
+    "OUTSIDER:2a4f596d9dd7": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ]
+        ],
+        "PARTNER": [
+          [
+            152,
+            185
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ]
+        ],
+        "SELF": [
+          [
+            383,
+            414
+          ]
+        ]
+      },
+      "message": {
+        "author": "v4",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "bbc26cf1f695e7ab0fff61be2f3f1154d96b03be6ee86716550fc0c69ff7acd6"
+    },
+    "OUTSIDER:2c9118bbcc3b": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            383,
+            416
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            416,
+            449
+          ]
+        ],
+        "SELF": [
+          [
+            449,
+            480
+          ]
+        ]
+      },
+      "message": {
+        "author": "v4",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "1f468c83ad14816f509f73a0ae965bdbd8249085059d56adcf3a264dbba999d9"
+    },
+    "OUTSIDER:4bcbaf15f7ab": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            515,
+            548
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v7",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "f7b0201bd2c4985d6cca2b8b44f8e4f3b116c248de237da5bf18049c3dd6f60d"
+    },
+    "OUTSIDER:756424185463": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            482,
+            515
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v7",
+        "block": "b0",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "6d869ac05e35cb31065841374c376f7ec955785e0d1fa8aba48fda7e655560a4"
+    },
+    "OUTSIDER:8ae8575481a0": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            151
+          ],
+          [
+            151,
+            183
+          ],
+          [
+            183,
+            215
+          ],
+          [
+            215,
+            247
+          ],
+          [
+            247,
+            279
+          ],
+          [
+            279,
+            311
+          ],
+          [
+            311,
+            343
+          ],
+          [
+            343,
+            375
+          ],
+          [
+            375,
+            408
+          ]
+        ],
+        "PARTNER": [
+          [
+            507,
+            540
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            408,
+            441
+          ],
+          [
+            441,
+            474
+          ],
+          [
+            474,
+            507
+          ],
+          [
+            540,
+            573
+          ],
+          [
+            573,
+            606
+          ],
+          [
+            606,
+            639
+          ]
+        ],
+        "SELF": [
+          [
+            639,
+            670
+          ]
+        ]
+      },
+      "message": {
+        "author": "v7",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "0d197b49598c3ee5f023076aa4d28d5bf44301145f040fbeecc9db50f6368845"
+    },
+    "ROUND:1c7158b6b838": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            185,
+            218
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            152,
+            185
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 1
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "580cda186a3f004a3b43a4a13fcd6b213836c81ca49144fafe09cdaf30e49b2b"
+    },
+    "ROUND:1fb5651c643e": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            218,
+            251
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            251,
+            284
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 1
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "e13cdbefd92634f38546684d21d451ae718107d6781ac4736e51123f2f6b4030"
+    },
+    "ROUND:264c458dbed5": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            581,
+            614
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v0",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "ce90a01699fcd877b4ac7308d076c304c7bc3d471965a839f8bc59e38b37985e"
+    },
+    "ROUND:2a4f596d9dd7": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ]
+        ],
+        "PARTNER": [
+          [
+            152,
+            185
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ]
+        ],
+        "SELF": [
+          [
+            383,
+            414
+          ]
+        ]
+      },
+      "message": {
+        "author": "v1",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 3
+      },
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "5e19929a1e3acd6ffb6209d34c2b6c6c87da8ed019afcc02084de39da250aa85"
+    },
+    "ROUND:2c9118bbcc3b": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            383,
+            416
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            416,
+            449
+          ]
+        ],
+        "SELF": [
+          [
+            449,
+            480
+          ]
+        ]
+      },
+      "message": {
+        "author": "v0",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "20d18f30becee0fc199cc66b6ae6b036933f4a45774e393989f17c26c310f233"
+    },
+    "ROUND:4bcbaf15f7ab": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            515,
+            548
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v0",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "c51e9318cb9b0825449aac66794aea55df56e1817d09169da3c69716e2ae9068"
+    },
+    "ROUND:756424185463": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            482,
+            515
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "8569a038ebfb47697877ac2ead763ce0e6c7b108c85d4f6a2295937fce16e7ee"
+    },
+    "ROUND:8ae8575481a0": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            151
+          ],
+          [
+            151,
+            183
+          ],
+          [
+            183,
+            215
+          ],
+          [
+            215,
+            247
+          ],
+          [
+            247,
+            279
+          ],
+          [
+            279,
+            311
+          ],
+          [
+            311,
+            343
+          ],
+          [
+            343,
+            375
+          ],
+          [
+            375,
+            408
+          ]
+        ],
+        "PARTNER": [
+          [
+            507,
+            540
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            408,
+            441
+          ],
+          [
+            441,
+            474
+          ],
+          [
+            474,
+            507
+          ],
+          [
+            540,
+            573
+          ],
+          [
+            573,
+            606
+          ],
+          [
+            606,
+            639
+          ]
+        ],
+        "SELF": [
+          [
+            639,
+            670
+          ]
+        ]
+      },
+      "message": {
+        "author": "v0",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 1
+      },
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "90d351f84dbeac0d13b868862e56140f484c3d776f351a0b16e8382328f32839"
+    },
+    "SA:1c7158b6b838": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            185,
+            218
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            152,
+            185
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v3",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 2
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 371,
+      "token_ids_sha256": "e68177ac63e85e2656f135aaf3a67c71aa72998e5945df55a9e22aafe4963bdd"
+    },
+    "SA:1fb5651c643e": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            218,
+            251
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            251,
+            284
+          ]
+        ],
+        "SELF": [
+          [
+            317,
+            348
+          ]
+        ]
+      },
+      "message": {
+        "author": "v2",
+        "block": "b6",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "span": [
+        317,
+        348
+      ],
+      "state_len": 376,
+      "token_ids_sha256": "86e63ea86c03c72daa8fc31505bd04a8c98f048167f02615868bf01ad2b1aec6"
+    },
+    "SA:264c458dbed5": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            581,
+            614
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v2",
+        "block": "b1",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "e741982366a9f89e81f62e28ad5a9da553c6d1a8e827ebf51cbd0ca5de2beb77"
+    },
+    "SA:2a4f596d9dd7": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ]
+        ],
+        "PARTNER": [
+          [
+            152,
+            185
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ]
+        ],
+        "SELF": [
+          [
+            383,
+            414
+          ]
+        ]
+      },
+      "message": {
+        "author": "v1",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "span": [
+        383,
+        414
+      ],
+      "state_len": 437,
+      "token_ids_sha256": "70b3c3475bcb44538294802bd97f6f59807c98bd4ad0412702267502f8c2000a"
+    },
+    "SA:2c9118bbcc3b": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ]
+        ],
+        "PARTNER": [
+          [
+            383,
+            416
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            416,
+            449
+          ]
+        ],
+        "SELF": [
+          [
+            449,
+            480
+          ]
+        ]
+      },
+      "message": {
+        "author": "v3",
+        "block": "b6",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "span": [
+        449,
+        480
+      ],
+      "state_len": 503,
+      "token_ids_sha256": "d84781ab2dc6315d9d8a269e1f1ef2229cfdd3f7a58d53bfaeb159e0c1e0da95"
+    },
+    "SA:4bcbaf15f7ab": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            515,
+            548
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            482,
+            515
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v3",
+        "block": "b1",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "5a6f5e0b4fcdaa8f38ccb721ae65acd515838290396e72dd989708e56c62abb2"
+    },
+    "SA:756424185463": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            152
+          ],
+          [
+            152,
+            185
+          ],
+          [
+            185,
+            218
+          ],
+          [
+            218,
+            251
+          ],
+          [
+            251,
+            284
+          ],
+          [
+            284,
+            317
+          ],
+          [
+            317,
+            350
+          ],
+          [
+            350,
+            383
+          ],
+          [
+            383,
+            416
+          ]
+        ],
+        "PARTNER": [
+          [
+            482,
+            515
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            416,
+            449
+          ],
+          [
+            449,
+            482
+          ],
+          [
+            515,
+            548
+          ],
+          [
+            548,
+            581
+          ],
+          [
+            581,
+            614
+          ],
+          [
+            614,
+            647
+          ]
+        ],
+        "SELF": [
+          [
+            647,
+            678
+          ]
+        ]
+      },
+      "message": {
+        "author": "v2",
+        "block": "b2",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "span": [
+        647,
+        678
+      ],
+      "state_len": 716,
+      "token_ids_sha256": "da6a6bce5abc3e0f1caa121f1ad3b1fac0aa60a9eea5cb58de122f801ec16c03"
+    },
+    "SA:8ae8575481a0": {
+      "classes": {
+        "CONTEXT": [
+          [
+            0,
+            119
+          ]
+        ],
+        "OTHER_ITEMS": [
+          [
+            119,
+            151
+          ],
+          [
+            151,
+            183
+          ],
+          [
+            183,
+            215
+          ],
+          [
+            215,
+            247
+          ],
+          [
+            247,
+            279
+          ],
+          [
+            279,
+            311
+          ],
+          [
+            311,
+            343
+          ],
+          [
+            343,
+            375
+          ],
+          [
+            375,
+            408
+          ]
+        ],
+        "PARTNER": [
+          [
+            507,
+            540
+          ]
+        ],
+        "ROUND_PEERS": [
+          [
+            408,
+            441
+          ],
+          [
+            441,
+            474
+          ],
+          [
+            474,
+            507
+          ],
+          [
+            540,
+            573
+          ],
+          [
+            573,
+            606
+          ],
+          [
+            606,
+            639
+          ]
+        ],
+        "SELF": [
+          [
+            639,
+            670
+          ]
+        ]
+      },
+      "message": {
+        "author": "v4",
+        "block": "b4",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "span": [
+        639,
+        670
+      ],
+      "state_len": 708,
+      "token_ids_sha256": "81b0b4dd91047adeebc31d7ab729007a7dfd77fb543324b413d8791705312562"
+    }
+  },
+  "c_positions": [
+    29,
+    30
+  ],
+  "field_marks": {
+    "2": " author",
+    "6": "\n",
+    "8": " block",
+    "12": "\n",
+    "14": " kind",
+    "17": "\n",
+    "19": " received",
+    "24": "\n",
+    "26": " round",
+    "30": "\n"
+  },
+  "gpu_status": "0 M17 forwards; 2292 calls / 18 batches under the standing GPU authorization",
+  "host_new_baseline_action": {
+    "1c7158b6b838": "accept",
+    "1fb5651c643e": "accept",
+    "264c458dbed5": "accept",
+    "2a4f596d9dd7": "accept",
+    "2c9118bbcc3b": "accept",
+    "4bcbaf15f7ab": "accept",
+    "756424185463": "accept",
+    "8ae8575481a0": "accept"
+  },
+  "inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g10": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "m14_design": "87905a3c4d0a5786a25bbd974ef13c40f3f3c06b",
+    "m14_raw": "d2ac9f4221728d309300cbf617385ad79925eb0b",
+    "m16_design": "c061686a5a3271e2b06f418f213bce81fa3ff05a",
+    "m16_raw": "1d74b63ba7e24fa47f6fe2cac1b967a9f141706e",
+    "m1_design": "f3852efc21e7b55fdc1b7370a867454730422913",
+    "m1_raw": "298c7cdfab634cd6a6a9122fac90d41c87219c21",
+    "m3_design": "7445c13bc36c45324b54c3b4ea2fcbee0c37fe77",
+    "m3_raw": "a8c0fa6b5d96be7c7ab0433d4dcbb5d6f0411a0c",
+    "m6_design": "43967513c3dbcad74dd7b024b67a16463f456ffc",
+    "m6_raw": "2147311c2cf913fad5b07033e43789bb61293611",
+    "m8_design": "14cee4c2cffe30d78338de8063c72110f223f0bb",
+    "m8_raw": "997c9b71054ee2adec472a5410705068511650aa",
+    "roster": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "model": "kev-4B (runner module f118ea59: identity, source, loader); L11 = Qwen3.5 full attention",
+  "plan": [
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    116
+  ],
+  "pools": {
+    "0153673a107a|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7"
+      ]
+    },
+    "0153673a107a|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "0153673a107a|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "0153673a107a|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "1c7158b6b838"
+      ]
+    },
+    "0153673a107a|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "0153673a107a|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "0153673a107a|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "1218efed19de|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1218efed19de|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "1b3e7af68bb3|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1b3e7af68bb3|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "1f8c0826ae47|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "1f8c0826ae47|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "2f67e76cdc83|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "2f67e76cdc83|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "35253a262059|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "35253a262059|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "3cddd369d7a0|1fb5651c643e": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "3cddd369d7a0|264c458dbed5": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "3cddd369d7a0|2a4f596d9dd7": {
+      "donors": [
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0"
+      ]
+    },
+    "3cddd369d7a0|2c9118bbcc3b": {
+      "donors": [
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "3cddd369d7a0|4bcbaf15f7ab": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "3cddd369d7a0|756424185463": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "3cddd369d7a0|8ae8575481a0": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7"
+      ]
+    },
+    "4569d20d3e4c|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "4569d20d3e4c|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "4569d20d3e4c|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "45ef86e09e74|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "45ef86e09e74|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|1c7158b6b838": {
+      "donors": [
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "70ede3f8992d|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "70ede3f8992d|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "7167a21b6694|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "7167a21b6694|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0"
+      ]
+    },
+    "77ebbee1fb2d|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "77ebbee1fb2d|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "b7d11ed06ba2|1fb5651c643e": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "b7d11ed06ba2|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "c98f0db48cf6",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "1fb5651c643e",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|1c7158b6b838": {
+      "donors": [
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7"
+      ]
+    },
+    "c98f0db48cf6|264c458dbed5": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|2a4f596d9dd7": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|2c9118bbcc3b": {
+      "donors": [
+        "3cddd369d7a0",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|4bcbaf15f7ab": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "756424185463",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|756424185463": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "0153673a107a",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "2c9118bbcc3b",
+        "8ae8575481a0",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    },
+    "c98f0db48cf6|8ae8575481a0": {
+      "donors": [
+        "3cddd369d7a0",
+        "70ede3f8992d",
+        "77ebbee1fb2d",
+        "4569d20d3e4c",
+        "7167a21b6694",
+        "2f67e76cdc83",
+        "1f8c0826ae47",
+        "1b3e7af68bb3",
+        "1218efed19de",
+        "35253a262059",
+        "b7d11ed06ba2",
+        "45ef86e09e74"
+      ],
+      "hosts": [
+        "264c458dbed5",
+        "4bcbaf15f7ab",
+        "756424185463",
+        "2c9118bbcc3b",
+        "2a4f596d9dd7",
+        "1c7158b6b838"
+      ]
+    }
+  },
+  "preregistered_analysis": {
+    "always_reported": "unpatched benign action vs Gold per host and T; FV, FV_round, FVJ, R per arm and T; FV_h, R_h per host; median dM and dA vs unpatched; off-Gold changes of any kind (accept <-> wait); leave-one-donor-group-out of every verdict",
+    "consistency_gate": "the 36 M1 capture readouts bitwise (runner); full / meanD_host anchors 12 rows each bitwise == M3 / M6 (runner and analysis); cs0 12 rows bitwise == M8 and abc_s05 12 rows bitwise == M14 (analysis); every benign capture's token ids equal the roster / G1.0 sha and its unpatched action is reported against Gold; otherwise every verdict is INCONSISTENT and no claim",
+    "false_veto": "FV(arm, T) = #cells where the main-source patch of T has action reject_conflict and T's in-run unpatched capture does not; FV_round the same for the round source; FVJ = #cells JOINT after the main-source patch and not JOINT unpatched; FV_h per host (of its cells)",
+    "fv_verdict": "per arm and T: FV_NONE iff FV <= 5 and no host has FV_h >= 7; FV_AS_REPAIR iff FV >= R(arm) / 2; else FV_PARTIAL. Per arm: SELECTIVE iff FV_NONE on all three T; NONSELECTIVE iff FV_AS_REPAIR on >= 2 of 3 T; else MIXED",
+    "gold": "source-internal executable rule: every benign target T in {SA, ROUND, OUTSIDER} of every host has Gold action accept (6 hosts) or wait (1fb5651c, 1c7158b6) and conflicting_vote false (roster oracle_sa; G1.0 counterfactual gold); reject_conflict is never correct on a benign target",
+    "host_selectivity": "per responsive host (1fb5651c, 264c458d, 4bcbaf15) and arm: R_h on host new and FV_h on each T; HOST_SELECTIVE iff R_h >= 7 and every FV_h <= 1; HOST_NONSELECTIVE iff R_h >= 7 and some FV_h >= R_h / 2; else HOST_MIXED (R_h < 7: HOST_UNINFORMATIVE)",
+    "interpretation_fixed_in_advance": "full NONSELECTIVE: the donor's L11 span state is applied downstream to whatever vote sits at the span, without a re-check against the host's context, so the M1-M3 repair is the injection of a carried verdict, not the enabling of the host's own relation check; such a patch cannot serve as a defence without a false-veto cost of the same order. full SELECTIVE: downstream still checks the vote against the context, and the injected evaluation acts only where the host's context supports a conflict. cs0 NONSELECTIVE is the standard's par. 3.6 threshold push (expected: M8 cs0 flips main and round alike). meanD / abc05 decide whether the pooled repairs of M6-M16 are conditional on a real conflict. ROUND (conflict-shaped, wrong round) and OUTSIDER (non-validator author) are near misses; SA is a plain duplicate. Level S1-S2: an artificial intervention scored on the native action against source-internal Gold; no deployment claim",
+    "readouts": "M = logit(conflicting_vote=true) - logit(false); A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; action = argmax over (accept, reject_conflict, wait)",
+    "repair_reference": "R(arm) = #cells where the same arm's main-source patch of host new has action reject_conflict and host new's unpatched capture does not, read from the pinned rows on all 104 cells: full = M3 'all', meanD = M6 meanD_host, cs0 = M8 cs0, abc05 = M14 abc_s05 (their 6-cell subsets are replayed bitwise here); R_h per host",
+    "source_contrast_on_benign": "per arm (not cs0) and T: share of cells with A_main > A_round after the patch, and FV_round; reported, not a verdict",
+    "units": "104 cross-group cells (14 donors x 8 hosts minus same-group pairs), shared donors and hosts; the pooled arms vary with the donor only through the pool exclusion (effectively 8 host replicates); counts are descriptive decision rules, not independent tests; per-host counts are always reported"
+  },
+  "repair_reference": {
+    "abc05": {
+      "R": 39,
+      "R_h": {
+        "1c7158b6": 0,
+        "1fb5651c": 13,
+        "264c458d": 13,
+        "2a4f596d": 0,
+        "2c9118bb": 0,
+        "4bcbaf15": 13,
+        "75642418": 0,
+        "8ae85754": 0
+      }
+    },
+    "cs0": {
+      "R": 39,
+      "R_h": {
+        "1c7158b6": 0,
+        "1fb5651c": 13,
+        "264c458d": 13,
+        "2a4f596d": 0,
+        "2c9118bb": 0,
+        "4bcbaf15": 13,
+        "75642418": 0,
+        "8ae85754": 0
+      }
+    },
+    "full": {
+      "R": 61,
+      "R_h": {
+        "1c7158b6": 2,
+        "1fb5651c": 13,
+        "264c458d": 12,
+        "2a4f596d": 0,
+        "2c9118bb": 6,
+        "4bcbaf15": 11,
+        "75642418": 10,
+        "8ae85754": 7
+      }
+    },
+    "meanD": {
+      "R": 39,
+      "R_h": {
+        "1c7158b6": 0,
+        "1fb5651c": 13,
+        "264c458d": 13,
+        "2a4f596d": 0,
+        "2c9118bb": 0,
+        "4bcbaf15": 13,
+        "75642418": 0,
+        "8ae85754": 0
+      }
+    }
+  },
+  "responsive_hosts": [
+    "1fb5651c",
+    "264c458d",
+    "4bcbaf15"
+  ],
+  "schema": "JEV_A461_MECH_M17_FALSE_VETO_DESIGN_V1",
+  "selection": {
+    "donors": [
+      [
+        "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e",
+        "twins_streamlet:run-337"
+      ],
+      [
+        "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "twins_streamlet:run-338"
+      ],
+      [
+        "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "twins_streamlet:run-344"
+      ],
+      [
+        "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce",
+        "twins_streamlet:run-68"
+      ]
+    ],
+    "hosts": [
+      [
+        "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70",
+        "twins_streamlet:run-121"
+      ]
+    ]
+  },
+  "status": "FROZEN_CPU_BEFORE_ANY_M17_FORWARD",
+  "subset_cells": [
+    [
+      "3cddd369d7a0",
+      "1fb5651c643e"
+    ],
+    [
+      "3cddd369d7a0",
+      "264c458dbed5"
+    ],
+    [
+      "3cddd369d7a0",
+      "4bcbaf15f7ab"
+    ],
+    [
+      "70ede3f8992d",
+      "1fb5651c643e"
+    ],
+    [
+      "70ede3f8992d",
+      "264c458dbed5"
+    ],
+    [
+      "70ede3f8992d",
+      "4bcbaf15f7ab"
+    ]
+  ],
+  "targets": [
+    "SA",
+    "ROUND",
+    "OUTSIDER"
+  ],
+  "total": 2292
+}

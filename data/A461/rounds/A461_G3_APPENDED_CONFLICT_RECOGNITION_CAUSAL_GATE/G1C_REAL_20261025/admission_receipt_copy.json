@@ -1,0 +1,17 @@
+{
+  "approved_max_native_forwards": 109,
+  "authorizing_evidence_ref": "User standing authorization in-session 2026-10-25: '给你授权，同时前面的产出可支撑论文的完整成果的审计在GitHub上，现在继续工作直到产出可支撑论文的完整成果' - given after the A461-PSMI G0/G1/G2 chain and after the user separately approved the pilot's 103-forward round ('批准 GPU（A461 G1，103 次 forward）'); this round's exact budget (109 <= protocol cap 128) was frozen in the G3 protocol V1 (commit e2820ba) before execution",
+  "budget_derivation": "26 old baselines + 26 treatments + 26 N1B + 6 N1 + 21 SHAM (9 SA/6 TS/6 RO) + 4 precision replays = 109",
+  "created_utc": "2026-10-25",
+  "explicit_user_gpu_approval": true,
+  "forbidden": [
+    "backprop",
+    "network",
+    "tool actions",
+    "TEST/CAL rows"
+  ],
+  "model": "SecJev-0.8B FP32 RTX 3090, pinned components vs A428 manifest",
+  "run_id": "a461-g3-conflict-gate-20261025-v1",
+  "schema": "JEV_A461_G3_G1C_GPU_ADMISSION_RECEIPT_V1",
+  "stage": "A461_G3_G1C_PAIRED_FORWARDS"
+}

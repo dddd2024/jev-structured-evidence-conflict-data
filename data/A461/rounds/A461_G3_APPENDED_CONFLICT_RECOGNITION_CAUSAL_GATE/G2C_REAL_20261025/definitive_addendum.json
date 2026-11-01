@@ -1,0 +1,67 @@
+{
+  "actions": {
+    "T2_flipped_to_reject": "3/20 (vs persist-at-old-decision baseline 16/20, majority-class 10/20, rule ceiling 20/20)",
+    "T3_action_correct_on_recognized_conflicts": "4/6 (2 accept on C=true: cross-head integration failures)"
+  },
+  "basis": "per_pair_heads.jsonl recomputation; corrects the SHAM_TS/SHAM_RO 'C_differs_ref' metric in analysis.json (that metric compares against GOLD, not against the treatment prediction) and reclassifies recognition by old-arm state",
+  "format_controls_treatment_prediction_agreement": {
+    "N1B_author_swap": {
+      "C": "19/20",
+      "action": "18/20"
+    },
+    "N1_structure_matched": {
+      "C": "6/6",
+      "action": "5/6"
+    },
+    "SHAM_RO_order_reversal": {
+      "C": "4/6",
+      "action": "4/6"
+    },
+    "SHAM_SA_duplicate": {
+      "C": "9/9",
+      "action": "8/9"
+    },
+    "SHAM_TS_time_shift": {
+      "C": "6/6",
+      "action": "6/6"
+    },
+    "interpretation": "high agreement means the recognition failure tracks the semantics of the appended conflict, not surface perturbation; SHAM_RO shows residual order sensitivity"
+  },
+  "margins": {
+    "conflict_head_margin_delta": {
+      "accept_cell": "median +0.45, 9/10 positive, range [-0.27, +9.13]",
+      "wait_cell": "median +0.37, 8/10 positive, range [-0.85, +1.75]"
+    },
+    "reading": "direction mostly positive but magnitude far below the recognition boundary except run-338"
+  },
+  "old_arm_accuracy_on_clean_scenes": "36/40 across the 20 T2 old arms for the C head (4 false alarms, all in the accept cell)",
+  "recognition": {
+    "fisher_exact_appended_vs_preexisting": {
+      "independence": "20 T2 pairs from 20 distinct unseen run groups (1 pair/group) + 6 T3 groups; clustering concern largely dissolved by design",
+      "p": "<0.0001",
+      "table": [
+        [
+          1,
+          19
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    "genuine_appended_conflict_recognition": {
+      "accept_cell": "1/10",
+      "definition": "old-arm C prediction False -> new-arm C prediction True under the lawful conflict edit",
+      "the_single_recognition": "run-338 (dM +9.13, action correctly flipped wait->reject)",
+      "total": "1/20",
+      "wait_cell": "0/10"
+    },
+    "old_arm_false_alarms": {
+      "accept_cell": "3/10 (run-211/212/328: model reports C=true on clean scenes)",
+      "wait_cell": "0/10"
+    },
+    "preexisting_conflicts_T3": "6/6 recognized"
+  },
+  "schema": "JEV_A461_G3_G2C_DEFINITIVE_ADDENDUM_V1"
+}

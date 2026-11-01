@@ -1,0 +1,7 @@
+returncode=1
+--- stdout ---
+
+--- stderr ---
+
+libgomp: Thread creation failed: Resource temporarily unavailable
+

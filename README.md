@@ -1,32 +1,24 @@
-# A461 Structured Evidence Conflict — Experiment Data
+# A461 Structured-Evidence Conflict — Public Experimental Archive
 
-Public research-data archive for the **A461 structured-evidence conflict / appended-vote validity** experiments on **kev-4B** and **SecJev-0.8B**.
+Research-data mirror for the A461 experiments on the typed model scorers **kev-4B** and **SecJev-0.8B**.
 
-## Available data
+## Experimental files
 
-- [`data/A461/M23/`](data/A461/M23/) — an initial curated data release: preregistered plan; frozen inputs and exact 248-row manifests per model; 248 raw native-output rows per model; analysis JSON; experiment and analysis source code; self-tests; result report.
-- [`MANIFEST.json`](MANIFEST.json) — source-to-public file mapping and Git blob hashes. Each transferred file's Git blob hash was checked against its original in the private research repository.
+- [`data/A461/rounds/`](data/A461/rounds/) — curated copy of all A461-prefixed experiment directories, covering G3–G5, G2 follow-up, M1–M23, and CPU controls.
+- [`data/A461/M23/`](data/A461/M23/) — the earlier M23 first release, retained for link stability.
+- [`MIGRATION_MANIFEST.json`](MIGRATION_MANIFEST.json) — original paths, full SHA-256 checksums, complete exclusions, and original source commit.
+- [`EXCLUSIONS.md`](EXCLUSIONS.md) — why some files are withheld.
 
-The M23 experiment compares valid appended conflicts and matched non-conflicting twin cases, with an identical appended span and a changed preceding contextual token. Scene groups are generated in the synthetic `twins_streamlet` setting.
+**Dataset status:** 1,794 of 2,004 source files mirrored (311,495,311 bytes). Another 210 files are individually recorded as withheld, mainly because they embed nonpublic university-machine details (183) or are documents/tensor/binary formats without clearance (27). The curated mirror is therefore **not a complete unredacted publication**. The private research repository and server originals remain unchanged.
 
-## Publication status and limitations
+**Hidden-state captures:** Very large float16 `.pt` captures are distributed separately when cleared and uploaded, via [GitHub Releases](../../releases). Do not infer their availability from entries in the raw JSONL files.
 
-**PARTIAL PUBLIC RELEASE — not a complete backup of A461.** The preceding G2 and M1–M22 data are not yet included in this repository. The original M23 hidden-state tensor captures (`.pt`) remain on the research server and are **not** included in this release. M23 manifest and raw-score rows may refer to those missing captures and earlier-stage inputs.
+## Provenance and interpretation
 
-This snapshot allows direct inspection of model logits, frozen row manifests, and published analysis but does **not** yet provide a fully self-contained reconstruction or complete rerun of every experiment.
+The original experimental repository is private `dddd2024/jev` at commit `03302ef7867606d2cec527ec0aa8a5abdd0257ee`. All copied files are unchanged; per-file SHA-256 digests are recorded in the manifest. The data includes raw model scores and original preregistrations as well as failures and negative controls. Not every causal or deployment-security hypothesis was established; check the individual reports and qualification limits.
 
-## Provenance and redistribution
+No original model checkpoint or weights, unreviewed third-party material, secrets, or private infrastructure details are deliberately published. This repository does not grant rights to third-party models, third-party datasets, or unlicensed code.
 
-Original source: private `dddd2024/jev`, `research/rounds/A461_MON_M23_TWIN_PROBE_GPU/`. Files listed in the manifest were copied byte-for-byte, as verified by matching Git blob identifiers.
+## Reproduction
 
-Model weights, private keys, execution-machine logs, and third-party datasets with unclear redistribution rights are not included. Original licenses and access terms for model weights and third-party datasets remain applicable; their inclusion is not implied.
-
-## Guide
-
-- `M23_FREEZE_R1/m23[k|s]_manifest.jsonl`: frozen run entries (248 per model)
-- `M23K_GPU_R1/raw_native_logits_m23k.jsonl`: kev-4B raw outputs (248 rows)
-- `M23S_GPU_R1/raw_native_logits_m23s.jsonl`: SecJev-0.8B raw outputs (248 rows)
-- `M23[K|S]_ANALYSIS_R1/*.json`: reported analyses
-- `PREREG_M23_R1.md` and `M23_RESULT_R1.md`: frozen test and results
-
-These files are provided as a research record, including negative and confounded findings. A partial release should not be cited as a complete, independently re-run dataset.
+Individual rounds provide original scripts, frozen manifests, JSONL native scores, JSON summaries and available SHA lists. Some scripts reference unavailable original model checkpoints, omitted capture tensors, or withheld execution metadata. Consequently, score-level reanalysis may be possible where frozen inputs are present, but **end-to-end full model re-execution is not guaranteed** from this public copy alone.

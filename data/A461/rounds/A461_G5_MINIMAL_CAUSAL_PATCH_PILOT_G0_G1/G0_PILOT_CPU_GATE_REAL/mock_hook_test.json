@@ -1,0 +1,60 @@
+{
+  "checks": {
+    "identity_self_patch_bitwise_equal": true,
+    "necessity_c_row_changed": true,
+    "necessity_off_rows_bitwise_identical": true,
+    "span_widths_equal_34": true,
+    "spans_within_state_bounds": true,
+    "sufficiency_c_row_changed": true,
+    "sufficiency_off_rows_bitwise_identical": true
+  },
+  "geometry": {
+    "c_branch_len": 26,
+    "donor_state_len_new": 686,
+    "hidden": 1024,
+    "host_state_len_new": [
+      570,
+      518
+    ],
+    "host_state_len_sa": [
+      570,
+      518
+    ],
+    "layers": 24,
+    "rows_per_record": 4,
+    "spans": {
+      "T2_ACCEPT_TO_REJECT:231b919006dc1777": {
+        "SA": [
+          456,
+          490
+        ],
+        "new": [
+          456,
+          490
+        ]
+      },
+      "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe": {
+        "SA": [
+          493,
+          527
+        ],
+        "new": [
+          493,
+          527
+        ]
+      },
+      "T2_WAIT_TO_REJECT:433890d19a90625e": {
+        "SA": [
+          624,
+          658
+        ],
+        "new": [
+          624,
+          658
+        ]
+      }
+    }
+  },
+  "schema": "JEV_A461_G5_PILOT_MOCK_HOOK_TEST_V1",
+  "verdict": "PASS"
+}

@@ -1,0 +1,3048 @@
+{
+  "D1": {
+    "by_width": {
+      "31": {
+        "patterns": {
+          "FFF": 16,
+          "TTT": 5
+        },
+        "scenes": 21,
+        "strict": 0
+      },
+      "34": {
+        "patterns": {
+          "FFF": 26
+        },
+        "scenes": 26,
+        "strict": 0
+      }
+    },
+    "new_donors": []
+  },
+  "D1_scenes": [
+    {
+      "M": {
+        "SA": -8.727869,
+        "new": -8.735975,
+        "old": -9.568172
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "0623d0da21670d1f2fde377a13d070c3a0be8b80f7f8b2340f29c8ae8977be3c",
+      "source_group": "twins_streamlet:run-279",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.744303,
+        "new": -9.388039,
+        "old": -9.890944
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "13da00107c565f33954a46330fed5bb2af852b1b549a0cf5ab23c171c2214dec",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -8.033472,
+        "new": -7.808087,
+        "old": -8.330922
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "1f221a1c19428819dc17ee06a50b8a140247d4aa4303cfc933bd309f6cea8a8f",
+      "source_group": "twins_streamlet:run-267",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.11051,
+        "new": -9.685953,
+        "old": -9.626402
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "1f43b424ff33e022c58cf7805eedb16097882639bed53fb5d3d7b57008bc3c50",
+      "source_group": "twins_streamlet:run-267",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.263781,
+        "new": -9.849375,
+        "old": -10.007989
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "25706997d8fc1b3354cb864485f81f3b8f3a2bd9103c5e3b7c353dacaf30748f",
+      "source_group": "twins_streamlet:run-351",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -8.06746,
+        "new": -8.030358,
+        "old": -8.996183
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "429f467cf463b2622a9cd78acd2e5f47426d2e2cefb4e4e716163c4c02c97f6b",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.202603,
+        "new": -9.408892,
+        "old": -10.394136
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "48aef4e804d1c1982588dff57d2d56bd31f3f6bda92d952ab30c32e32fb98fc7",
+      "source_group": "twins_streamlet:run-159",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -7.366902,
+        "new": -9.100641,
+        "old": -8.296174
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "5acbbd97d80a0da52311c4c58d03abec3f034031f0ab7ffa201bf40d4ed49b0d",
+      "source_group": "twins_streamlet:run-336",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -3.340947,
+        "new": -3.87315,
+        "old": -5.744051
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "5f3900d700dbb811c58463f3fda8660b7370042fff227be7ff2775c614445ddc",
+      "source_group": "twins_streamlet:run-279",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -7.362247,
+        "new": -8.268532,
+        "old": -8.208559
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "67042a524d4f28f6eaa69d4626b0c1e8aab3107e1c72d4c7f4e5c65c84c4fd23",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.041508,
+        "new": -10.064177,
+        "old": -9.90256
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "67d5e6208af2a9f476849c90259219b0fa6398ec8ff4b447b638a3da056d0de2",
+      "source_group": "twins_streamlet:run-159",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -1.782252,
+        "new": -1.785006,
+        "old": -1.706311
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "wait",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "68cf0f51b7dea879e543ed9b37c8a834d8d0762086417770a12db874a8f48add",
+      "source_group": "twins_streamlet:run-231",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.747146,
+        "new": -10.344665,
+        "old": -10.277665
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "6bea7d2ee958d6e41762f502ee4104e2c21389e640122b3164e40fd4371b84c6",
+      "source_group": "twins_streamlet:run-342",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -6.662554,
+        "new": -6.583068,
+        "old": -6.346021
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "8ecfab5d500017430aa38b11daba830a1525975db164bf5d9e92709695286cf0",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -7.960409,
+        "new": -7.964142,
+        "old": -8.028087
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "9c35db59acee110272514224f03987c0feebe374550915d890bd7f7c877dcf7b",
+      "source_group": "twins_streamlet:run-267",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -2.626943,
+        "new": -2.997791,
+        "old": -4.109543
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "wait",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "a0d7e0abec0fcabc7a803bb268ba13d360c09629df3480148b17cf6019b310ea",
+      "source_group": "twins_streamlet:run-159",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -8.507818,
+        "new": -8.228055,
+        "old": -8.598938
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "wait",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "a56c7f865b21a30e242c417cca355099f8d8287b837b541e9d3f2b60b3bd2847",
+      "source_group": "twins_streamlet:run-231",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.149956,
+        "new": -9.911549,
+        "old": -10.220287
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "be6bb83fc36a187da8d6929efc4d65e35c30ad668cdd5b002cb4f22abbdb4da0",
+      "source_group": "twins_streamlet:run-279",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.279814,
+        "new": -9.621406,
+        "old": -9.74731
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "c25075e1c38c89c5d1574dab3a924738630194febdf699a394113ec2ddc7f9e4",
+      "source_group": "twins_streamlet:run-267",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -11.618758,
+        "new": -9.990014,
+        "old": -12.457331
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "cdbcd623e066e8f62371ff205e67d651ccc2f0295177a0433c6bf679657a5fd7",
+      "source_group": "twins_streamlet:run-125",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": 5.437916,
+        "new": 6.896145,
+        "old": 6.407339
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "reject_conflict",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "TTT",
+      "scene_sha256": "ce68b61325274a19f01ab67fea257341ccf032ed84e8a114acd52401e6a66213",
+      "source_group": "twins_streamlet:run-220",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.90275,
+        "new": -11.038533,
+        "old": -9.770937
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "ce9ab1e9594535b400fdbe21ee14d902626d642828e37aee875145ae7ac055cb",
+      "source_group": "twins_streamlet:run-212",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -4.935021,
+        "new": -3.724864,
+        "old": -4.713024
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "d0331185d6d06cad7599a7cb22721e8915894e4bd26271eff1e8dee28ac50881",
+      "source_group": "twins_streamlet:run-140",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -4.650594,
+        "new": -3.682443,
+        "old": -0.15676
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "d0949d2b317131e35107e38c03090216eb3b113b97d740438e13632d7fea91da",
+      "source_group": "twins_streamlet:run-220",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.010879,
+        "new": -5.527359,
+        "old": -6.174176
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "d3cc1c0cdd0aba88ce3065ace1806f20fc8579571aadae2bfa1974e79167fb45",
+      "source_group": "twins_streamlet:run-344",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -11.09912,
+        "new": -11.278683,
+        "old": -11.462123
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "d591c1a72ef024009cb84f4b8eaeaa000054d8a485e86292b226deb21d7d7556",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.597033,
+        "new": -9.15511,
+        "old": -9.269687
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "d76efff999dea9f6cc279a117400e590a2f12e04c815acb65f50033b8ce7db58",
+      "source_group": "twins_streamlet:run-272",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.942745,
+        "new": -10.411699,
+        "old": -9.50238
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "d7e13ffe2951aab308aa0829d6a2c4caab7093e24a3c91d46bc6b9937e0f9c4b",
+      "source_group": "twins_streamlet:run-220",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -2.857348,
+        "new": -0.653154,
+        "old": -3.247158
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "d824fa66adcfeddbaf3e9cfc57e9c5e6a6741fae3ada2a92cf3b9363bf0c97c8",
+      "source_group": "twins_streamlet:run-279",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.000196,
+        "new": -9.755261,
+        "old": -10.638023
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "dc6d4a9ca2539832427671ba7d2d0c46139f7febc0f41579707be30a412b7641",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -11.649135,
+        "new": -11.587107,
+        "old": -11.265765
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "e0aae103b4ad838d6d6863b4d799ce897b371a75e5307f95d7725af7b50fe300",
+      "source_group": "twins_streamlet:run-212",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -8.11101,
+        "new": -7.511919,
+        "old": -6.748298
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "e122f766186dba2c96d1b3b1f55d3f080d8f600d60fa6a55947c74dee1366efd",
+      "source_group": "twins_streamlet:run-159",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": 1.942848,
+        "new": 1.040287,
+        "old": 4.350354
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "wait",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "TTT",
+      "scene_sha256": "e231b7318a5d4b5a4f28e90e4a9041b5142244fd016c95b155a2f3b7191c2204",
+      "source_group": "twins_streamlet:run-220",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.691268,
+        "new": -9.744668,
+        "old": -9.562585
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "e3c602006bbe852d12b1cc37e85a79f48be86d7f94d065b78b00f3755b8c8056",
+      "source_group": "twins_streamlet:run-24",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": 6.03095,
+        "new": 6.968251,
+        "old": 7.649641
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "reject_conflict",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "TTT",
+      "scene_sha256": "e40e45a9e5e99c649984d6818599ab21eebff923850401574aef4eb60cf74e7d",
+      "source_group": "twins_streamlet:run-272",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -4.568962,
+        "new": -3.009484,
+        "old": -3.657252
+      },
+      "action": {
+        "SA": "wait",
+        "new": "wait",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "e426a7ccd29b86f215ecf641996284c1937c27a745afaeb409b01d4058605cd3",
+      "source_group": "twins_streamlet:run-140",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.253156,
+        "new": -9.766567,
+        "old": -10.41949
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "e5b993df126c77f93dc5673b549c16f0208425bf3ed9b185c0e439123e020fb1",
+      "source_group": "twins_streamlet:run-159",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.149313,
+        "new": -9.50328,
+        "old": -9.867943
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "e5d06c8771d91da631ae957e6638f3837afceab144dd8ee00bebfae4923db55c",
+      "source_group": "twins_streamlet:run-68",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -0.024367,
+        "new": -0.558788,
+        "old": -0.17431
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "reject_conflict",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "ea1836baaf4401428c7da6319df0df7c572be4f0f9a96117f4939393635f13ee",
+      "source_group": "twins_streamlet:run-68",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.844677,
+        "new": -11.110922,
+        "old": -10.428997
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "ebbfdf8928f1d8c3414967a0748a63f6b1e0acf41685edf6b458c49668c8447c",
+      "source_group": "twins_streamlet:run-272",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": 4.653137,
+        "new": 5.344434,
+        "old": 1.515017
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "reject_conflict",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "TTT",
+      "scene_sha256": "ed8f1def503e5956fef55fec7ab7472960b3e1f238943fe9ff91451dd8633f3d",
+      "source_group": "twins_streamlet:run-68",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -11.677366,
+        "new": -11.318904,
+        "old": -11.534987
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 34,
+      "pattern": "FFF",
+      "scene_sha256": "f34f8c313ff8c1805f5610bae7ffaeaed926133749f64ef17c43d17f94ad0d22",
+      "source_group": "twins_streamlet:run-279",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -11.678424,
+        "new": -11.772907,
+        "old": -11.6176
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "wait",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "f3dedbe903bf4812254086dc79f52666c69fcf7c6e5301f486f642b6a2671b88",
+      "source_group": "twins_streamlet:run-337",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -9.110901,
+        "new": -6.150853,
+        "old": -6.645828
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "f5328d2e28ba52f425b40e7388a5420218ba542f3864fef15128802f7c9c5e49",
+      "source_group": "twins_streamlet:run-344",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -7.736785,
+        "new": -1.2699,
+        "old": -4.005799
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "f72b5b466fa63a7a0d2079998875ffe39a35243ff5158c13140a9e62c169ce9c",
+      "source_group": "twins_streamlet:run-212",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": 3.029783,
+        "new": 0.410326,
+        "old": 4.285583
+      },
+      "action": {
+        "SA": "reject_conflict",
+        "new": "reject_conflict",
+        "old": "reject_conflict"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "TTT",
+      "scene_sha256": "f7aee5baf43037b8c760c5d24d44e2609aad4cdd2bce264bd180314574d09857",
+      "source_group": "twins_streamlet:run-161",
+      "strict_qualified": false
+    },
+    {
+      "M": {
+        "SA": -10.415795,
+        "new": -10.274055,
+        "old": -11.052075
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "frozen_width": 31,
+      "pattern": "FFF",
+      "scene_sha256": "ff395c22b8c783678b42e3487a64a6e3b15603d76ef4fa01ca0611a07dd9ee26",
+      "source_group": "twins_streamlet:run-338",
+      "strict_qualified": false
+    }
+  ],
+  "D2_cells": [
+    {
+      "M": {
+        "dose": -3.325829,
+        "main": -1.513624,
+        "sasham": -4.748086
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.589487,
+        "main": 2.401691,
+        "sasham": -0.83277
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.114707,
+        "main": -4.145233,
+        "sasham": -4.750597
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.199391,
+        "main": -0.229917,
+        "sasham": -0.835282
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.565554,
+        "main": -0.575244,
+        "sasham": -6.020773
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.167411,
+        "main": 2.8229,
+        "sasham": -2.622629
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.48153,
+        "main": -2.925359,
+        "sasham": -4.235837
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.083387,
+        "main": 0.472785,
+        "sasham": -0.837694
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -0.486146,
+        "main": 0.172538,
+        "sasham": -3.75524
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 1.017493,
+        "main": 1.676178,
+        "sasham": -2.251601
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.969126,
+        "main": -1.402717,
+        "sasham": -2.562053
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.465486,
+        "main": 0.100923,
+        "sasham": -1.058414
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.177037,
+        "main": -1.759222,
+        "sasham": -4.990618
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.875323,
+        "main": 0.542492,
+        "sasham": -2.688903
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.098978,
+        "main": -2.205051,
+        "sasham": -3.47949
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.202736,
+        "main": 0.096663,
+        "sasham": -1.177776
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.385383,
+        "main": -3.136835,
+        "sasham": -6.285096
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.601361,
+        "main": -0.15009,
+        "sasham": -3.298352
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.402848,
+        "main": -3.21181,
+        "sasham": -4.611746
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.416104,
+        "main": -0.225065,
+        "sasham": -1.625002
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.589227,
+        "main": -3.334091,
+        "sasham": -6.336894
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.846172,
+        "main": 0.408964,
+        "sasham": -2.593839
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.944572,
+        "main": -3.803475,
+        "sasham": -5.088829
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.201518,
+        "main": -0.06042,
+        "sasham": -1.345775
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.180605,
+        "main": -3.059721,
+        "sasham": -7.328491
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -1.465508,
+        "main": -2.344624,
+        "sasham": -6.613394
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.24864,
+        "main": 0.263127,
+        "sasham": -2.299202
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.533543,
+        "main": 0.978224,
+        "sasham": -1.584105
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.439093,
+        "main": -2.984939,
+        "sasham": -6.82578
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -1.356349,
+        "main": 0.097806,
+        "sasham": -3.743036
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.862357,
+        "main": -2.413945,
+        "sasham": -4.022691
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.220387,
+        "main": 0.6688,
+        "sasham": -0.939946
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.022952,
+        "main": 0.136019,
+        "sasham": -1.387605
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.892363,
+        "main": 4.051334,
+        "sasham": 2.527711
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.858352,
+        "main": -3.123712,
+        "sasham": -3.175802
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.056964,
+        "main": 0.791603,
+        "sasham": 0.739514
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.007382,
+        "main": -0.32222,
+        "sasham": -2.505281
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.609238,
+        "main": 3.075923,
+        "sasham": 0.892862
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.51405,
+        "main": -2.272013,
+        "sasham": -2.964026
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.115907,
+        "main": 1.126131,
+        "sasham": 0.434118
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.326207,
+        "main": 1.26025,
+        "sasham": -0.79956
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.177432,
+        "main": 2.763889,
+        "sasham": 0.70408
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.664035,
+        "main": -0.959306,
+        "sasham": -1.443496
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.160395,
+        "main": 0.544334,
+        "sasham": 0.060143
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.247009,
+        "main": -1.181972,
+        "sasham": -2.317399
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.945295,
+        "main": 1.119742,
+        "sasham": -0.015685
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.320687,
+        "main": -1.619763,
+        "sasham": -2.072702
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.018973,
+        "main": 0.681951,
+        "sasham": 0.229012
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.467625,
+        "main": -2.16664,
+        "sasham": -2.387659
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -1.480881,
+        "main": 0.820104,
+        "sasham": 0.599085
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.167071,
+        "main": -2.01939,
+        "sasham": -2.666537
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.180326,
+        "main": 0.967354,
+        "sasham": 0.320207
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.704826,
+        "main": -2.398435,
+        "sasham": -3.344703
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 1.038228,
+        "main": 1.344619,
+        "sasham": 0.398351
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.854846,
+        "main": -2.838242,
+        "sasham": -3.379527
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.111791,
+        "main": 0.904813,
+        "sasham": 0.363528
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": 0.010679,
+        "main": -3.433043,
+        "sasham": -4.301219
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.725776,
+        "main": -2.717946,
+        "sasham": -3.586121
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": false,
+      "flip": {
+        "dose": true,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -0.961393,
+        "main": 0.311168,
+        "sasham": -0.811116
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.246296,
+        "main": 1.026265,
+        "sasham": -0.096019
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.646707,
+        "main": -3.406324,
+        "sasham": -3.978225
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.436038,
+        "main": -0.323579,
+        "sasham": -0.89548
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.182621,
+        "main": -1.813423,
+        "sasham": -2.315359
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.099876,
+        "main": 1.269322,
+        "sasham": 0.767385
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.137431,
+        "main": -1.471497,
+        "sasham": -4.653506
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.777884,
+        "main": 2.443818,
+        "sasham": -0.738191
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.954167,
+        "main": -4.266125,
+        "sasham": -4.871871
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.038852,
+        "main": -0.350809,
+        "sasham": -0.956556
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.922172,
+        "main": -0.905668,
+        "sasham": -6.024775
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.524028,
+        "main": 2.492476,
+        "sasham": -2.626632
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.123499,
+        "main": -3.131229,
+        "sasham": -4.454167
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.274644,
+        "main": 0.266914,
+        "sasham": -1.056023
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.369783,
+        "main": -0.395077,
+        "sasham": -4.042144
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.866143,
+        "main": 1.108562,
+        "sasham": -2.538504
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.763689,
+        "main": -1.646633,
+        "sasham": -2.767219
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.26005,
+        "main": -0.142994,
+        "sasham": -1.26358
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.722702,
+        "main": -1.894898,
+        "sasham": -5.135148
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.579012,
+        "main": 0.406816,
+        "sasham": -2.833433
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.372429,
+        "main": -2.459624,
+        "sasham": -3.667012
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.070715,
+        "main": -0.157909,
+        "sasham": -1.365298
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -4.367253,
+        "main": -3.513064,
+        "sasham": -6.384939
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -1.380509,
+        "main": -0.52632,
+        "sasham": -3.398195
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.47562,
+        "main": -3.400888,
+        "sasham": -4.831414
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.488876,
+        "main": -0.414144,
+        "sasham": -1.844669
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -5.59554,
+        "main": -3.425838,
+        "sasham": -6.320765
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -1.852486,
+        "main": 0.317217,
+        "sasham": -2.577711
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.843784,
+        "main": -3.994883,
+        "sasham": -5.236968
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.10073,
+        "main": -0.251828,
+        "sasham": -1.493914
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -0.565038,
+        "main": -3.16715,
+        "sasham": -7.328808
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.150059,
+        "main": -2.452052,
+        "sasham": -6.613711
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -0.928038,
+        "main": -0.287894,
+        "sasham": -2.528912
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.21294,
+        "main": 0.427203,
+        "sasham": -1.813815
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.903495,
+        "main": -3.488208,
+        "sasham": -7.089598
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.17925,
+        "main": -0.405463,
+        "sasham": -4.006854
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": false,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.123809,
+        "main": -2.72192,
+        "sasham": -4.254962
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.041064,
+        "main": 0.360825,
+        "sasham": -1.172217
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.61875,
+        "main": 2.482593,
+        "sasham": -0.953186
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.296566,
+        "main": 6.397909,
+        "sasham": 2.962129
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.625264,
+        "main": -3.445932,
+        "sasham": -4.335599
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.915316,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.290051,
+        "main": 0.469384,
+        "sasham": -0.420283
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.980811,
+        "main": 3.2504,
+        "sasham": -0.950826
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.417333,
+        "main": 6.648543,
+        "sasham": 2.447317
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.31058,
+        "main": -2.17794,
+        "sasham": -3.649733
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.398143,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.087563,
+        "main": 1.220204,
+        "sasham": -0.25159
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -0.580408,
+        "main": 3.510629,
+        "sasham": 0.103287
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.923231,
+        "main": 5.014268,
+        "sasham": 1.606926
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": true
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.403331,
+        "main": -0.878333,
+        "sasham": -2.080365
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -1.50364,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.100309,
+        "main": 0.625306,
+        "sasham": -0.576725
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.010312,
+        "main": 1.42824,
+        "sasham": -1.841488
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.291402,
+        "main": 3.729954,
+        "sasham": 0.460226
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.303245,
+        "main": -1.548767,
+        "sasham": -2.98114
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.301714,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.001531,
+        "main": 0.752947,
+        "sasham": -0.679426
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.630799,
+        "main": 1.193682,
+        "sasham": -2.033551
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.355946,
+        "main": 4.180427,
+        "sasham": 0.953193
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.446563,
+        "main": -1.97584,
+        "sasham": -3.787605
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -2.986744,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.459818,
+        "main": 1.010905,
+        "sasham": -0.800861
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -2.689706,
+        "main": 0.975137,
+        "sasham": -2.23168
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 1.053349,
+        "main": 4.718192,
+        "sasham": 1.511374
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.283966,
+        "main": -2.907405,
+        "sasham": -4.556925
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.743055,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": 0.459088,
+        "main": 0.835649,
+        "sasham": -0.813871
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.275164,
+        "main": 0.03077,
+        "sasham": -4.204491
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.560067,
+        "main": 0.745867,
+        "sasham": -3.489394
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -1.141046,
+        "main": 0.656588,
+        "sasham": -1.552559
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -0.715097,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.425949,
+        "main": 1.371685,
+        "sasham": -0.837462
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.661934,
+        "main": 0.618472,
+        "sasham": -3.447114
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.57919,
+        "main": 3.701217,
+        "sasham": -0.364369
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": true,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "specific_flip": true,
+      "specific_reject": false
+    },
+    {
+      "M": {
+        "dose": -3.285029,
+        "main": -1.647316,
+        "sasham": -3.304589
+      },
+      "action": {
+        "dose": "wait",
+        "main": "wait",
+        "sasham": "wait"
+      },
+      "baseline_M": -3.082745,
+      "baseline_action": "wait",
+      "dM": {
+        "dose": -0.202284,
+        "main": 1.435429,
+        "sasham": -0.221844
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific": true,
+      "flip": {
+        "dose": false,
+        "main": false,
+        "sasham": false
+      },
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "specific_flip": false,
+      "specific_reject": false
+    }
+  ],
+  "D2_layers": {
+    "11": {
+      "behavioural_correction": false,
+      "cells": 32,
+      "dose_specific": 25,
+      "flips": {
+        "dose": 1,
+        "main": 11,
+        "sasham": 1
+      },
+      "median_dM": {
+        "dose": 0.1783,
+        "main": 1.2322,
+        "sasham": -1.5735
+      },
+      "reject_actions": {
+        "dose": 0,
+        "main": 0,
+        "sasham": 0
+      },
+      "specific_flip": 10,
+      "specific_flip_donor_groups": [
+        "twins_streamlet:run-140",
+        "twins_streamlet:run-212",
+        "twins_streamlet:run-338"
+      ],
+      "specific_flip_host_groups": [
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-154",
+        "twins_streamlet:run-169",
+        "twins_streamlet:run-181",
+        "twins_streamlet:run-272",
+        "twins_streamlet:run-337",
+        "twins_streamlet:run-68"
+      ],
+      "specific_reject": 0
+    },
+    "12": {
+      "behavioural_correction": false,
+      "cells": 32,
+      "dose_specific": 26,
+      "flips": {
+        "dose": 0,
+        "main": 3,
+        "sasham": 0
+      },
+      "median_dM": {
+        "dose": -0.1063,
+        "main": 0.5848,
+        "sasham": -0.8364
+      },
+      "reject_actions": {
+        "dose": 0,
+        "main": 0,
+        "sasham": 0
+      },
+      "specific_flip": 3,
+      "specific_flip_donor_groups": [
+        "twins_streamlet:run-140",
+        "twins_streamlet:run-212",
+        "twins_streamlet:run-338"
+      ],
+      "specific_flip_host_groups": [
+        "twins_streamlet:run-337"
+      ],
+      "specific_reject": 0
+    }
+  },
+  "D2_per_host": {
+    "182278047cc5": {
+      "baseline_M": -3.915316,
+      "group": "twins_streamlet:run-169",
+      "max_M_main": 2.482593,
+      "specific_flip_L11": 2,
+      "specific_flip_L12": 0
+    },
+    "1f8c0826ae47": {
+      "baseline_M": -3.398143,
+      "group": "twins_streamlet:run-272",
+      "max_M_main": 3.2504,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 0
+    },
+    "4569d20d3e4c": {
+      "baseline_M": -1.50364,
+      "group": "twins_streamlet:run-181",
+      "max_M_main": 3.510629,
+      "specific_flip_L11": 2,
+      "specific_flip_L12": 0
+    },
+    "4cda623cbcdf": {
+      "baseline_M": -2.301714,
+      "group": "twins_streamlet:run-121",
+      "max_M_main": 1.42824,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 0
+    },
+    "57c807cc7e4e": {
+      "baseline_M": -2.986744,
+      "group": "twins_streamlet:run-121",
+      "max_M_main": 1.193682,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 0
+    },
+    "7838a9f7e567": {
+      "baseline_M": -3.743055,
+      "group": "twins_streamlet:run-154",
+      "max_M_main": 0.975137,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 0
+    },
+    "7b32d70d2f1d": {
+      "baseline_M": -0.715097,
+      "group": "twins_streamlet:run-337",
+      "max_M_main": 0.656588,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 3
+    },
+    "9db379427ccd": {
+      "baseline_M": -3.082745,
+      "group": "twins_streamlet:run-68",
+      "max_M_main": 0.618472,
+      "specific_flip_L11": 1,
+      "specific_flip_L12": 0
+    }
+  },
+  "D2_verdict": "NO_BEHAVIOURAL_CORRECTION",
+  "schema": "JEV_A461_G5_G2_STAGE_D_ANALYSIS_V1"
+}

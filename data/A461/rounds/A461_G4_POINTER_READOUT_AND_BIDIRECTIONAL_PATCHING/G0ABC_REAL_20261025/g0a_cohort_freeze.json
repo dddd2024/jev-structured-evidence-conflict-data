@@ -1,0 +1,51 @@
+{
+  "cohort_crosscheck": "PASS vs frozen cohort manifest",
+  "false_alarm_groups": [
+    "twins_streamlet:run-211",
+    "twins_streamlet:run-212",
+    "twins_streamlet:run-328",
+    "twins_streamlet:run-338"
+  ],
+  "invalid_accept_groups": [
+    "twins_streamlet:run-140",
+    "twins_streamlet:run-283",
+    "twins_streamlet:run-330",
+    "twins_streamlet:run-337",
+    "twins_streamlet:run-351"
+  ],
+  "inventory": {
+    "checkpoint_adapter": "365341166b0b38186dc6e336b0749c8ade15a67fc9262c6f9aeb1c6241adbef6",
+    "checkpoint_adapter_config": "650e4a4edc038d46bfdbfd77f3b9a29567713963f25538d72e377c0d12406332",
+    "checkpoint_head": "0f1ee2a01eddf787fd37a97690cc2dd72e8760fea93921e5b5c5d9b9adb5349d",
+    "checkpoint_tokenizer": "1d8325caa17dffabd587f6eb025a642786caa785658d0d8c07b879dd1ea13477",
+    "cohort_manifest": "42f3e8e8380886128122b85c8aca2e1ebd0f74ad07bdb49a2fc02561d628deda",
+    "g0c_pair_rows": "5163a23bb5da0cb3d29efd7a1c7618e43840ee26feaae840559e407ff0fe47fd",
+    "g0c_token_audit": "24c3532a518b3641634f592366bf06ab487e1ec134b1dccf4a239f440e28f7e8",
+    "g1c_preforward_gate": "f9c59be5026123708f958d7d1e2bbe9dc0f69057c0cae434823628f3d5eea33d",
+    "g1c_raw_logits": "3262f4b4591ff0f5fcb03597b246ec8264b7e44071f01488d150cff9f7457568",
+    "g2c_per_pair_heads": "4ca63cd479f30dc7c7e7ad3e0944ed4f848f099b2c6f891721f54aec54675cc7",
+    "kev_api_py": "620a7eaeb7379d157ecbca1c284d33d5a54a99958b97897b7f2f5d90164a4b6f",
+    "kev_model_py": "c743c26e20fe8550e28b0697cb123173ee24c83e1b387830bff9f0b178900d55"
+  },
+  "strict_recomputed": [
+    "twins_streamlet:run-159",
+    "twins_streamlet:run-161",
+    "twins_streamlet:run-169",
+    "twins_streamlet:run-181",
+    "twins_streamlet:run-182",
+    "twins_streamlet:run-231",
+    "twins_streamlet:run-24",
+    "twins_streamlet:run-245",
+    "twins_streamlet:run-267",
+    "twins_streamlet:run-279",
+    "twins_streamlet:run-342"
+  ],
+  "t3_recomputed": [
+    "twins_streamlet:run-211",
+    "twins_streamlet:run-231",
+    "twins_streamlet:run-358",
+    "twins_streamlet:run-372",
+    "twins_streamlet:run-45",
+    "twins_streamlet:run-83"
+  ]
+}

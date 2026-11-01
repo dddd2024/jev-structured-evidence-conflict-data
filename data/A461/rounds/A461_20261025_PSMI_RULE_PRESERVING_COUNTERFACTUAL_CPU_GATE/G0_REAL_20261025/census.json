@@ -1,0 +1,53 @@
+{
+  "families": {
+    "LANL_L1_B_THRESHOLD": {
+      "by_group": {
+        "lanl:day:48": 11,
+        "lanl:day:49": 11,
+        "lanl:day:50": 8
+      },
+      "eligible": 30
+    },
+    "LANL_L3A_RISK_NONREGRESSION": {
+      "by_group": {
+        "lanl:day:48": 17,
+        "lanl:day:49": 32,
+        "lanl:day:50": 26
+      },
+      "eligible": 75
+    },
+    "TWINS_T1_QUORUM_AXIS": {
+      "eligible": 93,
+      "reasons": {
+        "not_eligible": 704
+      }
+    },
+    "TWINS_T2_CONFLICT_AXIS": {
+      "eligible": 331,
+      "reasons": {
+        "not_eligible": 466
+      }
+    },
+    "TWINS_T3_CONFLICT_STABILITY": {
+      "eligible": 77,
+      "reasons": {
+        "not_eligible": 720
+      }
+    }
+  },
+  "forward_budget_cap": 128,
+  "lanl_groups": 7,
+  "lanl_rows": 328,
+  "selected": {
+    "LANL_L1": 9,
+    "LANL_L3A": 6,
+    "N2_LANL": 3,
+    "T1": 6,
+    "T2": 6,
+    "T3": 4
+  },
+  "total_arms": 65,
+  "twins_a428_crosschecked_scenes": 12,
+  "twins_groups": 42,
+  "twins_rows": 797
+}

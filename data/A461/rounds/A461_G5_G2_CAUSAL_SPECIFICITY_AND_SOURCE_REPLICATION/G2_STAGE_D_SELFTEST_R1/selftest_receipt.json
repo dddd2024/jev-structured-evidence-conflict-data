@@ -1,0 +1,66 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "be9bcba2fbaeb25b78434b1387846d4522579039",
+  "passed": 11,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 349, 'scenes': 59, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_G5_G2_STAGE_D rows=349 batches=[(1, 71, 71, 'COMPLETE'), (2, 70, 70, 'COMPLETE'), (3, 112, 112, 'COMPLETE'), (4, 96, 96, 'COMPLETE')] captures saved=16 (sha+shape ok=True)",
+      "test": "fake_full_path_349_with_16_saved_captures",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "64 dose-matched rows: mean per-position perturbation == main patch's (bad=[]); all differ in direction from the target",
+      "test": "dose_matched_rows_equal_main_perturbation_size",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "deltarand: per-position ||out - target|| == ||source - target||, seeded-deterministic, random direction",
+      "test": "dose_matched_transform_unit",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 349-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's seed changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: gpu backend: plan/quota override refused",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "5ba88abb5d0c35cf89c0da7fd5d5b569d33553d4",
+  "schema": "JEV_A461_G5_G2_STAGE_D_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 11
+}

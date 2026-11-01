@@ -1,0 +1,3275 @@
+{
+  "baseline_capture_rows_equal_stage_a": true,
+  "cells": [
+    {
+      "A": {
+        "doserand": -3.362745,
+        "main": -2.844346,
+        "sasham": -4.68322
+      },
+      "M": {
+        "doserand": -3.915316,
+        "main": -3.915316,
+        "sasham": -3.915316
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.709253,
+        "main": 1.227652,
+        "sasham": -0.611223
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.17776,
+        "main": -2.844346,
+        "sasham": -4.68322
+      },
+      "M": {
+        "doserand": -3.618118,
+        "main": -1.513624,
+        "sasham": -4.748086
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.894238,
+        "main": 1.227652,
+        "sasham": -0.611223
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -4.216611,
+        "main": -3.865728,
+        "sasham": -3.986846
+      },
+      "M": {
+        "doserand": -3.948397,
+        "main": -4.145233,
+        "sasham": -4.750597
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.144613,
+        "main": 0.20627,
+        "sasham": 0.085152
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.476437,
+        "main": 0.508348,
+        "sasham": -3.262015
+      },
+      "M": {
+        "doserand": -3.398143,
+        "main": -3.398143,
+        "sasham": -3.398143
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.204772,
+        "main": 1.780013,
+        "sasham": -1.990351
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -0.410293,
+        "main": 0.508348,
+        "sasham": -3.262015
+      },
+      "M": {
+        "doserand": -2.458939,
+        "main": -0.575244,
+        "sasham": -6.020773
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.861372,
+        "main": 1.780013,
+        "sasham": -1.990351
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.214522,
+        "main": -0.98167,
+        "sasham": -1.705482
+      },
+      "M": {
+        "doserand": -3.200601,
+        "main": -2.925359,
+        "sasham": -4.235837
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.057142,
+        "main": 0.289995,
+        "sasham": -0.433818
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.903763,
+        "main": -1.476986,
+        "sasham": -4.292523
+      },
+      "M": {
+        "doserand": -1.50364,
+        "main": -1.50364,
+        "sasham": -1.50364
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.782653,
+        "main": 0.20943,
+        "sasham": -2.606107
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.423188,
+        "main": -1.476986,
+        "sasham": -4.292523
+      },
+      "M": {
+        "doserand": -0.938238,
+        "main": 0.172538,
+        "sasham": -3.75524
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.263228,
+        "main": 0.20943,
+        "sasham": -2.606107
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.515611,
+        "main": -1.730066,
+        "sasham": -2.707067
+      },
+      "M": {
+        "doserand": -1.393807,
+        "main": -1.402717,
+        "sasham": -2.562053
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.170805,
+        "main": -0.04365,
+        "sasham": -1.020651
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.26493,
+        "main": -2.771651,
+        "sasham": -4.658701
+      },
+      "M": {
+        "doserand": -2.301714,
+        "main": -2.301714,
+        "sasham": -2.301714
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.057421,
+        "main": -0.564142,
+        "sasham": -2.451192
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.190227,
+        "main": -2.771651,
+        "sasham": -4.658701
+      },
+      "M": {
+        "doserand": -2.245167,
+        "main": -1.759222,
+        "sasham": -4.990618
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.982717,
+        "main": -0.564142,
+        "sasham": -2.451192
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.883084,
+        "main": -2.254948,
+        "sasham": -3.018287
+      },
+      "M": {
+        "doserand": -2.101949,
+        "main": -2.205051,
+        "sasham": -3.47949
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.324426,
+        "main": -0.047439,
+        "sasham": -0.810777
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.57633,
+        "main": -1.802386,
+        "sasham": -3.972735
+      },
+      "M": {
+        "doserand": -2.986744,
+        "main": -2.986744,
+        "sasham": -2.986744
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.982758,
+        "main": -1.208814,
+        "sasham": -3.379163
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": 0.061526,
+        "main": -1.802386,
+        "sasham": -3.972735
+      },
+      "M": {
+        "doserand": -2.84986,
+        "main": -3.136835,
+        "sasham": -6.285096
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.655097,
+        "main": -1.208814,
+        "sasham": -3.379163
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": true,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.082041,
+        "main": -0.741517,
+        "sasham": -1.682234
+      },
+      "M": {
+        "doserand": -2.829916,
+        "main": -3.21181,
+        "sasham": -4.611746
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.488469,
+        "main": -0.147945,
+        "sasham": -1.088662
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.219201,
+        "main": -4.190875,
+        "sasham": -6.450692
+      },
+      "M": {
+        "doserand": -3.743055,
+        "main": -3.743055,
+        "sasham": -3.743055
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.020709,
+        "main": -0.950965,
+        "sasham": -3.210782
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -4.315765,
+        "main": -4.190875,
+        "sasham": -6.450692
+      },
+      "M": {
+        "doserand": -3.403054,
+        "main": -3.334091,
+        "sasham": -6.336894
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -1.075855,
+        "main": -0.950965,
+        "sasham": -3.210782
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.599167,
+        "main": -3.420151,
+        "sasham": -4.213908
+      },
+      "M": {
+        "doserand": -4.253408,
+        "main": -3.803475,
+        "sasham": -5.088829
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.359257,
+        "main": -0.180241,
+        "sasham": -0.973997
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.446626,
+        "main": -4.416347,
+        "sasham": -5.736398
+      },
+      "M": {
+        "doserand": -0.715097,
+        "main": -0.715097,
+        "sasham": -0.715097
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -1.752978,
+        "main": -2.722698,
+        "sasham": -4.04275
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.274007,
+        "main": -4.416347,
+        "sasham": -5.736398
+      },
+      "M": {
+        "doserand": -0.419987,
+        "main": -3.059721,
+        "sasham": -7.328491
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.580359,
+        "main": -2.722698,
+        "sasham": -4.04275
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.750766,
+        "main": -1.066384,
+        "sasham": -2.771743
+      },
+      "M": {
+        "doserand": -0.519352,
+        "main": 0.263127,
+        "sasham": -2.299202
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": -0.057117,
+        "main": 0.627264,
+        "sasham": -1.078095
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.564288,
+        "main": -1.926179,
+        "sasham": -4.283393
+      },
+      "M": {
+        "doserand": -3.082745,
+        "main": -3.082745,
+        "sasham": -3.082745
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.955547,
+        "main": -0.406344,
+        "sasham": -2.763559
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.620126,
+        "main": -1.926179,
+        "sasham": -4.283393
+      },
+      "M": {
+        "doserand": -3.771723,
+        "main": -2.984939,
+        "sasham": -6.82578
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.100291,
+        "main": -0.406344,
+        "sasham": -2.763559
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.845832,
+        "main": -0.930963,
+        "sasham": -1.979915
+      },
+      "M": {
+        "doserand": -3.059897,
+        "main": -2.413945,
+        "sasham": -4.022691
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.325997,
+        "main": 0.588872,
+        "sasham": -0.460081
+      },
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.612071,
+        "main": -0.634375,
+        "sasham": -2.873089
+      },
+      "M": {
+        "doserand": -3.915316,
+        "main": -3.915316,
+        "sasham": -3.915316
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.459926,
+        "main": 3.437623,
+        "sasham": 1.198908
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.977514,
+        "main": -0.634375,
+        "sasham": -2.873089
+      },
+      "M": {
+        "doserand": -3.054045,
+        "main": 0.136019,
+        "sasham": -1.387605
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.094483,
+        "main": 3.437623,
+        "sasham": 1.198908
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.932667,
+        "main": -3.604854,
+        "sasham": -3.771615
+      },
+      "M": {
+        "doserand": -3.968675,
+        "main": -3.123712,
+        "sasham": -3.175802
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.139331,
+        "main": 0.467144,
+        "sasham": 0.300383
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.287558,
+        "main": 1.962015,
+        "sasham": -0.320544
+      },
+      "M": {
+        "doserand": -3.398143,
+        "main": -3.398143,
+        "sasham": -3.398143
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.015893,
+        "main": 3.23368,
+        "sasham": 0.951121
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -2.176515,
+        "main": 1.962015,
+        "sasham": -0.320544
+      },
+      "M": {
+        "doserand": -3.49987,
+        "main": -0.32222,
+        "sasham": -2.505281
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.90485,
+        "main": 3.23368,
+        "sasham": 0.951121
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.451432,
+        "main": -0.867471,
+        "sasham": -1.466108
+      },
+      "M": {
+        "doserand": -3.507774,
+        "main": -2.272013,
+        "sasham": -2.964026
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.179767,
+        "main": 0.404194,
+        "sasham": -0.194443
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.695567,
+        "main": 0.079099,
+        "sasham": -2.173684
+      },
+      "M": {
+        "doserand": -1.50364,
+        "main": -1.50364,
+        "sasham": -1.50364
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.990849,
+        "main": 1.765515,
+        "sasham": -0.487269
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.988149,
+        "main": 0.079099,
+        "sasham": -2.173684
+      },
+      "M": {
+        "doserand": -1.539425,
+        "main": 1.26025,
+        "sasham": -0.79956
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": -0.301733,
+        "main": 1.765515,
+        "sasham": -0.487269
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.8292,
+        "main": -1.616431,
+        "sasham": -2.322582
+      },
+      "M": {
+        "doserand": -1.479826,
+        "main": -0.959306,
+        "sasham": -1.443496
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.142784,
+        "main": 0.069985,
+        "sasham": -0.636166
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.513864,
+        "main": -1.295593,
+        "sasham": -3.234242
+      },
+      "M": {
+        "doserand": -2.301714,
+        "main": -2.301714,
+        "sasham": -2.301714
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.306354,
+        "main": 0.911916,
+        "sasham": -1.026733
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.250086,
+        "main": -1.295593,
+        "sasham": -3.234242
+      },
+      "M": {
+        "doserand": -0.710457,
+        "main": -1.181972,
+        "sasham": -2.317399
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.042577,
+        "main": 0.911916,
+        "sasham": -1.026733
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.59137,
+        "main": -2.054912,
+        "sasham": -2.648732
+      },
+      "M": {
+        "doserand": -2.240496,
+        "main": -1.619763,
+        "sasham": -2.072702
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.38386,
+        "main": 0.152597,
+        "sasham": -0.441223
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.40089,
+        "main": -0.111543,
+        "sasham": -1.705082
+      },
+      "M": {
+        "doserand": -2.986744,
+        "main": -2.986744,
+        "sasham": -2.986744
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.192682,
+        "main": 0.482029,
+        "sasham": -1.111511
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.048903,
+        "main": -0.111543,
+        "sasham": -1.705082
+      },
+      "M": {
+        "doserand": -1.547329,
+        "main": -2.16664,
+        "sasham": -2.387659
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -1.455331,
+        "main": 0.482029,
+        "sasham": -1.111511
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.903833,
+        "main": -0.325791,
+        "sasham": -1.0608
+      },
+      "M": {
+        "doserand": -2.78863,
+        "main": -2.01939,
+        "sasham": -2.666537
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.310261,
+        "main": 0.267781,
+        "sasham": -0.467228
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.468251,
+        "main": -1.962757,
+        "sasham": -4.437626
+      },
+      "M": {
+        "doserand": -3.743055,
+        "main": -3.743055,
+        "sasham": -3.743055
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.77166,
+        "main": 1.277153,
+        "sasham": -1.197716
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -4.366199,
+        "main": -1.962757,
+        "sasham": -4.437626
+      },
+      "M": {
+        "doserand": -3.159036,
+        "main": -2.398435,
+        "sasham": -3.344703
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -1.126289,
+        "main": 1.277153,
+        "sasham": -1.197716
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.595108,
+        "main": -3.023978,
+        "sasham": -3.650335
+      },
+      "M": {
+        "doserand": -3.815752,
+        "main": -2.838242,
+        "sasham": -3.379527
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.355197,
+        "main": 0.215932,
+        "sasham": -0.410425
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.835808,
+        "main": -3.38333,
+        "sasham": -4.717323
+      },
+      "M": {
+        "doserand": -0.715097,
+        "main": -0.715097,
+        "sasham": -0.715097
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.14216,
+        "main": -1.689681,
+        "sasham": -3.023674
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.160926,
+        "main": -3.38333,
+        "sasham": -4.717323
+      },
+      "M": {
+        "doserand": 0.363441,
+        "main": -3.433043,
+        "sasham": -4.301219
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.467278,
+        "main": -1.689681,
+        "sasham": -3.023674
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.387776,
+        "main": -1.135238,
+        "sasham": -2.054365
+      },
+      "M": {
+        "doserand": -0.355556,
+        "main": 0.311168,
+        "sasham": -0.811116
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.305873,
+        "main": 0.55841,
+        "sasham": -0.360716
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.805797,
+        "main": -1.038829,
+        "sasham": -2.863837
+      },
+      "M": {
+        "doserand": -3.082745,
+        "main": -3.082745,
+        "sasham": -3.082745
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.714038,
+        "main": 0.481006,
+        "sasham": -1.344002
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": false,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.412991,
+        "main": -1.038829,
+        "sasham": -2.863837
+      },
+      "M": {
+        "doserand": -2.955642,
+        "main": -3.406324,
+        "sasham": -3.978225
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.106844,
+        "main": 0.481006,
+        "sasham": -1.344002
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.41145,
+        "main": -0.764567,
+        "sasham": -1.496687
+      },
+      "M": {
+        "doserand": -2.803826,
+        "main": -1.813423,
+        "sasham": -2.315359
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.108384,
+        "main": 0.755268,
+        "sasham": 0.023148
+      },
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.532147,
+        "main": -2.442347,
+        "sasham": -4.566052
+      },
+      "M": {
+        "doserand": -3.915316,
+        "main": -3.915316,
+        "sasham": -3.915316
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.53985,
+        "main": 1.629651,
+        "sasham": -0.494055
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.682487,
+        "main": -2.442347,
+        "sasham": -4.566052
+      },
+      "M": {
+        "doserand": -3.154274,
+        "main": -1.471497,
+        "sasham": -4.653506
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.389511,
+        "main": 1.629651,
+        "sasham": -0.494055
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.884034,
+        "main": -3.914237,
+        "sasham": -3.934239
+      },
+      "M": {
+        "doserand": -3.789892,
+        "main": -4.266125,
+        "sasham": -4.871871
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.187964,
+        "main": 0.157761,
+        "sasham": 0.137758
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.201403,
+        "main": 0.542969,
+        "sasham": -3.111366
+      },
+      "M": {
+        "doserand": -3.398143,
+        "main": -3.398143,
+        "sasham": -3.398143
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.070262,
+        "main": 1.814633,
+        "sasham": -1.839702
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.754103,
+        "main": 0.542969,
+        "sasham": -3.111366
+      },
+      "M": {
+        "doserand": -2.441298,
+        "main": -0.905668,
+        "sasham": -6.024775
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.482439,
+        "main": 1.814633,
+        "sasham": -1.839702
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.142616,
+        "main": -1.084994,
+        "sasham": -1.705731
+      },
+      "M": {
+        "doserand": -3.309142,
+        "main": -3.131229,
+        "sasham": -4.454167
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.129049,
+        "main": 0.186671,
+        "sasham": -0.434067
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.847769,
+        "main": -1.588131,
+        "sasham": -4.253882
+      },
+      "M": {
+        "doserand": -1.50364,
+        "main": -1.50364,
+        "sasham": -1.50364
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.161353,
+        "main": 0.098284,
+        "sasham": -2.567466
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.94412,
+        "main": -1.588131,
+        "sasham": -4.253882
+      },
+      "M": {
+        "doserand": -0.586362,
+        "main": -0.395077,
+        "sasham": -4.042144
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.257704,
+        "main": 0.098284,
+        "sasham": -2.567466
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.730948,
+        "main": -1.80304,
+        "sasham": -2.668298
+      },
+      "M": {
+        "doserand": -1.059802,
+        "main": -1.646633,
+        "sasham": -2.767219
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.044532,
+        "main": -0.116624,
+        "sasham": -0.981882
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.754157,
+        "main": -2.623003,
+        "sasham": -4.526707
+      },
+      "M": {
+        "doserand": -2.301714,
+        "main": -2.301714,
+        "sasham": -2.301714
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.546648,
+        "main": -0.415494,
+        "sasham": -2.319197
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.373895,
+        "main": -2.623003,
+        "sasham": -4.526707
+      },
+      "M": {
+        "doserand": -3.123022,
+        "main": -1.894898,
+        "sasham": -5.135148
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -1.166386,
+        "main": -0.415494,
+        "sasham": -2.319197
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.440001,
+        "main": -2.325967,
+        "sasham": -2.996866
+      },
+      "M": {
+        "doserand": -2.657368,
+        "main": -2.459624,
+        "sasham": -3.667012
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.232492,
+        "main": -0.118458,
+        "sasham": -0.789356
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.316262,
+        "main": -1.613132,
+        "sasham": -4.395556
+      },
+      "M": {
+        "doserand": -2.986744,
+        "main": -2.986744,
+        "sasham": -2.986744
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.72269,
+        "main": -1.01956,
+        "sasham": -3.801984
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.207846,
+        "main": -1.613132,
+        "sasham": -4.395556
+      },
+      "M": {
+        "doserand": -1.660499,
+        "main": -3.513064,
+        "sasham": -6.384939
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.385726,
+        "main": -1.01956,
+        "sasham": -3.801984
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.283667,
+        "main": -0.73466,
+        "sasham": -1.658635
+      },
+      "M": {
+        "doserand": -3.22807,
+        "main": -3.400888,
+        "sasham": -4.831414
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.309904,
+        "main": -0.141088,
+        "sasham": -1.065063
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.256768,
+        "main": -3.809996,
+        "sasham": -6.265359
+      },
+      "M": {
+        "doserand": -3.743055,
+        "main": -3.743055,
+        "sasham": -3.743055
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.016858,
+        "main": -0.570086,
+        "sasham": -3.025449
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.502692,
+        "main": -3.809996,
+        "sasham": -6.265359
+      },
+      "M": {
+        "doserand": -3.876452,
+        "main": -3.425838,
+        "sasham": -6.320765
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.262781,
+        "main": -0.570086,
+        "sasham": -3.025449
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.320867,
+        "main": -3.468929,
+        "sasham": -4.101534
+      },
+      "M": {
+        "doserand": -3.947728,
+        "main": -3.994883,
+        "sasham": -5.236968
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.080957,
+        "main": -0.229019,
+        "sasham": -0.861624
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.565516,
+        "main": -4.078299,
+        "sasham": -5.649146
+      },
+      "M": {
+        "doserand": -0.715097,
+        "main": -0.715097,
+        "sasham": -0.715097
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.871868,
+        "main": -2.38465,
+        "sasham": -3.955498
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.623189,
+        "main": -4.078299,
+        "sasham": -5.649146
+      },
+      "M": {
+        "doserand": 0.04431,
+        "main": -3.16715,
+        "sasham": -7.328808
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.07046,
+        "main": -2.38465,
+        "sasham": -3.955498
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.067892,
+        "main": -1.276839,
+        "sasham": -2.757617
+      },
+      "M": {
+        "doserand": -0.665001,
+        "main": -0.287894,
+        "sasham": -2.528912
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.374243,
+        "main": 0.416809,
+        "sasham": -1.063968
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.081605,
+        "main": -1.931644,
+        "sasham": -4.939065
+      },
+      "M": {
+        "doserand": -3.082745,
+        "main": -3.082745,
+        "sasham": -3.082745
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.56177,
+        "main": -0.41181,
+        "sasham": -3.419231
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.615719,
+        "main": -1.931644,
+        "sasham": -4.939065
+      },
+      "M": {
+        "doserand": -3.314974,
+        "main": -3.488208,
+        "sasham": -7.089598
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.095884,
+        "main": -0.41181,
+        "sasham": -3.419231
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": false,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.568402,
+        "main": -1.022765,
+        "sasham": -1.999071
+      },
+      "M": {
+        "doserand": -3.122239,
+        "main": -2.72192,
+        "sasham": -4.254962
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.048568,
+        "main": 0.49707,
+        "sasham": -0.479236
+      },
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -3.561144,
+        "main": 0.640909,
+        "sasham": -1.629626
+      },
+      "M": {
+        "doserand": -3.915316,
+        "main": -3.915316,
+        "sasham": -3.915316
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.510854,
+        "main": 4.712907,
+        "sasham": 2.442372
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -3.770284,
+        "main": 0.640909,
+        "sasham": -1.629626
+      },
+      "M": {
+        "doserand": -3.162876,
+        "main": 2.482593,
+        "sasham": -0.953186
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.301713,
+        "main": 4.712907,
+        "sasham": 2.442372
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -4.091069,
+        "main": -3.678139,
+        "sasham": -3.648987
+      },
+      "M": {
+        "doserand": -3.970233,
+        "main": -3.445932,
+        "sasham": -4.335599
+      },
+      "baseline_A": -4.071998,
+      "baseline_M": -3.915316,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.019071,
+        "main": 0.393859,
+        "sasham": 0.423011
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "182278047cc5",
+      "host_group": "twins_streamlet:run-169",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.679002,
+        "main": 2.833603,
+        "sasham": 1.709478
+      },
+      "M": {
+        "doserand": -3.398143,
+        "main": -3.398143,
+        "sasham": -3.398143
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.592663,
+        "main": 4.105268,
+        "sasham": 2.981143
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": true
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.540174,
+        "main": 2.833603,
+        "sasham": 1.709478
+      },
+      "M": {
+        "doserand": -4.057468,
+        "main": 3.2504,
+        "sasham": -0.950826
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": -0.26851,
+        "main": 4.105268,
+        "sasham": 2.981143
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": true
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.577236,
+        "main": -0.620836,
+        "sasham": -1.21875
+      },
+      "M": {
+        "doserand": -3.392957,
+        "main": -2.17794,
+        "sasham": -3.649733
+      },
+      "baseline_A": -1.271665,
+      "baseline_M": -3.398143,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.305572,
+        "main": 0.650828,
+        "sasham": 0.052914
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "1f8c0826ae47",
+      "host_group": "twins_streamlet:run-272",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.065226,
+        "main": 1.009453,
+        "sasham": -0.938247
+      },
+      "M": {
+        "doserand": -1.50364,
+        "main": -1.50364,
+        "sasham": -1.50364
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.37881,
+        "main": 2.695869,
+        "sasham": 0.748169
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.878151,
+        "main": 1.009453,
+        "sasham": -0.938247
+      },
+      "M": {
+        "doserand": -1.543012,
+        "main": 3.510629,
+        "sasham": 0.103287
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": -0.191735,
+        "main": 2.695869,
+        "sasham": 0.748169
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.862407,
+        "main": -1.324081,
+        "sasham": -2.185183
+      },
+      "M": {
+        "doserand": -2.005232,
+        "main": -0.878333,
+        "sasham": -2.080365
+      },
+      "baseline_A": -1.686416,
+      "baseline_M": -1.50364,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.175992,
+        "main": 0.362335,
+        "sasham": -0.498767
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4569d20d3e4c",
+      "host_group": "twins_streamlet:run-181",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.818261,
+        "main": 0.301086,
+        "sasham": -1.946962
+      },
+      "M": {
+        "doserand": -2.301714,
+        "main": -2.301714,
+        "sasham": -2.301714
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.389249,
+        "main": 2.508595,
+        "sasham": 0.260547
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.783005,
+        "main": 0.301086,
+        "sasham": -1.946962
+      },
+      "M": {
+        "doserand": -1.921324,
+        "main": 1.42824,
+        "sasham": -1.841488
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.424505,
+        "main": 2.508595,
+        "sasham": 0.260547
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.89636,
+        "main": -1.841847,
+        "sasham": -2.58925
+      },
+      "M": {
+        "doserand": -2.359042,
+        "main": -1.548767,
+        "sasham": -2.98114
+      },
+      "baseline_A": -2.207509,
+      "baseline_M": -2.301714,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.311149,
+        "main": 0.365663,
+        "sasham": -0.38174
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "4cda623cbcdf",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.577684,
+        "main": 2.043572,
+        "sasham": -0.885092
+      },
+      "M": {
+        "doserand": -2.986744,
+        "main": -2.986744,
+        "sasham": -2.986744
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.015887,
+        "main": 2.637144,
+        "sasham": -0.29152
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": 0.156049,
+        "main": 2.043572,
+        "sasham": -0.885092
+      },
+      "M": {
+        "doserand": -2.081244,
+        "main": 1.193682,
+        "sasham": -2.033551
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.749621,
+        "main": 2.637144,
+        "sasham": -0.29152
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 11,
+      "reject": {
+        "doserand": true,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.7721,
+        "main": -0.004842,
+        "sasham": -1.217282
+      },
+      "M": {
+        "doserand": -2.830724,
+        "main": -1.97584,
+        "sasham": -3.787605
+      },
+      "baseline_A": -0.593572,
+      "baseline_M": -2.986744,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.178529,
+        "main": 0.58873,
+        "sasham": -0.62371
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "57c807cc7e4e",
+      "host_group": "twins_streamlet:run-121",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -2.785525,
+        "main": 0.064763,
+        "sasham": -2.937908
+      },
+      "M": {
+        "doserand": -3.743055,
+        "main": -3.743055,
+        "sasham": -3.743055
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.454386,
+        "main": 3.304673,
+        "sasham": 0.302002
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -2.652307,
+        "main": 0.064763,
+        "sasham": -2.937908
+      },
+      "M": {
+        "doserand": -4.939106,
+        "main": 0.975137,
+        "sasham": -2.23168
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.587603,
+        "main": 3.304673,
+        "sasham": 0.302002
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -3.067647,
+        "main": -2.949192,
+        "sasham": -3.738696
+      },
+      "M": {
+        "doserand": -3.913934,
+        "main": -2.907405,
+        "sasham": -4.556925
+      },
+      "baseline_A": -3.23991,
+      "baseline_M": -3.743055,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": 0.172263,
+        "main": 0.290719,
+        "sasham": -0.498786
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7838a9f7e567",
+      "host_group": "twins_streamlet:run-154",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.820843,
+        "main": -0.69834,
+        "sasham": -3.509599
+      },
+      "M": {
+        "doserand": -0.715097,
+        "main": -0.715097,
+        "sasham": -0.715097
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.127194,
+        "main": 0.995308,
+        "sasham": -1.81595
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -0.895438,
+        "main": -0.69834,
+        "sasham": -3.509599
+      },
+      "M": {
+        "doserand": -1.002822,
+        "main": 0.03077,
+        "sasham": -4.204491
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.79821,
+        "main": 0.995308,
+        "sasham": -1.81595
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.972203,
+        "main": -0.839719,
+        "sasham": -2.202779
+      },
+      "M": {
+        "doserand": -0.271315,
+        "main": 0.656588,
+        "sasham": -1.552559
+      },
+      "baseline_A": -1.693648,
+      "baseline_M": -0.715097,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": -0.278554,
+        "main": 0.853929,
+        "sasham": -0.509131
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "7b32d70d2f1d",
+      "host_group": "twins_streamlet:run-337",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    },
+    {
+      "A": {
+        "doserand": -1.581898,
+        "main": 1.584137,
+        "sasham": -2.194108
+      },
+      "M": {
+        "doserand": -3.082745,
+        "main": -3.082745,
+        "sasham": -3.082745
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.062064,
+        "main": 3.103972,
+        "sasham": -0.674274
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "action",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.167618,
+        "main": 1.584137,
+        "sasham": -2.194108
+      },
+      "M": {
+        "doserand": -3.952708,
+        "main": 0.618472,
+        "sasham": -3.447114
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": true,
+      "dA": {
+        "doserand": 0.352216,
+        "main": 3.103972,
+        "sasham": -0.674274
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "reject": {
+        "doserand": false,
+        "main": true,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": true
+    },
+    {
+      "A": {
+        "doserand": -1.538763,
+        "main": -0.49258,
+        "sasham": -1.531664
+      },
+      "M": {
+        "doserand": -3.25398,
+        "main": -1.647316,
+        "sasham": -3.304589
+      },
+      "baseline_A": -1.519835,
+      "baseline_M": -3.082745,
+      "c_flip_main": false,
+      "dA": {
+        "doserand": -0.018929,
+        "main": 1.027255,
+        "sasham": -0.011829
+      },
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "dose_specific_A": true,
+      "host": "9db379427ccd",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "reject": {
+        "doserand": false,
+        "main": false,
+        "sasham": false
+      },
+      "scope": "all",
+      "specific_reject": false
+    }
+  ],
+  "cross_row_max_absdiff": {
+    "06dabe0512b7:SA": 0.0,
+    "06dabe0512b7:new": 0.0,
+    "182278047cc5:new": 0.0,
+    "1f8c0826ae47:new": 0.0,
+    "35253a262059:SA": 0.0,
+    "35253a262059:new": 0.0,
+    "4569d20d3e4c:new": 0.0,
+    "4cda623cbcdf:new": 0.0,
+    "508ecd55774f:SA": 0.0,
+    "508ecd55774f:new": 0.0,
+    "57c807cc7e4e:new": 0.0,
+    "7838a9f7e567:new": 0.0,
+    "7b32d70d2f1d:new": 0.0,
+    "90dbf6d6536f:SA": 0.0,
+    "90dbf6d6536f:new": 0.0,
+    "9db379427ccd:new": 0.0
+  },
+  "reachability_violations_scope_action": 0,
+  "schema": "JEV_A461_G5_G2_STAGE_E_ANALYSIS_V1",
+  "summary": {
+    "L11_action": {
+      "action_level_correction": true,
+      "c_flips_main": 0,
+      "cells": 32,
+      "dose_specific_A": 21,
+      "median_dA": {
+        "doserand": -0.0,
+        "main": 0.9536,
+        "sasham": -1.58
+      },
+      "rejects": {
+        "doserand": 0,
+        "main": 11,
+        "sasham": 1
+      },
+      "specific_reject": 10,
+      "specific_reject_donor_groups": [
+        "twins_streamlet:run-140",
+        "twins_streamlet:run-212",
+        "twins_streamlet:run-338"
+      ],
+      "specific_reject_host_groups": [
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-154",
+        "twins_streamlet:run-169",
+        "twins_streamlet:run-181",
+        "twins_streamlet:run-272",
+        "twins_streamlet:run-68"
+      ]
+    },
+    "L11_all": {
+      "action_level_correction": true,
+      "c_flips_main": 11,
+      "cells": 32,
+      "dose_specific_A": 23,
+      "median_dA": {
+        "doserand": -0.0692,
+        "main": 0.9536,
+        "sasham": -1.58
+      },
+      "rejects": {
+        "doserand": 2,
+        "main": 11,
+        "sasham": 1
+      },
+      "specific_reject": 9,
+      "specific_reject_donor_groups": [
+        "twins_streamlet:run-140",
+        "twins_streamlet:run-212",
+        "twins_streamlet:run-338"
+      ],
+      "specific_reject_host_groups": [
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-154",
+        "twins_streamlet:run-169",
+        "twins_streamlet:run-181",
+        "twins_streamlet:run-272",
+        "twins_streamlet:run-68"
+      ]
+    },
+    "L12_all": {
+      "action_level_correction": false,
+      "c_flips_main": 3,
+      "cells": 32,
+      "dose_specific_A": 26,
+      "median_dA": {
+        "doserand": -0.069,
+        "main": 0.2904,
+        "sasham": -0.4732
+      },
+      "rejects": {
+        "doserand": 0,
+        "main": 0,
+        "sasham": 0
+      },
+      "specific_reject": 0,
+      "specific_reject_donor_groups": [],
+      "specific_reject_host_groups": []
+    }
+  },
+  "verdict": "ACTION_LEVEL_CORRECTION"
+}

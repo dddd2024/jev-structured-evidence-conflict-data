@@ -1,0 +1,6 @@
+{
+  "admission_id": "A461_MON_M23K_GPU_20261101_R1",
+  "attempt_id": "e25f8471e0d54cd1937850d4c306f25b",
+  "backend": "gpu",
+  "runner_blob": "63308265ec6124a44fa7200df6327c265def9273"
+}

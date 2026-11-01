@@ -1,0 +1,14 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 248, 'scenes': 124, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_248_rows_and_feature_files :: status=COMPLETE_A461_MON_M23K rows=248 files=248 sha=True shapes=True arms={'new': 124, 'TWIN': 124}; span rows agree within 2.9e-06 (fake float32; the GPU run requires 0)
+PASS decision_position_is_the_head_readout :: saved last-token state after layer 31 x fake head reproduces the certificate_action logits in 40 rows (max abs 0.0e+00); decision row = the certificate_action row: True
+PASS span_features_cover_the_frozen_span :: emb-layer span mean of new == TWIN in 124/124 scenes (byte-identical span); full token sequences differ in 124/124
+PASS tampered_manifest_token_sha_refused :: refused: token gate 04a1e5f7:TWIN
+PASS tampered_stage_a_raw_refused :: one Stage-A row edited: refused at the blob pin
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission after a complete 248-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: tampered manifest refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 13, "tests": 13, "runner_blob": "63308265ec6124a44fa7200df6327c265def9273", "manifest_blob": "003faaffa6359c895f72972f8d8802d21b645b12"}

@@ -1,0 +1,292 @@
+{
+  "criterion": "neutral arm vs TREATMENT arm state token count (not vs old arm)",
+  "erratum_ref": "G2_ERRATUM_AND_CORRECTED_RECEIPT.md 勘误2",
+  "matched": 29,
+  "mismatched_pairs": [
+    "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+    "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951"
+  ],
+  "rows": [
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 580,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:8405be21110e3ceb",
+      "source_group": "lanl:day:48",
+      "treatment_state_token_len": 580
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 581,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:86b3c8c1022b4f14",
+      "source_group": "lanl:day:48",
+      "treatment_state_token_len": 581
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 581,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:a72a7fed4bffa02a",
+      "source_group": "lanl:day:48",
+      "treatment_state_token_len": 581
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 581,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:9ffd190c8c9483e9",
+      "source_group": "lanl:day:49",
+      "treatment_state_token_len": 581
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 581,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:a130d2f53d664c52",
+      "source_group": "lanl:day:49",
+      "treatment_state_token_len": 581
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 580,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:7465d5a079055d8b",
+      "source_group": "lanl:day:49",
+      "treatment_state_token_len": 580
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 580,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6",
+      "source_group": "lanl:day:50",
+      "treatment_state_token_len": 580
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 581,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:7d0d542458e93847",
+      "source_group": "lanl:day:50",
+      "treatment_state_token_len": 581
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L1_B_THRESHOLD",
+      "neutral_state_token_len": 580,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15",
+      "source_group": "lanl:day:50",
+      "treatment_state_token_len": 580
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 998,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:cb6958b659e9f26c",
+      "source_group": "lanl:day:48",
+      "treatment_state_token_len": 998
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 640,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:316ad9c214d93ced",
+      "source_group": "lanl:day:48",
+      "treatment_state_token_len": 640
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 700,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:7066ecae690fe43d",
+      "source_group": "lanl:day:49",
+      "treatment_state_token_len": 700
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 641,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:ad9edc02d71c5e24",
+      "source_group": "lanl:day:49",
+      "treatment_state_token_len": 641
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 700,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:d48e5d5fb80f313f",
+      "source_group": "lanl:day:50",
+      "treatment_state_token_len": 700
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "LANL_L3A_RISK_NONREGRESSION",
+      "neutral_state_token_len": 758,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "LANL_L3A_RISK_NONREGRESSION:80fc84af3d0f7b03",
+      "source_group": "lanl:day:50",
+      "treatment_state_token_len": 758
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 274,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:addf18719636d0cd",
+      "source_group": "twins_streamlet:run-101",
+      "treatment_state_token_len": 274
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 283,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:14823a97e481548e",
+      "source_group": "twins_streamlet:run-105",
+      "treatment_state_token_len": 283
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 570,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:1b0e96fb22c6aebe",
+      "source_group": "twins_streamlet:run-114",
+      "treatment_state_token_len": 570
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 434,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:e5b68bed342aaa85",
+      "source_group": "twins_streamlet:run-121",
+      "treatment_state_token_len": 434
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 283,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:e35b601759fb4800",
+      "source_group": "twins_streamlet:run-129",
+      "treatment_state_token_len": 283
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T1_QUORUM_AXIS",
+      "neutral_state_token_len": 406,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T1_QUORUM_AXIS:39834f1dfb7861f1",
+      "source_group": "twins_streamlet:run-154",
+      "treatment_state_token_len": 406
+    },
+    {
+      "N1_token_count_matched_vs_treatment": false,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 1090,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+      "source_group": "twins_streamlet:run-100",
+      "treatment_state_token_len": 1086
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 373,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:bb385759da896be4",
+      "source_group": "twins_streamlet:run-101",
+      "treatment_state_token_len": 373
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 419,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:77ac7c784fa27f11",
+      "source_group": "twins_streamlet:run-105",
+      "treatment_state_token_len": 419
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 570,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:23a492683724bfef",
+      "source_group": "twins_streamlet:run-114",
+      "treatment_state_token_len": 570
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 434,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:e5b68bed342aaa85",
+      "source_group": "twins_streamlet:run-121",
+      "treatment_state_token_len": 434
+    },
+    {
+      "N1_token_count_matched_vs_treatment": false,
+      "family": "TWINS_T2_CONFLICT_AXIS",
+      "neutral_state_token_len": 415,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+      "source_group": "twins_streamlet:run-125",
+      "treatment_state_token_len": 411
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T3_CONFLICT_STABILITY",
+      "neutral_state_token_len": 386,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:6f8c5dea5cf8cea6",
+      "source_group": "twins_streamlet:run-105",
+      "treatment_state_token_len": 386
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T3_CONFLICT_STABILITY",
+      "neutral_state_token_len": 1236,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:9044f95302e93e25",
+      "source_group": "twins_streamlet:run-114",
+      "treatment_state_token_len": 1236
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T3_CONFLICT_STABILITY",
+      "neutral_state_token_len": 768,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:fb273c6528f29225",
+      "source_group": "twins_streamlet:run-125",
+      "treatment_state_token_len": 768
+    },
+    {
+      "N1_token_count_matched_vs_treatment": true,
+      "family": "TWINS_T3_CONFLICT_STABILITY",
+      "neutral_state_token_len": 485,
+      "old_criterion_neutral_vs_old_matched": false,
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:e90ece230eef6871",
+      "source_group": "twins_streamlet:run-129",
+      "treatment_state_token_len": 485
+    }
+  ],
+  "schema": "JEV_A461_PSMI_N1_FLAGS_CORRECTED_V1",
+  "total": 31
+}

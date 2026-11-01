@@ -1,0 +1,281 @@
+{
+ "gate": {
+  "rows": 6820,
+  "expected": 6820,
+  "replays": 620,
+  "op_rows": 6200,
+  "replay_bitwise_m18": 0,
+  "op_conditions": {
+   "gain_L19_g8": 620,
+   "gain_L19_g32": 620,
+   "push_L19_b05": 620,
+   "push_L19_b20": 620,
+   "rand_L19_b20": 620,
+   "gain_L31_g8": 620,
+   "gain_L31_g32": 620,
+   "push_L31_b05": 620,
+   "push_L31_b20": 620,
+   "rand_L31_b20": 620
+  },
+  "pass": false
+ },
+ "verdicts": {
+  "L19": "INCONSISTENT",
+  "L19_selective_gammas": "INCONSISTENT",
+  "L31": "INCONSISTENT",
+  "L31_selective_gammas": "INCONSISTENT"
+ },
+ "measures": {
+  "gain_L19_g8": {
+   "REPAIR": 0.6842105263157895,
+   "FV": 0.6619718309859155,
+   "RECOGNIZED_kept": 0.8380952380952381,
+   "FV_old": 0.5714285714285714,
+   "FV_SA": 0.6842105263157895,
+   "FV_ROUND": 0.6842105263157895,
+   "FV_OUTSIDER": 0.6842105263157895,
+   "median_dA_missed": 2.6292,
+   "median_dA_benign": 2.759,
+   "fv_groups": {
+    "groups_with_fv": 5,
+    "of": 17,
+    "cp95_upper": 0.5219
+   }
+  },
+  "gain_L19_g32": {
+   "REPAIR": 0.47368421052631576,
+   "FV": 0.43661971830985913,
+   "RECOGNIZED_kept": 0.638095238095238,
+   "FV_old": 0.2857142857142857,
+   "FV_SA": 0.47368421052631576,
+   "FV_ROUND": 0.47368421052631576,
+   "FV_OUTSIDER": 0.47368421052631576,
+   "median_dA_missed": -3.4541,
+   "median_dA_benign": -4.0312,
+   "fv_groups": {
+    "groups_with_fv": 4,
+    "of": 17,
+    "cp95_upper": 0.4605
+   }
+  },
+  "push_L19_b05": {
+   "REPAIR": 0.2631578947368421,
+   "FV": 0.2676056338028169,
+   "RECOGNIZED_kept": 0.9333333333333333,
+   "FV_old": 0.21428571428571427,
+   "FV_SA": 0.2631578947368421,
+   "FV_ROUND": 0.2631578947368421,
+   "FV_OUTSIDER": 0.3157894736842105,
+   "median_dA_missed": 0.5629,
+   "median_dA_benign": 0.5625,
+   "fv_groups": {
+    "groups_with_fv": 4,
+    "of": 17,
+    "cp95_upper": 0.4605
+   }
+  },
+  "push_L19_b20": {
+   "REPAIR": 0.6842105263157895,
+   "FV": 0.6619718309859155,
+   "RECOGNIZED_kept": 0.7619047619047619,
+   "FV_old": 0.5714285714285714,
+   "FV_SA": 0.6842105263157895,
+   "FV_ROUND": 0.6842105263157895,
+   "FV_OUTSIDER": 0.6842105263157895,
+   "median_dA_missed": 2.1416,
+   "median_dA_benign": 2.1399,
+   "fv_groups": {
+    "groups_with_fv": 5,
+    "of": 17,
+    "cp95_upper": 0.5219
+   }
+  },
+  "rand_L19_b20": {
+   "REPAIR": 0.2631578947368421,
+   "FV": 0.39436619718309857,
+   "RECOGNIZED_kept": 0.780952380952381,
+   "FV_old": 0.6428571428571429,
+   "FV_SA": 0.3684210526315789,
+   "FV_ROUND": 0.15789473684210525,
+   "FV_OUTSIDER": 0.47368421052631576,
+   "median_dA_missed": -0.6504,
+   "median_dA_benign": -0.4427,
+   "fv_groups": {
+    "groups_with_fv": 8,
+    "of": 17,
+    "cp95_upper": 0.6892
+   }
+  },
+  "gain_L31_g8": {
+   "REPAIR": 0.15789473684210525,
+   "FV": 0.14084507042253522,
+   "RECOGNIZED_kept": 0.2761904761904762,
+   "FV_old": 0.07142857142857142,
+   "FV_SA": 0.15789473684210525,
+   "FV_ROUND": 0.15789473684210525,
+   "FV_OUTSIDER": 0.15789473684210525,
+   "median_dA_missed": -2547.9121,
+   "median_dA_benign": -2547.9406,
+   "fv_groups": {
+    "groups_with_fv": 2,
+    "of": 17,
+    "cp95_upper": 0.3262
+   }
+  },
+  "gain_L31_g32": {
+   "REPAIR": 0.15789473684210525,
+   "FV": 0.14084507042253522,
+   "RECOGNIZED_kept": 0.2761904761904762,
+   "FV_old": 0.07142857142857142,
+   "FV_SA": 0.15789473684210525,
+   "FV_ROUND": 0.15789473684210525,
+   "FV_OUTSIDER": 0.15789473684210525,
+   "median_dA_missed": -11283.6135,
+   "median_dA_benign": -11283.737,
+   "fv_groups": {
+    "groups_with_fv": 2,
+    "of": 17,
+    "cp95_upper": 0.3262
+   }
+  },
+  "push_L31_b05": {
+   "REPAIR": 0.631578947368421,
+   "FV": 0.6338028169014085,
+   "RECOGNIZED_kept": 0.9904761904761905,
+   "FV_old": 0.6428571428571429,
+   "FV_SA": 0.631578947368421,
+   "FV_ROUND": 0.631578947368421,
+   "FV_OUTSIDER": 0.631578947368421,
+   "median_dA_missed": 0.9887,
+   "median_dA_benign": 0.9886,
+   "fv_groups": {
+    "groups_with_fv": 4,
+    "of": 17,
+    "cp95_upper": 0.4605
+   }
+  },
+  "push_L31_b20": {
+   "REPAIR": 0.7894736842105263,
+   "FV": 0.8028169014084507,
+   "RECOGNIZED_kept": 0.8666666666666667,
+   "FV_old": 0.8571428571428571,
+   "FV_SA": 0.7894736842105263,
+   "FV_ROUND": 0.7894736842105263,
+   "FV_OUTSIDER": 0.7894736842105263,
+   "median_dA_missed": 3.9547,
+   "median_dA_benign": 3.9545,
+   "fv_groups": {
+    "groups_with_fv": 5,
+    "of": 17,
+    "cp95_upper": 0.5219
+   }
+  },
+  "rand_L31_b20": {
+   "REPAIR": 0.3684210526315789,
+   "FV": 0.4507042253521127,
+   "RECOGNIZED_kept": 0.780952380952381,
+   "FV_old": 0.5714285714285714,
+   "FV_SA": 0.2631578947368421,
+   "FV_ROUND": 0.5789473684210527,
+   "FV_OUTSIDER": 0.42105263157894735,
+   "median_dA_missed": -0.3773,
+   "median_dA_benign": 0.1182,
+   "fv_groups": {
+    "groups_with_fv": 8,
+    "of": 17,
+    "cp95_upper": 0.6892
+   }
+  }
+ },
+ "ci": {
+  "gain_L19_g8|REPAIR": [
+   0.3077,
+   1.0
+  ],
+  "gain_L19_g8|FV": [
+   0.3077,
+   1.0
+  ],
+  "gain_L19_g32|REPAIR": [
+   0.1111,
+   0.9231
+  ],
+  "gain_L19_g32|FV": [
+   0.1111,
+   0.9091
+  ],
+  "push_L19_b05|REPAIR": [
+   0.0455,
+   0.4667
+  ],
+  "push_L19_b05|FV": [
+   0.0435,
+   0.4938
+  ],
+  "push_L19_b20|REPAIR": [
+   0.3333,
+   0.9231
+  ],
+  "push_L19_b20|FV": [
+   0.3333,
+   0.9149
+  ],
+  "rand_L19_b20|REPAIR": [
+   0.1429,
+   0.5
+  ],
+  "rand_L19_b20|FV": [
+   0.2955,
+   0.4923
+  ],
+  "gain_L31_g8|REPAIR": [
+   0.0,
+   0.5
+  ],
+  "gain_L31_g8|FV": [
+   0.0,
+   0.4545
+  ],
+  "gain_L31_g32|REPAIR": [
+   0.0,
+   0.5
+  ],
+  "gain_L31_g32|FV": [
+   0.0,
+   0.4545
+  ],
+  "push_L31_b05|REPAIR": [
+   0.2308,
+   0.8696
+  ],
+  "push_L31_b05|FV": [
+   0.25,
+   0.8605
+  ],
+  "push_L31_b20|REPAIR": [
+   0.4,
+   1.0
+  ],
+  "push_L31_b20|FV": [
+   0.4375,
+   1.0
+  ],
+  "rand_L31_b20|REPAIR": [
+   0.1765,
+   0.6154
+  ],
+  "rand_L31_b20|FV": [
+   0.3929,
+   0.537
+  ]
+ },
+ "counts": {
+  "NATIVE_FV": 425,
+  "RECOGNIZED": 105,
+  "BENIGN": 71,
+  "MISSED": 19
+ },
+ "readout_geometry": {
+  "status": "DIM_MISMATCH (fake model)"
+ }
+}

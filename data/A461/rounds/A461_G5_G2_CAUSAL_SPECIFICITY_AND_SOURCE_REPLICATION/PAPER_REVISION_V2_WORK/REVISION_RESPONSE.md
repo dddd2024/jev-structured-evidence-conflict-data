@@ -1,0 +1,15 @@
+# Response to paper audit 64faaee (`PAPER_AUDIT_REVISE_REQUIRED`): revision in progress
+
+This is normal research work under policy V2. It is not a new audit request. The next audit is triggered only by a
+future complete paper-level claim (`PAPER_CLAIM_PACKAGE_V2`).
+
+| Item | Action | Status |
+|---|---|---|
+| **P0-1** Exclusive "encoding failure" claim | v7 narrows the title, abstract, §4.7, §4.8 and §5. The claim is now interventional: natural span activations of recognized scenes are causally sufficient beyond sham, permutation and dose-matched controls. Encoding failure is stated as the leading *candidate* explanation and is not identified; the Vaidyanathan et al. interaction caveat is added. §4.7 now speaks of patch-site sensitivity, not "no longer consults". H3 at layer 11 is reported as not met, and layer 12 no longer substitutes for it. | Text done (v7). The deciding experiment is Stage F. |
+| **P0-2** Joint C∩A repair and donor dominance | New Table 5 reports joint repair in the same forward: main 8/32 (run-140 7, run-338 1), SA-sham 0/32, dose 0/32, layer 12 0/32. Leave-one-donor-out leaves 1/24 without run-140. The text states that row-wise sufficiency does not establish a C→A mediation or a shared mechanism. All numbers come from `extract_numbers_v7.py` and the raw logits. | Done (v7). Stage F adds TTT sources from 5 new groups. |
+| **P1-1** External validity | kev-4B (Qwen3.5-4B-Base + kev adapter, 32 layers) has been checked on CPU: its tokenizer is byte-identical; with its compatible kev source (`kev08b-smoke/code`, matching kev-4B's pinned checkpoint and model hashes) all 372/372 frozen Stage-A arms encode to the frozen token SHAs; earlier loads succeeded on CPU (FP32) and on GPU. kev-4B is a general typed-decision model, not trained on SecJev scenes, so its behaviour on this task is unknown. | Next: kev-4B runner (CPU) and a screen budget for user approval. |
+| **P1-2** Missing prior work | Chu, Sun & Weng (Findings of EMNLP 2026), Vaidyanathan et al. (arXiv:2606.27510) and Brunello et al. IPE (BlackboxNLP 2025) were verified and added to related work and the discussion. The "to our knowledge" statement is narrowed. | Done (v7). |
+| **P1-3** Decision-class prototype confound | Stage F is frozen. Every host's 8 near-threshold hosts receive spans from: TTT SA arms (class-matched, content-mismatched: a duplicate vote in scenes read as conflict and reject), TTT new arms (conflict content, 5 new groups), FFF new arms (conflict content, not recognized, 6 groups), and donor new/SA spans (bitwise replication of Stage E). The joint endpoint is preregistered: H-F1 content beyond class, H-F2 recognition matters, H-F3 source diversity. | Frozen. Runner `5a7067f8` self-test 11/11. Awaiting GPU approval (296 calls). |
+| **P1-4** Capture access | See `CAPTURES_ACCESS_PLAN.md`. | Plan written. To be executed with package V2. |
+| **P2-1** `generate_v5.js` vs `generate_v5_input.js` | `assemble_v7.py` uses whichever exists. | Done. |
+| **P2-2** Stage-C reproduction paths | Corrected in `REPRODUCE_V2.md`. | Done. |

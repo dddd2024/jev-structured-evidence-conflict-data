@@ -1,0 +1,439 @@
+{
+  "census": {
+    "dev_run_groups_total": 42,
+    "groups_with_unused_scenes": 42,
+    "reuse_rule": "scene-level SHA64 ledger; rounds may share groups but G2 pairs must use scenes never used before",
+    "twins_scenes": 797,
+    "unused_scene_count": 713,
+    "used_by_round": {
+      "A428": 12,
+      "G1_pilot_twins": 32,
+      "G3": 26,
+      "G5_V2": 72
+    },
+    "used_scene_count": 84
+  },
+  "schema": "JEV_A461_G5_G2_SCENE_REUSE_LEDGER_V1",
+  "used": [
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "015bfc80f329ddd77499c228f8e6d941c42d6d3c06962a8ea748f43c1d375711",
+      "source_group": "twins_streamlet:run-336"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "0219cbc0b97ae40bdecf2bf83761ca1d2f5aa941c8e9d2dc48f2bc86583a2073",
+      "source_group": "twins_streamlet:run-197"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "02b6162bacae01141c4b3495c9c099cc00ec301027e7eafca1c99bd8d5c48bfe",
+      "source_group": "twins_streamlet:run-220"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "043c488c64b4d7ad98206b6aeac926f40f6e5f56b17317b62659cbb7f9d074da",
+      "source_group": "twins_streamlet:run-272"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "06a6a0dee3aafd6702a5f77ab29e7fa1facb63b9b2d9b526680dc6f8c5667f9e",
+      "source_group": "twins_streamlet:run-167"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "083d7e62f311608e3a10c1e6044f4e6f5f7ab62003fad2515a8d79a707aaacae",
+      "source_group": "twins_streamlet:run-68"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "08940363e55707b58212888fb1ecc037aaa78b99223862263d500dd543c4e17a",
+      "source_group": "twins_streamlet:run-301"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "09cfff0723a012ebc32aa7f439a185ba17a64f1b5f874227ba7251ae880e98bc",
+      "source_group": "twins_streamlet:run-210"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "0aedac73d46ff038de305f61812e74bea6518765cf26b49ac8807bd2c48ea2be",
+      "source_group": "twins_streamlet:run-237"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "0b1507dabf08d06074bc2d0368fbc4aa893fe6f0aa28e2ca1cf7c96eef51561c",
+      "source_group": "twins_streamlet:run-100"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "0ec558cfdf6909f2face26f65cdc9671bdae2c2dbec2eef583dd88db5c54e0f6",
+      "source_group": "twins_streamlet:run-338"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "0f78ea85516d4c127ffa0c1c7e80dfc7415b97e4d3064fa924eee15b4d5af67c",
+      "source_group": "twins_streamlet:run-125"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "14823a97e481548ec0dec1658567e7634d08053b7ef376884299c9fc548fde46",
+      "source_group": "twins_streamlet:run-105"
+    },
+    {
+      "round": "A428_multiq_pilot",
+      "scene_sha256": "1ae504d44105723c0484cb7e378cbe6642df307f4896e8b017a1047014ae73e9",
+      "source_group": "twins_streamlet:run-344"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "1b0e96fb22c6aebee0fa582f7102d4a0815b793d0feb73e9710696494d01fffe",
+      "source_group": "twins_streamlet:run-114"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "1f44a51c2d56e45302c4651b9414a55111284cdd3c7aea2206379145e1f4afb8",
+      "source_group": "twins_streamlet:run-140"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "231b919006dc1777b9096adc979bc29322268c67035561612bf9ccd0e3d7dbdf",
+      "source_group": "twins_streamlet:run-182"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "23a492683724bfef733e25d29b544410f6df555a290be8a5a4115c0820190686",
+      "source_group": "twins_streamlet:run-114"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "277ffa4df34c8e1e1f271e86e694cead4e5e589f9539865f74d86d1d75db2b61",
+      "source_group": "twins_streamlet:run-169"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "2844afec594fb8fec6dd820d340dbd4cd25905ded40fec8fd9005b2ae4ca9d4c",
+      "source_group": "twins_streamlet:run-181"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "300e117fdb2dd9cb7fc7fb100b1bdefd73da8906fd047d70542d63dce921b82d",
+      "source_group": "twins_streamlet:run-342"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "39834f1dfb7861f11ad9a5cd007412b06ab88fd756891347b9125266b9328ed3",
+      "source_group": "twins_streamlet:run-154"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "3b0d8024d8a17e3270c0798a2c2de6fca3549e43b4f40d2e96f58ff406be0222",
+      "source_group": "twins_streamlet:run-161"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "3e7ea78d53c8814c5d03e8ed0f8553b87166c3d772dd739357f23ee160c2c8e4",
+      "source_group": "twins_streamlet:run-301"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "433890d19a90625e6d35a69030899e79fe6cc07c7f9315771a60b617c9a880b5",
+      "source_group": "twins_streamlet:run-83"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "4480506f5fb723915726008790bab426b83926b71aa3884d4975f4af6decdc7c",
+      "source_group": "twins_streamlet:run-328"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "47ab1e2e276380f6fbc20ad598c58eee1efc4ff73c389bf44c7e9b7b5c71f8b0",
+      "source_group": "twins_streamlet:run-100"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "5233f6229c28124ebddd72d95350bc1ad138a934b2fe480fa22223284d12b399",
+      "source_group": "twins_streamlet:run-330"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "529adc3add76cf8318ed077f759bf728bf3ebe41b2934f7f6fc8e3ed901714c0",
+      "source_group": "twins_streamlet:run-220"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "530e71e6ee59fc02b285cfd4ffdc07ba7f3dbf5346de54392e1e60b5cce90b33",
+      "source_group": "twins_streamlet:run-169"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "5aa76f5c0928ef7abecc6bc7e9a2576a194d11152988bf69298cb311e0aa8ff5",
+      "source_group": "twins_streamlet:run-181"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "620676e6c00917c417097156a46b736ff78325bc4a1e3322b7fbe56e76f9294b",
+      "source_group": "twins_streamlet:run-237"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "68623827030f250deaf58523f43a2d06cbbcce74e790a72ea0f6aee3ef671eba",
+      "source_group": "twins_streamlet:run-45"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "6c574322ca200a03d9642a4914c230944df6fff4be6ee9d186f0656e542183fe",
+      "source_group": "twins_streamlet:run-159"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "6f8c5dea5cf8cea667c34ae7de7e66538b04c4b7cf3a151fcacca0b1a330f510",
+      "source_group": "twins_streamlet:run-105"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "71c487a751274331b0cb564a2001bbbd81c0f8c56076fe81208a163e45f55be5",
+      "source_group": "twins_streamlet:run-154"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "733c199a6bb6e22be08f18151dd94fc6d8d23771630fa584a7488134718be19e",
+      "source_group": "twins_streamlet:run-283"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "77ac7c784fa27f1157e31b932786c3639fb2854aadf238c8d0f1fcd813c4994e",
+      "source_group": "twins_streamlet:run-105"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "7df8539bc0f49de2d1063380e9f691671e3510caa99abd922159a89a88505be9",
+      "source_group": "twins_streamlet:run-267"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "7e6651aa28f8905b80d5b3126f2b50a4b238643f2d29a20ee114967cce4d21a9",
+      "source_group": "twins_streamlet:run-245"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "829456e15494356cb7277369c659a11ea22508d4f909fda71eb50e694d85727e",
+      "source_group": "twins_streamlet:run-181"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "82cbfc853cb5ac87b30d51d23ae6f6ba31436574a34611b89ad3b484223b4a77",
+      "source_group": "twins_streamlet:run-351"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "8569abcac4d9db01d32c4173dd3f9424c2288b52b02aedef5f686e01dfa14553",
+      "source_group": "twins_streamlet:run-279"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "8a72ddd0cacee19424fbfa10afaef5c9d9900ee2ec92c8043d210864549a613b",
+      "source_group": "twins_streamlet:run-231"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "8a877d2c67d39cb141c85d0f4804a867e14550ed03d3253dd27189946d168d6d",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "8ce9655b0833ec793a851fb75c281a3f39ac423001205e3b7178c817b7003f80",
+      "source_group": "twins_streamlet:run-337"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "9044f95302e93e257d48d61047c6a83f1401c2f1a2ce3b794a0f4553f460eeca",
+      "source_group": "twins_streamlet:run-114"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "948e3a6ceeb5bc9bec427f5afab4453b9d87e967f7fde6947324e5c2e4ff1c8f",
+      "source_group": "twins_streamlet:run-161"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "974ff72a4dcf05eb0945367d9b70405c44487020ac33529e908c29ae0f57468a",
+      "source_group": "twins_streamlet:run-231"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "a79780367d0fbd3f17a783d491486a9f11d0733a0e9a57212232d92b58f73c67",
+      "source_group": "twins_streamlet:run-342"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "addf18719636d0cdb05c174958ee9702ce9833e7c2b9ba6cc06e73970001919f",
+      "source_group": "twins_streamlet:run-101"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "af3d16ee2ad0bea9d95521d8f86bcc6fb8b5075437165360dd698472a2c87a0b",
+      "source_group": "twins_streamlet:run-182"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "b1cd03093b4318ae2f44c6b0b886010e69676a0b66678090e6243f1ca29b80ac",
+      "source_group": "twins_streamlet:run-159"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "b1db1532145aa2f97419a6aa51edfccee8d4c8b876bf9710cf00daa7fe5f334f",
+      "source_group": "twins_streamlet:run-211"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "bb385759da896be4331fa784afc8cc595d20f745a0f4f5235afc9dccb99ce9e0",
+      "source_group": "twins_streamlet:run-101"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "bd034a59f68a5630f1553d8e6df66bcdb0ff0261f0e714ee122136acedf39020",
+      "source_group": "twins_streamlet:run-121"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "bfe4e0d122172fdddfaa31dd38f15c091cf96e1f06c9501e23d618a7088a65ff",
+      "source_group": "twins_streamlet:run-351"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "c07aa72f3f634532441a1762027c7c9be993d95107fe725944fa6317b64559b5",
+      "source_group": "twins_streamlet:run-336"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "c72afdabd7d37ea920b35a8903606cd378982f78eda76ec24fd188c01539a9e8",
+      "source_group": "twins_streamlet:run-169"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "cf335142e5377a7b23a9fe456d8d13970f79d9564fe37b7648063f37500788b3",
+      "source_group": "twins_streamlet:run-372"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "d0b328d09ffdd43e1378ae455a17e3b6ca81e6985ff858984907a28d440df927",
+      "source_group": "twins_streamlet:run-140"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "d0ee41fbb9d08d09052f618b4b88424b1537e774aeb6b2045018842e4b3429ca",
+      "source_group": "twins_streamlet:run-279"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "d2e114cce4f3dc2c40b80c5e7d91a98e5cd4b44852313451f49201fac5d463d6",
+      "source_group": "twins_streamlet:run-182"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "d3a8aaa2f5457371dad98cec6248377b8e096e591d3d82956f70547aad4d229d",
+      "source_group": "twins_streamlet:run-272"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "d749e7d944f417f89534994f5709597c967f34f8116d2694ca4700a28fec7d37",
+      "source_group": "twins_streamlet:run-337"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "d74b45028314ec603d3650c5bd36ffa9a453b460b246aeb9e0993db069840204",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "d8324e2254ad0bb10479d158522e0d928ee23d3ff8113644ced428cd2ea2cbb6",
+      "source_group": "twins_streamlet:run-159"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "dc0985acea13f10ddc8ac6214a7d98a664e6babe1f7c155958a1c3ec4f521a6e",
+      "source_group": "twins_streamlet:run-279"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "dce1d033e0c2a951c6355e01c3c78ff4e912f9bdb148f8c6ce07058fac1ee374",
+      "source_group": "twins_streamlet:run-125"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "e0745915cdd394607ab559501171b7855fc4898e1c68f6201c64167cb3b93d7f",
+      "source_group": "twins_streamlet:run-211"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "e07def56c83846ab70a7d6f3bc3a2ec76306f4009e468d3d7ba18852bdd360ea",
+      "source_group": "twins_streamlet:run-211"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "e1f74051607309180672d2273c038bda7e0462c231488980cf31603f3bcc5418",
+      "source_group": "twins_streamlet:run-24"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "e2ccd95e3d406bfe1f491ceef5ea3752e3e0f62019e3d298e496e9c7c25a8494",
+      "source_group": "twins_streamlet:run-328"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "e35b601759fb4800be1172a491a396b01d337ae0ce5969dc5fa335a8e225b2b1",
+      "source_group": "twins_streamlet:run-129"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "e5b68bed342aaa857913460d4c11cfa4ea397e77ceb2ae9ad73b6eeaebb0cc96",
+      "source_group": "twins_streamlet:run-121"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "e85fe021e1d645aab9c5f0f0eb5709e433667eb35c8035f1132d1c5563cf2f44",
+      "source_group": "twins_streamlet:run-358"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "e90ece230eef68714c28a7c3150e1e90ff7c79422b0ac1decc3c0c966c5bbccb",
+      "source_group": "twins_streamlet:run-129"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "f1c9741e08c066bcc61d15050cb28bcf70ff0d9c898971383f32d6d413b5b7f7",
+      "source_group": "twins_streamlet:run-83"
+    },
+    {
+      "round": "G5_V2_donor_resolution",
+      "scene_sha256": "f55f73f458523f6d8bb9960718e8b76bb0c77bd637218e11d634dc02809127c3",
+      "source_group": "twins_streamlet:run-283"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "f6d93910fda5b86114e9f113f60d8824021288b674bc4b505d74f4398604e6f3",
+      "source_group": "twins_streamlet:run-267"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "f962cad8c2bf5d64d19ca3e91373cb7e8ee778174ee9b1195426658b29cdf636",
+      "source_group": "twins_streamlet:run-231"
+    },
+    {
+      "round": "G1_pilot",
+      "scene_sha256": "fb273c6528f292253d3758e798e0d14f35805206b9bcbe0a3a7f4b7fde6ede7a",
+      "source_group": "twins_streamlet:run-125"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "fdac88a5d992f0a38b3eace709d90898b714cad7453bdab921036a7130dd7d98",
+      "source_group": "twins_streamlet:run-24"
+    },
+    {
+      "round": "G3_confirmation",
+      "scene_sha256": "fee87791362f172f8ffd2fd45d648984d5718b277c25438700c338dd2f555ae0",
+      "source_group": "twins_streamlet:run-161"
+    }
+  ]
+}

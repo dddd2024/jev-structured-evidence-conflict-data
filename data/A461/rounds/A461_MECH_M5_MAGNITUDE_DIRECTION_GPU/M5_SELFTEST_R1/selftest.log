@@ -1,0 +1,17 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 2540, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_2540_with_44_captures_and_class_files :: status=COMPLETE_A461_MECH_M5 rows=2540 batches=20 captures=44 files=88 (sha ok=True, shapes ok=True); cross-row max 2.4e-07
+PASS class_contributions_partition_and_sum_to_oproj_input :: 5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)
+PASS twelve_arms_distinct_outputs :: 12 arms give 12 distinct outputs in 208/208 (cell, source); 12 arms x 208; op/classes match the frozen arm table: True
+PASS dir_and_rand_patches_match_the_full_patch_size :: 1664 dir/rand rows: change size == full patch's (runner gate max rel err 2.7e-07; mean delta norm vs full max rel diff 4.7e-06); alpha recorded for 1456 dir rows, median of medians 2.07
+PASS all_row_patches_reach_c_and_action :: host baselines=16; all-row patches moving both C and action rows: 2496/2496
+PASS identities_and_direction_over_all_classes_equals_full :: full bitwise no-op; max |logit diff| dir_all_vs_full 7.2e-06, identity_drop_BULK 5.7e-06, identity_full 0.0e+00, identity_only_BULK 5.7e-06; dir over all classes alpha median 1.0
+PASS round_arms_rebuilt_from_g10_and_used_as_sources :: ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 1248, 'ROUND': 1248}, targets {'new': 2496}; third donors wired from the source arm: Tr
+PASS tampered_g10_counterfactuals_refused :: one variant round edited: refused at the blob pin
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission from a new out dir after a complete 2540-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: manifest with one patch row's key classes changed: refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 16, "tests": 16, "runner_blob": "f9d36a69e675610cf5fea51926959a2708be47f4", "manifest_blob": "cfa937d1b73427b9ccac1cd6493c8de38838af3e"}

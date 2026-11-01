@@ -1,0 +1,359 @@
+#!/usr/bin/env python3
+"""A461-MECH-M17 runner CPU self-test (zero GPU; every subprocess CUDA_VISIBLE_DEVICES="").
+Same gate/ledger/refusal tests as M16 (A461_mech_m16_selftest_v1.py), plus: the full path on the real 2292-row
+manifest (60 captures incl. the new host SA / OUTSIDER captures; 4 anchor arms on host new on 6 cells; full, meanD,
+cs0 and abc05 on the three benign targets SA, ROUND, OUTSIDER); wiring (each benign patch = the same cell's patch on
+the other benign targets but for the target; pools exclude the cell's donor and host; signs, positions, c_30 weight);
+benign captures rebuilt from the roster / G1.0 with the frozen token sha and span and host new's key classes;
+identities on benign targets: full with source = target (bitwise no-op), a donor-only pool == a donor-only contrast
+shift, cs1 rebuilt from the cs0 row == meanD (float rounding); the same arm on host new and on a benign target differ;
+a patch whose target arm is not in (new, SA, ROUND, OUTSIDER) is refused at the manifest check."""
+import argparse, collections, hashlib, importlib.util, json, os, statistics, subprocess, sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+RUNNER = HERE / "A461_mech_m17_runner_v1.py"
+STAGE = "A461_MECH_M17_FALSE_VETO_BENIGN_GPU"
+TOTAL, PLAN = 2292, [128] * 17 + [116]
+RESULTS = []
+# R2: children died with "libgomp: Thread creation failed" under the shared per-user thread limit
+THREADS = {"OMP_NUM_THREADS": "24", "MKL_NUM_THREADS": "24"}
+os.environ.update(THREADS)
+
+
+def rec(name, ok, ev):
+    RESULTS.append({"test": name, "verdict": "PASS" if ok else "FAIL", "evidence": ev})
+    print(("PASS " if ok else "FAIL ") + name + " :: " + ev[:200], flush=True)
+
+
+def guarded(name, fn):
+    try:
+        ok, ev = fn()
+    except Exception as err:
+        ok, ev = False, f"test raised {type(err).__name__}: {str(err)[:200]}"
+    rec(name, ok, ev)
+
+
+def receipt(d):
+    return json.loads((Path(d) / "execution_receipt.json").read_text("utf8"))
+
+
+def rows(d):
+    p = Path(d) / "raw_native_logits_m17.jsonl"
+    return [json.loads(x) for x in p.read_text("utf8").splitlines() if x.strip()] if p.exists() else []
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--repo-root", required=True, type=Path)
+    ap.add_argument("--manifest", required=True, type=Path)
+    ap.add_argument("--m1-raw", required=True, type=Path)
+    ap.add_argument("--g10-cf", required=True, type=Path)
+    ap.add_argument("--m3-raw", required=True, type=Path)
+    ap.add_argument("--m6-raw", required=True, type=Path)
+    ap.add_argument("--out", required=True, type=Path)
+    a = ap.parse_args()
+    out = a.out.expanduser().resolve()
+    out.mkdir(mode=0o700, parents=True, exist_ok=False)
+    (out / "_adm").mkdir()
+    quota = out / "_quota"
+    quota.mkdir()
+    spec = importlib.util.spec_from_file_location("m17", RUNNER)
+    rb = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(rb)
+    runner_blob = rb.file_blob(RUNNER)
+
+    def adm(name, **kw):
+        p = out / "_adm" / f"{name}.json"
+        p.write_text(json.dumps(kw) + "\n", encoding="utf8")
+        return p
+
+    def fake_adm(name, aid, approved=TOTAL, batches=len(PLAN)):
+        return adm(name, stage=STAGE, mode="L1_FAKE", admission_id=aid, approved_max_native_forwards=approved,
+                   approved_batches=batches)
+
+    def gpu_adm(name, **over):
+        base = dict(stage=STAGE, mode="GPU", admission_id="SELFTEST_SYNTH_M17_0001",
+                    selftest_synthetic_not_an_authorization=True,
+                    governance="JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+                    user_gpu_approval_quote="self-test synthetic quote (not a real approval)",
+                    user_gpu_approval_utc="1970-01-01T00:00:00Z", approved_runner_blob=runner_blob,
+                    explicit_user_gpu_approval=True, approved_max_native_forwards=TOTAL, approved_batches=len(PLAN),
+                    approved_batch_plan=PLAN,
+                    frozen_inputs={"manifest_blob": rb.BLOB_MANIFEST, "design_blob": rb.BLOB_DESIGN,
+                                   "m1_raw_blob": rb.BLOB_M1_RAW, "g10_counterfactuals_blob": rb.BLOB_G10_CF, "m3_raw_blob": rb.BLOB_M3_RAW, "m6_raw_blob": rb.BLOB_M6_RAW,
+                                   "roster_blob": rb.BLOB_ROSTER,
+                                   "g5v2_questions_blob": rb.BLOB_G5V2, "corpus_sha256": rb.CORPUS_SHA},
+                    model_identity_sha256=rb.v4.identity_digest(rb.v4.MODEL_IDENTITY))
+        base.update(over)
+        return adm(name, **base)
+
+    def run(name, admission, backend="fake", mode=None, extra=(), fault="none", manifest=None, g10=None):
+        cmd = [sys.executable, str(RUNNER), "--repo-root", str(a.repo_root), "--admission", str(admission),
+               "--manifest", str(manifest or a.manifest), "--m1-raw", str(a.m1_raw),
+               "--g10-cf", str(g10 or a.g10_cf), "--m3-raw", str(a.m3_raw), "--m6-raw", str(a.m6_raw),
+               "--backend", backend, "--out", str(out / name), *extra]
+        if mode:
+            cmd.append(mode)
+        if backend == "fake" and mode is None:
+            cmd += ["--quota-root", str(quota)]
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=10800,
+                           env=dict(os.environ, CUDA_VISIBLE_DEVICES="", FAKE_FAULT=fault, **THREADS))
+        # keep every child's exit code and output tail (R1 lost two children without a receipt)
+        (out / f"_child_{name}.log").write_text(
+            f"returncode={r.returncode}" + chr(10) + "--- stdout ---" + chr(10) + r.stdout[-4000:] + chr(10)
+            + "--- stderr ---" + chr(10) + r.stderr[-8000:] + chr(10), encoding="utf8")
+        return r
+
+    run("T1_preflight", fake_adm("pf", "SELFTEST_PF_0001"), mode="--preflight-only")
+    guarded("preflight_token_and_span_gates_on_real_manifest", lambda: (
+        receipt(out / "T1_preflight")["status"] == "COMPLETE_A461_MECH_M17_PREFLIGHT"
+        and receipt(out / "T1_preflight")["preflight"] == {"scenes": 22, "token_gate": "PASS", "span_gate": "PASS",
+                                                          "manifest_rows": TOTAL},
+        f"{receipt(out / 'T1_preflight')['preflight']}"))
+
+    run("T2_fullpath", fake_adm("full", "SELFTEST_FULL_0001"))
+    r2, x2 = receipt(out / "T2_fullpath"), rows(out / "T2_fullpath")
+    caps = [x for x in x2 if x.get("capture_file")]
+
+    def t_full():
+        brs = [(b["run"], b["planned"], b["physical"], b["status"]) for b in r2["batch_receipts"]]
+        cond = collections.Counter(x["condition"] for x in x2)
+        files = sorted((out / "T2_fullpath" / "captures").iterdir())
+        d = out / "T2_fullpath" / "captures"
+        ok_files = all(hashlib.sha256((d / c[k]["name"]).read_bytes()).hexdigest() == c[k]["sha256"]
+                       for c in caps for k in ("capture_file", "class_file"))
+        shapes = all(c["capture_file"]["shape"] == [4, c["capture"]["span"][1] - c["capture"]["span"][0], 64]
+                     for c in caps)
+        return (r2["status"] == "COMPLETE_A461_MECH_M17" and len(x2) == TOTAL
+                and [x["forward_index"] for x in x2] == list(range(1, TOTAL + 1))
+                and brs == [(k, 128, 128, "COMPLETE") for k in range(1, 18)] + [(18, 116, 116, "COMPLETE")]
+                and r2["physical_prehook_calls"] == TOTAL and r2["denied_prehook_calls"] == 0
+                and r2["durable_appends"]["raw_rows"] == TOTAL and len(caps) == 60 and len(files) == 120
+                and ok_files and shapes
+                and len([k for k in cond if k.startswith("patch_m17_anchor_")]) == 8
+                and len([k for k in cond if k.startswith("patch_m17_") and "@" in k]) == 21
+                and all(v == (6 if "anchor" in k else 104) for k, v in cond.items() if k.startswith("patch_m17_"))
+                # fake explicit-softmax attention is batched over rows: float32 rounding only (<= 1e-6)
+                and all(c["cross_row_max_absdiff"] <= 1e-6 for c in caps),
+                f"status={r2['status']} rows={len(x2)} batches={len(brs)} captures={len(caps)} files={len(files)} "
+                f"(sha ok={ok_files}, shapes ok={shapes}); cross-row max {max(c['cross_row_max_absdiff'] for c in caps):.1e}")
+    guarded("fake_full_path_2292_with_60_captures_and_class_files", t_full)
+    def t_readout():
+        import torch
+        d = out / "T2_fullpath" / "captures"
+        worst_file = 0.0
+        for c in caps:
+            x = torch.load(d / c["capture_file"]["name"], weights_only=True).float()[0]
+            k = torch.load(d / c["class_file"]["name"], weights_only=True)
+            ok = sorted(k["contrib"]) == sorted(["PARTNER", "ROUND_PEERS", "OTHER_ITEMS", "SELF", "CONTEXT"])
+            if not ok or list(k["partner_values"].shape)[1] != 33 or list(k["partner_attention"].shape)[2] != 33:
+                return False, f"class file layout at {c['capture']['tag']}"
+            worst_file = max(worst_file, float((sum(t.float() for t in k["contrib"].values()) - x).abs().max()))
+        recon = max(c["attn_readout_recon_maxabs"] for c in caps)
+        add = max(c["class_additivity_maxabs"] for c in caps)
+        return (recon < 1e-5 and add < 1e-5 and worst_file < 1e-2,
+                f"5 class contributions sum to the forward's o_proj input (max abs {add:.2e}; saved fp16 files "
+                f"{worst_file:.1e}); attention readout reconstructs it ({recon:.2e})")
+    guarded("class_contributions_partition_and_sum_to_oproj_input", t_readout)
+    BULK = ["OTHER_ITEMS", "CONTEXT"]
+    AB = list(range(0, 13))
+    TARGETS = ("SA", "ROUND", "OUTSIDER")
+    ANCH = {"full": ("full", []), "meanD_host": ("pool", BULK), "cs0": ("cshift", BULK), "abc_s05": ("cshift", BULK)}
+    BEN = {"full": ("full", []), "meanD": ("pool", BULK), "cs0": ("cshift", BULK), "abc05": ("cshift", BULK)}
+    S_OF = {"cs0": 0.0, "abc05": 0.5, "abc_s05": 0.5}
+    man = [json.loads(x) for x in a.manifest.read_text("utf8").splitlines() if x.strip()]
+
+    def dev(x, y):
+        return max(abs(u - v) for q, qb in zip(x["questions"], y["questions"]) for u, v in zip(q["logits"], qb["logits"]))
+
+    def t_wiring():
+        pm = [m for m in man if m["phase"] == "patch"]
+        tg = collections.Counter(m["target_arm"] for m in pm)
+        cnt = collections.Counter(m["patch"]["arm"] for m in pm)
+        want = dict({n: 12 for n in ANCH}, **{f"{b}@{T}": (104 if b == "cs0" else 208) for b in BEN for T in TARGETS})
+        ops_ok = all((m["patch"]["op"], m["patch"]["classes"]) == (ANCH[m["patch"]["arm"]] if "@" not in m["patch"]["arm"]
+                     else BEN[m["patch"]["arm"].split("@")[0]]) for m in pm)
+        tgt_ok = all(m["patch"]["target"] == f"{m['target_arm']}:{m['target_scene'][:12]}" and m["target_scene"] == m["host"]
+                     for m in pm)
+        by = collections.defaultdict(dict)
+        for m in pm:
+            if "@" in m["patch"]["arm"]:
+                b, T = m["patch"]["arm"].split("@")
+                by[(b, m["donor"], m["host"], m["source_kind"])][T] = {k: v for k, v in m["patch"].items()
+                                                                      if k not in ("arm", "target")}
+        same = sum(len(v) == 3 and v["SA"] == v["ROUND"] == v["OUTSIDER"] for v in by.values())
+
+        def pool_ok(m):
+            p, dd, hh = m["patch"], m["donor"][:12], m["host"][:12]
+            if p["op"] == "full":
+                return p["source"].split(":")[1] == dd
+            tags = p["pool"] if p["op"] == "pool" else p["pool_new"] + p["pool_round"]
+            ids = [t[-12:] for t in tags]
+            if dd in ids or hh in ids or len(set(ids)) != (12 if p["op"] == "pool" else 12):
+                return False
+            if p["op"] == "pool":
+                return {t.split(":")[0] for t in tags} == {p["source"].split(":")[0]}
+            b = p["arm"].split("@")[0]
+            s_ = S_OF[b]
+            sc = 0.0 if s_ == 0 else (-s_ / 2 if m["source_kind"] == "main" else s_ / 2)
+            ab = b in ("abc05", "abc_s05")
+            return (p["base"] == "target" and p["scale"] == sc and p.get("t") is None
+                    and p.get("shift_positions") == (AB + [29, 30] if ab else None)
+                    and p.get("contrast_pos_weight") == ([[30, 0.0]] if ab else None)
+                    and [t[-12:] for t in p["pool_new"]] == [t[-12:] for t in p["pool_round"]])
+        po = all(pool_ok(m) for m in pm)
+        cs0_main = all(m["source_kind"] == "main" for m in pm if m["patch"]["arm"].startswith("cs0@"))
+        return (cnt == want and tg == {"new": 48, "SA": 728, "ROUND": 728, "OUTSIDER": 728} and ops_ok and tgt_ok
+                and same == len(by) == 104 * 7 and po and cs0_main,
+                f"rows per arm as frozen; targets {dict(tg)}; op/classes: {ops_ok}; target = host's variant: {tgt_ok}; "
+                f"benign patch identical across SA / ROUND / OUTSIDER but for the target in {same}/{len(by)}; pools, "
+                f"signs, s, AB positions, c_30 weight: {po}; cs0 main only: {cs0_main}")
+    guarded("benign_target_wiring", t_wiring)
+
+    def t_move():
+        base = {(x["target_scene"], x["target_arm"]): x["questions"] for x in x2 if x.get("capture")}
+        pr = [x for x in x2 if x.get("patch") and x["target_arm"] in TARGETS]
+        moved = sum(x["questions"] != base[(x["target_scene"], x["target_arm"])] for x in pr)
+        return (len(pr) == 2184 and moved >= 2184 - 312,
+                f"benign patches moving the benign target's readouts: {moved}/{len(pr)} (fake model)")
+    guarded("benign_patches_reach_the_benign_target", t_move)
+
+    caps_rows = [m for m in man if m["phase"] == "capture"]
+    pick = lambda arm_, sk_, h_=None: next(m for m in man if m["phase"] == "patch" and m["patch"]["arm"] == arm_
+                                           and m["source_kind"] == sk_ and (h_ is None or m["host"] == h_))
+    md = dict(pick("meanD@OUTSIDER", "main"))
+    h_ = md["host"]
+    sa_cap = next(m for m in caps_rows if m["target_scene"] == h_ and m["target_arm"] == "SA")
+    fs = dict(pick("full@SA", "main", h_))
+    idf = dict(fs, condition="identity_full_SA", patch=dict(fs["patch"], source=sa_cap["capture"]["tag"]))
+    c0 = next(m for m in man if m["phase"] == "patch" and m["patch"]["arm"] == "cs0@OUTSIDER"
+              and m["donor"] == md["donor"] and m["host"] == h_)
+    cs1m = dict(c0, condition="cs1_main_OUTSIDER", patch=dict(c0["patch"], arm="cs1", scale=-0.5))
+    pool_d = dict(md, condition="pool_donor_only", patch=dict(md["patch"], arm="pool_d", pool=[md["patch"]["source"]]))
+    cs_d = dict(c0, condition="cshift_donor_only",
+                patch=dict(c0["patch"], pool_new=[md["patch"]["source"]], pool_round=[md["patch"]["source"]], scale=2.0))
+    an = next(m for m in man if m["phase"] == "patch" and m["patch"]["arm"] == "meanD_host" and m["source_kind"] == "main")
+    on_sa = next(m for m in man if m["phase"] == "patch" and m["patch"]["arm"] == "meanD@SA" and m["source_kind"] == "main"
+                 and m["donor"] == an["donor"] and m["host"] == an["host"])
+    mini = [dict(m, forward_index=i + 1, run=1) for i, m in enumerate(
+        caps_rows + [idf, cs1m, dict(md, condition="meanD_main_OUTSIDER"), pool_d, cs_d,
+                     dict(an, condition="meanD_new", bitwise_vs_m6=None), dict(on_sa, condition="meanD_SA")])]
+    mini_p = out / "_identity_manifest.jsonl"
+    mini_p.write_text("".join(json.dumps(m, sort_keys=True, separators=(",", ":")) + "\n" for m in mini), encoding="utf8")
+    run("T6_identity", fake_adm("ident", "SELFTEST_IDENT_0001", approved=len(mini), batches=1), manifest=mini_p,
+        extra=("--expect-batches", str(len(mini)), "--allow-manifest-blob", rb.file_blob(mini_p)))
+
+    def t_identity():
+        x6 = rows(out / "T6_identity")
+        base = next(x for x in x6 if x.get("capture") and x["target_scene"] == h_ and x["target_arm"] == "SA")
+        pr = {x["condition"]: x for x in x6 if x.get("patch")}
+        d_ = {"cs1_vs_meanD_OUTSIDER": dev(pr["cs1_main_OUTSIDER"], pr["meanD_main_OUTSIDER"]),
+              "cshift_donor_only_vs_pool_donor": dev(pr["cshift_donor_only"], pr["pool_donor_only"])}
+        return (receipt(out / "T6_identity")["status"] == "COMPLETE_A461_MECH_M17" and len(pr) == 7
+                and pr["identity_full_SA"]["questions"] == base["questions"]
+                and pr["meanD_new"]["questions"] != pr["meanD_SA"]["questions"]
+                and max(d_.values()) <= 1e-4,
+                "full with source = target on host SA == its capture, bitwise; meanD on host new != on host SA (same "
+                "cell and source); max |logit diff| " + ", ".join(f"{k} {v:.1e}" for k, v in sorted(d_.items())))
+    guarded("identities_on_benign_targets", t_identity)
+    ok_alt = dict(md, condition="bad_target_okalt", target_arm="OKALT",
+                  patch=dict(md["patch"], target="OKALT:" + h_[:12]))
+    bad_p = out / "_bad_target_manifest.jsonl"
+    bad_p.write_text("".join(json.dumps(dict(m, forward_index=i + 1, run=1), sort_keys=True, separators=(",", ":")) + "\n"
+                             for i, m in enumerate(caps_rows + [ok_alt])), encoding="utf8")
+    run("T7_bad_target", fake_adm("badt", "SELFTEST_BADT_0001", approved=len(caps_rows) + 1, batches=1),
+        mode="--preflight-only", manifest=bad_p,
+        extra=("--expect-batches", str(len(caps_rows) + 1), "--allow-manifest-blob", rb.file_blob(bad_p)))
+    guarded("patch_target_outside_benign_set_refused", lambda: (
+        receipt(out / "T7_bad_target")["status"] == "FAIL_A461_MECH_M17"
+        and "patch target" in receipt(out / "T7_bad_target")["error_message"]
+        and receipt(out / "T7_bad_target")["model_loads"] == 0,
+        f"OKALT target refused at the manifest check: {receipt(out / 'T7_bad_target')['error_message'][:80]}"))
+
+    def t_variants():
+        cf = json.loads(a.g10_cf.read_text("utf8"))
+        cap = {(x["target_scene"], x["target_arm"]): x for x in caps}
+        hosts = {m["target_scene"] for m in caps_rows if m["source_kind"] == "host"}
+        newc = {h: cap[(h, "new")]["capture"] for h in hosts}
+        good = 0
+        for h in hosts:
+            for T in TARGETS:
+                c = cap[(h, T)]
+                want = cf[h][T]["token_ids_sha256"] if T != "SA" else None
+                good += ((want is None or c["token_ids_sha256"] == want)
+                         and c["capture"]["span"] == newc[h]["span"] and c["capture"]["classes"] == newc[h]["classes"]
+                         and c["token_ids_sha256"] != cap[(h, "new")]["token_ids_sha256"])
+        return (good == 24 and len(hosts) == 8,
+                f"benign captures (8 hosts x SA / ROUND / OUTSIDER): G1.0 token sha where defined, host new's span "
+                f"and key classes, tokens distinct from host new: {good}/24 (SA token sha is gated by the runner)")
+    guarded("benign_captures_rebuilt_with_host_new_classes", t_variants)
+
+    bad_cf = out / "_tampered_g10.json"
+    bad_cf.write_text(a.g10_cf.read_text("utf8").replace('"round": 1', '"round": 9', 1), encoding="utf8")
+    run("T5_tampered_g10", fake_adm("pf2", "SELFTEST_PF_0002"), mode="--preflight-only", g10=bad_cf)
+    guarded("tampered_g10_counterfactuals_refused", lambda: (
+        receipt(out / "T5_tampered_g10")["status"] == "FAIL_A461_MECH_M17"
+        and "G1.0 counterfactuals blob pin" in receipt(out / "T5_tampered_g10")["error_message"],
+        "one variant round edited: refused at the blob pin"))
+
+    run("T3_extra_lm_call", fake_adm("dbl", "SELFTEST_DBL_0001"), fault="doublefire@50")
+    guarded("extra_lm_call_refused_at_prehook", lambda: (
+        receipt(out / "T3_extra_lm_call")["status"] == "FAIL_A461_MECH_M17"
+        and "LM pre-hook refused" in receipt(out / "T3_extra_lm_call")["error_message"]
+        and receipt(out / "T3_extra_lm_call")["denied_prehook_calls"] == 1
+        and receipt(out / "T3_extra_lm_call")["physical_prehook_calls"] == 50
+        and len(rows(out / "T3_extra_lm_call")) == 49,
+        "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49"))
+
+    run("T4_reuse", fake_adm("full", "SELFTEST_FULL_0001"))
+    guarded("same_approval_reuse_refused_by_ledger", lambda: (
+        receipt(out / "T4_reuse")["status"] == "FAIL_A461_MECH_M17"
+        and f"ledger consumed {TOTAL}" in receipt(out / "T4_reuse")["error_message"]
+        and receipt(out / "T4_reuse")["model_loads"] == 0,
+        f"same admission from a new out dir after a complete {TOTAL}-call run: refused, 0 loads"))
+
+    run("P1_gpu_pre_model", gpu_adm("gpu_ok"), backend="gpu", mode="--pre-model-gate-only")
+    guarded("gpu_policy_v2_admission_reaches_pre_model_gate", lambda: (
+        receipt(out / "P1_gpu_pre_model")["status"] == "COMPLETE_A461_MECH_M17_PRE_MODEL_GATE"
+        and receipt(out / "P1_gpu_pre_model")["model_identity_verified"] is True
+        and receipt(out / "P1_gpu_pre_model")["model_loads"] == 0
+        and receipt(out / "P1_gpu_pre_model")["cuda_initialized"] is False
+        and not rb.GPU_QUOTA_ROOT.exists(),
+        "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched"))
+    tampered = out / "_tampered_manifest.jsonl"
+    lines = a.manifest.read_text("utf8").splitlines()
+    t0 = json.loads(lines[300])
+    t0["patch"]["classes"] = ["SELF"] if t0["patch"]["classes"] != ["SELF"] else ["CONTEXT"]
+    lines[300] = json.dumps(t0, sort_keys=True, separators=(",", ":"))
+    tampered.write_text("\n".join(lines) + "\n", encoding="utf8")
+    run("P2_gpu_tampered_manifest", gpu_adm("gpu_ok2"), backend="gpu", mode="--pre-model-gate-only", manifest=tampered)
+    guarded("gpu_tampered_manifest_refused", lambda: (
+        "manifest blob override refused" in receipt(out / "P2_gpu_tampered_manifest")["error_message"],
+        "manifest with one patch row's classes changed: refused before load"))
+    run("P3_gpu_plan_override", gpu_adm("gpu_ok3"), backend="gpu", mode="--pre-model-gate-only",
+        extra=("--expect-batches", ",".join(["128"] * 17 + ["115", "1"])))
+    guarded("gpu_plan_override_refused", lambda: (
+        receipt(out / "P3_gpu_plan_override")["status"] == "FAIL_A461_MECH_M17"
+        and receipt(out / "P3_gpu_plan_override")["model_loads"] == 0,
+        f"refused: {receipt(out / 'P3_gpu_plan_override')['error_message'][:80]}"))
+    rr = run("P4_full_gpu_outside_runs_root", gpu_adm("gpu_ok4"), backend="gpu")
+    guarded("full_gpu_run_outside_runs_root_refused", lambda: (
+        rr.returncode != 0 and not (out / "P4_full_gpu_outside_runs_root").exists()
+        and "M17_GPU_RUNS" in rr.stderr, "refused before mkdir"))
+    guarded("no_gpu_in_selftest", lambda: (
+        all(receipt(d)["gpu_model_loads"] == 0 and receipt(d)["cuda_initialized"] is False
+            for d in out.iterdir() if (d / "execution_receipt.json").exists())
+        and not rb.GPU_RUNS_ROOT.exists(), "all receipts: gpu_model_loads=0, CUDA never initialized"))
+
+    ok = all(r["verdict"] == "PASS" for r in RESULTS)
+    res = {"schema": "JEV_A461_MECH_M17_SELFTEST_V1", "status": "PASS" if ok else "FAIL",
+           "passed": sum(r["verdict"] == "PASS" for r in RESULTS), "tests": len(RESULTS), "runner_blob": runner_blob,
+           "manifest_blob": rb.file_blob(a.manifest), "results": RESULTS, "gpu_calls": 0}
+    (out / "selftest_receipt.json").write_text(json.dumps(res, indent=2, sort_keys=True) + "\n", encoding="utf8")
+    print(json.dumps({k: res[k] for k in ("status", "passed", "tests", "runner_blob", "manifest_blob")}))
+    return 0 if ok else 2
+
+
+if __name__ == "__main__":
+    sys.exit(main())

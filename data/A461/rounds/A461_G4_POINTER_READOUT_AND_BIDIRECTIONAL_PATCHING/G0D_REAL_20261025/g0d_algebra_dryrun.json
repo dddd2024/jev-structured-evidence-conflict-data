@@ -1,0 +1,59 @@
+{
+  "identity": "Delta_M = (dq.d_old + q_old.dd + dq.dd)/s verified exactly",
+  "note": "synthetic inputs only; no model weights, no forwards",
+  "pointer_dim": 256,
+  "scale_s": 16.0,
+  "schema": "JEV_A461_G4_G0D_ALGEBRA_DRYRUN_V1",
+  "temperature": 1.0,
+  "tolerance": 1e-06,
+  "trials": 64,
+  "trials_sample": [
+    {
+      "M_new": -0.4903518206825215,
+      "M_old": 0.2899569444026294,
+      "delta": -0.7803087650851509,
+      "rel_decomposition_residual": 1.422799633045265e-16,
+      "rel_forward_order_C": 0.0,
+      "rel_implAB_new": 1.1320678111073754e-16,
+      "rel_implAB_old": 1.9144618641785644e-16,
+      "terms": [
+        -0.2532751183190844,
+        -0.40049763597708243,
+        -0.1265360107889839
+      ],
+      "trial": 0
+    },
+    {
+      "M_new": 0.07904458121690958,
+      "M_old": -0.4204444578201482,
+      "delta": 0.49948903903705777,
+      "rel_decomposition_residual": 5.55679373247862e-16,
+      "rel_forward_order_C": 1.053414738429583e-15,
+      "rel_implAB_new": 5.267073692147915e-16,
+      "rel_implAB_old": 5.281187581262265e-16,
+      "terms": [
+        0.3627567661842633,
+        0.21751609441542052,
+        -0.08078382156262631
+      ],
+      "trial": 1
+    },
+    {
+      "M_new": -0.04580065352540011,
+      "M_old": 0.6336339479212887,
+      "delta": -0.6794346014466888,
+      "rel_decomposition_residual": 0.0,
+      "rel_forward_order_C": 6.060082876379971e-16,
+      "rel_implAB_new": 1.6665227910044919e-15,
+      "rel_implAB_old": 1.7521520560370462e-16,
+      "terms": [
+        -0.8094191199545528,
+        0.23811513551005947,
+        -0.10813061700219545
+      ],
+      "trial": 2
+    }
+  ],
+  "verdict": "PASS_ALL_IMPLEMENTATIONS_AGREE",
+  "worst_relative_error": 6.411382307896306e-14
+}

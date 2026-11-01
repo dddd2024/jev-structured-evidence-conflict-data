@@ -1,0 +1,473 @@
+{
+  "H_CLS": false,
+  "H_REL": true,
+  "cross_group": {
+    "J_doserand_r": 1,
+    "J_main": 53,
+    "J_okalt": 66,
+    "J_round": 1,
+    "J_round_not_dose": 1,
+    "cells": 104,
+    "frac_dM_main_gt_round": 1.0,
+    "frac_dM_okalt_gt_round": 1.0,
+    "frac_dM_round_gt_dose": 0.0769,
+    "groups_majority_main_gt_round": 14,
+    "median_dM": {
+      "doserand_r": -0.1047,
+      "main": 0.3772,
+      "okalt": 0.6352,
+      "round": -1.134
+    }
+  },
+  "donor_self_readouts": {
+    "0153673a107a": {
+      "OKALT": {
+        "A": 0.1584,
+        "JOINT": true,
+        "M": 0.2099
+      },
+      "ROUND": {
+        "A": -0.495,
+        "JOINT": false,
+        "M": -1.8586
+      },
+      "group": "twins_streamlet:run-283",
+      "new": {
+        "A": 0.3571,
+        "JOINT": true,
+        "M": 0.1441
+      }
+    },
+    "1218efed19de": {
+      "OKALT": {
+        "A": 1.3421,
+        "JOINT": true,
+        "M": 0.9978
+      },
+      "ROUND": {
+        "A": 0.6292,
+        "JOINT": false,
+        "M": -0.4262
+      },
+      "group": "twins_streamlet:run-337",
+      "new": {
+        "A": 1.5608,
+        "JOINT": true,
+        "M": 1.383
+      }
+    },
+    "1b3e7af68bb3": {
+      "OKALT": {
+        "A": 0.0687,
+        "JOINT": true,
+        "M": 0.3715
+      },
+      "ROUND": {
+        "A": -0.7767,
+        "JOINT": false,
+        "M": -1.1977
+      },
+      "group": "twins_streamlet:run-301",
+      "new": {
+        "A": -0.1961,
+        "JOINT": false,
+        "M": 0.2837
+      }
+    },
+    "1f8c0826ae47": {
+      "OKALT": {
+        "A": -0.0533,
+        "JOINT": false,
+        "M": 0.2135
+      },
+      "ROUND": {
+        "A": -0.7726,
+        "JOINT": false,
+        "M": -1.3783
+      },
+      "group": "twins_streamlet:run-272",
+      "new": {
+        "A": -0.2552,
+        "JOINT": false,
+        "M": 0.1109
+      }
+    },
+    "2f67e76cdc83": {
+      "OKALT": {
+        "A": 0.2322,
+        "JOINT": true,
+        "M": 0.3796
+      },
+      "ROUND": {
+        "A": -0.7625,
+        "JOINT": false,
+        "M": -1.5823
+      },
+      "group": "twins_streamlet:run-220",
+      "new": {
+        "A": -0.1329,
+        "JOINT": false,
+        "M": 0.0543
+      }
+    },
+    "35253a262059": {
+      "OKALT": {
+        "A": 1.227,
+        "JOINT": true,
+        "M": 1.1519
+      },
+      "ROUND": {
+        "A": -0.6232,
+        "JOINT": false,
+        "M": -0.54
+      },
+      "group": "twins_streamlet:run-338",
+      "new": {
+        "A": 0.5102,
+        "JOINT": true,
+        "M": 0.8892
+      }
+    },
+    "3cddd369d7a0": {
+      "OKALT": {
+        "A": 1.2366,
+        "JOINT": true,
+        "M": 1.144
+      },
+      "ROUND": {
+        "A": 0.7965,
+        "JOINT": false,
+        "M": -0.1215
+      },
+      "group": "twins_streamlet:run-121",
+      "new": {
+        "A": 1.6809,
+        "JOINT": true,
+        "M": 1.4819
+      }
+    },
+    "4569d20d3e4c": {
+      "OKALT": {
+        "A": 1.091,
+        "JOINT": true,
+        "M": 1.2114
+      },
+      "ROUND": {
+        "A": -0.5541,
+        "JOINT": false,
+        "M": -0.622
+      },
+      "group": "twins_streamlet:run-181",
+      "new": {
+        "A": 0.5355,
+        "JOINT": true,
+        "M": 0.7906
+      }
+    },
+    "45ef86e09e74": {
+      "OKALT": {
+        "A": 0.5511,
+        "JOINT": true,
+        "M": 0.6112
+      },
+      "ROUND": {
+        "A": -0.7162,
+        "JOINT": false,
+        "M": -1.4148
+      },
+      "group": "twins_streamlet:run-68",
+      "new": {
+        "A": 0.4745,
+        "JOINT": true,
+        "M": 0.5236
+      }
+    },
+    "70ede3f8992d": {
+      "OKALT": {
+        "A": -0.3063,
+        "JOINT": false,
+        "M": 0.3459
+      },
+      "ROUND": {
+        "A": -1.3012,
+        "JOINT": false,
+        "M": -1.7339
+      },
+      "group": "twins_streamlet:run-140",
+      "new": {
+        "A": -0.2717,
+        "JOINT": false,
+        "M": 0.1018
+      }
+    },
+    "7167a21b6694": {
+      "OKALT": {
+        "A": 0.8027,
+        "JOINT": true,
+        "M": 0.5486
+      },
+      "ROUND": {
+        "A": -0.4351,
+        "JOINT": false,
+        "M": -1.9338
+      },
+      "group": "twins_streamlet:run-212",
+      "new": {
+        "A": 0.2542,
+        "JOINT": true,
+        "M": 0.2743
+      }
+    },
+    "77ebbee1fb2d": {
+      "OKALT": {
+        "A": 0.2925,
+        "JOINT": false,
+        "M": -0.1738
+      },
+      "ROUND": {
+        "A": -0.4708,
+        "JOINT": false,
+        "M": -1.4712
+      },
+      "group": "twins_streamlet:run-154",
+      "new": {
+        "A": 0.1446,
+        "JOINT": true,
+        "M": 0.1579
+      }
+    },
+    "b7d11ed06ba2": {
+      "OKALT": {
+        "A": 0.5045,
+        "JOINT": true,
+        "M": 0.4707
+      },
+      "ROUND": {
+        "A": -0.1797,
+        "JOINT": false,
+        "M": -1.1687
+      },
+      "group": "twins_streamlet:run-344",
+      "new": {
+        "A": 0.2607,
+        "JOINT": true,
+        "M": 0.145
+      }
+    },
+    "c98f0db48cf6": {
+      "OKALT": {
+        "A": -0.3015,
+        "JOINT": false,
+        "M": 0.0957
+      },
+      "ROUND": {
+        "A": -0.3445,
+        "JOINT": false,
+        "M": -0.4931
+      },
+      "group": "twins_streamlet:run-169",
+      "new": {
+        "A": 0.0803,
+        "JOINT": true,
+        "M": 0.428
+      }
+    }
+  },
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "J_main": 47,
+      "J_okalt": 60,
+      "J_round": 0,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-140": {
+      "J_main": 49,
+      "J_okalt": 61,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-154": {
+      "J_main": 50,
+      "J_okalt": 64,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-169": {
+      "J_main": 49,
+      "J_okalt": 63,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-181": {
+      "J_main": 47,
+      "J_okalt": 59,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-212": {
+      "J_main": 52,
+      "J_okalt": 61,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-220": {
+      "J_main": 52,
+      "J_okalt": 62,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-272": {
+      "J_main": 51,
+      "J_okalt": 62,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-283": {
+      "J_main": 50,
+      "J_okalt": 63,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-301": {
+      "J_main": 51,
+      "J_okalt": 61,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-337": {
+      "J_main": 46,
+      "J_okalt": 60,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-338": {
+      "J_main": 47,
+      "J_okalt": 60,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-344": {
+      "J_main": 49,
+      "J_okalt": 61,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    },
+    "twins_streamlet:run-68": {
+      "J_main": 49,
+      "J_okalt": 61,
+      "J_round": 1,
+      "frac_dM_main_gt_round": 1.0
+    }
+  },
+  "per_host": {
+    "1c7158b6b838": {
+      "J_doserand_r": 0,
+      "J_main": 1,
+      "J_okalt": 1,
+      "J_round": 0,
+      "cells": 13
+    },
+    "1fb5651c643e": {
+      "J_doserand_r": 1,
+      "J_main": 5,
+      "J_okalt": 10,
+      "J_round": 0,
+      "cells": 13
+    },
+    "264c458dbed5": {
+      "J_doserand_r": 0,
+      "J_main": 8,
+      "J_okalt": 11,
+      "J_round": 0,
+      "cells": 13
+    },
+    "2a4f596d9dd7": {
+      "J_doserand_r": 0,
+      "J_main": 0,
+      "J_okalt": 0,
+      "J_round": 0,
+      "cells": 13
+    },
+    "2c9118bbcc3b": {
+      "J_doserand_r": 0,
+      "J_main": 5,
+      "J_okalt": 7,
+      "J_round": 0,
+      "cells": 13
+    },
+    "4bcbaf15f7ab": {
+      "J_doserand_r": 0,
+      "J_main": 9,
+      "J_okalt": 12,
+      "J_round": 0,
+      "cells": 13
+    },
+    "756424185463": {
+      "J_doserand_r": 0,
+      "J_main": 13,
+      "J_okalt": 12,
+      "J_round": 1,
+      "cells": 13
+    },
+    "8ae8575481a0": {
+      "J_doserand_r": 0,
+      "J_main": 12,
+      "J_okalt": 13,
+      "J_round": 0,
+      "cells": 13
+    }
+  },
+  "rules": {
+    "D_donor_recognition": "reported first, per donor: JOINT and M of the donor's own ROUND and OK_ALT forwards (does kev-4B read the round field in the donor context)",
+    "H_CLS": "#JOINT_round >= 1/2 * #JOINT_main AND dM_main > dM_round in < 60% of cells",
+    "H_REL": "(a) #JOINT_round <= 1/4 * #JOINT_main AND (b) dM_main > dM_round in >= 75% of cells and in a majority of cells for >= 10 of 14 donor groups",
+    "H_ROLE_ABSTRACT": "#JOINT_okalt >= 1/2 * #JOINT_main -> repair does not hinge on the specific author token; #JOINT_okalt <= 1/4 * #JOINT_main -> author-identity specific; else intermediate",
+    "P0_positive_control": "all 112 main patches and the 22 donor-new/host-new captures replay the K-C raw rows bitwise (runner fails closed otherwise)",
+    "always_reported": "round vs doserand_r (specific residual of the ROUND span), leave-one-donor-group-out, per host, stratification by donor ROUND self-recognition, all null and negative outcomes",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run host capture)",
+    "units": "only the 104 cross-group cells (donor group != host group) enter counts; source groups are the unit; cells share donors and hosts, counts are descriptive decision rules, not independent tests",
+    "verdict_round": "REL_SUPPORTED if H_REL; CLS_SUPPORTED if H_CLS; else GRADED_INTERMEDIATE"
+  },
+  "same_group_cells": {
+    "J_doserand_r": 0,
+    "J_main": 3,
+    "J_okalt": 4,
+    "J_round": 0,
+    "J_round_not_dose": 0,
+    "cells": 8,
+    "frac_dM_main_gt_round": 1.0,
+    "frac_dM_okalt_gt_round": 1.0,
+    "frac_dM_round_gt_dose": 0.0,
+    "groups_majority_main_gt_round": 8,
+    "median_dM": {
+      "doserand_r": -0.129,
+      "main": 0.3074,
+      "okalt": 0.5744,
+      "round": -1.3809
+    }
+  },
+  "schema": "JEV_A461_MECH_M1_ANALYSIS_V1",
+  "stratified_by_donor_ROUND_self_recognition": {
+    "donor_ROUND_flags_conflict": null,
+    "donor_ROUND_no_conflict": {
+      "J_doserand_r": 1,
+      "J_main": 53,
+      "J_okalt": 66,
+      "J_round": 1,
+      "J_round_not_dose": 1,
+      "cells": 104,
+      "frac_dM_main_gt_round": 1.0,
+      "frac_dM_okalt_gt_round": 1.0,
+      "frac_dM_round_gt_dose": 0.0769,
+      "groups_majority_main_gt_round": 14,
+      "median_dM": {
+        "doserand_r": -0.1047,
+        "main": 0.3772,
+        "okalt": 0.6352,
+        "round": -1.134
+      }
+    }
+  },
+  "verdict_role": "ROLE_ABSTRACT",
+  "verdict_round": "REL_SUPPORTED"
+}

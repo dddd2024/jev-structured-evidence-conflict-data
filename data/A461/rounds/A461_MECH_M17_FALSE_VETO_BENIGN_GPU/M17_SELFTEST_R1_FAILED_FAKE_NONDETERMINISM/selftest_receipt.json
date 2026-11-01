@@ -1,0 +1,91 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "8b3c015224e5725d7c8ac0b3849f657478d3649b",
+  "passed": 15,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 2292, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M17 rows=2292 batches=18 captures=60 files=120 (sha ok=True, shapes ok=True); cross-row max 3.4e-05",
+      "test": "fake_full_path_2292_with_60_captures_and_class_files",
+      "verdict": "FAIL"
+    },
+    {
+      "evidence": "5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)",
+      "test": "class_contributions_partition_and_sum_to_oproj_input",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "rows per arm as frozen; targets {'new': 48, 'SA': 728, 'ROUND': 728, 'OUTSIDER': 728}; op/classes: True; target = host's variant: True; benign patch identical across SA / ROUND / OUTSIDER but for the target in 728/728; pools, signs, s, AB positions, c_30 weight: True; cs0 main only: True",
+      "test": "benign_target_wiring",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "benign patches moving the benign target's readouts: 2184/2184 (fake model)",
+      "test": "benign_patches_reach_the_benign_target",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "full with source = target on host SA == its capture, bitwise; meanD on host new != on host SA (same cell and source); max |logit diff| cs1_vs_meanD_OUTSIDER 4.1e-06, cshift_donor_only_vs_pool_donor 0.0e+00",
+      "test": "identities_on_benign_targets",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "OKALT target refused at the manifest check: patch target 61",
+      "test": "patch_target_outside_benign_set_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "benign captures (8 hosts x SA / ROUND / OUTSIDER): G1.0 token sha where defined, host new's span and key classes, tokens distinct from host new: 24/24 (SA token sha is gated by the runner)",
+      "test": "benign_captures_rebuilt_with_host_new_classes",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one variant round edited: refused at the blob pin",
+      "test": "tampered_g10_counterfactuals_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 2292-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's classes changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "dee985df0a515d04c0f9d341912db433c320970a",
+  "schema": "JEV_A461_MECH_M17_SELFTEST_V1",
+  "status": "FAIL",
+  "tests": 16
+}

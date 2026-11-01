@@ -1,0 +1,23 @@
+{
+  "by_frozen_width": {
+    "31": 145,
+    "34": 26
+  },
+  "confirmatory_scenes": 171,
+  "exploratory_excluded": [
+    {
+      "frozen_width": 32,
+      "reason": "no cross-group partner at frozen W=32 in the current pool",
+      "scene_sha256": "980ea36bac02c82d2425a6cd87519d49bf1d4ba909354ffa13af0d2f47d7dc95",
+      "source_group": "twins_streamlet:run-231"
+    }
+  ],
+  "frozen_w_cross_group_directed_pairs": {
+    "W31": 19068,
+    "W34": 554,
+    "total": 19622
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_A_OPTION_A_PACKAGING_V1",
+  "v2_1_amendment_resolution": "Option A adopted: no per-W witness expansion; width_profiles.jsonl remains a feasibility record only",
+  "w_stratification_rule": "donor/host pairs match on the SAME frozen W; W recorded per pair and reported as a stratification variable in all analyses; qualification is W-specific (the screened input is the frozen witness input)"
+}

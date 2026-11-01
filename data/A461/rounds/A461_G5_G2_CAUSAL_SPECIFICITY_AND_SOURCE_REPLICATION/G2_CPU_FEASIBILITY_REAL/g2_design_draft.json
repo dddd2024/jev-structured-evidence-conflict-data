@@ -1,0 +1,70 @@
+{
+  "budget_formula_dynamic": {
+    "calibration": "G1 pilot was 28 = 4 + 5*2 + 5*2*2 - (norm-matched controls not present); G2 adds the donor-side third control",
+    "examples_not_approval": {
+      "H2_L2": 34,
+      "H4_L2": 64,
+      "H4_L3": 84,
+      "H6_L2": 94
+    },
+    "hard_cap_per_run": 128,
+    "per_config": "F(H, L) = 4 + 5H + 5HL  [3 donor captures + 1 donor NEW baseline + H x (host SA baseline + host SA capture + host NEW capture + identity) + (2 restoration controls + 3 suppression controls) x H x L]",
+    "rule": "actual count derived by the runner trace from the frozen roster; admission receipt before execution; independent review + fresh user authorization required"
+  },
+  "confirmatory_subset": "layer 11 only (G1-pilot-motivated), new source groups, donor-side matched negative controls preregistered, N sized in the feasibility inventory",
+  "exploratory_subset": "layer sweep beyond 11 (including 23 as structural null control) and any additional cells, reported without selection",
+  "feasibility": {
+    "constructible_by_cell": {
+      "accept": 163,
+      "wait": 26
+    },
+    "constructible_groups": 30,
+    "constructible_pairs": 189,
+    "donor_qualification_base_rate_observed": 0.0323,
+    "note": "model recognition (donor qualification) is NOT assessable without forwards; this audit only establishes construction feasibility",
+    "pairs_needed_for_expected_2_new_qualified_donors": 62,
+    "same_width_rate": 0.9524,
+    "schema": "JEV_A461_G5_G2_CONSTRUCTIBILITY_INVENTORY_V1",
+    "screened": 189,
+    "sizing_feasible": true,
+    "top_groups_by_inventory": {
+      "twins_streamlet:run-121": 8,
+      "twins_streamlet:run-140": 18,
+      "twins_streamlet:run-182": 6,
+      "twins_streamlet:run-212": 18,
+      "twins_streamlet:run-220": 18,
+      "twins_streamlet:run-24": 8,
+      "twins_streamlet:run-272": 18,
+      "twins_streamlet:run-283": 7,
+      "twins_streamlet:run-337": 7,
+      "twins_streamlet:run-68": 19
+    },
+    "unused_scenes": 713
+  },
+  "id": "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION",
+  "key_specific_attribution_gate": "a later, separate component-controlled protocol with an independently intervenable K/Q readout path is required before any 'Key-only mediation' claim; backbone layer-output span patches cannot deliver it",
+  "novelty_delta_locked": [
+    "Zhang&Nanda ICLR24: patching metric/corruption choice dependence -> G2 contributes paired same-site preregistered controls and a frozen metric (C margin on the dynamically resolved conflicting_vote row), not a new patching technique",
+    "MechSparse: patching scores may not beat cheap activation-norm selectors -> G2 must report per-pair span activation norm/magnitude quantification and include a norm-matched random control so the effect is not explained by magnitude heuristics",
+    "Encoded-but-Disconnected: encoded info may not causally affect output; patching nulls are meaningful -> G2 reports the restoration partial-margin case as the substantively interesting middle outcome",
+    "Cell-based relational binding: generic probe/patching not novel -> G2's delta is the security-typed decision readout with per-arm executable oracle gold, not generic relational binding",
+    "ACED-Bench: programmatic oracle + intervention ledgers exist -> G2's ledger is governance hygiene, not a novelty claim"
+  ],
+  "restoration_additions": "per-pair span norm / magnitude / activation-distribution quantification reported; norm-matched random control added on the restoration side as well",
+  "schema": "JEV_A461_G5_G2_DESIGN_DRAFT_V1",
+  "status": "CPU_FEASIBILITY_DONE_DESIGN_DRAFT_NOT_ADMITTED",
+  "stop_conditions": [
+    "no new independent source-group qualified positive donor after the sized search",
+    "dual-oracle disagreement on any constructed arm",
+    "token alignment / same-width pairing infeasible at admission",
+    "random / SA-sham controls explain the flips as well as the treatment",
+    "Key-specific effect does not exceed the cheap norm-matched baseline"
+  ],
+  "suppression_negative_controls_mandatory": [
+    "host_new -> donor_new (as in the pilot)",
+    "host_SA -> donor_new (matched neutral source)",
+    "host_new span position-permuted -> donor_new",
+    "norm-matched random activation -> donor_new (per-pair per-layer same-site pairing, seed frozen at admission)"
+  ],
+  "units_and_independence": "unit = (scene pair, source run group); donor and hosts from distinct run groups; scenes never used in G1/G3/G5V2/A428 (SHA64 ledger); same-layer repeats of run83/run114/run182 are NOT replications and stay out of confirmatory sets"
+}

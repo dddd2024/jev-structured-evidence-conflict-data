@@ -1,0 +1,3369 @@
+{
+  "a428_shared_scene_identity": [],
+  "budget": 109,
+  "plan_rows": 105,
+  "replays": 4,
+  "status": "PASS_A461_G3_G1C_PRE_FORWARD_GATES",
+  "token_rows": [
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:b1cd03093b4318ae:old",
+      "role": "old_baseline",
+      "state_len": 374,
+      "token_ids_sha256": "3a64573ddcbd4203361b8861e319958d6e941fbb99eefccc72fae282a111b320"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:fee87791362f172f:old",
+      "role": "old_baseline",
+      "state_len": 340,
+      "token_ids_sha256": "4cebe39335d2434983dad1c51577710dc071c354002fbd69719c1c2cb7efb4a6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:c72afdabd7d37ea9:old",
+      "role": "old_baseline",
+      "state_len": 512,
+      "token_ids_sha256": "8b2a2d67571700965e5422e85c95f54b69f1b5c9b344266b190c9a84f8fb1093"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:2844afec594fb8fe:old",
+      "role": "old_baseline",
+      "state_len": 340,
+      "token_ids_sha256": "8836c6db4f8480106706fa7326cda368730efa15caa2b307b8b37d714e971505"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:d2e114cce4f3dc2c:old",
+      "role": "old_baseline",
+      "state_len": 483,
+      "token_ids_sha256": "565ef1d1080ef61f697ea6933f94bd497c040ff4642d3da9ee040fd16fb74c29"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:f962cad8c2bf5d64:old",
+      "role": "old_baseline",
+      "state_len": 709,
+      "token_ids_sha256": "871af624f13c4c99860311794ccfedec677ef8de45c99773395e1a1f087107e3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:fdac88a5d992f0a3:old",
+      "role": "old_baseline",
+      "state_len": 463,
+      "token_ids_sha256": "6a5eac30b1ca29d53ec77efbe07d44bce0a06905933bfb0f7fc92e0fda30efe3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:7e6651aa28f8905b:old",
+      "role": "old_baseline",
+      "state_len": 487,
+      "token_ids_sha256": "342098cc3e2d07152c9133b0f25741f177fa3f62537e3d41cafcaea0a2257c75"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:f6d93910fda5b861:old",
+      "role": "old_baseline",
+      "state_len": 289,
+      "token_ids_sha256": "af4bf1c6c05c09780c4c7fb50c2c08fc636a21ca06c7a5582797acacc0a18ced"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_WAIT_TO_REJECT:8569abcac4d9db01:old",
+      "role": "old_baseline",
+      "state_len": 310,
+      "token_ids_sha256": "c018553ded376d6a2bec20f9b504aeaee35289ab39c5bb4acf4443c43ac599f3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:1f44a51c2d56e453:old",
+      "role": "old_baseline",
+      "state_len": 472,
+      "token_ids_sha256": "752cc679f20baab73b0428e4dddc32e7c70495c87a17803cdfabaadb98418a0f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:e07def56c83846ab:old",
+      "role": "old_baseline",
+      "state_len": 962,
+      "token_ids_sha256": "79966595ffca9ed6dd4a6751c30ce2367f263819f047d4dd8c11d1f046c20d45"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:d74b45028314ec60:old",
+      "role": "old_baseline",
+      "state_len": 685,
+      "token_ids_sha256": "44bec972e3c211288b83f4cc40d4a7edd8bb01b4fe24cd0c4d2ad0e8c69c9f2b"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:733c199a6bb6e22b:old",
+      "role": "old_baseline",
+      "state_len": 677,
+      "token_ids_sha256": "ccb1327502063ed2fcf6791a1fc5d3c5709ae5ff3c5d1aef8055340f96c1b427"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:e2ccd95e3d406bfe:old",
+      "role": "old_baseline",
+      "state_len": 747,
+      "token_ids_sha256": "b0cf085929033222f9934ee018eceef70d73aa363f5d5481c78084f4c650464f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:5233f6229c28124e:old",
+      "role": "old_baseline",
+      "state_len": 372,
+      "token_ids_sha256": "e385f5604fed8bac3b6960646b69e37ce52353e9965f0fb9387cb054b5120c19"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:d749e7d944f417f8:old",
+      "role": "old_baseline",
+      "state_len": 401,
+      "token_ids_sha256": "23032fdc1ad363d2ce305ae955feaa5ab16b677e82413af421fe53c53e66ff03"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:0ec558cfdf6909f2:old",
+      "role": "old_baseline",
+      "state_len": 406,
+      "token_ids_sha256": "baa3d2115e407f153f61c4aea8c4e0145718960912048d5931717f5420062f14"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:300e117fdb2dd9cb:old",
+      "role": "old_baseline",
+      "state_len": 349,
+      "token_ids_sha256": "6776680785b6235da1f505d1ad328439d72fc5cf3423e80c02feb6fbaa8f5736"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T2_ACCEPT_TO_REJECT:82cbfc853cb5ac87:old",
+      "role": "old_baseline",
+      "state_len": 375,
+      "token_ids_sha256": "15c2bd625bd2f1ee3ab08f0c586a37909cf0d5073d340dfe644944cfeb1d686e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:b1db1532145aa2f9:old",
+      "role": "old_baseline",
+      "state_len": 1094,
+      "token_ids_sha256": "c98d6e16b0ee7f3912d08e7103c055bf602f685d2f7d5089df5b0c7d53707b68"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:8a72ddd0cacee194:old",
+      "role": "old_baseline",
+      "state_len": 830,
+      "token_ids_sha256": "d9d5168c8f75ae707555911ff6bf45dadfe6f1b71c2814dac513fd951f34560f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:e85fe021e1d645aa:old",
+      "role": "old_baseline",
+      "state_len": 1266,
+      "token_ids_sha256": "7694d49f293d08a6bd3099aad5a36c5914c9fcd4802bca9e94dc1f92a026ecdb"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:cf335142e5377a7b:old",
+      "role": "old_baseline",
+      "state_len": 773,
+      "token_ids_sha256": "1fc757c28eb05aba2d4388f66ace89275018685a007a4274b055ad693a8cddbd"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:68623827030f250d:old",
+      "role": "old_baseline",
+      "state_len": 501,
+      "token_ids_sha256": "6e38e7dd0f9fdf8ef7886082fd28958c5271ee63c527fcf3fe5f821b1baa60ed"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "T3_PREEXISTING_CONTRAST:f1c9741e08c066bc:old",
+      "role": "old_baseline",
+      "state_len": 548,
+      "token_ids_sha256": "161719e6e9c07f4c27df9ad061561be7c55423805df7ef810a7a2a3384209cb6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0001",
+      "role": "new",
+      "state_len": 408,
+      "token_ids_sha256": "e5bcf0289a40044d8cb175d16f62d9e81aff1002456267e514cb4c1b0babff2a"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0002",
+      "role": "N1B",
+      "state_len": 408,
+      "token_ids_sha256": "5be52919f09f8a9d6a00f5faac16bf4fee44fee027ed9a101402930784fda060"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0003",
+      "role": "N1",
+      "state_len": 408,
+      "token_ids_sha256": "5be52919f09f8a9d6a00f5faac16bf4fee44fee027ed9a101402930784fda060"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0004",
+      "role": "new",
+      "state_len": 373,
+      "token_ids_sha256": "fd7732db164192ca39e85a62d95f2de55251b50cf4f447acde7ece5767772848"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0005",
+      "role": "N1B",
+      "state_len": 373,
+      "token_ids_sha256": "843ccf3c71b1ef3f475dd41bd8203a13ae66686cc01731705a1ae5c1afdf030e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0006",
+      "role": "N1",
+      "state_len": 373,
+      "token_ids_sha256": "843ccf3c71b1ef3f475dd41bd8203a13ae66686cc01731705a1ae5c1afdf030e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0007",
+      "role": "new",
+      "state_len": 545,
+      "token_ids_sha256": "88ff40c6bb8c33170102fc20592e6c58132346e4ebdb9763227c7cb3fcf54cd4"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0008",
+      "role": "N1B",
+      "state_len": 545,
+      "token_ids_sha256": "6c71cc5897e017f025cc0e4da80960a679ba5ba3a0df32231409a042920f6ff6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0009",
+      "role": "N1",
+      "state_len": 545,
+      "token_ids_sha256": "6c71cc5897e017f025cc0e4da80960a679ba5ba3a0df32231409a042920f6ff6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0010",
+      "role": "new",
+      "state_len": 373,
+      "token_ids_sha256": "1fe6927dbb46922986ac1b94942b3532fc779ec946275d54c6e2e92de549b04c"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0011",
+      "role": "N1B",
+      "state_len": 373,
+      "token_ids_sha256": "22f0c89eabea64faed4bdaf7b9eb4c7f5f68789b5df93bebdfb4ba2c85e03ca6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0012",
+      "role": "new",
+      "state_len": 517,
+      "token_ids_sha256": "38321665712ef7bbe0a6b162b489e66c248c7bf5e8fb51d99699904978e46b9b"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0013",
+      "role": "N1B",
+      "state_len": 517,
+      "token_ids_sha256": "a45fded3824f11118ccd843dfc1c8569e1762bda2a4fb8911464832daa64f1f1"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0014",
+      "role": "new",
+      "state_len": 743,
+      "token_ids_sha256": "c0ab424cd2e6facf7acd2056727a9efdb3311b9a907c4b6ef25a960754b68cc7"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0015",
+      "role": "N1B",
+      "state_len": 743,
+      "token_ids_sha256": "aeb84877d8cebfb33453fdd7ea888bf5af6f015f5541507d1895c1820859e36f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0016",
+      "role": "new",
+      "state_len": 497,
+      "token_ids_sha256": "c125844e9f4602235110da55dd66255c64fd84f29305ec49cd38c59b78e85dbc"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0017",
+      "role": "N1B",
+      "state_len": 497,
+      "token_ids_sha256": "6a65133c05c02b1ab5d4de9fcbda5a088ffc9ddf33df5ceb1cab45ffd8a39f35"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0018",
+      "role": "new",
+      "state_len": 520,
+      "token_ids_sha256": "10dbb068bf876f229d73c41043c0353cd66dfbc0e8e4b5dd40767cb29299900f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0019",
+      "role": "N1B",
+      "state_len": 520,
+      "token_ids_sha256": "2a59f35afbc63e02b8f5dafac5827427f25546eb259e4d32fc9dc384f255edd8"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0020",
+      "role": "new",
+      "state_len": 322,
+      "token_ids_sha256": "66af034a6d445e936052e4c72bb3b339f8053b1846c31bd3c2936d6f0ae16450"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0021",
+      "role": "N1B",
+      "state_len": 322,
+      "token_ids_sha256": "6a319992532743378aa8c4b6c152d3621f5104d31889f4ef6c41147187627d49"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0022",
+      "role": "new",
+      "state_len": 344,
+      "token_ids_sha256": "4b56a408e672c060ef95d5b15a19d9389f210ded6917d788b481ece027b7e554"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0023",
+      "role": "N1B",
+      "state_len": 344,
+      "token_ids_sha256": "62ff6f03d6b88dbd9cab458f14f82f9acf74f0887bf526dfcf19cb9917c530a8"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0024",
+      "role": "new",
+      "state_len": 505,
+      "token_ids_sha256": "af3962b8fbc2a27792d952b9cbd342a07c696ec3ef0320e3633590cc3ac962ed"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0025",
+      "role": "N1B",
+      "state_len": 509,
+      "token_ids_sha256": "35d283cd3a56608a17c0a972aadadf04c8bcc06c5cff56f3fa58c5c43f808a06"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0026",
+      "role": "new",
+      "state_len": 996,
+      "token_ids_sha256": "7a31720d46e6504d7761cbe4526451d4f3e39b6ea70cf668c4a96a9099df8188"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0027",
+      "role": "N1B",
+      "state_len": 996,
+      "token_ids_sha256": "f697366d1efd4d3919e6c9aacc7612ae5bcf7dd6f63b4d040336f0b2c22dec03"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0028",
+      "role": "new",
+      "state_len": 718,
+      "token_ids_sha256": "c159e6d2bf8b0d511717b7cdf90c85706ddeb21009e2019b084cab1b8a95c1c5"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0029",
+      "role": "N1B",
+      "state_len": 722,
+      "token_ids_sha256": "96a2162b961d1899bdbe5ef53db756ab976c35a26a896236e0c93321488aa10e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0030",
+      "role": "new",
+      "state_len": 710,
+      "token_ids_sha256": "2c8a2fc29550cde3732e7309ec3d6dec64ae63d1b852d898f609b16aa902e691"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0031",
+      "role": "N1B",
+      "state_len": 714,
+      "token_ids_sha256": "486263d646138c0eb3d60ca6396852951eb10a4cd0a14455b7ec7de2a9c56847"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0032",
+      "role": "new",
+      "state_len": 781,
+      "token_ids_sha256": "4d8537db5d80905a65411324a77f081a13c879709a2ebbfac717cfeaeb5fd51a"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0033",
+      "role": "N1B",
+      "state_len": 785,
+      "token_ids_sha256": "b000fcb74dac7b614b6e731bb797b3f42da48fa735aaf84ef242229dbb63769d"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0034",
+      "role": "new",
+      "state_len": 406,
+      "token_ids_sha256": "e55128974cc5f88458eed9ce3cf3a8debad9bde1d5beb6445e7b164ace4fabd3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0035",
+      "role": "N1B",
+      "state_len": 410,
+      "token_ids_sha256": "75be443e450a0553240e33a1d8bbab3a86cbaf1d194fa1ab245b37fa526f9610"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0036",
+      "role": "new",
+      "state_len": 434,
+      "token_ids_sha256": "a75b7ae1b4686ad2a6e30c18ef907b1ac76217d88ddbfec81856e1e020d1c9a2"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0037",
+      "role": "N1B",
+      "state_len": 438,
+      "token_ids_sha256": "195e544e4f2e96d882b467b7bd6e61aaf09223c6c329c88afc7e57535994912d"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0038",
+      "role": "new",
+      "state_len": 439,
+      "token_ids_sha256": "fce2718bba5dbabeea6b2316b11eac5be467bf360b9f89fdc10ffb01aa125b99"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0039",
+      "role": "N1B",
+      "state_len": 439,
+      "token_ids_sha256": "8683ef959e8b9ab5b8f4140b9df814538cd068dc278400b49a4872f7136affac"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0040",
+      "role": "new",
+      "state_len": 383,
+      "token_ids_sha256": "0828fc3a43aa16d19a8c0f8ff0410ba335c50706f07fbb61f165295bb8ecb007"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0041",
+      "role": "N1B",
+      "state_len": 383,
+      "token_ids_sha256": "ab88aee6c3037bb9e76d29089420f88bb2541b24424880ad09b7f17e33d73238"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0042",
+      "role": "new",
+      "state_len": 409,
+      "token_ids_sha256": "c89d5f50835ce8cc92a2c975331da1a524267c06fa00d91749448f918aa80bfd"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0043",
+      "role": "N1B",
+      "state_len": 413,
+      "token_ids_sha256": "3b120d3448e4039759402b3813088fb32be893bda3086b6f02b8776dd00d817f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0044",
+      "role": "N1",
+      "state_len": 996,
+      "token_ids_sha256": "f697366d1efd4d3919e6c9aacc7612ae5bcf7dd6f63b4d040336f0b2c22dec03"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0045",
+      "role": "N1",
+      "state_len": 439,
+      "token_ids_sha256": "8683ef959e8b9ab5b8f4140b9df814538cd068dc278400b49a4872f7136affac"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0046",
+      "role": "N1",
+      "state_len": 383,
+      "token_ids_sha256": "ab88aee6c3037bb9e76d29089420f88bb2541b24424880ad09b7f17e33d73238"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0047",
+      "role": "new",
+      "state_len": 1128,
+      "token_ids_sha256": "b1a59ccddd28a6aeca4d07b7a02a21e92b8b1f44dc481648c17e7e3d5095c6b3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0048",
+      "role": "N1B",
+      "state_len": 1128,
+      "token_ids_sha256": "e78fad94d9c3379af823d5b1a2a731e3972fe57ee659db8c2fe5a187a1fd4483"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0049",
+      "role": "new",
+      "state_len": 864,
+      "token_ids_sha256": "6069ede83b262b648c79aac641d959be1536206bfda326dc20cc95ba6a22e977"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0050",
+      "role": "N1B",
+      "state_len": 864,
+      "token_ids_sha256": "18a9b6c4719bc77a3886d3d60312b4b6049c7e96062206f75215a8480936fe12"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0051",
+      "role": "new",
+      "state_len": 1299,
+      "token_ids_sha256": "93d0730a49039b90d43b7f30b593b12bd23c7524ac38645e31ab7d9b3b20669f"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0052",
+      "role": "N1B",
+      "state_len": 1299,
+      "token_ids_sha256": "7a31147e2754f4509e894497c81e4999d4667bf229a84cb320513f17f6b35559"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0053",
+      "role": "new",
+      "state_len": 807,
+      "token_ids_sha256": "2725c3056661336b2b2b7f9c6e2a5bc653c13ff142415a347efafc03f2d6cfe4"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0054",
+      "role": "N1B",
+      "state_len": 807,
+      "token_ids_sha256": "b6c4fb7baf2a38ef67a4fd29971c75033a54342a1237ee7a33f6248ab1b144a6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0055",
+      "role": "new",
+      "state_len": 534,
+      "token_ids_sha256": "0c4384f09861c1a99aab673c29e0a6fba0f76a035fca8d43481a25787a44adc6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0056",
+      "role": "N1B",
+      "state_len": 534,
+      "token_ids_sha256": "cc9e1042b3adfe39e7ef4286662f6a2120e5af5e56feff5fef94909267df13d3"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0057",
+      "role": "new",
+      "state_len": 582,
+      "token_ids_sha256": "a24d6e628eb7ae1b5ce1eaed3febd83c08593740c38beaa51f33ff5c53f99bc4"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0058",
+      "role": "N1B",
+      "state_len": 582,
+      "token_ids_sha256": "01a0522fb1718245aa7b5050005c283b099d55a7243ffd6addb1cfe01628a5ca"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0059",
+      "role": "SHAM_SA",
+      "state_len": 408,
+      "token_ids_sha256": "1650d4d8e1787228434debe295cd2e10ca96f5e3f6ce0d77c4eab72973c98651"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0060",
+      "role": "SHAM_SA",
+      "state_len": 373,
+      "token_ids_sha256": "b4801a550b99446d08688c6f52c329ac6b822b2953c461a57dbb42fe79d57ab0"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0061",
+      "role": "SHAM_TS",
+      "state_len": 373,
+      "token_ids_sha256": "4756a9328d8b1551d78aa3a8d7ba047bf204ba7b48339de1dc110c8e2680f77c"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0062",
+      "role": "SHAM_RO",
+      "state_len": 373,
+      "token_ids_sha256": "7e8fc8e22191a01da0650f29f6425981fa890a750ebeaede45fb3342cc8806be"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0063",
+      "role": "SHAM_SA",
+      "state_len": 545,
+      "token_ids_sha256": "58f8bcfb619697262a16c3f8ada27c2d87ef7cc8e7f62f17cfa3cfea4c061530"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0064",
+      "role": "SHAM_TS",
+      "state_len": 545,
+      "token_ids_sha256": "ca70ca5de5f2bda53dc44997085dfb3bee92c6159ac2e223608ed669b593fdbe"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0065",
+      "role": "SHAM_RO",
+      "state_len": 545,
+      "token_ids_sha256": "a51311c69a3eaf30373f721e3ff454016b3c0acb6d182c8fb8ec9984c7cbe79e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0066",
+      "role": "SHAM_SA",
+      "state_len": 373,
+      "token_ids_sha256": "962388ba8b216f22295d1e3f90e7672622d2e30d95e0c3ee98643103c1c38091"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0067",
+      "role": "SHAM_TS",
+      "state_len": 373,
+      "token_ids_sha256": "7e98cedb0151e604ddfb41be5f7d5b6d1af65c1aedba2971977f5a79d67b5819"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0068",
+      "role": "SHAM_RO",
+      "state_len": 373,
+      "token_ids_sha256": "79a58313a8dd91b1d94c77aa97da6121b2cda9f14135809a05cc4e24a21de7fd"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0069",
+      "role": "SHAM_SA",
+      "state_len": 516,
+      "token_ids_sha256": "2e55dfd446cfdfb489e70969ff4b8724c110ceb9c9bf98e119072cff331dcf44"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0070",
+      "role": "SHAM_TS",
+      "state_len": 517,
+      "token_ids_sha256": "bcb0bd560d44547a3e6cdfe2a8b11c614cf784ca00f496f42a94f18850feb4a2"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0071",
+      "role": "SHAM_RO",
+      "state_len": 517,
+      "token_ids_sha256": "e5bfed80fc2c86511e1b152850b4d186e4ea64d4950e1e5485f21cebeb5800ce"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0072",
+      "role": "SHAM_SA",
+      "state_len": 743,
+      "token_ids_sha256": "49d32f85ea9f5cdf6b78d4a099503eac3a7d0304479eebe7e9092ae8b6ca6df1"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0073",
+      "role": "SHAM_SA",
+      "state_len": 497,
+      "token_ids_sha256": "1390a93abdd01f14363d88ab74507de30831a5207d8b3451aee00e02d7ebd3f6"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0074",
+      "role": "SHAM_SA",
+      "state_len": 520,
+      "token_ids_sha256": "37f4a66ca2a2ebd89327ab6b76261a26c5842a0a3c74e7f21b93fb08c5be2daa"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0075",
+      "role": "SHAM_TS",
+      "state_len": 520,
+      "token_ids_sha256": "40271db2ee522de08e5dc4f9795bffdef607e7671daa3a3346f51ab6cb43605e"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0076",
+      "role": "SHAM_RO",
+      "state_len": 520,
+      "token_ids_sha256": "3a6e08c80311ef61e729ca807ed5b44795634d43243b0c438244454721155c35"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0077",
+      "role": "SHAM_SA",
+      "state_len": 322,
+      "token_ids_sha256": "0b8c1efd7dd3b329975a35497a8e9204763ba4b8b8c3e2e8e01a34480a11872a"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0078",
+      "role": "SHAM_TS",
+      "state_len": 322,
+      "token_ids_sha256": "7c66c3255e673a162de71d87280991c437bcfdd7469d499805c28b477507b615"
+    },
+    {
+      "branch_hashes": {
+        "certificate_action": "c1e8cc3ad1edc910580a5ac1ace5be746f7c392fe8d27cc656a34e6e7da6d3e6",
+        "conflicting_vote": "383729273331c4c4f60ef3fe05f89a900e5e52c061ab31e4f5cec76a1acda5a4",
+        "evidence_level": "919672f6c8ad8009603ad02c52d51a995a933bb39cec67dcb6a91593b446a6ac",
+        "quorum": "3aa98642eaf7df91a2ce283346fc78bcc6a24c6cde80c0540138314cfced814c"
+      },
+      "keys": {
+        "certificate_action": [
+          "accept",
+          "reject_conflict",
+          "wait"
+        ],
+        "conflicting_vote": [
+          "false",
+          "true"
+        ],
+        "evidence_level": [
+          "0",
+          "1",
+          "2"
+        ],
+        "quorum": [
+          "false",
+          "true"
+        ]
+      },
+      "plan_row": "G3_0079",
+      "role": "SHAM_RO",
+      "state_len": 322,
+      "token_ids_sha256": "d99bd17daa210e4da8ccb8a1e7a4590a7dd9ee60483f6282bc3dea65bc70aa99"
+    }
+  ]
+}

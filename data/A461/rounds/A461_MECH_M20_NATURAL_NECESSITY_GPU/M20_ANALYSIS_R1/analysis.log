@@ -1,0 +1,77 @@
+{
+ "consistency_gate": {
+  "donor_baselines": 14,
+  "donor_baselines_eq_M1": 14,
+  "patch_rows": {
+   "full_host": 104,
+   "full_ctrl": 104,
+   "bulk_host": 104,
+   "bulk_ctrl": 104,
+   "bulk_round_self": 14,
+   "bulk_hostmean": 14
+  },
+  "pass": true
+ },
+ "verdicts": {
+  "full": "NEC_FULL_PARTIAL",
+  "bulk": "NEC_BULK_PARTIAL"
+ },
+ "detail_full": {
+  "C_loss_diff": 0.1346,
+  "frac_dM_host_lt_ctrl": 0.625,
+  "donors_majority": 9,
+  "host": {
+   "n": 104,
+   "C_loss": 0.20192307692307693,
+   "J_loss": 0.3333333333333333,
+   "median_dM": -0.1069,
+   "median_dA": -0.1112
+  },
+  "ctrl": {
+   "n": 104,
+   "C_loss": 0.0673076923076923,
+   "J_loss": 0.2,
+   "median_dM": 0.0167,
+   "median_dA": 0.0921
+  }
+ },
+ "detail_bulk": {
+  "C_loss_diff": 0.1827,
+  "frac_dM_host_lt_ctrl": 0.7404,
+  "donors_majority": 12,
+  "host": {
+   "n": 104,
+   "C_loss": 0.25961538461538464,
+   "J_loss": 0.3466666666666667,
+   "median_dM": -0.1741,
+   "median_dA": -0.1233
+  },
+  "ctrl": {
+   "n": 104,
+   "C_loss": 0.07692307692307693,
+   "J_loss": 0.12,
+   "median_dM": -0.0007,
+   "median_dA": 0.1356
+  }
+ },
+ "per_donor_arms": {
+  "bulk_round_self": {
+   "n": 14,
+   "C_loss": 0.6428571428571429,
+   "J_loss": 0.6,
+   "median_dM": -0.6915,
+   "median_dA": -0.3535
+  },
+  "bulk_hostmean": {
+   "n": 14,
+   "C_loss": 0.14285714285714285,
+   "J_loss": 0.4,
+   "median_dM": -0.0603,
+   "median_dA": -0.083
+  }
+ },
+ "logo_stability": {
+  "full": 14,
+  "bulk": 14
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "groups_covered": 26,
+  "pairing_feasibility": {
+    "directed_donor_host_pairs_cross_group": 27148,
+    "distinct_group_pairs": 650,
+    "note": "a Stage-A search needs only N forward-screened scenes; donor/host pairing happens after qualification is known",
+    "width_histogram_scenes_per_width": {
+      "31": 171,
+      "32": 1,
+      "33": 157,
+      "34": 26,
+      "35": 1
+    }
+  },
+  "plans": {
+    "N124": {
+      "native_forwards": 372,
+      "note": "372 primary + 6 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 6,
+      "runs_of_le_128": 3
+    },
+    "N172": {
+      "native_forwards": 516,
+      "note": "516 primary + 10 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 10,
+      "runs_of_le_128": 5
+    },
+    "N26": {
+      "native_forwards": 78,
+      "note": "78 primary + 2 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 2,
+      "runs_of_le_128": 1
+    },
+    "N62": {
+      "native_forwards": 186,
+      "note": "186 primary + 4 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 4,
+      "runs_of_le_128": 2
+    },
+    "N93": {
+      "native_forwards": 279,
+      "note": "279 primary + 6 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 6,
+      "runs_of_le_128": 3
+    }
+  },
+  "roster_size": 172,
+  "rule": "planning only; actual counts from the Stage-A runner trace; separate admission + review + user authorization before any GPU",
+  "schema": "JEV_A461_G5_G2_STAGE_A_BATCHING_PLANS_V3"
+}

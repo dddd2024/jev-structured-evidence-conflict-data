@@ -1,0 +1,9 @@
+{
+  "approved_planned_forwards": 28,
+  "equal": true,
+  "hard_cap": 128,
+  "note": "plan derived from frozen roster x layers x conditions; no dynamic host pool",
+  "observed_mock_trace": 28,
+  "predicted_native_forwards": 28,
+  "schema": "JEV_A461_G5_PILOT_BUDGET_RECONCILIATION_V1"
+}

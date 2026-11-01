@@ -1,0 +1,6 @@
+returncode=0
+--- stdout ---
+{"batch_receipts":[{"cumulative_physical_after":62,"physical":62,"planned":62,"rows":62,"run":1,"status":"COMPLETE"}],"denied_prehook_calls":0,"elapsed_seconds":52.892,"error_message":null,"physical_prehook_calls":62,"preflight":{"manifest_rows":62,"scenes":22,"span_gate":"PASS","token_gate":"PASS"},"status":"COMPLETE_A461_MECH_M16"}
+
+--- stderr ---
+

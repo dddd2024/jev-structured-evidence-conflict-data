@@ -1,0 +1,14 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 5580, 'scenes': 124, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_5580_rows :: status=COMPLETE_A461_MECH_M19 rows=5580 capture files=620 sha=True conditions={'replay': 620, 'probe': 3720, 'random': 1240}
+PASS decide_capture_is_the_head_readout :: replay decide state x fake head reproduces the certificate_action logits in 40 rows (max abs 0.0e+00)
+PASS op_is_the_frozen_amplification :: op rows 4960: dev = proj - c within 1.7e-06; |delta| = (gamma - 1)|dev| within 1.7e-05; certificate_action logits moved in 4960; other rows unchanged (runner-enforced, fake tol 1e-5)
+PASS probe_direction_of_another_group_refused :: refused: op row 2
+PASS tampered_directions_refused :: one byte appended to the directions file: refused at its sha
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission after a complete 5580-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: tampered manifest refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 13, "tests": 13, "runner_blob": "9c0a3108308510c7bc1a18807d8bd234d032758e", "manifest_blob": "080bc5741bfc676f6d0f2b5dbc613652a6a9ddd4"}

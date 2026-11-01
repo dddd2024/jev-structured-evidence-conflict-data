@@ -1,0 +1,124 @@
+{
+ "gate": {
+  "rows": 620,
+  "expected": 620,
+  "token_sha_ok": 620,
+  "max_cross_row": 1.9073486328125e-06,
+  "pass": false
+ },
+ "verdicts": {
+  "V1_encoded": "INCONSISTENT",
+  "V1_surface": "INCONSISTENT",
+  "V2_location": "INCONSISTENT",
+  "V2_novelty": "INCONSISTENT",
+  "V3_useful": "INCONSISTENT",
+  "best_generic": "INCONSISTENT",
+  "calibrated": "INCONSISTENT"
+ },
+ "ci": {
+  "AUROC_span": null,
+  "AUROC_surface": null,
+  "AUROC_span_minus_surface": null,
+  "TPR5_span_minus_G": null,
+  "TPR5_span": null,
+  "TPR1_span": null
+ },
+ "counts": {
+  "missed": 0,
+  "recognized": 124,
+  "benign": 0,
+  "natural_false_veto_by_arm": {
+   "old": 124,
+   "SA": 124,
+   "ROUND": 124,
+   "OUTSIDER": 124
+  },
+  "groups": 17
+ },
+ "span": {
+  "AUROC": null,
+  "TPR_missed@FV5": null,
+  "FPR@FV5": null,
+  "FPR_old@FV5": null,
+  "FPR_SA@FV5": null,
+  "FPR_ROUND@FV5": null,
+  "FPR_OUTSIDER@FV5": null,
+  "TPR_recognized@FV5": 0.0,
+  "TPR_missed@FV1": null,
+  "FPR@FV1": null,
+  "FPR_old@FV1": null,
+  "FPR_SA@FV1": null,
+  "FPR_ROUND@FV1": null,
+  "FPR_OUTSIDER@FV1": null,
+  "TPR_recognized@FV1": 0.0
+ },
+ "best_generic": [
+  "NATIVE_A",
+  {
+   "AUROC": null,
+   "TPR_missed@FV5": null,
+   "FPR@FV5": null,
+   "FPR_old@FV5": null,
+   "FPR_SA@FV5": null,
+   "FPR_ROUND@FV5": null,
+   "FPR_OUTSIDER@FV5": null,
+   "TPR_recognized@FV5": 0.0,
+   "TPR_missed@FV1": null,
+   "FPR@FV1": null,
+   "FPR_old@FV1": null,
+   "FPR_SA@FV1": null,
+   "FPR_ROUND@FV1": null,
+   "FPR_OUTSIDER@FV1": null,
+   "TPR_recognized@FV1": 0.0
+  }
+ ],
+ "surface": {
+  "AUROC": null,
+  "TPR_missed@FV5": null,
+  "FPR@FV5": null,
+  "FPR_old@FV5": null,
+  "FPR_SA@FV5": null,
+  "FPR_ROUND@FV5": null,
+  "FPR_OUTSIDER@FV5": null,
+  "TPR_recognized@FV5": 0.0,
+  "TPR_missed@FV1": null,
+  "FPR@FV1": null,
+  "FPR_old@FV1": null,
+  "FPR_SA@FV1": null,
+  "FPR_ROUND@FV1": null,
+  "FPR_OUTSIDER@FV1": null,
+  "TPR_recognized@FV1": 0.0
+ },
+ "layer_profile_AUROC": {
+  "SPAN_RESID": {
+   "emb": null,
+   "L3": null,
+   "L7": null,
+   "L11": null,
+   "L15": null,
+   "L19": null,
+   "L23": null
+  },
+  "LAST_RESID": {
+   "emb": null,
+   "L3": null,
+   "L7": null,
+   "L11": null,
+   "L15": null,
+   "L19": null,
+   "L23": null
+  }
+ },
+ "fp_groups": {
+  "FV5": {
+   "groups_with_fp": 0,
+   "of": 17,
+   "cp95_upper_group_rate": 0.1616
+  },
+  "FV1": {
+   "groups_with_fp": 0,
+   "of": 17,
+   "cp95_upper_group_rate": 0.1616
+  }
+ }
+}

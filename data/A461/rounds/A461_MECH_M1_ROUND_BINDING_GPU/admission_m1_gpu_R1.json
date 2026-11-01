@@ -1,0 +1,26 @@
+{
+  "stage": "A461_MECH_M1_ROUND_BINDING_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_MECH_M1_GPU_20261027_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "governance_amendment": "GOVERNANCE_AMENDMENT_20261027_STANDING_GPU_AUTHORIZATION.md (standing GPU authorization; no per-experiment approval)",
+  "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+  "user_gpu_approval_utc": "2026-10-27T11:12:00Z",
+  "user_stage_instruction_quote": "Freeze the new M1 prereg (D_OK / D_ROUND / D_OK_ALT, fixed host, L11, all rows), self-test it, then run it under the standing GPU authorization.",
+  "approval_kind": "standing",
+  "approved_runner_blob": "91db323cb75975554d6eb97f49aaf14e25547278",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 498,
+  "approved_batches": 4,
+  "approved_batch_plan": [128, 128, 128, 114],
+  "frozen_inputs": {
+    "manifest_blob": "8c92e36a700721bd0a1de7ef588302f1c5b4f686",
+    "design_blob": "f3852efc21e7b55fdc1b7370a867454730422913",
+    "kc_raw_blob": "19d3a06c27953b1f2b4dcd2770394d28741a69fd",
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8"
+}

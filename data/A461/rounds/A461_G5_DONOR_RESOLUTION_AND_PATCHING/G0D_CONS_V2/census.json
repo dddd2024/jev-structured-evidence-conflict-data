@@ -1,0 +1,18 @@
+{
+  "a428_scenes_excluded": 12,
+  "eligible": {
+    "accept": 183,
+    "wait": 42
+  },
+  "excluded_scene_hashes": 38,
+  "forward_budget": 124,
+  "g3_pairs_excluded": 26,
+  "group_reuse_disclosure": "all 42 DEV groups previously touched by some round; scene-level non-reuse enforced instead",
+  "pairs": 36,
+  "planned_forwards_including_old_and_replays": 112,
+  "selected": {
+    "accept": 20,
+    "wait": 16
+  },
+  "total_arms": 72
+}

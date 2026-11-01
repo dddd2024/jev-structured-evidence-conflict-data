@@ -1,0 +1,231 @@
+{
+ "gate": {
+  "rows": 5580,
+  "expected": 5580,
+  "replays": 620,
+  "op_rows": 4960,
+  "replay_bitwise_m18": 0,
+  "op_conditions": {
+   "probe_L19_g2": 620,
+   "probe_L19_g4": 620,
+   "probe_L19_g8": 620,
+   "probe_L31_g2": 620,
+   "probe_L31_g4": 620,
+   "probe_L31_g8": 620,
+   "random_L19_g8": 620,
+   "random_L31_g8": 620
+  },
+  "pass": false
+ },
+ "verdicts": {
+  "L19": "INCONSISTENT",
+  "L19_clean_gammas": "INCONSISTENT",
+  "L31": "INCONSISTENT",
+  "L31_clean_gammas": "INCONSISTENT"
+ },
+ "measures": {
+  "probe_L19_g2": {
+   "REPAIR": 0.6842105263157895,
+   "FV": 0.6619718309859155,
+   "RECOGNIZED_kept": 0.9238095238095239,
+   "FV_old": 0.5714285714285714,
+   "FV_SA": 0.6842105263157895,
+   "FV_ROUND": 0.6842105263157895,
+   "FV_OUTSIDER": 0.6842105263157895,
+   "median_dA_missed": 1.9859,
+   "median_dA_benign": 1.8884,
+   "fv_groups": {
+    "groups_with_fv": 6,
+    "of": 17,
+    "cp95_upper": 0.5803
+   }
+  },
+  "probe_L19_g4": {
+   "REPAIR": 0.7368421052631579,
+   "FV": 0.7183098591549296,
+   "RECOGNIZED_kept": 0.8761904761904762,
+   "FV_old": 0.6428571428571429,
+   "FV_SA": 0.7368421052631579,
+   "FV_ROUND": 0.7368421052631579,
+   "FV_OUTSIDER": 0.7368421052631579,
+   "median_dA_missed": 5.8232,
+   "median_dA_benign": 5.619,
+   "fv_groups": {
+    "groups_with_fv": 6,
+    "of": 17,
+    "cp95_upper": 0.5803
+   }
+  },
+  "probe_L19_g8": {
+   "REPAIR": 0.631578947368421,
+   "FV": 0.6056338028169014,
+   "RECOGNIZED_kept": 0.7238095238095238,
+   "FV_old": 0.5,
+   "FV_SA": 0.631578947368421,
+   "FV_ROUND": 0.631578947368421,
+   "FV_OUTSIDER": 0.631578947368421,
+   "median_dA_missed": 2.4031,
+   "median_dA_benign": 2.0664,
+   "fv_groups": {
+    "groups_with_fv": 6,
+    "of": 17,
+    "cp95_upper": 0.5803
+   }
+  },
+  "probe_L31_g2": {
+   "REPAIR": 0.7368421052631579,
+   "FV": 0.7464788732394366,
+   "RECOGNIZED_kept": 0.8666666666666667,
+   "FV_old": 0.7857142857142857,
+   "FV_SA": 0.7368421052631579,
+   "FV_ROUND": 0.7368421052631579,
+   "FV_OUTSIDER": 0.7368421052631579,
+   "median_dA_missed": 4.0717,
+   "median_dA_benign": 4.1231,
+   "fv_groups": {
+    "groups_with_fv": 4,
+    "of": 17,
+    "cp95_upper": 0.4605
+   }
+  },
+  "probe_L31_g4": {
+   "REPAIR": 0.7894736842105263,
+   "FV": 0.8028169014084507,
+   "RECOGNIZED_kept": 0.819047619047619,
+   "FV_old": 0.8571428571428571,
+   "FV_SA": 0.7894736842105263,
+   "FV_ROUND": 0.7894736842105263,
+   "FV_OUTSIDER": 0.7894736842105263,
+   "median_dA_missed": 12.2151,
+   "median_dA_benign": 12.3692,
+   "fv_groups": {
+    "groups_with_fv": 5,
+    "of": 17,
+    "cp95_upper": 0.5219
+   }
+  },
+  "probe_L31_g8": {
+   "REPAIR": 0.8421052631578947,
+   "FV": 0.8450704225352113,
+   "RECOGNIZED_kept": 0.7428571428571429,
+   "FV_old": 0.8571428571428571,
+   "FV_SA": 0.8421052631578947,
+   "FV_ROUND": 0.8421052631578947,
+   "FV_OUTSIDER": 0.8421052631578947,
+   "median_dA_missed": 14.9043,
+   "median_dA_benign": 14.9708,
+   "fv_groups": {
+    "groups_with_fv": 6,
+    "of": 17,
+    "cp95_upper": 0.5803
+   }
+  },
+  "random_L19_g8": {
+   "REPAIR": 0.2631578947368421,
+   "FV": 0.4647887323943662,
+   "RECOGNIZED_kept": 0.6476190476190476,
+   "FV_old": 0.21428571428571427,
+   "FV_SA": 0.47368421052631576,
+   "FV_ROUND": 0.5789473684210527,
+   "FV_OUTSIDER": 0.5263157894736842,
+   "median_dA_missed": -1.8348,
+   "median_dA_benign": 0.0972,
+   "fv_groups": {
+    "groups_with_fv": 6,
+    "of": 17,
+    "cp95_upper": 0.5803
+   }
+  },
+  "random_L31_g8": {
+   "REPAIR": 0.42105263157894735,
+   "FV": 0.4225352112676056,
+   "RECOGNIZED_kept": 0.4,
+   "FV_old": 0.35714285714285715,
+   "FV_SA": 0.5263157894736842,
+   "FV_ROUND": 0.3684210526315789,
+   "FV_OUTSIDER": 0.42105263157894735,
+   "median_dA_missed": -4.3039,
+   "median_dA_benign": -1.2833,
+   "fv_groups": {
+    "groups_with_fv": 7,
+    "of": 17,
+    "cp95_upper": 0.636
+   }
+  }
+ },
+ "ci": {
+  "probe_L19_g2|REPAIR": [
+   0.4286,
+   0.9333
+  ],
+  "probe_L19_g2|FV": [
+   0.3889,
+   0.94
+  ],
+  "probe_L19_g4|REPAIR": [
+   0.3846,
+   1.0
+  ],
+  "probe_L19_g4|FV": [
+   0.3846,
+   1.0
+  ],
+  "probe_L19_g8|REPAIR": [
+   0.3333,
+   1.0
+  ],
+  "probe_L19_g8|FV": [
+   0.3333,
+   1.0
+  ],
+  "probe_L31_g2|REPAIR": [
+   0.3333,
+   0.9375
+  ],
+  "probe_L31_g2|FV": [
+   0.3704,
+   0.931
+  ],
+  "probe_L31_g4|REPAIR": [
+   0.3846,
+   0.9677
+  ],
+  "probe_L31_g4|FV": [
+   0.4,
+   0.9652
+  ],
+  "probe_L31_g8|REPAIR": [
+   0.4667,
+   1.0
+  ],
+  "probe_L31_g8|FV": [
+   0.5185,
+   0.9872
+  ],
+  "random_L19_g8|REPAIR": [
+   0.1667,
+   0.4
+  ],
+  "random_L19_g8|FV": [
+   0.2903,
+   0.6154
+  ],
+  "random_L31_g8|REPAIR": [
+   0.25,
+   0.5
+  ],
+  "random_L31_g8|FV": [
+   0.3188,
+   0.5854
+  ]
+ },
+ "counts": {
+  "NATIVE_FV": 425,
+  "RECOGNIZED": 105,
+  "BENIGN": 71,
+  "MISSED": 19
+ },
+ "readout_geometry": {
+  "status": "DIM_MISMATCH (fake model)"
+ }
+}

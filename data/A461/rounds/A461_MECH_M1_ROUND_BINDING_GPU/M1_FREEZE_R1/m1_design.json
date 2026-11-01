@@ -1,0 +1,457 @@
+{
+  "arms": [
+    "main",
+    "round",
+    "okalt",
+    "doserand_r"
+  ],
+  "gpu_status": "0 M1 forwards; 498 calls / [128, 128, 128, 114] under the standing GPU authorization",
+  "inputs": {
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "kc_design_blob": "cd4cd9e5632cfa1b8aa476b94a332e3705af2f0f",
+    "kc_raw_blob": "19d3a06c27953b1f2b4dcd2770394d28741a69fd",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "layers": [
+    11
+  ],
+  "model": "kev-4B (runner module f118ea59: identity, source, loader)",
+  "plan": [
+    128,
+    128,
+    128,
+    114
+  ],
+  "preregistered_analysis": {
+    "D_donor_recognition": "reported first, per donor: JOINT and M of the donor's own ROUND and OK_ALT forwards (does kev-4B read the round field in the donor context)",
+    "H_CLS": "#JOINT_round >= 1/2 * #JOINT_main AND dM_main > dM_round in < 60% of cells",
+    "H_REL": "(a) #JOINT_round <= 1/4 * #JOINT_main AND (b) dM_main > dM_round in >= 75% of cells and in a majority of cells for >= 10 of 14 donor groups",
+    "H_ROLE_ABSTRACT": "#JOINT_okalt >= 1/2 * #JOINT_main -> repair does not hinge on the specific author token; #JOINT_okalt <= 1/4 * #JOINT_main -> author-identity specific; else intermediate",
+    "P0_positive_control": "all 112 main patches and the 22 donor-new/host-new captures replay the K-C raw rows bitwise (runner fails closed otherwise)",
+    "always_reported": "round vs doserand_r (specific residual of the ROUND span), leave-one-donor-group-out, per host, stratification by donor ROUND self-recognition, all null and negative outcomes",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run host capture)",
+    "units": "only the 104 cross-group cells (donor group != host group) enter counts; source groups are the unit; cells share donors and hosts, counts are descriptive decision rules, not independent tests",
+    "verdict_round": "REL_SUPPORTED if H_REL; CLS_SUPPORTED if H_CLS; else GRADED_INTERMEDIATE"
+  },
+  "schema": "JEV_A461_MECH_M1_ROUND_BINDING_DESIGN_V1",
+  "selection": {
+    "donors": [
+      [
+        "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a",
+        "twins_streamlet:run-121"
+      ],
+      [
+        "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9",
+        "twins_streamlet:run-181"
+      ],
+      [
+        "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6",
+        "twins_streamlet:run-301"
+      ],
+      [
+        "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e",
+        "twins_streamlet:run-337"
+      ],
+      [
+        "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+        "twins_streamlet:run-338"
+      ],
+      [
+        "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab",
+        "twins_streamlet:run-344"
+      ],
+      [
+        "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce",
+        "twins_streamlet:run-68"
+      ]
+    ],
+    "hosts": [
+      [
+        "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274",
+        "twins_streamlet:run-220"
+      ],
+      [
+        "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f",
+        "twins_streamlet:run-169"
+      ],
+      [
+        "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920",
+        "twins_streamlet:run-272"
+      ],
+      [
+        "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8",
+        "twins_streamlet:run-212"
+      ],
+      [
+        "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5",
+        "twins_streamlet:run-140"
+      ],
+      [
+        "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987",
+        "twins_streamlet:run-283"
+      ],
+      [
+        "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673",
+        "twins_streamlet:run-154"
+      ],
+      [
+        "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70",
+        "twins_streamlet:run-121"
+      ]
+    ],
+    "variants": {
+      "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 2
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 1
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 2
+        }
+      },
+      "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e": {
+        "OK_ALT": {
+          "author": "v2",
+          "block": "b0",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        },
+        "ROUND": {
+          "author": "v1",
+          "block": "b0",
+          "kind": "vote",
+          "received": 25,
+          "round": 1
+        },
+        "frozen": {
+          "author": "v1",
+          "block": "b0",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        }
+      },
+      "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b3",
+          "kind": "vote",
+          "received": 75,
+          "round": 8
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 75,
+          "round": 7
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 75,
+          "round": 8
+        }
+      },
+      "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 4
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 3
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 4
+        }
+      },
+      "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 6
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 5
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 6
+        }
+      },
+      "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883": {
+        "OK_ALT": {
+          "author": "v2",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 4
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 3
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b6",
+          "kind": "vote",
+          "received": 35,
+          "round": 4
+        }
+      },
+      "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a": {
+        "OK_ALT": {
+          "author": "v3",
+          "block": "b4",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        },
+        "ROUND": {
+          "author": "v2",
+          "block": "b4",
+          "kind": "vote",
+          "received": 25,
+          "round": 1
+        },
+        "frozen": {
+          "author": "v2",
+          "block": "b4",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        }
+      },
+      "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9": {
+        "OK_ALT": {
+          "author": "v3",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 5
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 4
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b4",
+          "kind": "vote",
+          "received": 55,
+          "round": 5
+        }
+      },
+      "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 2
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 1
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b3",
+          "kind": "vote",
+          "received": 15,
+          "round": 2
+        }
+      },
+      "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b1",
+          "kind": "vote",
+          "received": 75,
+          "round": 8
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b1",
+          "kind": "vote",
+          "received": 75,
+          "round": 7
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b1",
+          "kind": "vote",
+          "received": 75,
+          "round": 8
+        }
+      },
+      "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b5",
+          "kind": "vote",
+          "received": 25,
+          "round": 3
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b5",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b5",
+          "kind": "vote",
+          "received": 25,
+          "round": 3
+        }
+      },
+      "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097": {
+        "OK_ALT": {
+          "author": "v3",
+          "block": "b2",
+          "kind": "vote",
+          "received": 35,
+          "round": 3
+        },
+        "ROUND": {
+          "author": "v1",
+          "block": "b2",
+          "kind": "vote",
+          "received": 35,
+          "round": 2
+        },
+        "frozen": {
+          "author": "v1",
+          "block": "b2",
+          "kind": "vote",
+          "received": 35,
+          "round": 3
+        }
+      },
+      "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab": {
+        "OK_ALT": {
+          "author": "v1",
+          "block": "b7",
+          "kind": "vote",
+          "received": 25,
+          "round": 3
+        },
+        "ROUND": {
+          "author": "v0",
+          "block": "b7",
+          "kind": "vote",
+          "received": 25,
+          "round": 2
+        },
+        "frozen": {
+          "author": "v0",
+          "block": "b7",
+          "kind": "vote",
+          "received": 25,
+          "round": 3
+        }
+      },
+      "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e": {
+        "OK_ALT": {
+          "author": "v4",
+          "block": "b0",
+          "kind": "vote",
+          "received": 35,
+          "round": 2
+        },
+        "ROUND": {
+          "author": "v2",
+          "block": "b0",
+          "kind": "vote",
+          "received": 35,
+          "round": 1
+        },
+        "frozen": {
+          "author": "v2",
+          "block": "b0",
+          "kind": "vote",
+          "received": 35,
+          "round": 2
+        }
+      }
+    }
+  },
+  "status": "FROZEN_CPU_BEFORE_ANY_M1_FORWARD",
+  "total": 498
+}

@@ -1,0 +1,28 @@
+{
+  "constructible_by_cell": {
+    "accept": 163,
+    "wait": 26
+  },
+  "constructible_groups": 30,
+  "constructible_pairs": 189,
+  "donor_qualification_base_rate_observed": 0.0323,
+  "note": "model recognition (donor qualification) is NOT assessable without forwards; this audit only establishes construction feasibility",
+  "pairs_needed_for_expected_2_new_qualified_donors": 62,
+  "same_width_rate": 0.9524,
+  "schema": "JEV_A461_G5_G2_CONSTRUCTIBILITY_INVENTORY_V1",
+  "screened": 189,
+  "sizing_feasible": true,
+  "top_groups_by_inventory": {
+    "twins_streamlet:run-121": 8,
+    "twins_streamlet:run-140": 18,
+    "twins_streamlet:run-182": 6,
+    "twins_streamlet:run-212": 18,
+    "twins_streamlet:run-220": 18,
+    "twins_streamlet:run-24": 8,
+    "twins_streamlet:run-272": 18,
+    "twins_streamlet:run-283": 7,
+    "twins_streamlet:run-337": 7,
+    "twins_streamlet:run-68": 19
+  },
+  "unused_scenes": 713
+}

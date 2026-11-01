@@ -1,0 +1,2162 @@
+{
+  "0153673a107abaf567d192e92a8bb19b296522ccddd0afd6cde0fa8b0cb9bf18": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "b29eab7e7e4487425a9270e5744a194f025e6e28d81b7649b5144fbe2ada40a9",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "0d316082610093abe012bc1361390a333db39f74693746ceaf5966f9cbdc9b7f",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "eaa2cb88d4eb146a444d333d0c8c62c87e17380e0a95c63c57e5d3e255800d6d",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b3",
+      "kind": "vote",
+      "received": 15,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-283",
+    "role": "donor"
+  },
+  "1218efed19deb565eb733309be29318fb9123890e52d8bc9599c3889762f925e": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "a76201a0a2ac18af858850fc7d0f4ad75139d1ce8889747a4cf852a2d9cece1e",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "4626d6ee55ed028fd6e7ed6043a304224fe6f0c05a7e82f127037904088c7a1b",
+      "value": "v2"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "7cce03fd0792931c1fd2066f300ec60ff39831a877e27d1af3980458c22af9cf",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "7d31b33f97214600a7a5323ae6eeb2c6847dbf7c8b214a88769c63f83ac0592d",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v1",
+      "block": "b0",
+      "kind": "vote",
+      "received": 25,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-337",
+    "role": "donor"
+  },
+  "1b3e7af68bb378573d5b8324081b14f72124359bebeea094900b3c415bb81df6": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v5",
+        "block": "b3",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        482,
+        513
+      ],
+      "token_ids_sha256": "118fc84455d20cebf46b7a5af511d63fada7309d145e9994ef6717a5598d46fe",
+      "value": "v5"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b3",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        482,
+        513
+      ],
+      "token_ids_sha256": "8a640aaeb2866b628e59c99b9967e1e75a2f0c6e024162911142d8eba96749b5",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b3",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        482,
+        513
+      ],
+      "token_ids_sha256": "6b317c69a9ec3824fd09516fdd74ea102d215da64c33026ca183f8cd6d14095b",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b3",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "ok": true,
+      "span": [
+        482,
+        513
+      ],
+      "token_ids_sha256": "c606c8748a8650903c8a81d97badf5d6e42545d7f702cb1722b0ffcce8e55866",
+      "value": 7
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b3",
+      "kind": "vote",
+      "received": 75,
+      "round": 8
+    },
+    "group": "twins_streamlet:run-301",
+    "role": "donor"
+  },
+  "1c7158b6b8387782c8f10afdc2226389d8ae1499ea5118bf4f8b0b2db4578a70": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "af949e6ea76a5dcf238bb5f30273e66b156551f896b0bc711a00ee7d7e07f46e",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v3",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "24b99a5bbfcbd7d7ff0cbcfc1b89299552b1fdb4e94895e86a4a8634aa7738e3",
+      "value": "v3"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "ca53679b71a1e277e2cb181ff5825a9f7c5185ae71f6f4f1165ecef7cb336ff3",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 55,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "580cda186a3f004a3b43a4a13fcd6b213836c81ca49144fafe09cdaf30e49b2b",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v2",
+      "block": "b0",
+      "kind": "vote",
+      "received": 55,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-121",
+    "role": "host"
+  },
+  "1f8c0826ae47dd5c68403c8c2430592d2923d9fa9dc1de613eb0c0333e5c7091": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "75b4d4bdadb40f8e0f108d3fb967ad1d2ac3f39bee12c2f0ef0f1d7671b96006",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "5782cdbd8dd01fd9ad4a69e986b7edb8fbb6e525f83f844834f5ab35e7478410",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "397445f9c346c2f60ac708863224a04e5ae82b0e6072be93357b7c7bb37b9047",
+      "value": 3
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b6",
+      "kind": "vote",
+      "received": 35,
+      "round": 4
+    },
+    "group": "twins_streamlet:run-272",
+    "role": "donor"
+  },
+  "1fb5651c643eedafdcdf837109b49eee2ceefe53269fa276464a81cd4dc3a79f": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "1867d13dd28e01f2519f6fa3397a403a9eb07956b2eada6b4a5863f4d3c44fbe",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "18922a409adb14b2a2898d32c4e62c83a18e5d488bc873e4b5378a40e0e3f9e4",
+      "value": "v4"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v5",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "5c08ed7baec7b0ef8bd9620311390c5d1211fd3da41b8864d2ba330c02831424",
+      "value": "v5"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 25,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "e13cdbefd92634f38546684d21d451ae718107d6781ac4736e51123f2f6b4030",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v2",
+      "block": "b0",
+      "kind": "vote",
+      "received": 25,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-169",
+    "role": "host"
+  },
+  "264c458dbed569000ae614e8725d0504ede4a6a721ebb7b82584be7ceca08274": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "adad018b2d1da085a55eeabb4de5aa921a207d8421a92e4ee304758b01f985f2",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "f8516c38d9c67115a999d09457e733a82691f2db1a472cc3bbfe2856cca7aaf7",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "ce90a01699fcd877b4ac7308d076c304c7bc3d471965a839f8bc59e38b37985e",
+      "value": 5
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b4",
+      "kind": "vote",
+      "received": 55,
+      "round": 6
+    },
+    "group": "twins_streamlet:run-220",
+    "role": "host"
+  },
+  "2a4f596d9dd77114ea637e2b326c99278826b186a42429febcd9bc4d87414673": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "38d2a56f4378f0d371f3ccdd1571fcf89b6ae089a34f039cd37bf541539f7daa",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "38887bca2e75ac66eede65f8e7b762470d0204b711486ee8bc9bc36c46375a2b",
+      "value": "v2"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "bbc26cf1f695e7ab0fff61be2f3f1154d96b03be6ee86716550fc0c69ff7acd6",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b7",
+        "kind": "vote",
+        "received": 55,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "5e19929a1e3acd6ffb6209d34c2b6c6c87da8ed019afcc02084de39da250aa85",
+      "value": 3
+    },
+    "frozen_message": {
+      "author": "v1",
+      "block": "b7",
+      "kind": "vote",
+      "received": 55,
+      "round": 4
+    },
+    "group": "twins_streamlet:run-154",
+    "role": "host"
+  },
+  "2c9118bbcc3b54dc0b086bce4a894296f84af55660df7d3e77880a6bfad203a5": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "91cc2542160a7e1ad515c8735a7079d2d546513e14f3ce02c275c60203d1f90b",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "1f468c83ad14816f509f73a0ae965bdbd8249085059d56adcf3a264dbba999d9",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "20d18f30becee0fc199cc66b6ae6b036933f4a45774e393989f17c26c310f233",
+      "value": 7
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b1",
+      "kind": "vote",
+      "received": 75,
+      "round": 8
+    },
+    "group": "twins_streamlet:run-140",
+    "role": "host"
+  },
+  "2f67e76cdc83c8054b7f3a7feef6a4cf41d285363766b15e3db1e303e586927d": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "a179e0e3ab3333b9a6fa474c17fa06f943825514acae55000ef363ab8157ec6c",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "93b9866e208a89d81d6e6f448075bf52d950dd53a774d62cde64527f5d1cca70",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "bfc84a11a759d6420366895e91ca8831cb7218bda0f4e098f41e2ef297108f04",
+      "value": 5
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b4",
+      "kind": "vote",
+      "received": 55,
+      "round": 6
+    },
+    "group": "twins_streamlet:run-220",
+    "role": "donor"
+  },
+  "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "750686e19bace8eb190500e6f507535da1e702672aec709ff66d657ddaf71d8d",
+      "value": "v1"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "2f22377c9e7603ad43f7de05048ae202b7c19f99269d560887636a8499759e0e",
+      "value": "v2"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "e5cf4b012ef20e9f614ce5955cb2b1883f2bb20dbd2f9a8e84482af9f7d52a11",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b6",
+        "kind": "vote",
+        "received": 35,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        383,
+        414
+      ],
+      "token_ids_sha256": "cdedac3fecf04171b53ae442d3565e5d7132953d95a522aa283acba2dd3afcdb",
+      "value": 3
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b6",
+      "kind": "vote",
+      "received": 35,
+      "round": 4
+    },
+    "group": "twins_streamlet:run-338",
+    "role": "donor"
+  },
+  "3cddd369d7a055fa5617185fa066da7e43b12e8b4b2d732f2d79b9ad30e2040a": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b4",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "6febcad197e1f4824b633870da10324b96d4de5f92dcab5b36ebffae98a57b28",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v3",
+        "block": "b4",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "8c1aaf5625b1ab9b1919abbd1659cdaccffae7c217ddf778bf035c4588690288",
+      "value": "v3"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b4",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "735f7a20a0002cd1a589d828dff7e67a5426e3eda48e112484d4bbb4886ef841",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b4",
+        "kind": "vote",
+        "received": 25,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        378,
+        409
+      ],
+      "token_ids_sha256": "42cbd8a51b019fbcaa79c7abdb162255d874e39f3532b285e265595c20e5446e",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v2",
+      "block": "b4",
+      "kind": "vote",
+      "received": 25,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-121",
+    "role": "donor"
+  },
+  "4569d20d3e4c1de9acc2a92eb95bd418271430e88d5cf5a18860018bc460b6c9": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "cfc8a72621a1fb736d3c36fff42063def2cc0205c42018ee4e39e0047d662717",
+      "value": "v1"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v3",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "c5db3928a9f00c0396b6c570a59e43ef4c5f36fa0c3227872cc3628d8d130638",
+      "value": "v3"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "f078c4ea0134c90ce73e11eb2be033a5d9b22ebc1726d487924f2a31e16d5abd",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b4",
+        "kind": "vote",
+        "received": 55,
+        "round": 4
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "1cfaadc35aec4329d0aef6bdfbe12ee29d1376961a7c0b714a7bc4aed5ec1176",
+      "value": 4
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b4",
+      "kind": "vote",
+      "received": 55,
+      "round": 5
+    },
+    "group": "twins_streamlet:run-181",
+    "role": "donor"
+  },
+  "45ef86e09e7476a1da0627b5872dd6c1aad0b28a8085fa7e6e768cf12681e3ce": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        444,
+        475
+      ],
+      "token_ids_sha256": "49e4f890e9adef5142ead6c2e99bc09436fe338e5f22495c4d5b7f12aa24a4d0",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        444,
+        475
+      ],
+      "token_ids_sha256": "e345d2d480410797ab9a10f970f1433c6e2973867b8e29d0a3b26fbeda5f501b",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        444,
+        475
+      ],
+      "token_ids_sha256": "d5bf2bce4103de2da92163c9d96a582b9083bf9c4007bbb31f917c6fe5943ec9",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b3",
+      "kind": "vote",
+      "received": 15,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-68",
+    "role": "donor"
+  },
+  "4bcbaf15f7abcee33004bf96d83bd4f1f285ef658e7cee32aa32964a465bc920": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "646d4cebc5aa10649b8d6bf98770a136c691c70dbe6eb7a0a5e3251667ebb463",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 6
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "f7b0201bd2c4985d6cca2b8b44f8e4f3b116c248de237da5bf18049c3dd6f60d",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b2",
+        "kind": "vote",
+        "received": 55,
+        "round": 5
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "c51e9318cb9b0825449aac66794aea55df56e1817d09169da3c69716e2ae9068",
+      "value": 5
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b2",
+      "kind": "vote",
+      "received": 55,
+      "round": 6
+    },
+    "group": "twins_streamlet:run-272",
+    "role": "host"
+  },
+  "70ede3f8992ddf19e80241908cafd99c6e9d4fcc289d7100b33a8773f6cbbd6e": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "d0fbd939fa9d5eff39c61149632c1a18497181695dc32ccc572d479ab2bd867d",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "141f2931c844fbe8cc2a3b641d59183fb154af90b68ae73de16f6322aaf04f45",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b1",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "ok": true,
+      "span": [
+        449,
+        480
+      ],
+      "token_ids_sha256": "845a476330150587121c37f988b06f7ede9af10a2ebca9b97b33603141246a85",
+      "value": 7
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b1",
+      "kind": "vote",
+      "received": 75,
+      "round": 8
+    },
+    "group": "twins_streamlet:run-140",
+    "role": "donor"
+  },
+  "7167a21b6694ed9b1ec10952dd226952aece6378ce351e5bae5ded5d99721d6d": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b5",
+        "kind": "vote",
+        "received": 25,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "8ccf8e31341d62af5b58cdcc95e55c82c3ad4f0f462194485800a0558b44704b",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b5",
+        "kind": "vote",
+        "received": 25,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "a287df6b13db7935ed83137221607753af020169737a36d9ea43500fe2d26a4a",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b5",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "dd8a366a716e46a7dd120f0ac566b8b395475d380cc1b7dd3191b79c6ad7f77f",
+      "value": 2
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b5",
+      "kind": "vote",
+      "received": 25,
+      "round": 3
+    },
+    "group": "twins_streamlet:run-212",
+    "role": "donor"
+  },
+  "756424185463a8c096811d8fa562ab3b871c479e1232adaf74bf921c2371a7d8": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b0",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "720ecf9948f635068a8a443b05c004efd39410074ffe3811e3d29d6d9d21cc08",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b0",
+        "kind": "vote",
+        "received": 75,
+        "round": 8
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "6d869ac05e35cb31065841374c376f7ec955785e0d1fa8aba48fda7e655560a4",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 75,
+        "round": 7
+      },
+      "ok": true,
+      "span": [
+        647,
+        678
+      ],
+      "token_ids_sha256": "8569a038ebfb47697877ac2ead763ce0e6c7b108c85d4f6a2295937fce16e7ee",
+      "value": 7
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b0",
+      "kind": "vote",
+      "received": 75,
+      "round": 8
+    },
+    "group": "twins_streamlet:run-212",
+    "role": "host"
+  },
+  "77ebbee1fb2db8b6d20c475f29566ba6bb9b9ede4a6966bf2c5fc6c38a8f3097": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b2",
+        "kind": "vote",
+        "received": 35,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        350,
+        381
+      ],
+      "token_ids_sha256": "53b4fee589d6eb7fe8ba685ed7ce995308d412be9cfbae4e311ff0e079f6b6ac",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v3",
+        "block": "b2",
+        "kind": "vote",
+        "received": 35,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        350,
+        381
+      ],
+      "token_ids_sha256": "1efb0962f21dbcd9a5e45f14e24563fec68c7e0243a3c01adbe21f6990815412",
+      "value": "v3"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b2",
+        "kind": "vote",
+        "received": 35,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        350,
+        381
+      ],
+      "token_ids_sha256": "d71a4699b359ac37b7c81e0cbb469ebe19791176b04af2710894d619f08cb695",
+      "value": "v4"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b2",
+        "kind": "vote",
+        "received": 35,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        350,
+        381
+      ],
+      "token_ids_sha256": "ee5c163630eef7f9f5794e283eb383d0846ff04f6c3210341b66d54b4ecf2c05",
+      "value": 2
+    },
+    "frozen_message": {
+      "author": "v1",
+      "block": "b2",
+      "kind": "vote",
+      "received": 35,
+      "round": 3
+    },
+    "group": "twins_streamlet:run-154",
+    "role": "donor"
+  },
+  "8ae8575481a0d75c756c30bd38b91c501eecac199260920f954924be5325e987": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "d1832911e2537de562e6362f0b5cb7e6d4454ecd518e5ad7e555b0be79d84d6a",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v7",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "0d197b49598c3ee5f023076aa4d28d5bf44301145f040fbeecc9db50f6368845",
+      "value": "v7"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b3",
+        "kind": "vote",
+        "received": 15,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        639,
+        670
+      ],
+      "token_ids_sha256": "90d351f84dbeac0d13b868862e56140f484c3d776f351a0b16e8382328f32839",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b3",
+      "kind": "vote",
+      "received": 15,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-283",
+    "role": "host"
+  },
+  "b7d11ed06ba2dc5f5b6dbd6fb53235e0dafa1431342e3b0aabfd82073926f3ab": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold_ok_values_tried": 0,
+      "ok": false
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v1",
+        "block": "b7",
+        "kind": "vote",
+        "received": 25,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        713,
+        744
+      ],
+      "token_ids_sha256": "0660d4c5b70ff551b6b9e374416b11842264fd46c6363eee697a765fc09167f2",
+      "value": "v1"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v5",
+        "block": "b7",
+        "kind": "vote",
+        "received": 25,
+        "round": 3
+      },
+      "ok": true,
+      "span": [
+        713,
+        744
+      ],
+      "token_ids_sha256": "b94746a3c746d9927c2696fdc21b7d12b7e2ebe4574eec07eaa8a84de39266b2",
+      "value": "v5"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "quorum": true
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b7",
+        "kind": "vote",
+        "received": 25,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        713,
+        744
+      ],
+      "token_ids_sha256": "225ec37bedc7329d63582d209eeb6e8b73ea269f34079d8efd04b2287cd632ac",
+      "value": 2
+    },
+    "frozen_message": {
+      "author": "v0",
+      "block": "b7",
+      "kind": "vote",
+      "received": 25,
+      "round": 3
+    },
+    "group": "twins_streamlet:run-344",
+    "role": "donor"
+  },
+  "c98f0db48cf6971abbe17a6a32ff03d6d9d637ba57b21e59bfd21efac1a13e4e": {
+    "LATE": {
+      "field": "received",
+      "gold_ok_values_tried": 8,
+      "ok": false
+    },
+    "NONSUP": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v0",
+        "block": "b0",
+        "kind": "vote",
+        "received": 35,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "84a793d7185cc55301021f04a92b39aa150479cd31b4b0bca12c90aff8e238ba",
+      "value": "v0"
+    },
+    "OK_ALT": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v4",
+        "block": "b0",
+        "kind": "vote",
+        "received": 35,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "31800be480c46540d78ca3e7b6125134dd39ceebebcf86bdcc9b53f313a01e20",
+      "value": "v4"
+    },
+    "OUTSIDER": {
+      "field": "author",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v5",
+        "block": "b0",
+        "kind": "vote",
+        "received": 35,
+        "round": 2
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "faf8baaa5978698ae294bf7679e7885fff2cbae76f21b729fb558e6026a72447",
+      "value": "v5"
+    },
+    "ROUND": {
+      "field": "round",
+      "gold": {
+        "certificate_action": "wait",
+        "conflicting_vote": false,
+        "quorum": false
+      },
+      "gold_ok_values_tried": 1,
+      "message": {
+        "author": "v2",
+        "block": "b0",
+        "kind": "vote",
+        "received": 35,
+        "round": 1
+      },
+      "ok": true,
+      "span": [
+        317,
+        348
+      ],
+      "token_ids_sha256": "c0091181009d7905cf60a9eb102b2af334c51df8d0ec110ae67bf9e54a2b8519",
+      "value": 1
+    },
+    "frozen_message": {
+      "author": "v2",
+      "block": "b0",
+      "kind": "vote",
+      "received": 35,
+      "round": 2
+    },
+    "group": "twins_streamlet:run-169",
+    "role": "donor"
+  }
+}

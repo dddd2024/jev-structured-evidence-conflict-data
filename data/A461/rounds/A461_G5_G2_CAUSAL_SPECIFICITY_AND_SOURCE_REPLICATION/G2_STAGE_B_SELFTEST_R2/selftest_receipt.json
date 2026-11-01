@@ -1,0 +1,71 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "363351fde6bf86a8f4e3430f5ae6910e2e9df586",
+  "passed": 12,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 464, 'scenes': 8, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_G5_G2_STAGE_B rows=464 batches=[(1, 116, 116, 'COMPLETE'), (2, 116, 116, 'COMPLETE'), (3, 116, 116, 'COMPLETE'), (4, 116, 116, 'COMPLETE')] conditions=16 kinds",
+      "test": "fake_full_path_464_in_4x116_with_identity_and_hook_liveness",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "restoration patches move M in 48/48 (fake model); identity == baseline 16/16; span stats on 384 patch rows",
+      "test": "patches_have_effect_and_identity_is_noop",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "permute == row reindex; normrand per-position norms == source (1e-5), seeded-deterministic, near-orthogonal to source",
+      "test": "control_transforms_unit",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "norm-matched random span mean norm == permuted source span norm on all 96 rows (bad=[])",
+      "test": "normrand_rows_norm_matched_in_run",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 464-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch layer changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: gpu backend: plan/quota override refused",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "2ff96b387f4cd0fed70f1a1bc34b9f503552d5b5",
+  "schema": "JEV_A461_G5_G2_STAGE_B_SELFTEST_V1",
+  "status": "PASS",
+  "tests": 12
+}

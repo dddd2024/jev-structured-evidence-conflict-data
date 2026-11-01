@@ -1,0 +1,1 @@
+{"arm":"old","error_message":"FAKE_FAULT throw4: synthetic forward failure on call 4","error_type":"RuntimeError","forward_index":4,"kind":"primary","logits_saved":false,"physical_prehook_after":4,"run":1,"scene_sha256":"e85fe021e1d645aab9c5f0f0eb5709e433667eb35c8035f1132d1c5563cf2f44","status":"FORWARD_FAILED"}

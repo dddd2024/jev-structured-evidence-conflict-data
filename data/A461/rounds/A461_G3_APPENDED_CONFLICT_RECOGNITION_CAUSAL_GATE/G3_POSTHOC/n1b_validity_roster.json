@@ -1,0 +1,251 @@
+{
+  "criterion": "author in validator_set AND state-token-count matched vs treatment",
+  "rows": [
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:b1cd03093b4318ae",
+      "source_group": "twins_streamlet:run-159",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:fee87791362f172f",
+      "source_group": "twins_streamlet:run-161",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:c72afdabd7d37ea9",
+      "source_group": "twins_streamlet:run-169",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v1",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:2844afec594fb8fe",
+      "source_group": "twins_streamlet:run-181",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v2",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:d2e114cce4f3dc2c",
+      "source_group": "twins_streamlet:run-182",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:f962cad8c2bf5d64",
+      "source_group": "twins_streamlet:run-231",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:fdac88a5d992f0a3",
+      "source_group": "twins_streamlet:run-24",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v1",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:7e6651aa28f8905b",
+      "source_group": "twins_streamlet:run-245",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:f6d93910fda5b861",
+      "source_group": "twins_streamlet:run-267",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v1",
+      "author_in_validator_set": true,
+      "family": "T2_WAIT_TO_REJECT_N1B",
+      "pair_key": "T2_WAIT_TO_REJECT:8569abcac4d9db01",
+      "source_group": "twins_streamlet:run-279",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:1f44a51c2d56e453",
+      "source_group": "twins_streamlet:run-140",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:e07def56c83846ab",
+      "source_group": "twins_streamlet:run-211",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:d74b45028314ec60",
+      "source_group": "twins_streamlet:run-212",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:733c199a6bb6e22b",
+      "source_group": "twins_streamlet:run-283",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:e2ccd95e3d406bfe",
+      "source_group": "twins_streamlet:run-328",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:5233f6229c28124e",
+      "source_group": "twins_streamlet:run-330",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:d749e7d944f417f8",
+      "source_group": "twins_streamlet:run-337",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "v1",
+      "author_in_validator_set": true,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:0ec558cfdf6909f2",
+      "source_group": "twins_streamlet:run-338",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:300e117fdb2dd9cb",
+      "source_group": "twins_streamlet:run-342",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "z_neutral_outside_set",
+      "author_in_validator_set": false,
+      "family": "T2_ACCEPT_TO_REJECT_N1B",
+      "pair_key": "T2_ACCEPT_TO_REJECT:82cbfc853cb5ac87",
+      "source_group": "twins_streamlet:run-351",
+      "token_matched_vs_treatment": false,
+      "valid_and_matched": false
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:b1db1532145aa2f9",
+      "source_group": "twins_streamlet:run-211",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v3",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:8a72ddd0cacee194",
+      "source_group": "twins_streamlet:run-231",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v5",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:e85fe021e1d645aa",
+      "source_group": "twins_streamlet:run-358",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v5",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:cf335142e5377a7b",
+      "source_group": "twins_streamlet:run-372",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:68623827030f250d",
+      "source_group": "twins_streamlet:run-45",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    },
+    {
+      "author": "v0",
+      "author_in_validator_set": true,
+      "family": "T3_PREEXISTING_CONTRAST_N1B",
+      "pair_key": "T3_PREEXISTING_CONTRAST:f1c9741e08c066bc",
+      "source_group": "twins_streamlet:run-83",
+      "token_matched_vs_treatment": true,
+      "valid_and_matched": true
+    }
+  ],
+  "schema": "JEV_A461_G3_N1B_VALIDITY_ROSTER_V1",
+  "source": "per independent evidence-contract audit 3c559a7 (P0-1); supersedes G0C receipt n1b_matched_vs_treatment=19 which counted token match only",
+  "summary": {
+    "by_family_valid": {
+      "T2_ACCEPT_TO_REJECT_N1B": 3,
+      "T2_WAIT_TO_REJECT_N1B": 10,
+      "T3_PREEXISTING_CONTRAST_N1B": 6
+    },
+    "invalid_rows": "7 T2 accept cells use z_neutral_outside_set (no fresh validator available) and are not token-matched",
+    "total": 26,
+    "valid_and_matched": 19
+  }
+}

@@ -1,0 +1,15 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 498, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_498_with_50_captures_32_layers :: status=COMPLETE_A461_MECH_M1 rows=498 batches=[(1, 128, 128, 'COMPLETE'), (2, 128, 128, 'COMPLETE'), (3, 128, 128, 'COMPLETE'), (4, 114, 114, 'COMPLETE')] captures saved=50 (sha+shape ok=True)
+PASS all_row_patches_reach_c_and_action_32_layers :: host baselines=8; all-row patches moving both C and action rows at 7 layers: 448/448 (fake, 32 layers)
+PASS dose_matched_rows_equal_round_perturbation_size :: 112 dose-matched rows: mean per-position perturbation == ROUND patch's (bad=[]); all differ in direction from the target
+PASS variant_arms_rebuilt_from_g10_and_used_as_sources :: variant captures with G1.0 token sha + span and distinct from new: 28/28; patch sources {'new': 112, 'ROUND': 224, 'OKALT': 112}
+PASS tampered_g10_counterfactuals_refused :: one variant round edited: refused at the blob pin
+PASS dose_matched_transform_unit :: deltarand: per-position ||out - target|| == ||source - target||, seeded-deterministic, random direction
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission from a new out dir after a complete 498-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: manifest with one patch row's seed changed: refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 14, "tests": 14, "runner_blob": "91db323cb75975554d6eb97f49aaf14e25547278", "manifest_blob": "8c92e36a700721bd0a1de7ef588302f1c5b4f686"}

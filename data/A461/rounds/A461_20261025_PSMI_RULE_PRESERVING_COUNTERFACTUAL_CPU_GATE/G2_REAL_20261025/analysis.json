@@ -1,0 +1,70 @@
+{
+  "aggregate": {
+    "LANL_L1_B_THRESHOLD": {
+      "N1_held": 9,
+      "failed_to_change": 5,
+      "responsive_correct": 4
+    },
+    "LANL_L3A_RISK_NONREGRESSION": {
+      "N1_held": 4,
+      "baseline_wrong": 2,
+      "nonregression_held": 4
+    },
+    "LANL_N2_TIMESTAMP_INVARIANCE": {
+      "held": 3
+    },
+    "TWINS_T1_QUORUM_AXIS": {
+      "N1B_held": 3,
+      "N1B_violation": 2,
+      "N1_not_forwarded": 4,
+      "N1_violation": 1,
+      "baseline_wrong": 1,
+      "failed_to_change": 2,
+      "responsive_correct": 3
+    },
+    "TWINS_T2_CONFLICT_AXIS": {
+      "N1B_held": 4,
+      "N1_not_forwarded": 6,
+      "failed_to_change": 6
+    },
+    "TWINS_T3_CONFLICT_STABILITY": {
+      "N1B_held": 3,
+      "N1_not_forwarded": 4,
+      "baseline_wrong": 1,
+      "nonregression_held": 3
+    }
+  },
+  "forwards": 103,
+  "g1_status": "COMPLETE_A461_PSMI_G1_PAIRED_PILOT",
+  "n2_retiming": [
+    {
+      "gold": "record_failed_attempt",
+      "old_gold": "record_failed_attempt",
+      "pair_key": "LANL_N2_TIMESTAMP_INVARIANCE:8405be21110e3ceb",
+      "retimed_pred": "record_failed_attempt",
+      "violation": false
+    },
+    {
+      "gold": "record_failed_attempt",
+      "old_gold": "record_failed_attempt",
+      "pair_key": "LANL_N2_TIMESTAMP_INVARIANCE:9ffd190c8c9483e9",
+      "retimed_pred": "record_failed_attempt",
+      "violation": false
+    },
+    {
+      "gold": "record_failed_attempt",
+      "old_gold": "record_failed_attempt",
+      "pair_key": "LANL_N2_TIMESTAMP_INVARIANCE:1be5102b0f7b22b6",
+      "retimed_pred": "record_failed_attempt",
+      "violation": false
+    }
+  ],
+  "notes": [
+    "action branch = certificate_action (Twins) / triage (LANL); argmax over native option logits",
+    "old-correct conditioning per preregistration; no cross-family merging",
+    "N1B matched neutrals only from the 14 token-count-matched constructions",
+    "margin_old2new > 0 means the native action logit difference moved toward the preregistered new/kept Gold"
+  ],
+  "pairs": 31,
+  "schema": "JEV_A461_PSMI_G2_ANALYSIS_V1"
+}

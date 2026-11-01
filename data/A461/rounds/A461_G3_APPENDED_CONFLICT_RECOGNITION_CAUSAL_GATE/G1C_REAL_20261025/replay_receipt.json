@@ -1,0 +1,29 @@
+{
+  "replays": [
+    {
+      "base_row": "T2_WAIT_TO_REJECT:b1cd03093b4318ae:old",
+      "primary_index": 1,
+      "replay_index": 106,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "T2_WAIT_TO_REJECT:fee87791362f172f:old",
+      "primary_index": 2,
+      "replay_index": 107,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "T2_WAIT_TO_REJECT:c72afdabd7d37ea9:old",
+      "primary_index": 3,
+      "replay_index": 108,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "T2_WAIT_TO_REJECT:2844afec594fb8fe:old",
+      "primary_index": 4,
+      "replay_index": 109,
+      "verdict": "IDENTICAL"
+    }
+  ],
+  "schema": "JEV_A461_G3_G1C_REPLAY_V1"
+}

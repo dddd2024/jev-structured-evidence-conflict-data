@@ -1,0 +1,77 @@
+{
+  "schema": "JEV_A461_G5_G2_DESIGN_DRAFT_V2",
+  "id": "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION",
+  "date": "2026-10-25",
+  "status": "DESIGN_V2_PENDING_NARROW_REVIEW_NOT_ADMITTED",
+  "supersedes": "g2_design_draft.json (V1, blob 94fdfd29) per independent design review 458c6980 (comment 6400199632, P0-1..4)",
+  "cpu_census_carried_forward": {
+    "note": "PASS_CPU_CENSUS_ONLY per the review: construction feasibility, NOT model-confirmed donors, NOT GPU admission",
+    "twins_scenes": 797, "unused_scenes": 713,
+    "constructible_pairs": 189,
+    "same_width_pool": {"total": 180, "by_cell": {"accept": 155, "wait": 25}, "groups": 28},
+    "same_width_excluding_pilot_trio": {"total": 172, "groups": 26},
+    "fallback_diff_width_tier": {"total": 9, "policy": "excluded from the confirmatory pool; usable only with explicit per-pair justification at admission"}
+  },
+  "p0_1_qualified_donor_base_rate_and_sizing": {
+    "denominator_correction": "descriptive T2 construction-cohort rate = 2 recognized / 56 constructed T2 appended-conflict cases (20 confirmation-round T2 + 36 V2 T2). The confirmation round's 6 T3 pre-existing-conflict controls are NOT in this denominator. The rounds' strict-eligibility criteria differ, so this is a descriptive construction-cohort rate, not a pooled strict rate.",
+    "strict_eligibility_stratification": "the Stage-A search re-screens every candidate with the same strict criteria (clean old baseline, recognized edited read, valid token-matched neutral reading false) before any qualification count; per-stratum counts reported",
+    "sizing_as_probability_not_promise": {
+      "model": "binomial at the descriptive p=2/56, IID assumption (explicitly an approximation; construction strata differ)",
+      "table": [
+        {"N_pairs": 56, "E_K": 2.0, "P_at_least_2": 0.599},
+        {"N_pairs": 62, "E_K": 2.21, "P_at_least_2": 0.654},
+        {"N_pairs": 93, "E_K": 3.32, "P_at_least_2": 0.849},
+        {"N_pairs": 124, "E_K": 4.43, "P_at_least_2": 0.938},
+        {"N_pairs": 180, "E_K": 6.43, "P_at_least_2": 0.989}
+      ],
+      "rule": "E[K]=2 does NOT guarantee any qualified donor; the search is sized so P(>=2 new qualified donors) is reported and agreed at admission, and the stop condition 'no new qualified donor' is a live outcome, not a failure of protocol"
+    }
+  },
+  "p0_2_admission_pool_and_full_request_token_gate": {
+    "primary_pool": "180 same-width candidates (155 accept / 25 wait, 28 groups); the 9 fallback-diff-width rows are excluded from confirmatory use",
+    "per_block_width_not_sufficient": "same token length of the block label does not prove whole-request alignment; admission per candidate requires the pilot-grade full-request token gate",
+    "full_request_token_gate_mandatory": [
+      "native encode old/new/SA with the frozen BASE tokenizer through the kev encode path; record full-sequence token-ids SHA256",
+      "first-divergence appended-span anchors; trailing-suffix (validator_set) token preservation asserted per arm",
+      "exact +34 token growth on both new and SA arms (same-width confirmatory tier)",
+      "conflicting_vote causal row resolved dynamically from to_record meta; branch-id equality old vs arm per question"
+    ]
+  },
+  "p0_3_source_group_independence_tiers": {
+    "tier1_never_touched_groups": "NONE EXIST: the 84-scene used ledger covers all 42/42 DEV run groups; claims of 'run groups never seen by this study line' require corpus data beyond the current 42 groups (future work, not G2)",
+    "tier2_confirmatory_eligible": "unused scenes in run groups other than the G5 pilot trio (run-83/run-114/run-182): 172 same-width candidates across 26 groups - worded as 'new scenes and run groups not used by the pilot', never as line-level unseen groups",
+    "tier3_exploratory_only": "unused scenes inside the pilot trio's groups (8 same-width candidates) - exploratory additions only, never confirmatory, never counted as replication",
+    "claim_language_rule": "G2 results may claim 'replication across new source scenes/groups relative to the pilot'; any stronger independence claim is out of scope without tier-1 data"
+  },
+  "p0_4_two_stage_budget_separately_frozen": {
+    "stage_A_donor_discovery_gpu": {
+      "content": "N candidate pairs x 3 arms (old/new/SA) native forwards + determinism replays; qualification judged from raw logits per the strict criteria",
+      "examples_not_approval": {"N62": "186 forwards = 2 runs of <=128", "N124": "372 forwards = 3 runs of <=128", "N180": "540 forwards = 5 runs of <=128"},
+      "batching": "each run <= 128 hard cap with its own admission receipt and physical ledger; append-only across runs"
+    },
+    "stage_B_causal_intervention_gpu": {
+      "gate": "only after Stage-A yields >= 2 qualified donors in tier-2 groups with valid token gates",
+      "corrected_formula": "F(H, L) = 4 + 4H + 8HL  [3 donor captures + 1 donor NEW baseline + H x (host SA baseline + host SA capture + host NEW capture + identity) + restoration {main + SA-sham + permuted + norm-matched random} H x L + suppression {main + donor-side SA-sham + permuted + norm-matched random} H x L]",
+      "correction_note": "V1's 4+5H+5HL omitted the two main intervention arms (2HL) and the restoration norm-matched control (1HL)",
+      "examples_not_approval": {"H2_L2": 44, "H4_L2": 84, "H4_L3": 116, "H6_L2": 124},
+      "cap": "each run <= 128; final counts only from the runner trace on the frozen roster; donor-discovery and intervention stages are separately admitted, reviewed, and authorized"
+    }
+  },
+  "confirmatory_vs_exploratory": {
+    "confirmatory": "layer 11 only; tier-2 same-width candidates; donor-side matched negative controls preregistered; N sized by the probability table",
+    "exploratory": "layer sweep beyond 11 (23 kept as structural-null control), tier-3 scenes, any additional cells - reported without selection, never as replication"
+  },
+  "controls_unchanged_from_V1": [
+    "suppression negative controls: host_SA -> donor_new, host_new permuted -> donor_new, norm-matched random -> donor_new (per-pair per-layer same-site pairing, seed frozen at admission)",
+    "restoration additions: per-pair span norm / magnitude / activation-distribution quantification; norm-matched random control on the restoration side",
+    "key-specific attribution gate: a separate component-controlled K/Q intervention protocol remains required before any Key-only mediation claim"
+  ],
+  "stop_conditions": [
+    "Stage-A yields no new tier-2 qualified positive donor at the admitted N (live outcome; downgrade/HOLD, no protocol failure)",
+    "dual-oracle disagreement on any constructed arm",
+    "full-request token gate failure on any admitted candidate",
+    "random / SA-sham controls explain the flips as well as the treatment",
+    "Key-specific effect does not exceed the cheap norm-matched baseline"
+  ],
+  "gpu_status": "NO GPU AUTHORIZED; both stages require narrow design-review PASS, new admission receipts with per-forward traces, and fresh explicit user authorization"
+}

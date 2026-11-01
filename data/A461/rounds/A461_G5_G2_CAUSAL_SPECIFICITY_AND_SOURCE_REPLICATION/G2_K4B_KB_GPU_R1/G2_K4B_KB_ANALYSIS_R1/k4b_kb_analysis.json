@@ -1,0 +1,200 @@
+{
+  "host_baselines": {
+    "1b8baf4e66a5": {
+      "A": -0.2228,
+      "M": -1.027
+    },
+    "701ee9d599a7": {
+      "A": -0.5991,
+      "M": -0.8265
+    },
+    "9795433b674f": {
+      "A": -1.7525,
+      "M": -0.8261
+    },
+    "9f94fdfc4851": {
+      "A": -0.0243,
+      "M": -0.7614
+    }
+  },
+  "profile": {
+    "11": {
+      "C_flips": {
+        "dose": 0,
+        "main": 3
+      },
+      "R_flips": {
+        "dose": 0,
+        "main": 6
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 3
+      },
+      "median_dA": {
+        "dose": -0.2775,
+        "main": 0.148
+      },
+      "median_dM": {
+        "dose": -0.458,
+        "main": 0.248
+      },
+      "median_gap": 0.6438,
+      "share_main_gt_dose": 0.8696
+    },
+    "15": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 0,
+        "main": 13
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": -0.0815,
+        "main": 0.6943
+      },
+      "median_dM": {
+        "dose": -0.1494,
+        "main": 0.346
+      },
+      "median_gap": 0.5392,
+      "share_main_gt_dose": 0.9565
+    },
+    "19": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": -0.0008,
+        "main": -0.0031
+      },
+      "median_dM": {
+        "dose": -0.0016,
+        "main": -0.0079
+      },
+      "median_gap": -0.0049,
+      "share_main_gt_dose": 0.087
+    },
+    "23": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": 0.0003,
+        "main": -0.0025
+      },
+      "median_dM": {
+        "dose": 0.0006,
+        "main": 0.0033
+      },
+      "median_gap": 0.0025,
+      "share_main_gt_dose": 0.7826
+    },
+    "27": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": -0.0001,
+        "main": -0.0027
+      },
+      "median_dM": {
+        "dose": 0.0003,
+        "main": 0.0023
+      },
+      "median_gap": 0.0022,
+      "share_main_gt_dose": 0.7391
+    },
+    "3": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 3,
+        "main": 0
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": 0.0104,
+        "main": -0.4079
+      },
+      "median_dM": {
+        "dose": -0.0235,
+        "main": -1.0082
+      },
+      "median_gap": -0.9685,
+      "share_main_gt_dose": 0.0435
+    },
+    "7": {
+      "C_flips": {
+        "dose": 0,
+        "main": 0
+      },
+      "R_flips": {
+        "dose": 5,
+        "main": 2
+      },
+      "cells": 23,
+      "joint": {
+        "dose": 0,
+        "main": 0
+      },
+      "median_dA": {
+        "dose": 0.053,
+        "main": -0.3021
+      },
+      "median_dM": {
+        "dose": 0.0124,
+        "main": -0.8615
+      },
+      "median_gap": -0.8257,
+      "share_main_gt_dose": 0.087
+    }
+  },
+  "rule": "argmax median(dM_main - dM_dose) over cross-group cells; ties -> lower layer",
+  "schema": "JEV_A461_G5_G2_K4B_KB_ANALYSIS_V1",
+  "window_layer": 11
+}

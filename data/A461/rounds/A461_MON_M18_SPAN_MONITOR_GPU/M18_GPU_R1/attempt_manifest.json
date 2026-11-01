@@ -1,0 +1,6 @@
+{
+  "admission_id": "A461_MON_M18_GPU_20261031_R1",
+  "attempt_id": "4eb8ac056b8843d2ba1ee042708e27e1",
+  "backend": "gpu",
+  "runner_blob": "f5e5c49974ec833c2df4b298f74b9fa5a0d3a214"
+}

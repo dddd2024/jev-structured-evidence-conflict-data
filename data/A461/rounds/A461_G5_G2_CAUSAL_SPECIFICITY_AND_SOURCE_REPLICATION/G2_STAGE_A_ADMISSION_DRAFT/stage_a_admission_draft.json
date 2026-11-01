@@ -1,0 +1,37 @@
+{
+  "composition": {
+    "W_strata_in_slice": {
+      "W31": 124
+    },
+    "groups_in_slice": 17,
+    "max_calls_per_run": 128,
+    "primary_forwards": 372,
+    "replays": 6,
+    "runs": 3,
+    "total_physical_calls": 378
+  },
+  "id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU",
+  "not_included": [
+    "Stage-B budget (separately admitted after >=2 qualified donors)",
+    "any claim of line-level never-seen groups (tier-1 does not exist)"
+  ],
+  "option": "A (frozen-width same-W pairing; the W32 scene exploratory)",
+  "qualification_rule": "strict: old C=false, new C=true, SA C=false on the frozen witness inputs; per-stratum (W, cell) reporting; <2 qualified => HOLD",
+  "recommended_N": 124,
+  "runner_must_enforce": [
+    "per-forward append-only raw row (full 4-question logits, token-ids SHA, run/scene/arm)",
+    "admission receipt with physical pre-hook ledger == receipt == this manifest count",
+    "replays bitwise-equal to their referenced first primary old arm",
+    "each run <= 128 physical calls including replays",
+    "inputs read by git blob (roster blob pinned at admission, corpus SHA); no other scene",
+    "fail-closed: keep all completed rows on any gate failure"
+  ],
+  "schema": "JEV_A461_G5_G2_STAGE_A_ADMISSION_DRAFT_V1",
+  "sizing": {
+    "E_K_at_N124": 4.43,
+    "P_at_least_2_binomial_approx": 0.938,
+    "caveat": "IID approximation across construction strata; not a guarantee; <2 qualified donors => HOLD per design",
+    "descriptive_rate": "2/56 T2 construction cohort"
+  },
+  "status": "DRAFT_PENDING_NARROW_REVIEW_AND_USER_AUTHORIZATION"
+}

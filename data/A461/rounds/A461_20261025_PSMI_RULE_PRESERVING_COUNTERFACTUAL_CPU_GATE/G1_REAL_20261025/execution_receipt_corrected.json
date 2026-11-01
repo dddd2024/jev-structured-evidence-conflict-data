@@ -1,0 +1,59 @@
+{
+  "a428_shared_scene_identity": [
+    "A428_023"
+  ],
+  "backprop_calls": 0,
+  "budget": 103,
+  "erratum": "V1 receipt reported FAIL solely due to a post-loop replay bookkeeping bug (replay rows compared against each other instead of against their primary forwards); all 103 forwards had already completed and been persisted. This corrected receipt recomputes replay verdicts from the persisted logits. Raw attempt receipt preserved at execution_receipt.json (V1); attempt dirs G1_ATTEMPT1_NULL_OLD_ROW / G1_ATTEMPT2_NULL_OLD_ROW_AGAIN / G1_ATTEMPT3_TRACEBACK_FOUND_ROW / G1_ATTEMPT4_QUEUE_TUPLE / G1_ATTEMPT5_STALE / G1_DEBUG_TIMEOUT preserved on the server.",
+  "gpu_model_loads": 1,
+  "network_calls": 0,
+  "physical_forwards": 103,
+  "plan_composition": {
+    "N1B_matched": 14,
+    "N1_unmatched": 17,
+    "N2_retime": 3,
+    "old_baseline": 34,
+    "replay": 4,
+    "treatment": 31
+  },
+  "pre_forward_gate": "PASS_A461_PSMI_G1_PRE_FORWARD_GATES",
+  "replay_verdicts": [
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6:old",
+      "logits_identical": true,
+      "primary_index": 1,
+      "replay_index": 100,
+      "token_ids_identical": true,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7465d5a079055d8b:old",
+      "logits_identical": true,
+      "primary_index": 2,
+      "replay_index": 101,
+      "token_ids_identical": true,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15:old",
+      "logits_identical": true,
+      "primary_index": 3,
+      "replay_index": 102,
+      "token_ids_identical": true,
+      "verdict": "IDENTICAL"
+    },
+    {
+      "base_row": "LANL_L1_B_THRESHOLD:7d0d542458e93847:old",
+      "logits_identical": true,
+      "primary_index": 4,
+      "replay_index": 103,
+      "token_ids_identical": true,
+      "verdict": "IDENTICAL"
+    }
+  ],
+  "run_id": "a461-psmi-counterfactual-cpu-gate-20261025-v1",
+  "schema": "JEV_A461_PSMI_G1_EXECUTION_RECEIPT_V2_CORRECTED",
+  "status": "COMPLETE_A461_PSMI_G1_PAIRED_PILOT",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0
+}

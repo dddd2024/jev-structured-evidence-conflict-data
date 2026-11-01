@@ -1,0 +1,251 @@
+{
+ "ci95_group_bootstrap": {
+  "probe_L19_g2|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L19_g2|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "probe_L19_g4|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L19_g4|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "probe_L19_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L19_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g2|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g2|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g4|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g4|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "probe_L31_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "random_L19_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "random_L19_g8|REPAIR": [
+   0.0,
+   0.0
+  ],
+  "random_L31_g8|FV": [
+   0.0,
+   0.0
+  ],
+  "random_L31_g8|REPAIR": [
+   0.0,
+   0.0
+  ]
+ },
+ "consistency_gate": {
+  "expected": 5580,
+  "op_conditions": {
+   "probe_L19_g2": 620,
+   "probe_L19_g4": 620,
+   "probe_L19_g8": 620,
+   "probe_L31_g2": 620,
+   "probe_L31_g4": 620,
+   "probe_L31_g8": 620,
+   "random_L19_g8": 620,
+   "random_L31_g8": 620
+  },
+  "op_rows": 4960,
+  "pass": true,
+  "replay_bitwise_m18": 620,
+  "replays": 620,
+  "rows": 5580
+ },
+ "counts": {
+  "BENIGN": 483,
+  "MISSED": 84,
+  "NATIVE_FV": 13,
+  "RECOGNIZED": 40
+ },
+ "fake_dry_run": false,
+ "head_pt_sha256": "dd633435998ecc751ac538717a3742e32149500fabf7d7276287dbf0693f347c",
+ "measures": {
+  "probe_L19_g2": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": -0.0003
+  },
+  "probe_L19_g4": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": -0.0009
+  },
+  "probe_L19_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": -0.0021
+  },
+  "probe_L31_g2": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": -0.0008
+  },
+  "probe_L31_g4": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0001,
+   "median_dA_missed": -0.0024
+  },
+  "probe_L31_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0003,
+   "median_dA_missed": -0.0056
+  },
+  "random_L19_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": -0.0
+  },
+  "random_L31_g8": {
+   "FV": 0.0,
+   "FV_OUTSIDER": 0.0,
+   "FV_ROUND": 0.0,
+   "FV_SA": 0.0,
+   "FV_old": 0.0,
+   "RECOGNIZED_kept": 1.0,
+   "REPAIR": 0.0,
+   "fv_groups": {
+    "cp95_upper": 0.1616,
+    "groups_with_fv": 0,
+    "of": 17
+   },
+   "median_dA_benign": -0.0,
+   "median_dA_missed": 0.0
+  }
+ },
+ "readout_geometry": {
+  "median_cos_probe_vs_head_gradient": {
+   "BENIGN": -0.0222,
+   "MISSED": -0.0243,
+   "RECOGNIZED": 0.0023
+  },
+  "note": "cos > 0: moving along the held-out conflict direction raises z_reject - z_accept",
+  "status": "COMPUTED"
+ },
+ "rules": {
+  "always_reported": "REPAIR, FV per arm, RECOGNIZED retention, NATIVE_FV rows, median dA, per group; the readout geometry from the replays: cosine between u_L31 (through the final norm, linearised at each row) and the head's reject - accept query-side direction, per row, MISSED vs BENIGN",
+  "arms": "per M18 row: replay (no op; bitwise == M18 raw) + PROBE at L19 and L31 x gamma 2 / 4 / 8 + RANDOM at L19 and L31 x gamma 8",
+  "consistency_gate": "all 620 replay rows bitwise == the M18 raw rows; every op row records |delta h| at the decide token only (other rows' logits equal the replay's bitwise); gamma and direction as planned; otherwise INCONSISTENT",
+  "directions": "PROBE u_{L,g}: the M18 probe (standardised L2 logistic, C = 1, LBFGS float64, 200 iterations) on the LAST_RESID_L features of all rows outside source group g; u = (w / sd) normalised in raw space; applied only to rows of group g (held out). RANDOM: a unit Gaussian direction seeded by sha256(forward identity), with its own c from the same training BENIGN rows",
+  "interpretation_fixed_in_advance": "READOUT_GAIN_REPAIRS at L31 (the head's input layer): the conflict feature already present in the missed scenes is causally usable by the pointer head; the miss is an under-weighted readout of a present feature (H-READ, causal at the readout), not a missing representation. At L19 only: usable through the remaining layers. NONSELECTIVE: amplifying the direction pushes benign rows to reject too, so it is not a clean conflict feature for the head. INERT: decodable but not usable along this direction (decodability without use). Level S1-S2 (an artificial intervention on the native action); not a defence: the operation needs the held-out probe, i.e. rule-labelled data",
+  "measures": "REPAIR(arm) = share of MISSED rows whose action becomes reject_conflict; FV(arm) = share of BENIGN rows whose action becomes reject_conflict, overall and per arm (old, SA, ROUND, OUTSIDER); group-level: number of groups with >= 1 false veto and its Clopper-Pearson one-sided 95% bound; percentile group-bootstrap CIs (10000)",
+  "operation": "at the <decide> token of the certificate_action row only (other rows and positions untouched), on the residual output of decoder layer L: h' = h + (gamma - 1) * (h . u - c) * u, u a unit direction, c = mean of h . u over the training groups' BENIGN rows (M18 definition); gamma = 1 is the identity",
+  "sets": "MISSED = new rows whose M18 native action is not reject_conflict (84); RECOGNIZED = new rows that are rejected (40); BENIGN = old / SA / ROUND / OUTSIDER rows not rejected natively (483); NATIVE_FV = the 13 near-miss rows kev-4B already rejects (reported)",
+  "verdict_readout": "per layer L: READOUT_GAIN_REPAIRS iff for some gamma in {2, 4, 8} PROBE has REPAIR >= 0.5 and FV <= 0.05 on every benign arm, and RANDOM at gamma 8 has REPAIR <= 0.10; READOUT_GAIN_NONSELECTIVE iff some PROBE gamma has REPAIR >= 0.5 but every such gamma has FV > 0.05 on some arm; READOUT_GAIN_INERT iff PROBE REPAIR < 0.5 at every gamma; RANDOM_ALSO_REPAIRS iff RANDOM gamma 8 REPAIR > 0.10 (reported with the verdict)"
+ },
+ "schema": "JEV_A461_MECH_M19_ANALYSIS_V1",
+ "verdicts": {
+  "L19": "READOUT_GAIN_INERT",
+  "L19_clean_gammas": [],
+  "L31": "READOUT_GAIN_INERT",
+  "L31_clean_gammas": []
+ }
+}

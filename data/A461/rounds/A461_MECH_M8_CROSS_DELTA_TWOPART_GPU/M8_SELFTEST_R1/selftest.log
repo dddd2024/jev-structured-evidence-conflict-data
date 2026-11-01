@@ -1,0 +1,17 @@
+PASS preflight_token_and_span_gates_on_real_manifest :: {'manifest_rows': 3164, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}
+PASS fake_full_path_3164_with_44_captures_and_class_files :: status=COMPLETE_A461_MECH_M8 rows=3164 batches=25 captures=44 files=88 (sha ok=True, shapes ok=True); cross-row max 2.4e-07
+PASS class_contributions_partition_and_sum_to_oproj_input :: 5 class contributions sum to the forward's o_proj input (max abs 4.47e-07; saved fp16 files 4.9e-04); attention readout reconstructs it (4.77e-07)
+PASS fifteen_arms_wiring_and_fake_width_identities :: 9 arms distinct in 208/208 (cell, source); ('xdlr64_sm', 'xdlr64', 'rand64_sm', 'tp64') == dlr64_sm at k = fake width 64 (max |logit diff| 1.1e-05); tp64 / tpD64 main == dlr64_sm main bitwise: True; t
+PASS rescaled_arms_pass_the_size_gate :: 1664 rescaled rows: runner size gate max rel err 3.1e-07; rand64_sm change == ||delta_B|| (== dlr64_sm at full width; mean delta norm max rel diff 2.5e-06); xdlr_k energy medians {4: 0.784903, 16: 0.9
+PASS all_row_patches_reach_c_and_action :: host baselines=16; all-row patches moving both C and action rows: 3120/3120 (small arms can be tiny in the fake model)
+PASS identities_pool_subspace_twopart_and_cshift :: full no-op and zero-contrast two-part == its low-rank part, bitwise; max |logit diff| cshift_donor_only_vs_pool_donor 0.0e+00, dlr_full_width_vs_pool_donor 4.0e-06, twopart_zero_contrast_vs_dlr_full_w
+PASS round_arms_rebuilt_from_g10_and_used_as_sources :: ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 1560, 'ROUND': 1560}, targets {'new': 3120}; pools, bases and contrasts exclude the cel
+PASS tampered_g10_counterfactuals_refused :: one variant round edited: refused at the blob pin
+PASS extra_lm_call_refused_at_prehook :: 2nd LM call inside reserved call 50 denied before LM body; physical 50, rows 49
+PASS same_approval_reuse_refused_by_ledger :: same admission from a new out dir after a complete 3164-call run: refused, 0 loads
+PASS gpu_policy_v2_admission_reaches_pre_model_gate :: synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched
+PASS gpu_tampered_manifest_refused :: manifest with one patch row's key classes changed: refused before load
+PASS gpu_plan_override_refused :: refused: approved batches != expected
+PASS full_gpu_run_outside_runs_root_refused :: refused before mkdir
+PASS no_gpu_in_selftest :: all receipts: gpu_model_loads=0, CUDA never initialized
+{"status": "PASS", "passed": 16, "tests": 16, "runner_blob": "7cd3ef9deb1803324939de0e598bccb83514ba6d", "manifest_blob": "83d34f9e78187783aaeb5b89645a60bbae3c68e8"}

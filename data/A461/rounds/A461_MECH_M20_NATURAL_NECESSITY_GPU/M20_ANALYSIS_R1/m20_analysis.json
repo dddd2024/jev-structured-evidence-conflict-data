@@ -1,0 +1,240 @@
+{
+ "consistency_gate": {
+  "donor_baselines": 14,
+  "donor_baselines_eq_M1": 14,
+  "pass": true,
+  "patch_rows": {
+   "bulk_ctrl": 104,
+   "bulk_host": 104,
+   "bulk_hostmean": 14,
+   "bulk_round_self": 14,
+   "full_ctrl": 104,
+   "full_host": 104
+  }
+ },
+ "detail_bulk": {
+  "C_loss_diff": 0.1827,
+  "ctrl": {
+   "C_loss": 0.07692307692307693,
+   "J_loss": 0.12,
+   "median_dA": 0.1356,
+   "median_dM": -0.0007,
+   "n": 104
+  },
+  "donors_majority": 12,
+  "frac_dM_host_lt_ctrl": 0.7404,
+  "host": {
+   "C_loss": 0.25961538461538464,
+   "J_loss": 0.3466666666666667,
+   "median_dA": -0.1233,
+   "median_dM": -0.1741,
+   "n": 104
+  }
+ },
+ "detail_full": {
+  "C_loss_diff": 0.1346,
+  "ctrl": {
+   "C_loss": 0.0673076923076923,
+   "J_loss": 0.2,
+   "median_dA": 0.0921,
+   "median_dM": 0.0167,
+   "n": 104
+  },
+  "donors_majority": 9,
+  "frac_dM_host_lt_ctrl": 0.625,
+  "host": {
+   "C_loss": 0.20192307692307693,
+   "J_loss": 0.3333333333333333,
+   "median_dA": -0.1112,
+   "median_dM": -0.1069,
+   "n": 104
+  }
+ },
+ "donor_native": {
+  "0153673a": {
+   "A": 0.3571,
+   "M": 0.1441
+  },
+  "1218efed": {
+   "A": 1.5608,
+   "M": 1.383
+  },
+  "1b3e7af6": {
+   "A": -0.1961,
+   "M": 0.2837
+  },
+  "1f8c0826": {
+   "A": -0.2552,
+   "M": 0.1109
+  },
+  "2f67e76c": {
+   "A": -0.1329,
+   "M": 0.0543
+  },
+  "35253a26": {
+   "A": 0.5102,
+   "M": 0.8892
+  },
+  "3cddd369": {
+   "A": 1.6809,
+   "M": 1.4819
+  },
+  "4569d20d": {
+   "A": 0.5355,
+   "M": 0.7906
+  },
+  "45ef86e0": {
+   "A": 0.4745,
+   "M": 0.5236
+  },
+  "70ede3f8": {
+   "A": -0.2717,
+   "M": 0.1018
+  },
+  "7167a21b": {
+   "A": 0.2542,
+   "M": 0.2743
+  },
+  "77ebbee1": {
+   "A": 0.1446,
+   "M": 0.1579
+  },
+  "b7d11ed0": {
+   "A": 0.2607,
+   "M": 0.145
+  },
+  "c98f0db4": {
+   "A": 0.0803,
+   "M": 0.428
+  }
+ },
+ "fake_dry_run": false,
+ "joint_donors": 10,
+ "leave_one_donor_group_out": {
+  "twins_streamlet:run-121": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-140": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-154": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-169": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-181": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-212": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-220": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-272": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-283": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-301": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-337": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-338": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-344": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  },
+  "twins_streamlet:run-68": {
+   "bulk": "NEC_PARTIAL",
+   "full": "NEC_PARTIAL"
+  }
+ },
+ "logo_stability": {
+  "bulk": 14,
+  "full": 14
+ },
+ "per_donor_arms": {
+  "bulk_hostmean": {
+   "C_loss": 0.14285714285714285,
+   "J_loss": 0.4,
+   "median_dA": -0.083,
+   "median_dM": -0.0603,
+   "n": 14
+  },
+  "bulk_round_self": {
+   "C_loss": 0.6428571428571429,
+   "J_loss": 0.6,
+   "median_dA": -0.3535,
+   "median_dM": -0.6915,
+   "n": 14
+  }
+ },
+ "per_host_C_loss": {
+  "1c7158b6": {
+   "bulk_host": 0.0,
+   "full_host": 0.07692307692307693
+  },
+  "1fb5651c": {
+   "bulk_host": 0.38461538461538464,
+   "full_host": 0.07692307692307693
+  },
+  "264c458d": {
+   "bulk_host": 0.15384615384615385,
+   "full_host": 0.23076923076923078
+  },
+  "2a4f596d": {
+   "bulk_host": 0.07692307692307693,
+   "full_host": 0.07692307692307693
+  },
+  "2c9118bb": {
+   "bulk_host": 0.38461538461538464,
+   "full_host": 0.3076923076923077
+  },
+  "4bcbaf15": {
+   "bulk_host": 0.46153846153846156,
+   "full_host": 0.38461538461538464
+  },
+  "75642418": {
+   "bulk_host": 0.46153846153846156,
+   "full_host": 0.38461538461538464
+  },
+  "8ae85754": {
+   "bulk_host": 0.15384615384615385,
+   "full_host": 0.07692307692307693
+  }
+ },
+ "rules": {
+  "consistency_gate": "the 36 M1 capture readouts bitwise (runner); every donor's new capture readout equals M1's; otherwise INCONSISTENT",
+  "interpretation_fixed_in_advance": "NEC_FULL / NEC_BULK: in the donors' own forward, the L11 append-span write (its context-read part) is necessary for recognition, not only sufficient for repair in hosts - with M1-M5 a two-directional (interchange) causal role at L11; a failing host's write carries a not-conflict reading of the same context. NOT_NEC: the donor recognises through other paths as well (redundancy); M1-M5 remain sufficiency only. Level S1-S3 boundary: an interchange intervention on natural recognition (the standard's par. 3.3 'local necessity'), not a natural error path in the failing hosts",
+  "measures": "C_loss(arm) = share of cells whose patched donor has M <= 0; J_loss(arm) = share of JOINT-donor cells whose patched donor is not JOINT; paired dM_host - dM_ctrl per cell; per-donor majorities",
+  "readouts": "M = conflict margin, A = action margin, JOINT = M > 0 and A > 0, on the donor's new arm; baselines = the donor's in-run new capture (bitwise == M1)",
+  "reported": "bulk_round_self and bulk_hostmean C_loss / J_loss / median dM (14 rows each); per host; leave one donor group out of each verdict",
+  "sets": "all 14 donors are strict recognizers (M > 0); 10 of them are JOINT natively (M1 / K-C captures); C_loss is scored over all cells, J_loss over the cells of the JOINT donors",
+  "verdict_bulk": "NEC_BULK: the same rule on bulk_host vs bulk_ctrl",
+  "verdict_full": "NEC_FULL iff C_loss(full_host) - C_loss(full_ctrl) >= 0.40 and dM(full_host) < dM(full_ctrl) in >= 75% of cells and in a majority of cells for >= 10 of 14 donors; NOT_NEC_FULL iff the difference < 0.10; else NEC_FULL_PARTIAL"
+ },
+ "schema": "JEV_A461_MECH_M20_ANALYSIS_V1",
+ "verdicts": {
+  "bulk": "NEC_BULK_PARTIAL",
+  "full": "NEC_FULL_PARTIAL"
+ }
+}

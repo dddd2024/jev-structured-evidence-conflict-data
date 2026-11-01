@@ -1,0 +1,128 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_PROTOCOL_V1",
+  "date": "2026-10-25",
+  "study_line": "A461-G5",
+  "status": "FROZEN_PENDING_INDEPENDENT_BLIND_REVIEW",
+  "amends": "A461_G5_PATCHING_PROTOCOL_V2_SA_HOST (minimal scale per governance research_governance/2026-10-25_A461_G5_EXECUTION_PREP_REVIEW_AND_MINIMAL_CAUSAL_PILOT_POLICY_V1.md, commit 5e35c044)",
+  "admission_checklist": "research/experiments/2026-10-25_A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_CPU_GATE_DRAFT_V1.json (blob 45000606e06f195d3ae0bb0390fb9d02a3652aed)",
+  "purpose": "Minimal qualified bidirectional activation-patching pilot: does the candidate-end key-side encoding of appended conflict evidence (G4 readout localization) carry the causal signal for the appended-conflict recognition failure? Exploratory plumbing + selectivity probe on 2 equal-width hosts x 2 layers x 2 directions with a single qualified donor; NOT a mechanism proof and NOT a substitute for the 10x6 confirmation stage.",
+  "g0_cpu_closed_loop": {
+    "runner": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/A461_g5_pilot_cpu_closed_loop_v1.py",
+    "receipt_status": "COMPLETE_A461_G5_PILOT_CPU_CLOSED_LOOP",
+    "artifacts": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G0_PILOT_CPU_GATE_REAL/",
+    "gates_passed": [
+      "G1 input schema + git-blob pins",
+      "G2 old-state reconstruction from corpus (canonical SHA16+SHA64) + edit re-application equality",
+      "G3 two independent policy oracles agree on all 108 arms (old/new/SA x 36 pairs)",
+      "G4 author/round/block/chronology contracts on both appended messages of every pair",
+      "G5 native tokenizer parity: fresh full-sequence token ids SHA256 == archived token_ids_sha256 for 108/108 primary rows; appended-span anchors with trailing-suffix preservation",
+      "G6 exact +34 token width on all donor and host arms (fresh == archived lengths)",
+      "G7 conflicting_vote causal row resolved dynamically from to_record meta (index 1, keys [false,true])",
+      "G8 end-to-end mock of the 4-independent-question-row hook plumbing",
+      "G9 identity self-patch bitwise identity + off-row bitwise non-interference (mock)",
+      "G10 roster re-derived from archived G1S V2 raw logits: exactly 1 qualified donor (old false / new true / SA false), hosts old/new/SA all false",
+      "G11 physical forward ledger auto-traced: predicted == observed_mock == 28 <= 128",
+      "G12 source freeze (DEV-only corpus SHA 2920e1c9), stop rule, G-1 novelty note"
+    ],
+    "token_ids_parity": {"checked": 108, "matched": 108},
+    "tokenizer": {"source": "kev08b-smoke-20261001-153041/models/base (the checkpoint.load tokenizer path)", "tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927"}
+  },
+  "frozen_roster": {
+    "donor": {
+      "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e",
+      "source_group": "twins_streamlet:run-83",
+      "archived_reads": {"old": "false", "new": "true", "SA": "false"},
+      "appended_span_in_state": {"new": [624, 658], "SA": [624, 658]},
+      "first_divergence": {"new": 624, "SA": 624},
+      "trailing_suffix_len": 28,
+      "state_token_len": {"old": 652, "new": 686, "SA": 686}
+    },
+    "hosts": [
+      {
+        "pair_key": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+        "source_group": "twins_streamlet:run-114",
+        "archived_reads": {"old": "false", "new": "false", "SA": "false"},
+        "appended_span_in_state": {"new": [493, 527], "SA": [493, 527]},
+        "first_divergence": {"new": 493, "SA": 493},
+        "trailing_suffix_len": 43,
+        "state_token_len": {"old": 536, "new": 570, "SA": 570}
+      },
+      {
+        "pair_key": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+        "source_group": "twins_streamlet:run-182",
+        "archived_reads": {"old": "false", "new": "false", "SA": "false"},
+        "appended_span_in_state": {"new": [456, 490], "SA": [456, 490]},
+        "first_divergence": {"new": 456, "SA": 456},
+        "trailing_suffix_len": 28,
+        "state_token_len": {"old": 484, "new": 518, "SA": 518}
+      }
+    ],
+    "roster_independence": "3 distinct source run groups (83/114/182); scenes from DEV corpus only (split asserted development); G3/A428 scene-level exclusions inherited from the V2 construction",
+    "span_method": "G4 G0C first-divergence anchor method: span = [z, len(new_ids) - (len(old_ids) - z)); trailing suffix (validator_set field tokens) asserted byte-identical after the span - fixes V3 review P0-1 (appended event is inside received_messages, NOT at the state end)"
+  },
+  "intervention": {
+    "row_form": "hybrid backbone runs every question as an independent causal row (state tokens + branch tokens); one native forward per condition; the conflicting_vote row (branch index resolved dynamically from meta, verified 1) is the only patched row",
+    "patch_site": "backbone decoder-layer OUTPUT (register_forward_hook) at the C row, span positions equal to the appended-span state coordinates of the target arm",
+    "layers": [11, 23],
+    "layer_selection_rationale": "frozen in the pilot admission checklist BEFORE any patched forward: 23 = last decoder layer (readout-proximal), 11 = mid-depth; no post-hoc layer selection; no result-conditioned layer claims",
+    "width_policy": "all spans exactly 34 tokens on both sides (verified G6); no interpolation or coordinate mapping needed",
+    "direction_A_restoration": "donor NEW appended-span states (recognized evidence) -> host SA appended-span (neutral duplicate-vote context); question: does the host C read move toward / flip to true?",
+    "direction_B_suppression": "failed-host treatment appended-span states -> donor NEW appended-span (recognized evidence); question: does the donor C read move away from / flip from true?",
+    "position_ids_note": "injected states are layer-output hidden vectors; the injection site keeps the host's own position ids; donor and host span widths are equal (34), so no alignment mapping is applied"
+  },
+  "controls": [
+    "host SA unpatched baselines (2), bitwise-checked against archived G1S V2 logits (run-to-run determinism)",
+    "donor NEW unpatched baseline (1), bitwise-checked against archived logits",
+    "identity self-patch at layer 11 (2): host SA span states patched back into the same span must reproduce the baseline bitwise (plumbing gate)",
+    "SA-sham cross (4): donor duplicate-vote SA span states (non-recognized evidence) into host SA span - negative control for restoration",
+    "position-permuted donor span states (4, fixed seed 20261025 permutation): scrambled-geometry control",
+    "off-target readouts: all four question heads recorded on every forward; off-target flip rates reported without selection"
+  ],
+  "physical_forward_plan": {
+    "composition": {
+      "capture_donor_old_at_new_span_coords": 1,
+      "capture_donor_new": 1,
+      "capture_donor_sa": 1,
+      "baseline_host_sa_unpatched": 2,
+      "capture_host_sa": 2,
+      "patch_identity_host_sa_layer11": 2,
+      "patch_restoration_2hosts_x_2layers": 4,
+      "patch_sasham_2hosts_x_2layers": 4,
+      "patch_permuted_2hosts_x_2layers": 4,
+      "capture_host_new": 2,
+      "baseline_donor_new_unpatched": 1,
+      "patch_suppression_2hosts_x_2layers": 4
+    },
+    "total": 28,
+    "hard_cap": 128,
+    "reconciliation": "predicted == observed_mock_trace == 28 (budget_reconciliation.json); auto-derived from the frozen roster x layers x conditions; no dynamic host pool",
+    "note": "28 is a planned count under a fresh admission receipt, NOT a standing authorization; execution additionally requires the blind-review PASS and explicit user approval below"
+  },
+  "analysis_preregistered": [
+    "primary readout: conflicting_vote margin = logits[true] - logits[false] on the C row, plus argmax read and p(true)",
+    "restoration effect per (host, layer): delta_margin = margin_patched - margin_host_SA_baseline; reported for both layers without selection",
+    "restoration is called supportive at (host, layer) ONLY if delta_margin > 0 AND delta_margin exceeds both the SA-sham cross and the position-permuted control at the same (host, layer); flips (false->true) reported separately",
+    "suppression effect per (host, layer): delta_margin = margin_patched - margin_donor_new_baseline; negative signed changes and flips reported; exploratory (no additional donor-side sham control within the 28-call budget)",
+    "off-target integrity: quorum / certificate_action / evidence_level margin changes on every patched forward reported descriptively",
+    "interpretation ceiling: even a fully supportive result is a single-donor, two-host, two-layer DEV exploratory causal probe consistent with the G4 key-side localization; it does not establish a general mechanism, cross-model generality, or deployment relevance"
+  ],
+  "gpu_gate": {
+    "runner": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/A461_g5_pilot_gpu_v1.py",
+    "admission_requirements": {
+      "blind_review_verdict": "PASS (exact string, pinned to the runner git blob in admission_receipt_pilot_gpu.json)",
+      "explicit_user_gpu_approval": true,
+      "approved_max_native_forwards": 28
+    },
+    "runner_self_check": "the GPU runner hashes its own file with git hash-object and refuses to run unless it equals blind_review_runner_blob in the admission receipt",
+    "crash_safety": "every forward appends its raw row before the next starts; failures keep completed rows and write FAIL receipt with SHA256SUMS"
+  },
+  "stop_conditions": [
+    "STOP_PRE_GPU_<GATE> from the CPU closed loop (any gate)",
+    "STOP_IDENTITY_FAILURE (GPU identity self-patch not bitwise)",
+    "STOP_DETERMINISM (fresh baseline logits differ from archived)",
+    "STOP_SPAN_ALIGNMENT (suffix preservation or width violation at execution time)"
+  ],
+  "g_minus_1_novelty_note": "novelty delta: first bidirectional activation-patching intervention on this security-typed scorer, targeting the G4-localized key-side candidate encoding; prior-art anchors (Tang et al. ICML 2026 query-time aggregation; Zhang & Nanda ICLR 2024 patching practice; One Word Opens the Gate guardrail flips) are cited in manuscript v4 section 2; no prior round of this study line has executed any patching forward",
+  "submission_for_blind_review": "this protocol + both runners + G0 artifacts submitted together on Issue #2; execution only after an explicit PASS verdict"
+}

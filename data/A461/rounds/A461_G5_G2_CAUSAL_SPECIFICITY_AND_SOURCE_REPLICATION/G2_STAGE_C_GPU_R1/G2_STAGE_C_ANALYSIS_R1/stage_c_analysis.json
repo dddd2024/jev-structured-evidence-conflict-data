@@ -1,0 +1,2519 @@
+{
+  "H1_dose_matched_restoration_L11": {
+    "cells": 16,
+    "content_specific": true,
+    "donor_groups_with_support": [
+      "twins_streamlet:run-140",
+      "twins_streamlet:run-212",
+      "twins_streamlet:run-338"
+    ],
+    "median_dM": {
+      "dose1": 0.3089,
+      "dose2": 0.3089,
+      "main": 1.8234,
+      "sasham": 0.3565
+    },
+    "median_main_minus_max_dose": 1.2388,
+    "supportive": 16
+  },
+  "H1b_dose_matched_suppression_L11": {
+    "cells": 16,
+    "main_beats_sasham": 7,
+    "median_dM": {
+      "dose1": -0.2591,
+      "main": -6.1803,
+      "sasham": -6.45
+    },
+    "median_main_minus_sasham": 0.0543,
+    "supportive": 16
+  },
+  "H2_layers": {
+    "boundary_layer": 13,
+    "restoration": {
+      "11": {
+        "dose_supportive": 16,
+        "median_dM_main": 1.8234,
+        "median_dM_sasham": 0.3565
+      },
+      "12": {
+        "dose_supportive": 15,
+        "median_dM_main": 0.6262,
+        "median_dM_sasham": 0.0792
+      },
+      "13": {
+        "dose_supportive": 11,
+        "median_dM_main": 0.0638,
+        "median_dM_sasham": -0.0321
+      },
+      "14": {
+        "dose_supportive": 15,
+        "median_dM_main": 0.0383,
+        "median_dM_sasham": -0.0141
+      }
+    },
+    "suppression": {
+      "11": {
+        "dose_supportive": 16,
+        "median_dM_main": -6.1803,
+        "median_dM_sasham": -6.45
+      },
+      "12": {
+        "dose_supportive": 13,
+        "median_dM_main": -1.0625,
+        "median_dM_sasham": -1.8574
+      },
+      "13": {
+        "dose_supportive": 11,
+        "median_dM_main": -0.056,
+        "median_dM_sasham": -0.0613
+      },
+      "14": {
+        "dose_supportive": 14,
+        "median_dM_main": -0.0529,
+        "median_dM_sasham": -0.0186
+      }
+    }
+  },
+  "H3_encoding": {
+    "L11": {
+      "auc_FTF_vs_FFF": 0.8441,
+      "donor_p_lodo": [
+        0.476,
+        0.1173,
+        0.4695,
+        0.3064
+      ],
+      "fff_median_below_all_donors": true,
+      "median_p": {
+        "FFF": 0.0867,
+        "FTF": 0.388,
+        "FTT": 0.3028,
+        "TFF": 0.2874,
+        "TFT": 0.3365,
+        "TTT": 0.379
+      }
+    },
+    "prediction_holds_L11": false,
+    "profile": {
+      "0": {
+        "auc_FTF_vs_FFF": 0.495,
+        "donor_p_lodo": [
+          0.0308,
+          -0.0184,
+          0.0308,
+          -0.0058
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0137,
+          "FTF": 0.0125,
+          "FTT": -0.0027,
+          "TFF": 0.0124,
+          "TFT": 0.0236,
+          "TTT": 0.0073
+        }
+      },
+      "1": {
+        "auc_FTF_vs_FFF": 0.6386,
+        "donor_p_lodo": [
+          0.0412,
+          -0.0065,
+          0.0422,
+          0.0165
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0148,
+          "FTF": 0.0289,
+          "FTT": 0.0176,
+          "TFF": 0.0279,
+          "TFT": 0.0351,
+          "TTT": 0.0278
+        }
+      },
+      "2": {
+        "auc_FTF_vs_FFF": 0.7376,
+        "donor_p_lodo": [
+          0.0537,
+          0.0024,
+          0.0556,
+          0.0303
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0124,
+          "FTF": 0.042,
+          "FTT": 0.0261,
+          "TFF": 0.0376,
+          "TFT": 0.042,
+          "TTT": 0.0367
+        }
+      },
+      "3": {
+        "auc_FTF_vs_FFF": 0.7426,
+        "donor_p_lodo": [
+          0.0566,
+          -0.0015,
+          0.0576,
+          0.0281
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0106,
+          "FTF": 0.0423,
+          "FTT": 0.0218,
+          "TFF": 0.0394,
+          "TFT": 0.0442,
+          "TTT": 0.0399
+        }
+      },
+      "4": {
+        "auc_FTF_vs_FFF": 0.8391,
+        "donor_p_lodo": [
+          0.0676,
+          0.0042,
+          0.0672,
+          0.0391
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.0004,
+          "FTF": 0.0532,
+          "FTT": 0.0247,
+          "TFF": 0.0475,
+          "TFT": 0.062,
+          "TTT": 0.0531
+        }
+      },
+      "5": {
+        "auc_FTF_vs_FFF": 0.7005,
+        "donor_p_lodo": [
+          0.1582,
+          -0.01,
+          0.151,
+          0.0229
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0196,
+          "FTF": 0.087,
+          "FTT": 0.0333,
+          "TFF": 0.0848,
+          "TFT": 0.1192,
+          "TTT": 0.0718
+        }
+      },
+      "6": {
+        "auc_FTF_vs_FFF": 0.698,
+        "donor_p_lodo": [
+          0.2808,
+          -0.0156,
+          0.2705,
+          0.0617
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.0437,
+          "FTF": 0.1661,
+          "FTT": 0.0576,
+          "TFF": 0.1519,
+          "TFT": 0.2049,
+          "TTT": 0.1576
+        }
+      },
+      "7": {
+        "auc_FTF_vs_FFF": 0.802,
+        "donor_p_lodo": [
+          0.2157,
+          0.0069,
+          0.2057,
+          0.0489
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.005,
+          "FTF": 0.1273,
+          "FTT": 0.0555,
+          "TFF": 0.1126,
+          "TFT": 0.1497,
+          "TTT": 0.12
+        }
+      },
+      "8": {
+        "auc_FTF_vs_FFF": 0.8292,
+        "donor_p_lodo": [
+          0.2609,
+          0.024,
+          0.2525,
+          0.0828
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.0056,
+          "FTF": 0.1677,
+          "FTT": 0.0871,
+          "TFF": 0.1357,
+          "TFT": 0.1715,
+          "TTT": 0.1466
+        }
+      },
+      "9": {
+        "auc_FTF_vs_FFF": 0.8614,
+        "donor_p_lodo": [
+          0.296,
+          0.0492,
+          0.3073,
+          0.1455
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.0228,
+          "FTF": 0.2208,
+          "FTT": 0.1276,
+          "TFF": 0.1479,
+          "TFT": 0.1967,
+          "TTT": 0.1936
+        }
+      },
+      "10": {
+        "auc_FTF_vs_FFF": 0.8713,
+        "donor_p_lodo": [
+          0.3818,
+          0.0874,
+          0.3873,
+          0.2475
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.028,
+          "FTF": 0.3146,
+          "FTT": 0.2381,
+          "TFF": 0.241,
+          "TFT": 0.2935,
+          "TTT": 0.2869
+        }
+      },
+      "11": {
+        "auc_FTF_vs_FFF": 0.8441,
+        "donor_p_lodo": [
+          0.476,
+          0.1173,
+          0.4695,
+          0.3064
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.0867,
+          "FTF": 0.388,
+          "FTT": 0.3028,
+          "TFF": 0.2874,
+          "TFT": 0.3365,
+          "TTT": 0.379
+        }
+      },
+      "12": {
+        "auc_FTF_vs_FFF": 0.901,
+        "donor_p_lodo": [
+          0.7116,
+          0.3156,
+          0.7012,
+          0.6269
+        ],
+        "fff_median_below_all_donors": true,
+        "median_p": {
+          "FFF": 0.0964,
+          "FTF": 0.664,
+          "FTT": 0.5332,
+          "TFF": 0.5455,
+          "TFT": 0.5401,
+          "TTT": 0.58
+        }
+      },
+      "13": {
+        "auc_FTF_vs_FFF": 0.8094,
+        "donor_p_lodo": [
+          1.02,
+          0.2703,
+          1.0312,
+          0.7959
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.3435,
+          "FTF": 0.908,
+          "FTT": 0.6466,
+          "TFF": 0.7367,
+          "TFT": 0.6491,
+          "TTT": 0.7339
+        }
+      },
+      "14": {
+        "auc_FTF_vs_FFF": 0.7649,
+        "donor_p_lodo": [
+          1.3016,
+          0.2788,
+          1.3546,
+          1.0438
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.5245,
+          "FTF": 1.1727,
+          "FTT": 0.8322,
+          "TFF": 0.8966,
+          "TFT": 0.7994,
+          "TTT": 0.8955
+        }
+      },
+      "15": {
+        "auc_FTF_vs_FFF": 0.75,
+        "donor_p_lodo": [
+          1.3536,
+          0.2696,
+          1.4228,
+          1.081
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.5596,
+          "FTF": 1.2173,
+          "FTT": 0.8212,
+          "TFF": 0.9053,
+          "TFT": 0.8463,
+          "TTT": 0.9404
+        }
+      },
+      "16": {
+        "auc_FTF_vs_FFF": 0.755,
+        "donor_p_lodo": [
+          1.463,
+          0.3148,
+          1.5124,
+          1.1817
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.6169,
+          "FTF": 1.3224,
+          "FTT": 0.8748,
+          "TFF": 1.0257,
+          "TFT": 0.9379,
+          "TTT": 1.0325
+        }
+      },
+      "17": {
+        "auc_FTF_vs_FFF": 0.7475,
+        "donor_p_lodo": [
+          1.584,
+          0.3045,
+          1.6989,
+          1.3027
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.6948,
+          "FTF": 1.4434,
+          "FTT": 0.9769,
+          "TFF": 1.0749,
+          "TFT": 1.0036,
+          "TTT": 1.0901
+        }
+      },
+      "18": {
+        "auc_FTF_vs_FFF": 0.7277,
+        "donor_p_lodo": [
+          1.6483,
+          0.3028,
+          1.814,
+          1.3552
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.8014,
+          "FTF": 1.5017,
+          "FTT": 1.0074,
+          "TFF": 1.1099,
+          "TFT": 1.0489,
+          "TTT": 1.1356
+        }
+      },
+      "19": {
+        "auc_FTF_vs_FFF": 0.7327,
+        "donor_p_lodo": [
+          1.8111,
+          0.3573,
+          2.0448,
+          1.5147
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.8621,
+          "FTF": 1.6629,
+          "FTT": 1.1278,
+          "TFF": 1.1983,
+          "TFT": 1.1606,
+          "TTT": 1.257
+        }
+      },
+      "20": {
+        "auc_FTF_vs_FFF": 0.7228,
+        "donor_p_lodo": [
+          1.9161,
+          0.348,
+          2.1973,
+          1.6068
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 0.9589,
+          "FTF": 1.7615,
+          "FTT": 1.1757,
+          "TFF": 1.2269,
+          "TFT": 1.1904,
+          "TTT": 1.3093
+        }
+      },
+      "21": {
+        "auc_FTF_vs_FFF": 0.7277,
+        "donor_p_lodo": [
+          2.2451,
+          0.4203,
+          2.5764,
+          1.8718
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 1.1235,
+          "FTF": 2.0584,
+          "FTT": 1.3754,
+          "TFF": 1.4276,
+          "TFT": 1.3663,
+          "TTT": 1.5363
+        }
+      },
+      "22": {
+        "auc_FTF_vs_FFF": 0.7153,
+        "donor_p_lodo": [
+          2.4875,
+          0.4549,
+          2.8677,
+          2.071
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 1.251,
+          "FTF": 2.2792,
+          "FTT": 1.5294,
+          "TFF": 1.5702,
+          "TFT": 1.5029,
+          "TTT": 1.6787
+        }
+      },
+      "23": {
+        "auc_FTF_vs_FFF": 0.7401,
+        "donor_p_lodo": [
+          4.9727,
+          1.3249,
+          5.1991,
+          4.5277
+        ],
+        "fff_median_below_all_donors": false,
+        "median_p": {
+          "FFF": 2.8259,
+          "FTF": 4.7502,
+          "FTT": 2.5458,
+          "TFF": 3.1476,
+          "TFT": 3.6276,
+          "TTT": 3.8137
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "dM": {
+        "dose1": 0.080903,
+        "dose2": 0.520337,
+        "main": 0.957284,
+        "sasham": -0.504807
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.177596,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.157524,
+        "dose2": -0.042344,
+        "main": 0.149047,
+        "sasham": -0.292716
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.512022,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.029612,
+        "dose2": 0.011893,
+        "main": -0.021509,
+        "sasham": -0.031479
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.790513,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": -0.006337,
+        "dose2": 0.007175,
+        "main": 0.012956,
+        "sasham": -0.015779
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 2.035409,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.073681,
+        "dose2": 0.531266,
+        "main": 1.321578,
+        "sasham": -0.479472
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 1.075944,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.039036,
+        "dose2": 0.169416,
+        "main": 0.465204,
+        "sasham": -0.222122
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.40372,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.053897,
+        "dose2": 0.033278,
+        "main": 0.092237,
+        "sasham": -0.049062
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.746965,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.04167,
+        "dose2": -0.026249,
+        "main": 0.036309,
+        "sasham": -0.046538
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 2.06964,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.314599,
+        "dose2": 0.302316,
+        "main": 1.942939,
+        "sasham": -0.533832
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.152515,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.001728,
+        "dose2": 0.062862,
+        "main": 0.592726,
+        "sasham": -0.133715
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.47617,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.017986,
+        "dose2": -0.004617,
+        "main": 0.06796,
+        "sasham": -0.040299
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.728002,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.021199,
+        "dose2": -0.019897,
+        "main": 0.039781,
+        "sasham": -0.042608
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.909381,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.880193,
+        "dose2": 0.339502,
+        "main": 1.82501,
+        "sasham": 0.28796
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.208638,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.303091,
+        "dose2": -0.053731,
+        "main": 0.662933,
+        "sasham": 0.015483
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.578268,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.000872,
+        "dose2": 0.018978,
+        "main": 0.04654,
+        "sasham": -0.011744
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.968126,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.010223,
+        "dose2": 0.015262,
+        "main": 0.036781,
+        "sasham": -0.014072
+      },
+      "direction": "restoration",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 2.27776,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.710029,
+        "dose2": 0.331183,
+        "main": 0.769758,
+        "sasham": 0.353349
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.144801,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.055501,
+        "dose2": -0.078024,
+        "main": 0.488895,
+        "sasham": 0.188111
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.483409,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.00612,
+        "dose2": -0.01652,
+        "main": -0.001951,
+        "sasham": -0.040132
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.69459,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.010215,
+        "dose2": -0.008191,
+        "main": 0.034066,
+        "sasham": 0.021366
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.822389,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.028874,
+        "dose2": 0.100416,
+        "main": 1.339827,
+        "sasham": 1.255211
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 0.952262,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.020108,
+        "dose2": -0.000321,
+        "main": 0.881987,
+        "sasham": 0.609308
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.319913,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.011941,
+        "dose2": -0.003293,
+        "main": 0.214748,
+        "sasham": 0.077627
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.594411,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.040853,
+        "dose2": -0.040563,
+        "main": 0.164107,
+        "sasham": 0.056346
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.855729,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.419406,
+        "dose2": -0.192013,
+        "main": 1.346574,
+        "sasham": 0.62611
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.17511,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.099684,
+        "dose2": -0.113128,
+        "main": 1.121069,
+        "sasham": 0.729148
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.510569,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.003144,
+        "dose2": -0.00875,
+        "main": 0.203461,
+        "sasham": 0.043614
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.667512,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.020251,
+        "dose2": -0.027968,
+        "main": 0.191235,
+        "sasham": 0.060107
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.76285,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.981225,
+        "dose2": 0.418778,
+        "main": 2.040286,
+        "sasham": 1.345605
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.032327,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.10794,
+        "dose2": 0.411376,
+        "main": 1.309541,
+        "sasham": 0.937467
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.391072,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.020751,
+        "dose2": 0.019617,
+        "main": 0.160929,
+        "sasham": 0.049755
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.639806,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.013656,
+        "dose2": 0.015161,
+        "main": 0.134943,
+        "sasham": 0.05992
+      },
+      "direction": "restoration",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 1.805156,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.909418,
+        "dose2": -0.456618,
+        "main": 0.91104,
+        "sasham": -0.347547
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.218009,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.104472,
+        "dose2": 0.104877,
+        "main": 0.175628,
+        "sasham": -0.285146
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.54786,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.010165,
+        "dose2": -0.01081,
+        "main": -0.023115,
+        "sasham": -0.032701
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.79113,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.001101,
+        "dose2": 0.002298,
+        "main": 0.00878,
+        "sasham": -0.021649
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 2.039422,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.246216,
+        "dose2": -0.012219,
+        "main": 1.48438,
+        "sasham": -0.401279
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 1.050933,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.362651,
+        "dose2": 0.1831,
+        "main": 0.427339,
+        "sasham": -0.214362
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.366126,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.017045,
+        "dose2": 0.002494,
+        "main": 0.096646,
+        "sasham": -0.051478
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.672911,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.031573,
+        "dose2": -0.026971,
+        "main": 0.047668,
+        "sasham": -0.044676
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.994826,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.031662,
+        "dose2": 0.257303,
+        "main": 1.87406,
+        "sasham": -0.483907
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.19214,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.052602,
+        "dose2": 0.012113,
+        "main": 0.565302,
+        "sasham": -0.133947
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.511494,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.012487,
+        "dose2": -0.003808,
+        "main": 0.059642,
+        "sasham": -0.053969
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.741321,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.015067,
+        "dose2": -0.01107,
+        "main": 0.028705,
+        "sasham": -0.048846
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.929685,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.435742,
+        "dose2": 0.447607,
+        "main": 1.821867,
+        "sasham": 0.359624
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.242886,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.014756,
+        "dose2": -0.118308,
+        "main": 0.659701,
+        "sasham": 0.001943
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.613453,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.026949,
+        "dose2": 0.021327,
+        "main": 0.049086,
+        "sasham": -0.019508
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.966874,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.012208,
+        "dose2": -0.011408,
+        "main": 0.025949,
+        "sasham": -0.014066
+      },
+      "direction": "restoration",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 2.284213,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.020807,
+        "dose2": -0.185926,
+        "main": 2.687406,
+        "sasham": 1.348048
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.22057,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.098095,
+        "dose2": -0.095708,
+        "main": 0.310168,
+        "sasham": 0.142875
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.556313,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.004179,
+        "dose2": -0.004226,
+        "main": -0.04074,
+        "sasham": -0.049918
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.762033,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.014872,
+        "dose2": -0.002911,
+        "main": 0.00923,
+        "sasham": -0.00803
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.971181,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.303186,
+        "dose2": 0.315391,
+        "main": 3.61308,
+        "sasham": 1.965897
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 1.045653,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.371768,
+        "dose2": -0.223312,
+        "main": 0.702062,
+        "sasham": 0.341642
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.438714,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.010221,
+        "dose2": -0.079947,
+        "main": 0.096664,
+        "sasham": -0.010688
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.687285,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.037823,
+        "dose2": -0.038586,
+        "main": 0.039726,
+        "sasham": -0.009412
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 2.033545,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.229977,
+        "dose2": 0.730101,
+        "main": 3.698542,
+        "sasham": 1.097191
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.148008,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.202127,
+        "dose2": -0.046292,
+        "main": 0.802985,
+        "sasham": 0.36144
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.492702,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.003977,
+        "dose2": -0.014667,
+        "main": 0.097945,
+        "sasham": -0.036055
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.650724,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.009388,
+        "dose2": -0.009637,
+        "main": 0.084166,
+        "sasham": -0.028924
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.764841,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.597923,
+        "dose2": -0.205841,
+        "main": 3.106397,
+        "sasham": 1.500208
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.1438,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.214237,
+        "dose2": 0.16934,
+        "main": 0.860896,
+        "sasham": 0.393064
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.542982,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.017388,
+        "dose2": 0.051072,
+        "main": 0.044607,
+        "sasham": -0.013261
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.816607,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.008655,
+        "dose2": 0.022495,
+        "main": 0.051687,
+        "sasham": -0.000291
+      },
+      "direction": "restoration",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 2.090713,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -1.337097,
+        "main": -7.248465,
+        "sasham": -5.965432
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.099373,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.464219,
+        "main": -0.319499,
+        "sasham": -0.957297
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.457546,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.02598,
+        "main": 0.100774,
+        "sasham": 0.048188
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.654762,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.101961,
+        "main": 0.092742,
+        "sasham": 0.050234
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.779937,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.510346,
+        "main": -3.717817,
+        "sasham": -6.494304
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 1.013495,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.166353,
+        "main": -0.924435,
+        "sasham": -1.950603
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.213693,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.237698,
+        "main": -0.061604,
+        "sasham": 0.031114
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.375271,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.099934,
+        "main": -0.058551,
+        "sasham": 0.067198
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.477157,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 1.100787,
+        "main": -3.834431,
+        "sasham": -3.066479
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.117816,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.553108,
+        "main": -0.372675,
+        "sasham": 0.048346
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.426606,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.097241,
+        "main": 0.061621,
+        "sasham": 0.175458
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.624798,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.015978,
+        "main": 0.010291,
+        "sasham": 0.122022
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.758941,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -2.122744,
+        "main": -6.981949,
+        "sasham": -7.190361
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.251825,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.587843,
+        "main": -2.057311,
+        "sasham": -2.304062
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.562861,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.107526,
+        "main": 0.086481,
+        "sasham": 0.008884
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.766876,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.089163,
+        "main": 0.082412,
+        "sasham": 0.038914
+      },
+      "direction": "suppression",
+      "donor": "06dabe0512b7",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 1.918868,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 1.020889,
+        "main": -5.53032,
+        "sasham": -4.225883
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.11216,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -1.048293,
+        "main": -0.535662,
+        "sasham": -1.546383
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.459009,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.016869,
+        "main": -0.089301,
+        "sasham": -0.490005
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.662553,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.066621,
+        "main": -0.09857,
+        "sasham": -0.230551
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.796336,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.007837,
+        "main": -2.700864,
+        "sasham": -6.405676
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 0.85892,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.439541,
+        "main": -1.200642,
+        "sasham": -2.262234
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.100537,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.067902,
+        "main": -0.132788,
+        "sasham": -0.374798
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.306035,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.070034,
+        "main": -0.134216,
+        "sasham": -0.191626
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.44672,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.760304,
+        "main": -3.165699,
+        "sasham": -2.82676
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.108292,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.02836,
+        "main": -0.658245,
+        "sasham": -0.525318
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.405339,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.049184,
+        "main": -0.086821,
+        "sasham": -0.140183
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.596572,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.001861,
+        "main": -0.125251,
+        "sasham": -0.165027
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.724461,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 1.230332,
+        "main": -5.501298,
+        "sasham": -5.888099
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.125325,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.056756,
+        "main": -2.081442,
+        "sasham": -3.090761
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.39652,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.021558,
+        "main": -0.210642,
+        "sasham": -0.567996
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.560759,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.067187,
+        "main": -0.147147,
+        "sasham": -0.236088
+      },
+      "direction": "suppression",
+      "donor": "35253a262059",
+      "donor_group": "twins_streamlet:run-338",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 1.673192,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.03888,
+        "main": -6.830204,
+        "sasham": -5.960024
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.089828,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.27789,
+        "main": -0.31765,
+        "sasham": -0.9732
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.426978,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.095762,
+        "main": 0.016772,
+        "sasham": -0.043073
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.594271,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.046378,
+        "main": 0.026802,
+        "sasham": -0.014761
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.7363,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": -0.877097,
+        "main": -4.089721,
+        "sasham": -6.567906
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 0.976167,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.45581,
+        "main": -0.868196,
+        "sasham": -1.76417
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.156238,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.003329,
+        "main": -0.117471,
+        "sasham": -0.050108
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.289263,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.019611,
+        "main": -0.0894,
+        "sasham": -0.001945
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.395169,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.875113,
+        "main": -3.881829,
+        "sasham": -3.563427
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.131709,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.227561,
+        "main": -0.257938,
+        "sasham": 0.105395
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.431197,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.000721,
+        "main": 0.017128,
+        "sasham": 0.064372
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.622167,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.060593,
+        "main": -0.004573,
+        "sasham": 0.03158
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.765823,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -1.50242,
+        "main": -6.88813,
+        "sasham": -6.954418
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.288614,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.173587,
+        "main": -2.237809,
+        "sasham": -2.460775
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.584306,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.042059,
+        "main": -0.002177,
+        "sasham": -0.072453
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.770142,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": 0.0284,
+        "main": 0.01286,
+        "sasham": -0.021877
+      },
+      "direction": "suppression",
+      "donor": "508ecd55774f",
+      "donor_group": "twins_streamlet:run-212",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 1.933797,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -2.845954,
+        "main": -10.674964,
+        "sasham": -10.222962
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 11,
+      "pert_norm_main": 1.166202,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.590865,
+        "main": -1.433854,
+        "sasham": -2.075254
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 12,
+      "pert_norm_main": 1.504818,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.000223,
+        "main": -0.050336,
+        "sasham": -0.363777
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 13,
+      "pert_norm_main": 1.64905,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.009472,
+        "main": -0.020258,
+        "sasham": -0.23829
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "06c941a749f2",
+      "host_group": "twins_streamlet:run-220",
+      "layer": 14,
+      "pert_norm_main": 1.738254,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.196676,
+        "main": -7.584987,
+        "sasham": -9.771569
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 11,
+      "pert_norm_main": 0.931292,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.587236,
+        "main": -2.06857,
+        "sasham": -3.007155
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 12,
+      "pert_norm_main": 1.190077,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.044919,
+        "main": -0.262135,
+        "sasham": -0.363024
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 13,
+      "pert_norm_main": 1.297142,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.019168,
+        "main": -0.197212,
+        "sasham": -0.209771
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "078ca2d1fd3e",
+      "host_group": "twins_streamlet:run-283",
+      "layer": 14,
+      "pert_norm_main": 1.391498,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.534693,
+        "main": -8.134754,
+        "sasham": -8.176968
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 11,
+      "pert_norm_main": 1.132006,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": 0.548729,
+        "main": -1.589777,
+        "sasham": -1.280098
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 12,
+      "pert_norm_main": 1.446589,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.037677,
+        "main": -0.034094,
+        "sasham": 0.003513
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 13,
+      "pert_norm_main": 1.568656,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": -0.144267,
+        "main": -0.04729,
+        "sasham": -0.015423
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "0b79af185ea8",
+      "host_group": "twins_streamlet:run-301",
+      "layer": 14,
+      "pert_norm_main": 1.628906,
+      "supportive_dose": false
+    },
+    {
+      "dM": {
+        "dose1": -0.729926,
+        "main": -10.993008,
+        "sasham": -11.284923
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 11,
+      "pert_norm_main": 1.215087,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.056748,
+        "main": -2.899063,
+        "sasham": -3.523433
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 12,
+      "pert_norm_main": 1.526117,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.069701,
+        "main": -0.120065,
+        "sasham": -0.377648
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 13,
+      "pert_norm_main": 1.654754,
+      "supportive_dose": true
+    },
+    {
+      "dM": {
+        "dose1": -0.000566,
+        "main": -0.074662,
+        "sasham": -0.202443
+      },
+      "direction": "suppression",
+      "donor": "90dbf6d6536f",
+      "donor_group": "twins_streamlet:run-140",
+      "host": "1be7cc40f072",
+      "host_group": "twins_streamlet:run-68",
+      "layer": 14,
+      "pert_norm_main": 1.759251,
+      "supportive_dose": true
+    }
+  ],
+  "schema": "JEV_A461_G5_G2_STAGE_C_ANALYSIS_V1"
+}

@@ -1,0 +1,1 @@
+{"arm":"new","error_message":"invalid logits","error_type":"RuntimeError","forward_index":2,"kind":"primary","logits_saved":false,"physical_prehook_after":2,"run":1,"scene_sha256":"8c4051558dad1066c50b8425ce55067596958ab21db56286f9cf95feb8e71269","status":"INVALID_OUTPUT"}

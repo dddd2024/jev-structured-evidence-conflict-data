@@ -1,0 +1,73 @@
+{
+  "backbone_layer_census": {
+    "Conv1d": 18,
+    "DecisionModel": 1,
+    "Dropout": 186,
+    "Embedding": 1,
+    "Linear": 746,
+    "LoraModel": 1,
+    "ModuleDict": 744,
+    "ModuleList": 1,
+    "ParameterDict": 372,
+    "PeftModelForFeatureExtraction": 1,
+    "PointerHead": 1,
+    "Qwen3_5Attention": 6,
+    "Qwen3_5DecoderLayer": 24,
+    "Qwen3_5GatedDeltaNet": 18,
+    "Qwen3_5MLP": 24,
+    "Qwen3_5RMSNorm": 61,
+    "Qwen3_5RMSNormGated": 18,
+    "Qwen3_5TextModel": 1,
+    "Qwen3_5TextRotaryEmbedding": 1,
+    "SiLUActivation": 24
+  },
+  "head_pt_keys": [
+    "args",
+    "base",
+    "base_revision",
+    "checkpoint_selection",
+    "corpus",
+    "head",
+    "head_dim",
+    "holdout",
+    "lora",
+    "name",
+    "option_isolation",
+    "security_training",
+    "special_embeddings",
+    "temperature",
+    "temperature_fit",
+    "version",
+    "weights_dtype"
+  ],
+  "head_type": "PointerHead",
+  "k_bias_shape": [
+    256
+  ],
+  "k_weight_shape": [
+    256,
+    1024
+  ],
+  "lora_module_count": 1675,
+  "lora_module_sample": [
+    "lm.base_model",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_A",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_A.default",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_B",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_B.default",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_dropout",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_dropout.default",
+    "lm.base_model.model.layers.0.linear_attn.in_proj_a.lora_embedding_A"
+  ],
+  "q_bias_shape": [
+    256
+  ],
+  "q_weight_shape": [
+    256,
+    1024
+  ],
+  "scale": 0.0625,
+  "temperature_from_head_pt": 1.3525612043415394,
+  "temperature_init": 1.3525612043415394,
+  "temperature_value": 1.3525612043415394
+}

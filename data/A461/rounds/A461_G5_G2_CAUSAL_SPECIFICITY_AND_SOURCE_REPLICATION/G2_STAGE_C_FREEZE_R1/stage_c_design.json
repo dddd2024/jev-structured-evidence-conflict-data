@@ -1,0 +1,193 @@
+{
+  "capture_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "donors": [
+    {
+      "M": {
+        "SA": -7.198084,
+        "new": 2.250621,
+        "old": -1.701655
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "06dabe0512b76afb68977fd574f7725aac20f4c40b6194dc33657f478efd31d0",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -1.681692,
+        "new": 3.511954,
+        "old": -2.380373
+      },
+      "action": {
+        "SA": "wait",
+        "new": "reject_conflict",
+        "old": "wait"
+      },
+      "cell": "accept",
+      "scene_sha256": "35253a2620597e903532ef180f095b1bf2e0a8e6e49acac5fd9738413f921883",
+      "source_group": "twins_streamlet:run-338"
+    },
+    {
+      "M": {
+        "SA": -8.363268,
+        "new": 0.861979,
+        "old": -4.523354
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "508ecd55774f634a16e03254e24ad195318300f588fa3dd69fd6e76e62462326",
+      "source_group": "twins_streamlet:run-212"
+    },
+    {
+      "M": {
+        "SA": -3.594846,
+        "new": 4.449639,
+        "old": -5.2535
+      },
+      "action": {
+        "SA": "accept",
+        "new": "reject_conflict",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "90dbf6d6536f757d7ee4717ef79313a72c53f84e48b5080e718be4fb68f2cee5",
+      "source_group": "twins_streamlet:run-140"
+    }
+  ],
+  "dose_matched_random": "per position i: target_i + u_i * ||source_i - target_i||, u_i a seeded Gaussian direction normalised to unit length (target = the patched arm's own span at that layer); same per-position perturbation size as the main patch, random direction",
+  "gpu_status": "0 Stage-C forwards; needs the user's explicit approval of 696 calls / [124,124,112,112,112,112]",
+  "hosts": [
+    {
+      "M": {
+        "SA": -11.038735,
+        "new": -11.397852,
+        "old": -11.192782
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "06c941a749f2b81e3c496d0600268c8344c2051a177576c0450ab8958591e97f",
+      "source_group": "twins_streamlet:run-220"
+    },
+    {
+      "M": {
+        "SA": -10.543791,
+        "new": -9.600635,
+        "old": -9.472007
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "078ca2d1fd3e1e089e641f0cd15ac8d0057336046c04fb2502fe592b4c56442c",
+      "source_group": "twins_streamlet:run-283"
+    },
+    {
+      "M": {
+        "SA": -11.417932,
+        "new": -10.765585,
+        "old": -11.442208
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "0b79af185ea8d7e35baabbd9f2c5b54efb9fafaf53042ccec10e43bb1fdddd50",
+      "source_group": "twins_streamlet:run-301"
+    },
+    {
+      "M": {
+        "SA": -12.03192,
+        "new": -12.255905,
+        "old": -11.86054
+      },
+      "action": {
+        "SA": "accept",
+        "new": "accept",
+        "old": "accept"
+      },
+      "cell": "accept",
+      "scene_sha256": "1be7cc40f0726ac9a72122cf02b612fd1e8fe29919b52f175ee41aba24e38855",
+      "source_group": "twins_streamlet:run-68"
+    }
+  ],
+  "inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_b_design_blob": "fd2a48b3384e08170676c3c90f95efb41c914eee",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e"
+  },
+  "motivation": "Stage-B (f79e30e): restoration main beat SA-sham 16/16 and permuted 16/16 but whole-span norm-matched random only 9/16; that control is a far larger perturbation than the main patch (span cosine ~0.85), so content vs dose is confounded. Suppression main ~ donor-side SA-sham, suggesting the host's missed conflict span is encoded like a non-conflict span. L15 ~ 0 in both directions.",
+  "not_claimed": [
+    "Key-only mediation",
+    "never-seen source groups"
+  ],
+  "patch_layers": [
+    11,
+    12,
+    13,
+    14
+  ],
+  "plan": [
+    124,
+    124,
+    112,
+    112,
+    112,
+    112
+  ],
+  "preregistered_analysis": {
+    "H1_dose_matched_restoration_L11": "cell SUPPORTIVE iff dM_main > max(dM_doserand_s1, dM_doserand_s2); content-specific at L11 iff >= 10/16 cells supportive (chance per cell ~1/3 if direction is irrelevant) AND every donor group has a supportive cell AND median(dM_main - max doserand) > 0",
+    "H1b_dose_matched_suppression_L11": "cell SUPPORTIVE iff dM_main < dM_doserand_s1; reported with the main vs donor-side SA-sham difference (Stage-B equivalence)",
+    "H2_layer_localization": "for L in 11..14: median dM_main per direction; boundary = first layer whose |median dM_main| < 10% of its L11 value in both directions",
+    "H3_encoding": "per scene and layer: delta_s(L) = mean over span positions of h_new - h_SA (C row). Conflict direction u(L) = normalised mean delta over donors, leave-one-donor-out for donor scores; score p_s(L) = delta_s(L) . u(L). Prediction (encoding failure): at L11 the median p of FFF scenes (missed) < every held-out donor's p, and AUC(FTF vs FFF) >= 0.9. Profile over all 24 layers is descriptive.",
+    "readout": "M = logit(true) - logit(false) on the C row; dM vs the Stage-A raw baseline of the patched arm (bitwise-replayed in phase 1)",
+    "replication": "64 L11 rows bitwise == Stage-B rows; 248 capture forwards bitwise == Stage-A rows",
+    "units": "source groups (3 donor, 4 host); cells not independent; thresholds are descriptive decision rules, not p-values"
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_C_DESIGN_V1",
+  "status": "FROZEN_CPU_BEFORE_ANY_STAGE_C_FORWARD",
+  "total": 696
+}

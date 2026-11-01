@@ -1,0 +1,510 @@
+{
+  "alpha": {
+    "dir_BULK": {
+      "max": 3.6198,
+      "median_of_medians": 1.2388,
+      "min": 0.3541
+    },
+    "dir_CONTEXT": {
+      "max": 16.1606,
+      "median_of_medians": 2.5569,
+      "min": 1.0705
+    },
+    "dir_OTHER_ITEMS": {
+      "max": 10.1575,
+      "median_of_medians": 1.5312,
+      "min": 0.3563
+    },
+    "dir_PARTNER": {
+      "max": 102.9712,
+      "median_of_medians": 3.2414,
+      "min": 0.5277
+    },
+    "dir_ROUNDVOTES": {
+      "max": 10.5957,
+      "median_of_medians": 2.0329,
+      "min": 0.3646
+    },
+    "dir_ROUND_PEERS": {
+      "max": 40.4104,
+      "median_of_medians": 3.1473,
+      "min": 0.4368
+    },
+    "dir_SELF": {
+      "max": 17.2055,
+      "median_of_medians": 3.8506,
+      "min": 1.2918
+    }
+  },
+  "consistency_gate": {
+    "S_M3_all": 51,
+    "S_full": 51,
+    "full_rows_bitwise_eq_M3": 208,
+    "pass": true
+  },
+  "content": "XD_HOLDS",
+  "delta_geometry": {
+    "BULK": {
+      "median_cos_to_full_delta": 0.7792,
+      "median_norm_ratio_to_full_delta": 0.7868
+    },
+    "CONTEXT": {
+      "median_cos_to_full_delta": 0.4342,
+      "median_norm_ratio_to_full_delta": 0.4105
+    },
+    "OTHER_ITEMS": {
+      "median_cos_to_full_delta": 0.6497,
+      "median_norm_ratio_to_full_delta": 0.6287
+    },
+    "PARTNER": {
+      "median_cos_to_full_delta": 0.3459,
+      "median_norm_ratio_to_full_delta": 0.3582
+    },
+    "ROUNDVOTES": {
+      "median_cos_to_full_delta": 0.5001,
+      "median_norm_ratio_to_full_delta": 0.4981
+    },
+    "ROUND_PEERS": {
+      "median_cos_to_full_delta": 0.3329,
+      "median_norm_ratio_to_full_delta": 0.3595
+    },
+    "SELF": {
+      "median_cos_to_full_delta": 0.3426,
+      "median_norm_ratio_to_full_delta": 0.2817
+    }
+  },
+  "leave_one_donor_group_out": {
+    "twins_streamlet:run-121": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-140": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-154": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-169": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-181": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-212": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-220": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-272": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "OTHER_ITEMS",
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-283": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "OTHER_ITEMS",
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-301": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "OTHER_ITEMS",
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-337": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-338": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "OTHER_ITEMS",
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-344": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "OTHER_ITEMS",
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    },
+    "twins_streamlet:run-68": {
+      "BULK_NEC": true,
+      "BULK_SUF": true,
+      "D": [
+        "BULK"
+      ],
+      "RAND_NULL": true,
+      "content": "XD_HOLDS",
+      "verdict": "BULK_DIRECTION"
+    }
+  },
+  "per_host_S": {
+    "1c7158b6b838": {
+      "dir_BULK": 0,
+      "dir_CONTEXT": 0,
+      "dir_OTHER_ITEMS": 0,
+      "dir_PARTNER": 1,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 0,
+      "dir_ROUND_PEERS": 0,
+      "dir_SELF": 0,
+      "drop_BULK": 0,
+      "full": 1,
+      "only_BULK": 0,
+      "xdonor_BULK": 0
+    },
+    "1fb5651c643e": {
+      "dir_BULK": 11,
+      "dir_CONTEXT": 10,
+      "dir_OTHER_ITEMS": 2,
+      "dir_PARTNER": 1,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 1,
+      "dir_ROUND_PEERS": 2,
+      "dir_SELF": 0,
+      "drop_BULK": 0,
+      "full": 13,
+      "only_BULK": 12,
+      "xdonor_BULK": 13
+    },
+    "264c458dbed5": {
+      "dir_BULK": 11,
+      "dir_CONTEXT": 1,
+      "dir_OTHER_ITEMS": 8,
+      "dir_PARTNER": 2,
+      "dir_RAND": 1,
+      "dir_ROUNDVOTES": 2,
+      "dir_ROUND_PEERS": 1,
+      "dir_SELF": 0,
+      "drop_BULK": 1,
+      "full": 10,
+      "only_BULK": 10,
+      "xdonor_BULK": 10
+    },
+    "2a4f596d9dd7": {
+      "dir_BULK": 0,
+      "dir_CONTEXT": 0,
+      "dir_OTHER_ITEMS": 0,
+      "dir_PARTNER": 0,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 0,
+      "dir_ROUND_PEERS": 0,
+      "dir_SELF": 0,
+      "drop_BULK": 0,
+      "full": 0,
+      "only_BULK": 0,
+      "xdonor_BULK": 0
+    },
+    "2c9118bbcc3b": {
+      "dir_BULK": 2,
+      "dir_CONTEXT": 0,
+      "dir_OTHER_ITEMS": 0,
+      "dir_PARTNER": 1,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 0,
+      "dir_ROUND_PEERS": 0,
+      "dir_SELF": 0,
+      "drop_BULK": 0,
+      "full": 5,
+      "only_BULK": 1,
+      "xdonor_BULK": 4
+    },
+    "4bcbaf15f7ab": {
+      "dir_BULK": 11,
+      "dir_CONTEXT": 5,
+      "dir_OTHER_ITEMS": 6,
+      "dir_PARTNER": 2,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 0,
+      "dir_ROUND_PEERS": 0,
+      "dir_SELF": 0,
+      "drop_BULK": 1,
+      "full": 11,
+      "only_BULK": 9,
+      "xdonor_BULK": 11
+    },
+    "756424185463": {
+      "dir_BULK": 8,
+      "dir_CONTEXT": 1,
+      "dir_OTHER_ITEMS": 5,
+      "dir_PARTNER": 2,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 1,
+      "dir_ROUND_PEERS": 1,
+      "dir_SELF": 0,
+      "drop_BULK": 1,
+      "full": 7,
+      "only_BULK": 4,
+      "xdonor_BULK": 8
+    },
+    "8ae8575481a0": {
+      "dir_BULK": 5,
+      "dir_CONTEXT": 0,
+      "dir_OTHER_ITEMS": 6,
+      "dir_PARTNER": 0,
+      "dir_RAND": 0,
+      "dir_ROUNDVOTES": 0,
+      "dir_ROUND_PEERS": 0,
+      "dir_SELF": 0,
+      "drop_BULK": 1,
+      "full": 4,
+      "only_BULK": 3,
+      "xdonor_BULK": 5
+    }
+  },
+  "rules": {
+    "S": "S(arm) = #cells where the donor-new-source patch is JOINT and the donor-ROUND-source patch of the same arm is not (target host new)",
+    "SPEC": "SPEC iff dM_main > dM_round in >= 75% of cells AND in a majority of cells for >= 10 of 14 donor groups",
+    "always_reported": "S, SPEC, J_main, J_round and median dM per arm; alpha statistics per dir arm; per-cell ||delta_C|| and cos(delta_C, delta_full) from the capture files; leave-one-donor-group-out of every verdict; per host; all nulls",
+    "bulk_rules": "BULK_SUF iff S(only_BULK) >= 1/2 S(full) and SPEC(only_BULK); BULK_NEC iff S(drop_BULK) <= 1/2 S(full)",
+    "consistency_gate": "the full arm is the M3 all-heads patch: its 208 rows must equal M3's bitwise (GPU, checked in the run) and S(full) = 51; otherwise verdict INCONSISTENT_WITH_M3 and no claim",
+    "content_rule": "XD_HOLDS iff S(xdonor_BULK) >= 1/2 S(full) and SPEC(xdonor_BULK): the BULK part need not come from the same scene as the rest of the donor's write; else XD_FAILS",
+    "direction_rules": "DIR_SUF(C) iff S(dir_C) >= 1/2 S(full) and SPEC(dir_C), for C in PARTNER, ROUND_PEERS, OTHER_ITEMS, CONTEXT, SELF, ROUNDVOTES, BULK. RAND_NULL iff S(dir_RAND) <= 5 and not SPEC(dir_RAND)",
+    "interpretation_fixed_in_advance": "M4's necessity of OTHER_ITEMS / CONTEXT is a size effect if RAND_NULL holds and BULK_DIRECTION does not, or if a non-BULK class repairs at matched size (PARTNER_DIRECTION: the partner direction carries the evaluation and was only too small in M4). BULK_DIRECTION with RAND_NULL: the context-wide read carries the round-specific evaluation in its direction, not only its size. NO_SINGLE_DIRECTION: the evaluation is a combination across classes. dir_C rescales a direction by a position-wise factor alpha_C that can be large; alpha statistics are always reported. All keys before the span are identical in a scene's new and ROUND arms, so round-specificity of pre-span classes comes from the donor's span-side queries and gates (the round token is at the span end)",
+    "matched_size_gate": "for every dir_* and dir_RAND row, the patch's change ||patch - host|| per row and span position equals ||donor - host|| within 1e-3 relative (fail-closed in the runner)",
+    "readouts": "M = conflict margin; A = logit(reject_conflict) - max(accept, wait); JOINT = M > 0 and A > 0; dM = M(patch) - M(in-run capture of host new)",
+    "units": "the 104 cross-group cells of M1-M4; cells share donors and hosts, counts are descriptive decision rules, not independent tests",
+    "verdict": "if not RAND_NULL: MAGNITUDE_SUFFICES (a random direction at the full patch's size repairs; no direction claim). Else D = {C : DIR_SUF(C)}: PARTNER_DIRECTION if PARTNER or ROUNDVOTES in D and no BULK-side class (OTHER_ITEMS, CONTEXT, BULK) in D; BULK_DIRECTION if a BULK-side class in D and neither PARTNER nor ROUNDVOTES in D; BOTH_DIRECTIONS if both kinds in D; SELF_DIRECTION if D = {SELF}; NO_SINGLE_DIRECTION if D is empty (the repair needs the donor's write as a whole)"
+  },
+  "rules_applied": {
+    "BULK_NEC": true,
+    "BULK_SUF": true,
+    "D": [
+      "OTHER_ITEMS",
+      "BULK"
+    ],
+    "RAND_NULL": true,
+    "content": "XD_HOLDS",
+    "verdict": "BULK_DIRECTION"
+  },
+  "schema": "JEV_A461_MECH_M5_ANALYSIS_V1",
+  "table": {
+    "dir_BULK": {
+      "J_main": 48,
+      "J_round": 0,
+      "S": 48,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.7522,
+      "median_dM_main": 0.3263,
+      "median_dM_round": -0.5627,
+      "n_cells": 104
+    },
+    "dir_CONTEXT": {
+      "J_main": 22,
+      "J_round": 5,
+      "S": 17,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9712,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.4569,
+      "median_dM_main": 0.1244,
+      "median_dM_round": -0.336,
+      "n_cells": 104
+    },
+    "dir_OTHER_ITEMS": {
+      "J_main": 44,
+      "J_round": 17,
+      "S": 27,
+      "SPEC": true,
+      "frac_main_gt_round": 0.75,
+      "groups_majority": 12,
+      "median_dM_contrast": 0.1264,
+      "median_dM_main": 0.3459,
+      "median_dM_round": -0.08,
+      "n_cells": 104
+    },
+    "dir_PARTNER": {
+      "J_main": 19,
+      "J_round": 11,
+      "S": 9,
+      "SPEC": false,
+      "frac_main_gt_round": 0.6538,
+      "groups_majority": 11,
+      "median_dM_contrast": 0.0276,
+      "median_dM_main": 0.0147,
+      "median_dM_round": -0.0154,
+      "n_cells": 104
+    },
+    "dir_RAND": {
+      "J_main": 4,
+      "J_round": 3,
+      "S": 1,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4423,
+      "groups_majority": 5,
+      "median_dM_contrast": -0.0105,
+      "median_dM_main": -0.005,
+      "median_dM_round": -0.0151,
+      "n_cells": 104
+    },
+    "dir_ROUNDVOTES": {
+      "J_main": 25,
+      "J_round": 21,
+      "S": 4,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5769,
+      "groups_majority": 9,
+      "median_dM_contrast": 0.0212,
+      "median_dM_main": 0.1661,
+      "median_dM_round": 0.1055,
+      "n_cells": 104
+    },
+    "dir_ROUND_PEERS": {
+      "J_main": 26,
+      "J_round": 23,
+      "S": 4,
+      "SPEC": false,
+      "frac_main_gt_round": 0.4327,
+      "groups_majority": 4,
+      "median_dM_contrast": -0.0272,
+      "median_dM_main": 0.1036,
+      "median_dM_round": 0.0887,
+      "n_cells": 104
+    },
+    "dir_SELF": {
+      "J_main": 0,
+      "J_round": 0,
+      "S": 0,
+      "SPEC": false,
+      "frac_main_gt_round": 0.5865,
+      "groups_majority": 9,
+      "median_dM_contrast": 0.0251,
+      "median_dM_main": -0.0477,
+      "median_dM_round": -0.0918,
+      "n_cells": 104
+    },
+    "drop_BULK": {
+      "J_main": 10,
+      "J_round": 6,
+      "S": 4,
+      "SPEC": true,
+      "frac_main_gt_round": 0.8077,
+      "groups_majority": 13,
+      "median_dM_contrast": 0.0487,
+      "median_dM_main": 0.1177,
+      "median_dM_round": 0.0307,
+      "n_cells": 104
+    },
+    "full": {
+      "J_main": 58,
+      "J_round": 7,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.7138,
+      "median_dM_main": 0.3542,
+      "median_dM_round": -0.3714,
+      "n_cells": 104
+    },
+    "only_BULK": {
+      "J_main": 39,
+      "J_round": 0,
+      "S": 39,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9904,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.5477,
+      "median_dM_main": 0.2468,
+      "median_dM_round": -0.4621,
+      "n_cells": 104
+    },
+    "xdonor_BULK": {
+      "J_main": 57,
+      "J_round": 6,
+      "S": 51,
+      "SPEC": true,
+      "frac_main_gt_round": 0.9808,
+      "groups_majority": 14,
+      "median_dM_contrast": 0.762,
+      "median_dM_main": 0.3769,
+      "median_dM_round": -0.4794,
+      "n_cells": 104
+    }
+  },
+  "verdict": "BULK_DIRECTION"
+}

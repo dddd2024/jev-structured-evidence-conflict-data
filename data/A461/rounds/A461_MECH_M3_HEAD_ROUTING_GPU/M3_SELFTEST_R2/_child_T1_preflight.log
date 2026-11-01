@@ -1,0 +1,6 @@
+returncode=0
+--- stdout ---
+{"batch_receipts":[],"denied_prehook_calls":0,"elapsed_seconds":null,"error_message":null,"physical_prehook_calls":0,"preflight":{"manifest_rows":7740,"scenes":22,"span_gate":"PASS","token_gate":"PASS"},"status":"COMPLETE_A461_MECH_M3_PREFLIGHT"}
+
+--- stderr ---
+

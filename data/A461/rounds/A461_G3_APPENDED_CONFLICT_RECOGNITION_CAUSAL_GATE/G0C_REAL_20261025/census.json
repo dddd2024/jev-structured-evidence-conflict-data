@@ -1,0 +1,103 @@
+{
+  "a428_crosschecked": 12,
+  "eligible": {
+    "T2_ACCEPT_TO_REJECT": {
+      "count": 116,
+      "groups": [
+        "twins_streamlet:run-140",
+        "twins_streamlet:run-159",
+        "twins_streamlet:run-161",
+        "twins_streamlet:run-169",
+        "twins_streamlet:run-181",
+        "twins_streamlet:run-182",
+        "twins_streamlet:run-211",
+        "twins_streamlet:run-212",
+        "twins_streamlet:run-24",
+        "twins_streamlet:run-267",
+        "twins_streamlet:run-279",
+        "twins_streamlet:run-283",
+        "twins_streamlet:run-328",
+        "twins_streamlet:run-330",
+        "twins_streamlet:run-337",
+        "twins_streamlet:run-338",
+        "twins_streamlet:run-342",
+        "twins_streamlet:run-351",
+        "twins_streamlet:run-358",
+        "twins_streamlet:run-372",
+        "twins_streamlet:run-83"
+      ]
+    },
+    "T2_WAIT_TO_REJECT": {
+      "count": 96,
+      "groups": [
+        "twins_streamlet:run-159",
+        "twins_streamlet:run-161",
+        "twins_streamlet:run-169",
+        "twins_streamlet:run-181",
+        "twins_streamlet:run-182",
+        "twins_streamlet:run-231",
+        "twins_streamlet:run-24",
+        "twins_streamlet:run-245",
+        "twins_streamlet:run-267",
+        "twins_streamlet:run-279",
+        "twins_streamlet:run-283",
+        "twins_streamlet:run-330",
+        "twins_streamlet:run-337",
+        "twins_streamlet:run-338",
+        "twins_streamlet:run-342",
+        "twins_streamlet:run-351",
+        "twins_streamlet:run-358",
+        "twins_streamlet:run-372",
+        "twins_streamlet:run-45",
+        "twins_streamlet:run-83"
+      ]
+    },
+    "T3_PREEXISTING_CONTRAST": {
+      "count": 33,
+      "groups": [
+        "twins_streamlet:run-211",
+        "twins_streamlet:run-231",
+        "twins_streamlet:run-358",
+        "twins_streamlet:run-372",
+        "twins_streamlet:run-45",
+        "twins_streamlet:run-83"
+      ]
+    }
+  },
+  "excluded_group_count": 18,
+  "excluded_groups": [
+    "twins_streamlet:run-100",
+    "twins_streamlet:run-101",
+    "twins_streamlet:run-105",
+    "twins_streamlet:run-114",
+    "twins_streamlet:run-121",
+    "twins_streamlet:run-125",
+    "twins_streamlet:run-129",
+    "twins_streamlet:run-154",
+    "twins_streamlet:run-167",
+    "twins_streamlet:run-197",
+    "twins_streamlet:run-210",
+    "twins_streamlet:run-220",
+    "twins_streamlet:run-237",
+    "twins_streamlet:run-272",
+    "twins_streamlet:run-301",
+    "twins_streamlet:run-336",
+    "twins_streamlet:run-344",
+    "twins_streamlet:run-68"
+  ],
+  "lanl_rows": 328,
+  "pairs": 26,
+  "planned_forwards_including_old_and_replays": 109,
+  "reasons": {
+    "excluded_group": 334,
+    "t2_not_eligible": 150,
+    "t3_no_fresh": 68
+  },
+  "selected": {
+    "T2_accept": 10,
+    "T2_wait": 10,
+    "T3": 6
+  },
+  "total_arms": 79,
+  "twins_rows": 797
+}
