@@ -1,0 +1,122 @@
+{
+  "title": "A461 M23 public data snapshot",
+  "release_status": "PARTIAL",
+  "origin_repository": "dddd2024/jev",
+  "origin_prefix": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/",
+  "verification": "The Git blob SHA-1 of each copy matched its source blob.",
+  "models": [
+    "kev-4B",
+    "SecJev-0.8B"
+  ],
+  "native_forward_rows_per_model": 248,
+  "excluded": [
+    "M23 hidden-state tensor captures",
+    "Earlier A461 experiments not yet mirrored",
+    "Model weights / model checkpoints",
+    "Private logs and any unlicensed third-party data"
+  ],
+  "files": [
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/PREREG_M23_R1.md",
+      "public_path": "data/A461/M23/PREREG_M23_R1.md",
+      "git_blob_sha1": "ca9e1cb9c40c5f57634e712f2a452e7abda37165",
+      "source_utf8_character_count": 6080
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23_RESULT_R1.md",
+      "public_path": "data/A461/M23/M23_RESULT_R1.md",
+      "git_blob_sha1": "0e900519d77036c0d7f3e468240a51627b63eea7",
+      "source_utf8_character_count": 8708
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23_FREEZE_R1/m23k_design.json",
+      "public_path": "data/A461/M23/M23_FREEZE_R1/m23k_design.json",
+      "git_blob_sha1": "3a38de9b0e98f94bdb0678002462cc4c36de2fb6",
+      "source_utf8_character_count": 169799
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23_FREEZE_R1/m23s_design.json",
+      "public_path": "data/A461/M23/M23_FREEZE_R1/m23s_design.json",
+      "git_blob_sha1": "480ca62c1e88ffa3fdd7348e557692c515415390",
+      "source_utf8_character_count": 170224
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23_FREEZE_R1/m23k_manifest.jsonl",
+      "public_path": "data/A461/M23/M23_FREEZE_R1/m23k_manifest.jsonl",
+      "git_blob_sha1": "003faaffa6359c895f72972f8d8802d21b645b12",
+      "source_utf8_character_count": 124532
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23_FREEZE_R1/m23s_manifest.jsonl",
+      "public_path": "data/A461/M23/M23_FREEZE_R1/m23s_manifest.jsonl",
+      "git_blob_sha1": "ebe6979dba4b0e719bda66b7c849bec95553a170",
+      "source_utf8_character_count": 123044
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/raw_native_logits_m23k.jsonl",
+      "public_path": "data/A461/M23/M23K_GPU_R1/raw_native_logits_m23k.jsonl",
+      "git_blob_sha1": "7ffebade1d6339340a466bd5032f93f0a992ecc3",
+      "source_utf8_character_count": 295021
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/raw_native_logits_m23s.jsonl",
+      "public_path": "data/A461/M23/M23S_GPU_R1/raw_native_logits_m23s.jsonl",
+      "git_blob_sha1": "6e2d9a8e1beeac1507433ce3a68a0a4f23a3ddce",
+      "source_utf8_character_count": 288883
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23K_ANALYSIS_R1/m23k_analysis.json",
+      "public_path": "data/A461/M23/M23K_ANALYSIS_R1/m23k_analysis.json",
+      "git_blob_sha1": "69da40e403925505b59b36991fd8216b37a2146c",
+      "source_utf8_character_count": 6319
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23S_ANALYSIS_R1/m23s_analysis.json",
+      "public_path": "data/A461/M23/M23S_ANALYSIS_R1/m23s_analysis.json",
+      "git_blob_sha1": "8063140423194c44942d228eec373c2ac3bb0218",
+      "source_utf8_character_count": 6359
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23_analysis_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23_analysis_v1.py",
+      "git_blob_sha1": "128ee26a8324dd92341b3814ddd110e060c2db16",
+      "source_utf8_character_count": 13505
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23_derive_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23_derive_v1.py",
+      "git_blob_sha1": "70a61844e3a31b46ab2ea9da60a804d07ca2da59",
+      "source_utf8_character_count": 6661
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23_freeze_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23_freeze_v1.py",
+      "git_blob_sha1": "ec5b9e50bbe898abdba38844ba55807acebcbc0e",
+      "source_utf8_character_count": 8051
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23k_runner_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23k_runner_v1.py",
+      "git_blob_sha1": "63308265ec6124a44fa7200df6327c265def9273",
+      "source_utf8_character_count": 29604
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23s_runner_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23s_runner_v1.py",
+      "git_blob_sha1": "a8955fe34308c4d2819bc60b45efe9257f90be04",
+      "source_utf8_character_count": 29001
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23k_selftest_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23k_selftest_v1.py",
+      "git_blob_sha1": "23b9db2ac82bed1d2cadbe4379166c4383c6c7fa",
+      "source_utf8_character_count": 14381
+    },
+    {
+      "source_path": "research/rounds/A461_MON_M23_TWIN_PROBE_GPU/A461_mon_m23s_selftest_v1.py",
+      "public_path": "data/A461/M23/A461_mon_m23s_selftest_v1.py",
+      "git_blob_sha1": "98b4ee3c286a96f33495135cce1a1d7609067bd6",
+      "source_utf8_character_count": 14395
+    }
+  ]
+}

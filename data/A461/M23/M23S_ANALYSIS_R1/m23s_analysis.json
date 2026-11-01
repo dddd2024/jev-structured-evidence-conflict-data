@@ -1,0 +1,212 @@
+{
+ "consistency_gate": {
+  "expected": 248,
+  "new": 124,
+  "new_captures_bitwise_parent": 124,
+  "new_logits_bitwise_parent": 124,
+  "parent_auroc_reproduced": {
+   "PROBE:LAST_RESID_L11": true,
+   "PROBE:LAST_RESID_L23": true,
+   "PROBE:SPAN_ATTN11": true,
+   "PROBE:SPAN_RESID_L11": true,
+   "PROBE:SPAN_RESID_emb": true
+  },
+  "pass": true,
+  "rows": 248,
+  "twin": 124,
+  "twin_emb_span_equal": 124
+ },
+ "detectors": {
+  "PROBE:LAST_RESID_L11": {
+   "AUROC_pair": 0.2656198347107438,
+   "AUROC_twin_vs_parent_benign": 0.9824746369604138,
+   "all_scenes": {
+    "AUROC_pair": 0.27048647242455776,
+    "AUROC_twin_vs_parent_benign": 0.9844533069810122,
+    "median_paired_diff": -3.206979147889813,
+    "new_flag@FV1": 0.7258064516129032,
+    "new_flag@FV5": 0.9274193548387096,
+    "paired_frac_new_gt_twin": 0.03225806451612903,
+    "scenes": 124,
+    "twin_flag@FV1": 0.9112903225806451,
+    "twin_flag@FV5": 0.9435483870967742
+   },
+   "ci_AUROC_pair": [
+    0.1946,
+    0.3442
+   ],
+   "ci_twin_flag@FV5": [
+    0.8333,
+    1.0
+   ],
+   "median_paired_diff": -3.114570786399372,
+   "new_flag@FV1": 0.7090909090909091,
+   "new_flag@FV5": 0.9181818181818182,
+   "paired_frac_new_gt_twin": 0.03636363636363636,
+   "scenes": 110,
+   "twin_flag@FV1": 0.9,
+   "twin_flag@FV5": 0.9363636363636364
+  },
+  "PROBE:LAST_RESID_L23": {
+   "AUROC_pair": 0.46793388429752064,
+   "AUROC_twin_vs_parent_benign": 0.9716132882434851,
+   "all_scenes": {
+    "AUROC_pair": 0.4761316337148803,
+    "AUROC_twin_vs_parent_benign": 0.974518246629491,
+    "median_paired_diff": -0.315101101099744,
+    "new_flag@FV1": 0.6774193548387096,
+    "new_flag@FV5": 0.8790322580645161,
+    "paired_frac_new_gt_twin": 0.3870967741935484,
+    "scenes": 124,
+    "twin_flag@FV1": 0.6612903225806451,
+    "twin_flag@FV5": 0.8870967741935484
+   },
+   "ci_AUROC_pair": [
+    0.4238,
+    0.5098
+   ],
+   "ci_twin_flag@FV5": [
+    0.7529,
+    0.9667
+   ],
+   "median_paired_diff": -0.4597034908195283,
+   "new_flag@FV1": 0.6454545454545455,
+   "new_flag@FV5": 0.8636363636363636,
+   "paired_frac_new_gt_twin": 0.36363636363636365,
+   "scenes": 110,
+   "twin_flag@FV1": 0.6272727272727273,
+   "twin_flag@FV5": 0.8727272727272727
+  },
+  "PROBE:SPAN_ATTN11": {
+   "AUROC_pair": 0.697603305785124,
+   "AUROC_twin_vs_parent_benign": 0.9211458126118958,
+   "all_scenes": {
+    "AUROC_pair": 0.7226196670135275,
+    "AUROC_twin_vs_parent_benign": 0.9141314322015952,
+    "median_paired_diff": 3.336528670428807,
+    "new_flag@FV1": 0.5645161290322581,
+    "new_flag@FV5": 0.8790322580645161,
+    "paired_frac_new_gt_twin": 0.9516129032258065,
+    "scenes": 124,
+    "twin_flag@FV1": 0.27419354838709675,
+    "twin_flag@FV5": 0.6048387096774194
+   },
+   "ci_AUROC_pair": [
+    0.6419,
+    0.7721
+   ],
+   "ci_twin_flag@FV5": [
+    0.52,
+    0.7527
+   ],
+   "median_paired_diff": 3.0759865675379654,
+   "new_flag@FV1": 0.5727272727272728,
+   "new_flag@FV5": 0.8727272727272727,
+   "paired_frac_new_gt_twin": 0.9454545454545454,
+   "scenes": 110,
+   "twin_flag@FV1": 0.3,
+   "twin_flag@FV5": 0.6545454545454545
+  },
+  "PROBE:SPAN_RESID_L11": {
+   "AUROC_pair": 0.5630578512396694,
+   "AUROC_twin_vs_parent_benign": 0.9886811219415158,
+   "all_scenes": {
+    "AUROC_pair": 0.5422736732570239,
+    "AUROC_twin_vs_parent_benign": 0.9899237664996118,
+    "median_paired_diff": 0.7166176535340414,
+    "new_flag@FV1": 0.9032258064516129,
+    "new_flag@FV5": 0.9838709677419355,
+    "paired_frac_new_gt_twin": 0.6451612903225806,
+    "scenes": 124,
+    "twin_flag@FV1": 0.7983870967741935,
+    "twin_flag@FV5": 0.9274193548387096
+   },
+   "ci_AUROC_pair": [
+    0.515,
+    0.6178
+   ],
+   "ci_twin_flag@FV5": [
+    0.828,
+    0.9804
+   ],
+   "median_paired_diff": 0.7713945621339349,
+   "new_flag@FV1": 0.9,
+   "new_flag@FV5": 0.9818181818181818,
+   "paired_frac_new_gt_twin": 0.7090909090909091,
+   "scenes": 110,
+   "twin_flag@FV1": 0.7727272727272727,
+   "twin_flag@FV5": 0.9181818181818182
+  },
+  "PROBE:SPAN_RESID_emb": {
+   "AUROC_pair": 0.5,
+   "AUROC_twin_vs_parent_benign": 0.8048537895365029,
+   "all_scenes": {
+    "AUROC_pair": 0.5,
+    "AUROC_twin_vs_parent_benign": 0.8050575280581633,
+    "median_paired_diff": 0.0,
+    "new_flag@FV1": 0.024193548387096774,
+    "new_flag@FV5": 0.0967741935483871,
+    "paired_frac_new_gt_twin": 0.0,
+    "scenes": 124,
+    "twin_flag@FV1": 0.024193548387096774,
+    "twin_flag@FV5": 0.0967741935483871
+   },
+   "ci_AUROC_pair": [
+    0.5,
+    0.5
+   ],
+   "ci_twin_flag@FV5": [
+    0.0417,
+    0.1807
+   ],
+   "median_paired_diff": 0.0,
+   "new_flag@FV1": 0.02727272727272727,
+   "new_flag@FV5": 0.10909090909090909,
+   "paired_frac_new_gt_twin": 0.0,
+   "scenes": 110,
+   "twin_flag@FV1": 0.02727272727272727,
+   "twin_flag@FV5": 0.10909090909090909
+  }
+ },
+ "fake_dry_run": false,
+ "missed_groups": 16,
+ "missed_scenes": 110,
+ "model": "s",
+ "native": {
+  "new_rejected": 14,
+  "twin_by_gold_pred": {
+   "accept->accept": 55,
+   "accept->reject_conflict": 14,
+   "accept->wait": 33,
+   "wait->accept": 1,
+   "wait->reject_conflict": 1,
+   "wait->wait": 20
+  },
+  "twin_false_veto": 15,
+  "twin_rejected_where_new_missed": 1,
+  "twin_rejected_where_new_recognized": 14
+ },
+ "primary": [
+  "PROBE:SPAN_ATTN11",
+  "PROBE:LAST_RESID_L23"
+ ],
+ "refit_parent_auroc": {
+  "PROBE:LAST_RESID_L11": 0.9717127511438234,
+  "PROBE:LAST_RESID_L23": 0.9780584841853989,
+  "PROBE:SPAN_ATTN11": 0.9643922816789338,
+  "PROBE:SPAN_RESID_L11": 0.996021483986473,
+  "PROBE:SPAN_RESID_emb": 0.8048537895365029
+ },
+ "rules": {
+  "interpretation_fixed_in_advance": "VALIDITY_TRACKED on both primary detectors: M-E may say the separability tracks conflict validity in context (same-span twins), not only the arm. ARM_SHORTCUT: M-E stays narrowed and the paper says the separability is explained by the appended item's form / arm. PARTIAL or mixed: reported as is; M-E stays narrowed with the partial result stated.",
+  "verdict": "VALIDITY_TRACKED iff AUROC_pair >= 0.80, CI lower >= 0.65 and twin_flag@FV5 <= 0.25; ARM_SHORTCUT iff AUROC_pair <= 0.65 or twin_flag@FV5 >= 0.50; else PARTIAL; on MISSED scenes"
+ },
+ "schema": "JEV_A461_MON_M23_ANALYSIS_V1",
+ "verdicts": {
+  "PROBE:LAST_RESID_L11": "ARM_SHORTCUT",
+  "PROBE:LAST_RESID_L23": "ARM_SHORTCUT",
+  "PROBE:SPAN_ATTN11": "ARM_SHORTCUT",
+  "PROBE:SPAN_RESID_L11": "ARM_SHORTCUT",
+  "PROBE:SPAN_RESID_emb": "ARM_SHORTCUT"
+ }
+}
