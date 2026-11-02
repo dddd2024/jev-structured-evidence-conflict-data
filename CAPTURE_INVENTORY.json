@@ -1,0 +1,173 @@
+{
+  "status": "NOT_MIGRATED_TO_PUBLIC_RELEASES",
+  "private_source_releases": 3,
+  "public_releases_observed": 0,
+  "capture_tar_assets_expected": 28,
+  "items": [
+    {
+      "source_release_tag": "a461-mech-captures-m1-m22-v1",
+      "assets": [
+        {
+          "name": "captures_M10_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "74fc858d3337684624eb949424237d3a9ed1346f27d3357ec092ecb0f721a579"
+        },
+        {
+          "name": "captures_M11_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "7ad3e15f6103f2f1622c235a2b93c99de0f11a9723024db69b0da3a560a4379f"
+        },
+        {
+          "name": "captures_M12_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "921863399905e77d512bc42e149c3ba414d692ba7d77f7e92adc9705267a3e9f"
+        },
+        {
+          "name": "captures_M13_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "a145fecb7075e4bda9130afcadeced8ab2d1d3b601ddc1ea2d45f85ed83df6dd"
+        },
+        {
+          "name": "captures_M14_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "bc6fe3e933297f35c932d244f882b2a2b7841c465e850259d9aeb8c7c2462855"
+        },
+        {
+          "name": "captures_M15_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "536237c9888b066b40d12de0e465a5355c0fc9e4abdf12f418255ded053f3e8c"
+        },
+        {
+          "name": "captures_M16_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "f28be50dd05b07f3185589d82bf5e7321cba03a82f0f7f82a2a0cf5855e7d90e"
+        },
+        {
+          "name": "captures_M17_A461_MECH.tar",
+          "bytes": 145510400,
+          "sha256": "fb2f2dc2756980c1228b69f62845eb4096e8cf55a7533d01cc85094d8d290741"
+        },
+        {
+          "name": "captures_M18_A461_MECH.tar",
+          "bytes": 275732480,
+          "sha256": "ef384b5360b4efa33a351558d43dd256b096d087af525a2ebd1eeef9c1f70c7c"
+        },
+        {
+          "name": "captures_M19_A461_MECH.tar",
+          "bytes": 27054080,
+          "sha256": "22cec17bb0bcf74a678a44cc2189eecc176d9a9e44086a56642366bfa69aa960"
+        },
+        {
+          "name": "captures_M1_A461_MECH.tar",
+          "bytes": 1015951360,
+          "sha256": "2f386d84f9a1c871b2b111eb3855c814c4211163027c65d2b3a309d7300b3c49"
+        },
+        {
+          "name": "captures_M20_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "0bedd591ecb1ab5ccd77a2bddcf2dcc925335c2962b2f2b8d5822ec4e5c8a0ad"
+        },
+        {
+          "name": "captures_M21_A461_MECH.tar",
+          "bytes": 27054080,
+          "sha256": "fb6e0c9dd600a8dbb722853140276b2dc07feabf99131cba32b86de4e015ef67"
+        },
+        {
+          "name": "captures_M22_A461_MECH.tar",
+          "bytes": 117268480,
+          "sha256": "a7981a469c50ab04efb3a4bde8ee907be72531a8007eb7dd9ccf9756190c0965"
+        },
+        {
+          "name": "captures_M2_A461_MECH.tar",
+          "bytes": 914421760,
+          "sha256": "be42950d2ba844d782fcea9fb912eb3d5cac4ee482dcbed0de18ef2ee9d5aa3f"
+        },
+        {
+          "name": "captures_M3_A461_MECH.tar",
+          "bytes": 90634240,
+          "sha256": "643c2ab1006c8d35ee9d0bb2dcb0590829c6d88e31d96841c8e048c28544b4a3"
+        },
+        {
+          "name": "captures_M4_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "68ad784c0f9b0c2f5ffbca1635f66f4ce6d2e982469de121146ea5da6035beeb"
+        },
+        {
+          "name": "captures_M5_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "b877c62b0749e97505f90f5172e1768175c4f50f5cc663f94f07d1d323758aaf"
+        },
+        {
+          "name": "captures_M6_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "6b08d4039c0a72db08da663ce476bb9eac9852e86a9e1b7b69245f160e9fdaa3"
+        },
+        {
+          "name": "captures_M7_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "d42caf2c1303fad683407989fccaf47b2060435acd8747de6e7c3e6f9b2aecd7"
+        },
+        {
+          "name": "captures_M8_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "fcaf0ebad2af6c5bd0a0ef989f2cfc585a86c67e9fefbfece11f2e4fac1f34f1"
+        },
+        {
+          "name": "captures_M9_A461_MECH.tar",
+          "bytes": 106711040,
+          "sha256": "47fb7ecbb8f00fb132d72b8431fe8eae5d2ecd0fb7b19476f5909b93ead3f89d"
+        },
+        {
+          "name": "MECH_CAPTURES_SHA256SUMS",
+          "bytes": 2037,
+          "sha256": "f765085496f96d1fb526938fdc6cdc113cf042875123844c458785d9b566799a"
+        }
+      ]
+    },
+    {
+      "source_release_tag": "a461-g2-captures-stage-c-v1",
+      "assets": [
+        {
+          "name": "captures_stage_C_A461_G2.tar",
+          "bytes": 378542080,
+          "sha256": "ea7140e8d6d1f18ee852e06082ff2949b654a1c0f97812079866ba5e39b78125"
+        }
+      ]
+    },
+    {
+      "source_release_tag": "a461-g2-captures-def-k4b-v1",
+      "assets": [
+        {
+          "name": "captures_K4B_KB_A461_G2.tar",
+          "bytes": 203192320,
+          "sha256": "a011a59be1df7ce771c3b4bef22b1880864b36607eee011140a0ea1201900031"
+        },
+        {
+          "name": "captures_K4B_KC_A461_G2.tar",
+          "bytes": 833075200,
+          "sha256": "b2577b1ac7c2c46cfce990ccd230bff52df27fa2ef2676b999c4e930652a9fa3"
+        },
+        {
+          "name": "captures_STAGE_D_A461_G2.tar",
+          "bytes": 24432640,
+          "sha256": "7a55e9ef828569e6590ea230e3434b590c55d4abefca8e8a9948302312d89f80"
+        },
+        {
+          "name": "captures_STAGE_E_A461_G2.tar",
+          "bytes": 97566720,
+          "sha256": "4f722829013fa22e646b58fd1ff0798122a5de08c0c108aebcfdfccb23b2ce6d"
+        },
+        {
+          "name": "captures_STAGE_F_A461_G2.tar",
+          "bytes": 243906560,
+          "sha256": "8df8bc3eaffa1320f0d2d68a5fae9f9495a4dfa1ecb5c35e62eb8bb71416a0a3"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Cataloged from original source release GitHub asset metadata.",
+    "No claim is made that these assets are currently downloadable from this public archive.",
+    "M23 research-server capture tensors are not enumerated in these older releases."
+  ]
+}
