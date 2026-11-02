@@ -2,9 +2,9 @@
   "status": "CURATED_WITH_SANITIZED_FILES_AND_EXCLUSIONS",
   "source_repository": "dddd2024/jev",
   "source_commit": "03302ef7867606d2cec527ec0aa8a5abdd0257ee",
-  "copied_files": 1977,
-  "copied_bytes": 313118145,
-  "excluded_files": 27,
+  "copied_files": 1980,
+  "copied_bytes": 339970063,
+  "excluded_files": 24,
   "files": [
     {
       "path": "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
@@ -8975,13 +8975,24 @@
       "path": "data/A461/rounds/A461_SAFETY_S2_ENDPOINT_CPU/THREAT_MODEL_NOTE_R1.md",
       "sha256": "30411b93d261ddd7cdec0e40841bba564015e35134f0a30aea43622b65ba39d3",
       "bytes": 3861
+    },
+    {
+      "path": "data/A461/rounds/A461_MECH_M19_READOUT_GAIN_GPU/M19_FREEZE_R1/m19_directions.pt",
+      "sha256": "974137d1025cec0e3b62201cebe17a400f4ac37d999eb38b4599600ba6b5472e",
+      "bytes": 13424861,
+      "artifact_type": "derived_vectors"
+    },
+    {
+      "path": "data/A461/rounds/A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_FREEZE_R1/m21_directions.pt",
+      "sha256": "4dba9d6b6093b6509bfd7daec85b79e0ee4e841480004fdc79bf3f4381825fc2",
+      "bytes": 13424861,
+      "artifact_type": "derived_vectors"
     }
   ],
   "excluded": {
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v2.docx": "excluded_binary_or_document",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v3.docx": "excluded_binary_or_document",
     "A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/manuscript_draft_v4.docx": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_LOST_0001/ledger.jsonl.moved_by_L1": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V1/A461_G2_paper_draft_v6.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V1/A461_G2_paper_draft_v6.pdf": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V2/A461_G2_paper_draft_v8.docx": "excluded_binary_or_document",
@@ -9002,9 +9013,7 @@
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_REVISION_V2_WORK/A461_G2_paper_draft_v7.pdf": "excluded_binary_or_document",
     "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5.docx": "excluded_binary_or_document",
     "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5_1.docx": "excluded_binary_or_document",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5_2.docx": "excluded_binary_or_document",
-    "A461_MECH_M19_READOUT_GAIN_GPU/M19_FREEZE_R1/m19_directions.pt": "excluded_binary_or_document",
-    "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_FREEZE_R1/m21_directions.pt": "excluded_binary_or_document"
+    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5_2.docx": "excluded_binary_or_document"
   },
   "sanitized_files": {
     "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json": {
@@ -10103,6 +10112,12 @@
       "source_sha256": "95e44239a28579488fee90cbab041307e68b12fc2713d623beeaa1e944d2d2ee",
       "published_sha256": "490469cbb04de9258ef4c94d55c3c6eb7aff0aec723daa96eeea596b5969df2d",
       "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_LOST_0001/ledger.jsonl.moved_by_L1": {
+      "source_sha256": "a82fcaaba263d12e9fd556cc077392e02f4c23ee4883352677ed5cf90633deee",
+      "published_sha256": "8211094adba40a0e58d6ab0d9bf0f02580e5f5f66081355a3002c592587f6343",
+      "replacement_count": 1,
       "status": "SANITIZED_MACHINE_REFS"
     }
   }

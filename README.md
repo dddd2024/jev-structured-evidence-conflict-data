@@ -13,7 +13,7 @@ Research-data mirror for the A461 experiments on the typed model scorers **kev-4
 - [`data/A461/context/research/literature/`](data/A461/context/research/literature/) and [`data/A461/context/research/literature_preflight/`](data/A461/context/research/literature_preflight/) — literature and preregistration gate materials; plus two governance records under `data/A461/context/research_governance/`.
 - [`CONTEXT_MANIFEST.json`](CONTEXT_MANIFEST.json) — SHA-256 provenance list for these 127 additional exact-copy research files.
 
-**Dataset status:** 1,977 of 2,004 source files published (313,118,145 bytes): 1,794 exact original-byte copies and 183 machine-identifier-redacted copies. The 27 remaining documents and binary files are individually listed as withheld, pending redistribution review. This is **not a complete unredacted publication**; the private repository and server originals remain unchanged.
+**Dataset status:** 1,980 of 2,004 A461 round files published: 1,796 original-byte copies (including M19/M21 derived-direction tensors) and 184 machine-identifier-redacted copies. The remaining 24 are manuscript drafts (DOCX/PDF), withheld pending publication review. In addition, 127 original protocol, audit, literature and governance files are available under `data/A461/context/`. Large original activation captures are not yet confirmed in public Releases. The private repository and server originals remain unchanged.
 
 **Hidden-state captures:** Very large float16 `.pt` captures are distributed separately when cleared and uploaded, via [GitHub Releases](../../releases). Do not infer their availability from entries in the raw JSONL files.
 
