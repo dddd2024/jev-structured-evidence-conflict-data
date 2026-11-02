@@ -1,0 +1,52 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "L1_SYNTH_GPU_PREMODEL_0001",
+    "approved_batch_plan": [
+      128,
+      128,
+      122
+    ],
+    "approved_max_native_forwards": 378,
+    "blind_review_runner_blob": "b78da9c0476f0558cd77fa9771c04d020830dede",
+    "blind_review_verdict": "PASS",
+    "cumulative_calls_already_consumed": null,
+    "explicit_user_gpu_approval": true,
+    "mode": "GPU",
+    "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+    "self_blob": "b78da9c0476f0558cd77fa9771c04d020830dede"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "error_message": "gpu backend: plan override refused (frozen 378 = 128,128,122 only)",
+  "error_type": "RuntimeError",
+  "expect_batches": [
+    128,
+    122,
+    128
+  ],
+  "expect_total": 378,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 0,
+  "ledger_reserved_calls": 0,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/P_plan_override",
+  "physical_by_batch_at_failure": {},
+  "physical_prehook_calls": 0,
+  "physical_prehook_count_at_failure": 0,
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runner_blob": "b78da9c0476f0558cd77fa9771c04d020830dede",
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V3",
+  "status": "FAIL_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 381, in main\n    gpu_pin_gate(a, admit, self_blob)\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 219, in gpu_pin_gate\n    ck(a.expect_total == FROZEN_TOTAL and [int(x) for x in a.expect_batches.split(\",\")] == FROZEN_BATCHES,\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 69, in ck\n    raise RuntimeError(m)\nRuntimeError: gpu backend: plan override refused (frozen 378 = 128,128,122 only)\n"
+}

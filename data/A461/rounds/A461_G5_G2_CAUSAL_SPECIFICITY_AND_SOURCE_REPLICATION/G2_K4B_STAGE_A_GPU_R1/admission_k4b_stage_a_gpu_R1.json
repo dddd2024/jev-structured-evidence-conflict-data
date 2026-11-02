@@ -1,0 +1,26 @@
+{
+  "stage": "A461_G5_G2_K4B_STAGE_A_SCREEN_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_G5_G2_K4B_STAGE_A_GPU_20261027_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "user_gpu_approval_quote": "批准 A461-G5-G2 kev-4B Stage-A 筛查 GPU 运行：runner f118ea59，manifest 01ca5390，378 次物理前向，三批 128/128/122，在 REDACTED_RESEARCH_HOST 上执行。",
+  "user_gpu_approval_utc": "2026-10-27T10:43:29Z",
+  "approved_runner_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "explicit_user_gpu_approval": true,
+  "blind_review_verdict": null,
+  "blind_review_runner_blob": null,
+  "approved_max_native_forwards": 378,
+  "approved_batches": 3,
+  "approved_batch_plan": [
+    128,
+    128,
+    122
+  ],
+  "frozen_inputs": {
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8"
+}

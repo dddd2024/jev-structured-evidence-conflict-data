@@ -1,0 +1,51 @@
+{
+  "gpu_blocked": true,
+  "gpu_forwards": 0,
+  "inputs": {
+    "roster": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_CPU_FREEZE_REAL/stage_a_candidate_roster.json"
+  },
+  "manifest": {
+    "max_per_run": 128,
+    "primary": 372,
+    "replays": 6,
+    "runs": 3,
+    "total_calls": 378
+  },
+  "model_loads": 0,
+  "network_calls": 0,
+  "next_gate": "narrow review of this admission draft -> fresh explicit user authorization -> Stage-A GPU runner (separate script, pilot-grade gates)",
+  "option_a_summary": {
+    "by_frozen_width": {
+      "31": 145,
+      "34": 26
+    },
+    "confirmatory_scenes": 171,
+    "exploratory_excluded": [
+      {
+        "frozen_width": 32,
+        "reason": "no cross-group partner at frozen W=32 in the current pool",
+        "scene_sha256": "980ea36bac02c82d2425a6cd87519d49bf1d4ba909354ffa13af0d2f47d7dc95",
+        "source_group": "twins_streamlet:run-231"
+      }
+    ],
+    "frozen_w_cross_group_directed_pairs": {
+      "W31": 19068,
+      "W34": 554,
+      "total": 19622
+    },
+    "schema": "JEV_A461_G5_G2_STAGE_A_OPTION_A_PACKAGING_V1",
+    "v2_1_amendment_resolution": "Option A adopted: no per-W witness expansion; width_profiles.jsonl remains a feasibility record only",
+    "w_stratification_rule": "donor/host pairs match on the SAME frozen W; W recorded per pair and reported as a stratification variable in all analyses; qualification is W-specific (the screened input is the frozen witness input)"
+  },
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_ADMISSION_DRAFT",
+  "run_id": "A461_G5_G2_STAGE_A_ADMISSION_DRAFT_R1",
+  "schema": "JEV_A461_G5_G2_STAGE_A_ADMISSION_DRAFT_RECEIPT_V1",
+  "slice": {
+    "N": 124,
+    "W31": 124,
+    "groups": 17
+  },
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_ADMISSION_DRAFT",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0
+}

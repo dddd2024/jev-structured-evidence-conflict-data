@@ -1,0 +1,10 @@
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","backend":"fake","event":"attempt_open","out_dir":"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/L_F1_complete","plan":[11],"runner_blob":"b78da9c0476f0558cd77fa9771c04d020830dede","t":1793076147.218}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":4,"run":1,"t":1793076147.426}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":5,"run":1,"t":1793076147.485}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":6,"run":1,"t":1793076147.542}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":7,"run":1,"t":1793076147.599}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":8,"run":1,"t":1793076147.649}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":9,"run":1,"t":1793076147.707}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":10,"run":1,"t":1793076147.756}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"reserve","forward_index":11,"run":1,"t":1793076147.806}
+{"admission_id":"L1_LEDGER_TAMPER_0001","attempt_id":"5440874ba6c645f4a6b8a5e8783cc771","event":"attempt_close","physical":11,"reserved":11,"status":"COMPLETE_A461_G5_G2_STAGE_A_SCREEN","t":1793076147.851}

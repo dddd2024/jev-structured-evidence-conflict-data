@@ -1,0 +1,15 @@
+{
+  "backprop_calls": 0,
+  "error_message": "name 'hook' is not defined",
+  "error_type": "NameError",
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 56,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g4-pointer-patching-20261025-v0/G1R",
+  "run_id": "a461-g4-pointer-patching-20261025-v0",
+  "schema": "JEV_A461_G4_G1R_EXECUTION_RECEIPT_V1",
+  "status": "FAIL_A461_G4_G1R",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/A461_g4_g1r_pointer_readout_fp32_v1.py\", line 287, in main\n    hook.remove()\n    ^^^^\nNameError: name 'hook' is not defined\n"
+}

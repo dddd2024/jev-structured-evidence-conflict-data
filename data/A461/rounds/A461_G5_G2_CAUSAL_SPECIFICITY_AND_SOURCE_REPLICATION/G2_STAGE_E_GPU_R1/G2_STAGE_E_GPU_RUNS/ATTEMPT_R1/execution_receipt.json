@@ -1,0 +1,119 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_G5_G2_STAGE_E_GPU_20261027_R1",
+    "approved_batch_plan": [
+      88,
+      72,
+      72,
+      72
+    ],
+    "approved_max_native_forwards": 304,
+    "approved_runner_blob": "23a5a3a3d9a90e50e34aac6cd5a7d01b754d1613",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+    "user_gpu_approval_quote": "批准 A461-G5-G2 Stage-E GPU 运行：runner 23a5a3a3，manifest aa8c77b7，304 次物理前向，四批 88/72/72/72，在 REDACTED_RESEARCH_HOST 上执行。",
+    "user_gpu_approval_utc": "2026-10-27T09:01:38Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [
+    {
+      "cumulative_physical_after": 88,
+      "physical": 88,
+      "planned": 88,
+      "rows": 88,
+      "run": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 160,
+      "physical": 72,
+      "planned": 72,
+      "rows": 72,
+      "run": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 232,
+      "physical": 72,
+      "planned": 72,
+      "rows": 72,
+      "run": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 304,
+      "physical": 72,
+      "planned": 72,
+      "rows": 72,
+      "run": 4,
+      "status": "COMPLETE"
+    }
+  ],
+  "bitwise_vs_stage_a_and_b": "checked",
+  "cuda_initialized": true,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 306,
+    "raw_rows": 304
+  },
+  "elapsed_seconds": 107.532,
+  "expect_batches": [
+    88,
+    72,
+    72,
+    72
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "af68448c27ebbb04a59a8691d4b6c23447fdf6b0",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "aa8c77b71064299b19050ad49d28b360b9e1b48b",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e"
+  },
+  "gpu_model_loads": 1,
+  "ledger_reserved_calls": 304,
+  "model_identity": {
+    "base": {
+      "files": 8,
+      "sha256": "3a2fb1ffd126a3b12ddff5a80446feebb270a15a41a7ba67c92f1fd1879ca5e2"
+    },
+    "ckpt": {
+      "files": 28,
+      "sha256": "fb8b042db5a986a88e8e0fc25e50bce6117f449c7211e8c176d789c7afd99295"
+    },
+    "source": {
+      "files": 26,
+      "sha256": "99fcc711569f09be74c8f811eefcd8698efa2bd4ba319cc53251354d054d8bf6"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 1,
+  "native_model_forward_calls": 304,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_E_GPU_RUNS/ATTEMPT_R1",
+  "physical_forwards": 304,
+  "physical_prehook_calls": 304,
+  "preflight": {
+    "manifest_rows": 304,
+    "scenes": 12,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "58a49b2f7ee24c1cbfec44d7ac5075e6",
+    "consumed_after": 304,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_E_QUOTA_LEDGER/A461_G5_G2_STAGE_E_GPU_20261027_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_G5_G2_STAGE_E_GPU_R1",
+  "runner_blob": "23a5a3a3d9a90e50e34aac6cd5a7d01b754d1613",
+  "schema": "JEV_A461_G5_G2_STAGE_E_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "b675e9d555307720cf1dd964b20db487344f8803",
+  "status": "COMPLETE_A461_G5_G2_STAGE_E"
+}

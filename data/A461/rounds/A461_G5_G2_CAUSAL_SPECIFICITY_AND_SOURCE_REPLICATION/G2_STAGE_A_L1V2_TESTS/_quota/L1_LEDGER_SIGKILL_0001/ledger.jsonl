@@ -1,0 +1,6 @@
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","backend":"fake","event":"attempt_open","out_dir":"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/L_C1_sigkill5","plan":[11],"runner_blob":"b78da9c0476f0558cd77fa9771c04d020830dede","t":1793076131.769}
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","event":"reserve","forward_index":1,"run":1,"t":1793076131.812}
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","event":"reserve","forward_index":2,"run":1,"t":1793076131.862}
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","event":"reserve","forward_index":3,"run":1,"t":1793076131.912}
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","event":"reserve","forward_index":4,"run":1,"t":1793076131.966}
+{"admission_id":"L1_LEDGER_SIGKILL_0001","attempt_id":"7a7c34c2073544cdbeaafe0c667d2f5a","event":"reserve","forward_index":5,"run":1,"t":1793076132.015}

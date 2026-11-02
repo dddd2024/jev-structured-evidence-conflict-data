@@ -1,0 +1,497 @@
+{
+  "fake_model_blob": "4f9fef35c23725d0ab71948fc93e222e935e7b03",
+  "gpu_calls": 0,
+  "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+  "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+  "native_forwards": 0,
+  "passed": 62,
+  "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+  "runner_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "runner_invocations": [
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/preflight.json --backend fake --out G2_K4B_SELFTEST_R1/T2_preflight --preflight-only",
+      "fault": "none",
+      "out": "T2_preflight",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/full.json --backend fake --out G2_K4B_SELFTEST_R1/T3_fullpath --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T3_fullpath",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/replay_fail.json --backend fake --out G2_K4B_SELFTEST_R1/T3b_replay_mismatch --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "callcount",
+      "out": "T3b_replay_mismatch",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook127.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_127 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@127",
+      "out": "T4_hook_extra_lm_call_127",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook128.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_128 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@128",
+      "out": "T4_hook_extra_lm_call_128",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook255.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_255 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@255",
+      "out": "T4_hook_extra_lm_call_255",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook256.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_256 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@256",
+      "out": "T4_hook_extra_lm_call_256",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook377.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_377 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@377",
+      "out": "T4_hook_extra_lm_call_377",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/hook378.json --backend fake --out G2_K4B_SELFTEST_R1/T4_hook_extra_lm_call_378 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "doublefire@378",
+      "out": "T4_hook_extra_lm_call_378",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/kedge.json --backend fake --out G2_K4B_SELFTEST_R1/T4_sigkill_last_entry_batch1 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "sigkill@128",
+      "out": "T4_sigkill_last_entry_batch1",
+      "returncode": -9,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/kedge.json --backend fake --out G2_K4B_SELFTEST_R1/T4_after_sigkill_last_entry --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T4_after_sigkill_last_entry",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/over.json --backend fake --out G2_K4B_SELFTEST_R1/T4_budget_overrun --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T4_budget_overrun",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/A.json --backend fake --out G2_K4B_SELFTEST_R1/L_A1_complete --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_A1_complete",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/A_stale.json --backend fake --out G2_K4B_SELFTEST_R1/L_A2_reuse_stale_consumed0 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_A2_reuse_stale_consumed0",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/A.json --backend fake --out G2_K4B_SELFTEST_R1/L_A3_reuse_new_outdir --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_A3_reuse_new_outdir",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/B.json --backend fake --out G2_K4B_SELFTEST_R1/L_B1_partial_throw4 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "throw4",
+      "out": "L_B1_partial_throw4",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/B.json --backend fake --out G2_K4B_SELFTEST_R1/L_B2_resume_within_budget --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_B2_resume_within_budget",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/B.json --backend fake --out G2_K4B_SELFTEST_R1/L_B3_resume_overrun --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_B3_resume_overrun",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/C.json --backend fake --out G2_K4B_SELFTEST_R1/L_C1_sigkill5 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "sigkill@5",
+      "out": "L_C1_sigkill5",
+      "returncode": -9,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/C.json --backend fake --out G2_K4B_SELFTEST_R1/L_C2_after_kill --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_C2_after_kill",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/D.json --backend fake --out G2_K4B_SELFTEST_R1/L_D1_complete --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_D1_complete",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/D.json --backend fake --out G2_K4B_SELFTEST_R1/L_D2_after_ledger_loss --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_D2_after_ledger_loss",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/E.json --backend fake --out G2_K4B_SELFTEST_R1/L_E1_complete --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_E1_complete",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/E.json --backend fake --out G2_K4B_SELFTEST_R1/L_E2_after_dir_move --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_E2_after_dir_move",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/F.json --backend fake --out G2_K4B_SELFTEST_R1/L_F1_complete --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_F1_complete",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/F.json --backend fake --out G2_K4B_SELFTEST_R1/L_F2_after_tamper --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_F2_after_tamper",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/H.json --backend fake --out G2_K4B_SELFTEST_R1/L_H1_locked --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_H1_locked",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_DELETED.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_DELETED_1 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_DELETED_1",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_DELETED.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_DELETED_2 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_DELETED_2",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_BLOBEDIT.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_BLOBEDIT_1 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_BLOBEDIT_1",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_BLOBEDIT.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_BLOBEDIT_2 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_BLOBEDIT_2",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_AIDEDIT.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_AIDEDIT_1 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_AIDEDIT_1",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_AIDEDIT.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_AIDEDIT_2 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_AIDEDIT_2",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_DUP.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_DUP_1 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_DUP_1",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_DUP.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_DUP_2 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_DUP_2",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_ZERO.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_ZERO_next --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_ZERO_next",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/bij_ZEROROW.json --backend fake --out G2_K4B_SELFTEST_R1/L_BIJ_ZEROROW_next --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "L_BIJ_ZEROROW_next",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/fsync.json --backend fake --out G2_K4B_SELFTEST_R1/T5_raw_fsync_fault_row5 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T5_raw_fsync_fault_row5",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/fsync.json --backend fake --out G2_K4B_SELFTEST_R1/T5_after_fsync_fault --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T5_after_fsync_fault",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P1_gpu_pre_model_ok --pre-model-gate-only",
+      "fault": "none",
+      "out": "P1_gpu_pre_model_ok",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repartition --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_repartition_134 --manifest-blob db13b904cc8b6118988c57b344590fa00ba1971a --expect-batches 134,122,122 --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_repartition_134",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repartition --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_manifest_override --manifest-blob db13b904cc8b6118988c57b344590fa00ba1971a --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_manifest_override",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_plan_override --expect-batches 128,122,128 --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_plan_override",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_quota_override --pre-model-gate-only --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "P_quota_override",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/adm_plan.json --backend gpu --out G2_K4B_SELFTEST_R1/P_adm_plan --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_adm_plan",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/adm_inputs.json --backend gpu --out G2_K4B_SELFTEST_R1/P_adm_inputs --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_adm_inputs",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/adm_runner.json --backend gpu --out G2_K4B_SELFTEST_R1/P_adm_runner --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_adm_runner",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/policy_v2_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_policy_v2_pre_model_ok --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_policy_v2_pre_model_ok",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/pv2_noquote.json --backend gpu --out G2_K4B_SELFTEST_R1/P_pv2_noquote --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_pv2_noquote",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/pv2_blob.json --backend gpu --out G2_K4B_SELFTEST_R1/P_pv2_blob --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_pv2_blob",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/pv2_noflag.json --backend gpu --out G2_K4B_SELFTEST_R1/P_pv2_noflag --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_pv2_noflag",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/adm_identity.json --backend gpu --out G2_K4B_SELFTEST_R1/P_adm_identity --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_adm_identity",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/adm_noapproval.json --backend gpu --out G2_K4B_SELFTEST_R1/P_adm_noapproval --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_adm_noapproval",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/fake_for_gpu.json --backend gpu --out G2_K4B_SELFTEST_R1/P_fake_mode --pre-model-gate-only",
+      "fault": "none",
+      "out": "P_fake_mode",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repartition --admission G2_K4B_SELFTEST_R1/_admissions/fake_134.json --backend fake --out G2_K4B_SELFTEST_R1/P_fake_134 --manifest-blob db13b904cc8b6118988c57b344590fa00ba1971a --expect-batches 134,122,122 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "P_fake_134",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_K4B_SELFTEST_R1/_admissions/gpu_ok.json --backend gpu --out G2_K4B_SELFTEST_R1/P_full_gpu_outside_runs_root",
+      "fault": "none",
+      "out": "P_full_gpu_outside_runs_root",
+      "returncode": 1,
+      "stderr_tail": "lot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 731, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 356, in main\n    ck(out.parent == GPU_RUNS_ROOT.resolve(), \"gpu run out dir must be a direct child of G2_STAGE_A_GPU_RUNS\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 49, in ck\n    raise RuntimeError(m)\nRuntimeError: gpu run out dir must be a direct child of G2_STAGE_A_GPU_RUNS\n"
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/throw.json --backend fake --out G2_K4B_SELFTEST_R1/T5_forward_throw --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "throw4",
+      "out": "T5_forward_throw",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/nonfinite.json --backend fake --out G2_K4B_SELFTEST_R1/T5_nonfinite --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "nonfinite2",
+      "out": "T5_nonfinite",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/outside.json --backend fake --out /REDACTED_DATA/intern/jev_l1_outside_probe_G2_K4B_SELFTEST_R1 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "jev_l1_outside_probe_G2_K4B_SELFTEST_R1",
+      "returncode": 1,
+      "stderr_tail": "wjc/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 731, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 352, in main\n    ck(inside(out, ROOT), \"out dir: output must be inside ~/wjc (directory relation)\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 49, in ck\n    raise RuntimeError(m)\nRuntimeError: out dir: output must be inside ~/wjc (directory relation)\n"
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_k4b_stage_a_screen_runner_v1.py --repo-root G2_K4B_SELFTEST_R1/_fixture_repo --admission G2_K4B_SELFTEST_R1/_admissions/throw.json --backend fake --out G2_K4B_SELFTEST_R1/T5_forward_throw --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11 --quota-root G2_K4B_SELFTEST_R1/_quota",
+      "fault": "none",
+      "out": "T5_forward_throw",
+      "returncode": 1,
+      "stderr_tail": "mnt/data3/intern/wjc/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 731, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 353, in main\n    ck(out.parent.is_dir() and not out.exists(), \"out dir: parent missing or out exists\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py\", line 49, in ck\n    raise RuntimeError(m)\nRuntimeError: out dir: parent missing or out exists\n"
+    }
+  ],
+  "schema": "JEV_A461_G5_G2_K4B_SELFTEST_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_L1_TESTS",
+  "test_suite_blob": "b21134cbc0057cb025311b62700bd6f9c2e65f4a",
+  "tested_command": "python3 A461_g5_g2_k4b_l1_tests_v1.py --repo-root <jev checkout> --out <~/wjc/...>",
+  "tests": 62
+}

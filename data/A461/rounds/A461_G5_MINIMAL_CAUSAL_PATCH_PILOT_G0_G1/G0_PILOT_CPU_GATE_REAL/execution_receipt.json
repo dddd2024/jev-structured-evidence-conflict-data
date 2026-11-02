@@ -1,0 +1,46 @@
+{
+  "backbone_loads": 0,
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "cpu_model_loads": 0,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "pair_rows_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "pilot_gate_blob": "45000606e06f195d3ae0bb0390fb9d02a3652aed",
+    "raw_logits_blob": "13400252b360863a80baea66b39b9a7dbe0ca633",
+    "token_lengths_blob": "5cf52a37f4e420da86c39fd537c40a98336c3be7"
+  },
+  "gates": {
+    "G10_VERIFY_ACTUAL_G1S_FALSE_FALSE_FALSE_HOST_ROSTER": "PASS",
+    "G11_AUTO_TRACE_PHYSICAL_FORWARDS_EQUALS_PRECOMPUTED_BUDGET": "PASS",
+    "G12_FREEZE_SOURCE_G_MINUS_1_CHECK_AND_STOP_RULE": "PASS",
+    "G13_INDEPENDENT_BLIND_REVIEW_EXPLICIT_PASS": "WAITING_BLIND_REVIEW",
+    "G1_VERIFY_ALL_INPUT_FILE_SCHEMA_AND_BLOB_SHA": "PASS",
+    "G2_RECONSTRUCT_OLD_STATE_AND_VALIDATE_NATIVE_TOKEN_SHA": "PASS",
+    "G3_TWO_INDEPENDENT_SOURCE_POLICY_ORACLES_AGREE_FOR_ALL_ARMS": "PASS",
+    "G4_VERIFY_AUTHOR_ROUND_BLOCK_AND_CHRONOLOGY_CONTRACT": "PASS",
+    "G5_RENDER_NATIVE_APPEND_SPAN_AND_TRAILING_SUFFIX_UNCHANGED": "PASS",
+    "G5_TOKEN_SHA_PARITY_ALL_108_PRIMARY_ROWS": "PASS",
+    "G6_MATCH_EXACT_PLUS34_TOKEN_WIDTH_ALL_DONOR_AND_TWO_HOST_ARMS": "PASS",
+    "G7_RESOLVE_CONFLICTING_VOTE_CAUSAL_ROW_FROM_REAL_META": "PASS",
+    "G8_RUN_END_TO_END_MOCK_FOUR_INDEPENDENT_QUESTION_ROW_HOOKS": "PASS",
+    "G9_VERIFY_IDENTITY_PATCH_NO_CHANGE_AND_OFF_ROW_NONINTERFERENCE": "PASS"
+  },
+  "gpu_blocked": true,
+  "gpu_forwards": 0,
+  "network_calls": 0,
+  "next_gate": "independent blind review of protocol+runner+G0 artifacts, then fresh explicit user approval",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G0_PILOT_CPU_GATE_REAL",
+  "parity": {
+    "checked": 108,
+    "matched": 108
+  },
+  "planned_forwards": 28,
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_CPU_CLOSED_LOOP_R1",
+  "schema": "JEV_A461_G5_PILOT_CPU_CLOSED_LOOP_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_PILOT_CPU_CLOSED_LOOP",
+  "test_or_calibration_rows": 0,
+  "tokenizer_loads": 1,
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0
+}

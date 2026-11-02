@@ -1,0 +1,42 @@
+{
+  "admission_fields_observed": {
+    "approved_max_native_forwards": 11,
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": 0,
+    "explicit_user_gpu_approval": false,
+    "mode": "L1_FAKE",
+    "runner_blob": null,
+    "self_blob": "b0b9f6eea2e43006e743d91696f5bb8e8464c3ee"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "error_message": "L1_FAKE admission cannot authorize the gpu backend",
+  "error_type": "RuntimeError",
+  "expect_batches": [
+    11
+  ],
+  "expect_total": 11,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "8013081662cce3e73ba2d6b5b71bb6207eab0496",
+    "manifest_blob": "d35235c4aa48c1e6ab5c9b834d94c696bade7050",
+    "roster_blob": "b5f60d0b84f9720b8360e8180c9687b00ea9067c"
+  },
+  "gpu_model_loads": 0,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1_RUN3/T4_fake_admission_gpu_backend",
+  "physical_by_batch_at_failure": {},
+  "physical_prehook_calls": 0,
+  "physical_prehook_count_at_failure": 0,
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runner_blob": "b0b9f6eea2e43006e743d91696f5bb8e8464c3ee",
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V2",
+  "status": "FAIL_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 226, in main\n    ck(admit.get(\"mode\") != \"L1_FAKE\", \"L1_FAKE admission cannot authorize the gpu backend\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 57, in ck\n    raise RuntimeError(m)\nRuntimeError: L1_FAKE admission cannot authorize the gpu backend\n"
+}

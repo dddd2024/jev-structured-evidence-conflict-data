@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_mech_m3_runner_v1.py", line 576, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_mech_m3_runner_v1.py", line 96, in main
+    ck(out.parent.is_dir() and not out.exists(), "out dir: parent missing or out exists")
+  File "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_k4b_stage_a_screen_runner_v1.py", line 49, in ck
+    raise RuntimeError(m)
+RuntimeError: out dir: parent missing or out exists

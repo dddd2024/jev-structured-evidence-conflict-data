@@ -1,0 +1,53 @@
+{
+  "admission_fields_observed": {
+    "blind_review_runner_blob": "d2efc395f8c7279695e893930105bcc2f75ce72e",
+    "blind_review_verdict": null,
+    "explicit_user_gpu_approval": false,
+    "self_blob": "c5dd9e0cd376c20c50b75348f9aed4dad5e67418"
+  },
+  "backprop_calls": 0,
+  "corpus_path": "/REDACTED_RESEARCH_ROOT/a5-secjev08b-preflight-20261005/assets/corpus/SecJev-Corpus/records/development.jsonl.gz",
+  "gpu_model_loads": 0,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "note": "preflight of the full-run code path before any torch CUDA/model load; not a GPU admission",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G1_PREFLIGHT_REAL",
+  "roster_old_state_sha256": {
+    "T2_ACCEPT_TO_REJECT:231b919006dc1777": "231b919006dc1777b9096adc979bc29322268c67035561612bf9ccd0e3d7dbdf",
+    "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe": "1b0e96fb22c6aebee0fa582f7102d4a0815b793d0feb73e9710696494d01fffe",
+    "T2_WAIT_TO_REJECT:433890d19a90625e": "433890d19a90625e6d35a69030899e79fe6cc07c7f9315771a60b617c9a880b5"
+  },
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU_R1",
+  "schema": "JEV_A461_G5_PILOT_GPU_RECEIPT_V1",
+  "spans": {
+    "T2_ACCEPT_TO_REJECT:231b919006dc1777:SA": [
+      456,
+      490
+    ],
+    "T2_ACCEPT_TO_REJECT:231b919006dc1777:new": [
+      456,
+      490
+    ],
+    "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:SA": [
+      493,
+      527
+    ],
+    "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe:new": [
+      493,
+      527
+    ],
+    "T2_WAIT_TO_REJECT:433890d19a90625e:SA": [
+      624,
+      658
+    ],
+    "T2_WAIT_TO_REJECT:433890d19a90625e:new": [
+      624,
+      658
+    ]
+  },
+  "status": "COMPLETE_A461_G5_PILOT_PREFLIGHT",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "twins_census": 797
+}

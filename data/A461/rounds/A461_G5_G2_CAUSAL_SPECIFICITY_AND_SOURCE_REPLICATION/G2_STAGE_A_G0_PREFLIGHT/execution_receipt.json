@@ -1,0 +1,53 @@
+{
+  "admission_fields_observed": {
+    "blind_review_verdict": null,
+    "explicit_user_gpu_approval": false,
+    "runner_blob": null,
+    "self_blob": "3435cdd517976432e311826faaf41d809154c911"
+  },
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 0,
+  "ledger_dry_run": {
+    "run1": {
+      "primary": 126,
+      "replay": 2,
+      "total": 128
+    },
+    "run2": {
+      "primary": 126,
+      "replay": 2,
+      "total": 128
+    },
+    "run3": {
+      "primary": 120,
+      "replay": 2,
+      "total": 122
+    }
+  },
+  "manifest_rows": 378,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "note": "preflight of the full-run code path before any CUDA/model load; not a GPU admission",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_G0_PREFLIGHT",
+  "primary_rows": 372,
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runs": {
+    "1": 128,
+    "2": 128,
+    "3": 122
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_PREFLIGHT",
+  "test_or_calibration_rows": 0,
+  "token_gate": "372/372 PASS",
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0
+}

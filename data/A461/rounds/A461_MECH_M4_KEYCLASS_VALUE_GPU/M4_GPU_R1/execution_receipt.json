@@ -1,0 +1,324 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_MECH_M4_GPU_20261028_R1",
+    "approved_batch_plan": [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      12
+    ],
+    "approved_max_native_forwards": 2956,
+    "approved_runner_blob": "e3821ccb747f8e336740fb78229a1928dcaccdc4",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+    "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+    "user_gpu_approval_utc": "2026-10-27T11:12:00Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [
+    {
+      "cumulative_physical_after": 128,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 256,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 384,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 512,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 640,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 768,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 896,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1024,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1152,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1280,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1408,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1536,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 12,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1664,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 13,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1792,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 14,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1920,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2048,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 16,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2176,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 17,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2304,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 18,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2432,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 19,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2560,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 20,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2688,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2816,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 22,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2944,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 23,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2956,
+      "physical": 12,
+      "planned": 12,
+      "rows": 12,
+      "run": 24,
+      "status": "COMPLETE"
+    }
+  ],
+  "bitwise_vs_m1": "checked",
+  "bitwise_vs_m3": "checked",
+  "cuda_initialized": true,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 2958,
+    "raw_rows": 2956
+  },
+  "elapsed_seconds": 4362.143,
+  "expect_batches": [
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    12
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "7ec989c0f70d3fcead4b64b035a32b6655110575",
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "m1_raw_blob": "298c7cdfab634cd6a6a9122fac90d41c87219c21",
+    "m3_raw_blob": "a8c0fa6b5d96be7c7ab0433d4dcbb5d6f0411a0c",
+    "manifest_blob": "5ce91077510e09b815f390bda761bd9efa8fa244",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 1,
+  "kev4b_load": {
+    "cuda_max_memory_allocated_after_load": 17089037312
+  },
+  "ledger_reserved_calls": 2956,
+  "model_identity": {
+    "base": {
+      "files": 13,
+      "sha256": "e69084113ebd07896391c2570b5525536adc2e313d25397036f9634b826ccca0"
+    },
+    "ckpt": {
+      "files": 16,
+      "sha256": "787e91e1228a9a61ef0f110f844b19f377589a86c6386909314eef3daf97c665"
+    },
+    "source": {
+      "files": 4,
+      "sha256": "ea4614261286186100858d68d8fa5ef9f81ecba9a4cbf7d0f33535039610db00"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 1,
+  "native_model_forward_calls": 2956,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/M4_GPU_RUNS/ATTEMPT_R1",
+  "physical_forwards": 2956,
+  "physical_prehook_calls": 2956,
+  "preflight": {
+    "manifest_rows": 2956,
+    "scenes": 22,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "90f438aec2b04119970a65d8799bdd1f",
+    "consumed_after": 2956,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/M4_QUOTA_LEDGER/A461_MECH_M4_GPU_20261028_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_MECH_M4_GPU_R1",
+  "runner_blob": "e3821ccb747f8e336740fb78229a1928dcaccdc4",
+  "schema": "JEV_A461_MECH_M4_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "status": "COMPLETE_A461_MECH_M4"
+}

@@ -1,10 +1,10 @@
 {
-  "status": "CURATED_WITH_FIVE_REDACTED_FILES_AND_REMAINING_EXCLUSIONS",
+  "status": "CURATED_WITH_SANITIZED_FILES_AND_EXCLUSIONS",
   "source_repository": "dddd2024/jev",
   "source_commit": "03302ef7867606d2cec527ec0aa8a5abdd0257ee",
-  "copied_files": 1799,
-  "copied_bytes": 311495311,
-  "excluded_files": 205,
+  "copied_files": 1977,
+  "copied_bytes": 313118145,
+  "excluded_files": 27,
   "files": [
     {
       "path": "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
@@ -8978,237 +8978,1132 @@
     }
   ],
   "excluded": {
-    "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G1C_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v2.docx": "excluded_binary_or_document",
     "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/manuscript_draft_v3.docx": "excluded_binary_or_document",
-    "A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G0ABC_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G1R_REAL_20261025/execution_receipt.json": "review_required_private_machine_reference",
     "A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/manuscript_draft_v4.docx": "excluded_binary_or_document",
-    "A461_G5_DONOR_RESOLUTION_AND_PATCHING/G0D_CONS_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_DONOR_RESOLUTION_AND_PATCHING/G0D_CONS_V2/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_DONOR_RESOLUTION_AND_PATCHING/G1S_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_DONOR_RESOLUTION_AND_PATCHING/G1S_V2_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_CPU_FEASIBILITY_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/admission_k4b_kb_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_QUOTA_LEDGER/A461_G5_G2_K4B_KB_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_QUOTA_LEDGER/A461_G5_G2_K4B_KC_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_SELFTEST_R1/L1_test_matrix.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_SELFTEST_R1/L1_test_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/admission_k4b_stage_a_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_R1.log": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_QUOTA_LEDGER/A461_G5_G2_K4B_STAGE_A_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_ADMISSION_DRAFT/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_CPU_FREEZE_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_G0_PREFLIGHT/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/admission_stage_a_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_R1.log": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_QUOTA_LEDGER/A461_G5_G2_STAGE_A_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/L1_test_matrix.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/L1_test_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T2_preflight/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T3_fullpath/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T3b_replay_mismatch/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_budget_overrun/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch2/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch3/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_fake_admission_gpu_backend/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_resume_after_dropout/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T5_forward_throw/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T5_nonfinite/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH1_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH2_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH3_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_FULLPATH_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_COMPLETE_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_DIRMOVED_0001/ledger.jsonl": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_LOST_0001/ledger.jsonl.moved_by_L1": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_PARTIAL_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_SIGKILL_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_TAMPER_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_NONFINITE_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_REPLAYFAIL_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_THROW_0001/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L1_test_matrix.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L1_test_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A1_complete/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A2_reuse_stale_consumed0/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A3_reuse_new_outdir/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B1_partial_throw4/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B2_resume_within_budget/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B3_resume_overrun/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_C2_after_kill/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_D1_complete/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_D2_after_ledger_loss/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_E1_complete_moved/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_E2_after_dir_move/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_F1_complete/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_F2_after_tamper/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_H1_locked/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P1_gpu_pre_model_ok/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_identity/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_inputs/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_noapproval/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_plan/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_runner/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_fake_134/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_fake_mode/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_manifest_override/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_plan_override/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_quota_override/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_repartition_134/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T2_preflight/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T3_fullpath/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T3b_replay_mismatch/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_budget_overrun/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch2/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch3/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T5_forward_throw/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T5_nonfinite/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V3_TESTS/L1_test_matrix.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V3_TESTS/L1_test_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/admission_stage_b_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_QUOTA_LEDGER/A461_G5_G2_STAGE_B_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/admission_stage_c_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_QUOTA_LEDGER/A461_G5_G2_STAGE_C_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/admission_stage_d_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_QUOTA_LEDGER/A461_G5_G2_STAGE_D_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/admission_stage_e_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_QUOTA_LEDGER/A461_G5_G2_STAGE_E_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/admission_stage_f_gpu_R1.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_QUOTA_LEDGER/A461_G5_G2_STAGE_F_GPU_20261027_R1/ledger.jsonl": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V1/A461_G2_paper_draft_v6.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V1/A461_G2_paper_draft_v6.pdf": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V2/A461_G2_paper_draft_v8.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V2/A461_G2_paper_draft_v8.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V2/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V3/A461_G2_paper_draft_v9.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V3/A461_G2_paper_draft_v9.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V3/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V4/A461_G2_paper_draft_v10.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V4/A461_G2_paper_draft_v10.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V4/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V5/A461_G2_paper_draft_v11.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V5/A461_G2_paper_draft_v11.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V5/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V6/A461_G2_paper_draft_v12.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V6/A461_G2_paper_draft_v12.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V6/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V7/A461_G2_paper_draft_v13.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V7/A461_G2_paper_draft_v13.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V7/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V8/A461_G2_paper_draft_v14.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V8/A461_G2_paper_draft_v14.pdf": "excluded_binary_or_document",
-    "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V8/CAPTURES.md": "review_required_private_machine_reference",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_REVISION_V2_WORK/A461_G2_paper_draft_v7.docx": "excluded_binary_or_document",
     "A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_REVISION_V2_WORK/A461_G2_paper_draft_v7.pdf": "excluded_binary_or_document",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G0_PILOT_CPU_GATE_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G1_PREFLIGHT_REAL/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G1_PREFLIGHT_REAL3/execution_receipt.json": "review_required_private_machine_reference",
     "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5.docx": "excluded_binary_or_document",
     "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5_1.docx": "excluded_binary_or_document",
     "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/manuscript_draft_v5_2.docx": "excluded_binary_or_document",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/PATCHING_PILOT_ATTEMPT1_STOPPED/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/PATCHING_PILOT_REAL_R2/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M10_HEADS_POSITIONS_GPU/M10_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M10_HEADS_POSITIONS_GPU/M10_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/M11_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/M11_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M12_P30_FIELDS_COSNULL_GPU/M12_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M12_P30_FIELDS_COSNULL_GPU/M12_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M13_AB_SHIFT_TILT_GPU/M13_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M13_AB_SHIFT_TILT_GPU/M13_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/M14_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/M14_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M15_Q1_SPLIT_NULL24_GPU/M15_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M15_Q1_SPLIT_NULL24_GPU/M15_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/M16_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/M16_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M17_FALSE_VETO_BENIGN_GPU/M17_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M17_FALSE_VETO_BENIGN_GPU/M17_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
     "A461_MECH_M19_READOUT_GAIN_GPU/M19_FREEZE_R1/m19_directions.pt": "excluded_binary_or_document",
-    "A461_MECH_M19_READOUT_GAIN_GPU/M19_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M19_READOUT_GAIN_GPU/M19_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M1_ROUND_BINDING_GPU/M1_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M20_NATURAL_NECESSITY_GPU/M20_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M20_NATURAL_NECESSITY_GPU/M20_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_FREEZE_R1/m21_directions.pt": "excluded_binary_or_document",
-    "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M2_SUBLAYER_LOCUS_GPU/M2_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_GPU_R1/M3_GPU_R1_refused_no_runs_root.log": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R1/selftest.log": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R1/selftest_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R2/selftest.log": "review_required_private_machine_reference",
-    "A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R2/selftest_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M4_KEYCLASS_VALUE_GPU/M4_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M4_KEYCLASS_VALUE_GPU/M4_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/M5_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/M5_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/M6_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/M6_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/M7_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/M7_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/M8_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/M8_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/M9_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/M9_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_G23_CONTEXT_COUNTERFACTUAL_CPU/G23_RESULT_V1.md": "review_required_private_machine_reference",
-    "A461_MON_G24_GO_NOGO_CPU/G24_GO_NOGO_DECISION_V1.md": "review_required_private_machine_reference",
-    "A461_MON_M18_SPAN_MONITOR_GPU/M18_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M18_SPAN_MONITOR_GPU/M18_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M22_SECJEV_REPLICATION_GPU/M22_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M22_SECJEV_REPLICATION_GPU/M22_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/execution_receipt.json": "review_required_private_machine_reference",
-    "A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/pre_model_gate_receipt.json": "review_required_private_machine_reference"
+    "A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_FREEZE_R1/m21_directions.pt": "excluded_binary_or_document"
   },
   "sanitized_files": {
     "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json": {
-      "status": "SANITIZED_MACHINE_REFERENCES",
-      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json",
-      "published_git_blob_sha1": "35cd6be4feb7d8d74db8e22e721f5938376039e4"
+      "source_sha256": "0f0b2012c922cce20de4b6a59d00f41311625038737bbc60f373eae1df597b85",
+      "published_sha256": "74a797f06793234e2f98e692dc18e478d1f70df61b496720075f43722808d7dc",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
     },
     "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json": {
-      "status": "SANITIZED_MACHINE_REFERENCES",
-      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json",
-      "published_git_blob_sha1": "8731f55fdd13bbf09d2559c9e108d09fb0a508e1"
+      "source_sha256": "9a71b918901f2fc536b372328a0d9407260eec711114013e4083d86c16711727",
+      "published_sha256": "e4ec7128b9c5cb7e670d18973a21bc70b908c0699fafc9eb12a76d9b9d38b14e",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
     },
     "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt.json": {
-      "status": "SANITIZED_MACHINE_REFERENCES",
-      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt.json",
-      "published_git_blob_sha1": "2191301cf41335c4b2c61230713eb3f807f2be87"
+      "source_sha256": "29af3f9d84947db66dbab50f83066397c75a11e2cf61fe7eecb7ae45fb167d15",
+      "published_sha256": "b1db618ad2ece54dbc181ff69d1accaeaeb2238a0baceb188fc44e448492408c",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
     },
     "data/A461/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/logs_g0_impl1_attempt4.log": {
-      "status": "SANITIZED_MACHINE_REFERENCES",
-      "source_path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/logs_g0_impl1_attempt4.log",
-      "published_git_blob_sha1": "bc3435a56c142621903dc10a1f749b54ee713a93"
+      "source_sha256": "07de3841ef5b03297ebbf4117eb46919979b33163e64085970e62318b0fe7e24",
+      "published_sha256": "7412f9c8d4ad9f900128b3c3c2653d6819271de6fe61c33ff5a07b0cb331270b",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
     },
     "data/A461/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G0C_REAL_20261025/execution_receipt.json": {
-      "status": "SANITIZED_MACHINE_REFERENCES",
-      "source_path": "research/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G0C_REAL_20261025/execution_receipt.json",
-      "published_git_blob_sha1": "86a9311046e273baefa29e4048bb5d27ae8f63d5"
+      "source_sha256": "d27400085c0a12b70e69cb050cc53881f9c0951978d180267f70c3750d155e09",
+      "published_sha256": "96af62b9b825717e6201d5ed35433ed8554933653f1ee4193b50fa5dd9b662fa",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G1C_REAL_20261025/execution_receipt.json": {
+      "source_sha256": "3823a9ac05a2028f9414e561813b139fbf1a4c0ed6f83f8d7bfe8b93da42dde1",
+      "published_sha256": "554c974607765eb4f549728b4c1d7ea8275b9cdeb7721644beed6bf2be28c9ae",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G0ABC_REAL_20261025/execution_receipt.json": {
+      "source_sha256": "ece5cbeb9cb6d2c83ab36a4d2caf0cd8bb439c4d36a8def5e1fcac9944ec3980",
+      "published_sha256": "89ba9a5f734ac0570c8bf8b30428b05856ef2438904bd2e49a7bdfac8b8abe62",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G1R_REAL_20261025/execution_receipt.json": {
+      "source_sha256": "763d26fc251dc46dc9434e1794c529491cde76f0d5feb5b594ab86bbf627f82f",
+      "published_sha256": "0bf470a77c07640ab7f0d55f6018d82b059a3c0a8a2e45f68e7b60a1c2fb46ec",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G0D_CONS_REAL/execution_receipt.json": {
+      "source_sha256": "0c1a52022967339231e3254925902f91e6b7cabd4887d9220060ee030a8811f3",
+      "published_sha256": "956b4c530263defe6c60f4f46634501f21841809a6542edf753ffe43ceb2a091",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G0D_CONS_V2/execution_receipt.json": {
+      "source_sha256": "6edf3998112e0a44656ef2172f34040a3b3c8a95b323681ca82112c0c75984b8",
+      "published_sha256": "7d167b6ca90c8a0bd6f69c3dff5eeb47b6aaba3815f7bd8edb155c9fd7d3c5f8",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G1S_REAL/execution_receipt.json": {
+      "source_sha256": "7744be7544f0246d60f330f078ca08ef6367259ff379154b6bd73df05ef273d7",
+      "published_sha256": "975b4e0f0abf3441933d66099f94f50eef47fe06ef83f0b8b9c5a35721ec2f26",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G1S_V2_REAL/execution_receipt.json": {
+      "source_sha256": "84c2d295df2dcbcaf0491364cfe12b59c0052c7478738221970844a7cdb2ad99",
+      "published_sha256": "ffb1b88f7cdd80cdbeee8bc7c0ecfc317f3edb65fa72c08ca499e61ebdee19f6",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_CPU_FEASIBILITY_REAL/execution_receipt.json": {
+      "source_sha256": "f2584d62fe2ff5bd787dc67e1327a86cade14bc6e683cab07cdf466362a4540e",
+      "published_sha256": "434a72e4f38129ff54fec78c0f07a57b46cec92ce7ed7bda20e78823adc206c5",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/admission_k4b_kb_gpu_R1.json": {
+      "source_sha256": "516c5f84d26771a24f76cada1fbfdcd8bdd8525cd71afac5cce00588f633aa03",
+      "published_sha256": "94479c8ce0474dd5dcd0601b90f298d7d3b2cb9d7f344033bd590aea34b4cffd",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "ece118faee011535b93ea974f87c194c6ff8b5be56d2c9753de67300d0375383",
+      "published_sha256": "2f3a2a0e326a31062c6709934c543b27402b16326df211cbaced4a5eed9c258d",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "475e2bf3e58c5708ed7d10ebf8cd259ff4edb1d315115a62601eb98fa595b098",
+      "published_sha256": "c072e3f2532a34448701cd5deda22e1316b7da712f9e28d0010310c77082a3fe",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KB_GPU_R1/G2_K4B_KB_QUOTA_LEDGER/A461_G5_G2_K4B_KB_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "8b3b5690616e9ad4d0f380fa1e26546f231f24981178060250ccffee501b931e",
+      "published_sha256": "479c8ca8df0b47be143cc3b56b2f4ff8533561da918092b32659b6bb8d3a7ffe",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "f5a97cf3061cfd832a703481c44dd983c8776b99c35b6a30caa81d49a5179c57",
+      "published_sha256": "e67f62f84380472f31e1bae9b3cff757e432980dbe1b5c077244b33550ef52ec",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "3a95d38e7c57ac5385f0fe63978d9764bef6f4c747e3b41a30cddd2a57864933",
+      "published_sha256": "294723b4d73cb5c708a65c289dc39f33c2e4e27103ac4fb9d21ae6af8cb0b63e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_KC_GPU_R1/G2_K4B_KC_QUOTA_LEDGER/A461_G5_G2_K4B_KC_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "c9464925eccb8579aa3df872a856ba2587ca34b63e1a60fc7fabeff4167626b7",
+      "published_sha256": "d3dc7a8fd1ccd3825b08bdc69c13167c705fd7b529e757d80648e81ddf3250cb",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_SELFTEST_R1/L1_test_matrix.json": {
+      "source_sha256": "30933d27e26c6a3fe24a77cadc188a58461345f7b4c47383a587b9009b73a4ee",
+      "published_sha256": "7a30de2d4029b7eb8a8d0a0fc7ce05d1863b7eac60accdbdf9082d9d6559bcb5",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_SELFTEST_R1/L1_test_receipt.json": {
+      "source_sha256": "b96e9aa3382d1fea6dcc32e2da5f7320d8f663fdcbce28bd83c535473d756791",
+      "published_sha256": "9cdf9494a60ac0d2e1d7fa94348b5b35ce56d6765696c51039dd3dbb4a5fc983",
+      "replacement_count": 31,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/admission_k4b_stage_a_gpu_R1.json": {
+      "source_sha256": "3b9a828196e45e8ec179bf997d2c0faea82801ea12a5f81cd63dee20e15f2272",
+      "published_sha256": "c9469dbbf51e9542e586059100a1d6df629dd76a5e4c9079cfa43df43ed5d037",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_R1.log": {
+      "source_sha256": "d57bf0f7988b3b06698d8b9a3d643247d764cfa5f8f56393a6a5cb5dfcc1e8e9",
+      "published_sha256": "0c3deceded30f35ccb0b197964b14ec2f54be89edfe182903ffc1556f2654e9e",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "405b3468e2b718dc373353e427e6eeea5c5295820fd474814976a1db148679f1",
+      "published_sha256": "da8ca990728330d43cef4f472c67b6ff5b7a32fec6a63b40769bdb65670a0524",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "59bc191f75a1409b42fcaf09338a32c83050ed027c5da004978fd224f316d66b",
+      "published_sha256": "7c9e3707938db33a62d5fabf70d942a1446969620bc5a4cf3b6b4fdb8d29eccf",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_K4B_STAGE_A_GPU_R1/G2_K4B_STAGE_A_QUOTA_LEDGER/A461_G5_G2_K4B_STAGE_A_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "807263ba68a805fb50deaba2c07573bc6edc0be6689169a68b7dd2af87f0c923",
+      "published_sha256": "2e8c8dff98b3ad401f03e8ca5f4c41caebb63af505113113f57de6694a3095ca",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_ADMISSION_DRAFT/execution_receipt.json": {
+      "source_sha256": "b8b64fdde01fdd20b4f6526e40148a0f4d5cc08df021a5fde76986adc468ed81",
+      "published_sha256": "3f7b4e022637956fc3bc5bb59a710356f47690302ba682e813dde61b19feaf4e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_CPU_FREEZE_REAL/execution_receipt.json": {
+      "source_sha256": "c520733901e4cd08a96fc0643e0ca7650884dad91f7b45cbb345522e4d851610",
+      "published_sha256": "b2ab93776c3f633fbccec0c8766501877096e8a948810b9d088928f5330bb964",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_G0_PREFLIGHT/execution_receipt.json": {
+      "source_sha256": "1649e48e166a90faea6078e23ec0a0ec65045ef6a9baa0b815b96977af788461",
+      "published_sha256": "4330fa55437beee7248a90e048a1343b97ae61819a34df3a388da50278085552",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/admission_stage_a_gpu_R1.json": {
+      "source_sha256": "71fe93ac7004f37f7e25f6c0b50bd2daf79725e9b79c30bffa60a4281ded0a8b",
+      "published_sha256": "933f6f0ac903abb9cfdf51dd3ba8d7fdaebd21f2fcc3e23f5f39d2d2b631e01b",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_R1.log": {
+      "source_sha256": "ab4e9cdb1074c60cae57b09c8a479e42906fc21b988fa5ceb42853ae8cf0bfad",
+      "published_sha256": "42ded3a8bdc41f845bf7399e14f261440ea138c3c9c372673862edda62b327dd",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "a764da91a3fb1bcc21a4b4edd5f3d39b212f8c896448e0995f4c7434b733d499",
+      "published_sha256": "ebd338a82c3d97a0bb5c0ff8ce561b13b9a873da5ec9fbddb1fb5043101af21d",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "6d72c4a9c9e24a1570ab6365862792bc37507d07a8a4921d0e1b781afbee0701",
+      "published_sha256": "839f1a28fa09fef7dc1d6d4c2f08811facf2d72b6671d89d99aac8e5364e5853",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_GPU_R1/G2_STAGE_A_QUOTA_LEDGER/A461_G5_G2_STAGE_A_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "df40349f4b9d972233bdacc8244dc40284607ad440446b804e2e063f2fe3e8e1",
+      "published_sha256": "c2a1dede81e7e3fbbca39ad7f8d177cc4723bf834baecff903e8deb1f78c49cd",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/L1_test_matrix.json": {
+      "source_sha256": "728ed5845edd11dfc957acc92d9ab94edb08e6261624c8a76b4f445d1e90e4cd",
+      "published_sha256": "5a2e57ea8e8b7c8d01c05d8e7f592c361d1770fb6002985d6ba6c215070cd8d7",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/L1_test_receipt.json": {
+      "source_sha256": "32768cd10b546e97d393ffabe59cfd7618c380ad69ad8bc77f877f8dbfa9edc2",
+      "published_sha256": "b2c2d7723c7b0e380265e162c95581d4685f2402cd064c71a7e9df943c66e866",
+      "replacement_count": 10,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T2_preflight/execution_receipt.json": {
+      "source_sha256": "2e08bcde70713e683ebbb42f154fbac22ca8b74476f63be24b82bf61ca1c401b",
+      "published_sha256": "04c6fa1c319afe9a5eda960ca1bc9a430c8e9b825bc22504ff8e6677e53e984b",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T3_fullpath/execution_receipt.json": {
+      "source_sha256": "a5cac090c4587638edce9b7dd857659ecec86d7a15be1de3ea631395117a5db2",
+      "published_sha256": "f707bc8b16876f186775968023c063d11fad0dd36971c1bc37903cd570c714e7",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T3b_replay_mismatch/execution_receipt.json": {
+      "source_sha256": "c163a988d22632eb4dec35bdadf577ef0754566f5ded559cac8f4d93b6105e1a",
+      "published_sha256": "cc37d5244e918ef043e2d2e4d55b2c72d5d2d2be597901b8c5a49ba42fdb00c4",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_budget_overrun/execution_receipt.json": {
+      "source_sha256": "bbf5031c00f5862dad7ec2abefb0d0a85fc272cfbc979f86006a478be8793dc4",
+      "published_sha256": "24c4f58d1b3a0c4c8d6d460b5c352a604c385ada16d7653f62846150e5b64b8a",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch1/execution_receipt.json": {
+      "source_sha256": "68f292e4ec4bfe3cb22e1db8b5efc2071562065b23308b1ad86d39d2f509305c",
+      "published_sha256": "c29a38ff926f3a5181c1aa9f34a94b84f07f3cb8101199a93421b59b2dab26ac",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch2/execution_receipt.json": {
+      "source_sha256": "b566e9ba731ffaeb28a4e08f47d1e0428e44352ff640843f5f920d38191ee745",
+      "published_sha256": "ee5f50f64197272caed3802f421b0ae6ae89eea761c14dccae77a7a0b4a15907",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_cap_batch3/execution_receipt.json": {
+      "source_sha256": "69a02452cb505063fc5a3c0b2972ded396593f49ed772beb8c153f4884788548",
+      "published_sha256": "3405b6ceade0a153587235eac6b181867c715ea85f88aff00f3df5467282a4ec",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_fake_admission_gpu_backend/execution_receipt.json": {
+      "source_sha256": "317f5787968814cffd03d8952fd6d4f436c61c86237bbf320d655c75ee8a316b",
+      "published_sha256": "16f7e67de6b55027038e0464ffd40cb2afc98d867e09b7031ed47e1f636fa63d",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T4_resume_after_dropout/execution_receipt.json": {
+      "source_sha256": "de3ccfa28994b158ede4e520a27444ed8d62e60bf03d7e9d35c7c8502eeccd82",
+      "published_sha256": "0ee9d31fb0040881e49a28f1808fdf9e25e6548667280432e0262c4af1f062a2",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T5_forward_throw/execution_receipt.json": {
+      "source_sha256": "5cd0f8058e7696db4e7f11a362d80a5b592ac7d2f3fd690ef6fac710e303b5b9",
+      "published_sha256": "ccd21ebd015057b832a8e535b55bf05956eb248a6bed1857fe0555ddf937a4bc",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1_TESTS/T5_nonfinite/execution_receipt.json": {
+      "source_sha256": "8ff6954010e9adfecac9ee93ac5927290f5ce31bd6bceb053a1806cd466103f4",
+      "published_sha256": "bb84c3e8250cb7693ac657c2262f257ecce8dd29a79bf9f99473b5c1b32147a0",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH1_0001/ledger.jsonl": {
+      "source_sha256": "d17adaa1b0f9b34b789fbfcdfe791f9099bf4e7a710be00b9da5d9b7ef0d2986",
+      "published_sha256": "b0e836057ad48f2bddf319a0ef6590333bee7f3fc6fd3bf3a727c95c6a692056",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH2_0001/ledger.jsonl": {
+      "source_sha256": "070f96e309c5a3762f3005db96fa7cc41ba4d0407a8b7bcb6237807e362798de",
+      "published_sha256": "dca5bf56efe69af93eff4ca4bc723d1defa8fe6b9304d98cfb2dd1b15ad3761f",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_CAP_BATCH3_0001/ledger.jsonl": {
+      "source_sha256": "f2ac09983c4d451225e43f9a155bd689f6f9ea353db71046f9091ff49fd4149d",
+      "published_sha256": "b438455c0537b56209986d19e82c2c45bd061f50b0a571f374e793a460e99f77",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_FULLPATH_0001/ledger.jsonl": {
+      "source_sha256": "1f5a00f759c9498838aa6ad637d00da5282805e5c419751b3b4950ff94dd7a13",
+      "published_sha256": "1dbeadf4d04092f6406199f436599c7608795686b835b39752264168e1764727",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_COMPLETE_0001/ledger.jsonl": {
+      "source_sha256": "6934766332f1a35bf85ab3fc586390049d2b9db5ec7c8613609f1157d4c44781",
+      "published_sha256": "b10289358609aacf2bc528f4e7c00613681f4f6917cd9d58c5776ba73dd0f068",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_DIRMOVED_0001/ledger.jsonl": {
+      "source_sha256": "cb9dbeb888f820487026de1a9f6ef059dc7efc31fd400cd16eb8178de01724b1",
+      "published_sha256": "0fffccb0e02ffeea3f1ccd48f0615391cd59445037d9a0f6dda8d7f010e9be19",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_PARTIAL_0001/ledger.jsonl": {
+      "source_sha256": "8225243f4031bc9284f0f060411ebe62cf78bbe8a0c531083b52dfe9c1856294",
+      "published_sha256": "2bcdf5501a4d34e97b6995283c5123414d472b97c88cfe18b95bb3cd164cb4ab",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_SIGKILL_0001/ledger.jsonl": {
+      "source_sha256": "c990458e0ffd44205985ccc0a3268d0fd7d71225a4eea44e509d57a27f49cb33",
+      "published_sha256": "73b078bfcf0f8252febc69e1537e3c0b90117e55df1a23e4ac31ba38290d13a3",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_LEDGER_TAMPER_0001/ledger.jsonl": {
+      "source_sha256": "bb27fd64ebe01674b86bf1a7485aa3e722a398be0024617dbc55593e3c1acd0e",
+      "published_sha256": "58956bb84fadc90405763e6e443269acdad62596298e25be467b6a6f91b1bf72",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_NONFINITE_0001/ledger.jsonl": {
+      "source_sha256": "ce336cf2dd02eb2af3ac0d7c476538d7a4c577541b591574e0be3e25b489f77e",
+      "published_sha256": "efd322474d9be14ded6d4210b3c37fff16a97d2ed9d50ce92604eea66b1f0877",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_REPLAYFAIL_0001/ledger.jsonl": {
+      "source_sha256": "de8be80069da96785a2a1f2ba1e87d6f1204033c5d51d0679085dcfe3e6c1b3d",
+      "published_sha256": "003cd26115caa1fa9af1a86109eba8a9ac3c2590d0a85a774bc3a3248bcc5d80",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/_quota/L1_THROW_0001/ledger.jsonl": {
+      "source_sha256": "2a1aa3bfdb37c257ae0c94ef827a34a6ae1f8fbec286d24c7dc500da55b4773f",
+      "published_sha256": "d5f2c212802bb88e3674b8ef40e057f1449b4da76479e5afaf8b57bc8b33beb5",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L1_test_matrix.json": {
+      "source_sha256": "4509c90b551ac2355824f3678e842bc625bc5d728b0b8cf5e6855edd9326cd41",
+      "published_sha256": "914efcbf3966326a82ae41f1736b004ab474c0cd3f7248606f85f1add9a98a4e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L1_test_receipt.json": {
+      "source_sha256": "9cc3088b331f8c04fa0760f44f0a28c221cbf5226f08c31118385da97580fcfe",
+      "published_sha256": "8547a79450adc2b4bc810eb77694516d67cebedf50f6e6d5c91f1aa8eb415345",
+      "replacement_count": 22,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A1_complete/execution_receipt.json": {
+      "source_sha256": "bb6df1a5a8ed936640e560a6c1349dd7b1c887239378f89204d6b50e2c34fc97",
+      "published_sha256": "d5381e4b88f1e8d4a583a2817f5777551f41d2ba000cb0b319c1fee7a4813b87",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A2_reuse_stale_consumed0/execution_receipt.json": {
+      "source_sha256": "ed82f6a5fd6a1b08975b5e10dff155f2738545089cc96a90575ecef505d3a4df",
+      "published_sha256": "8a0a2be8db7aa314911e02114e2e6c1beba9196c845b66b0a77ce2a7b860ff8c",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_A3_reuse_new_outdir/execution_receipt.json": {
+      "source_sha256": "2197a812af1aecee55d73c71a3fa5c0acc80d18efc9fef1108cbb814a8aa4d89",
+      "published_sha256": "2ff4a9162e4a5d61b25342606bf33027eb9a52d38a051ca1d7cb064cf7bac450",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B1_partial_throw4/execution_receipt.json": {
+      "source_sha256": "4ce6484fcdec57732db6ad1a20c5da2a7151651d649b23155b08f91cebc1bfa2",
+      "published_sha256": "feb7819eec121e1fb0752d7aba9a761fee644305284e81a13bc203e648aabb67",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B2_resume_within_budget/execution_receipt.json": {
+      "source_sha256": "2dbf5162ab2282f73e993b51e6b2b8df410f7854c9053de04453b65ea6590f05",
+      "published_sha256": "75db20328cb0d5bcbedb3d9caf35a4aadc430fdb508e45f638e47f6b4e67c098",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_B3_resume_overrun/execution_receipt.json": {
+      "source_sha256": "0fb20311b6c82bd7690a02f936cec382cebaed736a9190001e3f0759def0f786",
+      "published_sha256": "eaa7495ef963ad4f81f9b7d6fbbee702163c3b185adae6fa95edcf54f590ca2d",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_C2_after_kill/execution_receipt.json": {
+      "source_sha256": "d204e2a3cebd5d27bc145378d19422f242b71e931b9bfc384f70b9b11c8f03aa",
+      "published_sha256": "10d0842513d82d9b4399019f80d46a01078660d5cc085bad637ba701d3740db9",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_D1_complete/execution_receipt.json": {
+      "source_sha256": "d95fa0d38c39c79a95961cf6cf62eddb9723fcf959dd5f00d465d9c679425264",
+      "published_sha256": "e3c079bbefb81ce5e8c519786e17f7340ce8d204061d6562c3fcc2e77412ad95",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_D2_after_ledger_loss/execution_receipt.json": {
+      "source_sha256": "bb4d9240c5dd8614863a894fba4930b6f0d72c83b0c65fb5d49f1bbb8d58c22f",
+      "published_sha256": "4800755f8e8360652d96564858e7ccb0355d5d9bc1031ad0dd74e05f05604e47",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_E1_complete_moved/execution_receipt.json": {
+      "source_sha256": "25af6edec60c33ff63fee99860aec6f9fcabfb67fe5673edaf5d843f29645dee",
+      "published_sha256": "57383a584a505a9f843812492ecd17867cac208f61b7fb8dec27680836973be9",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_E2_after_dir_move/execution_receipt.json": {
+      "source_sha256": "fd4eb3829e8e5377f2d77f6f36096cba4a189c7eceb039da9d66e82fb218a801",
+      "published_sha256": "54fe3a603bde06fa9ba6c66e78533b88527adefa26a30fe4118ded0ebd178fe1",
+      "replacement_count": 8,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_F1_complete/execution_receipt.json": {
+      "source_sha256": "9cc6fdca4d00fb59629fc93f9bc004df8c1976edd19129517d99c8f0cddb2ebc",
+      "published_sha256": "592c2f96fa3e5c99b4e4f1b2a8340cb81685ae15f4a5ba59fa5e7b0b4dc8a502",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_F2_after_tamper/execution_receipt.json": {
+      "source_sha256": "6ef7a611862267107d710e5d0fd75101c7dc587e238661020b49ccef5f1bf56d",
+      "published_sha256": "f19e00766437e2da2bc48eed9ccd6d46dd5d92ba0e2427dab4e1ae364130edbb",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/L_H1_locked/execution_receipt.json": {
+      "source_sha256": "6e0dc393e749efdc2d60dd7c37af0bee3ca4d88e42f04fb6bdd07478a05fb79b",
+      "published_sha256": "271ef1ad9fd93317f00afaadcae17f342893619ffc92c971e6aa3974855299d0",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P1_gpu_pre_model_ok/execution_receipt.json": {
+      "source_sha256": "b9f2ff0c24e1f06e625360b01df844a7e160278b9d96fb462a958a762d9608ab",
+      "published_sha256": "3a85ffe1ef8426ef0af28836d1b9ab283b0e8e5eca5c3aaeb4fe1a3345ba6510",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_identity/execution_receipt.json": {
+      "source_sha256": "319b498f07eb5b9075cc59e3266d26bcfaf8b85637e98c2828162dede03663c0",
+      "published_sha256": "cbf47d39ad5d8e4032a1f82e6086594cdc644d99c88af5f11b3c7e3a58d4bcdf",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_inputs/execution_receipt.json": {
+      "source_sha256": "ad58d30ccde90a11c0578d5a5c6aab892917f07cf937a6bed829ff66b2cce4fb",
+      "published_sha256": "7022076472d59843e722e3c726d9470c35015affdeb551ae47a896ee09922a13",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_noapproval/execution_receipt.json": {
+      "source_sha256": "d9c12aa9b05b3387da961ddea611b364f5e2f0d6a99e71d622c3e9dc7a0a0172",
+      "published_sha256": "6e65b0269df20b171af3acd1aa3c970959f6c787f4ecd90490868ed719cf8dd2",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_plan/execution_receipt.json": {
+      "source_sha256": "3adf46d7bbc5238f75fac026a79c9b69d6d5ac467c3b9a3a29fe8a20436df0ed",
+      "published_sha256": "b990588bdac935a4485adb03eaf795792a8c0bc46a0927dea290a590fdf51408",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_adm_runner/execution_receipt.json": {
+      "source_sha256": "e0e8989282d193d89d7ca92aa5ecf17626ae0d1870472cad3590bea351b877f3",
+      "published_sha256": "e592a0487c80398066a31b474b71dce0c443a62f38fedf975ff05fab139837d1",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_fake_134/execution_receipt.json": {
+      "source_sha256": "f983ac4560b64c0603f507a44ce0799286a4daa2cd8aa395438e789b7dd326ab",
+      "published_sha256": "9feefc92cae91a51cb11136b5b9640b7c968689204054cb678fed610602453fa",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_fake_mode/execution_receipt.json": {
+      "source_sha256": "798271aa69491d1a5e238d473a761ff4085ce262dfaede0d3bf6ee004aff3632",
+      "published_sha256": "23e5d291faa5842b4fdc1d43a2a1e096a13ff3675aad1a649b997f545bab8f0d",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_manifest_override/execution_receipt.json": {
+      "source_sha256": "1695536f4f8a598d1915ad30292f47d7a1000af3fce31b28be026729ad82a480",
+      "published_sha256": "c7ba9970d8b1eb2a24a94f191f7da74d8def230a9c254ab03ba9cbe2e22d2b9c",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_plan_override/execution_receipt.json": {
+      "source_sha256": "0a86de4db9c8639cf5f329d64347b954a409f7b13532264cb5b218a68624d083",
+      "published_sha256": "6e90a7b65bd52751f668dcc5bb9ae6002cd6e750a451dad14707a3b79aaf3fc5",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_quota_override/execution_receipt.json": {
+      "source_sha256": "3c71ff4ba2763f0669ee1cccd6914945837a11ebf873f02a3aa926d4f4bc7d1d",
+      "published_sha256": "dba29de08012f6d76f129139aa56b8711f6fa6bc40b7f3e9698607bd4d5ded68",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/P_repartition_134/execution_receipt.json": {
+      "source_sha256": "15659624a703070bf0056037294bcb16aacffbcb4a067b568427d4291c2b0ea9",
+      "published_sha256": "ad19b640b9776e065370274b5fd552bc6fab712efd28865d59094d51b96a854e",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T2_preflight/execution_receipt.json": {
+      "source_sha256": "79bbd8301a82e81f8e7955c675fc000ba4c4db0fc9ee01e69d5f97abc2315975",
+      "published_sha256": "10889c0cc147fab49b69ce6e5d205af8b90fc218169b37654295e72ff6da09d0",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T3_fullpath/execution_receipt.json": {
+      "source_sha256": "576abb1039f4c31f2e92368ed468e57b2a8d82115ec8e613ce4f01118af7f2ac",
+      "published_sha256": "faaca8ae39b76537fa4b5c6acf527697845af3d4bb987d456f9ca04a07728c01",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T3b_replay_mismatch/execution_receipt.json": {
+      "source_sha256": "c3ebe96b06ee018f9cdccde46d5740ef0a44efbf99a763fbfa818473782ca186",
+      "published_sha256": "5ab6cfdc8ceeda90c69f96331b17218774b4d9a5aa0b330f36c0195c9d214171",
+      "replacement_count": 5,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_budget_overrun/execution_receipt.json": {
+      "source_sha256": "bdd4632bad1127e6d077ecf2f53353da4c88c4fc875c40167f8b04edf9386904",
+      "published_sha256": "421ea1f1bd8408abcb07fb8f5aeec69c6d8e6c4bbc860179df09b98756152a0e",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch1/execution_receipt.json": {
+      "source_sha256": "74b499631e67ccc505f88011d172d182736e305e28d34d0ab20f3ea38c0ca7ec",
+      "published_sha256": "cdd5a3156ff78ebd9afe87601d0c3575a8b3fda91fa10d82503451908517679b",
+      "replacement_count": 7,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch2/execution_receipt.json": {
+      "source_sha256": "f9e8f845f35766b08da4a6a9936a2e9f8af221f5ce31376917c4217bd9cb152c",
+      "published_sha256": "9ebed1a946ace57b97a0c546dccba6649e9d139f56e93da7a456ad8c02b97391",
+      "replacement_count": 7,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T4_cap_batch3/execution_receipt.json": {
+      "source_sha256": "b8f058f7114ed4ac75f636f0c7494cceb48c9983b7bd79ce64a33316a4baac77",
+      "published_sha256": "1593939fad933044572a3aee03a0b80ec4577832ffac512a26de96ed3a08ff74",
+      "replacement_count": 7,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T5_forward_throw/execution_receipt.json": {
+      "source_sha256": "9ad92e2c62fd3655b5c41505961d2da458464e48510bce3746f2f9611d683c39",
+      "published_sha256": "be73d04a7f629fff2f6b78185db28f5d6b6c0502337bf43ceafedcfaa934b55c",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V2_TESTS/T5_nonfinite/execution_receipt.json": {
+      "source_sha256": "ca19327bf8b34f5d188c4fb5e839b09db4341af5c958d6f5a4937994198ce100",
+      "published_sha256": "2b2073bed02c42d28587a0bdc2e855aab3ece0657a2846965c1ba9035404b7e5",
+      "replacement_count": 6,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V3_TESTS/L1_test_matrix.json": {
+      "source_sha256": "b96a212e7dc126fe8de7858849cf9f4db68607ec932490be9f62320e3662e372",
+      "published_sha256": "607ca569aa0c73a260182f9c60cba8c3ec401f2a2a7cfbf6cf0549ffc55a95bd",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_A_L1V3_TESTS/L1_test_receipt.json": {
+      "source_sha256": "84aa912ba2706aca74c34562a26a2d936e2aa0df2e3660ea212d86b713ea9737",
+      "published_sha256": "15bf68eac9234b700b546b23800ba02222454e3ba10792e88f4277e7a1982c41",
+      "replacement_count": 31,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/admission_stage_b_gpu_R1.json": {
+      "source_sha256": "b1f97aab8c411cf1abf33c784a448eea90d2b92895a43f6ad9db88d01262c1e4",
+      "published_sha256": "0f848951710c7a4b3ba63481079500210950b11a302c2f1aaf9b0e4a89732df7",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "a453d7a9049792e8db658dfd758862964656f73ec68f16ed53af937e13bac027",
+      "published_sha256": "c5dd0576863828e8caee5d0071affca2b618b551218e334d6ee5352ae849bcab",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "f8f27ec3ab582294211f411f2885e649ac3af0c39440591a6dfca18624c72cbc",
+      "published_sha256": "41fc3d4e5736642a43665fb00a18847dcd38a1d1cbfdd6f3b5c829bfd0537e8c",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_B_GPU_R1/G2_STAGE_B_QUOTA_LEDGER/A461_G5_G2_STAGE_B_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "04c7003bc61fa1a9e3593a214d7ff7e9f2ddd076f6fce73a9b3b39f0753d7cbe",
+      "published_sha256": "db24892374fcca6f1af558ee559b5ac885ab0ceadec5c065bd122cfc2bea5a42",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/admission_stage_c_gpu_R1.json": {
+      "source_sha256": "819917601105bfe6ec9b27271bb1b97d0bae92d5ee7661f2eea147e54ae3f01d",
+      "published_sha256": "8b618595dc3af9a63b87ebce3283fb24479f96783d374458cf0d6097e0000f67",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "a286707934ecd69741b43bfb603b65a2cc14f2a0c3eac7d29506df35c8aa8bf7",
+      "published_sha256": "2cf1b1f27c21bc9ee60f641264fcf11b3e9f525db64dabed1f3d265e76a3e345",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "f04c8c2b18445a271a47a49257df707f54199776408fdfeb9a5b06e7f3669475",
+      "published_sha256": "982c2703352913f320bfef8ce62e608d82801fd844e9889984cb7cf067a4ff85",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_C_GPU_R1/G2_STAGE_C_QUOTA_LEDGER/A461_G5_G2_STAGE_C_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "233c794a3215daebb6e35048fb88bd38f2ed0c8db1e425fb9336022c62b400c8",
+      "published_sha256": "4c59d10df2502a293a6fb23f7ef3ab3ee13d7767cf7cd9aa20705b584fca6dd4",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/admission_stage_d_gpu_R1.json": {
+      "source_sha256": "1bc0572e5736ab9fb2821e13710bd9851099fc8844f49a291b98ae72cbd6e493",
+      "published_sha256": "209560a9a962b9d54b75beb6629c93cda902149e2f9f7353ff0d5f228a36e4cb",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "b78f5a67b839cb3208d27957c7beb186d2760b38b415e8ac822c1173afe4adb9",
+      "published_sha256": "09cbcd3838c89203e51ce64d1800cf8567e5dd1585fd25b3bdf00d7112aea5a6",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "46381c40905fef0c85adf6b29b2618ac3f016d4005cea959e502f65e0aebfaea",
+      "published_sha256": "f9924ea29c40e0a6d090c95898d8fa542408e24822955f2815fe46d52706353b",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_D_GPU_R1/G2_STAGE_D_QUOTA_LEDGER/A461_G5_G2_STAGE_D_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "8dc6d6d55b20dc9ee804fd2c15a35931e32896dba4895d1156d5fd72ad7a64e4",
+      "published_sha256": "8bfce77a4f7709353d3d9ff9e729d03933cb2b6efd970eac92cecc6054c2db0b",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/admission_stage_e_gpu_R1.json": {
+      "source_sha256": "d55828790325f5b2e80df44efa20e9d889229b638678bdf828f32fa1c38c858f",
+      "published_sha256": "b7ba4a8d02c790bfeb297e689c29d403ba6e1725b28d64d84afdcfaca8a6e295",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "bcb6b5f614c71cc4905e68843c6d5120d6755e43f8d27783ebaa5978c49d66e1",
+      "published_sha256": "de996ae92c15aa0bc8931bd27802674c074d05e2328227ed8b78ba54b8922cb0",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "80373c5107e9f0d38a5508debca0b3873e5c437ca44da145ccabd4d05f0e9051",
+      "published_sha256": "f030db41a78c44b2a1e2bd221b8822669ee053fe1754e6f2bd55730bdb592133",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_E_GPU_R1/G2_STAGE_E_QUOTA_LEDGER/A461_G5_G2_STAGE_E_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "0399b8c8599c4a34035cf0ec7a4db3e741e49aa4bdd7a8f972d85afa57c8f37d",
+      "published_sha256": "2d8aff8ae268414290b1b0704492e3a49e7555808a0a52b3a408dc94c159959c",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/admission_stage_f_gpu_R1.json": {
+      "source_sha256": "88cb55323fe475068d958435cb1172f088a3420141aeebde869569a4e2c5ba3f",
+      "published_sha256": "1cbafd86f0cb575a38e67ba9ebbb1720dc1a164b43be36ebd9266d1984c24b08",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_GPU_R1_PRE_MODEL_GATE/execution_receipt.json": {
+      "source_sha256": "3e9ef361399a043c8a19bde310057d36ecbd44c91699b69a374dab36e0ff0b64",
+      "published_sha256": "5cbf2e8afae859c3b5347ed9be5b683f11b2d86cf55dc9243f6648d1be780e6f",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_GPU_RUNS/ATTEMPT_R1/execution_receipt.json": {
+      "source_sha256": "e34436c9f566983712fa3abb91d6fa69878c846f8393345dcce69c87de574f9d",
+      "published_sha256": "47d95d492c00c10296142ffe7e7b153f113840f0fab89b307f1afc4618cf0c13",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/G2_STAGE_F_GPU_R1/G2_STAGE_F_QUOTA_LEDGER/A461_G5_G2_STAGE_F_GPU_20261027_R1/ledger.jsonl": {
+      "source_sha256": "3594f2582f6f7096b238b7b826a33731284f19ae6dd855b41a7dfc5ad5b5f1b8",
+      "published_sha256": "c03488ead440b1dc008a034adccc9ce1aacd42e8d0e12a31a34a3dabdd26e8d1",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V2/CAPTURES.md": {
+      "source_sha256": "f2670200fde077d939b3c5b996f6a91173f7d47f9a2464e80ffa3fbbf7ce5cde",
+      "published_sha256": "a78952e27b170c0932528a6a99e4212a5f05ce03b9b69349c92da03d67e11584",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V3/CAPTURES.md": {
+      "source_sha256": "f2670200fde077d939b3c5b996f6a91173f7d47f9a2464e80ffa3fbbf7ce5cde",
+      "published_sha256": "a78952e27b170c0932528a6a99e4212a5f05ce03b9b69349c92da03d67e11584",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V4/CAPTURES.md": {
+      "source_sha256": "bfdf2f7072d860bbc38407461fdbb36154cfb508a7dd90d330abb8032c4623a0",
+      "published_sha256": "1c33c948c25d8907162f96d1a8ee85fbaa2b86302194d482666c9b1566fdc983",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V5/CAPTURES.md": {
+      "source_sha256": "887138d6dc2bc42a63fa7c6026c6d79048f2e4776b7b4440cc098ce5b27013ec",
+      "published_sha256": "47e71975af09758fcf1539bd6aab9e0705476f1e42df782c801d2ede467cc0cc",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V6/CAPTURES.md": {
+      "source_sha256": "887138d6dc2bc42a63fa7c6026c6d79048f2e4776b7b4440cc098ce5b27013ec",
+      "published_sha256": "47e71975af09758fcf1539bd6aab9e0705476f1e42df782c801d2ede467cc0cc",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V7/CAPTURES.md": {
+      "source_sha256": "887138d6dc2bc42a63fa7c6026c6d79048f2e4776b7b4440cc098ce5b27013ec",
+      "published_sha256": "47e71975af09758fcf1539bd6aab9e0705476f1e42df782c801d2ede467cc0cc",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_G2_CAUSAL_SPECIFICITY_AND_SOURCE_REPLICATION/PAPER_CLAIM_PACKAGE_V8/CAPTURES.md": {
+      "source_sha256": "887138d6dc2bc42a63fa7c6026c6d79048f2e4776b7b4440cc098ce5b27013ec",
+      "published_sha256": "47e71975af09758fcf1539bd6aab9e0705476f1e42df782c801d2ede467cc0cc",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G0_PILOT_CPU_GATE_REAL/execution_receipt.json": {
+      "source_sha256": "c3a206fe39e87dd0582104a43a8cd07a07f2348cc8f950c680e3ce974c65924c",
+      "published_sha256": "a4177a13490eed21284a56a392f037696957e6cb113a0af1ed5a7206fc44fb28",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G1_PREFLIGHT_REAL/execution_receipt.json": {
+      "source_sha256": "589328fbc5a641148519a5082a5181c1bc28443e7e0ec2fa1bb5c1954c710457",
+      "published_sha256": "a0461809ea6ff9f59e2c262f84961cbac902667da68ac242b8c2d241f9567ede",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G1_PREFLIGHT_REAL3/execution_receipt.json": {
+      "source_sha256": "6aa2e4c78ce4abcd3614ef152594006a005f61d0b1fd01066ac26fb20f07883c",
+      "published_sha256": "e91207092eae8aa43709c62eac6e354d45600f3de79299b666fc0ea9305a70a0",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/PATCHING_PILOT_ATTEMPT1_STOPPED/execution_receipt.json": {
+      "source_sha256": "8ac44e2857ca26bb326621bd36c062ca1e31fb062a18e5018b097da2e01c6643",
+      "published_sha256": "4bf17ae67e9d2e9b6380e7e749fe34a7e78a16e6fd6fcd46047d185ffeab3443",
+      "replacement_count": 4,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/PATCHING_PILOT_REAL_R2/execution_receipt.json": {
+      "source_sha256": "0bf6d1086e00ab130e61c98dfbae53a56cc8e76a401f186e0298dd04bdb8fadc",
+      "published_sha256": "3ce999fd785be345f1ed993858650db5e5b9374fba7e56569cd4dc2aff698a3b",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M10_HEADS_POSITIONS_GPU/M10_GPU_R1/execution_receipt.json": {
+      "source_sha256": "25a9ce14059823575deec82eae9d07d02d6da4b39033a755e28fb6c820185ad4",
+      "published_sha256": "0264aab18f7ea4918b84570f1b8cb5f8d0195131c14edfcda21fc63f44d0966c",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M10_HEADS_POSITIONS_GPU/M10_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "606d69fa8db1574264043c61b3b6eb0f7e69dd7e26aa3f881ba1d1bb25c80f25",
+      "published_sha256": "8964e1ad3ff2e31226ea52bfe52bac5d9b4ebf9efe54a7bd08ee66eb9d03cd8b",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/M11_GPU_R1/execution_receipt.json": {
+      "source_sha256": "a4283acca6e4e33878020ac374b939209842cc5fd036edca79519588406f7b48",
+      "published_sha256": "9010fd28e11d58bf052bd3e3a8914be77153cef922cfc04a772008b823f82adf",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M11_MATCHED_POSITION_SHIFT_GPU/M11_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "dd8c1a77e498081eace9d39d0af26e5a77b1facc93252cf769c7387a5d1d5f53",
+      "published_sha256": "c3d88d6de5a219c8c2dde4e0569987c11594e40d1dda8f0dc44c1d3f22cdb9eb",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M12_P30_FIELDS_COSNULL_GPU/M12_GPU_R1/execution_receipt.json": {
+      "source_sha256": "4c4be8212cb6d5d01d1c48e849ab4b10ad6732f7966bba16fd9e8ce2d400ec14",
+      "published_sha256": "15d55a4a0e464a3fab56e637bf0e221a89274de0d738ad80e05d504f37735015",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M12_P30_FIELDS_COSNULL_GPU/M12_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "72f915d113545f030485ec7f7a34489a00c419541f3eb1cd30e29f674cbf1877",
+      "published_sha256": "95d27239bb29c3a4723240274d900d7e19815ab6573125d8d01314af444b71aa",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M13_AB_SHIFT_TILT_GPU/M13_GPU_R1/execution_receipt.json": {
+      "source_sha256": "db9e33f2ef8a10820674e4bf24a561e1df98884b8049dd88aeec533b051d7090",
+      "published_sha256": "186fc740bb55c01f8906239bf20a7905139359ab61443e29cb5401f7a33165a2",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M13_AB_SHIFT_TILT_GPU/M13_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "cba70ae7c865f27527668786175d37d0217889153e74307bc304215aefa92059",
+      "published_sha256": "a22af9f8c032e1c3232da32856f44bd5dfd3293021395caba6881fa17b3c6952",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/M14_GPU_R1/execution_receipt.json": {
+      "source_sha256": "72489787d1a8948ec2532a34f08200f281099699310a03234e0ea4c2b9b1f05a",
+      "published_sha256": "a0c9d3e58da9e4f2f1ba15b4ec5b82b9ce023515ceb97297914beb9bdb9ebbae",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M14_AB_THRESHOLD_TILT3_GPU/M14_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "2709e42cf734ac0acb4bc83680339ad7b91541694a92c75d094cf463edfaee59",
+      "published_sha256": "b93dcd850c6ae23b553ba35cb488f78485c6478d7bb714e4739b6ef1a03fb852",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M15_Q1_SPLIT_NULL24_GPU/M15_GPU_R1/execution_receipt.json": {
+      "source_sha256": "c8a68b708c78981c2effa66cc5c6107cce627fa3d4cc9b1d365ea34a9c192e32",
+      "published_sha256": "71e6f5cc72ec3d9744ab96ba6e92547d72225535e59233598aaa0a214bc72c8c",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M15_Q1_SPLIT_NULL24_GPU/M15_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "f81d56a0b64b503a74c2346532a776e7404d9de862fbf1a67429c1574cdc3d60",
+      "published_sha256": "3eb4fea12f1d63110bdd41644c30991a444c3d168738da512e2da74ccf3d9881",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/M16_GPU_R1/execution_receipt.json": {
+      "source_sha256": "09c2fb4564e8b854c11562dca3cc1a5ec2bc22c719f935f9e56631944a6a622f",
+      "published_sha256": "756ba2e4568ba4b81415640416a88318b477095019adfa3dd3349af378e1db84",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M16_MID_WEIGHT_LINEAR_GPU/M16_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "8eac0147e19dc9c4ed6bd938930279f409407aea042ba059356919261d885012",
+      "published_sha256": "7a9b97f4a751ac8b69253e2f6134e539bd7ec2bca73bafa9704bdb9cbcd0355d",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M17_FALSE_VETO_BENIGN_GPU/M17_GPU_R1/execution_receipt.json": {
+      "source_sha256": "ada1f59d2597272fea6ccb0dddf2cfc96a258ab5f912005267333a29020c6864",
+      "published_sha256": "4647a7cb0a3e514b0d9a1cd10394f6840e9de6f7bf49a24035587a9689b6fd05",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M17_FALSE_VETO_BENIGN_GPU/M17_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "bbbcfd2add105f5d988c4514384bc309cd3959ffc5bc7e10f3292b67279ac13c",
+      "published_sha256": "570ae3de2a0c03acd8fd2c4a5627cf98743e6bf7072021e19c75e82c2a54b9c7",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M19_READOUT_GAIN_GPU/M19_GPU_R1/execution_receipt.json": {
+      "source_sha256": "43f5aef8d1e6c6d6ffd995aaf66050a8ff552af3964114f943a6676a37175aae",
+      "published_sha256": "33bc963211b8ece62503f599e9bcd168910252fc88f85bc932187f9d4cd1e3a3",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M19_READOUT_GAIN_GPU/M19_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "faf0e4766d87ebc8845cfaa2ab67340e558488f923a5935a488179c7dcfafd81",
+      "published_sha256": "ac8af14787f8d3f36dcf3783a5365870a400072d1afee35a9d4908e942107483",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M1_ROUND_BINDING_GPU/M1_GPU_R1/execution_receipt.json": {
+      "source_sha256": "0cc7c5c69d9ed2ff1f80c5b2ade8a12be7f67026efe4ae3bf84217f9fde9956a",
+      "published_sha256": "82082fbd90e6ed4f39321c851e7143cfd53e1b7471f9a2cfe33e6a8006631213",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M20_NATURAL_NECESSITY_GPU/M20_GPU_R1/execution_receipt.json": {
+      "source_sha256": "a903d272fa62ae746d013917f5ab0d3145c03d3dba2b95f2ec7fe72ca51ff165",
+      "published_sha256": "2ec11a7ae56706d239d6cb10ec2cda283194e17ce6b242e30bcc4af4366206e5",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M20_NATURAL_NECESSITY_GPU/M20_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "b7393e1a3fc029c4f06d39530339cdd24c44ca7b15f94a149f3f278b1f144744",
+      "published_sha256": "315e17c47176d10799bede1fba41c12905b80c0abde7e435ec8650eb7c892af3",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_GPU_R1/execution_receipt.json": {
+      "source_sha256": "155b4778cdd052b54fa3e3aa3d4835b5a1b131d6f6e4ab127d1654e5a6e4a070",
+      "published_sha256": "b6c98eda0237e1c611d27015bd05fbbb71cef1769bf3dc723cbcad4a2846ade4",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M21_READOUT_MEANDIFF_GPU/M21_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "06a18ad9ff1ab5a5c74d353169f24ee2bf079604bc24ac5aada13d750c938331",
+      "published_sha256": "bacd4b649bb256749ef14b95e32e57194dd960fa22eb710269c078c0de2dc4d3",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M2_SUBLAYER_LOCUS_GPU/M2_GPU_R1/execution_receipt.json": {
+      "source_sha256": "cb860b6ccd7b6877de90af9da90501a5dd9bc364ce8397c2912d857f325d3836",
+      "published_sha256": "f78d4c5766401f51fd011d26c345652bfc7d002cf67d8c578306e9438c80d71f",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_GPU_R1/execution_receipt.json": {
+      "source_sha256": "1a238dd99d0f710fcb74f04c0e084cc610d6e9324a2e3bc36a113c1851117f09",
+      "published_sha256": "51bf444f153afe3187e83ab4a4eadee9cdf7f9e407db83c455f59ea91834ce29",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_GPU_R1/M3_GPU_R1_refused_no_runs_root.log": {
+      "source_sha256": "8f0d24ac868db8454b5d192dae30a97898bda1d584b57b8bb2cb92b887346999",
+      "published_sha256": "9e6303c2349a2767914fad3c4b6788cfd25d8060293c4303e1bad0712dc029bc",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R1/selftest.log": {
+      "source_sha256": "c556f4d90974d888ad4b8df729c84815c835c790e757b6543fdaa49dea95ec5d",
+      "published_sha256": "1801d5b5e9e8d760bba06e550e1c57bbc132071b809b9c65c6337fc109d5ec32",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R1/selftest_receipt.json": {
+      "source_sha256": "00df06a57c9591ba7a85d4dcc741ed08496285d64477fc785ceeb8a167c8f3f4",
+      "published_sha256": "3ae0654bb6b5ef62eb649d9a73e7a25225cd5e2cecbef0b42f5f6c9ee52d27e9",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R2/selftest.log": {
+      "source_sha256": "ab0be545a87f1034390240e21a570ddcc92795bea4c165e1c8ef18a42ac5a21f",
+      "published_sha256": "e0979ca52a4374bcbc7228892b249b22bd3df31317bd68bd54e52ffb0a875d9a",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M3_HEAD_ROUTING_GPU/M3_SELFTEST_R2/selftest_receipt.json": {
+      "source_sha256": "21b116d3441d9c4f2b59797c982a10f29a1770f65b5aa4854d1ef8345e9bdeab",
+      "published_sha256": "5e0addec78481412494a1a22b5a34502aae82a36ce9b2e1e4f1c880730fe94f8",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M4_KEYCLASS_VALUE_GPU/M4_GPU_R1/execution_receipt.json": {
+      "source_sha256": "7450b5ebb5859060200752f276b59bcb8586c0eba5b0c8f88fe3e8e53f703296",
+      "published_sha256": "6b6afbfad52a043cdcf680a7864a93c041f6c8812900146cddcee0cd152c402d",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M4_KEYCLASS_VALUE_GPU/M4_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "67a8b1e3127da396f740fa907baa4846733addbd8ee6ad54ee163fd414c63fa7",
+      "published_sha256": "c93363678ba89e9156d1b3365a17e1584ae99d3e4f682e5ad6629c48d8046728",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/M5_GPU_R1/execution_receipt.json": {
+      "source_sha256": "6045b63034fda8dd5b1a3e3c8c788cbbc9936d24bb5544b8cae29e1f0a4426e0",
+      "published_sha256": "e4ed10451efcb2c7eb422559c711cb6bfd0a3f72b1e1b98bfa923f85a55fb95e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M5_MAGNITUDE_DIRECTION_GPU/M5_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "a1ee42a4ad28a9fd972d97c5e73096e2e38ba4a1186af2f4e7ccb275508d8da4",
+      "published_sha256": "893d24e6de4b21831530d9f52f7b8fe56f1e5c02a8f35df3ec78c412324d75de",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/M6_GPU_R1/execution_receipt.json": {
+      "source_sha256": "5dcf068851f3f1487877c986009f3fe5d1af69c7d9b965fc2b3458a4ae47873e",
+      "published_sha256": "73da5ceaaeef477f09eeb143b69fa1490043769629621fce65850887b68a24a6",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M6_SHARED_BULK_DIRECTION_GPU/M6_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "f691d7f86f3dc8c5aca37d3dcdda1bfd891ddd594be7414c02c7d5df32783840",
+      "published_sha256": "9861ecc239aa4630cc45c9b3a92597f3555e6fed851124eae891b27fdfd99324",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/M7_GPU_R1/execution_receipt.json": {
+      "source_sha256": "ae2cb4674e2c3178b591777b53d8522f0cc92d4209fcb6ed3c5381bd5e0535a1",
+      "published_sha256": "4f6dc743269450a365f5c5282e98499ea25827ff0af4eddeb1f02983883bbd06",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M7_DELTA_BASIS_MEANDIFF_GPU/M7_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "757683c849b614da793a87b018ccef236ee55f62f80c1c3bea92804484070dad",
+      "published_sha256": "9b0e4533465ef35472019eef551ce6d231a2f92775dcf5a519f89c77d8f99f3b",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/M8_GPU_R1/execution_receipt.json": {
+      "source_sha256": "c1b63bd0a42c6fc55a5717b3e06d4f105ae775ed67605616301a6905eaf5b597",
+      "published_sha256": "de9f1ed734f9726a77a1ce7e1c4f2d1f122eed675b7929dd6873a5c1d0b36354",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M8_CROSS_DELTA_TWOPART_GPU/M8_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "bcf06fe033c9aab82b783f0991302571eff637b2181094da4d59cdc6a4d67be8",
+      "published_sha256": "5e8d1104d280e7eea910a1376e810cf1397920e75ac60d6dc4690b2ecb104d6e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/M9_GPU_R1/execution_receipt.json": {
+      "source_sha256": "944bd213e51395c6c2bddd614d8ab030379435e10479ca3ce89b4096a6a0c307",
+      "published_sha256": "be2cc405ca3f0e8eb364c0148a02441685f8d3cd6d7aa8d39c3606cc9354096a",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_M9_GAIN_HEADS_SPLIT_GPU/M9_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "ed5f2e3b904058b1e78578d46f89fdf9638167c880287076e4a728d5f266c50d",
+      "published_sha256": "37b8f1df5e68ab151fe194544ff0b75e03a3dbdbda342ef3d6f25ed55c31dadc",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_G23_CONTEXT_COUNTERFACTUAL_CPU/G23_RESULT_V1.md": {
+      "source_sha256": "3f0fb0a3a69037b6446498bae340e4f3734a0ab161916ce63aacb9305ca3ba85",
+      "published_sha256": "9ba5023c2fee18aed9680884fa47ae96fbc091a6c8cd796f8107a62ee5bb8595",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_G24_GO_NOGO_CPU/G24_GO_NOGO_DECISION_V1.md": {
+      "source_sha256": "a3ea7d4ecfcccc6802314e31883a52810fba4cde79a1100a4c91617f6986f1ff",
+      "published_sha256": "739e860828228bd4a9ed7196e9c1aec580d323c5cf52f65b72664e4a65c63aad",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M18_SPAN_MONITOR_GPU/M18_GPU_R1/execution_receipt.json": {
+      "source_sha256": "26b94291cca6b97b687b6f9d377ec01512065580631b0b92165d592770b0f657",
+      "published_sha256": "e8d203ca6941a15630a2793e0fc2eae3fd56506d613500b6ce7d306d5bb6a8f8",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M18_SPAN_MONITOR_GPU/M18_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "93a3ed32a231e0cc71e7fb646e541cba689d318e0f0767180eb23b131e80042c",
+      "published_sha256": "289019f1d505c36a955905f9e8d1b4b37ed11161428b7d01b6ed66f4b8bb296b",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M22_SECJEV_REPLICATION_GPU/M22_GPU_R1/execution_receipt.json": {
+      "source_sha256": "a1a4415a41856caa577886defadc7bad0dd6ed1f6d881494a0d2074677d2efad",
+      "published_sha256": "050a42026040485dcd2b53a57f6085309874c10c3b34a6c11f4747516ef96595",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M22_SECJEV_REPLICATION_GPU/M22_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "9426635ccda684619b6738039acc9000ba972af5832357ec38255a292cdc6a58",
+      "published_sha256": "16802acf292bf328367da5bfecdd8c9318f396f800ac329e5501992f4251c6c1",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/execution_receipt.json": {
+      "source_sha256": "5dd1cf7c9d34de04bd9d9b33cbac4d482305fb5a20265ee79c9636b88be4169b",
+      "published_sha256": "d89312720d0211882385a7e5f8791db2e9579d1e49b792b36cbe200b17e2f771",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23K_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "856e7613d94d3eebf9324f77f8127dea723fbdee2385259f233d2190bff9cd78",
+      "published_sha256": "8e8923525f50106aa8726169528b44ea73a91e2c11351d6e2b82d14158019481",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/execution_receipt.json": {
+      "source_sha256": "69e9cace68e1ed154dd88ba702a206308af891b04d6f6ae6aebc4c0226ece96c",
+      "published_sha256": "e7809150e995342db2ad7889fce54a41d41911a73627970b5ae96b1615f9aa1a",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MON_M23_TWIN_PROBE_GPU/M23S_GPU_R1/pre_model_gate_receipt.json": {
+      "source_sha256": "95e44239a28579488fee90cbab041307e68b12fc2713d623beeaa1e944d2d2ee",
+      "published_sha256": "490469cbb04de9258ef4c94d55c3c6eb7aff0aec723daa96eeea596b5969df2d",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
     }
   }
 }

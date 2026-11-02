@@ -1,0 +1,22 @@
+{
+  "admission_fields_observed": {
+    "blind_review_runner_blob": "c5dd9e0cd376c20c50b75348f9aed4dad5e67418",
+    "blind_review_verdict": "PASS",
+    "explicit_user_gpu_approval": true,
+    "self_blob": "c5dd9e0cd376c20c50b75348f9aed4dad5e67418"
+  },
+  "backprop_calls": 0,
+  "error_message": "unexpected capture overhang",
+  "error_type": "RuntimeError",
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 1,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/PATCHING_PILOT_REAL",
+  "physical_prehook_count_at_failure": 1,
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU_R1",
+  "schema": "JEV_A461_G5_PILOT_GPU_RECEIPT_V1",
+  "status": "FAIL_A461_G5_PILOT_GPU",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_pilot_gpu_v1.py\", line 348, in main\n    rows_out.append(run_forward(roster_reqs[rid], \"capture_\" + tag, tag,\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_pilot_gpu_v1.py\", line 325, in run_forward\n    ck(condition == \"capture_donor_old_at_new_span_coords\", \"unexpected capture overhang\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_pilot_gpu_v1.py\", line 48, in ck\n    raise RuntimeError(m)\nRuntimeError: unexpected capture overhang\n"
+}

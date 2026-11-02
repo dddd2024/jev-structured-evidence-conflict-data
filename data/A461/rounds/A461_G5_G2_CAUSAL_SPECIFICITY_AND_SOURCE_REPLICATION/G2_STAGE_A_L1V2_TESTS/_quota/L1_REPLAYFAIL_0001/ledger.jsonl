@@ -1,0 +1,12 @@
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","backend":"fake","event":"attempt_open","out_dir":"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/T3b_replay_mismatch","plan":[11],"runner_blob":"b78da9c0476f0558cd77fa9771c04d020830dede","t":1793076052.989}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":1,"run":1,"t":1793076053.024}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":2,"run":1,"t":1793076053.077}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":3,"run":1,"t":1793076053.127}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":4,"run":1,"t":1793076053.181}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":5,"run":1,"t":1793076053.239}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":6,"run":1,"t":1793076053.297}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":7,"run":1,"t":1793076053.355}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":8,"run":1,"t":1793076053.412}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":9,"run":1,"t":1793076053.462}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"reserve","forward_index":10,"run":1,"t":1793076053.516}
+{"admission_id":"L1_REPLAYFAIL_0001","attempt_id":"817f620868d64ff2899ce170f8ae5818","event":"attempt_close","physical":10,"reserved":10,"status":"FAIL_A461_G5_G2_STAGE_A_SCREEN","t":1793076053.567}

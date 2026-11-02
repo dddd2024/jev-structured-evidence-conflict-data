@@ -1,0 +1,107 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_G5_G2_K4B_STAGE_A_GPU_20261027_R1",
+    "approved_batch_plan": [
+      128,
+      128,
+      122
+    ],
+    "approved_max_native_forwards": 378,
+    "blind_review_runner_blob": null,
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": null,
+    "explicit_user_gpu_approval": true,
+    "mode": "GPU",
+    "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+    "self_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "attempt_rows": 0,
+    "ledger_events": 0,
+    "raw_rows": 0
+  },
+  "expect_batches": [
+    128,
+    128,
+    122
+  ],
+  "expect_total": 378,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 0,
+  "ledger_dry_run": {
+    "run1": {
+      "cap": 128,
+      "primary": 126,
+      "replay": 2,
+      "total": 128
+    },
+    "run2": {
+      "cap": 128,
+      "primary": 126,
+      "replay": 2,
+      "total": 128
+    },
+    "run3": {
+      "cap": 122,
+      "primary": 120,
+      "replay": 2,
+      "total": 122
+    }
+  },
+  "ledger_reserved_calls": 0,
+  "manifest_roster_tuple_gate": "372/372 PASS",
+  "manifest_rows": 378,
+  "model_identity": {
+    "base": {
+      "files": 13,
+      "sha256": "e69084113ebd07896391c2570b5525536adc2e313d25397036f9634b826ccca0"
+    },
+    "ckpt": {
+      "files": 16,
+      "sha256": "787e91e1228a9a61ef0f110f844b19f377589a86c6386909314eef3daf97c665"
+    },
+    "source": {
+      "files": 4,
+      "sha256": "ea4614261286186100858d68d8fa5ef9f81ecba9a4cbf7d0f33535039610db00"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "note": "all gates before torch import / model load; not a GPU run and not an admission",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_K4B_STAGE_A_GPU_R1_PRE_MODEL_GATE",
+  "physical_prehook_calls": 0,
+  "primary_rows": 372,
+  "quota_ledger": {
+    "attempt_id": "e451a143259d4c2ea11339a8d27be6cc",
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_K4B_STAGE_A_QUOTA_LEDGER/A461_G5_G2_K4B_STAGE_A_GPU_20261027_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "replay_rows": 6,
+  "run_id": "A461_G5_G2_K4B_STAGE_A_SCREEN_GPU_R1",
+  "runner_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "runs": {
+    "1": 128,
+    "2": 128,
+    "3": 122
+  },
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V4",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_PRE_MODEL_GATE",
+  "test_or_calibration_rows": 0,
+  "token_gate": "372/372 PASS",
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev4b-assets-20261002/base",
+  "tool_actions": 0
+}

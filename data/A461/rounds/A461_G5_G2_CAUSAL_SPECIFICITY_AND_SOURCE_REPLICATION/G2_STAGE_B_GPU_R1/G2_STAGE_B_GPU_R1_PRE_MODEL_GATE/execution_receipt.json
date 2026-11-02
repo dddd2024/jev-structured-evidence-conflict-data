@@ -1,0 +1,81 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_G5_G2_STAGE_B_GPU_20261027_R1",
+    "approved_batch_plan": [
+      116,
+      116,
+      116,
+      116
+    ],
+    "approved_max_native_forwards": 464,
+    "approved_runner_blob": "2ff96b387f4cd0fed70f1a1bc34b9f503552d5b5",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+    "user_gpu_approval_quote": "批准 A461-G5-G2 Stage-B GPU 运行：runner 2ff96b38，manifest 363351fd，464 次物理前向，四批 116/116/116/116，在 REDACTED_RESEARCH_HOST 上执行。",
+    "user_gpu_approval_utc": "2026-10-27T08:05:32Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 0,
+    "raw_rows": 0
+  },
+  "expect_batches": [
+    116,
+    116,
+    116,
+    116
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "fd2a48b3384e08170676c3c90f95efb41c914eee",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "363351fde6bf86a8f4e3430f5ae6910e2e9df586",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0"
+  },
+  "gpu_model_loads": 0,
+  "ledger_reserved_calls": 0,
+  "model_identity": {
+    "base": {
+      "files": 8,
+      "sha256": "3a2fb1ffd126a3b12ddff5a80446feebb270a15a41a7ba67c92f1fd1879ca5e2"
+    },
+    "ckpt": {
+      "files": 28,
+      "sha256": "fb8b042db5a986a88e8e0fc25e50bce6117f449c7211e8c176d789c7afd99295"
+    },
+    "source": {
+      "files": 26,
+      "sha256": "99fcc711569f09be74c8f811eefcd8698efa2bd4ba319cc53251354d054d8bf6"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_B_GPU_R1_PRE_MODEL_GATE",
+  "physical_prehook_calls": 0,
+  "preflight": {
+    "manifest_rows": 464,
+    "scenes": 8,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "2f529b5f3f7f46a4961f24740cf8c91e",
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_B_QUOTA_LEDGER/A461_G5_G2_STAGE_B_GPU_20261027_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_G5_G2_STAGE_B_CAUSAL_PATCHING_GPU_R1",
+  "runner_blob": "2ff96b387f4cd0fed70f1a1bc34b9f503552d5b5",
+  "schema": "JEV_A461_G5_G2_STAGE_B_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "b675e9d555307720cf1dd964b20db487344f8803",
+  "status": "COMPLETE_A461_G5_G2_STAGE_B_PRE_MODEL_GATE"
+}

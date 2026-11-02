@@ -1,0 +1,86 @@
+{
+  "gpu_calls": 0,
+  "manifest_blob": "aad3cbddb3ec7cbbbdbada97fb51ab5080702cc4",
+  "passed": 12,
+  "results": [
+    {
+      "evidence": "{'manifest_rows': 7740, 'scenes': 22, 'span_gate': 'PASS', 'token_gate': 'PASS'}",
+      "test": "preflight_token_and_span_gates_on_real_manifest",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_MECH_M3 rows=7740 batches=61 captures=44 files=88 (sha ok=True, shapes ok=True)",
+      "test": "fake_full_path_7740_with_44_captures_and_attention",
+      "verdict": "FAIL"
+    },
+    {
+      "evidence": "probabilities sum to 1 (max err 2.38e-07), zero on future keys (0.0), reconstruct the forward's o_proj input (max abs 4.77e-07), rows agree (7.0e-09)",
+      "test": "attention_readout_normalised_causal_and_reconstructs_oproj_input",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "8 probe arms give 8 distinct outputs in 208/208 (cell, source); 37 arms x 208; head lists match arm names: True",
+      "test": "head_addressing_distinct_outputs",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "host baselines=8; all-row head patches moving both C and action rows: 7696/7696",
+      "test": "all_row_head_patches_reach_c_and_action",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "test raised StopIteration: ",
+      "test": "identity_patch_bitwise_noop_every_arm_type",
+      "verdict": "FAIL"
+    },
+    {
+      "evidence": "ROUND captures (14 donors + 8 hosts) with G1.0 token sha + span, distinct from new: 22/22; patch sources {'new': 3848, 'ROUND': 3848}",
+      "test": "round_arms_rebuilt_from_g10_and_used_as_sources",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "one variant round edited: refused at the blob pin",
+      "test": "tampered_g10_counterfactuals_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "test raised FileNotFoundError: [Errno 2] No such file or directory: '/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/M3_SELFTEST_R1/T3_extra_lm_call/execution_receipt.json'",
+      "test": "extra_lm_call_refused_at_prehook",
+      "verdict": "FAIL"
+    },
+    {
+      "evidence": "same admission from a new out dir after a complete 7740-call run: refused, 0 loads",
+      "test": "same_approval_reuse_refused_by_ledger",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic policy-V2 GPU admission passes all gates and stops before load; real ledger untouched",
+      "test": "gpu_policy_v2_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest with one patch row's head list changed: refused before load",
+      "test": "gpu_tampered_manifest_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused: approved batches != expected",
+      "test": "gpu_plan_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before mkdir",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "all receipts: gpu_model_loads=0, CUDA never initialized",
+      "test": "no_gpu_in_selftest",
+      "verdict": "PASS"
+    }
+  ],
+  "runner_blob": "a285df3dcd64fad4f1a071f6f027601fe580ac09",
+  "schema": "JEV_A461_MECH_M3_SELFTEST_V1",
+  "status": "FAIL",
+  "tests": 15
+}

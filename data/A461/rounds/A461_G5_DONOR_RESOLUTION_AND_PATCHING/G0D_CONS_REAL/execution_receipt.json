@@ -1,0 +1,13 @@
+{
+  "backbone_forwards": 0,
+  "cpu_model_loads": 0,
+  "gpu_forwards": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-donor-resolution-20261025-v1/G0D_CONS",
+  "pairs": 36,
+  "planned_forwards": 112,
+  "schema": "JEV_A461_G5_G0D_CONS_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_CONS_CPU_GATE_IMPL1",
+  "test_or_calibration_rows": 0,
+  "total_arms": 72
+}

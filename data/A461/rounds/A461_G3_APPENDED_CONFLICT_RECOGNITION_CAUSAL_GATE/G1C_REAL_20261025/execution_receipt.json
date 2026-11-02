@@ -1,0 +1,26 @@
+{
+  "backprop_calls": 0,
+  "budget": 109,
+  "elapsed_seconds": 30.484,
+  "gpu_free_bytes_after": 19098697728,
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 109,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g3-conflict-gate-20261025-v1/G1C",
+  "physical_forwards": 109,
+  "plan_composition": {
+    "N1": 6,
+    "N1B": 26,
+    "SHAM_RO": 6,
+    "SHAM_SA": 9,
+    "SHAM_TS": 6,
+    "new": 26,
+    "old_baseline": 26
+  },
+  "replays": 4,
+  "run_id": "a461-g3-conflict-gate-20261025-v1",
+  "schema": "JEV_A461_G3_G1C_EXECUTION_RECEIPT_V1",
+  "status": "COMPLETE_A461_G3_G1C_PAIRED_FORWARDS",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0
+}

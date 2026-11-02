@@ -1,0 +1,22 @@
+{
+  "admission_fields_observed": {
+    "blind_review_runner_blob": "d05b070e0723de5af70c6afbfd312ac99fdbdbb3",
+    "blind_review_verdict": "PASS",
+    "explicit_user_gpu_approval": true,
+    "self_blob": "d05b070e0723de5af70c6afbfd312ac99fdbdbb3"
+  },
+  "backprop_calls": 0,
+  "budget": 28,
+  "elapsed_seconds": 8.465,
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 28,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/PATCHING_PILOT_REAL_R2",
+  "physical_forwards": 28,
+  "rows": 28,
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU_R1",
+  "schema": "JEV_A461_G5_PILOT_GPU_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_PILOT_GPU",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0
+}

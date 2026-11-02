@@ -1,0 +1,496 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_MECH_M11_GPU_20261030_R1",
+    "approved_batch_plan": [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      124
+    ],
+    "approved_max_native_forwards": 5244,
+    "approved_runner_blob": "54479b0480666fde9e2681346e8e46d384236610",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+    "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+    "user_gpu_approval_utc": "2026-10-27T11:12:00Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [
+    {
+      "cumulative_physical_after": 128,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 256,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 384,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 512,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 640,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 768,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 896,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1024,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1152,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1280,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1408,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1536,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 12,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1664,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 13,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1792,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 14,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 1920,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2048,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 16,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2176,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 17,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2304,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 18,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2432,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 19,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2560,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 20,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2688,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2816,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 22,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 2944,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 23,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3072,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 24,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3200,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 25,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3328,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3456,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 27,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3584,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 28,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3712,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 29,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3840,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 30,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 3968,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 31,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4096,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 32,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4224,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 33,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4352,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 34,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4480,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4608,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 36,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4736,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 37,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4864,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 38,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 4992,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 39,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 5120,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 40,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 5244,
+      "physical": 124,
+      "planned": 124,
+      "rows": 124,
+      "run": 41,
+      "status": "COMPLETE"
+    }
+  ],
+  "bitwise_vs_m1": "checked",
+  "bitwise_vs_m3": "checked",
+  "bitwise_vs_m6": "checked",
+  "cuda_initialized": true,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 5246,
+    "raw_rows": 5244
+  },
+  "elapsed_seconds": 7861.733,
+  "expect_batches": [
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    128,
+    124
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "53d2bc8d89098c8e3434be9f11851bc459e1389a",
+    "g10_counterfactuals_blob": "06ee06d7942b9f1a5f09c35777d5da1149655e4d",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "m1_raw_blob": "298c7cdfab634cd6a6a9122fac90d41c87219c21",
+    "m3_raw_blob": "a8c0fa6b5d96be7c7ab0433d4dcbb5d6f0411a0c",
+    "m6_raw_blob": "2147311c2cf913fad5b07033e43789bb61293611",
+    "manifest_blob": "8e5762826973d49d2efd3f187f94c5c913f9b0c1",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 1,
+  "kev4b_load": {
+    "cuda_max_memory_allocated_after_load": 17089037312
+  },
+  "ledger_reserved_calls": 5244,
+  "model_identity": {
+    "base": {
+      "files": 13,
+      "sha256": "e69084113ebd07896391c2570b5525536adc2e313d25397036f9634b826ccca0"
+    },
+    "ckpt": {
+      "files": 16,
+      "sha256": "787e91e1228a9a61ef0f110f844b19f377589a86c6386909314eef3daf97c665"
+    },
+    "source": {
+      "files": 4,
+      "sha256": "ea4614261286186100858d68d8fa5ef9f81ecba9a4cbf7d0f33535039610db00"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 1,
+  "native_model_forward_calls": 5244,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/M11_GPU_RUNS/ATTEMPT_R1",
+  "physical_forwards": 5244,
+  "physical_prehook_calls": 5244,
+  "preflight": {
+    "manifest_rows": 5244,
+    "scenes": 22,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "f058710cb2a3451ab6186999223c8972",
+    "consumed_after": 5244,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/M11_QUOTA_LEDGER/A461_MECH_M11_GPU_20261030_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_MECH_M11_GPU_R1",
+  "runner_blob": "54479b0480666fde9e2681346e8e46d384236610",
+  "schema": "JEV_A461_MECH_M11_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "status": "COMPLETE_A461_MECH_M11"
+}

@@ -1,0 +1,63 @@
+{
+  "admission_fields_observed": {
+    "approved_max_native_forwards": 11,
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": 0,
+    "explicit_user_gpu_approval": false,
+    "mode": "L1_FAKE",
+    "runner_blob": null,
+    "self_blob": "b0b9f6eea2e43006e743d91696f5bb8e8464c3ee"
+  },
+  "backend": "fake",
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "batch_receipts": [
+    {
+      "physical": 4,
+      "planned": 11,
+      "run": 1,
+      "status": "FAILED_AT_THIS_BATCH"
+    }
+  ],
+  "cuda_initialized": false,
+  "error_message": "FAKE_FAULT throw4: synthetic forward failure on call 4",
+  "error_type": "RuntimeError",
+  "expect_batches": [
+    11
+  ],
+  "expect_total": 11,
+  "fake_model_fault": "throw4",
+  "fake_model_forward_invocations": 3,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "8013081662cce3e73ba2d6b5b71bb6207eab0496",
+    "manifest_blob": "d35235c4aa48c1e6ab5c9b834d94c696bade7050",
+    "roster_blob": "b5f60d0b84f9720b8360e8180c9687b00ea9067c"
+  },
+  "gpu_model_loads": 0,
+  "ledger_dry_run": {
+    "run1": {
+      "cap": 11,
+      "primary": 9,
+      "replay": 2,
+      "total": 11
+    }
+  },
+  "model_loads": 1,
+  "native_model_forward_calls": 3,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1_RUN3/T5_forward_throw",
+  "physical_by_batch_at_failure": {
+    "1": 4
+  },
+  "physical_prehook_calls": 4,
+  "physical_prehook_count_at_failure": 4,
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runner_blob": "b0b9f6eea2e43006e743d91696f5bb8e8464c3ee",
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V2",
+  "status": "FAIL_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 417, in main\n    row = run_forward(old_req_by_scene[entry[\"scene_sha256\"]] if entry[\"kind\"] == \"replay\"\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 375, in run_forward\n    z = model.forward(enc)\n        ^^^^^^^^^^^^^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_fake_kev_model_v1.py\", line 70, in forward\n    raise RuntimeError(\"FAKE_FAULT throw4: synthetic forward failure on call 4\")\nRuntimeError: FAKE_FAULT throw4: synthetic forward failure on call 4\n"
+}

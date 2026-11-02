@@ -1,0 +1,130 @@
+{
+  "fake_model_blob": "28852e69facccbe691d03297a0d4367ef2f19e94",
+  "fault_injection_evidence": [
+    "callcount: replay bitwise mismatch -> FAIL, rows kept",
+    "doublefire@127/255/377: per-batch physical cap+1 refused before model",
+    "throw4: FORWARD_FAILED attempt row, physical 4 charged",
+    "nonfinite2: INVALID_OUTPUT attempt row",
+    "approved < plan: refused at admission",
+    "consumed + plan > approved: resume refused",
+    "L1_FAKE admission + gpu backend: refused before any load/CUDA",
+    "out dir outside ~/wjc or existing: refused"
+  ],
+  "gpu_calls": 0,
+  "manifest_blob": "01ca53908cc73276d4f6821a4892f05e47e02a15",
+  "native_forwards": 0,
+  "passed": 27,
+  "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+  "runner_blob": "b0b9f6eea2e43006e743d91696f5bb8e8464c3ee",
+  "runner_invocations": [
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_STAGE_A_L1_RUN3/_admissions/real_378.json --backend fake --out G2_STAGE_A_L1_RUN3/T2_preflight --preflight-only",
+      "fault": "none",
+      "out": "T2_preflight",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_STAGE_A_L1_RUN3/_admissions/real_378.json --backend fake --out G2_STAGE_A_L1_RUN3/T3_fullpath",
+      "fault": "none",
+      "out": "T3_fullpath",
+      "returncode": 0,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend fake --out G2_STAGE_A_L1_RUN3/T3b_replay_mismatch --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "callcount",
+      "out": "T3b_replay_mismatch",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_STAGE_A_L1_RUN3/_admissions/real_378.json --backend fake --out G2_STAGE_A_L1_RUN3/T4_cap_batch1",
+      "fault": "doublefire@127",
+      "out": "T4_cap_batch1",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_STAGE_A_L1_RUN3/_admissions/real_378.json --backend fake --out G2_STAGE_A_L1_RUN3/T4_cap_batch2",
+      "fault": "doublefire@255",
+      "out": "T4_cap_batch2",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root /REDACTED_RESEARCH_ROOT/jev-checkout --admission G2_STAGE_A_L1_RUN3/_admissions/real_378.json --backend fake --out G2_STAGE_A_L1_RUN3/T4_cap_batch3",
+      "fault": "doublefire@377",
+      "out": "T4_cap_batch3",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_over.json --backend fake --out G2_STAGE_A_L1_RUN3/T4_budget_overrun --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "none",
+      "out": "T4_budget_overrun",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_resume.json --backend fake --out G2_STAGE_A_L1_RUN3/T4_resume_after_dropout --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "none",
+      "out": "T4_resume_after_dropout",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "gpu",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend gpu --out G2_STAGE_A_L1_RUN3/T4_fake_admission_gpu_backend --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "none",
+      "out": "T4_fake_admission_gpu_backend",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend fake --out G2_STAGE_A_L1_RUN3/T5_forward_throw --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "throw4",
+      "out": "T5_forward_throw",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend fake --out G2_STAGE_A_L1_RUN3/T5_nonfinite --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "nonfinite2",
+      "out": "T5_nonfinite",
+      "returncode": 2,
+      "stderr_tail": ""
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend fake --out /REDACTED_DATA/intern/jev_l1_outside_probe_G2_STAGE_A_L1_RUN3 --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "none",
+      "out": "jev_l1_outside_probe_G2_STAGE_A_L1_RUN3",
+      "returncode": 1,
+      "stderr_tail": "g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 478, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 175, in main\n    ck(inside(out, ROOT), \"out dir: output must be inside ~/wjc (directory relation)\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 57, in ck\n    raise RuntimeError(m)\nRuntimeError: out dir: output must be inside ~/wjc (directory relation)\n"
+    },
+    {
+      "backend": "fake",
+      "command": "A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py --repo-root G2_STAGE_A_L1_RUN3/_fixture_repo --admission G2_STAGE_A_L1_RUN3/_admissions/mini_11.json --backend fake --out G2_STAGE_A_L1_RUN3/T5_forward_throw --roster-blob b5f60d0b84f9720b8360e8180c9687b00ea9067c --manifest-blob d35235c4aa48c1e6ab5c9b834d94c696bade7050 --g5v2-questions-blob 8013081662cce3e73ba2d6b5b71bb6207eab0496 --expect-total 11 --expect-batches 11",
+      "fault": "none",
+      "out": "T5_forward_throw",
+      "returncode": 1,
+      "stderr_tail": "/intern/wjc/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 478, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 176, in main\n    ck(out.parent.is_dir() and not out.exists(), \"out dir: parent missing or out exists\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 57, in ck\n    raise RuntimeError(m)\nRuntimeError: out dir: parent missing or out exists\n"
+    }
+  ],
+  "schema": "JEV_A461_G5_G2_STAGE_A_L1_TEST_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_L1_TESTS",
+  "test_suite_blob": "e036eced3adf4f5e779e49cf255941688023b37f",
+  "tested_command": "python3 A461_g5_g2_stage_a_l1_tests_v1.py --repo-root <jev checkout> --out <~/wjc/...>",
+  "tests": 27
+}

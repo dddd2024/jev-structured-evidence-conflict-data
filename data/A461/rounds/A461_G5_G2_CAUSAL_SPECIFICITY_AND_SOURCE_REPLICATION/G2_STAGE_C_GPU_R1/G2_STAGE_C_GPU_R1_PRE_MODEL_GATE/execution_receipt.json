@@ -1,0 +1,86 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_G5_G2_STAGE_C_GPU_20261027_R1",
+    "approved_batch_plan": [
+      124,
+      124,
+      112,
+      112,
+      112,
+      112
+    ],
+    "approved_max_native_forwards": 696,
+    "approved_runner_blob": "2ba9fef9b191b9edfde141eed68acff59b55c7a1",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f",
+    "user_gpu_approval_quote": "批准 A461-G5-G2 Stage-C GPU 运行：runner 2ba9fef9，manifest f2f8f024，696 次物理前向，六批 124/124/112/112/112/112，在 REDACTED_RESEARCH_HOST 上执行。",
+    "user_gpu_approval_utc": "2026-10-27T08:27:40Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 0,
+    "raw_rows": 0
+  },
+  "expect_batches": [
+    124,
+    124,
+    112,
+    112,
+    112,
+    112
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "985d7ccef2cf0fd24584915371ea0a5ef24ce08d",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "f2f8f0249d16967c06ed350b5e91407f3acdd0e8",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e"
+  },
+  "gpu_model_loads": 0,
+  "ledger_reserved_calls": 0,
+  "model_identity": {
+    "base": {
+      "files": 8,
+      "sha256": "3a2fb1ffd126a3b12ddff5a80446feebb270a15a41a7ba67c92f1fd1879ca5e2"
+    },
+    "ckpt": {
+      "files": 28,
+      "sha256": "fb8b042db5a986a88e8e0fc25e50bce6117f449c7211e8c176d789c7afd99295"
+    },
+    "source": {
+      "files": 26,
+      "sha256": "99fcc711569f09be74c8f811eefcd8698efa2bd4ba319cc53251354d054d8bf6"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_C_GPU_R1_PRE_MODEL_GATE",
+  "physical_prehook_calls": 0,
+  "preflight": {
+    "manifest_rows": 696,
+    "scenes": 124,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "3792fefd8c944a4486a567f662997e9d",
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_C_QUOTA_LEDGER/A461_G5_G2_STAGE_C_GPU_20261027_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_G5_G2_STAGE_C_GPU_R1",
+  "runner_blob": "2ba9fef9b191b9edfde141eed68acff59b55c7a1",
+  "schema": "JEV_A461_G5_G2_STAGE_C_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "b675e9d555307720cf1dd964b20db487344f8803",
+  "status": "COMPLETE_A461_G5_G2_STAGE_C_PRE_MODEL_GATE"
+}

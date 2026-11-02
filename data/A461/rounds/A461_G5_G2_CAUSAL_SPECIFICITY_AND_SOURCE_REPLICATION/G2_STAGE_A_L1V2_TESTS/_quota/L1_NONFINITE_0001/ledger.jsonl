@@ -1,0 +1,4 @@
+{"admission_id":"L1_NONFINITE_0001","attempt_id":"f5996892869c4a85aefa30db0239f982","backend":"fake","event":"attempt_open","out_dir":"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/T5_nonfinite","plan":[11],"runner_blob":"b78da9c0476f0558cd77fa9771c04d020830dede","t":1793076167.995}
+{"admission_id":"L1_NONFINITE_0001","attempt_id":"f5996892869c4a85aefa30db0239f982","event":"reserve","forward_index":1,"run":1,"t":1793076168.049}
+{"admission_id":"L1_NONFINITE_0001","attempt_id":"f5996892869c4a85aefa30db0239f982","event":"reserve","forward_index":2,"run":1,"t":1793076168.099}
+{"admission_id":"L1_NONFINITE_0001","attempt_id":"f5996892869c4a85aefa30db0239f982","event":"attempt_close","physical":2,"reserved":2,"status":"FAIL_A461_G5_G2_STAGE_A_SCREEN","t":1793076168.145}

@@ -1,0 +1,348 @@
+{
+  "all_pass": true,
+  "groups": {
+    "compile_and_schema": [
+      "python_import_compile:PASS",
+      "frozen_manifest_index_and_counts:PASS",
+      "runtime_input_schema:PASS"
+    ],
+    "durable_quota_ledger": [
+      "same_approval_new_outdir_after_complete_refused:PASS",
+      "partial_attempt_charged_and_resume_bounded:PASS",
+      "abrupt_stop_missing_receipt_still_charged:PASS",
+      "lost_ledger_fails_closed:PASS",
+      "missing_ledgered_dir_fails_closed:PASS",
+      "tampered_ledger_fails_closed:PASS",
+      "concurrent_attempt_lock_refused:PASS"
+    ],
+    "fail_closed_storage": [
+      "forward_throw_keeps_attempt_receipt:PASS",
+      "post_forward_failure_keeps_raw_lines:PASS",
+      "nonfinite_shape_error_fail_receipt:PASS",
+      "output_realpath_inside_wjc_and_append_only:PASS",
+      "existing_out_dir_never_overwritten:PASS"
+    ],
+    "fake_model_full_path": [
+      "planned_forwards_all_covered:PASS",
+      "replay_effective_entry_inherits_primary_metadata:PASS",
+      "replay_bitwise_pass:PASS",
+      "replay_bitwise_fault_fail:PASS"
+    ],
+    "freezing_and_independence": [
+      "source_hash_and_code_blob_pins:PASS",
+      "no_model_load_no_gpu_no_network_in_l1:PASS",
+      "separate_test_oracle_for_manifest_counts:PASS"
+    ],
+    "gpu_admission_pre_model": [
+      "well_formed_gpu_admission_reaches_pre_model_gate:PASS",
+      "reviewer_134_122_122_counterexample_refused:PASS",
+      "manifest_blob_override_alone_refused:PASS",
+      "plan_override_alone_refused:PASS",
+      "quota_root_override_refused:PASS",
+      "admission_plan_mismatch_refused:PASS",
+      "admission_frozen_inputs_mismatch_refused:PASS",
+      "admission_runner_blob_mismatch_refused:PASS",
+      "admission_model_identity_mismatch_refused:PASS",
+      "admission_without_user_approval_refused:PASS",
+      "l1_fake_admission_cannot_authorize_gpu:PASS",
+      "fake_backend_plan_above_cap_refused:PASS",
+      "model_identity_verify_unit:PASS",
+      "full_gpu_run_outside_runs_root_refused:PASS"
+    ],
+    "native_full_input": [
+      "corpus_to_roster_and_manifest_token_sha:PASS",
+      "primary_and_replay_all_call_contracts:PASS",
+      "replay_effective_entry_negative_cases:PASS",
+      "span_suffix_branch_and_question_gold_checks:PASS"
+    ],
+    "physical_per_batch": [
+      "batch_guard_unit:PASS",
+      "physical_cap_plus_one_batch1_refused_before_model:PASS",
+      "physical_cap_plus_one_batch2_refused_before_model:PASS",
+      "physical_cap_plus_one_batch3_refused_before_model:PASS",
+      "all_batch_counts_exact:PASS",
+      "attempt_extra_forward_before_model_must_fail:PASS"
+    ]
+  },
+  "pilot_task": "A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_G0_V3",
+  "policy": "research_governance/JEV_L1_L2_L3_GATE_MATRIX_V1.json",
+  "schema": "JEV_A461_G5_G2_STAGE_A_L1_TEST_MATRIX_V2",
+  "tests": [
+    {
+      "evidence": "py_compile runner + fake: rc=0 ",
+      "group": "compile_and_schema",
+      "test": "python_import_compile",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "rows=378 kinds={'primary': 372, 'replay': 6} per_run={1: 128, 2: 128, 3: 122} (recounted from blob 01ca5390)",
+      "group": "compile_and_schema",
+      "test": "frozen_manifest_index_and_counts",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "124 manifest scenes, roster fields present; missing=0",
+      "group": "compile_and_schema",
+      "test": "runtime_input_schema",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_G5_G2_STAGE_A_PREFLIGHT token=372/372 PASS tuple=372/372 PASS dry={\"run1\":{\"cap\":128,\"primary\":126,\"replay\":2,\"total\":128},\"run2\":{\"cap\":128,\"primary\":126,\"replay\":2,\"total\":128},\"run3\":{\"cap\":122,\"primary\":120,\"replay\":2,\"total\":122}}",
+      "group": "native_full_input",
+      "test": "corpus_to_roster_and_manifest_token_sha",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "effective=378 replay refs={127: 1, 128: 1, 255: 129, 256: 129, 377: 257, 378: 257}; all 5 fields inherited == primary",
+      "group": "native_full_input",
+      "test": "primary_and_replay_all_call_contracts",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "{\"conflicting_width\":\"REJECTED\",\"dangling_ref\":\"REJECTED\",\"ref_cross_run\":\"REJECTED\",\"ref_to_new_arm\":\"REJECTED\"}",
+      "group": "native_full_input",
+      "test": "replay_effective_entry_negative_cases",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "tuple mismatches=0; new-old state length deltas=[31]",
+      "group": "native_full_input",
+      "test": "span_suffix_branch_and_question_gold_checks",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=COMPLETE_A461_G5_G2_STAGE_A_SCREEN physical=378 rows=378 batches=[(1, 128, 128, 128, 'COMPLETE'), (2, 128, 128, 128, 'COMPLETE'), (3, 122, 122, 122, 'COMPLETE')] ledger reserved=378 (open..close)",
+      "group": "fake_model_full_path",
+      "test": "planned_forwards_all_covered",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "6 replay raw rows, inherited metadata non-null",
+      "group": "fake_model_full_path",
+      "test": "replay_effective_entry_inherits_primary_metadata",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "6/6 replay logits == referenced primary logits",
+      "group": "fake_model_full_path",
+      "test": "replay_bitwise_pass",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "status=FAIL_A461_G5_G2_STAGE_A_SCREEN err=replay not bitwise vs forward 1 raw rows kept=10",
+      "group": "fake_model_full_path",
+      "test": "replay_bitwise_fault_fail",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "guard(128,128) and guard(128,134) raise; guard(127,128) passes",
+      "group": "physical_per_batch",
+      "test": "batch_guard_unit",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "hidden extra lm call at 127 -> batch 1 physical=128; entry 128 refused before model (invocations=127); ledger charges 128 = 127 reserved + 1 unreserved",
+      "group": "physical_per_batch",
+      "test": "physical_cap_plus_one_batch1_refused_before_model",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "hidden extra lm call at 255 -> batch 2 physical=128; entry 256 refused before model (invocations=255); ledger charges 256 = 255 reserved + 1 unreserved",
+      "group": "physical_per_batch",
+      "test": "physical_cap_plus_one_batch2_refused_before_model",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "hidden extra lm call at 377 -> batch 3 physical=122; entry 378 refused before model (invocations=377); ledger charges 378 = 377 reserved + 1 unreserved",
+      "group": "physical_per_batch",
+      "test": "physical_cap_plus_one_batch3_refused_before_model",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "per-batch pre-hook ledgers 128/128/122, global 378, durable reservations 378 (T3)",
+      "group": "physical_per_batch",
+      "test": "all_batch_counts_exact",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "plan 11 > approved 7: refused at admission, 0 loads, 0 calls",
+      "group": "physical_per_batch",
+      "test": "attempt_extra_forward_before_model_must_fail",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "after a complete 11-call attempt: caller consumed=0 refused as stale; plain reuse refused (ledger 11 + plan 11 > 11); 0 loads/calls",
+      "group": "durable_quota_ledger",
+      "test": "same_approval_new_outdir_after_complete_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "approval 15: throw at call 4 charges 4 (incl. the failed call); resume of 11 fits (4+11) and completes; third attempt refused (15+11>15)",
+      "group": "durable_quota_ledger",
+      "test": "partial_attempt_charged_and_resume_bounded",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "SIGKILL inside call 5: no receipt, no close, 4 raw rows; ledger holds 5 reservations; next attempt reconciles prior={\"closed\":false,\"ledgered_calls\":5,\"out_dir\":\"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L and is refused",
+      "group": "durable_quota_ledger",
+      "test": "abrupt_stop_missing_receipt_still_charged",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "ledger removed after a complete run (approval 22 would otherwise allow a 2nd run): refused",
+      "group": "durable_quota_ledger",
+      "test": "lost_ledger_fails_closed",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "ledgered attempt dir renamed: next attempt refused (prior spend ambiguous)",
+      "group": "durable_quota_ledger",
+      "test": "missing_ledgered_dir_fails_closed",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "3 reservations deleted from ledger: 11 saved rows > 8 ledgered -> refused",
+      "group": "durable_quota_ledger",
+      "test": "tampered_ledger_fails_closed",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "flock held by another holder: attempt refused before any model object",
+      "group": "durable_quota_ledger",
+      "test": "concurrent_attempt_lock_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "synthetic well-formed GPU admission passes every gate (pins, plan, identity 5f62d083a67a, ledger read-only, 372 token) and stops before torch/model; real GPU ledger untouched",
+      "group": "gpu_admission_pre_model",
+      "test": "well_formed_gpu_admission_reaches_pre_model_gate",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: gpu backend: input blob override refused (frozen roster/manifest/questions only)",
+      "group": "gpu_admission_pre_model",
+      "test": "reviewer_134_122_122_counterexample_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: gpu backend: input blob override refused (frozen roster/manifest/questions only)",
+      "group": "gpu_admission_pre_model",
+      "test": "manifest_blob_override_alone_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: gpu backend: plan override refused (frozen 378 = 128,128,122 only)",
+      "group": "gpu_admission_pre_model",
+      "test": "plan_override_alone_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: gpu backend: quota root is fixed",
+      "group": "gpu_admission_pre_model",
+      "test": "quota_root_override_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: admission batch plan != [128,128,122]",
+      "group": "gpu_admission_pre_model",
+      "test": "admission_plan_mismatch_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: admission frozen_inputs != pinned inputs",
+      "group": "gpu_admission_pre_model",
+      "test": "admission_frozen_inputs_mismatch_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: runner blob != reviewed blob",
+      "group": "gpu_admission_pre_model",
+      "test": "admission_runner_blob_mismatch_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: admission model_identity_sha256 != pinned model identity",
+      "group": "gpu_admission_pre_model",
+      "test": "admission_model_identity_mismatch_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: no explicit user GPU approval",
+      "group": "gpu_admission_pre_model",
+      "test": "admission_without_user_approval_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: gpu backend requires admission mode GPU",
+      "group": "gpu_admission_pre_model",
+      "test": "l1_fake_admission_cannot_authorize_gpu",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "refused before load: batch plan [134, 122, 122] exceeds cap 128",
+      "group": "gpu_admission_pre_model",
+      "test": "fake_backend_plan_above_cap_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "observed == pinned; tampered pin refused for ['ckpt', 'base', 'source']",
+      "group": "gpu_admission_pre_model",
+      "test": "model_identity_verify_unit",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "full gpu-backend run with out outside G2_STAGE_A_GPU_RUNS: rc=1, nothing created",
+      "group": "gpu_admission_pre_model",
+      "test": "full_gpu_run_outside_runs_root_refused",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "attempt rows=1 status=FORWARD_FAILED; physical 4 = reserved 4, successful 3",
+      "group": "fail_closed_storage",
+      "test": "forward_throw_keeps_attempt_receipt",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "raw rows 1..3 kept after call 4 threw",
+      "group": "fail_closed_storage",
+      "test": "post_forward_failure_keeps_raw_lines",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "NaN at call 2 -> INVALID_OUTPUT attempt row (distinct from FORWARD_FAILED), raw rows=[1]",
+      "group": "fail_closed_storage",
+      "test": "nonfinite_shape_error_fail_receipt",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "out=/REDACTED_DATA/intern/jev_l1_outside_probe_G2_STAGE_A_L1V2_RUN2 rc=1 created=False",
+      "group": "fail_closed_storage",
+      "test": "output_realpath_inside_wjc_and_append_only",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "rerun into an existing out dir refused; prior receipt/rows untouched",
+      "group": "fail_closed_storage",
+      "test": "existing_out_dir_never_overwritten",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "runner blob b78da9c0476f in receipt; frozen input/plan pins == review pins",
+      "group": "freezing_and_independence",
+      "test": "source_hash_and_code_blob_pins",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "35 runner receipts: gpu_model_loads=0, CUDA never initialized, network_calls=0; every subprocess CUDA_VISIBLE_DEVICES=''; real GPU ledger/runs roots never created",
+      "group": "freezing_and_independence",
+      "test": "no_model_load_no_gpu_no_network_in_l1",
+      "verdict": "PASS"
+    },
+    {
+      "evidence": "manifest counts recounted by this suite from the blob, not via the runner",
+      "group": "freezing_and_independence",
+      "test": "separate_test_oracle_for_manifest_counts",
+      "verdict": "PASS"
+    }
+  ]
+}

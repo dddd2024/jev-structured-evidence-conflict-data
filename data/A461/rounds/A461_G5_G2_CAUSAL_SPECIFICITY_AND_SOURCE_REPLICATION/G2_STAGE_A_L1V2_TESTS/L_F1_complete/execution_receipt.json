@@ -1,0 +1,75 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "L1_LEDGER_TAMPER_0001",
+    "approved_batch_plan": null,
+    "approved_max_native_forwards": 22,
+    "blind_review_runner_blob": null,
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": null,
+    "explicit_user_gpu_approval": false,
+    "mode": "L1_FAKE",
+    "model_identity_sha256": null,
+    "self_blob": "b78da9c0476f0558cd77fa9771c04d020830dede"
+  },
+  "backend": "fake",
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "batch_receipts": [
+    {
+      "cumulative_physical_after": 11,
+      "physical": 11,
+      "planned": 11,
+      "rows": 11,
+      "run": 1,
+      "status": "COMPLETE"
+    }
+  ],
+  "cuda_initialized": false,
+  "elapsed_seconds": 0.585,
+  "expect_batches": [
+    11
+  ],
+  "expect_total": 11,
+  "fake_model_fault": "none",
+  "fake_model_forward_invocations": 11,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "8013081662cce3e73ba2d6b5b71bb6207eab0496",
+    "manifest_blob": "d35235c4aa48c1e6ab5c9b834d94c696bade7050",
+    "roster_blob": "b5f60d0b84f9720b8360e8180c9687b00ea9067c"
+  },
+  "gpu_model_loads": 0,
+  "ledger_dry_run": {
+    "run1": {
+      "cap": 11,
+      "primary": 9,
+      "replay": 2,
+      "total": 11
+    }
+  },
+  "ledger_reserved_calls": 11,
+  "model_loads": 1,
+  "native_model_forward_calls": 11,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/L_F1_complete",
+  "physical_forwards": 11,
+  "physical_prehook_calls": 11,
+  "quota_ledger": {
+    "attempt_id": "5440874ba6c645f4a6b8a5e8783cc771",
+    "consumed_after": 11,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/_quota/L1_LEDGER_TAMPER_0001/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "rows": 11,
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runner_blob": "b78da9c0476f0558cd77fa9771c04d020830dede",
+  "runs": [
+    1
+  ],
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V3",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0
+}

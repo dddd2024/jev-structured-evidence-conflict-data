@@ -1,0 +1,27 @@
+{
+  "stage": "A461_G5_G2_K4B_KB_LAYER_SCAN_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_G5_G2_K4B_KB_GPU_20261027_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "user_gpu_approval_quote": "批准 A461-G5-G2 kev-4B K-B 层扫描 GPU 运行：runner 954a131b，manifest 8673c64d，346 次物理前向，三批 128/128/90，在 REDACTED_RESEARCH_HOST 上执行。",
+  "user_gpu_approval_utc": "2026-10-27T11:07:35Z",
+  "approved_runner_blob": "954a131b73dbc985d22ad95fe3d1d5d78fa0ee68",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 346,
+  "approved_batches": 3,
+  "approved_batch_plan": [
+    128,
+    128,
+    90
+  ],
+  "frozen_inputs": {
+    "manifest_blob": "8673c64d5a9c405785f9b03e9a4753c3fa1be30f",
+    "design_blob": "71aaf1a5214d9b4837c25b4713d54542f0a2103b",
+    "stage_a_raw_blob": "756e372a8b89eb5200f2baa4520e5f53282e8f09",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8"
+}

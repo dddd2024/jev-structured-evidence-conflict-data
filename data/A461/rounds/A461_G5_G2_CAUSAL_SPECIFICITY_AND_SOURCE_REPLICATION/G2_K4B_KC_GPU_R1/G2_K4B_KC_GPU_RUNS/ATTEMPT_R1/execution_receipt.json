@@ -1,0 +1,122 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "A461_G5_G2_K4B_KC_GPU_20261027_R1",
+    "approved_batch_plan": [
+      128,
+      128,
+      128,
+      33
+    ],
+    "approved_max_native_forwards": 417,
+    "approved_runner_blob": "478bdc1f97d1f3439ab8af28eed09487201c9223",
+    "explicit_user_gpu_approval": true,
+    "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+    "mode": "GPU",
+    "model_identity_sha256": "fdd46a3f5cec791b615f1c0fdd21bfc238543264beb06afe66faa861fb7a75b8",
+    "user_gpu_approval_quote": "还有现在的治理规则上不用每次实验都要向我请求了，只有最后你认为要最终审计的时候再请求",
+    "user_gpu_approval_utc": "2026-10-27T11:12:00Z"
+  },
+  "backend": "gpu",
+  "backprop_calls": 0,
+  "batch_receipts": [
+    {
+      "cumulative_physical_after": 128,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 256,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 384,
+      "physical": 128,
+      "planned": 128,
+      "rows": 128,
+      "run": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "cumulative_physical_after": 417,
+      "physical": 33,
+      "planned": 33,
+      "rows": 33,
+      "run": 4,
+      "status": "COMPLETE"
+    }
+  ],
+  "bitwise_vs_k4b_screen_and_b": "checked",
+  "cuda_initialized": true,
+  "denied_prehook_calls": 0,
+  "durable_appends": {
+    "ledger_events": 419,
+    "raw_rows": 417
+  },
+  "elapsed_seconds": 622.974,
+  "expect_batches": [
+    128,
+    128,
+    128,
+    33
+  ],
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "design_blob": "cd4cd9e5632cfa1b8aa476b94a332e3705af2f0f",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "b07cc4c63c0be2f70515b9db58a69a58c4a2c721",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "stage_a_raw_blob": "756e372a8b89eb5200f2baa4520e5f53282e8f09",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e"
+  },
+  "gpu_model_loads": 1,
+  "kev4b_load": {
+    "cuda_max_memory_allocated_after_load": 17089037312
+  },
+  "ledger_reserved_calls": 417,
+  "model_identity": {
+    "base": {
+      "files": 13,
+      "sha256": "e69084113ebd07896391c2570b5525536adc2e313d25397036f9634b826ccca0"
+    },
+    "ckpt": {
+      "files": 16,
+      "sha256": "787e91e1228a9a61ef0f110f844b19f377589a86c6386909314eef3daf97c665"
+    },
+    "source": {
+      "files": 4,
+      "sha256": "ea4614261286186100858d68d8fa5ef9f81ecba9a4cbf7d0f33535039610db00"
+    }
+  },
+  "model_identity_verified": true,
+  "model_loads": 1,
+  "native_model_forward_calls": 417,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_K4B_KC_GPU_RUNS/ATTEMPT_R1",
+  "physical_forwards": 417,
+  "physical_prehook_calls": 417,
+  "preflight": {
+    "manifest_rows": 417,
+    "scenes": 27,
+    "span_gate": "PASS",
+    "token_gate": "PASS"
+  },
+  "quota_ledger": {
+    "attempt_id": "2984a1d581a440aeb5c55238dfcbaef6",
+    "consumed_after": 417,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_K4B_KC_QUOTA_LEDGER/A461_G5_G2_K4B_KC_GPU_20261027_R1/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_G5_G2_K4B_KC_GPU_R1",
+  "runner_blob": "478bdc1f97d1f3439ab8af28eed09487201c9223",
+  "schema": "JEV_A461_G5_G2_K4B_KC_RECEIPT_V1",
+  "stage_a_runner_v4_blob": "f118ea59120a9cd470ae934f5fc2482501c56bb9",
+  "status": "COMPLETE_A461_G5_G2_K4B_KC"
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "A461_G5_G2_STAGE_D_SCREEN_AND_REPAIR_GPU",
+  "mode": "GPU",
+  "admission_id": "A461_G5_G2_STAGE_D_GPU_20261027_R1",
+  "governance": "JEV_SINGLE_TRIGGER_PAPER_CLAIM_AUDIT_POLICY_V2",
+  "user_gpu_approval_quote": "批准 A461-G5-G2 Stage-D GPU 运行：runner 5ba88abb，manifest be9bcba2，349 次物理前向，四批 71/70/112/96，在 REDACTED_RESEARCH_HOST 上执行。",
+  "user_gpu_approval_utc": "2026-10-27T08:48:42Z",
+  "approved_runner_blob": "5ba88abb5d0c35cf89c0da7fd5d5b569d33553d4",
+  "explicit_user_gpu_approval": true,
+  "approved_max_native_forwards": 349,
+  "approved_batches": 4,
+  "approved_batch_plan": [
+    71,
+    70,
+    112,
+    96
+  ],
+  "frozen_inputs": {
+    "manifest_blob": "be9bcba2fbaeb25b78434b1387846d4522579039",
+    "design_blob": "1351650201c48ba2bff2818b3f891c064fddd53c",
+    "stage_a_raw_blob": "680a78116e8099b19ef11298326587d7d8e76fd0",
+    "stage_b_raw_blob": "801c4a0eb790cf37db3a83018be178dda97bd28e",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56"
+  },
+  "model_identity_sha256": "5f62d083a67aadad2a53be44cfff4b820cdcb2be3ac2d38a7c1a283a0e25d55f"
+}

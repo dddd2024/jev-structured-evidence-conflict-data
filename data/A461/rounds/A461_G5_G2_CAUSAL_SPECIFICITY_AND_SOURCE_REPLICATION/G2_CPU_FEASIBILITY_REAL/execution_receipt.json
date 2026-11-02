@@ -1,0 +1,42 @@
+{
+  "census": {
+    "dev_run_groups_total": 42,
+    "groups_with_unused_scenes": 42,
+    "reuse_rule": "scene-level SHA64 ledger; rounds may share groups but G2 pairs must use scenes never used before",
+    "twins_scenes": 797,
+    "unused_scene_count": 713,
+    "used_by_round": {
+      "A428": 12,
+      "G1_pilot_twins": 32,
+      "G3": 26,
+      "G5_V2": 72
+    },
+    "used_scene_count": 84
+  },
+  "feasibility_summary": {
+    "constructible_groups": 30,
+    "constructible_pairs": 189,
+    "pairs_needed_for_expected_2_new_qualified_donors": 62,
+    "same_width_rate": 0.9524,
+    "sizing_feasible": true
+  },
+  "frozen_inputs": {
+    "a428_inputs_blob": "13adf301dd67c5cc787c72b4b9ace695c52fef4e",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g1_pair_rows_blob": "24526c643434544b9a02587abc2d57e2c13ef627",
+    "g3_pair_rows_blob": "8de45fc200d0e37be676f172d844b3ab2c6c23c7",
+    "g5v2_pair_rows_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e"
+  },
+  "gpu_blocked": true,
+  "gpu_forwards": 0,
+  "model_loads": 0,
+  "network_calls": 0,
+  "next_gate": "G2 design draft requires independent review; GPU requires new admission receipt + fresh user authorization",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_CPU_FEASIBILITY_REAL",
+  "run_id": "A461_G5_G2_CAUSAL_SPECIFICITY_SOURCE_REPLICATION_CPU_FEAS_R1",
+  "schema": "JEV_A461_G5_G2_CPU_FEASIBILITY_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_G2_CPU_FEASIBILITY_PASS",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "verdict": "PASS"
+}

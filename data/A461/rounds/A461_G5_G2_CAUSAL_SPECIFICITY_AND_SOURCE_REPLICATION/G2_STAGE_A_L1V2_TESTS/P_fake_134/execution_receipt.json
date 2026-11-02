@@ -1,0 +1,55 @@
+{
+  "admission_fields_observed": {
+    "admission_id": "L1_FAKE_134_0001",
+    "approved_batch_plan": null,
+    "approved_max_native_forwards": 378,
+    "blind_review_runner_blob": null,
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": null,
+    "explicit_user_gpu_approval": false,
+    "mode": "L1_FAKE",
+    "model_identity_sha256": null,
+    "self_blob": "b78da9c0476f0558cd77fa9771c04d020830dede"
+  },
+  "backend": "fake",
+  "backprop_calls": 0,
+  "batch_receipts": [],
+  "cuda_initialized": false,
+  "error_message": "batch plan [134, 122, 122] exceeds cap 128",
+  "error_type": "RuntimeError",
+  "expect_batches": [
+    134,
+    122,
+    122
+  ],
+  "expect_total": 378,
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "manifest_blob": "db13b904cc8b6118988c57b344590fa00ba1971a",
+    "roster_blob": "1bc84bf56b9dd63a77b20b5cf8d105cdfe9af5e8"
+  },
+  "gpu_model_loads": 0,
+  "ledger_reserved_calls": 0,
+  "model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/P_fake_134",
+  "physical_by_batch_at_failure": {},
+  "physical_prehook_calls": 0,
+  "physical_prehook_count_at_failure": 0,
+  "quota_ledger": {
+    "attempt_id": "68622f5321a04dc08a02b4bd1fc3ecca",
+    "consumed_after": 0,
+    "consumed_before": 0,
+    "path": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_L1V2_RUN2/_quota/L1_FAKE_134_0001/ledger.jsonl",
+    "prior_attempts": {}
+  },
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "runner_blob": "b78da9c0476f0558cd77fa9771c04d020830dede",
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V3",
+  "status": "FAIL_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 418, in main\n    caps = batch_plan(manifest, expect_batches)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 202, in batch_plan\n    ck(all(0 < n <= RUN_CAP for n in expect_batches), f\"batch plan {expect_batches} exceeds cap {RUN_CAP}\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v3.py\", line 69, in ck\n    raise RuntimeError(m)\nRuntimeError: batch plan [134, 122, 122] exceeds cap 128\n"
+}

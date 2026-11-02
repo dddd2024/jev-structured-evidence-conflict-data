@@ -1,0 +1,75 @@
+{
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "batching_plans": {
+    "N124": {
+      "native_forwards": 372,
+      "note": "372 primary + 6 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 6,
+      "runs_of_le_128": 3
+    },
+    "N172": {
+      "native_forwards": 516,
+      "note": "516 primary + 10 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 10,
+      "runs_of_le_128": 5
+    },
+    "N26": {
+      "native_forwards": 78,
+      "note": "78 primary + 2 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 2,
+      "runs_of_le_128": 1
+    },
+    "N62": {
+      "native_forwards": 186,
+      "note": "186 primary + 4 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 4,
+      "runs_of_le_128": 2
+    },
+    "N93": {
+      "native_forwards": 279,
+      "note": "279 primary + 6 replays; each run <= 128 incl. replays; roster slice fixed at admission by seeded order",
+      "replays_total": 6,
+      "runs_of_le_128": 3
+    }
+  },
+  "construction_search": {
+    "combos_encoded": 23329,
+    "scenes_searched": 172,
+    "scenes_with_passing_combo": 172
+  },
+  "frozen_inputs": {
+    "constructible_blob": "b3bd01b21ee0cd8215209b1130a931fef962b22a",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_pair_rows_blob": "66c1f95e58fe537ae808731f1979783f3ee96c4e"
+  },
+  "gate_fail_count": 0,
+  "gate_pass": 172,
+  "gpu_blocked": true,
+  "gpu_forwards": 0,
+  "groups_covered": 26,
+  "model_loads": 0,
+  "network_calls": 0,
+  "next_gate": "Stage-A admission draft -> narrow review -> fresh user authorization; qualification read from raw logits; <2 qualified donors => HOLD",
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/G2_STAGE_A_CPU_FREEZE_REAL",
+  "pairing_summary": {
+    "directed_donor_host_pairs_cross_group": 27148,
+    "distinct_group_pairs": 650,
+    "note": "a Stage-A search needs only N forward-screened scenes; donor/host pairing happens after qualification is known",
+    "width_histogram_scenes_per_width": {
+      "31": 171,
+      "32": 1,
+      "33": 157,
+      "34": 26,
+      "35": 1
+    }
+  },
+  "run_id": "A461_G5_G2_STAGE_A_CPU_FREEZE_R1",
+  "schema": "JEV_A461_G5_G2_STAGE_A_CPU_FREEZE_RECEIPT_V3",
+  "status": "COMPLETE_A461_G5_G2_STAGE_A_CPU_FREEZE",
+  "test_or_calibration_rows": 0,
+  "tier2_same_width_input": 172,
+  "tier3_same_width_exploratory_only": 8,
+  "tokenizer_loads": 1,
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0
+}
