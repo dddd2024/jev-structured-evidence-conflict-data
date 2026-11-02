@@ -2,8 +2,8 @@
   "status": "CURATED_WITH_SANITIZED_FILES_AND_EXCLUSIONS",
   "source_repository": "dddd2024/jev",
   "source_commit": "03302ef7867606d2cec527ec0aa8a5abdd0257ee",
-  "copied_files": 1980,
-  "copied_bytes": 339970063,
+  "copied_files": 1985,
+  "copied_bytes": 340011356,
   "excluded_files": 24,
   "files": [
     {
@@ -8987,6 +8987,18 @@
       "sha256": "4dba9d6b6093b6509bfd7daec85b79e0ee4e841480004fdc79bf3f4381825fc2",
       "bytes": 13424861,
       "artifact_type": "derived_vectors"
+    },
+    {
+      "path": "data/A461/rounds/A461_MECH_CONSOLIDATION_M1_M16_20261031.md",
+      "sha256": "b01c84395faeec33b49330794aac55dc12b52a7b9877280a56b8ceb09644a97b",
+      "bytes": 20145,
+      "artifact_type": "original_mechanism_handoff"
+    },
+    {
+      "path": "data/A461/rounds/A461_MECH_HANDOFF_20261101_ADDENDUM.md",
+      "sha256": "0f22dc8266e9e7d5c14bc12d62f21fa4cc98c5056955022cfaee73c2824357fe",
+      "bytes": 2042,
+      "artifact_type": "original_mechanism_handoff"
     }
   ],
   "excluded": {
@@ -10119,6 +10131,25 @@
       "published_sha256": "8211094adba40a0e58d6ab0d9bf0f02580e5f5f66081355a3002c592587f6343",
       "replacement_count": 1,
       "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_HANDOFF_20261028.md": {
+      "source_sha256": "006d0002a6208c46c52016fc2a43544c09d602cf5ed8c8b780e924e0f21046e4",
+      "published_sha256": "29f4b6c2745aea1f23141e421f0548070c9dae4deb58555f8acc6a500518960e",
+      "replacement_count": 2,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_HANDOFF_20261029.md": {
+      "source_sha256": "b30b18ea46509d8d64580ee6042610979d366ed1a19f0398871b7044f2f4cb41",
+      "published_sha256": "c85d9d4b201d1926253378f9cc4d2271ce9fed02b65ee4ef1a19f2656b9aa00f",
+      "replacement_count": 3,
+      "status": "SANITIZED_MACHINE_REFS"
+    },
+    "data/A461/rounds/A461_MECH_HANDOFF_20261101.md": {
+      "source_sha256": "1544d90c864b0c9396cd5960509b38ae1961e01304d5555c5d36b1621876c410",
+      "published_sha256": "5d4e00f852b22f7f6f92fd9175d7566b788364d76145d2311a6c1c73f1ad129c",
+      "replacement_count": 1,
+      "status": "SANITIZED_MACHINE_REFS"
     }
-  }
+  },
+  "supplemental_source_commit": "8c1fa486579c281bb802960e20b7da9c901c282a"
 }
