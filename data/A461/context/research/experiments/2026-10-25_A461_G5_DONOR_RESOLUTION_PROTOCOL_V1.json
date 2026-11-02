@@ -1,0 +1,57 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "id": "A461_G5_DONOR_RESOLUTION_PROTOCOL_V1",
+  "study_line": "A461 (execution ledger round A468)",
+  "g_minus_1_increment": "research/literature_preflight/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G_MINUS_1_INCREMENT_DECISION.json (committed 36bb959, before this protocol)",
+  "purpose": "Resolve the zero-qualified-positive-donor admission failure (G4 protocol V0) by (a) fixing the accept-cell neutral with the schema-native same-author duplicate vote, (b) searching for appended-conflict scenes the C head DOES recognize, (c) qualifying positive donors for a separately-frozen bidirectional patching stage.",
+  "stage_1_cpu_construction": {
+    "pairs": {
+      "T2_WAIT_TO_REJECT": 20,
+      "T2_ACCEPT_TO_REJECT": 20
+    },
+    "baseline_eligibility": [
+      "twins_streamlet DEV; scene-level non-reuse: exclude by state hash the 26 G3 pair scenes and the 12 A428 scenes",
+      "group reuse is disclosed (all 42 DEV groups previously touched by some round; the unseen-group criterion is exhausted - recorded validity boundary)",
+      "wait cell: C=0, support=quorum-1, fresh validator exists (treatment voter), observed alternative block exists",
+      "accept cell: C=0, support>=quorum, observed alternative block exists",
+      "received nondecreasing; max(received) <= decision_time; seconds/received values pairwise distinct"
+    ],
+    "treatment_edit": "append valid vote for a different observed block by the lowest-index supporter (deterministic); received = max(existing); block chosen by preregistered token-width scan: lowest observed non-candidate block whose token length equals candidate_block (CPU tokenizer scan at construction; fallback lowest block + recorded mismatch)",
+    "sa_neutral_edit": "append a duplicate of an existing candidate vote (same author as an existing candidate supporter - lowest-index supporter -, same candidate block, same round, received = max(existing)); gold provably invariant in BOTH cells; author-valid and in-contract by construction; token match vs treatment verified and recorded (expected by block-width symmetry of the treatment scan)",
+    "arms_per_pair": ["old (corpus state)", "new (conflict treatment)", "SA (duplicate-vote neutral)"]
+  },
+  "stage_2_gpu_donor_search": {
+    "budget": 124,
+    "composition": "40 old + 40 new + 40 SA + 4 precision replays = 124 <= 128",
+    "reads": "conflicting_vote head (primary), certificate_action and quorum heads (secondary), evidence_level (integer-parsed)",
+    "donor_qualification": {
+      "QUALIFIED_POSITIVE_DONOR": "old C=false AND new C=true AND SA C=false (neutral gold-invariance respected by the model)",
+      "PARTIAL": "new C=true with old C=false-alarm (reported separately)",
+      "FAILED": "new C=false (the G3 phenotype)"
+    },
+    "outputs": "donor roster with per-arm conflict-head margins and logits; search is explicitly exploratory (Zhang & Nanda clean-run selection practice)"
+  },
+  "stage_3_patching_separately_frozen": {
+    "status": "NOT_FROZEN_IN_THIS_PROTOCOL",
+    "design_preview": "bidirectional candidate-end key patching at branch-relative C-branch anchors between qualified-donor and failing scenes, both directions, with SA-sham same-location, random-token, and off-target-head (quorum/action) controls; budget frozen only after the donor roster is known and the G0E blind review has ruled",
+    "gate": "requires >=1 QUALIFIED_POSITIVE_DONOR; zero donors => demote per the G-1 falsifier"
+  },
+  "oracles": "same C/Q truth table as A461-G3 (dual independent implementations required)",
+  "stop_conditions": [
+    "STOP_INSUFFICIENT_PAIRS: fewer than 10 eligible pairs in a cell after scene-level exclusions (freeze what exists)",
+    "STOP_GOLD_DISAGREEMENT", "STOP_TOKEN_TRUNCATION",
+    "STOP_ZERO_DONORS: reserved for stage-2 interpretation (demotion path, not a run failure)"
+  ],
+  "hard_resource_bounds": {
+    "construction": "CPU; 1 tokenizer/checkpoint-free phase (token-width scan uses tokenizer.json via CPU encode of short label strings only; no model weights)",
+    "stage_2_budget": 124,
+    "gpu_total_cap": 128,
+    "network": 0, "test_or_calibration_rows": 0
+  },
+  "execution": {
+    "server_dir": "~/wjc/a461-g5-donor-resolution-20261025-v1/{G0D_CONS,G0D_VERIFY,G1S,manifests,receipts,logs}",
+    "archive": "research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/",
+    "authorization": "user standing authorization series 2026-10-25; stage-2 budget frozen here before execution"
+  },
+  "interpretation_boundaries": "donor search is exploratory; patching claims require the separately frozen stage; no deployment/attacker claims; source-local policy labels only"
+}

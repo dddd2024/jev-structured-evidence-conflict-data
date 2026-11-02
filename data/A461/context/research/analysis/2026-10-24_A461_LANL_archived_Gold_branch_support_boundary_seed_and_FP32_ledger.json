@@ -1,0 +1,290 @@
+{
+  "schema": "JEV_A461_LANL_REAL_ARCHIVED_DEV_BOUNDARY_SEED_AND_GROUP_SUPPORT_V1",
+  "audit_local_date": "2026-10-24",
+  "kind": "INDEPENDENT_REANALYSIS_OF_ALREADY_ARCHIVED_REAL_NATIVE_DEV_GOLD_AND_OLD_FP32_PREDICTIONS",
+  "inputs": {
+    "gold": {
+      "path": "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/independent_gold_rows.jsonl",
+      "github_blob_sha1": "af2e68efff36a604b635bdf9402324a6ecf36508"
+    },
+    "model": {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "github_blob_sha1": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b"
+    },
+    "twins": {
+      "path": "research/rounds/A430_QDID_S0_OFFICIAL_DEV_DUPLICATE_SUPPORT_CPU_GATE/G0_REAL_20261024_V2/S0_SOURCE_SUPPORT_RESULT.json",
+      "github_blob_sha1": "7bf5c4ce516a4db375f908591a4bad8f325a9ada"
+    },
+    "goldcode": {
+      "path": "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/cpu_lanl_policy_gold_v2.py",
+      "github_blob_sha1": "fb4c5b88f22d971eab529aab59c874b5c26d2d0f"
+    }
+  },
+  "paper_first_prior_art": [
+    {
+      "title": "SecJev v2",
+      "url": "https://arxiv.org/html/2610.03073v2",
+      "read_depth": "Original methods and policy construction; separate typed causal rows."
+    },
+    {
+      "title": "LGMT: Logic-Grounded Metamorphic Testing for evaluating the reasoning reliability of LLMs",
+      "url": "https://doi.org/10.1016/j.knosys.2026.116324",
+      "read_depth": "Publisher abstract; logical metamorphic testing is prior art."
+    },
+    {
+      "title": "Safety Evaluation for Large Language Models with Metamorphic Testing",
+      "url": "https://doi.org/10.1007/s11390-026-5705-z",
+      "read_depth": "Publisher summary and seven metamorphic relations; general LLM safety consistency testing is prior art."
+    },
+    {
+      "title": "Security Properties of Neural Networks as Decision Problems",
+      "url": "https://arxiv.org/abs/2609.39768",
+      "read_depth": "Original arxiv abstract and introduction; monotonicity is existing formal verification concern, but complexity result for ReLU networks not directly a certificate for hybrid Kev."
+    }
+  ],
+  "lanl_derived": {
+    "scenes": 328,
+    "source_groups": 7,
+    "all_gold_matches": true,
+    "group_breakdown": {
+      "lanl:day:44": {
+        "rows": 1,
+        "investigate": 0,
+        "burst_true": 0,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 0,
+        "five_fail_count": 0,
+        "burst_seed": 0,
+        "spread_seed": 0
+      },
+      "lanl:day:45": {
+        "rows": 1,
+        "investigate": 0,
+        "burst_true": 0,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 0,
+        "five_fail_count": 0,
+        "burst_seed": 0,
+        "spread_seed": 0
+      },
+      "lanl:day:46": {
+        "rows": 10,
+        "investigate": 0,
+        "burst_true": 0,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 0,
+        "five_fail_count": 0,
+        "burst_seed": 0,
+        "spread_seed": 0
+      },
+      "lanl:day:47": {
+        "rows": 42,
+        "investigate": 0,
+        "burst_true": 0,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 0,
+        "five_fail_count": 0,
+        "burst_seed": 0,
+        "spread_seed": 0
+      },
+      "lanl:day:48": {
+        "rows": 76,
+        "investigate": 17,
+        "burst_true": 17,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 11,
+        "five_fail_count": 7,
+        "burst_seed": 11,
+        "spread_seed": 0
+      },
+      "lanl:day:49": {
+        "rows": 102,
+        "investigate": 32,
+        "burst_true": 32,
+        "spread_only": 0,
+        "third_destination": 0,
+        "four_fail_count": 12,
+        "five_fail_count": 5,
+        "burst_seed": 12,
+        "spread_seed": 11
+      },
+      "lanl:day:50": {
+        "rows": 96,
+        "investigate": 28,
+        "burst_true": 25,
+        "spread_only": 3,
+        "third_destination": 13,
+        "four_fail_count": 10,
+        "five_fail_count": 9,
+        "burst_seed": 8,
+        "spread_seed": 11
+      }
+    },
+    "burst_true": 74,
+    "triage_investigate": 77,
+    "spread_only_investigate_count": 3,
+    "spread_only_investigate_source_groups": [
+      "lanl:day:50"
+    ],
+    "spread_only_witnesses": [
+      {
+        "id": "LANL_POLICY_0048",
+        "source_group": "lanl:day:50",
+        "failed_prior": 3,
+        "distinct_dest": 3,
+        "record_sha256": "934fced0a4e4c102bc465574356b82467bbf791be242b53f789cee0813a0e890"
+      },
+      {
+        "id": "LANL_POLICY_0119",
+        "source_group": "lanl:day:50",
+        "failed_prior": 4,
+        "distinct_dest": 3,
+        "record_sha256": "9dbe2f7958f68578d0637fc97edd0249628595ae1e75be996a9db17913a825bb"
+      },
+      {
+        "id": "LANL_POLICY_0307",
+        "source_group": "lanl:day:50",
+        "failed_prior": 4,
+        "distinct_dest": 3,
+        "record_sha256": "6f7081e91e8a94d82950f25618449cfd005ea825768098ea19bfda61ff02539b"
+      }
+    ],
+    "count_distinct_known_failed_destination_at_least3": 13,
+    "count_failed_prior_4": 33,
+    "count_failed_prior_5": 21,
+    "burst_threshold_one_event_necessary_condition_seeds": 31,
+    "burst_threshold_seed_source_groups": [
+      "lanl:day:48",
+      "lanl:day:50",
+      "lanl:day:49"
+    ],
+    "destination_spread_one_event_necessary_condition_seeds": 22,
+    "destination_spread_seed_source_groups": [
+      "lanl:day:50",
+      "lanl:day:49"
+    ],
+    "burst_seed_group_totals": {
+      "lanl:day:50": 8,
+      "lanl:day:49": 12,
+      "lanl:day:48": 11
+    },
+    "spread_seed_group_totals": {
+      "lanl:day:50": 11,
+      "lanl:day:49": 11
+    },
+    "scene_exposure_HHI": 0.25340199286139203,
+    "inverse_group_exposure_HHI": 3.9462988775585064,
+    "WARNING": "31 and 22 are necessary-condition original-state seeds. They are NOT validated counterfactual pairs, not model behavior, not independent source groups, and do not certify provenance, timestamps, state edit admissibility or token parity."
+  },
+  "old_native_model_reanalysis": {
+    "model_runs_new_this_turn": 0,
+    "per_family": {
+      "twins_streamlet": {
+        "rows": 12,
+        "source_groups": 12,
+        "action_accuracy_n": 8,
+        "action_error_n": 4,
+        "action_errors": [
+          {
+            "id": "A428_008",
+            "source_group": "twins_streamlet:run-237",
+            "gold": "reject_conflict",
+            "prediction": "wait",
+            "predicate_gold": true,
+            "predicate_prediction": false,
+            "predicate_consistent_with_gold": false
+          },
+          {
+            "id": "A428_009",
+            "source_group": "twins_streamlet:run-125",
+            "gold": "reject_conflict",
+            "prediction": "wait",
+            "predicate_gold": true,
+            "predicate_prediction": false,
+            "predicate_consistent_with_gold": false
+          },
+          {
+            "id": "A428_010",
+            "source_group": "twins_streamlet:run-167",
+            "gold": "reject_conflict",
+            "prediction": "accept",
+            "predicate_gold": true,
+            "predicate_prediction": false,
+            "predicate_consistent_with_gold": false
+          },
+          {
+            "id": "A428_011",
+            "source_group": "twins_streamlet:run-100",
+            "gold": "reject_conflict",
+            "prediction": "accept",
+            "predicate_gold": true,
+            "predicate_prediction": false,
+            "predicate_consistent_with_gold": false
+          }
+        ]
+      },
+      "lanl_auth_policy": {
+        "rows": 12,
+        "source_groups": 7,
+        "action_accuracy_n": 11,
+        "action_error_n": 1,
+        "action_errors": [
+          {
+            "id": "A428_021",
+            "source_group": "lanl:day:48",
+            "gold": "record_failed_attempt",
+            "prediction": "investigate",
+            "predicate_gold": false,
+            "predicate_prediction": false,
+            "predicate_consistent_with_gold": true
+          }
+        ]
+      }
+    },
+    "warning": "24 old FP32 responses total, already selected/read in prior experiments; not a new independent heldout confirmation. LANL overinvestigate vs Twins underreject are different endpoints and do not prove shared monotonicity failures."
+  },
+  "twins_dev_existing_negative": {
+    "scenes": 797,
+    "groups": 42,
+    "candidate_only_repeated_author_count": 0,
+    "cross_block_conflict_original_count": 230,
+    "semantic_note": "A430 repeated_author counts duplicate candidate-block vote events; reject_conflict can be triggered by the same author voting a different block. 0 candidate-duplicate does not contradict 230 cross-block conflicts."
+  },
+  "source_semantic_monotonicity": {
+    "burst_seed": "4 visible prior failed LogOns, 1 or 2 known failed destination computers, current Gold noninvestigate, zero older/unknown uncertainty. Add ONE valid in-window prior failure to an existing known destination to reach >=5 while keeping known destinations <=2.",
+    "spread_seed": "2 distinct known failed destination computers, at most 3 visible prior failures, current Gold noninvestigate, zero older/unknown uncertainty. Add ONE valid in-window failure for a third known destination to reach 3 while keeping total failed prior events <=4.",
+    "all_require": "The edit must be source-native, time-valid, chronologically consistent, preserve current event/policy/candidate menu and authenticate fact provenance as policy requires; each arm's independent source-local Oracle must be recalculated. Candidate row metadata alone is not enough."
+  },
+  "decision": {
+    "experiment_name": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+    "experiment_status": "DESIGNED_NOT_EXECUTED",
+    "new_insight": "One natural spread-only positive source group. We can select 31/22 original candidate seeds from existing metadata, but no clean counterfactual actual records or model pairs have been validated.",
+    "candidate_admission": "PARTIAL_SOURCE_LOCAL_BOUNDARY_SUPPORT_READONLY_ONLY",
+    "formal_prior_art": "HOLD_PRIOR_ART_INCOMPLETE",
+    "next_cpu_check": "Use original native DEV record to validate event time and destination insertion; freeze two branch types, SHA and independent Gold, place source-group limits and nonsecurity negative controls before approved G0. Test/CAL untouched.",
+    "stop_if": [
+      "NO_NATIVE_EDIT_VALID_AFTER_TIME_SOURCE_CONTRACT",
+      "NO_CROSS_GROUP_SUPPORT_FOR_DESTINATION_BRANCH",
+      "ONLY_REUSED_DEV_CANDIDATE_WITHOUT_INDEPENDENT_VALIDATION",
+      "NO_STRICT_MODEL_POLICY_ACTION_ERROR_ON_ADMISSIBLE_PAIRS",
+      "NO_NEW_NOVELTY_DELTA_AFTER_METAMORPHIC_PRIOR_ART"
+    ],
+    "gpu_permission": false
+  },
+  "resources": {
+    "new_original_corpus_rows_read": 0,
+    "already_archived_derived_gold_rows_reexamined": 328,
+    "old_fp32_rows_reexamined": 24,
+    "model_forwards": 0,
+    "GPU_forwards": 0,
+    "training": 0,
+    "CAL_TEST_reads": 0,
+    "remote_server_login": false,
+    "GPT_Library_updated": false
+  }
+}

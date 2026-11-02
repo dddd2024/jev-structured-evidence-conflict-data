@@ -1,0 +1,175 @@
+{
+  "schema": "JEV_A461_T2_Q_TRUE_G3_PROSPECTIVE_NEUTRAL_CTRL_SHADOW_V1",
+  "date": "2026-10-25",
+  "source": {
+    "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+    "git_blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627"
+  },
+  "status": "ONLY_CPU_RULE_SIMULATION_NO_OFFICIAL_G0_ADMISSION_NO_GPU",
+  "experiment_axis": "TWINS_T2_CONFLICT_AXIS / (C0,Q1) -> (C1,Q1)",
+  "original_execution": "The two critical T2 scenes run-100/run-125 lack actually forwarded N1/N1B controls in 103-real-G1; this document proposes future controls, cannot rewrite original G1.",
+  "algorithm": "From each new G0 state remove the appended event described by declared_edit.message. Keep original old state untouched, create one appended event by changing EXACTLY ONE of treatment fields round/kind/author to a value already observed in the same old source state. Apply a source-local rule C/Q/action independently to each provisional state.",
+  "original_rule_gold_and_one_field_candidates": [
+    {
+      "source_group": "twins_streamlet:run-100",
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+      "original_Gold": {
+        "C": false,
+        "Q": true,
+        "certificate_action": "accept"
+      },
+      "treatment_Gold": {
+        "C": true,
+        "Q": true,
+        "certificate_action": "reject_conflict"
+      },
+      "candidate_round": 3,
+      "observed_other_rounds": [
+        4
+      ],
+      "observed_nonvote_kinds": [
+        "proposal"
+      ],
+      "same_policy_Gold_single_field_candidate_count": 2,
+      "Gold_only_candidates": [
+        {
+          "only_changed_field": "round",
+          "value": 4,
+          "event": {
+            "author": "v0",
+            "block": "b7",
+            "kind": "vote",
+            "received": 32,
+            "round": 4
+          },
+          "source_policy_gold": {
+            "C": false,
+            "Q": true,
+            "certificate_action": "accept"
+          },
+          "required_author_in_old_validator_set": true,
+          "event_time_before_or_at_decision": true,
+          "value_already_observed_in_same_original_state": true,
+          "duplicate_same_author_kind_block_round": true,
+          "stage": "RULE_GOLD_ONLY_SOURCE_NATIVE_TOKEN_NOT_EVALUATED"
+        },
+        {
+          "only_changed_field": "kind",
+          "value": "proposal",
+          "event": {
+            "author": "v0",
+            "block": "b7",
+            "kind": "proposal",
+            "received": 32,
+            "round": 3
+          },
+          "source_policy_gold": {
+            "C": false,
+            "Q": true,
+            "certificate_action": "accept"
+          },
+          "required_author_in_old_validator_set": true,
+          "event_time_before_or_at_decision": true,
+          "value_already_observed_in_same_original_state": true,
+          "duplicate_same_author_kind_block_round": false,
+          "stage": "RULE_GOLD_ONLY_SOURCE_NATIVE_TOKEN_NOT_EVALUATED"
+        }
+      ],
+      "readback_guards": {
+        "old_Gold_accept": true,
+        "treatment_Gold_reject": true
+      }
+    },
+    {
+      "source_group": "twins_streamlet:run-125",
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+      "original_Gold": {
+        "C": false,
+        "Q": true,
+        "certificate_action": "accept"
+      },
+      "treatment_Gold": {
+        "C": true,
+        "Q": true,
+        "certificate_action": "reject_conflict"
+      },
+      "candidate_round": 8,
+      "observed_other_rounds": [],
+      "observed_nonvote_kinds": [
+        "proposal"
+      ],
+      "same_policy_Gold_single_field_candidate_count": 2,
+      "Gold_only_candidates": [
+        {
+          "only_changed_field": "kind",
+          "value": "proposal",
+          "event": {
+            "author": "v1",
+            "block": "b6",
+            "kind": "proposal",
+            "received": 72,
+            "round": 8
+          },
+          "source_policy_gold": {
+            "C": false,
+            "Q": true,
+            "certificate_action": "accept"
+          },
+          "required_author_in_old_validator_set": true,
+          "event_time_before_or_at_decision": true,
+          "value_already_observed_in_same_original_state": true,
+          "duplicate_same_author_kind_block_round": false,
+          "stage": "RULE_GOLD_ONLY_SOURCE_NATIVE_TOKEN_NOT_EVALUATED"
+        },
+        {
+          "only_changed_field": "author",
+          "value": "v0",
+          "event": {
+            "author": "v0",
+            "block": "b6",
+            "kind": "vote",
+            "received": 72,
+            "round": 8
+          },
+          "source_policy_gold": {
+            "C": false,
+            "Q": true,
+            "certificate_action": "accept"
+          },
+          "required_author_in_old_validator_set": true,
+          "event_time_before_or_at_decision": true,
+          "value_already_observed_in_same_original_state": true,
+          "duplicate_same_author_kind_block_round": true,
+          "stage": "RULE_GOLD_ONLY_SOURCE_NATIVE_TOKEN_NOT_EVALUATED"
+        }
+      ],
+      "readback_guards": {
+        "old_Gold_accept": true,
+        "treatment_Gold_reject": true
+      }
+    }
+  ],
+  "checks": {
+    "two_cases": true,
+    "run100_other_round": true,
+    "run125_no_other_round": true,
+    "proposal_in_both": true,
+    "run125_author_v0_is_duplicate": true,
+    "run100_round4_duplicate": true,
+    "allGold": true
+  },
+  "full_gate_requirements": [
+    "Source-native event semantics, especially proposal-after-votes and duplicate author-block-round, must be checked, not assumed from mere field membership.",
+    "Gold two independent oracles from pinned genuine original source record, not just this one policy implementation.",
+    "Native tokenizer on exact frozen SecJev question rows: equal state token count and source menu order/position plus re-render SHA.",
+    "State-author/write permissions and chronological received-order validation.",
+    "Predeclare eligibility independently of future model logits. No G1 reinterpretation or new GPU without separate approval."
+  ],
+  "decision": "RUN100_ROUND4_PROVISIONAL_AND_PROPOSAL_PROVISIONAL; RUN125_NO_OBSERVED_ALT_ROUND_PROPOSAL_PROVISIONAL; NOT_TOKEN_ADMITTED",
+  "resources": {
+    "new_GPU": 0,
+    "new_model_forwards": 0,
+    "original_corpus_new_reads": 0,
+    "archived_g0_old_source_scenes_reconstructed": 2
+  }
+}

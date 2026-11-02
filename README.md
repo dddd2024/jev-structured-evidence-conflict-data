@@ -8,6 +8,10 @@ Research-data mirror for the A461 experiments on the typed model scorers **kev-4
 - [`data/A461/M23/`](data/A461/M23/) — the earlier M23 first release, retained for link stability.
 - [`MIGRATION_MANIFEST.json`](MIGRATION_MANIFEST.json) — original paths, full SHA-256 checksums, complete exclusions, and original source commit.
 - [`EXCLUSIONS.md`](EXCLUSIONS.md) — why some files are withheld.
+- [`data/A461/context/research/experiments/`](data/A461/context/research/experiments/) — **14 original A461 experiment protocols, runbooks, and design drafts**.
+- [`data/A461/context/research/analysis/`](data/A461/context/research/analysis/) — 98 associated independent research analyses, source audit scripts and receipts.
+- [`data/A461/context/research/literature/`](data/A461/context/research/literature/) and [`data/A461/context/research/literature_preflight/`](data/A461/context/research/literature_preflight/) — literature and preregistration gate materials; plus two governance records under `data/A461/context/research_governance/`.
+- [`CONTEXT_MANIFEST.json`](CONTEXT_MANIFEST.json) — SHA-256 provenance list for these 127 additional exact-copy research files.
 
 **Dataset status:** 1,977 of 2,004 source files published (313,118,145 bytes): 1,794 exact original-byte copies and 183 machine-identifier-redacted copies. The 27 remaining documents and binary files are individually listed as withheld, pending redistribution review. This is **not a complete unredacted publication**; the private repository and server originals remain unchanged.
 

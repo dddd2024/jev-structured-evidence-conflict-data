@@ -1,0 +1,180 @@
+{
+  "schema": "JEV_A461_G1_REPORTED_103_VS_RETRIEVABLE_EVIDENCE_AND_A428_BASELINE_OVERLAP_V1",
+  "date_local": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "time_utc_scope": "up to GitHub commit 4d939191ebb61a8310ea5fd144f98c6ee977daa5",
+  "source_files": [
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627",
+      "rows": 65
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0A_REAL_20261023/frozen_model_inputs.jsonl",
+      "blob_sha1": "13adf301dd67c5cc787c72b4b9ace695c52fef4e",
+      "rows": 24
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "blob_sha1": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b",
+      "rows": 24
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0B_REAL_20261023/native_token_manifest.json",
+      "blob_sha1": "d36a2012a34feabdaa883abc5b5bbffb555f0c31"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_g1_replay_verify_v1.py",
+      "blob_sha1": "07087180f9710f777dec0966754d17452e64458f",
+      "commit": "4d939191ebb61a8310ea5fd144f98c6ee977daa5"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_g1_paired_pilot_fp32_v1.py",
+      "blob_sha1": "92974bd102f3a16e93471f483a656f37ef6bae54"
+    }
+  ],
+  "G1_execution_claim": {
+    "source": "GitHub commit message and G1 replay_verify_v1.py source docstring; agent on another execution environment",
+    "claimed_physical_forwards": 103,
+    "claimed_persisted_raw": true,
+    "claimed_replay_same_primary": 4,
+    "earlier_G1_original_receipt": "FAIL due to replay-vs-replay postloop bookkeeping",
+    "current_repository_uploaded_new_file": "A461_psmi_g1_replay_verify_v1.py",
+    "independently_read_raw_G1_rows": 0,
+    "independently_read_corrected_receipt": false,
+    "independently_read_pre_forward_token_gate_receipt": false,
+    "independently_read_replay_receipt": false,
+    "independently_read_G1_full_sha256_manifest": false,
+    "status": "EXECUTOR_REPORT_NOT_INDEPENDENTLY_VERIFIED_EXECUTED_MODEL_OUTCOMES",
+    "caveat": "It is appropriate to credit a reported GPU execution attempt, but not to assert 103 measured logits accuracy, confirmed forward count or mechanism discovery without raw artifact readback."
+  },
+  "replay_verifier_code_audit": {
+    "corrective_logic": "Compares replay sample to primary plan_row, not to another replay as old buggy G1 V1 did. Uses identical float arrays and token_ids_sha256.",
+    "requires_total_rows": 103,
+    "requires_replay_rows": 4,
+    "remaining_missing_explicit_assertions": [
+      "all forward_index strictly unique and 1..103 in chronological order",
+      "exact role composition matches original frozen plan and user-approved budget",
+      "four replay rows reference four DISTINCT old baseline IDs",
+      "each replay's branch question IDs, key order and number of logits equal primary (zip alone silently truncates length mismatches)",
+      "pre-forward gate token rows/plan sha joined for each raw record, not just gate['status']==PASS",
+      "original V1 FAIL receipt and SHA immutable; corrected V2 does not overwrite its provenance",
+      "source G0 Gold and actual original pair_key corresponding to primary role audited in outcome analysis",
+      "primary GPU execution or V2 verifier actual run is archived with sha256 readback"
+    ],
+    "conclusion": "Verifier can correct a genuine false FAIL post hoc using persisted records, but code existence alone is not execution verification; it still needs full source-to-record checks before independent scientific confidence."
+  },
+  "exact_state_cross_experiment": {
+    "comparison": "Remove the declared inserted state event from each G0 treatment input; compare canonical full JSON old state byte-equivalent (keys sorted) against each of 24 prior A428 original states.",
+    "G0_main_treatment_axes": 31,
+    "G0_distinct_original_states": 30,
+    "A428_prior_original_states": 24,
+    "exact_state_overlap_count": 1,
+    "exact_original_state_overlap": [
+      {
+        "A461_pair_key": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15",
+        "source_group": "lanl:day:50",
+        "A428_id": "A428_023",
+        "prior_Gold": {
+          "failure_burst": false,
+          "triage": "record_failed_attempt"
+        },
+        "prior_prediction": {
+          "failure_burst": false,
+          "triage": "record_failed_attempt"
+        },
+        "A428_action_margin": 1.5392920970916748,
+        "A428_burst_margin": 4.6229389905929565,
+        "prior_token_ids_SHA256": "e4eba881620aadb294c9ea2da0d0c489fa611ea0185333e787541d076f7dffaf",
+        "prior_request_SHA256": "f33fee14f9e1900ac78e6fc7ad1e61253aa61aee2b15ab1f49175481754e6952"
+      }
+    ],
+    "important": "The 30 G0 different old states correspond to 31 axis branches. Exactly one baseline was already subjected to A428 old FP32 pilot; baseline overlap is NOT the same thing as group overlap."
+  },
+  "source_group_cross_experiment": {
+    "G0_main_axes": 31,
+    "G0_distinct_source_groups": 11,
+    "A428_distinct_source_groups": 19,
+    "overlapping_source_groups": 5,
+    "G0_main_axes_in_previously_seen_groups": 18,
+    "overlap_groups": [
+      "lanl:day:48",
+      "lanl:day:49",
+      "lanl:day:50",
+      "twins_streamlet:run-100",
+      "twins_streamlet:run-125"
+    ],
+    "by_axis": {
+      "LANL_L1_B_THRESHOLD": {
+        "axes": 9,
+        "prior_group_overlap": 9,
+        "new_group_count": 3,
+        "overlap_group_count": 3
+      },
+      "LANL_L3A_RISK_NONREGRESSION": {
+        "axes": 6,
+        "prior_group_overlap": 6,
+        "new_group_count": 3,
+        "overlap_group_count": 3
+      },
+      "TWINS_T1_QUORUM_AXIS": {
+        "axes": 6,
+        "prior_group_overlap": 0,
+        "new_group_count": 6,
+        "overlap_group_count": 0
+      },
+      "TWINS_T2_CONFLICT_AXIS": {
+        "axes": 6,
+        "prior_group_overlap": 2,
+        "new_group_count": 6,
+        "overlap_group_count": 2
+      },
+      "TWINS_T3_CONFLICT_STABILITY": {
+        "axes": 4,
+        "prior_group_overlap": 1,
+        "new_group_count": 4,
+        "overlap_group_count": 1
+      }
+    },
+    "two_critical_veto_after_quorum": {
+      "groups": [
+        "twins_streamlet:run-100",
+        "twins_streamlet:run-125"
+      ],
+      "exact_A428_state_overlap": false,
+      "prior_A428_group_exposure": true,
+      "same_native_token_count_neutral_available": false,
+      "G1_original_selection_N1_keep_has_corresponding_neutral_for_these": false,
+      "source_action_relation": "C0Q1->C1Q1, accept -> reject_conflict",
+      "valid_inference_limit": "Both are genuine new old states but re-use prior-pilot run groups; exploratory edge coverage, not source-group independent replication."
+    }
+  },
+  "pipeline_gap": {
+    "G1_plan_persisted_vs_reported": "G1 script 'n1_keep=n1_all[:17]' selects 15 LANL and 2 T1, not T2 critical pairs, even if 103 GPU forwards ran.",
+    "corrected_pre_execution_alternative": "Previously frozen 103 plan with N1 for 15 LANL + 2 T2 was only proposed, not executed. Must NOT retroactively label executor's original 103 as corrected plan.",
+    "physical_budget_claim": "103/103 reported; no original raw logits SHA verified",
+    "Gold_equals_native_model_measurement": false,
+    "strict_2x2_dominance_mechanism_confirmed": false
+  },
+  "scientific_decision": {
+    "G0": "REAL_CPU_DUAL_VERIFIER_PASS_WITH_KNOWN_ACCOUNTING_ERRATA",
+    "G1": "GPU_EXECUTED_REPORTED_BY_AGENT; RAW_AND_CORRECTED_RECEIPTS_NOT_GITHUB_VERIFIED",
+    "study_status": "EXPLORATORY_G1_SOURCE_GROUP_NONINDEPENDENT",
+    "next": "Obtain exact 103 native logits, preforward receipt, old FAIL and corrected receipts, per-file sha256 and readback. Freeze execution plan and analysis strata, compute typed Gold/behavior by source group and C/Q edge. Only after that decide whether to admit novel bidirectional whitebox causality experiment."
+  },
+  "handoff": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "request_comment_id": 6393972086,
+    "parallel_agent_executor_owns_GPU": true
+  },
+  "session_resources": {
+    "new_model_forwards": 0,
+    "new_GPU_forwards": 0,
+    "new_original_DEV_corpus_scan": 0,
+    "previously_archived_G0_source_rows_read": 65,
+    "previously_archived_A428_source_rows_read": 24,
+    "server_access": false,
+    "available_desktop_commander_device_status": "OFFLINE",
+    "library_backup_verification": false
+  }
+}

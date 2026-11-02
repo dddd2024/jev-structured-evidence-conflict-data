@@ -1,0 +1,61 @@
+{
+  "schema": "JEV_A461_REAL_LOGIT_SPECIFICITY_AND_G3_V1_PREEXEC_QA_GITHUB_READBACK_V1",
+  "date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "files": [
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.json",
+      "git_blob_sha1": "7bed6f005ba0ae6dc23636a6d53ea7b5937e3e05",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.md",
+      "git_blob_sha1": "32d83f3d443e0ecf46355a93a55a997c11d0254e",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G3_T2_quorum_satisfied_control_source_gold_shadow.json",
+      "git_blob_sha1": "1799dcd916c70c27202e550f5788e58d665626c5",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G3_V1_forward_protocol_shadow_chronology_and_Q1_matching_gate.json",
+      "git_blob_sha1": "bea9184a77069acb7e79f6f0f0717631e676002c",
+      "readback": true
+    }
+  ],
+  "G1": {
+    "n_model_103_archive_real": true,
+    "g0_31_pair_status": true,
+    "LANL_L1_action_specificity_positive": 9,
+    "LANL_L1_matched_n": 9,
+    "T1_action_specificity_positive": 6,
+    "T1_matched_n": 6,
+    "T2_action_specificity_positive": 1,
+    "T2_matched_n": 4,
+    "T2_C_score_old_to_gold_invariant_N1B_positive": 4,
+    "T2_true_vs_neutral_C_positive": 1,
+    "T2_true_vs_neutral_C_negative": 3
+  },
+  "G3": {
+    "protocol_sha": "dd98f2d8ee06a4809dd4df12ab9fb3cf7292e65b",
+    "status": "V1_FROZEN_PREEXEC_STATIC_QA_REQUIRES_V2_RECONCILIATION",
+    "old_G0_Twins_chronology_sorted": 16,
+    "reverse_full_list_invalid_chronology": 15,
+    "Q1_per_cell_matched_control_admission_needed": true,
+    "treatment_time_shift_not_old_Gold_neutral": true,
+    "duplicate_vote_source_validation_needed": true,
+    "new_GPU_run_by_this_agent": false
+  },
+  "coordination": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "three_arm_comment_id": 6394397983,
+    "G3_control_warning_comment_id": 6394421442
+  },
+  "boundaries": [
+    "GitHub files SHA verified, but server and Library backups not verified in this independent session.",
+    "Gold-only single-field candidates are not native-token-count-matched or full source contract admitted.",
+    "G3 standing authorization claim sourced from parallel agent; not independently verified in this chat.",
+    "No causal neural mechanism established."
+  ]
+}

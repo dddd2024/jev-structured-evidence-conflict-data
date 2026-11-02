@@ -1,0 +1,74 @@
+{
+  "schema": "JEV_A461_NEW_EXECUTOR_CODE_INDEPENDENT_QA_GITHUB_READBACK_V1",
+  "local_date": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "parallel_executor_sha": "495dde06e7457a6c9f25ccf6fadbc8576a73d7d2",
+  "analysis_artifacts": [
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.json",
+      "blob_sha1": "7d84a27bb61363d9657fb858d7af58b13dc04a6f",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.md",
+      "blob_sha1": "badd1dbae94f85d72f90b4f626c9f28a559635d8",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_post_commit_495dde0_static_code_admission_audit.json",
+      "blob_sha1": "def7a6e70796bc12f404b7bb8c5af1a4841696cb",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_runbook_runner_contract_and_N2_order_counterexample.json",
+      "blob_sha1": "b2a787a62e99c077b288c0a158c6d6e32e4c13ca",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_post_495dde0_G0_static_code_and_runbook_audit.md",
+      "blob_sha1": "73cdb3a29048be3d49246e78fa54cf7d291398ff",
+      "readback": true
+    }
+  ],
+  "issue_feedback": [
+    {
+      "id": 6393430806,
+      "context": "pre-code forward and stats budget"
+    },
+    {
+      "id": 6393452464,
+      "context": "new code CPU-load/token-match/physical-forward issues"
+    },
+    {
+      "id": 6393468274,
+      "context": "runbook dir/CLI and N2 chronology counterexample"
+    }
+  ],
+  "verified": {
+    "parallel_code_exists": true,
+    "parallel_code_has_cpu_full_checkpoint_load": true,
+    "protocol_allows_model_loads": 0,
+    "current_runner_max_changed_arms": 65,
+    "extra_old_baseline_max": 31,
+    "physical_plan_max_before_replay": 96,
+    "pilot_condition_budget": 128,
+    "old_FP32_T3_clean": 1,
+    "old_FP32_T3_eligible": 4,
+    "runbook_output_dir_mismatch_verified": true,
+    "runbook_missing_repo_root_verified": true,
+    "N1_treatment_neutral_token_count_equality_asserted_in_code": false,
+    "verifier_skip_render_can_full_PASS": true,
+    "N2_age_order_synthetic_counterexample": true,
+    "executed_new_G0_from_GitHub_receipt_verified": false,
+    "GPU_authorized": false
+  },
+  "resources": {
+    "new_original_corpus_reads": 0,
+    "server_ssh_sessions": 0,
+    "new_model_CPU_loads": 0,
+    "new_model_gpu_loads": 0,
+    "model_forward": 0,
+    "new_training": 0,
+    "GPT_Library_sync_verified": false
+  }
+}

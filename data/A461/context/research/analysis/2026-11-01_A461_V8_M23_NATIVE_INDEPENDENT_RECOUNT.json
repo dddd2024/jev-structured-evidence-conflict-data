@@ -1,0 +1,69 @@
+{
+  "github_commit": "937fdd4c5e22f231f3d4acf05eb41b80c784c7cb",
+  "type": "independent CPU raw-logit recount; not model replication",
+  "models": {
+    "k": {
+      "raw_sha256": "57c7a84d0ed8cce5ae010af65b2974061ebf21718ba5fe78e60703c6165f9b93",
+      "rows": 248,
+      "new_rows": 124,
+      "twin_rows": 124,
+      "groups": 17,
+      "new_prediction": {
+        "reject_conflict": 40,
+        "accept": 83,
+        "wait": 1
+      },
+      "twin_prediction": {
+        "reject_conflict": 45,
+        "accept": 72,
+        "wait": 7
+      },
+      "twin_gold_prediction": {
+        "accept->accept": 69,
+        "accept->reject_conflict": 33,
+        "wait->accept": 3,
+        "wait->reject_conflict": 12,
+        "wait->wait": 7
+      },
+      "new_rejected": 40,
+      "twin_false_veto": 45,
+      "twin_false_veto_groups": 14,
+      "twin_rejected_given_new_rejected": 37,
+      "margin_mismatch": 0,
+      "committed_v8_counts_match": true
+    },
+    "s": {
+      "raw_sha256": "5110c8f42b1360c5f37b58736348e642fe810ebe0eff9968a08afff2a1794285",
+      "rows": 248,
+      "new_rows": 124,
+      "twin_rows": 124,
+      "groups": 17,
+      "new_prediction": {
+        "reject_conflict": 14,
+        "wait": 41,
+        "accept": 69
+      },
+      "twin_prediction": {
+        "reject_conflict": 15,
+        "accept": 56,
+        "wait": 53
+      },
+      "twin_gold_prediction": {
+        "accept->accept": 55,
+        "accept->reject_conflict": 14,
+        "accept->wait": 33,
+        "wait->accept": 1,
+        "wait->reject_conflict": 1,
+        "wait->wait": 20
+      },
+      "new_rejected": 14,
+      "twin_false_veto": 15,
+      "twin_false_veto_groups": 9,
+      "twin_rejected_given_new_rejected": 14,
+      "margin_mismatch": 0,
+      "committed_v8_counts_match": true
+    }
+  },
+  "same_124_scenes_between_models": true,
+  "status": "PASS"
+}

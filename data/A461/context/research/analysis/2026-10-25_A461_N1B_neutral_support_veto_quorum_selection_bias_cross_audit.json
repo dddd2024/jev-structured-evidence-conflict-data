@@ -1,0 +1,281 @@
+{
+  "schema": "JEV_A461_N1B_CONTROL_SUPPORT_AND_SELECTION_BIAS_CROSS_AUDIT_V1",
+  "local_date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "scope": "Previously archived real A428 old native states, source-local deterministic one-path simulations, no original G0 execution and no token encoder or model/GPU work.",
+  "frozen_sources": {
+    "old": {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0A_REAL_20261023/frozen_model_inputs.jsonl",
+      "sha1": "13adf301dd67c5cc787c72b4b9ace695c52fef4e"
+    },
+    "old_gold": {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "sha1": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b"
+    },
+    "n1b": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_n1b_matched_controls_v1.py",
+      "sha1": "b805221c12d35dd1dbfd1540fa2efd3a15ccc84d"
+    },
+    "verifier": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py",
+      "sha1": "e4f84c0f295daf819c79e68a9b0a23499410f195"
+    },
+    "manifest": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_physical_forward_manifest_v1.py",
+      "sha1": "c3dcc1949bdb2e8902689dafbba0ad4e78b33256"
+    }
+  },
+  "parallel_version_history": [
+    {
+      "commit": "a06d71ef719edb7088b047ad5c67a925c3484570",
+      "what": "N1B first constructor"
+    },
+    {
+      "commit": "0f800284cb51aabefb5866bd39dff5c0b6ff5a146",
+      "what": "skip LANL before Twins source-state lookup"
+    },
+    {
+      "commit": "6ffe6809f760e1cbd9a2813298fd5ab3293d5521",
+      "what": "skip T2 no fresh validator per pair and add T1/T3 unobserved adjacent-round fallback"
+    }
+  ],
+  "old_archived_source_scene_count": 8,
+  "old_archived_source_axis_instantiations": 9,
+  "initial_N1B_candidate_count": 5,
+  "initial_N1B_candidate_absent_count": 4,
+  "T2_old_accept_to_reject_source_axis_count": 3,
+  "T2_old_accept_to_reject_ids": [
+    "A428_004",
+    "A428_005",
+    "A428_006"
+  ],
+  "T2_current_N1B_selection_excludes_all_three_in_old_census": true,
+  "T3_unobserved_round_fallback_old_id": "A428_009",
+  "by_axis": {
+    "T1": {
+      "qualified": 1,
+      "original_n1b_has_candidate": 1,
+      "alternatives_preserve_gold": 1
+    },
+    "T2": {
+      "qualified": 4,
+      "original_n1b_has_candidate": 1,
+      "alternatives_preserve_gold": 4
+    },
+    "T3": {
+      "qualified": 4,
+      "original_n1b_has_candidate": 3,
+      "alternatives_preserve_gold": 4
+    }
+  },
+  "case_results": [
+    {
+      "id": "A428_001",
+      "group": "twins_streamlet:run-336",
+      "axis": "T1",
+      "old_gold": "wait",
+      "archived_gold": "wait",
+      "treatment_gold": "accept",
+      "alternative_neutral_gold": "wait",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": true,
+      "main_alternative_changed_field": "block",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 2,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_001",
+      "group": "twins_streamlet:run-336",
+      "axis": "T2",
+      "old_gold": "wait",
+      "archived_gold": "wait",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "wait",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": true,
+      "main_alternative_changed_field": "round",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 2,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_004",
+      "group": "twins_streamlet:run-220",
+      "axis": "T2",
+      "old_gold": "accept",
+      "archived_gold": "accept",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "accept",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": false,
+      "main_alternative_changed_field": "round",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 1,
+      "saturated_validators": true,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_005",
+      "group": "twins_streamlet:run-272",
+      "axis": "T2",
+      "old_gold": "accept",
+      "archived_gold": "accept",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "accept",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": false,
+      "main_alternative_changed_field": "round",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 1,
+      "saturated_validators": true,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_006",
+      "group": "twins_streamlet:run-68",
+      "axis": "T2",
+      "old_gold": "accept",
+      "archived_gold": "accept",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "accept",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": false,
+      "main_alternative_changed_field": "round",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 1,
+      "saturated_validators": true,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_007",
+      "group": "twins_streamlet:run-197",
+      "axis": "T3",
+      "old_gold": "reject_conflict",
+      "archived_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "reject_conflict",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": true,
+      "main_alternative_changed_field": "block",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 2,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_008",
+      "group": "twins_streamlet:run-237",
+      "axis": "T3",
+      "old_gold": "reject_conflict",
+      "archived_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "reject_conflict",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": true,
+      "main_alternative_changed_field": "block",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 3,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": false
+    },
+    {
+      "id": "A428_009",
+      "group": "twins_streamlet:run-125",
+      "axis": "T3",
+      "old_gold": "reject_conflict",
+      "archived_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "reject_conflict",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": false,
+      "main_alternative_changed_field": "block",
+      "old_obs_other_round_count": 0,
+      "old_obs_other_block_count": 1,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": true
+    },
+    {
+      "id": "A428_010",
+      "group": "twins_streamlet:run-167",
+      "axis": "T3",
+      "old_gold": "reject_conflict",
+      "archived_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "alternative_neutral_gold": "reject_conflict",
+      "alternative_preserves_all_policy_preds": true,
+      "initial_n1b_has_candidate": true,
+      "main_alternative_changed_field": "block",
+      "old_obs_other_round_count": 1,
+      "old_obs_other_block_count": 2,
+      "saturated_validators": false,
+      "unobserved_fallback_in_current_code": false
+    }
+  ],
+  "alternative_single_field_gold_invariant_rules": [
+    {
+      "axis": "T1",
+      "control": "new fresh validator votes on already-observed noncandidate block instead of candidate; preserve same round, author, kind, timestamp.",
+      "qualified_old_cases": 1,
+      "oracle_preserved": 1
+    },
+    {
+      "axis": "T2",
+      "control": "same supporting author and same conflicting noncandidate block, but round altered to DIFFERENT originally observed round; preserves all current-candidate policy predicates.",
+      "qualified_old_cases": 4,
+      "oracle_preserved": 4
+    },
+    {
+      "axis": "T3",
+      "control": "fresh validator votes for previously observed noncandidate block instead of candidate, with same round and timestamp; already-existing conflict remains.",
+      "qualified_old_cases": 4,
+      "oracle_preserved": 4
+    }
+  ],
+  "current_problems": [
+    {
+      "kind": "P1_T2_SELECTION_BIAS",
+      "description": "Per-pair skip avoids crash but removes all three archived accept->reject veto-dominance units with fully saturated voter set. Group/count/Gold-cell attrition essential."
+    },
+    {
+      "kind": "P2_ADJACENT_ROUND_EVIDENCE_GAP",
+      "description": "When no originally observed other round, use candidate_round±1 (schema-legal assertion from code), but independent verifier only checks unequal round and cannot prove source-realistic round/message provenance. Distinguish synthetic unobserved from natural observed."
+    },
+    {
+      "kind": "P3_LANL_BOOLEAN_ARGUMENT_OVERBROAD",
+      "description": "B=(prior_count>=5) remains true under valid new failure when already true. N1B doc's universal claim every failure changes Boolean B is inaccurate; complete matched neutral feasibility on real LANL remains unverified."
+    },
+    {
+      "kind": "P4_CPU_RESOURCE_CONTRACT",
+      "description": "N1B still checkpoint.load('cpu') and records cpu_model_loads=1, while original G0 resource gate model_loads=0; needs prospective amendment or tokenizer-only plan."
+    },
+    {
+      "kind": "P5_N1B_QUALIFICATION",
+      "description": "N1B receipt COMPLETED may occur with zero matched; verifier --n1b optional, skip-render can mark PASS without token audit; mark partial and reserve matched comparisons for independently rerendered pairs."
+    }
+  ],
+  "method_limits": [
+    "Nine alternatives were checked only against a source-local current-scene voting oracle, with one implementation; not two independent official production Gold or simulator trace validations.",
+    "Native tokenizer token parity and serialization differences not tested; alternatives are not nine G0 admitted pairs.",
+    "Old A428 has been previously consumed in model tests and cannot be treated as confirmatory new samples.",
+    "Trusted simulator edits are not real attacker-writable evidence.",
+    "Do not post-hoc replace arms after examining new model outputs; preregister an N1B_V2 variant first."
+  ],
+  "decision": {
+    "existing_mainline": "A461-PSMI / A463-VQPI",
+    "gate": "CPU G0 progress, G1 HOLD",
+    "parallel_agent_issue": "https://github.com/dddd2024/jev/issues/2",
+    "G0_final_receipt_verified": false,
+    "GPU_permission": false
+  },
+  "resources": {
+    "new_original_corpus_reads": 0,
+    "archived_old_scenes_read": 8,
+    "model_loads": 0,
+    "model_forwards": 0,
+    "GPU": 0,
+    "server_access": false
+  }
+}

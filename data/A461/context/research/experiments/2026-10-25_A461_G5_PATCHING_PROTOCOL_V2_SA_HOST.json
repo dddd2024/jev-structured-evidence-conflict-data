@@ -1,0 +1,41 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "id": "A461_G5_PATCHING_PROTOCOL_V2_SA_HOST",
+  "study_line": "A461 (execution ledger round A468, stage 3, amended)",
+  "amends": "A461_G5_PATCHING_PROTOCOL_V1 (9684e37) per pre-patching audit afbebb4 (P0-2: host old-arm has no appended span; P0-1: scene exclusion fixed in construction V2)",
+  "purpose": "Exploratory single-donor bidirectional activation patching on SCHEMA-VALID appended spans only: the donor's recognized-conflict appended vote (new arm) against failing scenes' SA duplicate-vote appended arms (same construction family, appended event exists, Gold=false, token-matched 34/36 in V2).",
+  "host_redefinition": {
+    "old_design_invalid": "patching a host OLD arm's tail positions - the old arm has no appended vote, so the 'appended span' does not exist there (audit P0-2)",
+    "v2_host": "each failing scene's SA arm (the scene's own appended duplicate-vote event: same event count as its treatment arm, appended span exists at [state_len_sa - w, state_len_sa), C read false, gold false)"
+  },
+  "donor": "G5 V2 qualified donor (pair 433890d1..., wait cell): old C=false, new C=true (recognized), SA C=false",
+  "targets": "10 failing scenes (5 wait + 5 accept, deterministic lowest-row_id) from the V2 construction; each contributes its SA arm as the patch host and its treatment arm as the suppression source",
+  "intervention": {
+    "span_definition_v2": "per scene, the appended-event span = [state_len - w, state_len) of that arm's rendered state, where w = state growth vs the scene's old arm (33/34); measured per arm by rerender (G4 G0C anchor method)",
+    "direction_A_restoration": "patch host SA-arm row at its appended span with the donor NEW-arm appended-span states, at backbone layer outputs L in {3,7,11,15,19,23}: does the host C read flip toward true?",
+    "direction_B_suppression": "patch donor NEW-arm row at its appended span with each failing scene's TREATMENT-arm appended-span states: does the donor C read flip away from true?",
+    "layers_checkpoint_outputs": [3, 7, 11, 15, 19, 23],
+    "alignment": "linear index map over span width differences, recorded per pair; single-row forwards only (hybrid architecture)"
+  },
+  "controls": [
+    "identity: host SA arm patched with its own span states (2 hosts, layer 11) must reproduce the unpatched read",
+    "SA-sham cross: donor SA-arm span (non-recognized vote) patched into host SA arm (10 hosts x 6 layers) - does a non-conflict appended representation fail to restore (it should)",
+    "random-token: position-permuted donor span states (5 hosts x 6 layers)",
+    "off-target metrics: quorum and action heads on every patched forward"
+  ],
+  "budget": {
+    "sub_stage_A": {"donor_prepass": 3, "host_baselines": 10, "identity": 2, "restoration": 60, "SA_sham_cross": 20, "total": 95},
+    "sub_stage_B": {"SA_sham_cross_rest": 40, "random_token": 30, "suppression": 18, "total": 88},
+    "cap": "each sub-stage <= 128; admission receipts with frozen compositions precede execution",
+    "authorization": "user standing authorization series 2026-10-25 (white-box mechanism goal)"
+  },
+  "analysis_preregistered": [
+    "restoration: per host x layer signed C-margin change vs host baseline; flip count; must exceed SA-sham cross and random-token controls at the same layers for a causal claim",
+    "suppression: donor C-margin change per target x layer",
+    "off-target flip rates; layer profile reported for all layers without selection",
+    "single-donor exploratory case study label throughout"
+  ],
+  "stop_conditions": ["STOP_SPAN_ALIGNMENT_FAILURE", "STOP_IDENTITY_FAILURE", "STOP_RECONSTRUCTION_FAILURE"],
+  "submission_for_blind_review": "V2 protocol + exclusion erratum + V2 search results submitted together; execution only after blind review verdict",
+  "archive": "research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/ (V2 artifacts under G0D_CONS_V2/G1S_V2 naming, PATCHING_V2_REAL/ for execution)"
+}

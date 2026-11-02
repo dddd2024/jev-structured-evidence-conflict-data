@@ -1,0 +1,133 @@
+{
+  "schema": "JEV_A461_PHYSICAL_MANIFEST_MATCHED_NEUTRAL_BUG_AUDIT_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "audit_type": "INDEPENDENT_STATIC_CODE_AUDIT_AND_ARITHMETIC_CASES_NOT_NEW_G0",
+  "git_head_code": "1e172e247f55a3eca73890658404f15494e5d24e",
+  "sources": [
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_physical_forward_manifest_v1.py",
+      "blob_sha1": "c3dcc1949bdb2e8902689dafbba0ad4e78b33256",
+      "lines": 98
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
+      "blob_sha1": "b78198fffcba856d8cb4d3a55c8221ccdba108a8",
+      "lines": 612
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py",
+      "blob_sha1": "93b9c10cf995b4f38f81f534a0f483337ae69997",
+      "lines": 532
+    }
+  ],
+  "main_bug": {
+    "symbol": "N1_equal_token_count",
+    "expression": "ta['token_len_delta_vs_old'] == 0 if r['arm'] == 'neutral' else None",
+    "location": "manifest line 68",
+    "what_it_actually_tests": "len(neutral)==len(old)",
+    "required_registered_contrast": "len(neutral)==len(treatment) for SAME original state and SAME source-native question set; token count equality is necessary but not sufficient control for all position/token identity effects.",
+    "status": "DETERMINISTIC_FALSE_MATCHED_AND_FALSE_UNMATCHED",
+    "synthetic_test_cases": [
+      {
+        "old": 100,
+        "treatment": 103,
+        "neutral": 100,
+        "code_says_matched": true,
+        "should_be_matched": false,
+        "type": "FALSE_POSITIVE"
+      },
+      {
+        "old": 100,
+        "treatment": 103,
+        "neutral": 103,
+        "code_says_matched": false,
+        "should_be_matched": true,
+        "type": "FALSE_NEGATIVE"
+      },
+      {
+        "old": 100,
+        "treatment": 100,
+        "neutral": 100,
+        "code_says_matched": true,
+        "should_be_matched": true,
+        "type": "TRUE_POSITIVE"
+      },
+      {
+        "old": 100,
+        "treatment": 103,
+        "neutral": 102,
+        "code_says_matched": false,
+        "should_be_matched": false,
+        "type": "TRUE_NEGATIVE"
+      }
+    ],
+    "recommended_grouping": "pair_key includes family name and original state hash prefix; for strict N1 match, compare tokens within the SAME (pair_key, family) with arm=new versus arm=neutral. Never compare against old for neutrality-matched flag.",
+    "recommended_output_fields": [
+      "N1_neutral_vs_treatment_state_token_delta",
+      "N1_equal_native_token_count",
+      "N1_matched_flag_2nd_path_verified",
+      "old_vs_treatment_token_sha",
+      "old_vs_neutral_token_sha",
+      "new_vs_neutral_first_diff_position",
+      "native_choice_order_same",
+      "valid_source_native_semantic_edit_pair"
+    ]
+  },
+  "baseline_provenance": {
+    "manifest_line_of_baseline_declaration": "old_row around lines 37-49",
+    "old_baseline_native_request_sha256_value": null,
+    "old_baseline_old_rule_gold_value": null,
+    "old_baseline_question_order_value": null,
+    "original_scene_sha_recorded": "16-char truncation of canonical old state sha256, not full original scene hash",
+    "actual_reuse_policy_claim": "one physical old-arm forward per pair and same native_request hash identity",
+    "issue": "Exact request hash is not provided for the old baseline, so the asserted reuse key and baseline Gold cannot be independently verified using only the manifest.",
+    "needed": "Emit or pin full old native request and source record sha256, full exact native request SHA256, old independent source-policy Gold and full option menu ordering. Make shared-baseline reuse conditional on exact token IDs/model/precision/settings, not just family+state prefix."
+  },
+  "budget_deduction": {
+    "caps_per_family": {
+      "LANL_L1_B_THRESHOLD_per_day": 3,
+      "LANL_L3A_RISK_NONREGRESSION_per_day": 2,
+      "TWINS_T1": 6,
+      "TWINS_T2": 6,
+      "TWINS_T3": 4,
+      "N2_LANL": 3
+    },
+    "hypothetical_LANL_three_day_groups": true,
+    "original_scene_axis_selections": 31,
+    "positive_neutral_arms": 62,
+    "retime_arms": 3,
+    "emitted_modified_arms": 65,
+    "old_pair_key_count_if_all_quota_and_N2_own_key": 34,
+    "optional_precision_replays_in_manifest": 4,
+    "total_physical_planned_max_in_manifest": 103,
+    "conditional_pilot_cap": 128,
+    "warning": "This 103 is a scenario-based maximum from current quotas, NOT observed manifest row count; actual G0 survivor counts, distinct reused native requests and number of precision replays must come from executed receipts. N2 uses its own pair_key family prefix and therefore may generate a separate baseline row for identical original state."
+  },
+  "source_serialization_nuisance": {
+    "historic_G0_attempt_1_issue": "Commit 823e9bdb4cd9332bde1550ee09b249ea2ef1f7e1 documents row-33 token sha mismatch caused by new Twins-message JSON key order round/received vs canonical received/round.",
+    "current_fix": "Canon round-trip appended message and state before main renderer; independently verifier canonicalizes old state.",
+    "epistemic_limit": "Fix addresses an observed execution mismatch but does not establish original A428 native token-hash equivalence on selected old states; this must be explicitly checked or qualified before comparing old FP32 replay."
+  },
+  "parallel_agent": {
+    "delegated_issue": "https://github.com/dddd2024/jev/issues/2",
+    "bug_comment_id": 6393585183,
+    "ack_comment_id": 6393454987,
+    "ack_status_at_last_check": "PREPARING",
+    "current_G0_final_receipt_found_on_GitHub": false,
+    "new_A463_candidate": "A463-VQPI merged into A461 existing mainline; synthetic oracle 4/4, algebra 4096 checks are not original-data security discovery.",
+    "A463_registry_path": "research/literature/A463_20261025/A463_candidate_registry.json",
+    "A463_status": "REFINED_EXISTING_MAINLINE_NOT_NEW_GPU_BRANCH"
+  },
+  "decision": "HOLD_G1_CAUSAL_MATCHED_CONTROL_UNTIL_CORRECTED_AND_INDEPENDENTLY_VERIFIED",
+  "GPU_admitted": false,
+  "resource_tracking": {
+    "new_G0_executions": 0,
+    "new_model_forwards": 0,
+    "new_GPU": 0,
+    "new_raw_corpus_reads": 0,
+    "GitHub_readbacks_this_analysis": true,
+    "server_backup_verified": false,
+    "GPT_library_backup_verified": false
+  }
+}

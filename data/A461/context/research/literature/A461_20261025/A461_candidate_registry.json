@@ -1,0 +1,48 @@
+{
+  "round": "A461",
+  "confirmed_new_paper_contributions": 0,
+  "confirmed_real_deployed_vulnerabilities": 0,
+  "new_model_forwards": 0,
+  "candidates": [
+    {
+      "id": "A453-OSST",
+      "priority": "P1",
+      "status": "RETAIN_CPU_ROW_LEVEL_GATE",
+      "novelty": "Training evidence observability -> shared LoRA -> native typed security action causal negative transfer, not generic LoRA forgetting.",
+      "blockers": [
+        "Row-level evidence observability proxies and independently checked policy labels",
+        "Capacity/format/initial margin matching",
+        "Matched 0.8B training ablation budget"
+      ]
+    },
+    {
+      "id": "A461-PSMI",
+      "priority": "P2",
+      "status": "NEW_CONDITIONAL_M_ROUTE_NOT_ATTACK_CLAIM",
+      "title": "Policy-Semantic Monotonicity under Native Pointer-Head Interventions",
+      "hypothesis": "For source-local, executable policy rules, adding trusted veto evidence must not increase acceptance; adding additional valid quorum evidence in the absence of veto must not increase rejection. A typed scorer may violate these order constraints through decision-marker/candidate-key interaction.",
+      "distinct_from": "A459 changes menu; A460 changes low-trust authority cues; A461 changes rule-relevant trusted evidence and thus the policy Gold in a controlled, oracle-computable way.",
+      "novelty_bar": "Security-specific monotonicity violation with independent policy Gold, controlled counterfactual pairs, replicated across LANL/Twins or two independent sources, causal bidirectional head/LoRA mechanism beyond generic logical/format errors.",
+      "risk": "Existing Jev bias, option-channel, policy consistency and table robustness literature constrain novelty."
+    },
+    {
+      "id": "A460-PEPS",
+      "priority": "P3",
+      "status": "DEMOTE_PRIOR_ART",
+      "reason": "Jev numerical anchoring and option-order sensitivity directly demonstrated in arxiv:2610.19619; no strict new SecJev positive."
+    },
+    {
+      "id": "A459-CIRI",
+      "priority": "P3",
+      "status": "METHOD_CONTROL_ONLY",
+      "reason": "Option salience and layout effects well documented."
+    }
+  ],
+  "not_independent_contributions": [
+    "Generic conjunction/logical coherence failures",
+    "Option-order or table serialization flips",
+    "Generic source-authority deference",
+    "Generic LoRA safety forgetting",
+    "A calibration threshold or external authorization gate"
+  ]
+}

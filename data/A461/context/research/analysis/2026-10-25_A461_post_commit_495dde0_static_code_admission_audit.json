@@ -1,0 +1,199 @@
+{
+  "schema": "JEV_A461_POST_MAIN_VERIFIER_STATIC_CONTRACT_AUDIT_V1",
+  "local_date": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "type": "READ_ONLY_SOURCE_AUDIT_NO_EXECUTION",
+  "parallel_agent_new_code_commit": "495dde06e7457a6c9f25ccf6fadbc8576a73d7d2",
+  "contracts": [
+    {
+      "path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+      "blob_sha1": "2519620e105bd8fadcae17fb20b1e6026608b0c5",
+      "contract": "hard_resource_bounds.model_loads=0; CPU tokenizer encode allowed; NO model weight load."
+    },
+    {
+      "path": "research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "blob_sha1": "470349015b8d13c831db4afe3268187e9feb9871",
+      "contract": "Adds LANL L3A and distinct endpoints, says no other resource changes."
+    }
+  ],
+  "scripts": [
+    {
+      "role": "G0 main",
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
+      "blob_sha1": "9b814ed9096ad633ea729b1e7b4cf813eac734f4",
+      "lines": 607
+    },
+    {
+      "role": "G0 independent verifier",
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py",
+      "blob_sha1": "bd98429bf245b6dab14afd006b0af651fad36772",
+      "lines": 530
+    }
+  ],
+  "independent_source_findings": [
+    {
+      "id": "G0_MODEL_LOADS_CONTRACT_VIOLATED",
+      "severity": "BLOCK_FULL_G0_ADMISSION",
+      "evidence": [
+        {
+          "path": "main.py",
+          "line": 535,
+          "actual": "Checkpoint(...).load('cpu', LoadOptions(dtype=torch.float32,merge=False,attn='sdpa'))"
+        },
+        {
+          "path": "main.py",
+          "lines": [
+            536,
+            587
+          ],
+          "actual": "cpu_model_loads = 1"
+        },
+        {
+          "path": "independent_verifier.py",
+          "line": 472,
+          "actual": "cp.load('cpu', LoadOptions(dtype=torch.float32,merge=False,attn='sdpa'))"
+        },
+        {
+          "path": "V1 protocol.json",
+          "actual": "hard_resource_bounds.model_loads=0; CPU tokenizer allowed but no full weight load"
+        }
+      ],
+      "interpretation": "CPU full model load is not a GPU forward, but conflicts with frozen G0 CPU workload contract. Model-weight load is 1 in each script if full render enabled, although no backbone forwards occur. Change to tokenizer-only native renderer or prospectively amend CPU resource allowance/memory and review before full G0."
+    },
+    {
+      "id": "N1_TOKEN_MATCH_NOT_VERIFIED",
+      "severity": "BLOCK_CAUSAL_SPECIFICITY_CLAIM",
+      "evidence": [
+        {
+          "path": "main.py",
+          "lines": [
+            560,
+            580
+          ],
+          "actual": "token report records per-arm length/first diff relative to old, not new-vs-neutral match; no matched label/stop"
+        },
+        {
+          "path": "independent_verifier.py",
+          "lines": [
+            474,
+            505
+          ],
+          "actual": "independently re-renders each arm, validates per-arm values but does not cross-compare new vs neutral length"
+        },
+        {
+          "path": "G-1 decision",
+          "actual": "Novelty contrast expressly requires matched-length neutral additions."
+        }
+      ],
+      "interpretation": "CPU construction and oracle may still be informative, but an UNMATCHED neutral must not be counted as a format-controlled causal contrast. Add per-pair treatment-vs-neutral equality and explicit decision under predeclared thresholds before G1."
+    },
+    {
+      "id": "FORWARD_MANIFEST_BASELINE_OMISSION",
+      "severity": "BLOCK_FINAL_G1_BUDGET_LEDGER_NOT_CURRENT_CODE_BUDGET",
+      "evidence": [
+        {
+          "path": "main.py",
+          "lines": [
+            495,
+            496
+          ],
+          "actual": "total_arms = len(emitted) counts only new, neutral, retimed"
+        },
+        {
+          "path": "main.py",
+          "lines": [
+            549,
+            558
+          ],
+          "actual": "old arms recomputed from pinned corpus and not emitted into pair_rows"
+        },
+        {
+          "path": "V1 pair_budget",
+          "actual": "pilot <= 128 physical native forwards, 2 arms per pair/control"
+        }
+      ],
+      "computation": {
+        "per_family_caps": {
+          "LANL_L1_B_THRESHOLD": "up to 9 (3 each in three historically active day groups)",
+          "LANL_L3A_RISK_NONREGRESSION": "up to 6 (2 each in three groups)",
+          "TWINS_T1_QUORUM_AXIS": 6,
+          "TWINS_T2_CONFLICT_AXIS": 6,
+          "TWINS_T3_CONFLICT_STABILITY": 4,
+          "LANL_N2": 3
+        },
+        "max_new_control_timestamp_arms": 65,
+        "max_baseline_unique_states": 31,
+        "max_total_unshared_baseline_once": 96,
+        "remaining_under_128_best_worst_case": 32
+      },
+      "interpretation": "Current quota reduction avoids the earlier prospective 160-forward scenario; 65 new/control arms is not the total physical pilot. Even adding at most 31 unique old arms -> at most 96 planned unique inputs, under 128 before replay/precision/extra controls. G1 must freeze actual hash-dedup and replay counts."
+    },
+    {
+      "id": "VERIFIER_SKIP_RENDER_MISLABELS_PASS",
+      "severity": "BLOCK_IF_FLAG_USED_FOR_FINAL_G0",
+      "evidence": [
+        {
+          "path": "independent_verifier.py",
+          "line": 329,
+          "actual": "--skip-render exists"
+        },
+        {
+          "path": "independent_verifier.py",
+          "lines": [
+            459,
+            505
+          ],
+          "actual": "token re-render only if NOT skip-render"
+        },
+        {
+          "path": "independent_verifier.py",
+          "line": 507,
+          "actual": "review status always PASS_A461_PSMI_G0_INDEPENDENT_VERIFICATION on successful partial flow"
+        }
+      ],
+      "interpretation": "For formal G0, either disallow --skip-render or emit distinct status PARTIAL_ORACLE_ONLY, and require token audit independently verified. Main phase1-only receipt already distinguishes partial."
+    },
+    {
+      "id": "N2_TIMESTAMP_ORDER_UNCHECKED_AFTER_RETIME",
+      "severity": "CONDITIONAL_VALIDITY_HOLE_TO_VERIFY",
+      "evidence": [
+        {
+          "path": "main.py",
+          "lines": [
+            186,
+            201
+          ],
+          "actual": "adds constant delta to all in-window failed-event ages; neither reorders list nor checks relation against success events"
+        },
+        {
+          "path": "independent_verifier.py",
+          "lines": [
+            217,
+            240
+          ],
+          "actual": "reapplies same delta; does not explicitly require original-vs-new event order preserved"
+        }
+      ],
+      "interpretation": "If added delta makes a failure event pass a success event in age order, original chronological sort may break; original rule semantics could stay same while native source-order contract fails. Check every N2 output for nonincreasing seconds across ALL events, not just fails, and record invalid or choose legal delta."
+    }
+  ],
+  "stats_method_note": {
+    "verified_old_T3_archive": "Among A428_007..010 T3 old-action Gold reject, only A428_007 was clean-correct; report old-clean denominator, not 4/4 strict nonregression."
+  },
+  "g_minus_1": "NOVELTY_DELTA_TESTABLE_CPU_ONLY",
+  "g0_status": "NO_REMOTE_EXECUTION_OR_FULL_INDEPENDENT_G0_RECEIPT_VERIFIED",
+  "G1_gpu_approved": false,
+  "coordination": {
+    "delegated_issue": "https://github.com/dddd2024/jev/issues/2",
+    "independent_code_comment_id": 6393452464,
+    "do_not_overwrite_parallel_code": true
+  },
+  "resource": {
+    "new_model_loads": 0,
+    "new_model_forwards": 0,
+    "new_gpu": 0,
+    "new_raw_corpus_rows_read": 0,
+    "server_reach": false,
+    "library_reach": false
+  }
+}

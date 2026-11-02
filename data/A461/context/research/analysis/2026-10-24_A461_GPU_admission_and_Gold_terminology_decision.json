@@ -1,0 +1,146 @@
+{
+  "schema": "JEV_A461_GPU_ADMISSION_GOLD_SEMANTICS_STATUS_AUDIT_V1",
+  "audit_local_date": "2026-10-24",
+  "repository": "dddd2024/jev",
+  "repository_head_before_audit": "0b985db4f4ba99a7b06bdcd5497428419860f59e",
+  "study": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+  "protocol_source": "research/literature/A461_20261025/A461_experiment_protocol.json",
+  "governance_sources": [
+    "server_runner/EXPERIMENT_OPERATIONS_STANDARD_V1.md",
+    "research_governance/PRE_EXPERIMENT_DIRECT_PRIOR_ART_GATE_V1_20261024.md"
+  ],
+  "catalog_review": {
+    "inspected_preflight_directory": "research/literature_preflight/",
+    "names_in_preflight_directory": [
+      "A430_20261024_TWINS_CONFLICT_EVIDENCE_MINIMAL_PAIR_CPU_GATE",
+      "A430_POST_G1_SOURCE_QUALIFICATION_20261024",
+      "A430_QDID_COUNTERFACTUAL_IDENTIFICATION_20261024",
+      "A430_QDID_G1_NATIVE_PILOT_20261024",
+      "A430_QDID_S0_OFFICIAL_DEV_DUPLICATE_SUPPORT_CPU_GATE",
+      "A430_QDID_S0_OFFICIAL_DEV_SOURCE_SUPPORT_20261024",
+      "A431_WACB_SRC1_EXTERNAL_SOURCE_RELEASE_20261024",
+      "A450_G1_PUBLIC_RELEASE_METADATA_CPU_GATE",
+      "A451_M0_EXISTING_NATIVE_VETO_ACTION_RECOUNT"
+    ],
+    "required_A461_preflight_file": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+    "required_A461_preflight_found": false,
+    "meaning": "No qualifying preflight file seen at named path/directory; previous A461 review is not automatically a signed G-1 PASS. Since proposed protocol already exists, future experiment must preserve it and use a new version after preregistered preflight, no retroactive timestamp pass."
+  },
+  "admission_steps": [
+    {
+      "gate": "G-1 novelty",
+      "required": "Original model + nearest task + nearest mechanism + endpoint papers (at least three if available) read in relevant original sections; falsifiable novelty delta, alternative explanations, reviewer-verifiable archived PRE-protocol decision NOVELTY_DELTA_TESTABLE",
+      "current": "HOLD_PRIOR_ART_INCOMPLETE",
+      "cleared": false
+    },
+    {
+      "gate": "G0-A exact source-local Gold",
+      "required": "At least two independent source families, policy version fixed, fully executable and separate deterministic Oracle producing Gold for BOTH old and altered state; immutable source-group, labels and policy semantics",
+      "current": "Twins and LANL local original Gold verified only; original modified arms unverified",
+      "cleared": false
+    },
+    {
+      "gate": "G0-B paired scenario eligibility",
+      "required": "Real native TRAIN/DEV state, timestamp chronology, source identity and destination validity, semantics, candidate meaning; old/new rule Gold; SHAM+negative controls; source independence and adequate group-level support",
+      "current": "LANL 31 burst candidate seeds in 3 day groups, 22 spread seeds in 2 groups; 0 independently admitted real pairs; old FP32 are not pairs",
+      "cleared": false
+    },
+    {
+      "gate": "G0-C model+input byte pin",
+      "required": "Freeze model base revision, LoRA adapter, pointer head, tokenizer, precision, calibration, native data/option ordering, token IDs, hash and run code/env; no TEST/CAL discovery; GitHub SHA readback before GPU",
+      "current": "Historical model identity artifacts exist but A461 per-pair model-input freeze has not happened",
+      "cleared": false
+    },
+    {
+      "gate": "GPU resource/execution consent",
+      "required": "Independent explicit go decision after prior gates, shared RTX3090 checks, requested model forwards/hook budget, only ~/wjc file/cache/logs; no automatic launch",
+      "current": "approved_gpu_hours=0, gpu permitted=false",
+      "cleared": false
+    },
+    {
+      "gate": "G1 pilot model behaviors",
+      "required": "After admission, limited original native GPU inference, full logits, baseline validity, action false positives/negatives, group metrics, compare matched original/perturbed/sham and freeze outputs",
+      "current": "not executed in A461; old A428 24 FP32 output rows are NOT confirmatory",
+      "cleared": false
+    },
+    {
+      "gate": "mechanism hook phase",
+      "required": "Require pre-registered strict source-local wrong-action on valid pair (not mere margin shift), replicated and independently reviewed with both directions Q/K/LoRA interventions and same-norm SHAM, preserved legitimate policy utility",
+      "current": "no strict monotonic-pair positive exists",
+      "cleared": false
+    }
+  ],
+  "candidate_counts": {
+    "source_local_original_action_gold_Twins_DEV_scenes": 797,
+    "source_local_original_action_gold_Twins_DEV_groups": 42,
+    "source_local_original_action_gold_LANL_DEV_scenes": 328,
+    "source_local_original_action_gold_LANL_DEV_groups": 7,
+    "lanl_burst_boundary_seed_only": 31,
+    "lanl_burst_boundary_groups": 3,
+    "lanl_spread_boundary_seed_only": 22,
+    "lanl_spread_boundary_groups": 2,
+    "lanl_natural_spread_only_investigate_original_rows": 3,
+    "lanl_natural_spread_only_investigate_original_groups": 1,
+    "valid_new_counterfactual_pairs": 0,
+    "new_model_forwards": 0
+  },
+  "gold": {
+    "general": "Ground truth / gold-standard target response. A reference label determined independently of the tested model prediction, by source facts and a prespecified policy oracle where reliable.",
+    "dataset_annotation": "Human or source-provided label; may contain annotator error or insufficient visible evidence; is not automatically independent verification.",
+    "native_rule_oracle": "Policy computed directly from valid observed source-native state; independent implementation should verify Gold vs corpus annotation, ambiguity flagged; does not prove deployment authorization.",
+    "deployed_authorization": "True user permission, source authority, actual action arguments and side effects; not present in currently verified SecJev Twins/LANL evaluation.",
+    "twins": {
+      "rule": "Conflict flag has priority; reject_conflict if valid conflict, else accept if distinct eligible candidate authors meet quorum, else wait.",
+      "example": {
+        "source_voter_conflict": true,
+        "quorum": true,
+        "gold": "reject_conflict",
+        "model_prediction": "accept",
+        "error_class": "source-local wrong-action (not proof of execution)"
+      }
+    },
+    "lanl": {
+      "rule": "If within-window prior failures>=5 or failed destinations>=3 then investigate. Otherwise record_failed_attempt for current failed LogOn, continue_monitoring for current success.",
+      "example": {
+        "original_failures": 4,
+        "distinct_destinations": 1,
+        "original_gold": "record_failed_attempt (if current failed LogOn); otherwise continue_monitoring",
+        "hypothetical_added_legitimate_in_window_failure": true,
+        "new_failures": 5,
+        "new_destinations": 1,
+        "hypothetical_new_gold": "investigate",
+        "is_validated_real_pair": false
+      }
+    },
+    "gold_status": "Gold available for original rows; modified paired states have not been independently validated. Gold is a reference for scoring predictions, not the model's probability or its choice."
+  },
+  "budget_protocol_name_collision": {
+    "protocol_path": "research/literature/A461_20261025/A461_experiment_protocol.json",
+    "exact_keys": [
+      "future_gpu_if_admitted.stage_g0_max_native_forwards",
+      "future_gpu_if_admitted.stage_g1_max_hook_forwards"
+    ],
+    "quoted_limits": {
+      "native_forwards": 128,
+      "hook_forwards": 64
+    },
+    "mismatch": "SOP G0 = CPU-only preflight; protocol field stage_g0_max_native_forwards appears under future_gpu_if_admitted and MUST NOT be read as G0 GPU permission. Interpret only as hypothetical pilot-forward cap after actual G0 passes.",
+    "resolution_without_overwriting_old_proposal": "In any newly registered protocol after valid G-1 use PILOT_NATIVE_G1_BUDGET and MECHANISM_HOOK_SEPARATE_BUDGET nomenclature, with independent approvals."
+  },
+  "status": "NO_GPU_ADMISSION__G_MINUS_1_HOLD__G0_NOT_EXECUTED",
+  "next_valid_work": "Complete G-1 novelty review in preregistered file before any new revision of experimental protocol, then CPU-only source-native row edit and independent old/new Gold verification for 31/22 candidate seeds; freeze controls and hashes before any pilot GPU approval.",
+  "source_lineage": [
+    "research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.json",
+    "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/coverage_and_discrepancy_report.json",
+    "research/rounds/A430_QDID_S0_OFFICIAL_DEV_DUPLICATE_SUPPORT_CPU_GATE/G0_REAL_20261024_V2/S0_SOURCE_SUPPORT_RESULT.json",
+    "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl"
+  ],
+  "resources": {
+    "new_gpu_forwards": 0,
+    "new_model_runs": 0,
+    "new_train_dev_test_cal_original_corpus_reads": 0,
+    "new_experiment_started": false,
+    "server_backup_verified": false,
+    "library_backup_verified": false
+  }
+}

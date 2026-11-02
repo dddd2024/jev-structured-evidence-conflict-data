@@ -1,0 +1,75 @@
+{
+  "schema": "JEV_A461_REAL_G0_INDEPENDENT_RECALC_GITHUB_READBACK_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "actual_G0_commit": "bd8d2cf83a5b3dcbc52fda52bbe6a45c161089f3",
+  "other_agent_G1_runner_initial_commit": "aee53628d902b7f0f9a385fb280202c708209444",
+  "other_agent_G1_bugfix_seen": "cce2f921bc50592c19d55e1759a62398527e210a",
+  "files": [
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.json",
+      "sha": "69efbd6ee3c6fe43a0f5550bd969ed7fe381e78f",
+      "readback": true,
+      "parsed_and_checks_pass": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.md",
+      "sha": "64db8873424f49ac6f3da08305a050ff867186dd",
+      "readback": true
+    }
+  ],
+  "verified": {
+    "G0_main_CPU_status": "COMPLETE_A461_PSMI_G0_CPU_GATE_IMPL1",
+    "G0_second_review_status": "PASS_A461_PSMI_G0_INDEPENDENT_VERIFICATION",
+    "modified_rows": 65,
+    "token_replay_verified_by_second_review": 65,
+    "pair_keys": 34,
+    "original_state_sha_prefixes_unique": 30,
+    "meaningful_N1_pairs": 31,
+    "new_vs_neutral_token_equal": 29,
+    "new_vs_neutral_token_unequal": 2,
+    "old_manifest_misreported_matched": 0,
+    "N1B_token_equal": 14,
+    "N1B_additional_equal_coverage_over_old_N1": 0,
+    "N2_controls_source_order_valid": 3,
+    "critical_unmatched_T2_source_groups": [
+      "twins_streamlet:run-100",
+      "twins_streamlet:run-125"
+    ],
+    "critical_unmatched_action_transition": "accept→reject_conflict",
+    "G1_script_first_17_N1_reclassified_all_true_equal": 17,
+    "G1_script_first_17_N1_by_axis": {
+      "LANL_L1_B_THRESHOLD": 9,
+      "LANL_L3A_RISK_NONREGRESSION": 6,
+      "TWINS_T1_QUORUM_AXIS": 2
+    },
+    "G1_gpu_model_forwards_observed_in_committed_repo": 0,
+    "G1_authorization_claim_status": "Self-reported user consent recorded in connected parallel agent's ZCode admission_receipt_a461_g1.json; original interactive approval not independently visible to this audit session.",
+    "forward_manifest_103_is_planned_not_executed": true,
+    "CPU_G0_full_checkpoint_loads_reported": 1
+  },
+  "notifications": [
+    {
+      "issue": "https://github.com/dddd2024/jev/issues/2",
+      "comment_id": 6393713309,
+      "type": "G0 actual 29/31 and critical gaps"
+    },
+    {
+      "issue": "https://github.com/dddd2024/jev/issues/2",
+      "comment_id": 6393745090,
+      "type": "G1 amendment based on false matched status"
+    },
+    {
+      "issue": "https://github.com/dddd2024/jev/issues/2",
+      "comment_id": 6393752142,
+      "type": "G1 17 selected actual matches, no T2 controls"
+    }
+  ],
+  "limits": [
+    "Independent analysis of already committed evidence; no new CPU G0 or GPU execution.",
+    "Equal state token length not a sufficient causal control for all semantic/position effects.",
+    "G0 procedure exception cpu_model_loads=1 versus frozen resource cap 0 needs explicit explanation.",
+    "G1 pilot must be evaluated by actual future receipts, not readiness or approval claim alone.",
+    "Server and GPT Library separate backups not verified by this session."
+  ]
+}

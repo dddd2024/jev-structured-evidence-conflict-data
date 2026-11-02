@@ -1,0 +1,153 @@
+{
+  "schema": "JEV_A461_PSMI_PARALLEL_SAFE_PREEXECUTION_STATIC_QA_V1",
+  "local_date": "2026-10-25",
+  "checked_main_sha": "311b3490644d07df07b41cf1530cd35e600320bf",
+  "owner": "independent read-only shadow audit, not official CPU G0",
+  "provenance": {
+    "prior_art_decision": {
+      "path": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+      "blob": "e0f5a631835274b886b6ae67b51f471339414f17",
+      "commit": "5871f1f6fd5c0b04bc4290e2a34768a8f6f709a0",
+      "decision": "NOVELTY_DELTA_TESTABLE_CPU_ONLY"
+    },
+    "protocol_v1": {
+      "path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+      "blob": "2519620e105bd8fadcae17fb20b1e6026608b0c5",
+      "commit": "20898b807e518a004c9734926db186569510d357"
+    },
+    "v2_amendment": {
+      "path": "research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "blob": "470349015b8d13c831db4afe3268187e9feb9871",
+      "commit": "311b3490644d07df07b41cf1530cd35e600320bf",
+      "adds": "LANL_L3A_RISK_NONREGRESSION and three distinct endpoints"
+    },
+    "archived_frozen_native_inputs": {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0A_REAL_20261023/frozen_model_inputs.jsonl",
+      "blob": "13adf301dd67c5cc787c72b4b9ace695c52fef4e",
+      "rows": 24
+    },
+    "old_frozen_model_gold": {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "blob": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b",
+      "rows": 24
+    }
+  },
+  "findings": {
+    "protocol_order_for_v1_passes": true,
+    "original_early_candidate_protocol_precedes_G_minus_1_and_is_not_retroactively_cured": true,
+    "V2_L3A_reconciled_with_prior_parallel_findings": true,
+    "twins_shadow_oracle": {
+      "original_frozen_input_rows_checked": 12,
+      "original_source_local_gold_matches": 12,
+      "axes": {
+        "T1_QUORUM": {
+          "eligible_original_ids": [
+            "A428_001"
+          ],
+          "distinct_run_groups": 1,
+          "oracle_old_to_new": "wait -> accept"
+        },
+        "T2_CONFLICT": {
+          "eligible_original_ids": [
+            "A428_001",
+            "A428_004",
+            "A428_005",
+            "A428_006"
+          ],
+          "distinct_run_groups": 4,
+          "oracle_old_to_new": [
+            "wait -> reject_conflict",
+            "accept -> reject_conflict",
+            "accept -> reject_conflict",
+            "accept -> reject_conflict"
+          ]
+        },
+        "T3_CONFLICT_STABILITY": {
+          "eligible_original_ids": [
+            "A428_007",
+            "A428_008",
+            "A428_009",
+            "A428_010"
+          ],
+          "distinct_run_groups": 4,
+          "oracle_old_to_new": "reject_conflict -> reject_conflict"
+        }
+      },
+      "branch_level_static_rule_witnesses": 9,
+      "distinct_old_scenes_with_some_witness": 8,
+      "possible_unique_run_groups": 8,
+      "note": "A428_001 supports T1 and T2 (same source run). These are small shadow checks on prior frozen examples; amended real G0 requires full original DEV, independently encoded inputs, duplicated oracle paths and provenance/source eligibility. No new model behavior observed."
+    },
+    "lanl_shadow_oracle": {
+      "old_fp32_native_input_rows_checked": 12,
+      "original_source_local_gold_matches": 12,
+      "L3A_native_old_candidates_with_distinct_times_and_valid_old_risk": [
+        "A428_017",
+        "A428_018",
+        "A428_020"
+      ],
+      "L3A_distinct_source_groups": [
+        "lanl:day:48",
+        "lanl:day:49"
+      ],
+      "L3A_single_path_simulated_new_gold": "investigate",
+      "L3A_single_path_example_new_seconds": {
+        "A428_017": 149,
+        "A428_018": 152,
+        "A428_020": 151
+      },
+      "excluded_old_scene": "A428_019 has repeated 300-second timestamps, conflicts with V2 no-same-second condition",
+      "note": "Three eligible old frozen 12-input examples out of 77 original DEV Gold investigate candidates; not 3 verified G0 pairs."
+    },
+    "substantive_protocol_contract_gaps": [
+      {
+        "issue_id": "N1_MATCHED_TOKEN_PARITY_NOT_ENFORCED",
+        "finding": "G-1 novelty contrast requires matched-length neutral-event controls. V1 negative_controls.N1 describes 'same-shape' edits; N3 records token counts/deltas but V1 and V2 have no required equality threshold or alternative matching decision, and no STOP_UNMATCHED_NEUTRAL_CONTROL.",
+        "examples": [
+          "T1 valid fresh validator author vs invented not-in-validator-set author may tokenize differently.",
+          "LANL extra failed LogOn vs extra success LogOn may tokenize differently even with otherwise identical schema.",
+          "Twins T3 new vote vs proposal kind strings may tokenize differently."
+        ],
+        "interpretation": "CPU G0 may still census and encode these comparisons, but they MUST be marked UNMATCHED until actual native tokenizer evidence demonstrates equality; future causal-specificity/paper claim cannot rely on unmatched N1.",
+        "disposition": "MUST_EXPLICITLY_AUDIT_BEFORE_G1_SIGNOFF"
+      },
+      {
+        "issue_id": "N1_N2_SELECTION_NOT_FULLY_DETERMINISTIC",
+        "finding": "V1 says all selections are deterministic, but it does not freeze the exact invalid-author value/tie-break for N1 T1, the N1 non-supporter selection and N2 retiming algorithm (states 'where feasible' only).",
+        "interpretation": "Different agent implementations may produce different control arms, tokens and Gold-invariant witness counts despite matching broad description.",
+        "disposition": "MUST_FREEZE_AT_CODE_G0_EXECUTION_BEFORE_EVIDENCE"
+      },
+      {
+        "issue_id": "NO_G0_EXECUTABLES_YET_ON_GITHUB",
+        "expected_scripts": [
+          "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
+          "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py"
+        ],
+        "observed": "BOTH_PATHS_404_AS_OF_311b349_Main",
+        "implication": "Runbook points to scripts not yet in remote main, so although CPU protocol V1+V2 is frozen the prescribed G0 command cannot be executed from GitHub main yet. Another agent may be preparing them locally.",
+        "disposition": "BLOCK_RUNBOOK_EXECUTION_UNTIL_FILES_PRESENT"
+      }
+    ],
+    "experimental_interpretation": {
+      "X_response": "Gold changes but model does not match new Gold; do NOT automatically call strict monotonicity reversal.",
+      "X_nonregression": "Gold stays strong investigate/reject and clean-correct model regresses under lawful positive evidence addition.",
+      "X_nuisance": "Gold stays same and numeric/neutral controls change behavior; report independently.",
+      "future_pilot_budget_max_128_native_forwards": true,
+      "GPU_authorized": false,
+      "runtime_cpu_G0_started": false,
+      "results_confirmatory_model_positive": 0,
+      "independent_two_oracle_G0_pairs_verified": 0
+    }
+  },
+  "resource_accounting": {
+    "archived_native_input_rows_read": 24,
+    "archived_gold_rows_read": 24,
+    "new_original_corpus_lines_read": 0,
+    "new_gpu_model_forwards": 0,
+    "new_training": 0,
+    "actual_cpu_G0_executions": 0,
+    "server_access": false,
+    "gpt_library_backup_verified": false
+  },
+  "next_action": "Let parallel agent commit actual G0 runner + independent verifier; require protocol V2-aware execution, deterministic N1/N2 selectors and N1 token length equality/admissibility receipts before saying causal contrast or applying for GPU. Do not overwrite other agent paths."
+}

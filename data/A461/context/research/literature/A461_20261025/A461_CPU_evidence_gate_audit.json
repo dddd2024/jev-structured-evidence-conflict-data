@@ -1,0 +1,47 @@
+{
+  "round": "A461",
+  "type": "CPU_PUBLISHED_METADATA_AND_REPOSITORY_GATE_AUDIT",
+  "status": "PARTIAL_METADATA_PASS_ROW_LEVEL_G_MINUS_1_NOT_PASSED",
+  "source_paper": "https://arxiv.org/html/2610.03073v2",
+  "source_repository": "https://github.com/dddd2024/jev/blob/main/research/rounds/A451_M0_EXISTING_NATIVE_VETO_ACTION_RECOUNT/RESULT_MEMO.md",
+  "published_counts": {
+    "questions": 170185,
+    "scenes": 115324,
+    "tasks": 14,
+    "sources": 8,
+    "policy_LANL_Twins": 37490,
+    "source_label_five_tasks": 127498,
+    "tool_text_AgentDojo_InjecAgent": 5197,
+    "source_label_question_fraction": 0.749173,
+    "policy_question_fraction": 0.22029,
+    "question_fraction_not_scene_weighted_loss": true,
+    "policy_independently_recomputed": 37490,
+    "reviewed_source_label": 100,
+    "joint_sufficient_source_label": 28,
+    "reviewed_tool_policy": 180,
+    "joint_sufficient_tool_policy": 179,
+    "wilson_95_source_label": [
+      0.2014,
+      0.3749
+    ],
+    "wilson_95_tool_policy": [
+      0.9692,
+      0.999
+    ]
+  },
+  "repository_recheck": {
+    "a451_m0_rows": 18,
+    "source_groups": 6,
+    "independent_families": 1,
+    "full_deployed_authorization_gold": 0,
+    "strict_source_local_c_correct_action_wrong": 1,
+    "source_git_blob_sha": "4bdc6925279cc4aea3c68f39742d24253846ed62"
+  },
+  "gate_requirements_not_met": [
+    "No fresh row-level SecJev TRAIN/DEV provenance and semantic pairing audit performed",
+    "No independent multi-source natural positive cohort for policy monotonicity",
+    "No authorized attacker-write boundary or deployed Gold for attack claims",
+    "No model checkpoint+adapter+head hash frozen for new runs"
+  ],
+  "interpretation": "Counts from paper are metadata and published human-review samples, not new per-record audit; source-local policy Gold is suitable only for M-route model correctness, not real-world authorization."
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "JEV_A461_PARALLEL_G_MINUS_1_AND_DISTINCT_ENDPOINT_REANALYSIS_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "type": "READ_ONLY_REANALYSIS_PLUS_ADDITIVE_REPORT__NOT_NEW_G0",
+  "latest_other_agent_change": {
+    "commit": "5871f1f6fd5c0b04bc4290e2a34768a8f6f709a0",
+    "committed_utc": "2026-10-25T04:00:46Z",
+    "path": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+    "decision": "NOVELTY_DELTA_TESTABLE",
+    "scope": "CPU G0 ONLY_NO_GPU",
+    "source_blob": "e0f5a631835274b886b6ae67b51f471339414f17",
+    "review_content_as_reported": true,
+    "independent_signoff_this_round": false
+  },
+  "history_nonretroactivity": {
+    "already_existing_A461_protocol_path": "research/literature/A461_20261025/A461_experiment_protocol.json",
+    "first_protocol_commit": "a930540088423af01a7c7d98850cdbd6241dc415",
+    "first_protocol_commit_utc": "2026-10-25T02:38:42Z",
+    "preflight_first_commit_utc": "2026-10-25T04:00:46Z",
+    "preflight_does_not_precede_old_protocol": true,
+    "time_difference_seconds": 4924,
+    "interpretation": "Agent's GO is a substantive new literature judgment usable for a future protocol revision; its claim to precede any A461-PSMI protocol is refuted by GitHub history. Original protocol remains historically DESIGNED_NOT_EXECUTED. New G0 protocol must be frozen after preflight, not backdated.",
+    "policy_source": "research_governance/PRE_EXPERIMENT_DIRECT_PRIOR_ART_GATE_V1_20261024.md"
+  },
+  "direct_literature_addendum": {
+    "one_word_gate": {
+      "title": "One Word Opens the Gate",
+      "url": "https://arxiv.org/html/2610.12292v1",
+      "access": "FULL ORIGINAL HTML §§3-7,7.1,11 checked",
+      "findings": [
+        "Generic typed decision policy gate problems have been evaluated on six independent synthetic rules; invalid action cases can be reversed by attacker control of surface fields and option labels.",
+        "When policy attributes are parsed into reliable typed values, a deterministic rule achieved 100% on all six GuardBench policies, creating a strong WHY_IS_A_NEURAL_GATE_NEEDED competing baseline.",
+        "The paper explicitly separates fail-open and fail-closed and conditions reversal success on clean-correct examples; A461 must not collapse source-local triage into deployed permit/deny."
+      ]
+    },
+    "monotonicity_arch": {
+      "title": "Monotonicity as an Architectural Bias for Robust Language Models",
+      "url": "https://arxiv.org/html/2602.02686v1",
+      "access": "FULL ORIGINAL HTML methods/results reviewed",
+      "finding": "Architectural nonnegative FFN monotinicity for T5 summarization; this does not prove SecJev evidence-order monotonicity, but monotonicity by itself is existing research."
+    },
+    "secjev": {
+      "title": "SecJev v2",
+      "url": "https://arxiv.org/html/2610.03073v2",
+      "access": "original policy rules, evaluation and source grouping",
+      "finding": "Published independently recomputes 37,490 LANL/Twins policy questions; source-local oracle consistency does not certify deployed authorization or new monotonicity pairs."
+    }
+  },
+  "LANL_archived_DEV_rule_evidence": {
+    "original_derived_gold_path": "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/independent_gold_rows.jsonl",
+    "original_git_blob_sha1": "af2e68efff36a604b635bdf9402324a6ecf36508",
+    "source_rows": 328,
+    "source_groups": 7,
+    "boolean_factors": {
+      "B": "prior in-window valid failures>=5",
+      "S": "distinct known failed destinations>=3",
+      "F": "current LogOn failure",
+      "R": "B||S",
+      "Gold": "investigate iff R else record_failed_attempt iff F else continue_monitoring"
+    },
+    "observed_BSF_true_false_cell_counts": {
+      "B0S0F0": 185,
+      "B0S0F1": 66,
+      "B0S1F1": 3,
+      "B1S0F1": 64,
+      "B1S1F1": 10
+    },
+    "unobserved_BSF_cell_counts": {
+      "B0S1F0": 0,
+      "B1S0F0": 0,
+      "B1S1F0": 0
+    },
+    "R_true_original": 77,
+    "R_true_source_groups": [
+      "lanl:day:48",
+      "lanl:day:49",
+      "lanl:day:50"
+    ],
+    "R_true_group_count": 3,
+    "B_true_original": 74,
+    "S_only_original": 3,
+    "S_only_source_group": "lanl:day:50",
+    "R_true_and_current_success_original": 0,
+    "candidate_Gold_changing_B_boundary_n": 31,
+    "candidate_Gold_changing_B_boundary_groups": 3,
+    "candidate_Gold_changing_S_boundary_n": 22,
+    "candidate_Gold_changing_S_boundary_groups": 2,
+    "candidate_Gold_invariant_positive_risk_append_n": 77,
+    "candidate_Gold_invariant_positive_risk_append_groups": 3,
+    "valid_counterfactual_pairs_constructed_new": 0,
+    "group_level_confirmation_or_attack_success": false
+  },
+  "three_distinct_behavioral_endpoints": [
+    {
+      "name": "GOLD_CHANGING_RESPONSIVENESS",
+      "source_state": "R_old=0,R_new=1, Gold_old noninvestigate, Gold_new investigate",
+      "admitted_pair_type": "4-to-5 burst or 2-to-3 destination-spread with current event and policy unchanged",
+      "primary_error": "New decision fails to investigate despite independently recomputed new Gold; condition on old correct baseline for clean-to-wrong transitions",
+      "important": "Failure-to-change or insufficient post-change margin is not necessarily a strict OUTPUT-direction monotonicity violation."
+    },
+    {
+      "name": "GOLD_INVARIANT_RISK_NONREGRESSION",
+      "source_state": "R_old=1,R_new=1, unchanged Gold investigate",
+      "admitted_pair_type": "Add another valid, within-window failure to an already-investigate scene",
+      "primary_error": "Under clean-correct baseline (pred_old=investigate), pred_new != investigate on independently valid evidence-strengthening pair",
+      "important": "This is the strongest simple binary no-regression property, subject to no stale-window and full native source legality."
+    },
+    {
+      "name": "GOLD_INVARIANT_NUISANCE",
+      "source_state": "Same policy predicates and Gold in both inputs",
+      "admitted_pair_type": "Only change timestamp values within the legal window, or another token-matched neutral event insertion",
+      "primary_error": "Under clean-correct baseline, pred_new != Gold; report raw probability/margin separately and do not confuse with the two risk-relevant endpoints",
+      "important": "Existing A428_021 vs A428_024 flips between wrong and correct predictions under timestamps alone, but two token lengths differ by two and these are different historical source records, not a controlled pair."
+    }
+  ],
+  "monotonicity_semantic_warning": "Twins wait->accept after lawful quorum completion and accept->reject after valid conflict are two DIFFERENT rule axes. An unchanged incorrect output in a Gold-changing pair is a rule response failure, not by itself a sign-reversing change in the model's output ordering. LANL investigate is informational triage, not actual permission denial. Never pool action vocabularies as an 'allow/block' deployment endpoint.",
+  "negative_controls_and_design": {
+    "primary_formal_admission": "New protocol must freeze distinct Gold-changing and Gold-invariant risk-addition endpoints, token-matched neutral/time nuisance, source group identities and full old/new dual-oracle results, and action error conditional on clean-correct baseline; no post hoc reuse of old 24 FP32 as independent validation.",
+    "token_length_warning": "Existing time-only A428_021 native token len 631 vs A428_024 len633; original logit difference +1.18639 vs -2.38962, hence 3.5760 difference but not isolatable semantic cause.",
+    "why_use_model_baseline": "Policy parsed values + deterministic oracle should be an explicit non-model upper baseline (as in arXiv 2610.12292), and any paper claim must explain model usage where perception, value extraction, missing fields or generalization actually requires inference."
+  },
+  "current_state": {
+    "new_preflight_report_exists": true,
+    "preflight_decision": "NOVELTY_DELTA_TESTABLE",
+    "for_new_cpu_protocol_review_can_proceed": true,
+    "old_protocol_g_minus_1_chronology_pass": false,
+    "new_frozen_G0_protocol_published_this_turn": false,
+    "run_G0_started": false,
+    "verified_new_policy_pair_count": 0,
+    "approved_gpu_hours": 0,
+    "approved_GPU_forwards": 0
+  },
+  "parallel_agent_rules": {
+    "do_not_overwrite_agent_protocol_or_prior_art": true,
+    "append_unique_analysis_only": true,
+    "check_main_before_followup": true,
+    "report_new_cpu_or_GPU_execution_receipts_if_committed": true
+  },
+  "resources": {
+    "new_model_calls": 0,
+    "new_GPU": 0,
+    "new_original_corpus_line_reads": 0,
+    "old_derived_Gold_reanalyzed": 328,
+    "school_server_access": false,
+    "gpt_library_backup": false
+  }
+}

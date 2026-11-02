@@ -1,0 +1,110 @@
+{
+  "schema": "JEV_A461_REAL_G1_103_MULTIHEAD_AUDIT_GITHUB_READBACK_V1",
+  "date_local": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "executed_model_archive_commit": "ca9eb88eda0339e412da74c67bae69c216af634b",
+  "immutable_input_blobs": [
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/raw_native_logits_103_requests.jsonl",
+      "sha1": "5b4a6903171d0a5848162a335530492f6e1a6046",
+      "rows": 103
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "sha1": "24526c643434544b9a02587abc2d57e2c13ef627",
+      "rows": 65
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_N1B_REAL_20261025/n1b_rows.jsonl",
+      "sha1": "02342e1dc0a188dd7390d0fd911710d29622a358",
+      "rows": 14
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/execution_receipt_corrected.json",
+      "sha1": "3ad0120bc9b7a9dc0651e17516d02b9e5177c1ff"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G2_REAL_20261025/per_pair_outcomes.jsonl",
+      "sha1": "6a327da12d91e3e0a509ecf09a468ebe0cf236dc",
+      "rows": 34
+    }
+  ],
+  "independent_analysis_files": [
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json",
+      "sha1": "b937204f009bff675670ca904c5b076050c4006a",
+      "readback": true,
+      "parsed": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.md",
+      "sha1": "9d8fbe9710ffe23cdea808e7a1cd3c47aa4f119a",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_architecture_independent_question_rows_G3_prior_art_boundary.md",
+      "sha1": "3d72cdf2272401965399ba4c7b4a5c98240ffb91",
+      "readback": true
+    }
+  ],
+  "observed": {
+    "forward_indices_sequential_103": true,
+    "physical_roles": {
+      "old_baseline": 34,
+      "treatment": 31,
+      "N1B_matched": 14,
+      "N1_unmatched": 17,
+      "N2_retime": 3,
+      "replay": 4
+    },
+    "replay_all_question_logits_and_native_ids_bitwise_identical": 4,
+    "G2_action_31_pair_independently_reconciled": true,
+    "Twins_T2_new_source_true_conflict_predicted_false": 6,
+    "Twins_T2_new_Quorum_predicted_correct": 6,
+    "Twins_T2_new_action_predicted_wrong": 6,
+    "Twins_T2_evidence_level_predicted_wrong": 6,
+    "Twins_T2_pred_A_matches_policy_of_pred_C_and_pred_Q": 6,
+    "Twins_T1_run121_CQ_pred_correct_but_action_wrong": 1,
+    "LANL_L1_new_burst_head_correct": 3,
+    "LANL_L1_new_triage_head_correct": 4,
+    "N1B_14_unconditional_wrong": 4,
+    "N1B_12_old_clean_new_wrong": 2,
+    "same_source_run_T2_new_conflict_missed_T3_existing_conflict_recognized": 3
+  },
+  "architecture_correction": "C,Q,Action are three separately rendered questions with shared backbone and pointer scorer, NOT serially causal auxiliary heads. Output agreement is not mechanistic mediation.",
+  "next_experiment_name_DRAFT_ONLY": "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE",
+  "next_experiment_status": "NOVELTY_G_MINUS_1_NOT_COMPLETE_CPU_NOT_ADMITTED_GPU_UNAUTHORIZED",
+  "prior_art_primary": [
+    {
+      "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+      "url": "https://arxiv.org/html/2610.03073v2"
+    },
+    {
+      "title": "Do Language Models Track Entities Across State Changes?",
+      "url": "https://proceedings.mlr.press/v306/tang26ah.html"
+    },
+    {
+      "title": "Towards Best Practices of Activation Patching in Language Models",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/06a52a54c8ee03cd86771136bc91eb1f-Abstract-Conference.html"
+    },
+    {
+      "title": "Is This the Subspace You Are Looking for?",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/70b8505ac79e3e131756f793cd80eb8d-Abstract-Conference.html"
+    }
+  ],
+  "parallel_issue_comment_id": 6394108103,
+  "resource_accounting": {
+    "new_GPU_forwards": 0,
+    "new_model_forwards": 0,
+    "sourceDEV_gzip_scans": 0,
+    "server_access": false,
+    "gpt_library_backup_verified": false
+  },
+  "limits": [
+    "Only existing G1 103 logit rows analyzed; cause still unproven.",
+    "Existing T2 two Q=true critical scenes had no actually executed matched neutral in original 103-forward plan.",
+    "Within-run T2/T3 compare distinct original states and cannot substitute matched factorial intervention.",
+    "Source-local policy error cannot be called deployed exploit.",
+    "A461/A463 behavioral discovery does not by itself prove novelty relative to existing entity state tracking and activation patching prior work."
+  ]
+}

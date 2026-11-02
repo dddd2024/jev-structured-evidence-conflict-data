@@ -1,0 +1,103 @@
+{
+  "schema": "JEV_A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_CPU_GATE_DRAFT_V1",
+  "date": "2026-10-25",
+  "status": "DRAFT_CPU_ONLY_NOT_ADMITTED",
+  "governance_commit": "5e35c044eee9f6cc627b4fec783e8fa591065802",
+  "upstream_review": "7098a19036c34f45b19eab560af622f36a65f388",
+  "existing_blocker_evidence": "research/literature/A471_20261025/A471_repository_evidence_audit.json",
+  "study_line": "A461-G5",
+  "protocol_type": "minimal qualified pilot to test intervention plumbing and exploratory bidirectional causal selectivity, not novel-mechanism proof",
+  "baseline_input_blobs": {
+    "v2_pair_rows": "66c1f95e58fe537ae808731f1979783f3ee96c4e",
+    "v2_native_logits": "13400252b360863a80baea66b39b9a7dbe0ca633",
+    "v2_render_lengths": "5cf52a37f4e420da86c39fd537c40a98336c3be7"
+  },
+  "donor_candidate": {
+    "pair_key": "T2_WAIT_TO_REJECT:433890d19a90625e",
+    "source_group": "twins_streamlet:run-83",
+    "old_C": false,
+    "new_C": true,
+    "SA_C": false,
+    "delta_tokens": 34
+  },
+  "host_candidates": [
+    {
+      "pair_key": "T2_WAIT_TO_REJECT:1b0e96fb22c6aebe",
+      "source_group": "twins_streamlet:run-114",
+      "old_C": false,
+      "new_C": false,
+      "SA_C": false,
+      "delta_new_tokens": 34,
+      "delta_SA_tokens": 34
+    },
+    {
+      "pair_key": "T2_ACCEPT_TO_REJECT:231b919006dc1777",
+      "source_group": "twins_streamlet:run-182",
+      "old_C": false,
+      "new_C": false,
+      "SA_C": false,
+      "delta_new_tokens": 34,
+      "delta_SA_tokens": 34
+    }
+  ],
+  "layers_checkpoint_outputs": [
+    11,
+    23
+  ],
+  "branches_to_patch": [
+    "conflicting_vote"
+  ],
+  "control_arms": [
+    "native_C_baselines",
+    "donor_new_C_baseline",
+    "identity_self_patch",
+    "SA_sham_cross",
+    "position_permuted_donor_span"
+  ],
+  "directions": [
+    "donor_new_to_host_SA_sufficiency",
+    "host_treatment_to_donor_new_necessity"
+  ],
+  "tentative_native_forward_calls": {
+    "donor_old_new_SA_capture": 3,
+    "host_SA_baselines": 2,
+    "identity_host_captures": 2,
+    "identity_self_patches": 2,
+    "restoration_2x2": 4,
+    "SA_sham_2x2": 4,
+    "random_span_2x2": 4,
+    "host_treatment_captures": 2,
+    "donor_new_unpatched_baseline": 1,
+    "necessity_2x2": 4,
+    "total": 28
+  },
+  "pre_gpu_cpu_gates": [
+    "VERIFY_ALL_INPUT_FILE_SCHEMA_AND_BLOB_SHA",
+    "RECONSTRUCT_OLD_STATE_AND_VALIDATE_NATIVE_TOKEN_SHA",
+    "TWO_INDEPENDENT_SOURCE_POLICY_ORACLES_AGREE_FOR_ALL_ARMS",
+    "VERIFY_AUTHOR_ROUND_BLOCK_AND_CHRONOLOGY_CONTRACT",
+    "RENDER_NATIVE_APPEND_SPAN_AND_TRAILING_SUFFIX_UNCHANGED",
+    "MATCH_EXACT_PLUS34_TOKEN_WIDTH_ALL_DONOR_AND_TWO_HOST_ARMS",
+    "RESOLVE_CONFLICTING_VOTE_CAUSAL_ROW_FROM_REAL_META",
+    "RUN_END_TO_END_MOCK_FOUR_INDEPENDENT_QUESTION_ROW_HOOKS",
+    "VERIFY_IDENTITY_PATCH_NO_CHANGE_AND_OFF_ROW_NONINTERFERENCE",
+    "VERIFY_ACTUAL_G1S_FALSE_FALSE_FALSE_HOST_ROSTER",
+    "AUTO_TRACE_PHYSICAL_FORWARDS_EQUALS_PRECOMPUTED_BUDGET",
+    "FREEZE_SOURCE_G_MINUS_1_CHECK_AND_STOP_RULE",
+    "INDEPENDENT_BLIND_REVIEW_EXPLICIT_PASS"
+  ],
+  "hard_guards": {
+    "allow_GPU_now": false,
+    "requires_fresh_explicit_pilot_admission": true,
+    "max_native_forwards_per_run": 128,
+    "pilot_planned_forwards_not_approval": true,
+    "no_backprop": true,
+    "no_network": true,
+    "no_tool_actions": true,
+    "no_TEST_or_CAL": true,
+    "all_server_output_within": "~/wjc",
+    "preserve_failed_attempts_and_hashes": true,
+    "no_inference_of_general_mechanism_from_one_donor": true
+  },
+  "interpretation": "Even a successful pilot is exploratory DEV single-donor evidence. Expansion to 10x6 and independent source/model replication requires separate frozen protocol and scientifically meaningful controls."
+}

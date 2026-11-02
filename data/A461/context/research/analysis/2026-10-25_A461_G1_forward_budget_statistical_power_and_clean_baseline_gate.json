@@ -1,0 +1,216 @@
+{
+  "schema": "JEV_A461_G1_BUDGET_AND_SMALL_SAMPLE_STATISTICS_INDEPENDENT_AUDIT_V1",
+  "local_date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "scope": "READ_ONLY_GITHUB_PROTOCOL_AND_ARCHIVED_NATIVE_FP32_REANALYSIS__NOT_G0_EXECUTION",
+  "source_snapshots": [
+    {
+      "path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+      "blob_sha1": "2519620e105bd8fadcae17fb20b1e6026608b0c5"
+    },
+    {
+      "path": "research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "blob_sha1": "470349015b8d13c831db4afe3268187e9feb9871"
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "blob_sha1": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b"
+    },
+    {
+      "issue": "https://github.com/dddd2024/jev/issues/2",
+      "state": "OPEN_UNASSIGNED_ZERO_COMMENTS_AS_LAST_CHECK"
+    }
+  ],
+  "protocol_requested_target_maxima": {
+    "T1_quorum": 8,
+    "T2_conflict": 8,
+    "T3_conflict_stability": 6,
+    "L1_burst_threshold_max_per_day_group": 4,
+    "L1_day_groups_with_historical_positive_boundary": 3,
+    "L1_illustrative_total_max": 12,
+    "L3A_risk_nonregression_max": "UNSPECIFIED_IN_V2 (no fixed per-group or total cap)",
+    "L3A_illustrative_max_used_for_scenario": 12,
+    "condition_pilot_forward_budget": 128,
+    "batch_baseline_replay_forward_budget": "UNSPECIFIED; must be included if executed"
+  },
+  "forward_cost_derivation": {
+    "definition": "Protocol pair/control row is an (old,new) pair; if each pair/control gets two physical model forwards, Twins T1/T2/T3 main+N1 =>4 per scene; LANL L1 main+N1+N2=>6 per scene; LANL L3A main+N1=>4 per scene (N2 L3A not included). The protocol says 2 arms per pair+control row. Dedup scenarios are hypothetical optimization, not authorized until hashes/precision/reuse procedure frozen.",
+    "Twins_target_scenes": 22,
+    "Twins_main_and_N1_paired_rows": 44,
+    "Twins_naive_forwards": 88,
+    "LANL_L1_target_scenes": 12,
+    "LANL_L1_main_N1_N2_paired_rows": 36,
+    "LANL_L1_naive_forwards": 72,
+    "V1_naive_total": 160,
+    "V1_over_cap": 32,
+    "L3A_scenario_scenes": 12,
+    "L3A_scenario_main_N1_pair_rows": 24,
+    "L3A_scenario_naive_forwards": 48,
+    "V2_scenario_naive_total": 208,
+    "V2_scenario_over_cap": 80,
+    "dedup_one_common_baseline_per_original_scene": {
+      "Twins_three_unique_inputs_each": 66,
+      "LANL_L1_four_unique_inputs_each": 48,
+      "V1_total": 114,
+      "L3A_three_unique_inputs_each": 36,
+      "V2_scenario_total": 150,
+      "V2_scenario_over_cap": 22
+    },
+    "not_counted": [
+      "Potential Twins N2 analog when feasible",
+      "Potential L3A N2 additional controls",
+      "Archived baseline replay/precision check",
+      "Any precision repeats or multiple seeds",
+      "Additional neutral rematching/search GPU forwards (NOT allowed post hoc)"
+    ],
+    "feasible_illustrative_budget_ONLY_NOT_ADOPTED": {
+      "T1": 2,
+      "T2": 6,
+      "T3": 6,
+      "L1": 6,
+      "L3A": 7,
+      "T1_T2_T3_forwards": 56,
+      "L1_forwards": 36,
+      "L3A_forwards": 28,
+      "baseline_precision_replays": 8,
+      "total": 128,
+      "comment": "Feasible arithmetic under no-shared-baseline accounting, not sufficient to claim robust significance for T1 or LANL group-wise effects; no source groups/samples actually selected."
+    },
+    "true_control_matching_required": "N1/Treatment shared original state, distinct new arms; require native-token count equality or flag UNMATCHED, do not substitute same-shape for equal-count."
+  },
+  "old_native_FP32_clean_baseline_reference": {
+    "T1_eligible_original_inputs": [
+      "A428_001"
+    ],
+    "T1_correct_baseline": [
+      "A428_001"
+    ],
+    "T2_eligible_original_inputs": [
+      "A428_001",
+      "A428_004",
+      "A428_005",
+      "A428_006"
+    ],
+    "T2_correct_baseline": [
+      "A428_001",
+      "A428_004",
+      "A428_005",
+      "A428_006"
+    ],
+    "T3_eligible_original_inputs": [
+      "A428_007",
+      "A428_008",
+      "A428_009",
+      "A428_010"
+    ],
+    "T3_correct_baseline": [
+      "A428_007"
+    ],
+    "T3_preexisting_wrong_baseline": [
+      "A428_008",
+      "A428_009",
+      "A428_010"
+    ],
+    "L3A_eligible_archived_inputs": [
+      "A428_017",
+      "A428_018",
+      "A428_020"
+    ],
+    "L3A_correct_baseline": [
+      "A428_017",
+      "A428_018",
+      "A428_020"
+    ],
+    "IMPORTANT": "Historical A428 cases are nonrandom and already examined; 1/4 T3 clean is not an estimator of full original DEV clean baseline rate. G1 must select freeze eligible old arms by source/Gold WITHOUT conditioning on past model outcomes except for explicitly exploratory replays, and report actual clean-correct denominator separately."
+  },
+  "method_statistics": {
+    "test_family": "Paired binary strict model-action error treated vs same-scene neutral under frozen policy, with old baseline correctness reported as independent conditioning layer",
+    "exact_p_formula": "If k independently matched discordant units all favor treatment causing error and zero the other way, exact two-sided McNemar/sign p = 2*(1/2)^k (capped 1).",
+    "all_favorable_discordant_units_required_for_p_below_0_05": 6,
+    "table": [
+      {
+        "k": 3,
+        "all_favorable_two_sided_p": 0.25,
+        "zero_success_one_sided_95_upper": 0.6315968501359612
+      },
+      {
+        "k": 4,
+        "all_favorable_two_sided_p": 0.125,
+        "zero_success_one_sided_95_upper": 0.5271291954984121
+      },
+      {
+        "k": 5,
+        "all_favorable_two_sided_p": 0.0625,
+        "zero_success_one_sided_95_upper": 0.4507197283469412
+      },
+      {
+        "k": 6,
+        "all_favorable_two_sided_p": 0.03125,
+        "zero_success_one_sided_95_upper": 0.39303776899708276
+      },
+      {
+        "k": 8,
+        "all_favorable_two_sided_p": 0.0078125,
+        "zero_success_one_sided_95_upper": 0.31234397806636793
+      },
+      {
+        "k": 12,
+        "all_favorable_two_sided_p": 0.00048828125,
+        "zero_success_one_sided_95_upper": 0.22092219194555585
+      },
+      {
+        "k": 32,
+        "all_favorable_two_sided_p": 4.656612873077393e-10,
+        "zero_success_one_sided_95_upper": 0.0893681989862648
+      }
+    ],
+    "caveats": [
+      "Exact McNemar assumes appropriately independent matched units, and source-group correlation invalidates treating all scenes as independent test units.",
+      "No observed treatment/neutral pairs have been run so these are design simulations, NOT actual P values.",
+      "Even 0/12 strict errors would have about 22.1% one-sided 95% upper limit only IF independent units; with 3 independent groups, analogous 0/3 limit is 63.16% under simplified independent group-level Bernoulli model.",
+      "No G0 source-pair survivor count exists and source groups may heavily overlap; multi-axes testing requires alpha/multiple-testing plan or transparent exploratory labeling.",
+      "Clean-correct baseline condition is an estimand restriction, not an unbiased overall model risk measure; report unconditional errors and conditional clean-to-wrong separately."
+    ],
+    "methods_papers": [
+      {
+        "title": "Cluster-robust inference: A guide to empirical practice",
+        "url": "https://doi.org/10.1016/j.jeconom.2022.04.001",
+        "status": "published source read (intro/conclusions)",
+        "relevance": "Few clusters and unbalanced group sizes invalidate naive asymptotic per-scene tests."
+      },
+      {
+        "title": "McNemar and Mann-Whitney U Tests (NCBI StatPearls)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK560699/",
+        "status": "published educational reference search",
+        "relevance": "Small discordant counts need exact paired binomial method."
+      },
+      {
+        "title": "Exact matched pairs test reference",
+        "url": "https://www.statsdirect.com/help/chi_square_tests/mcnemar.htm",
+        "status": "reference",
+        "relevance": "Exact McNemar is a special case of binomial sign test."
+      }
+    ]
+  },
+  "recommendation": {
+    "status": "PILOT_BUDGET_AND_INFERENCE_PROTOCOL_AMENDMENT_REQUIRED_BEFORE_G1",
+    "next_agent_step": "Keep CPU G0 construction and dual oracle; before G1 request freeze physical-forward manifest with unique native_request_hash, branch quotas, group counts, neutral-matching eligibility, baseline replay count and dedup/cache policy; distinguish exploratory pilot from independent confirmatory validation.",
+    "no_gpu_authorization": true,
+    "do_not_overwrite_parallel_agent": true,
+    "issue_to_notify": "https://github.com/dddd2024/jev/issues/2",
+    "stop_if": [
+      "STOP_NO_PHYSICAL_FORWARD_BUDGET_AFTER_CONTROLS",
+      "STOP_UNMATCHED_NEUTRAL_CONTRAST_IF_CLAIM_REQUIRES_MATCHED_LENGTH",
+      "STOP_INSUFFICIENT_CLEAN_BASELINE_GROUPS",
+      "STOP_STATISTICAL_NONIDENTIFIABILITY_FOR_CONFIRMATORY_CLAIM"
+    ]
+  },
+  "resources": {
+    "new_original_dev_rows_read": 0,
+    "old_native_fp32_derived_rows_read": 24,
+    "new_model_forwards": 0,
+    "gpu_forwards": 0,
+    "new_training": 0,
+    "server_access": false
+  }
+}

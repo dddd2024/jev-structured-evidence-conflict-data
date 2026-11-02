@@ -1,0 +1,40 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_AMENDMENT_V1",
+  "id": "A461_20261025_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY",
+  "amends": "2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+  "basis": "Parallel-session reconciliations 19125e0 (endpoint estimands + chronology audit) and 9c39bde (independent preflight readback verification); adopted without altering any frozen artifact of the V1 protocol file itself.",
+  "chronology_reconciliation": {
+    "original_registered_protocol": "research/literature/A461_20261025/A461_experiment_protocol.json (first commit a930540, 2026-10-25T02:38:42Z)",
+    "g_minus_1_preflight_commit": "5871f1f, 2026-10-25T04:00:46Z",
+    "fact": "The original registered A461 protocol predates the G-1 preflight by 4924 s; per 19125e0 the preflight does not retroactively gate that historical protocol, which remains DESIGNED_NOT_EXECUTED and is not modified by this round.",
+    "resolution": "The V1 G0 protocol (commit 20898b8) plus this amendment constitute the post-preflight protocol revision; 19125e0 records that the NOVELTY_DELTA_TESTABLE preflight 'is a substantive new literature judgment usable for a future protocol revision'. No dates are backdated anywhere.",
+    "independent_review_status": "Preflight readback independently verified in 9c39bde; 19125e0's own direct full-text reading of arXiv:2610.12292v1 (SS3-7,7.1,11) reached a compatible delta judgment (no published SecJev evidence-order monotonicity measurement) and adds the deterministic-rule competing baseline recorded below."
+  },
+  "endpoint_structure_adoption": {
+    "GOLD_CHANGING_RESPONSIVENESS": "LANL_L1_B_THRESHOLD (R_old=0 -> R_new=1), TWINS_T1_QUORUM_AXIS (wait->accept), TWINS_T2_CONFLICT_AXIS (C 0->1 -> reject_conflict). Primary error: with a correct old-arm baseline, the new-arm prediction fails to match the independently recomputed new Gold.",
+    "GOLD_INVARIANT_RISK_NONREGRESSION": "TWINS_T3_CONFLICT_STABILITY (add legal vote, Gold stays reject_conflict) and NEW LANL_L3A_RISK_NONREGRESSION below. Primary error: with a correct old-arm baseline, prediction leaves the unchanged investigate/reject_conflict Gold under valid risk-evidence addition.",
+    "GOLD_INVARIANT_NUISANCE": "N1_NEUTRAL_APPEND and N2_GOLD_INVARIANT_TIMESTAMP_RETIMING. Primary error: prediction changes under Gold-invariant perturbation; raw margins reported separately and never pooled with the two risk-relevant endpoints."
+  },
+  "added_pair_family": {
+    "id": "LANL_L3A_RISK_NONREGRESSION",
+    "baseline_eligibility": [
+      "_meta.source==lanl_auth_policy, DEV, evaluable per A427 v2",
+      "older_summary_failed_count_unscoped==0 and unknown_destination_failed_events==0",
+      "R=true in old arm (count_visible_failed_logons>=5 OR count_distinct_known_failed_destinations>=3); Gold investigate",
+      "recent_prior_events seconds_before_current values pairwise distinct",
+      "at least one existing known failed destination in-window to append against"
+    ],
+    "edit": "Append ONE prior event: failed LogOn (schema copy of an existing failed event) to an EXISTING known failed destination, seconds_before_current = deterministic unused in-window value by the same rule as LANL_L1; all other fields byte-identical",
+    "old_gold": "investigate",
+    "new_gold": "investigate (counts strengthen; R already true)",
+    "registered_expectation": "Nonregression: with correct old-arm baseline, new-arm prediction must remain investigate; leaving investigate under strengthened risk evidence is the primary error. Margin decreases are secondary only.",
+    "budget_note": "Drawn from the same 128-forward paired-pilot cap; pair counts adjusted at freeze time so total stays within cap."
+  },
+  "semantic_guards_adopted": [
+    "Failure-to-change in a Gold-changing pair is a rule-response failure, NOT by itself a sign-reversing monotonicity violation; the two are reported as separate outcome classes (responsive-correct / failed-to-change / wrong-direction).",
+    "Twins wait->accept and accept->reject are different rule axes and are never merged.",
+    "LANL investigate is informational triage, not permission denial; no allow/block vocabulary pooling across families.",
+    "WHY_USE_MODEL baseline: the deterministic rule oracle is an explicit non-model upper baseline in any paper claim; model-value discussion must identify where perception/extraction/generalization requires inference (per 19125e0 and arXiv:2610.12292 deterministic-rule finding)."
+  ],
+  "no_other_changes": "Pair construction rules, oracle definitions, negative controls N1/N2/N3, stop conditions, resource bounds, and DEV-only data boundary are unchanged from V1."
+}

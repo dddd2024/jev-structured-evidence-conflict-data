@@ -1,0 +1,51 @@
+{
+  "schema": "JEV_PARALLEL_AGENT_CHANGE_AND_A461_ENDPOINT_AUDIT_RECEIPT_V1",
+  "local_date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "original_new_other_agent_commit": "5871f1f6fd5c0b04bc4290e2a34768a8f6f709a0",
+  "readback": [
+    {
+      "path": "research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.json",
+      "blob_sha": "19a2b5b248b9382e944afcec1414ad66e000a36d",
+      "verified": true,
+      "passed_count_checks": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.md",
+      "blob_sha": "61a3b2a64a374af544c14fe7209775d2d11dd686",
+      "verified": true,
+      "contains_caveats": true
+    }
+  ],
+  "confirmed": {
+    "new_agent_novelty_decision": "NOVELTY_DELTA_TESTABLE_CPU_ONLY",
+    "old_protocol_commit_at_utc": "2026-10-25T02:38:42Z",
+    "new_preflight_commit_at_utc": "2026-10-25T04:00:46Z",
+    "preflight_prior_to_original_protocol": false,
+    "LANL_DEV_BSF_cells": {
+      "B0S0F0": 185,
+      "B0S0F1": 66,
+      "B0S1F1": 3,
+      "B1S0F1": 64,
+      "B1S1F1": 10
+    },
+    "gold_invariant_risk_strong_candidates": 77,
+    "source_groups_for_those": 3,
+    "source_local_B_positive": 74,
+    "S_only": 3,
+    "validated_new_counterfactual_pairs": 0,
+    "distinct_endpoint_families": [
+      "Gold-changing response",
+      "Gold-invariant risk nonregression",
+      "Gold-invariant nuisance control"
+    ],
+    "model_gpu_authorized": false
+  },
+  "limits": [
+    "Only older original DEV-derived Gold was reanalysed, not new raw original source records",
+    "No GPU, no model inference, no new test or calibration data",
+    "New report does not overwrite historical protocol or agent preflight",
+    "CPU gate from parallel agent is an explicit research decision, not an executed experiment",
+    "No server or GPT Library double backup verified"
+  ]
+}

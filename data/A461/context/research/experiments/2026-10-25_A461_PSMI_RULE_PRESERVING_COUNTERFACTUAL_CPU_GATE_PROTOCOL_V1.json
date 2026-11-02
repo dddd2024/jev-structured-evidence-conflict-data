@@ -1,0 +1,175 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "id": "A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_V1",
+  "study_line": "A461-PSMI",
+  "parent_registered_experiment": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+  "g_minus_1": {
+    "decision": "NOVELTY_DELTA_TESTABLE",
+    "decision_file": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+    "decision_commit": "5871f1f",
+    "committed_before_this_protocol": true
+  },
+  "coordination_notes": [
+    "Parallel-session analysis 5fb35e9 (2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.md) is INCORPORATED, not overwritten: its prescribed axes (policy-predicate flip, Gold-invariant timestamp control, numeric token/format reporting) are adopted as N2/N3 below, and its stop condition STOP_ONLY_GENERIC_NUMERIC_FORMAT_SENSITIVITY is adopted.",
+    "Design-time read-only census (local mirror of archived A427 rows, 2026-10-25): LANL B-threshold starts with clean seconds = 30 across day:48/49/50; LANL S-threshold starts with an in-scene third known destination = 0, so the S axis is NOT constructible from in-scene evidence and is excluded from this protocol (recorded as a design constraint, not silently dropped).",
+    "Before execution, re-fetch origin/main; if another session has frozen a conflicting A461-PSMI G0 protocol, STOP and reconcile before running."
+  ],
+  "stage": "G0_CPU_ONLY",
+  "hard_resource_bounds": {
+    "model_loads": 0,
+    "gpu_forwards": 0,
+    "backbone_forwards": 0,
+    "network_calls": 0,
+    "test_or_calibration_row_reads": 0,
+    "tokenizer_encode_allowed": "CPU tokenizer encode only, precedent A428 G0B / A430 G0C; no model weight load",
+    "future_gpu_if_user_approves": {
+      "status": "CONDITIONAL_NOT_APPROVED",
+      "max_native_forwards_paired_pilot": 128,
+      "note": "Per registered A461 experiment protocol future_gpu_if_admitted.stage_g0_max_native_forwards=128; requires separate explicit user approval with exact budget, A430-G1 pattern."
+    }
+  },
+  "data_sources": {
+    "corpus": "server ~/wjc/a5-secjev08b-preflight-20261005/assets/corpus/SecJev-Corpus/records/development.jsonl.gz",
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "split": "DEV ONLY (split_subset=development); CAL/TEST excluded by construction",
+    "twins_source": "records with _meta.source == twins_streamlet, split subset development (expected 797 rows / 42 groups per A430-QDID S0 census; re-verify at execution)",
+    "lanl_source": "records with _meta.source == lanl_auth_policy, split subset development (expected 328 rows / 7 groups per A427 v2)",
+    "cross_checks": {
+      "lanl": "independent_gold_rows.jsonl at research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/ (blob af2e68efff36a604b635bdf9402324a6ecf36508)",
+      "twins": "A430 G0A independent oracle rule (research/rounds A430 twins conflict evidence G0A verifier)"
+    }
+  },
+  "oracles": {
+    "twins": {
+      "valid_vote": "kind=='vote' and round==candidate_round and received<=decision_time and author in validator_set",
+      "support": "authors whose valid votes include candidate_block",
+      "Q": "len(support) >= quorum_size",
+      "C": "any supporter has a valid vote for a block != candidate_block",
+      "action": "reject_conflict if C else accept if Q else wait",
+      "evidence_level": {"reject_conflict": 2, "wait": 1, "accept": 0}
+    },
+    "lanl": {
+      "window": "0 < seconds_before_current <= 300, orientation LogOn",
+      "B": "visible prior failures >= 5",
+      "S": "distinct KNOWN failed destination computers >= 3 (known_dest excludes unknown/unk/none/null/n-a/?/- and unknown_*)",
+      "R": "B or S",
+      "triage": "investigate if R else (record_failed_attempt if current result Failure else continue_monitoring)",
+      "ambiguity_rule": "older_history_summary.failed_attempts and known_failed_destination_computers only bound ambiguous cases; pairs require old_fails==0 and unknown_destination_failed_events==0 so both arms stay evaluable",
+      "note": "Fail->Failure explicit mapping per A427 v2"
+    },
+    "dual_implementation_requirement": "Primary script and an independently written second-path verifier must recompute Gold for EVERY arm of EVERY pair and control from the scene state alone; 100% agreement required. Any disagreement => STOP_GOLD_DISAGREEMENT."
+  },
+  "pair_families": [
+    {
+      "id": "LANL_L1_B_THRESHOLD",
+      "baseline_eligibility": [
+        "_meta.source==lanl_auth_policy, DEV, evaluable per A427 v2",
+        "older_summary_failed_count_unscoped==0 and unknown_destination_failed_events==0",
+        "count_visible_failed_logons==4",
+        "count_distinct_known_failed_destinations<=2 and equals distinct known failed dests among visible failure events",
+        "recent_prior_events seconds_before_current values pairwise distinct (no same-second collisions)",
+        "current_event.orientation=='LogOn'"
+      ],
+      "edit": "Append ONE prior event: exact schema copy of an existing failed LogOn (same authentication_type, destination_account, destination_computer as an EXISTING known failed destination, logon_type, orientation='LogOn', result='Fail'), seconds_before_current = deterministic unused in-window value: from candidates {t in 1..300 : t not in used_seconds}, pick the value minimizing |t - median(existing failed seconds)|, tie -> smaller; insert into recent_prior_events preserving its existing ordering convention (descending seconds_before_current); all other fields byte-identical",
+      "old_gold": "record_failed_attempt (current Fail) or continue_monitoring (current Success)",
+      "new_gold": "investigate (B: 4->5; S unchanged)",
+      "registered_monotonicity_expectation": "Risk escalation only. Model action distribution must move toward or stay at investigate; any margin movement toward the old action (de-escalation) is a monotonicity-violation candidate. Primary endpoint: strict per-arm action correctness vs oracle Gold."
+    },
+    {
+      "id": "TWINS_T1_QUORUM_AXIS",
+      "baseline_eligibility": [
+        "_meta.source==twins_streamlet, DEV",
+        "stratum C=0, Q=0 (Gold wait)",
+        "len(support)==quorum_size-1 (one vote flips Q)",
+        "exists v in validator_set with zero valid votes at candidate_round",
+        "max(received) <= decision_time (append feasible inside window)"
+      ],
+      "edit": "Append ONE message {author: chosen fresh non-voting validator (deterministic: lowest-index validator_set member with zero valid votes), block: candidate_block, kind: 'vote', round: candidate_round, received: max(existing received)}; append at end of received_messages preserving non-decreasing received order; all other fields byte-identical",
+      "old_gold": "wait",
+      "new_gold": "accept (Q 0->1, C stays 0)",
+      "registered_monotonicity_expectation": "Rejection-related margin must not increase; accept/wait margin must not move toward wait. Primary endpoint: strict per-arm action correctness."
+    },
+    {
+      "id": "TWINS_T2_CONFLICT_AXIS",
+      "baseline_eligibility": [
+        "_meta.source==twins_streamlet, DEV",
+        "stratum C=0 with len(support)>=1 (Q may be 0 or 1; Gold wait or accept)",
+        "exists observed block b' != candidate_block in received_messages (any kind)",
+        "max(received) <= decision_time"
+      ],
+      "edit": "Append ONE message {author: existing candidate supporter (deterministic: lowest-index supporter by validator_set order), block: b' (deterministic: lowest block id != candidate_block among observed blocks), kind: 'vote', round: candidate_round, received: max(existing received)}; all other fields byte-identical",
+      "old_gold": "wait or accept",
+      "new_gold": "reject_conflict (C 0->1)",
+      "registered_monotonicity_expectation": "Acceptance-related margin must not increase; evidence-driven escalation toward reject only. Primary endpoint: strict per-arm action correctness."
+    },
+    {
+      "id": "TWINS_T3_CONFLICT_STABILITY",
+      "baseline_eligibility": [
+        "_meta.source==twins_streamlet, DEV",
+        "stratum C=1 (Gold reject_conflict)",
+        "exists v in validator_set with zero valid votes at candidate_round (fresh voter)",
+        "max(received) <= decision_time"
+      ],
+      "edit": "Append ONE valid vote for candidate_block from the fresh voter (same deterministic rules as T1); all other fields byte-identical",
+      "old_gold": "reject_conflict",
+      "new_gold": "reject_conflict (C stays 1; stability under additional legal votes)",
+      "registered_monotonicity_expectation": "Rejection must not be undone by additional legal votes; accept-margin increase is a violation candidate."
+    }
+  ],
+  "excluded_axes_with_reason": [
+    {
+      "axis": "LANL_L2_S_THRESHOLD (third known destination)",
+      "reason": "Design census found 0 DEV scenes with exactly 2 known failed destinations AND a third destination present in-scene; fabricating an unattested computer alias would violate the known-destination semantics and the A461 audit's provenance requirements. Axis recorded infeasible; S-crossing is covered only inside the S=true stratum of stability controls.",
+      "status": "EXCLUDED_BY_CENSUS_NOT_ADMITTED"
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "N1_NEUTRAL_APPEND",
+      "design": "Per pair family, same-shape append with provably zero Gold effect: Twins-T1 -> vote by author NOT in validator_set; Twins-T2 -> vote for b' by a NON-supporter valid author; Twins-T3 -> kind='proposal' message; LANL-L1 -> SUCCESS LogOn to the same destination. Dual-oracle must confirm old_gold==new_gold on the control arm.",
+      "purpose": "Format/length-matched contrast: margin movement on neutral appends bounds generic serialization effects (G-1 alternative explanation 1)."
+    },
+    {
+      "id": "N2_GOLD_INVARIANT_TIMESTAMP_RETIMING",
+      "design": "Within each LANL-L1 pair scene (and a Twins analog on received timestamps where feasible), retime EXISTING prior events to other unused in-window values preserving ordering and digit width where possible; event count, destinations, results, and Gold all unchanged. Dual-oracle confirms Gold invariance on both arms.",
+      "purpose": "Directly preregisters the A428_021-vs-024 clue (parallel-session analysis 5fb35e9) as a control axis; time-value changes with Gold invariance must not produce strict action errors beyond the format baseline."
+    },
+    {
+      "id": "N3_NATIVE_TOKEN_AUDIT",
+      "design": "Render every arm (pairs + controls) through the pinned native Kev renderer (SystemOneRequest -> to_record -> encode(strict=True), max 8192) with CPU tokenizer only; record per-arm token counts, token-id SHA256, first-difference index vs baseline arm, and digit-width of edited numeric fields.",
+      "purpose": "No unmatched-pair claims: token-count deltas are reported per pair as measured confounds (same character width does NOT imply same token count; 5fb35e9). Any arm exceeding max length => STOP_TOKEN_TRUNCATION."
+    }
+  ],
+  "pair_budget": {
+    "target_pairs_per_family_group": "LANL-L1: up to 4 pairs per day group (day:48/49/50); Twins-T1/T2/T3: up to 8/8/6 pairs from distinct run groups where available",
+    "hard_cap": "Total frozen pair+control rows must keep a future paired GPU pilot <= 128 native forwards (2 arms per row)",
+    "determinism": "All selections (scene, author, block, seconds value) use the deterministic rules above with stable sort; no randomness, no model or tokenizer consultation during pair construction"
+  },
+  "stop_conditions": [
+    "STOP_NO_RULE_PRESERVING_PAIR: zero surviving pairs in a family after all gates",
+    "STOP_FEWER_THAN_TWO_INDEPENDENT_FAMILIES: less than two source families with surviving pairs",
+    "STOP_GOLD_DISAGREEMENT: primary and independent oracle disagree on any arm",
+    "STOP_GOLD_MISMATCH_WITH_ARCHIVED: recomputed baseline Gold contradicts archived A427/A430 oracle values for the same scenes",
+    "STOP_TOKEN_TRUNCATION: any rendered arm exceeds native max length or renderer strict mode fails",
+    "STOP_ONLY_GENERIC_NUMERIC_FORMAT_SENSITIVITY: reserved for G2 interpretation of control vs pair contrasts (5fb35e9)"
+  ],
+  "primary_metrics_registered_before_gpu": [
+    "strict policy-action correctness per arm vs dual-oracle Gold, reported per family and source group (never merged across families)",
+    "pairwise monotonicity violation: strict action error whose direction is non-monotone under the registered expectation (e.g., de-escalation after adding failure evidence; accept-margin increase after conflict evidence)",
+    "per-pair signed action margin deltas (secondary; margin changes alone never constitute a security claim)",
+    "negative-control contrast: violation/error rates on N1/N2 arms vs policy-relevant arms, per family",
+    "distance-to-threshold stratification (LANL: failures 4 vs >=5; Twins: support count vs quorum)"
+  ],
+  "interpretation_boundaries": [
+    "Endpoint is model policy consistency under oracle-validated source-local rules; NOT a deployed-authorization vulnerability and NOT an attack success claim",
+    "SecJev typed questions are independent causal rows; cross-question prediction agreement is not information-flow evidence (SecJev v2 3.1; A451 recount)",
+    "No TEST/CAL rows at any stage; DEV scenes only; no tuning on any heldout",
+    "Mechanism (Q/K/LoRA) claims require a separate protocol, confirmed behavioral positives excluding N1/N2 explanations, and separate GPU approval"
+  ],
+  "execution": {
+    "server_dir_pattern": "~/wjc/a461-psmi-counterfactual-cpu-gate-20261025-v1/{G0,G0_VERIFY,manifests,receipts,logs}",
+    "interpreter": "pinned venv ~/wjc/kev08b-smoke-20261001-153041/venv/bin/python (stdlib-only for construction; tokenizer via pinned transformers in same venv)",
+    "archive": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/ with SHA256SUMS + GitHub readback receipt before any GPU stage",
+    "independent_review": "G0_VERIFY second-path verifier with separately written oracle and pair recomputation"
+  }
+}

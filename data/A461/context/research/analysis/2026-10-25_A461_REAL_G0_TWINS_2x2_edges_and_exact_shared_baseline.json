@@ -1,0 +1,314 @@
+{
+  "schema": "JEV_A461_G0_TWINS_2X2_EDGE_STRUCTURE_INDEPENDENT_REANALYSIS_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "actual_G0_archive_commit": "bd8d2cf83a5b3dcbc52fda52bbe6a45c161089f3",
+  "source_blobs": [
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "git_blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/token_audit.jsonl",
+      "git_blob_sha1": "f2bd1e5de0a6cfeb69d9b6e2d90d9979c4e642f7"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_N1B_REAL_20261025/n1b_rows.jsonl",
+      "git_blob_sha1": "02342e1dc0a188dd7390d0fd911710d29622a358"
+    }
+  ],
+  "scope": "Real archived CPU G0 typed-source Gold only; no new model run, no GPU, not G1 behavioral outcome.",
+  "policy_rule": "C true => reject_conflict; else Q true => accept; else wait",
+  "policy_corners": {
+    "C0Q0": "wait",
+    "C0Q1": "accept",
+    "C1Q0": "reject_conflict",
+    "C1Q1": "reject_conflict"
+  },
+  "counts": {
+    "native_pairs": 16,
+    "source_run_groups": 8,
+    "distinct_original_state_sha_prefixes": 15
+  },
+  "edges": {
+    "00->01": {
+      "pairs": 6,
+      "matched": 6,
+      "n1b": 6,
+      "groups": [
+        "twins_streamlet:run-101",
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-129",
+        "twins_streamlet:run-154"
+      ]
+    },
+    "01->11": {
+      "pairs": 2,
+      "matched": 0,
+      "n1b": 0,
+      "groups": [
+        "twins_streamlet:run-100",
+        "twins_streamlet:run-125"
+      ]
+    },
+    "00->10": {
+      "pairs": 4,
+      "matched": 4,
+      "n1b": 4,
+      "groups": [
+        "twins_streamlet:run-101",
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-121"
+      ]
+    },
+    "10->11": {
+      "pairs": 2,
+      "matched": 2,
+      "n1b": 2,
+      "groups": [
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-125"
+      ]
+    },
+    "11->11": {
+      "pairs": 2,
+      "matched": 2,
+      "n1b": 2,
+      "groups": [
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-129"
+      ]
+    }
+  },
+  "source_group_edge_membership": {
+    "twins_streamlet:run-101": [
+      "00->01",
+      "00->10"
+    ],
+    "twins_streamlet:run-105": [
+      "00->01",
+      "00->10",
+      "10->11"
+    ],
+    "twins_streamlet:run-114": [
+      "00->01",
+      "00->10",
+      "11->11"
+    ],
+    "twins_streamlet:run-121": [
+      "00->01",
+      "00->10"
+    ],
+    "twins_streamlet:run-129": [
+      "00->01",
+      "11->11"
+    ],
+    "twins_streamlet:run-154": [
+      "00->01"
+    ],
+    "twins_streamlet:run-100": [
+      "01->11"
+    ],
+    "twins_streamlet:run-125": [
+      "01->11",
+      "10->11"
+    ]
+  },
+  "pair_level_edge_evidence": [
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:addf18719636d0cd",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-101",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:14823a97e481548e",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-105",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:1b0e96fb22c6aebe",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-114",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:e5b68bed342aaa85",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-121",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:e35b601759fb4800",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-129",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T1_QUORUM_AXIS:39834f1dfb7861f1",
+      "edge": "00->01",
+      "axis": "TWINS_T1_QUORUM_AXIS",
+      "source_group": "twins_streamlet:run-154",
+      "neutral_gold": "wait",
+      "treatment_gold": "accept",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+      "edge": "01->11",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-100",
+      "neutral_gold": "accept",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": false,
+      "n1b_present": false
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:bb385759da896be4",
+      "edge": "00->10",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-101",
+      "neutral_gold": "wait",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:77ac7c784fa27f11",
+      "edge": "00->10",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-105",
+      "neutral_gold": "wait",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:23a492683724bfef",
+      "edge": "00->10",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-114",
+      "neutral_gold": "wait",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:e5b68bed342aaa85",
+      "edge": "00->10",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-121",
+      "neutral_gold": "wait",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+      "edge": "01->11",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-125",
+      "neutral_gold": "accept",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": false,
+      "n1b_present": false
+    },
+    {
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:6f8c5dea5cf8cea6",
+      "edge": "10->11",
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "source_group": "twins_streamlet:run-105",
+      "neutral_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:9044f95302e93e25",
+      "edge": "11->11",
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "source_group": "twins_streamlet:run-114",
+      "neutral_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:fb273c6528f29225",
+      "edge": "10->11",
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "source_group": "twins_streamlet:run-125",
+      "neutral_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    },
+    {
+      "pair_key": "TWINS_T3_CONFLICT_STABILITY:e90ece230eef6871",
+      "edge": "11->11",
+      "axis": "TWINS_T3_CONFLICT_STABILITY",
+      "source_group": "twins_streamlet:run-129",
+      "neutral_gold": "reject_conflict",
+      "treatment_gold": "reject_conflict",
+      "native_state_token_count_equal": true,
+      "n1b_present": true
+    }
+  ],
+  "exact_shared_baseline_fork": {
+    "source_group": "twins_streamlet:run-121",
+    "old_state_sha_prefix": "e5b68bed342aaa85",
+    "first_axis": "TWINS_T1_QUORUM_AXIS",
+    "second_axis": "TWINS_T2_CONFLICT_AXIS",
+    "same_old_state_after_reversing_appended_event": true,
+    "same_native_question_menu": true,
+    "old_Gold": {
+      "C": false,
+      "Q": false,
+      "action": "wait"
+    },
+    "interventions": [
+      "Quorum reached under no conflict: (C0,Q0)->(C0,Q1), wait->accept",
+      "New valid conflict under no quorum: (C0,Q0)->(C1,Q0), wait->reject_conflict"
+    ],
+    "caveat": "Two branches share EXACT one state, not two independent scenes. Native model outputs, intervention gradients or deployment authorization not measured."
+  },
+  "research_interpretation": {
+    "four_adjacent_policy_edge_types_present": true,
+    "all_four_gold_edges_have_equal_length_controls": false,
+    "edge_missing_equal_length": "C0Q1->C1Q1 (accept->reject_conflict), 2 pairs in run100 and run125; 0 matched.",
+    "T3_semantic_split": "2/4 C1Q0->C1Q1 (Gold reject in both), 2/4 C1Q1->C1Q1; T3 neutral changes Q for some, so it can test veto's dominance over quorum, not simply neutral text perturbation.",
+    "source_cluster_warning": "16 per-axis pairs span 8 run groups and 15 source state prefixes. Different groups across the 2x2, no same-state full 4-corner factorial. Do not calculate IID uncertainty on 16 pairs.",
+    "exploratory_g1_head_diagnostic": "Compare predicted conflict and quorum typed heads against independently computed Gold and certificate_action; if both auxiliary heads correct but certificate action incorrect, prioritize action integration head. If auxiliary head wrong, evidence parsing may explain action error. Cross-head inconsistency is observational, not causal mediation.",
+    "prevention": "Do not upgrade matched-length to matched semantics or actual model attack; do not treat source native Gold as real deployed permit/deny."
+  },
+  "next": "When G1 true logits appear, report edge-stratified baseline correctness, treatment errors, paired neutral errors and conflict/quorum/action head consistency per source run; investigate any strict positive with independent replication and then whitebox bidirectional interventions.",
+  "GPU_forwards_this_audit": 0,
+  "new_raw_DEV_rows_read": 0,
+  "school_server_access": false,
+  "other_agent_execution_ownership": "https://github.com/dddd2024/jev/issues/2"
+}

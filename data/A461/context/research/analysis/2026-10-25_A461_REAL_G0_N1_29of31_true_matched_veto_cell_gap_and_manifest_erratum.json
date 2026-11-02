@@ -1,0 +1,312 @@
+{
+  "schema": "JEV_A461_REAL_G0_CROSS_PAIR_TOKEN_PARITY_AND_VETO_CELL_AUDIT_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "executed_G0_commit": "bd8d2cf83a5b3dcbc52fda52bbe6a45c161089f3",
+  "audit_type": "Independent cross-row quantitative reanalysis of ACTUAL executed G0 records; no model calls/GPU or original corpus scanning",
+  "sources": {
+    "main_receipt": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/execution_receipt.json",
+      "blob_sha1": "9e4eb60eb23b87db436e10f6eab64c2919865b3c"
+    },
+    "pair_rows": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627"
+    },
+    "token_rows": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/token_audit.jsonl",
+      "blob_sha1": "f2bd1e5de0a6cfeb69d9b6e2d90d9979c4e642f7"
+    },
+    "verifier": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_VERIFY_REAL_20261025/independent_review.json",
+      "blob_sha1": "fac9727ae8bcc1109e3756f803290c593d71761d"
+    },
+    "n1b_receipt": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_N1B_REAL_20261025/execution_receipt.json",
+      "blob_sha1": "5f1c1c6501866d2865d948f0912fcc8000ab9eb8"
+    },
+    "n1b_rows": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_N1B_REAL_20261025/n1b_rows.jsonl",
+      "blob_sha1": "02342e1dc0a188dd7390d0fd911710d29622a358"
+    },
+    "manifest": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json",
+      "blob_sha1": "f54bac29a1b90b663096ed900b356318062c3c86"
+    }
+  },
+  "verified": {
+    "G0_main_receipt_status": "COMPLETE_A461_PSMI_G0_CPU_GATE_IMPL1",
+    "G0_second_verifier_status": "PASS_A461_PSMI_G0_INDEPENDENT_VERIFICATION",
+    "N1B_receipt_status": "COMPLETE_A461_PSMI_G0_N1B_CPU_ONLY",
+    "G0_model_CPU_weight_loads_reported": 1,
+    "model_forwards": 0,
+    "GPU_forwards": 0,
+    "source_local_Gold_verification_old_LANL": 328,
+    "source_local_Gold_verification_old_Twins": 12,
+    "G0_pair_keys": 34,
+    "distinct_original_state_SHA_prefixes": 30,
+    "actual_G0_modified_arm_rows": 65,
+    "actual_token_audit_rows": 65,
+    "treatment_vs_neutral_complete_pairs": 31,
+    "true_treatment_neutral_equal_NATIVE_STATE_token_count": 29,
+    "true_treatment_neutral_UNMATCHED": 2,
+    "incorrect_reported_manifest_N1_matched": 0,
+    "incorrect_reported_manifest_N1_unmatched": 31,
+    "N1B_real_rows": 14,
+    "N1B_independent_token_matched": 14,
+    "N1B_matched_but_PREEXISTING_N1_ALSO_matched": 14,
+    "N1B_T2_skipped_no_candidate": 2,
+    "N2_valid_descending_true_for_all": true,
+    "N2_distinct_timestamps_all": true,
+    "N2_rows": 3,
+    "forward_manifest_planned_with_4_replays": 103,
+    "old_baselines_in_manifest": 34,
+    "manifest_old_baseline_request_sha_null": 34,
+    "manifest_old_baseline_Gold_null": 34
+  },
+  "by_axis": {
+    "LANL_L1_B_THRESHOLD": {
+      "n": 9,
+      "true_equal": 9,
+      "manifest_equal": 0,
+      "n1b_rows": 0,
+      "old_gold_counts": {
+        "record_failed_attempt": 9
+      },
+      "source_groups": [
+        "lanl:day:48",
+        "lanl:day:49",
+        "lanl:day:50"
+      ]
+    },
+    "LANL_L3A_RISK_NONREGRESSION": {
+      "n": 6,
+      "true_equal": 6,
+      "manifest_equal": 0,
+      "n1b_rows": 0,
+      "old_gold_counts": {
+        "investigate": 6
+      },
+      "source_groups": [
+        "lanl:day:48",
+        "lanl:day:49",
+        "lanl:day:50"
+      ]
+    },
+    "TWINS_T1_QUORUM_AXIS": {
+      "n": 6,
+      "true_equal": 6,
+      "manifest_equal": 0,
+      "n1b_rows": 6,
+      "old_gold_counts": {
+        "wait": 6
+      },
+      "source_groups": [
+        "twins_streamlet:run-101",
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-129",
+        "twins_streamlet:run-154"
+      ]
+    },
+    "TWINS_T2_CONFLICT_AXIS": {
+      "n": 6,
+      "true_equal": 4,
+      "manifest_equal": 0,
+      "n1b_rows": 4,
+      "old_gold_counts": {
+        "accept": 2,
+        "wait": 4
+      },
+      "source_groups": [
+        "twins_streamlet:run-100",
+        "twins_streamlet:run-101",
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-121",
+        "twins_streamlet:run-125"
+      ]
+    },
+    "TWINS_T3_CONFLICT_STABILITY": {
+      "n": 4,
+      "true_equal": 4,
+      "manifest_equal": 0,
+      "n1b_rows": 4,
+      "old_gold_counts": {
+        "reject_conflict": 4
+      },
+      "source_groups": [
+        "twins_streamlet:run-105",
+        "twins_streamlet:run-114",
+        "twins_streamlet:run-125",
+        "twins_streamlet:run-129"
+      ]
+    }
+  },
+  "unmatched_critical_old_accept_new_reject_T2": [
+    {
+      "key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-100",
+      "old_gold_assuming_invariant_neutral": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "new_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "token_len_treatment": 1086,
+      "token_len_neutral": 1090,
+      "token_len_old": 1053,
+      "token_sha_treatment": "9e6266ddfcc594d9457af6ca65018e2ba70312657b249f35d43f14a7a96950ee",
+      "token_sha_neutral": "a9594af3189b6b479c977a8a01a0aa51b6ca4574ac5fe1a0a5dc87034cd007a0",
+      "native_question_configuration_exactly_equal": true,
+      "actual_matched_new_neutral": false,
+      "old_manifest_wrong_comparator_matched": false,
+      "has_matched_N1B": false
+    },
+    {
+      "key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+      "axis": "TWINS_T2_CONFLICT_AXIS",
+      "source_group": "twins_streamlet:run-125",
+      "old_gold_assuming_invariant_neutral": {
+        "certificate_action": "accept",
+        "conflicting_vote": false,
+        "evidence_level": 0,
+        "quorum": true
+      },
+      "new_gold": {
+        "certificate_action": "reject_conflict",
+        "conflicting_vote": true,
+        "evidence_level": 2,
+        "quorum": true
+      },
+      "token_len_treatment": 411,
+      "token_len_neutral": 415,
+      "token_len_old": 378,
+      "token_sha_treatment": "aefe4ae705a2f7ae04ae64e440a3afa3240824952e256b9d762d7c87326ea93f",
+      "token_sha_neutral": "34f24deaad398ea876be5ffcc936402b6000c0d42428f10253eb98a64c80afe6",
+      "native_question_configuration_exactly_equal": true,
+      "actual_matched_new_neutral": false,
+      "old_manifest_wrong_comparator_matched": false,
+      "has_matched_N1B": false
+    }
+  ],
+  "N2_actual_derived_state_tests": [
+    {
+      "key": "LANL_N2_TIMESTAMP_INVARIANCE:8405be21110e3ceb",
+      "source_group": "lanl:day:48",
+      "times": [
+        234,
+        152,
+        79,
+        70
+      ],
+      "descending": true,
+      "distinct": true,
+      "delta": 1
+    },
+    {
+      "key": "LANL_N2_TIMESTAMP_INVARIANCE:9ffd190c8c9483e9",
+      "source_group": "lanl:day:49",
+      "times": [
+        232,
+        156,
+        148,
+        78
+      ],
+      "descending": true,
+      "distinct": true,
+      "delta": 1
+    },
+    {
+      "key": "LANL_N2_TIMESTAMP_INVARIANCE:1be5102b0f7b22b6",
+      "source_group": "lanl:day:50",
+      "times": [
+        235,
+        155,
+        79,
+        75
+      ],
+      "descending": true,
+      "distinct": true,
+      "delta": 1
+    }
+  ],
+  "duplicate_old_state_sha_prefix_cross_axis": [
+    {
+      "prefix": "8405be21110e3ceb",
+      "axes": [
+        "LANL_L1_B_THRESHOLD:8405be21110e3ceb",
+        "LANL_N2_TIMESTAMP_INVARIANCE:8405be21110e3ceb"
+      ]
+    },
+    {
+      "prefix": "9ffd190c8c9483e9",
+      "axes": [
+        "LANL_L1_B_THRESHOLD:9ffd190c8c9483e9",
+        "LANL_N2_TIMESTAMP_INVARIANCE:9ffd190c8c9483e9"
+      ]
+    },
+    {
+      "prefix": "1be5102b0f7b22b6",
+      "axes": [
+        "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6",
+        "LANL_N2_TIMESTAMP_INVARIANCE:1be5102b0f7b22b6"
+      ]
+    },
+    {
+      "prefix": "e5b68bed342aaa85",
+      "axes": [
+        "TWINS_T1_QUORUM_AXIS:e5b68bed342aaa85",
+        "TWINS_T2_CONFLICT_AXIS:e5b68bed342aaa85"
+      ]
+    }
+  ],
+  "independent_checks": {
+    "65": true,
+    "G0": true,
+    "keys": true,
+    "pairs": true,
+    "match": true,
+    "unmatch": true,
+    "n1b": true,
+    "n2": true,
+    "unique_old": true,
+    "budget": true,
+    "negative": true
+  },
+  "key_finding": "Manifest compares neutral vs old (0/31), not neutral vs treatment (29/31), and incorrectly reports no native-token-count-matched neutral arms. The only 2 unmatched are critical T2 old accept -> reject veto precedence in run100 and run125.",
+  "interpretation": {
+    "N1B": "N1B technical 14/14 matches but all 14 already had matched old N1; N1B explores different nuisance transformations but adds zero distinct equal-token coverage for these frozen pairs.",
+    "LANL": "Both L1 9/9 and L3A 6/6 had equal state token counts across actual new and neutral; report of LANL equal-length neutral 'infeasibility' is contradicted as a length-only statement, though event-source semantics still require review.",
+    "N2": "Earlier synthetic chronological violation was a plausible code failure, but NOT present in frozen three retimed arms.",
+    "sample_dependencies": "34 pair_keys correspond to only 30 distinct original STATE hash prefixes (N2 reuse and one other overlap). Full exact native request hashes for old baselines absent; do not deduplicate physical budget by prefix alone.",
+    "G0": "Dual-path CPU technical PASS is supported by archived receipts, but formal SOP G0 model_loads=0 conflicts with observed cpu_model_loads=1; require explicit erratum or approval, without rewriting past evidence.",
+    "Gold": "Source-local label-oracle pass, not actual deployed authorization; G1 not yet run, no model policy monotonicity or white-box mechanism proven.",
+    "limits": "Equal state-token lengths are necessary, not sufficient, for isolating semantic cause; token IDs differ, source provenance/candidate meaning and positions need independent controls. 2 critical veto cells remain structurally unmatched."
+  },
+  "decision": {
+    "formal_g0_CPU_scientific_evidence": "REAL_ARCHIVED_DUAL_ORACLE_AND_TOKEN_RERENDER_PASS",
+    "G1_physical_manifest_current_status": "ERRATUM_REQUIRED",
+    "strict_veto_quorum_neutral_control": "HOLD_TWO_ACCEPT_TO_REJECT_UNMATCHED",
+    "GPU_authorized": false,
+    "need_explicit_future_authorization": true
+  },
+  "resources": {
+    "new_model_forwards": 0,
+    "new_GPU": 0,
+    "new_original_corpus_rows": 0,
+    "archived_model_input_rows_reanalyzed": 65,
+    "archived_token_rows_reanalyzed": 65,
+    "archived_N1B_rows_reanalyzed": 14,
+    "server_access": false,
+    "library_sync": false
+  }
+}

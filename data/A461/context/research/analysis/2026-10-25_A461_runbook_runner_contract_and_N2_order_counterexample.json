@@ -1,0 +1,107 @@
+{
+  "schema": "JEV_A461_RUNBOOK_NEW_CODE_EXECUTION_CONTRACT_COUNTEREXAMPLE_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "scope": "INDEPENDENT_STATIC_AUDIT_PLUS_SYNTHETIC_UNIT_COUNTEREXAMPLE__NO_A461_G0_EXECUTION",
+  "evidence": [
+    {
+      "path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_RUNBOOK.md",
+      "sha": "2d39e26de66547abb15c1b5674f447f986f11d91"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_counterfactual_cpu_gate_v1.py",
+      "sha": "9b814ed9096ad633ea729b1e7b4cf813eac734f4"
+    },
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py",
+      "sha": "bd98429bf245b6dab14afd006b0af651fad36772"
+    }
+  ],
+  "hard_static_mismatches": [
+    {
+      "code": "RUNBOOK_PRECREATED_OUTPUT_CLASH",
+      "impact": "G0 immediate fail when runbook commands executed verbatim",
+      "source_runbook_line": 19,
+      "runbook_cmd": "test ! -e \"$RUN\" && mkdir -p \"$RUN\"/{G0,G0_VERIFY,manifests,receipts,logs}",
+      "source_main_line": 251,
+      "main_condition": "out.parent.is_dir() and not out.exists()",
+      "source_verifier_line": 337,
+      "verifier_condition": "out.parent.is_dir() and not out.exists()",
+      "resolution": "Create RUN root and manifests/receipts/logs only, not G0/G0_VERIFY; scripts create their own exclusive new output directories."
+    },
+    {
+      "code": "VERIFIER_REQUIRED_REPO_ROOT_FLAG_MISSING",
+      "impact": "Verifier argparse fails before independent Oracle",
+      "runbook_line": 29,
+      "runbook_cmd": "--g0 \"$RUN\"/G0 --out \"$RUN\"/G0_VERIFY",
+      "verifier_line": 327,
+      "required_arg": "--repo-root",
+      "resolution": "Include --repo-root ~/wjc/jev-checkout in G0 verifier invocation."
+    }
+  ],
+  "N2_order_synthetic_test": {
+    "kind": "PURE_IN_MEMORY_SYNTHETIC_WITNESS_NOT_REAL_CORPUS",
+    "orig_ages": [
+      240,
+      220,
+      200,
+      199,
+      150
+    ],
+    "orig_results": [
+      "Fail",
+      "Fail",
+      "Success",
+      "Fail",
+      "Fail"
+    ],
+    "all_destination_computers": "computer_1",
+    "within_300sec_window": true,
+    "orig_chronological_descending": true,
+    "all_failed_count_before": 4,
+    "failed_count_after": 4,
+    "risk_gold_before": "record_failed_attempt if current event failed",
+    "risk_gold_after": "record_failed_attempt if current event failed",
+    "main_retime_algorithm": "Increment all failed prior event seconds by smallest delta in 1..59 preserving in-window bounds, distinct failures and no collision with unmodified success-event seconds; do NOT reorder or check combined chronological sort.",
+    "delta_1_rejected_because": "Old fail at199→200 collides with unmodified Success at200",
+    "chosen_delta": 2,
+    "new_ages": [
+      242,
+      222,
+      200,
+      201,
+      152
+    ],
+    "new_chronological_descending": false,
+    "failure_index_first_violation_0based": 3,
+    "code_primary_lines": [
+      186,
+      201
+    ],
+    "code_verifier_lines": [
+      217,
+      240
+    ],
+    "expected_gate": "N2 Gold invariance is necessary but insufficient. Require all prior events preserve required descending chronology and event identity/time semantics; if N2 cannot maintain source-order, mark invalid/stop that control; no post-hoc sorting without independent source-contract proof."
+  },
+  "additional_hard_gaps_linked_to_primary_qa": [
+    "G0 V1 protocol model_loads=0 vs CPU Checkpoint.load 1 per script when full-rendered.",
+    "N1 true equal-native-token treatment-vs-neutral not asserted.",
+    "len(emitted)=65 max excludes up to31 distinct original baseline forwards; prospective ledger at most96 before replays.",
+    "Verifier --skip-render can return full PASS without token rerender; need partial status."
+  ],
+  "issue_comments_added": [
+    6393452464,
+    6393468274
+  ],
+  "formal_G0_executed": false,
+  "approved_GPU_hours": 0,
+  "next_valid_step": "Executing parallel Agent should revise code/runbook prospectively, preserve status/QA evidence and only after original corpus full scan + second verifier + true tokenizer checks issue CPU G0 PASS/HOLD/STOP.",
+  "resources": {
+    "model_forwards": 0,
+    "GPU_forwards": 0,
+    "original_corpus_rows_scanned": 0,
+    "remote_server_access": false,
+    "GPT_library_sync": false
+  }
+}

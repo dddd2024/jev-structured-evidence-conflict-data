@@ -1,0 +1,62 @@
+{
+  "schema": "JEV_A461_G0_TWO_FACTOR_POLICY_EDGE_INDEPENDENT_RESEARCH_READBACK_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "readback_artifacts": [
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.json",
+      "blob_sha": "3e48a253aa95ad952be65006d0fed41c4f978b63",
+      "parsed_assertions_pass": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.md",
+      "blob_sha": "9ef5b146abf648487259d558badf16a0b8a77473",
+      "readback": true
+    }
+  ],
+  "real_frozen_G0_data": {
+    "Twins_pair_keys": 16,
+    "distinct_run_groups": 8,
+    "distinct_old_state_prefixes": 15,
+    "oracle_edge_counts": {
+      "C0Q0_to_C0Q1": 6,
+      "C0Q0_to_C1Q0": 4,
+      "C0Q1_to_C1Q1": 2,
+      "C1Q0_to_C1Q1": 2,
+      "C1Q1_to_C1Q1": 2
+    },
+    "equal_length_counts": {
+      "C0Q0_to_C0Q1": 6,
+      "C0Q0_to_C1Q0": 4,
+      "C0Q1_to_C1Q1": 0,
+      "C1Q0_to_C1Q1": 2,
+      "C1Q1_to_C1Q1": 2
+    },
+    "run121_fork": {
+      "original_state_hash_prefix": "e5b68bed342aaa85",
+      "two_changes_share_exact_same_original_state": true,
+      "independent_original_state_count": 1
+    }
+  },
+  "latest_G1_runner_as_observed": {
+    "commit": "cb15099e51535cbcaff20d058bfe89c739249fc6",
+    "code_blob_sha": "92974bd102f3a16e93471f483a656f37ef6bae54",
+    "fix": "All 103 raw logits now saved before replay post-loop check if all 103 forwards successfully complete.",
+    "remaining_defect": "Replay collector only collects kind=replay, expects two entries per base; guaranteed INCOMPLETE_LEDGER and final FAIL. If any forward fails before loop exit, partial logits not yet persisted.",
+    "matched_neutral_partition_still_old_first17": true,
+    "real_G1_model_results_verified": false
+  },
+  "issue_comments": [
+    6393915950,
+    6393922576
+  ],
+  "state": "CPU_G0_REAL_PASS; G1_PILOT_CODE_IN_PROGRESS; NO_MODEL_POSITIVE_YET",
+  "resources": {
+    "new_GPU_forwards": 0,
+    "new_model_forwards": 0,
+    "new_original_corpus_rows": 0,
+    "school_server_used": false,
+    "gpt_library_backup_verified": false
+  },
+  "caveat": "Gold 2x2 edge coverage is not a factorial experimental design with same original state at all four corners; only one shared two-arm fork in run121. No deployment authorization or mechanism claims."
+}

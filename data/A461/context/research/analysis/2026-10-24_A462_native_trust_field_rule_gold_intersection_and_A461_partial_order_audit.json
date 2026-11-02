@@ -1,0 +1,360 @@
+{
+  "schema": "JEV_A462_TRUST_POLICY_NATIVE_CAPABILITY_G_MINUS_1_DIAGNOSTIC_V1",
+  "analysis_local_date": "2026-10-24",
+  "source_snapshots": {
+    "native_dev": {
+      "path": "research/rounds/R0_20261020_NATIVE_SECURITY_TASK_QUALIFICATION/R0_REAL_20261020/R0_OFFICIAL_NATIVE_DEVELOPMENT_SOURCE_AUDIT_V1.json",
+      "git_blob_sha1": "1842eeadbf0b1447b426f55f4b211e3533f11982"
+    },
+    "twins_ingress": {
+      "path": "research/rounds/R1_20261020_SOURCE_OWNER_ADAPTER_GATE/R1_G1_ORIGINAL_FOUR_SPLIT_TO_MODEL_BOUNDARY_V2.json",
+      "git_blob_sha1": "773fa2d5bd02025b5e630ad17b097e7eb41b2b0f"
+    },
+    "lanl_v2": {
+      "path": "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/coverage_and_discrepancy_report.json",
+      "git_blob_sha1": "aaef32ed1df81c1f3300f6f4c32f160f340a5948"
+    },
+    "twins_v2": {
+      "path": "research/rounds/A430_QDID_S0_OFFICIAL_DEV_DUPLICATE_SUPPORT_CPU_GATE/G0_REAL_20261024_V2/S0_SOURCE_SUPPORT_RESULT.json",
+      "git_blob_sha1": "7bf5c4ce516a4db375f908591a4bad8f325a9ada"
+    },
+    "action_case": {
+      "path": "research/rounds/A451_M0_EXISTING_NATIVE_VETO_ACTION_RECOUNT/RESULT_MEMO.md",
+      "git_blob_sha1": "4bdc6925279cc4aea3c68f39742d24253846ed62"
+    },
+    "a462": {
+      "path": "research/literature/A462_20261025/A462_experiment_protocol.json",
+      "git_blob_sha1": "8b50dd93ce3cd766edf51896ed6cc7ce6fbf10b1"
+    },
+    "a461": {
+      "path": "research/literature/A461_20261025/A461_experiment_protocol.json",
+      "git_blob_sha1": "87fefaec85d7106bf01b5bbc6def1df337f86dc1"
+    }
+  },
+  "baseline_head_inspected": "b83753437ad300c124804fbcfc35b84660283ff2",
+  "method": "Independent cross-join of PREVIOUSLY_EXECUTED original DEV source/state-key census with existing two source-local rule rederivations; no new corpus scene read and no user-message synthetic new corpus.",
+  "original_corpus": "SecJev-Corpus v1.0.0",
+  "native_DEV_source_capability_table": [
+    {
+      "source": "agentdojo_tool_outputs",
+      "DEV_scenes": 222,
+      "DEV_source_groups": 7,
+      "native_top_level_fields": [
+        "tool_call",
+        "trust_policy",
+        "trusted_user_request",
+        "untrusted_tool_response"
+      ],
+      "has_explicit_untrusted_tool_response": true,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "byzfl_mnist",
+      "DEV_scenes": 140,
+      "DEV_source_groups": 7,
+      "native_top_level_fields": [
+        "aggregation_candidates",
+        "client_order",
+        "client_statistics",
+        "current_cosine_matrix",
+        "objective",
+        "previous_round_validation_losses",
+        "round",
+        "server_validation_loss_before_update",
+        "step_size",
+        "task",
+        "trimmed_mean_per_tail"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "ciciot2023",
+      "DEV_scenes": 5000,
+      "DEV_source_groups": 9,
+      "native_top_level_fields": [
+        "features",
+        "observation"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "injecagent",
+      "DEV_scenes": 124,
+      "DEV_source_groups": 2,
+      "native_top_level_fields": [
+        "tool_called",
+        "tool_parameters",
+        "trust_policy",
+        "trusted_user_request",
+        "untrusted_tool_response"
+      ],
+      "has_explicit_untrusted_tool_response": true,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "lanl_auth_policy",
+      "DEV_scenes": 328,
+      "DEV_source_groups": 7,
+      "native_top_level_fields": [
+        "current_event",
+        "history_window_seconds",
+        "observation",
+        "older_history_summary",
+        "recent_prior_events",
+        "same_second_prior_events",
+        "triage_policy"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": true,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "ton_iot_network",
+      "DEV_scenes": 2500,
+      "DEV_source_groups": 13,
+      "native_top_level_fields": [
+        "features",
+        "observation"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "twins_streamlet",
+      "DEV_scenes": 797,
+      "DEV_source_groups": 42,
+      "native_top_level_fields": [
+        "candidate_block",
+        "candidate_round",
+        "decision_time",
+        "observer",
+        "policy",
+        "quorum_size",
+        "received_messages",
+        "validator_set"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": true,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    },
+    {
+      "source": "veremi_nextgen",
+      "DEV_scenes": 800,
+      "DEV_source_groups": 59,
+      "native_top_level_fields": [
+        "messages",
+        "observation_schema",
+        "task"
+      ],
+      "has_explicit_untrusted_tool_response": false,
+      "source_local_executable_rule_Gold_previously_verified": false,
+      "has_both": false,
+      "attacker_write_verified": false,
+      "independent_deployed_authorization_Gold_verified": false
+    }
+  ],
+  "matrix_summary": {
+    "n_source_families": 8,
+    "DEVELOPMENT_original_scenes": 9911,
+    "proven_local_rule_gold_families": [
+      "lanl_auth_policy",
+      "twins_streamlet"
+    ],
+    "explicit_untrusted_response_families": [
+      "agentdojo_tool_outputs",
+      "injecagent"
+    ],
+    "verified_intersection_families": [],
+    "verified_intersection_count": 0,
+    "interpretation": "Among the original eight source families and explicit top-level fields in prior frozen DEV census, neither native source family with a VERIFIED deterministic source-local policy oracle has an explicit untrusted_tool_response field; both families with explicit untrusted_tool_response lack independently verified full policy-action Oracle. Absence of top-level field does not establish absence of attack-controlled nested values or prohibit new schema designs.",
+    "untrusted_tool_field_semantics_not_permission_gold": true,
+    "twins_received_messages_actor_write_proof": "NOT_PROVEN",
+    "twins_upstream_trace_adapter_proof": "UNVERIFIED_IN_PUBLISHED_SCANNED_PYTHON; existence outside release not excluded",
+    "twins_upstream_votes_only_boolean_signature_flag": true,
+    "twins_state_keys_complete_for_dev_count": [
+      "candidate_block",
+      "candidate_round",
+      "decision_time",
+      "observer",
+      "policy",
+      "quorum_size",
+      "received_messages",
+      "validator_set"
+    ],
+    "lanl_state_keys_complete_for_dev_count": [
+      "current_event",
+      "history_window_seconds",
+      "observation",
+      "older_history_summary",
+      "recent_prior_events",
+      "same_second_prior_events",
+      "triage_policy"
+    ],
+    "source_local_gold_support": [
+      {
+        "source": "lanl_auth_policy",
+        "original_DEV_scenes": 328,
+        "original_DEV_groups": 7,
+        "matched_source_local_gold": true,
+        "source_local_pass": "PASS_SOURCE_LOCAL_LANL_POLICY_GOLD_ONLY_GPU_HOLD",
+        "full_deployed_authorization": false
+      },
+      {
+        "source": "twins_streamlet",
+        "original_DEV_scenes": 797,
+        "original_DEV_groups": 42,
+        "source_local_oracle_action_distribution": {
+          "accept": 290,
+          "reject_conflict": 230,
+          "wait": 277
+        },
+        "original_DEV_duplicate_support": "STOP_NO_NATURAL_REPEATED_CANDIDATE_VOTE_SUPPORT__GPU_NOT_ADMITTED",
+        "attacker_writable_arrival_channel": "The raw trace -> SecJev corpus adapter and attacker-writable arrival channel remain unverified."
+      }
+    ]
+  },
+  "prior_candidate_decision": {
+    "A461_PSMI": {
+      "priority": "P1_RETAIN_CPU_G_MINUS_1",
+      "interpretation": "Executable local policy predicates exist in two original source families, but admissible rule-preserving paired transitions + independent fresh positive not yet proven; no GPU."
+    },
+    "A462_TCMI": {
+      "priority": "P2_HOLD_NO_NATIVE_TRUST_POLICY_INTERSECTION",
+      "cause": "Original 2×2 trust×veto requires typed low-trust content in the same source policy-Gold family; this combination is NOT VERIFIED. Synthetic field insertion would change source distribution/contract, and should receive its own explicit G-1. Do not claim attack control or allow G0 on existing native corpus."
+    },
+    "A453_OSST": {
+      "priority": "P2_TRAIN_OBSERVABILITY_HOLD",
+      "cause": "Existing published two-rater source-label common support insufficient and new TRAIN-level O/L assignment unverified."
+    },
+    "A460_PEPC": {
+      "priority": "P3_PRIOR_ART"
+    }
+  },
+  "theorem_only_source_local_not_model": {
+    "twins": {
+      "rule": "C := any eligible conflicting vote by an existing candidate author; Q := at least k distinct eligible candidate authors; action = reject_conflict if C else accept if Q else wait",
+      "truth_table": [
+        {
+          "conflict": false,
+          "quorum": false,
+          "action": "wait"
+        },
+        {
+          "conflict": false,
+          "quorum": true,
+          "action": "accept"
+        },
+        {
+          "conflict": true,
+          "quorum": false,
+          "action": "reject_conflict"
+        },
+        {
+          "conflict": true,
+          "quorum": true,
+          "action": "reject_conflict"
+        }
+      ],
+      "append_only_monotonicity": "Only for policy-authenticated, on-time and well-formed messages with candidate/round/quorum/policy fixed: append valid candidate vote from new author can only increase Q, not create C; append conflicting vote by currently represented candidate voter makes C true and preserves Q. This is a deterministic rule prediction, not model score monotonicity.",
+      "improper_claim": "Votes may be represented by a boolean signature validity flag; this does not independently verify real cryptographic source authentication or an attacker-controlled message ingress."
+    },
+    "lanl": {
+      "rule": "R := prior valid failure count >=5 or known distinct destinations >=3 in valid window; triage = investigate if R, else record_failed_attempt if current failure else continue_monitoring",
+      "truth_table": [
+        {
+          "risk_threshold_or_spread": false,
+          "current_logon_failure": false,
+          "triage": "continue_monitoring"
+        },
+        {
+          "risk_threshold_or_spread": false,
+          "current_logon_failure": true,
+          "triage": "record_failed_attempt"
+        },
+        {
+          "risk_threshold_or_spread": true,
+          "current_logon_failure": false,
+          "triage": "investigate"
+        },
+        {
+          "risk_threshold_or_spread": true,
+          "current_logon_failure": true,
+          "triage": "investigate"
+        }
+      ],
+      "append_only_monotonicity": "Only under fixed current event, fixed time window, stable source destination identities and a valid prior failure added within the window, R is nondecreasing. There is no total-order authorisation ranking among all three triage labels; only the investigate indicator is a monotone predicate.",
+      "improper_claim": "Triaging a security event does not enforce authorization and noninvestigate labels are not both allow."
+    }
+  },
+  "competitors_direct_primary": [
+    {
+      "title": "SecJev v2",
+      "url": "https://arxiv.org/html/2610.03073v2",
+      "checked": "§3.1-3.3, §4.1, Table1: every question an independent causal row; no observable serial recognition-to-action edge."
+    },
+    {
+      "title": "Policy-Invisible Violations in LLM-Based Agents",
+      "url": "https://arxiv.org/abs/2604.12177",
+      "checked": "primary Introduction + method overview; absent policy state can induce unsafe outcomes; threat is not identical to source-simulated policy action."
+    },
+    {
+      "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
+      "url": "https://arxiv.org/abs/2609.05269",
+      "checked": "primary intro + claims; provenance/authorization must be bound through execution layers; competition to naive trust field effect."
+    },
+    {
+      "title": "Authenticated Workflows",
+      "url": "https://arxiv.org/abs/2602.10465",
+      "checked": "primary intro; cryptographic auth and action enforcement separated from model predictions."
+    }
+  ],
+  "key_existing_strict_candidate": {
+    "source": "A451 archived FP32 18 native branches, 6 reused Twins DEV source groups",
+    "strict_source_local_correct_conflict_but_action_accept_old_rows": 1,
+    "candidate": "A428_011_SHAM_ACTIVE_MATCHED_TO_CANDIDATE_ID_WIDTH",
+    "source_group": "twins_streamlet:run-100",
+    "known_old_margin_accept_minus_reject": 0.524726391,
+    "not_model_discovery_this_round": true,
+    "cannot_infer_recognition_to_action_causal_edge": true,
+    "no_fresh_independent_evidence": true
+  },
+  "requires_before_experiment": [
+    "Freeze at least two source families with valid policy rule and same input's explicit provenance/attacker permission if A462 is continued; otherwise STOP or redescribe as a synthetic contract test with new G-1.",
+    "Check original nested source permissions rather than treating observed messages as proof of adversary editability.",
+    "Within A461 only, prove typed-policy partial order and valid matched transitions first, with negative controls for tokenization, candidate semantics, source group, and Q/K; no cross-question information-flow story.",
+    "Strong competitor novelty decision must be completed and independent reviewer signoff recorded before any new experimental protocol/run.",
+    "No reused DEV 6 groups represented as independent confirmatory evidence."
+  ],
+  "resource_log": {
+    "new_model_calls": 0,
+    "new_GPU_forwards": 0,
+    "new_train_rows_read": 0,
+    "new_TEST_CAL_rows_read": 0,
+    "server_access": false,
+    "gpt_library_sync": false
+  },
+  "G_MINUS_1_PASS": false,
+  "GPU_admission": false,
+  "conclusion": "A462 original-native trust×veto 2×2 has no verified joint native support; prioritize A461 M-route oracle/monotonicity feasibility and park A462 rather than consuming GPU or inventing attack field."
+}

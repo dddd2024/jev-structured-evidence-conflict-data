@@ -1,0 +1,46 @@
+{
+  "round": "A461",
+  "new_titles": [],
+  "enriched_existing_records": [
+    {
+      "arxiv_id": "2610.19536",
+      "title": "Typed Decision Models on Tabular Data",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2610.02076",
+      "title": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2610.00831",
+      "title": "AnyJev Technical Report",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2608.25697",
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2607.04430",
+      "title": "Uncertainty-Aware Abstention in Large Language Models with Provable Alignment Guarantees",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2605.20994",
+      "title": "Towards Context-Invariant Safety Alignment for Large Language Models",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2610.19619",
+      "title": "Are AI Decision Models Biased? A Case Study of Jev",
+      "action": "enriched_existing_record"
+    },
+    {
+      "arxiv_id": "2609.37647",
+      "title": "Evaluating and Benchmarking the System One Model Jev",
+      "action": "enriched_existing_record"
+    }
+  ]
+}

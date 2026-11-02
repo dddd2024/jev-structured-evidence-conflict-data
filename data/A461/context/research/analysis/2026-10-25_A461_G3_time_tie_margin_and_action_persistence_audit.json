@@ -1,0 +1,132 @@
+{
+  "schema": "JEV_A461_G3_POSTHOC_MARGIN_ACTION_PERSISTENCE_AND_TIE_SWAP_AUDIT_V1",
+  "date": "2026-10-25",
+  "status": "COMPLETE_SECONDARY_CPU_AUDIT_NO_GPU",
+  "source_blob_sha1": {
+    "g0_pairs": "8de45fc200d0e37be676f172d844b3ab2c6c23c7",
+    "g0_token_audit": "2c5b932ae9e36d5e5380eff558f0437424a39261",
+    "g1_raw_logits": "7a55817abea0f15a4162b620a412a18564b315f4",
+    "g2_per_pair": "e33e75ae24816768661bb99bc52ae501356114c5",
+    "g0_census": "78516e900167e5e94f9a134eeddbc64a047cb17b",
+    "equal_received_tie_swap_cpu_candidates": "5cdacdad2ebc052bd607d829dc1713f913372034"
+  },
+  "baseline_and_action": {
+    "total_T2": 20,
+    "old_prediction_reject_conflict": 1,
+    "new_prediction_reject_conflict": 3,
+    "NEW_gold_correct_reject": 3,
+    "actual_nonreject_to_reject_transitions": 2,
+    "clean_old_C_false_to_new_C_true_transitions": 1,
+    "rejecting_new_cases": [
+      {
+        "run": "run-211",
+        "old_C": true,
+        "new_C": true,
+        "old_action": "reject_conflict",
+        "new_action": "reject_conflict",
+        "meaning": "old false-positive rejection persists, not a flip"
+      },
+      {
+        "run": "run-328",
+        "old_C": true,
+        "new_C": true,
+        "old_action": "accept",
+        "new_action": "reject_conflict",
+        "meaning": "old action inconsistency resolved with C unchanged; N1B invalid and unmatched"
+      },
+      {
+        "run": "run-338",
+        "old_C": false,
+        "new_C": true,
+        "old_action": "wait",
+        "new_action": "reject_conflict",
+        "old_quorum_prediction": false,
+        "new_quorum_prediction": true,
+        "meaning": "only C-head false-to-true flip; matched valid N1B itself false-positive C=true"
+      }
+    ],
+    "action_equals_own_CQ": {
+      "old": 21,
+      "new": 22,
+      "total_pairs": 26,
+      "new_inconsistency_induced_from_consistent_old": 0,
+      "old_inconsistencies_resolved": 1,
+      "new_inconsistent_pairs": [
+        "run-181",
+        "run-212",
+        "run-372",
+        "run-83"
+      ]
+    },
+    "rule_inconsistencies_not_caused_by_append": "All 4 new-arm C/Q-to-action inconsistencies were already present in the corresponding old baseline; one old-arm inconsistency (run-328) resolves."
+  },
+  "head_logit_margin": {
+    "formula": "M_C = logit(true) - logit(false); D_old = M_C(treatment) - M_C(old); D_null = M_C(treatment) - M_C(N1B)",
+    "T2_treatment_minus_old": {
+      "n": 20,
+      "positive": 17,
+      "negative": 3,
+      "median": 0.44573137164115906,
+      "mean": 0.9168518781661987,
+      "two_sided_exact_sign_p": 0.0025768280029296875
+    },
+    "T2_treatment_minus_valid_token_matched_N1B": {
+      "n": 13,
+      "positive": 7,
+      "negative": 6,
+      "median": 0.061533212661743164,
+      "mean": 0.8224297349269574,
+      "two_sided_exact_sign_p": 1
+    },
+    "T2_wait_valid_null": {
+      "n": 10,
+      "positive": 5,
+      "negative": 5,
+      "median": -0.09965312480926514,
+      "two_sided_exact_sign_p": 1
+    },
+    "interpretation": "Direct old-to-treatment margins show directional response to appended material; after null-author control, no stable sign-direction is demonstrated. These analyses are posthoc, noncausal, and not formal preregistered hypothesis tests."
+  },
+  "strict_controls": {
+    "N1B_valid_token_matched_T2_wait": 10,
+    "N1B_valid_token_matched_T2_accept": 3,
+    "total_T2_valid_N1B": 13,
+    "treatment_and_neutral_pred_C_agree_valid": 13,
+    "old_C_false_and_neutral_C_false_subset": 11,
+    "conflict_recognition_success_in_that_subset": 0
+  },
+  "source_group_exhaustion": {
+    "claimed_Streamlet_DEV_total_groups": 42,
+    "previously_excluded_groups": 18,
+    "new_T2_groups": 20,
+    "T3_additional_non_T2_groups": 4,
+    "T3_overlapping_T2_groups": 2,
+    "union_touched": 42,
+    "remaining_unseen_DEV_groups": 0
+  },
+  "exploratory_control": {
+    "name": "A461_G3_EQUAL_RECEIVED_TIE_SWAP_CPU_CANDIDATES",
+    "input_count": 26,
+    "T2_wait": 10,
+    "T2_accept": 10,
+    "T3": 6,
+    "same_received_last_two": 26,
+    "observed_nondecreasing_time_valid": 26,
+    "event_multiset_preserved": 26,
+    "independent_oracle_gold_preserved": 26,
+    "adjacent_same_author": 4,
+    "adjacent_last_old_candidate_vote_same_author": 3,
+    "tokenizer_match_checked": false,
+    "server_execution": false,
+    "model_inference_done": false,
+    "source_provenance_microorder_validated": false,
+    "token_matched_control_claim": "NOT_YET_ESTABLISHED",
+    "cpu_candidate_file": "research/analysis/2026-10-25_A461_G3_equal_received_tie_swap_CPU_candidates.jsonl"
+  },
+  "interpretation_contract": [
+    "Only behavioral conditional observations; cannot infer mediation from independently scored question outputs",
+    "The existing T2 sample is already used and no untouched Streamlet DEV run group remains; tie-swap is exploratory within-pair, not unseen confirmatory replication",
+    "Before any new GPU stage, finish current G3 protocol/metrics erratum, literature novelty gate, tokenizer + independent schema legality review, per-round budget freeze and user authorization",
+    "Tied numeric timestamps alone do not establish arrival micro-order interchangeability in original simulator; verify that source contract or explicitly mark as synthetic order stress, not necessarily native-realistic"
+  ]
+}

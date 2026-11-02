@@ -1,0 +1,47 @@
+{
+  "round": "A461",
+  "date": "2026-10-25",
+  "gpt_library_path": "/JEV研究/方向调研_续/A461_20261025/",
+  "gpt_library_uploads_succeeded": 9,
+  "gpt_library_zip_sha256_verified": "748496d173ef535bd1d7e73be2042db7c2adabc74d025b2c4b7856030bbfc268",
+  "gpt_library_ledger_sha256_verified": "141f5133bc1dda750197edccba4cc89138c8cce0a264b2c5702e4e09704e605b",
+  "gpt_library_byte_readback_verified": true,
+  "github_repo": "dddd2024/jev",
+  "github_core_files": {
+    "A461_完整研究报告.md": {
+      "git_blob_sha": "36d853ce7bad8e1daf934392d8fb95ea0abf34a6",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_完整研究报告.md"
+    },
+    "A461_paper_screen.json": {
+      "git_blob_sha": "6d37ea93fa05111f2e888618e25f2ca184177bf7",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_paper_screen.json"
+    },
+    "A461_candidate_registry.json": {
+      "git_blob_sha": "d55f66b5d69f1465d8cfea02130e931aef3b2a14",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_candidate_registry.json"
+    },
+    "A461_experiment_protocol.json": {
+      "git_blob_sha": "87fefaec85d7106bf01b5bbc6def1df337f86dc1",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_experiment_protocol.json"
+    },
+    "A461_CPU_evidence_gate_audit.json": {
+      "git_blob_sha": "e2c7b0eb77014224d5caf89375b95c20bff20177",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_CPU_evidence_gate_audit.json"
+    },
+    "A461_literature_delta.json": {
+      "git_blob_sha": "2769cf9c2d5a3fa21186925bb5e8781a75a27d86",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_literature_delta.json"
+    },
+    "A461_manifest.json": {
+      "git_blob_sha": "b2a48ce75e4f315d9be61d5c14c4e4094b1e98da",
+      "url": "https://github.com/dddd2024/jev/blob/main/research/literature/A461_20261025/A461_manifest.json"
+    }
+  },
+  "github_blob_verified": true,
+  "latest_pre_receipt_commit": "46972efde538bf8d45579dd17de9adf935e36b8d",
+  "notes": [
+    "ZIP includes eight payload files and manifest; receipt generated after ZIP and not included in ZIP",
+    "Full cumulative literature ledger and ZIP stored in GPT Library; GitHub stores seven core text files and literature delta",
+    "No model inference or GPU experiments performed in this round"
+  ]
+}

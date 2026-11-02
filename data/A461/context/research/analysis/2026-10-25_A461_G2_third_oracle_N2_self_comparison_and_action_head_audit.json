@@ -1,0 +1,138 @@
+{
+  "schema": "JEV_A461_G2_THIRD_ORACLE_N2_AND_TYPED_HEAD_INDEPENDENT_AUDIT_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "G2_parallel_agent_code_snapshot": "788ae31f6c53fc1fcc3ff53523572c62f6d20d07",
+  "G2_script": {
+    "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_g2_independent_analysis_v1.py",
+    "git_blob_sha1": "58e90fe8cea92e2d6784b68b7359942ac8fb2c21"
+  },
+  "actual_G0_source": {
+    "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+    "git_blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627"
+  },
+  "audit_type": "Source-code static error audit and independently reconstructed native source-local N2 old states; no new inference.",
+  "G2_discovered_issues": [
+    {
+      "issue": "N2_OLD_GOLD_SELF_COMPARISON",
+      "severity": "THIRD_ORACLE_INDEPENDENCE_BUG",
+      "source_lines": [
+        225,
+        230,
+        231
+      ],
+      "frozen_shape": "Every N2 pair_key has only one row with arm=retimed in pair_rows.jsonl",
+      "bad_logic": "next(x.native_request.state for same pair_key) returns N2 modified state itself, so old_gold=gold(retimed) by construction.",
+      "effect": "False assurance of independent Gold invariance; does not reverse existing G0 oracle PASS. Must recover old by exact pinned corpus SHA or independently reverse event edit; evaluate old model action via pair_key:old primary G1.",
+      "owner_action": "For N2 compare full old source Gold/predicate and genuine original G1 baseline model prediction against retimed result."
+    },
+    {
+      "issue": "MULTIHEAD_TYPED_MODEL_DIAGNOSTIC_MISSING",
+      "severity": "SCIENTIFIC_MECHANISM_SCREEN_INCOMPLETE",
+      "bad_logic": "G2 model_action is only called for the action qid: certificate_action or triage; no predicted C/Q/logits stored for Twins.",
+      "effect": "Cannot distinguish evidence-readout errors from action integration logic inconsistencies in A463 veto/quorum mechanism.",
+      "owner_action": "Independent G1 raw logits parse of typed heads conflicting_vote, quorum, certificate_action; calculate each vs source Gold; classify head_correct/action_wrong and action vs f(pred_C,pred_Q), source-group counts, ties."
+    },
+    {
+      "issue": "NONREGRESSION_MARGIN_USES_UNNORMALIZED_GOLD_LOGIT",
+      "severity": "SIGNED_METRIC_MISINTERPRETATION",
+      "source_line": 197,
+      "bad_logic": "new_margin_old2new = logit_new(Gold) - logit_old(Gold) is not a classification margin and is not invariant to per-request common logit shifts.",
+      "owner_action": "Gold-vs-best-other = logit(Gold) - max_{j!=Gold} logit(j); compute on old and new and signed delta, plus correctness and raw logits; report ties."
+    },
+    {
+      "issue": "UNVERIFIED_G1_LOGITS_INPUT",
+      "severity": "ARCHIVAL_PROVENANCE_BLOCKER",
+      "bad_logic": "G2 reads server file ~/wjc/.../G1/raw_native_logits_103_requests.jsonl and corrected receipt; GitHub at 4d93919 only stored verifying code, not actual 103 rows or corrected receipt.",
+      "effect": "No auditable numeric behavioral result independently available to this review session.",
+      "owner_action": "Upload non-sensitive raw G1 and corrected receipts with SHA readback before concluding model behavior."
+    }
+  ],
+  "actual_frozen_N2_independently_recovered": [
+    {
+      "source_group": "lanl:day:48",
+      "L1_treatment_row": "A461P_0001",
+      "N2_retimed_row": "A461P_0031",
+      "old_sha_prefix": "8405be21110e3ceb",
+      "edit_delta_seconds": 1,
+      "both_reconstruction_paths_exact": true,
+      "old_prior_fail_count": 4,
+      "new_prior_fail_count": 4,
+      "old_distinct_failed_destinations": 1,
+      "new_distinct_failed_destinations": 1,
+      "old_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "retimed_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "native_prior_events_chronological": true
+    },
+    {
+      "source_group": "lanl:day:49",
+      "L1_treatment_row": "A461P_0007",
+      "N2_retimed_row": "A461P_0032",
+      "old_sha_prefix": "9ffd190c8c9483e9",
+      "edit_delta_seconds": 1,
+      "both_reconstruction_paths_exact": true,
+      "old_prior_fail_count": 4,
+      "new_prior_fail_count": 4,
+      "old_distinct_failed_destinations": 1,
+      "new_distinct_failed_destinations": 1,
+      "old_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "retimed_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "native_prior_events_chronological": true
+    },
+    {
+      "source_group": "lanl:day:50",
+      "L1_treatment_row": "A461P_0013",
+      "N2_retimed_row": "A461P_0033",
+      "old_sha_prefix": "1be5102b0f7b22b6",
+      "edit_delta_seconds": 1,
+      "both_reconstruction_paths_exact": true,
+      "old_prior_fail_count": 4,
+      "new_prior_fail_count": 4,
+      "old_distinct_failed_destinations": 1,
+      "new_distinct_failed_destinations": 1,
+      "old_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "retimed_policy_gold": {
+        "failure_burst": false,
+        "triage": "record_failed_attempt"
+      },
+      "native_prior_events_chronological": true
+    }
+  ],
+  "N2_recovery_algorithms": [
+    "From G0 LANL L1 new state remove appended prior event described by declared_edit; source prefix exactly matches N2 pair.",
+    "From N2 retimed state subtract frozen delta from each valid in-window LogOn failure second-age; compare both full canonical JSON old states.",
+    "Calculate old/current policy Gold independently, verify chronological order, and compare with frozen G0 N2 Gold."
+  ],
+  "N2_independent_crosscheck_pass": 3,
+  "N2_implementation_bug_changes_real_G0_gold_result": false,
+  "new_G1_model_pred_outcomes_verified": 0,
+  "core_action_mechanism_readiness": "PENDING_ACTUAL_TYPED_HEAD_LOGITS_G1_AND_INDEPENDENT_DATA_UPLOAD",
+  "parallel_issue": "https://github.com/dddd2024/jev/issues/2",
+  "issue_comments": [
+    6393998687,
+    6394006577
+  ],
+  "resources": {
+    "new_gpu_forwards": 0,
+    "new_model_forwards": 0,
+    "new_original_development_rows": 0,
+    "old_g0_retimed_rows_read": 3,
+    "school_server_access": false,
+    "gpt_library_backup_verified": false
+  }
+}

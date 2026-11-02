@@ -1,0 +1,22 @@
+{
+  "decision": "NOVELTY_DELTA_TESTABLE",
+  "decision_scope": "GO for CPU construction + donor-search GPU stage (budget frozen in protocol) + donor qualification + separately-frozen patching GPU stage. No mechanism claim before patching results.",
+  "design_changes_and_their_novelty_status": [
+    "Same-author duplicate-vote (SA) neutral for the accept cell: resolves the G3 validity gap (P0-1) without out-of-set authors; SA is schema-native, gold-invariant, author-valid, and token-matched by construction (same author/block-width/received). Zhang&Nanda sham-control practice applied to our rule axis.",
+    "Donor search stage: C-head reads on ~40 constructed two-cell conflict pairs to find scenes where appended conflicts ARE recognized (standard clean/correct run selection per Zhang&Nanda; explicitly exploratory, not confirmatory).",
+    "Cross-scene semantically-aligned bidirectional patching: donor appended-vote span and candidate-end keys patched into failing scenes at branch-relative anchors (no absolute indices), both directions, with SA-sham, random-token and off-target-head controls. Tang et al. and Zhang&Nanda supply the methodology; the delta is the security-typed oracle-gold application on our dissociation.",
+    "All 42 DEV run groups are now touched; the 'unseen group' criterion is exhausted and is replaced by scene-level non-reuse (exclude the 26 G3 pair scenes and A428 scenes), disclosed as a validity boundary."
+  ],
+  "experiment_name": "A461_G5_DONOR_RESOLUTION_AND_PATCHING",
+  "falsifiable_hypothesis": "There exist constructed conflict scenes whose appended conflict vote IS recognized by the C head (donor candidates) at a rate materially above the G3 confirmation's 1/20, and semantically-aligned bidirectional patching of the candidate-end key representations between recognized-donor and failing scenes moves the conflicting_vote read in both directions beyond SA-sham and random-token controls.",
+  "falsifier": "If no constructed scene yields recognized appended conflicts (0 donors in the search), the dissociation is a property of the edit class itself and the mechanism paper demotes to readout decomposition + negative result; if patching moves heads off-target or sham-equivalently, the key-side localization fails its causal test.",
+  "go_no_go": "GO (CPU construction + budgeted donor-search stage; patching stage separately frozen)",
+  "kind": "G_MINUS_1_INCREMENT",
+  "permission": "No GPU permission implied beyond the per-stage budgets frozen in the protocol and admission receipts (user standing authorization series).",
+  "prior_art_status": "Carried from A461-G4 gate (54511ca): SecJev v2 pointer scorer; Tang et al. ICML 2026 (fragile state tracking, patching framework); Gur-Arieh et al. ICLR 2026 (positional/lexical/reflexive binding channels); Zhang & Nanda ICLR 2024 (activation patching best practices: clean/corrupted run definition, matched sham controls, raw signed logits); Li et al. ICML 2025 (state tracking alternatives). No new search triggers: the design change uses these same frameworks.",
+  "research_main_sha_inspected": "cf25773c5cc508e859b087fd34b8f456d750bf76",
+  "review_utc": "2026-10-25",
+  "schema": "JEV_G_MINUS_1_PRIOR_ART_DECISION_V1",
+  "study_line": "A461 (execution ledger round A468)",
+  "trigger_for_increment": "Completion-verifier and G4-protocol gate: the mechanism-paper evidence chain is open because zero qualified positive donors exist (appended-conflict recognized scenes with valid matched neutral). The donor-resolution design changes the construction (same-author duplicate-vote neutral for BOTH cells; broad two-cell pair set on already-touched groups for an explicitly exploratory donor search) and introduces cross-scene semantically-aligned bidirectional patching; both design changes require a fresh gate per PRE_EXPERIMENT_DIRECT_PRIOR_ART_GATE_V1 section 7."
+}

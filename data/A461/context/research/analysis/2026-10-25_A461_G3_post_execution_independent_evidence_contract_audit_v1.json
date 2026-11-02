@@ -1,0 +1,159 @@
+{
+  "schema": "JEV_A461_G3_POST_EXECUTION_INDEPENDENT_EVIDENCE_CONTRACT_AUDIT_V1",
+  "date": "2026-10-25",
+  "nature": "Independent read-only recomputation of existing GitHub native G0C/G1C/G2C files; no new GPU, TEST/CAL, or server access",
+  "sources": {
+    "g0_pairs_blob": "8de45fc200d0e37be676f172d844b3ab2c6c23c7",
+    "g0_token_audit_blob": "2c5b932ae9e36d5e5380eff558f0437424a39261",
+    "g1_native_logits_blob": "7a55817abea0f15a4162b620a412a18564b315f4",
+    "g2_per_pair_blob": "e33e75ae24816768661bb99bc52ae501356114c5",
+    "g0_constructor_blob": "b62b9996c3daa46b578af9b22bc9252bfb061906",
+    "g1_runner_blob": "4fcaeb7212f5a973b9794b8a79c0bd720b841f9f",
+    "g2_script_path": "research/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/A461_g3_g2c_analysis_v1.py",
+    "protocol_v1_blob": "993628d0e8c566453681af0fbcbd2b571c0bb653"
+  },
+  "archived_execution": {
+    "native_forwards": 109,
+    "replays_identical": 4,
+    "g0_edit_arms": 79,
+    "pairs": 26,
+    "t2_groups": 20,
+    "t3_groups": 6,
+    "t3_overlaps_t2_groups": 2
+  },
+  "direct_behavior": {
+    "T2_wait": {
+      "n": 10,
+      "new_C_true": 0,
+      "old_C_false": 10,
+      "new_A_correct": 0,
+      "old_A_correct": 9,
+      "sourceGold_new_C": true
+    },
+    "T2_accept": {
+      "n": 10,
+      "new_C_true": 4,
+      "old_C_false": 7,
+      "new_A_correct": 3,
+      "old_A_correct": 8,
+      "old_C_true_false_alarms": 3,
+      "sourceGold_new_C": true
+    },
+    "T2_total": {
+      "n": 20,
+      "new_C_true": 4,
+      "old_C_false": 17,
+      "clean_old_false_to_new_true": 1,
+      "clean_old_false_to_new_false": 16,
+      "new_A_correct": 3,
+      "sourceGold_new_C": true
+    },
+    "T3_preexisting": {
+      "n": 6,
+      "new_C_true": 6,
+      "new_A_correct": 4,
+      "new_evidence_level_correct": 4,
+      "sourceGold_new_C": true
+    },
+    "exception_run338": {
+      "old_C": false,
+      "new_C": true,
+      "new_A": "reject_conflict",
+      "new_E": 2,
+      "neutral_C": true,
+      "neutral_C_is_gold_false": true,
+      "neutral_token_matched": true,
+      "neutral_author_legal": true,
+      "dC_treat_minus_neutral": 7.218506217002869
+    },
+    "new_gold_C_semantics": "new conflict=true for every T2 treatment"
+  },
+  "controls": {
+    "N1B_total": {
+      "n": 26,
+      "matched_vs_treatment": 19
+    },
+    "T2_wait_N1B": {
+      "n": 10,
+      "matched": 10,
+      "legitimate_validator": 10
+    },
+    "T2_accept_N1B": {
+      "n": 10,
+      "matched": 3,
+      "legitimate_validator": 3,
+      "unlisted_author": 7
+    },
+    "T2_strict_qualified": {
+      "n": 13,
+      "old_C_clean": 12,
+      "old_C_clean_and_neutral_C_correct": 11,
+      "recognized_on_old_clean_and_neutral_correct": 0
+    },
+    "T2_valid_N1B_dC": {
+      "n": 13,
+      "positive": 7,
+      "wait_positive": 5,
+      "wait_total": 10,
+      "accept_positive": 2,
+      "accept_total": 3
+    },
+    "N1": {
+      "n": 6,
+      "identical_token_sha_to_corresponding_N1B": 6
+    },
+    "SHAM_SA": {
+      "n": 9,
+      "wait_cell": 9,
+      "accept_cell": 0
+    },
+    "SHAM_TS": {
+      "n": 6,
+      "received_non_decreasing_violations": 6
+    },
+    "SHAM_RO": {
+      "n": 6,
+      "received_non_decreasing_violations": 6
+    },
+    "invalid_N1B_run_groups": [
+      "run-140",
+      "run-212",
+      "run-283",
+      "run-328",
+      "run-330",
+      "run-337",
+      "run-351"
+    ]
+  },
+  "analysis_code_errors": {
+    "evidence_level_norm": "Maps text '0'/'1' to booleans and text '2' stays string; string '2' != integer Gold 2, so all E=2 predicted correctly are falsely counted wrong",
+    "correct_evidence_level_on_new": {
+      "T2_wait": 0,
+      "T2_accept": 1,
+      "T3": 4
+    },
+    "reported_evidence_level_on_new": {
+      "T2_wait": 0,
+      "T2_accept": 0,
+      "T3": 0
+    },
+    "persist_baseline": "Prior G2 persist_correct=16/20 compares NEW MODEL prediction to OLD Gold; it is NOT accuracy of persisting old decision under NEW Gold. Old Gold differs from new Gold for all 20 T2, so true persist-old-Gold baseline new-Gold accuracy is 0/20."
+  },
+  "protocol_and_provenance": {
+    "protocol_V1_stage_forwards": 106,
+    "absolute_cap": 128,
+    "G0C_repo_constructor_SHAM_CAP": 6,
+    "G0C_repo_constructor_max_SA": 6,
+    "G0C_real_SA": 9,
+    "G0C_repo_constructor_max_forwards": 106,
+    "G0C_real_planned_forwards": 109,
+    "G1C_actual_forwards": 109,
+    "diagnosis": "Real G1C result exists. Archived G0C output cannot be explained by exact checked-in G0C constructor (9 SA generated while loop caps at 6), and real G1C used 109 above frozen stage budget 106; actual source code/env responsible must be pinned before reproducibility claims."
+  },
+  "statistical_boundaries": {
+    "archived_fisher_1_of_20_vs_6_of_6_one_sided": 0.000030404378230465186,
+    "group_disjoint_T3_1_of_20_vs_4_of_4_one_sided": 0.0004705439488048184,
+    "caution": "2 T3 groups overlap T2; independent group-only comparison remains descriptive because T3 starts conflicted and T2 starts unconflicted; not a same-state causal contrast, and source is selected DEV not held-out TEST."
+  },
+  "decision": "G3_REAL_BEHAVIORAL_EVIDENCE_VALID_BUT_CONTROLS_AND_PROVENANCE_REQUIRE_FORMAL_ERRATUM_BEFORE_CAUSAL_OR_FULLY_MATCHED_CLAIMS"
+}

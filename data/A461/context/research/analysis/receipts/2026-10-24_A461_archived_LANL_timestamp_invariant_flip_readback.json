@@ -1,0 +1,55 @@
+{
+  "schema": "JEV_A461_PARALLEL_AGENT_AWARE_ARCHIVE_RECEIPT_V1",
+  "local_date": "2026-10-24",
+  "repo": "dddd2024/jev",
+  "git_head_before_final_receipt": "5fb35e9a3fd3c6b18322e726c93c907b46876275",
+  "new_files": [
+    {
+      "path": "research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.json",
+      "github_blob_sha1": "0367acdccc6fe622c774af0a0c45c00c8c23b13d",
+      "readback": true,
+      "validated": true
+    },
+    {
+      "path": "research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.md",
+      "github_blob_sha1": "a43a8b19d0e88108469bdafb874275658ef23082",
+      "readback": true,
+      "validated": true
+    }
+  ],
+  "archived_built_on": {
+    "inputs_blob": "13adf301dd67c5cc787c72b4b9ace695c52fef4e",
+    "logits_blob": "9d2da80374f3a34cc3e24362779f786f8d23e36c",
+    "g2_blob": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b",
+    "manifest_blob": "d36a2012a34feabdaa883abc5b5bbffb555f0c31"
+  },
+  "verified": {
+    "same_lanl_source_group": true,
+    "source_local_gold_sha_equal": true,
+    "exact_native_input_diff_fields": 4,
+    "only_diff_seconds_before_current": true,
+    "token_len_021": 631,
+    "token_len_024": 633,
+    "margin_difference": 3.5760055780410767,
+    "original_model_run_not_repeated": true
+  },
+  "safety_status": {
+    "current_GPU_admission": false,
+    "formal_A461_G_MINUS_1_pass": false,
+    "actual_A461_new_G0": false,
+    "real_attack_not_claimed": true
+  },
+  "parallel_consistency": {
+    "other_agent_commits_seen_since_initial_check": false,
+    "may_commit_after_current_readback": true,
+    "avoid_mutating_other_agent_files": true,
+    "recheck_head_at_next_turn": true
+  },
+  "resources": {
+    "gpu_forwards": 0,
+    "new_model_forwards": 0,
+    "original_corpus_line_scans": 0,
+    "remote_school_server": false,
+    "gpt_library_backup_verified": false
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "JEV_ARCHIVED_EVIDENCE_GITHUB_READBACK_V1",
+  "analysis_date_local": "2026-10-24",
+  "repo": "dddd2024/jev",
+  "source_existing_files": [
+    {
+      "path": "research/rounds/A427_20261023_LANL_TRIAGE_FAIL_VOCABULARY_V2_CPU_GATE/P0_REAL_20261023/independent_gold_rows.jsonl",
+      "sha": "af2e68efff36a604b635bdf9402324a6ecf36508",
+      "kind": "existing real DEV-derived 328 source-local Gold rows"
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "sha": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b",
+      "kind": "existing historical FP32 predictions 24 rows"
+    },
+    {
+      "path": "research/rounds/A430_QDID_S0_OFFICIAL_DEV_DUPLICATE_SUPPORT_CPU_GATE/G0_REAL_20261024_V2/S0_SOURCE_SUPPORT_RESULT.json",
+      "sha": "7bf5c4ce516a4db375f908591a4bad8f325a9ada",
+      "kind": "previous original DEV repeated-candidate-vote negative"
+    }
+  ],
+  "written_and_readback": [
+    {
+      "path": "research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.json",
+      "git_blob_sha1": "6aa9bd9c5d3e6c4cd223197f37ce2b09957af90e",
+      "readback": true,
+      "JSON_parsed": true
+    },
+    {
+      "path": "research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.md",
+      "git_blob_sha1": "9aaa49ff7d4e57994fde517ff0ab5fd6c61ca58f",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/reproduce_A461_LANL_V2_archived_boundary_support.py",
+      "git_blob_sha1": "80c7a7ca435b28c98b3f2d284161658bd2a8f83c",
+      "readback": true,
+      "static_contract_checked": true,
+      "script_execution_this_turn": false
+    }
+  ],
+  "invariants": {
+    "original_LANL_DEV_derived_rows": 328,
+    "original_LANL_source_groups": 7,
+    "burst_positive": 74,
+    "investigate_positive": 77,
+    "spread_only_gold_rows": 3,
+    "spread_only_gold_groups": [
+      "lanl:day:50"
+    ],
+    "burst_threshold_candidate_seeds": 31,
+    "burst_seed_source_groups": 3,
+    "destination_spread_candidate_seeds": 22,
+    "spread_seed_source_groups": 2,
+    "real_counterfactual_pairs_approved": 0,
+    "old_twins_FP32_rows": 12,
+    "old_twins_action_errors": 4,
+    "old_LANL_FP32_rows": 12,
+    "old_LANL_action_errors": 1,
+    "all_count_constraints_passed": true
+  },
+  "decision": {
+    "main_candidate": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+    "status": "G_MINUS_1_HOLD__ARCHIVED_DERIVED_GOLD_STATIC_GATE_ONLY",
+    "gpu_permission": false,
+    "strict_model_pair_counterfactuals_run": false
+  },
+  "limitations": [
+    "No actual full original DEV gzip was reread or modified",
+    "No new CAL/TEST samples accessed",
+    "No model calls, new inferences, training or GPU used",
+    "The 53 necessary-condition seeds are not 53 verified native edit pairs",
+    "The 3 natural spread-only positives are from one single source group",
+    "No verified server or GPT Library backup; GitHub only"
+  ]
+}

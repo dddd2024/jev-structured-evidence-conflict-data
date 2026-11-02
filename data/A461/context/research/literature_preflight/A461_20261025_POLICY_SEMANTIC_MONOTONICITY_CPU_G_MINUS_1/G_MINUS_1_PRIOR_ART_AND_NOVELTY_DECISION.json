@@ -1,0 +1,102 @@
+{
+  "schema": "JEV_G_MINUS_1_PRIOR_ART_DECISION_V1",
+  "experiment_name": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+  "study_line": "A461-PSMI (Policy-Semantic Monotonicity under Native Pointer-Head Interventions)",
+  "review_utc": "2026-10-25T03:58:12Z",
+  "reviewer": "session executing the registered A461-PSMI G-1 (independent targeted search; not a reuse of A461/A462 literature-round ledgers, which remain partial)",
+  "research_main_sha_inspected": "0b985db4f4ba99a7b06bdcd5497428419860f59e",
+  "falsifiable_hypothesis": "On SecJev-0.8B native typed policy decisions with independently executable source-local rule Gold (Twins certificate_action truth table over C=conflict,Q=quorum; LANL triage truth table over R=burst,F=current-failure), there exist rule-preserving evidence-addition counterfactual pairs - constructed inside one frozen scene by appending events that pass the same observable eligibility rules, with policy text, validator/destination identities, and choice menu unchanged - such that the model's strict policy action moves in the policy-NON-monotone direction (e.g., adding a valid quorum vote raises the reject-related margin; adding conflict evidence raises the accept margin; adding a trusted in-window failure de-escalates triage), beyond matched-length neutral-event format controls.",
+  "decision": "NOVELTY_DELTA_TESTABLE",
+  "decision_scope": "GO for CPU admission gate only (source-local counterfactual pair construction + dual-oracle validation + negative controls + input freeze). No GPU permission is granted or implied by this document; any model forward requires the separate explicit user GPU approval with its own budget.",
+  "primary_papers": [
+    {
+      "id": "secjev_v2",
+      "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+      "url": "https://arxiv.org/html/2610.03073v2",
+      "version": "v2, 2026-10-14",
+      "what_was_read": "Sections 3.1-3.2 and 4.1 read directly (A461 2026-10-24 and A462 2026-10-24 rounds quote the specific native question types and shared-LoRA+pointer-head architecture); architecture confirmed against pinned SecJev-0.8B component hashes in this repository.",
+      "solved": "Defines the model under study: typed independent causal question rows (conflicting_vote / quorum / evidence_level / certificate_action; failure_burst / triage), shared Q/K pointer scorer, Twins and LANL native sources. Publishes the task schemas this experiment freezes.",
+      "not_covered": "No monotonicity property of the scorer is stated, measured, or guaranteed; no rule-preserving evidence-addition pairs; no source-local counterfactual Gold recomputation on edited scenes.",
+      "our_delta": "First to test whether the scorer's own policy semantics is monotone under policy-relevant evidence addition, using oracle-recomputed Gold on both arms of within-scene pairs.",
+      "duplicate_falsifier": "If SecJev v2 or a successor paper already reports evidence-addition monotonicity violations on these native sources, this experiment is redundant (REJECT_REDUNDANT)."
+    },
+    {
+      "id": "one_word_gate",
+      "title": "One Word Opens the Gate",
+      "url": "https://arxiv.org/abs/2610.12292",
+      "version": "v1, 2026-10-08; abstract page read this session; full-text HTML was previously unreachable (recorded in A461 memo), section-level reading via public research summary in A461 round",
+      "solved": "Typed decision models as agent guardrails; fail-open vs fail-closed asymmetry; attacker-controlled additions of six policy-irrelevant log lines raise fail-open 0%->63%; option-renaming attacks 93-100%; all tested defenses defeated.",
+      "not_covered": "Evidence added by the honest system itself (no attacker), policy-RELEVANT additions whose Gold legitimately changes or stays fixed per an executable oracle; oracle-validated rule-preserving pairs; native structured scenes (Twins/LANL); monotone direction analysis; any white-box readout.",
+      "our_delta": "We test the scorer under evidence additions that are policy-relevant and oracle-evaluable, contrasting violations against matched-length neutral additions - a different claim than 'irrelevant text flips decisions'.",
+      "duplicate_falsifier": "If our violation pairs cannot be distinguished from matched-length neutral-event controls (equal violation rates), the phenomenon collapses into their irrelevant-text finding re-instantiated on another model: REJECT_REDUNDANT for the behavioral claim."
+    },
+    {
+      "id": "mono_arch_bias",
+      "title": "Monotonicity as an Architectural Bias for Robust Language Models",
+      "url": "https://arxiv.org/html/2602.02686v1",
+      "version": "v1, 2026-02; method and results sections read directly this session",
+      "solved": "Proposes semantically-monotone FFN update on T5-small; shows adversarial-attack success drops 63%->19% on summarization with ~3% ROUGE cost. Motivates evidence-strengthening orderings conceptually.",
+      "not_covered": "No empirical decision-reversal benchmark from evidence addition; no security or authorization task; no typed/pointer readout; no counterfactual minimal pairs or oracle Gold; no measurement of whether an unmodified production scorer violates monotonicity.",
+      "our_delta": "We provide the missing measurement side: an oracle-validated monotonicity-violation test on a real security-typed scorer, which their architecture work presupposes but never evaluates.",
+      "duplicate_falsifier": "Not a duplication risk for the behavioral claim; a duplication risk only if our contribution is reframed as an architecture fix (out of scope for this round)."
+    },
+    {
+      "id": "metamorphic_safety_jcst",
+      "title": "Safety Evaluation for Large Language Models with Metamorphic Testing: An Empirical Study",
+      "url": "https://doi.org/10.1007/s11390-026-5705-z",
+      "version": "JCST 2026; publisher abstract/method overview read (A461 round)",
+      "solved": "Seven metamorphic relations for LLM safety evaluation (LLMSafetyChoice); establishes metamorphic relations as accepted methodology for safety testing.",
+      "not_covered": "No executable security-policy oracle over native structured scenes; no monotone evidence-addition relation; no paired within-scene counterfactuals with dual independent Gold implementations.",
+      "our_delta": "Methodologically we instantiate ONE precise monotone metamorphic relation per family with a deterministic rule oracle (dual independent implementations), not a relation taxonomy.",
+      "duplicate_falsifier": "If their seven relations already include an evidence-addition monotone relation evaluated with oracle Gold on structured security decisions, the methodological delta is void."
+    },
+    {
+      "id": "evidence_addition_lw",
+      "title": "Giving an LLM More Correct Evidence Made Its Decisions Worse (LessWrong post, unpublished experiments)",
+      "url": "https://www.greaterwrong.com/posts/wgiEb3PooeA2EN4Ge/giving-an-llm-more-correct-evidence-made-its-decisions-worse",
+      "version": "2026-09 post by aban hasan; read directly this session",
+      "solved": "Qwen3.6-27B contrarian sender-receiver games: adding four correct demonstrations drops action accuracy 79%->55% while report accuracy stays 99%; report/action dissociation.",
+      "not_covered": "Single general chat model, game task, no security policy, no executable oracle, no source-local pairs, no typed readout, not peer-reviewed, explicitly no mechanism claim.",
+      "our_delta": "We generalize the evidence-addition consistency question to security policy semantics with deterministic Gold, controlled eligibility rules, two source families, and preregistered negative controls.",
+      "duplicate_falsifier": "Independent confirmation of evidence-addition brittleness in general chat models does NOT satisfy our claim; our claim requires the security-typed scorer with oracle-validated pairs."
+    }
+  ],
+  "adjacent_prior_art_not_directly_competing": [
+    "arXiv:2609.39768 Security Properties of Neural Networks as Decision Problems (formal monotonicity verification complexity; intro/theory read A461)",
+    "arXiv:2604.12177 PhantomPolicy (policy-invisible violations; intro/method read A462)",
+    "arXiv:2609.05269 CONTINUITY (provenance-field-execution contracts; intro read A462)",
+    "arXiv:2602.10465 Authenticated Workflows (cryptographic authorization; method read A462)",
+    "arXiv:2610.19619 numerical anchoring and option-order sensitivity (demoted A460-PEPS as prior art)",
+    "UAI 2026 When Can Transformers Count to n? (counting capacity; abstract)",
+    "ICLR 2026 Mixing Mechanisms: bound-entity retrieval (abstract; constrains any future mechanism claim)",
+    "ACL 2026 Cell-Based Representation of Relational Binding (abstract; same)",
+    "arXiv:2608.03506 When Many Answers Are Valid, Voting Fails (self-consistency voting, different object)"
+  ],
+  "most_direct_competitor": "One Word Opens the Gate (arXiv:2610.12292) for the security endpoint; SecJev v2 (arXiv:2610.03073v2) for the model and task surface; Monotonicity as an Architectural Bias (arXiv:2602.02686) for the monotonicity concept.",
+  "already_solved_claims": [
+    "Attacker-controlled irrelevant text additions flip typed guardrail decisions (2610.12292)",
+    "Monotone architectural constraints can be added to small seq2seq models and reduce adversarial attack success (2602.02686)",
+    "SecJev native schemas, typed question rows, and shared pointer-head architecture exist and are published (2610.03073v2)",
+    "Metamorphic relations are an accepted LLM safety testing methodology (JCST 2026)"
+  ],
+  "testable_new_claim": "Rule-preserving, oracle-validated evidence-addition pairs on a native security-typed scorer produce strict policy-NON-monotone action changes at a rate distinguishable from matched-length neutral-event controls, replicated within each of two independent source families (LANL day groups; Twins run groups), with per-family strict action errors counted as the primary endpoint.",
+  "alternative_explanations": [
+    "Generic serialization/token-length/position sensitivity: appended events shift question-token positions and change length; violations may be format artifacts. Controlled by matched-length neutral events (same token count as the added evidence, no Gold change) whose violation rate must be strictly lower, plus a non-security serialization flip control.",
+    "Near-threshold counting/capacity limits rather than policy-semantics failure (cf. counting-to-n): violations may concentrate exactly at threshold boundaries because counts are not represented. Controlled by stratifying pairs by distance-to-threshold and comparing with the model's natural-scene accuracy in the same strata; a pure capacity story predicts symmetric errors around, not directional non-monotonicity beyond, stratum baselines.",
+    "Run-to-run nondeterminism or precision artifacts: controlled by replaying frozen baselines and requiring max-abs-error within archived-logit tolerance before any paired delta is interpreted (A430 G1 precedent: 0.0).",
+    "Tokenization boundary artifacts of appended event text (digit-led IDs, shared prefixes as documented in A430 G0C): controlled by recording first-difference token indices and requiring eligibility rules (round/received/author) to be checked on the decoded scene, not on surface strings."
+  ],
+  "independent_gold_and_source_status": "Twins: independent rule oracle already dual-validated in A430 (G0A independent verifier; C/Q truth table). LANL: A427 v2 328/328 rows independently re-derived with 0 discrepancies, 7 source groups; counterfactual Gold on edited scenes must be recomputed by two independent implementations inside the CPU gate before freeze. Sources: DEV only (Twins 797-row DEV v2 pool; LANL day groups from pinned development.jsonl.gz SHA 2920e1c9...); CAL/TEST excluded by protocol. No real deployed-authorization claim is made; endpoint is model policy consistency, labeled as such.",
+  "already_replicated_sample_sources": "Archived FP32 native outputs exist for A428 24 DEV scenes (12 Twins + 12 LANL) and A430 G1 6 worlds x 3 arms; these are replay references only. PSMI pairs are constructed from DEV scenes and both arms are run fresh in any future GPU stage; no CAL/TEST rows are consumed.",
+  "falsifier": "The claim dies if (a) no rule-preserving pairs survive the dual-oracle and eligibility checks (STOP_NO_RULE_PRESERVING_PAIR), or (b) matched-length neutral-event edits produce violation rates statistically indistinguishable from policy-relevant edits (format-effect collapse, cf. 2610.12292), or (c) violations appear in only one family and cannot be replicated within the second family's independent groups (single-family artifact).",
+  "proposed_controls": [
+    "Matched-length neutral event additions (no Gold change) per pair",
+    "Non-security serialization flip control (e.g., candidate/destination label mapping held fixed, message order within same timestamp)",
+    "Distance-to-threshold stratification for both families",
+    "Baseline replay vs archived logits tolerance gate before delta interpretation",
+    "Dual independent oracle implementations on both arms, source-group disjointness check, per-family reporting only (no cross-family merging of action semantics)"
+  ],
+  "evidence_readback": "This decision file and its human-readable report are committed to GitHub before any A461-PSMI protocol or execution commit; the commit SHA is recorded in the report and must precede them in the repository time series.",
+  "permission": "No GPU permission implied. CPU admission gate only.",
+  "go_no_go": "GO (CPU gate)"
+}

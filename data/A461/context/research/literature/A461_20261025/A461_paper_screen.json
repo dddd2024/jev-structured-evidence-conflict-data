@@ -1,0 +1,152 @@
+{
+  "round": "A461",
+  "screened_total": 20,
+  "new_titles": 0,
+  "enriched_existing": 8,
+  "primary_html_selected_sections": 5,
+  "primary_abstract": 1,
+  "historical_ledger_rescreen": 14,
+  "papers": [
+    {
+      "arxiv_id": "2610.19619",
+      "title": "Are AI Decision Models Biased? A Case Study of Jev",
+      "url": "https://arxiv.org/abs/2610.19619",
+      "review_level_this_round": "PRIMARY_HTML_SELECTED_SECTIONS",
+      "competition_or_control": "Irrelevant anchors and probability-rule violations already established on Jev. A461 must go beyond generic logical inconsistency."
+    },
+    {
+      "arxiv_id": "2609.37647",
+      "title": "Evaluating and Benchmarking the System One Model Jev",
+      "url": "https://arxiv.org/abs/2609.37647",
+      "review_level_this_round": "PRIMARY_ABSTRACT",
+      "competition_or_control": "Massive Jev benchmark and calibration already studied; accuracy-only work not new."
+    },
+    {
+      "arxiv_id": "2610.19536",
+      "title": "Typed Decision Models on Tabular Data",
+      "url": "https://arxiv.org/abs/2610.19536",
+      "review_level_this_round": "PRIMARY_HTML_SELECTED_SECTIONS",
+      "competition_or_control": "Information-preserving table rewrites already cause many flips; generic serialization fragility not new."
+    },
+    {
+      "arxiv_id": "2610.02076",
+      "title": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "url": "https://arxiv.org/abs/2610.02076",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Training-free typed readout and LoRA KL anchoring already studied; head choice alone is not novelty."
+    },
+    {
+      "arxiv_id": "2610.00831",
+      "title": "AnyJev Technical Report",
+      "url": "https://arxiv.org/abs/2610.00831",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Training-free typed decision bias correction already studied; option label/position debiasing not new."
+    },
+    {
+      "arxiv_id": "2608.25697",
+      "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+      "url": "https://arxiv.org/abs/2608.25697",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Model-internal security probes separated from runtime authorization; external gate is not model security novelty."
+    },
+    {
+      "arxiv_id": "2607.04430",
+      "title": "Uncertainty-Aware Abstention in Large Language Models with Provable Alignment Guarantees",
+      "url": "https://arxiv.org/abs/2607.04430",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Risk-controlled selective answering has guarantees; simple confidence threshold not new."
+    },
+    {
+      "arxiv_id": "2605.20994",
+      "title": "Towards Context-Invariant Safety Alignment for Large Language Models",
+      "url": "https://arxiv.org/abs/2605.20994",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Context-invariant safety alignment via anchored training already studied; generic invariance loss not new."
+    },
+    {
+      "arxiv_id": "2610.03073",
+      "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+      "url": "https://arxiv.org/abs/2610.03073",
+      "review_level_this_round": "PRIMARY_HTML_SELECTED_SECTIONS",
+      "competition_or_control": "Exact pointer-head formula and 37,490 rule recomputations; supports a source-local policy Gold for M-route, not deployment authorization."
+    },
+    {
+      "arxiv_id": "2610.20778",
+      "title": "Verdict: Encode Once, Decide Many",
+      "url": "https://arxiv.org/abs/2610.20778",
+      "review_level_this_round": "PRIMARY_HTML_SELECTED_SECTIONS",
+      "competition_or_control": "Question independence/option-order invariance by structured attention masks already demonstrated; generic independence not new."
+    },
+    {
+      "arxiv_id": "2610.11392",
+      "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
+      "url": "https://arxiv.org/abs/2610.11392",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "TypedBench policy adherence, wording, calibration and cost already evaluated."
+    },
+    {
+      "arxiv_id": "2610.31521",
+      "title": "Jev-DLC: Decision-Level Continual Learning from Typed Feedback",
+      "url": "https://arxiv.org/abs/2610.31521",
+      "review_level_this_round": "PRIMARY_HTML_SELECTED_SECTIONS",
+      "competition_or_control": "Post-deployment typed-feedback correction mechanisms studied; external feedback-state attacks are outside present model-only scope."
+    },
+    {
+      "arxiv_id": "2610.12292",
+      "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+      "url": "https://arxiv.org/abs/2610.12292",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Typed option-channel attacks and fail-open effects directly prior art."
+    },
+    {
+      "arxiv_id": "2603.05773",
+      "title": "Knowing without Acting: The Disentangled Geometry of Safety Mechanisms in Large Language Models",
+      "url": "https://arxiv.org/abs/2603.05773",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Safety recognition/action decoupling and causal mechanisms prior art."
+    },
+    {
+      "arxiv_id": "2605.30640",
+      "title": "CSULoRA: Closest Safe Update Low-Rank Adaptation",
+      "url": "https://arxiv.org/abs/2605.30640",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "LoRA safety-subspace updates prior art."
+    },
+    {
+      "arxiv_id": "2610.25611",
+      "title": "Safety Offset Learning: When Benign Fine-Tuning Misaligns LLMs",
+      "url": "https://arxiv.org/abs/2610.25611",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Benign fine-tuning safety offset and shortcut effects prior art."
+    },
+    {
+      "arxiv_id": "2609.08934",
+      "title": "When Models Defer to Wrong Answers: A Robustness Audit of Source-Attributed Cues in Multiple-Choice QA",
+      "url": "https://arxiv.org/abs/2609.08934",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Unverified expert/source cues prior art."
+    },
+    {
+      "arxiv_id": "2608.29257",
+      "title": "Large Language Models Systematically Favor Popular Options: Evidence and Mitigation Across MCQs",
+      "url": "https://arxiv.org/abs/2608.29257",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Popular-option salience effects prior art."
+    },
+    {
+      "arxiv_id": "2610.00371",
+      "title": "Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.00371",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Authorization-paired evaluation and legitimate utility preservation prior art."
+    },
+    {
+      "arxiv_id": "2609.01455",
+      "title": "When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.01455",
+      "review_level_this_round": "HISTORICAL_LEDGER_RESCREEN",
+      "competition_or_control": "Benign fine-tuning safety-routing failure prior art."
+    }
+  ],
+  "warning": "Selected sections are not full-text cover-to-cover reads; 14 historical items use prior ledger, not fresh fulltext."
+}

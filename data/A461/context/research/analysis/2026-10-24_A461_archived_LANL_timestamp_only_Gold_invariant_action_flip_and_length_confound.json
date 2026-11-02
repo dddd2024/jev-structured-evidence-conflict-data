@@ -1,0 +1,194 @@
+{
+  "schema": "JEV_A461_ARCHIVED_LANL_TIMESTAMP_ONLY_GOLD_INVARIANCE_FLIP_V1",
+  "analysis_local_date": "2026-10-24",
+  "source_repository": "dddd2024/jev",
+  "github_head_checked_before_write": "0b148cf1c9b3e6aba75e38b06f7efb667a736931",
+  "scope": "Cross-check old original FP32 logits, frozen native inputs, token manifest, verified source-local Gold: NO NEW MODEL OR TEST EXECUTION",
+  "input_archives": [
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0A_REAL_20261023/frozen_model_inputs.jsonl",
+      "git_blob_sha1": "13adf301dd67c5cc787c72b4b9ace695c52fef4e"
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G0B_REAL_20261023/native_token_manifest.json",
+      "git_blob_sha1": "d36a2012a34feabdaa883abc5b5bbffb555f0c31"
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G1_REAL_20261023/G1_raw_native_logits_and_probs.jsonl",
+      "git_blob_sha1": "9d2da80374f3a34cc3e24362779f786f8d23e36c"
+    },
+    {
+      "path": "research/rounds/A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT/G2_REAL_20261023/G2_per_scene_predictions.jsonl",
+      "git_blob_sha1": "f02741bb8cfea2f45c1c73c435d90f8cb064cd6b"
+    }
+  ],
+  "provenance_check": {
+    "existing_model_run": "A428_20261023_TWO_FAMILY_NATIVE_POLICY_MULTIQ_MODEL_PILOT, frozen original FP32 run, 24 total backbone calls",
+    "same_source_family": "lanl_auth_policy",
+    "same_group": "lanl:day:48",
+    "both_gold_sha256": "6ea73ced3662b72fa4abf701b54f24ca636f73e92db0260de676ab4da9a63e2c",
+    "old_and_new_not_same_source_record": true,
+    "native_request_diff_path_count": 4,
+    "only_diff_field": "state.recent_prior_events[*].seconds_before_current",
+    "other_native_state_and_both_question_specs_identical": true,
+    "both_current_event_result": "Fail",
+    "both_prior_failures": 4,
+    "both_distinct_failed_destinations": 1,
+    "both_time_window_seconds": 300,
+    "both_gold_policy_decision": "record_failed_attempt",
+    "all_prior_events_in_policy_time_window": true,
+    "same_question_answer_order": true,
+    "different_token_id_hashes": true,
+    "native_token_count_different": true
+  },
+  "observations": [
+    {
+      "id": "A428_021",
+      "source_group": "lanl:day:48",
+      "seconds_before_current": [
+        238,
+        157,
+        76,
+        5
+      ],
+      "input_SHA": "58758bd2ab07bc743e7fba459532e071a40461b4e4cbefdde3fe12032e58fbb6",
+      "token_ids_sha256": "20ef68d3ae75bd3dd36d098985eeba9e817014927f78d6f25ce7e66b2f4c71fc",
+      "token_ids_len": 631,
+      "gold": "record_failed_attempt",
+      "pred": "investigate",
+      "p_investigate": 0.765357255935669,
+      "p_record": 0.2336808145046234,
+      "logit_investigate": 5.879872798919678,
+      "logit_record": 4.693486213684082,
+      "margin_investigate_minus_record": 1.1863865852355957,
+      "burst_probability_true": 0.22692623734474182,
+      "action_wrong": true
+    },
+    {
+      "id": "A428_024",
+      "source_group": "lanl:day:48",
+      "seconds_before_current": [
+        187,
+        155,
+        147,
+        77
+      ],
+      "input_SHA": "9ad79ee547eeb7b6dfb544b972de175a7cbc944e6b0c186ca68216af3e382619",
+      "token_ids_sha256": "4eb41a933a0f639c9863a9657fa0d84732c452093df6791a8320112dbf5c96f1",
+      "token_ids_len": 633,
+      "gold": "record_failed_attempt",
+      "pred": "record_failed_attempt",
+      "p_investigate": 0.08350786566734314,
+      "p_record": 0.9110152125358582,
+      "logit_investigate": 1.4735957384109497,
+      "logit_record": 3.8632147312164307,
+      "margin_investigate_minus_record": -2.389618992805481,
+      "burst_probability_true": 0.00925497803837061,
+      "action_wrong": false
+    }
+  ],
+  "exact_differences": [
+    {
+      "path": "state.recent_prior_events.0.seconds_before_current",
+      "old": 238,
+      "new": 187
+    },
+    {
+      "path": "state.recent_prior_events.1.seconds_before_current",
+      "old": 157,
+      "new": 155
+    },
+    {
+      "path": "state.recent_prior_events.2.seconds_before_current",
+      "old": 76,
+      "new": 147
+    },
+    {
+      "path": "state.recent_prior_events.3.seconds_before_current",
+      "old": 5,
+      "new": 77
+    }
+  ],
+  "derived": {
+    "margin_shift_between_021_and_024": 3.5760055780410767,
+    "investigate_probability_shift": 0.6818493902683258,
+    "token_length_difference": 2,
+    "same_field_structure_equality_after_removing_prior_seconds": true,
+    "same_gold_SHA": true,
+    "within_same_source_group": true,
+    "numeric_character_width_changes": true,
+    "archive_LANL_standalone_near_duplicate_template_rows": 4,
+    "template_ids": [
+      "A428_021",
+      "A428_022",
+      "A428_023",
+      "A428_024"
+    ],
+    "template_action_error_count": 1,
+    "source_groups_in_template": 3,
+    "independent_confirmatory_group_count": 0
+  },
+  "competing_explanations": [
+    "Natural event recency distribution changed within an otherwise identical source-local policy state; model might use inappropriate recency heuristic instead of discrete count.",
+    "Native token length changed by 2, numerical digit-length patterns changed, and token-ID hashes differ: cannot attribute outcome flip solely to semantic time spacing.",
+    "Different original scene provenance and fixed output randomness/precision not independently replicated under exact native state; observational, not a randomized within-original-scene counterfactual.",
+    "Generic cross-task label/readout bias or score instability, not policy-specific Q/K information-flow cause."
+  ],
+  "prior_art": [
+    {
+      "title": "Are AI Decision Models Biased? A Case Study of Jev",
+      "uri": "https://arxiv.org/html/2610.19619v1",
+      "read_level": "Primary HTML §3–6 and abstract",
+      "relevance": "Jev sensitivity to irrelevant numeric cues and candidate order; generic numeric sensitivity cannot count as new contribution."
+    },
+    {
+      "title": "What Really Controls Temporal Reasoning in Large Language Models: Tokenisation or Representation of Time?",
+      "uri": "https://aclanthology.org/2026.findings-emnlp.2149/",
+      "read_level": "ACL Anthology publisher abstract",
+      "relevance": "Token fragmentation and semantic temporal representation both matter, so factor them explicitly."
+    },
+    {
+      "title": "LGMT: Logic-Grounded Metamorphic Testing for evaluating the reasoning reliability of LLMs",
+      "uri": "https://www.sciencedirect.com/science/article/pii/S0950705126010506",
+      "read_level": "Publisher abstract/method snippets",
+      "relevance": "Gold-invariant transformation testing itself is not novel."
+    },
+    {
+      "title": "SecJev original",
+      "uri": "https://arxiv.org/html/2610.03073v2",
+      "read_level": "Original architecture and policy source design, previous audit",
+      "relevance": "Typed independent questions and scenario fields already published."
+    }
+  ],
+  "A461_gate_consequence": {
+    "latest_gpu_status": "NOT_ADMITTED",
+    "latest_G_MINUS_1": "HOLD_PRIOR_ART_INCOMPLETE",
+    "reframed_novelty": "Existing same-Gold timestamp-only decision flip is a necessary nuisance-axis negative control for policy threshold intervention, not a new A461 strict monotonicity positive. Its relevance is measurement design, not established security-specific mechanism.",
+    "must_have_additional_G0_control": "Freeze one original source-native scene and an oracle-invariant timestamp-only SHAM arm, verify token count and candidate order, and compare alongside true B/S threshold crossing using independently checked native Gold; mark CFI/length mismatches invalid for causal specificity.",
+    "higher_bar_mechanism": "After strict policy-error positive passes, compare timestamp nuisance versus true threshold intervention with bidirectional pointer Q/K/LoRA and equal-norm controls, independent source group validation; no pre-approval for Hook or training.",
+    "stop_conditions": [
+      "STOP_G_MINUS_1_NOVELTY_HOLD",
+      "STOP_NUISANCE_TOKEN_LENGTH_UNMATCHED",
+      "STOP_NO_VALID_NATIVE_ORACLE_PAIR",
+      "STOP_ONLY_GENERIC_NUMERIC_FORMAT_SENSITIVITY",
+      "STOP_NO_INDEPENDENT_POLICY_EFFECT"
+    ]
+  },
+  "parallel_agent_collision_protocol": {
+    "read_git_head_before_each_new_write": true,
+    "write_only_unique_additive_paths": true,
+    "do_not_touch_existing_protocol_or_other_agent_outputs": true,
+    "reconcile_other_agent_new_raw_receipts_before_G0_or_GPU": true,
+    "one_physical_forward_unique_run_id_must_not_double_count": true
+  },
+  "resource_bookkeeping": {
+    "new_model_forwards": 0,
+    "new_gpu_forwards": 0,
+    "new_training": 0,
+    "new_raw_TRAIN_DEV_CAL_TEST_corpus_reads": 0,
+    "archived_model_rows_read": true,
+    "archived_input_rows_read": true,
+    "server_login": false,
+    "remote_library_backup_confirmed": false
+  }
+}

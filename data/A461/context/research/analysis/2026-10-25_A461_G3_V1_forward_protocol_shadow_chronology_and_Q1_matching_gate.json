@@ -1,0 +1,210 @@
+{
+  "schema": "JEV_A461_G3_V1_CHRONOLOGY_CONTROL_SOURCE_ADMISSION_PREEXEC_QA_V1",
+  "date": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "scope": "Static independent audit of G3 V1 registered protocol and already executed G1-era 16 Twins pilot treatment states. No new G3 G0C or GPU execution and no assumption new source-group prevalence identical.",
+  "sources": [
+    {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "sha": "24526c643434544b9a02587abc2d57e2c13ef627"
+    },
+    {
+      "path": "research/experiments/2026-10-25_A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE_PROTOCOL_V1.json",
+      "sha": "dd98f2d8ee06a4809dd4df12ab9fb3cf7292e65b"
+    }
+  ],
+  "reviewed_protocol_id": "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE_V1",
+  "reported_physical_forward_budget": 106,
+  "protocol_cap": 128,
+  "primary_blockers": [
+    {
+      "severity": "SOURCE_CHRONOLOGY_INVALID_SHAM",
+      "field": "SHAM_RO_ORDER_REVERSAL",
+      "old_data_shadow": "16/16 old real G0 treatment message series sorted received ascending, 15/16 reversing full message list violates non-decreasing received chronology, while Gold remains set-based invariant.",
+      "required": "Treat full reversal as out-of-contract exploratory, or restrict to reordering same-received-timestamp ties and verify source_native_renderer/order/G0C Gold for each. Report ineligible counts. Do not treat wrong-chronology SHAM as policy-invariant native valid."
+    },
+    {
+      "severity": "CORE_Q1_N1B_ADMISSION_MISSING",
+      "field": "N1B_AUTHOR_SWAP and STOP_NEUTRAL_UNMATCHED_MAJORITY",
+      "old_data_shadow": "T2_Q1 pilot old accept -> new reject both 2/2 lacked N1B; author swap requires fresh non-supporting validator and full quorum-satisfied states may not have one. G3 stop only global half matched can be met by 10 WAIT while 10 ACCEPT get zero match.",
+      "required": "Make explicit two stratum-specific T2 C0Q0 vs C0Q1 matched-neutral-source eligibility thresholds. If core ACCEPT stratum not matched, stop/downgrade that claim rather than pool a large WAIT matched rate."
+    },
+    {
+      "severity": "SHAM_ROLE_MISCLASSIFICATION",
+      "field": "SHAM_TS_TIME_SHIFT",
+      "issue": "Shift of treatment message time starts FROM already-conflicted treatment state: source Gold reject->reject, not old accept/wait->unchanged null. This is within-treatment nuisance, not a no-conflict counterfactual.",
+      "required": "Track treatment perturbation invariance as distinct class with its own Gold/original key, never label as N1 Gold unchanged relative old."
+    },
+    {
+      "severity": "SOURCE_AUTHENTIC_DUPLICATE_HAZARD",
+      "field": "SHAM_SA_SAME_AUTHOR_DUPLICATE",
+      "issue": "Replicating old candidate vote (same author,block,round) is a duplicate-event pattern that may be invalid under actual event-history grammar although set-count policy Gold unchanged.",
+      "required": "Prove source authentic duplicate vote support, event identity and chronology; otherwise mark OUT_OF_CONTRACT."
+    },
+    {
+      "severity": "BUDGET_PERMISSION",
+      "field": "authorization",
+      "issue": "G3 V1 asserts standing 106-forward GPU authorization from another conversation; independent reviewer cannot verify that original user consent. G-1 decision also states no permission granted by literature preflight.",
+      "required": "Before GPU use obtain authoritative admission receipt tied to fixed 106 plan and actual zero-previous-G3 forwards, and comply with user approval scope; do not treat CPU-Gold-only artifacts as permission."
+    }
+  ],
+  "past_G0_received_order_shadow": {
+    "total": 16,
+    "original_non_decreasing": 16,
+    "after_full_reverse_non_decreasing": 1,
+    "after_full_reverse_violate": 15,
+    "rows": [
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:addf18719636d0cd",
+        "group": "twins_streamlet:run-101",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": true,
+        "distinct_received_values": 1
+      },
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:14823a97e481548e",
+        "group": "twins_streamlet:run-105",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 2
+      },
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:1b0e96fb22c6aebe",
+        "group": "twins_streamlet:run-114",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 9
+      },
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:e5b68bed342aaa85",
+        "group": "twins_streamlet:run-121",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 4
+      },
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:e35b601759fb4800",
+        "group": "twins_streamlet:run-129",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 2
+      },
+      {
+        "pair_key": "TWINS_T1_QUORUM_AXIS:39834f1dfb7861f1",
+        "group": "twins_streamlet:run-154",
+        "axis": "TWINS_T1_QUORUM_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 4
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+        "group": "twins_streamlet:run-100",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 4
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:bb385759da896be4",
+        "group": "twins_streamlet:run-101",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 3
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:77ac7c784fa27f11",
+        "group": "twins_streamlet:run-105",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 5
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:23a492683724bfef",
+        "group": "twins_streamlet:run-114",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 10
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:e5b68bed342aaa85",
+        "group": "twins_streamlet:run-121",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 4
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+        "group": "twins_streamlet:run-125",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 3
+      },
+      {
+        "pair_key": "TWINS_T3_CONFLICT_STABILITY:6f8c5dea5cf8cea6",
+        "group": "twins_streamlet:run-105",
+        "axis": "TWINS_T3_CONFLICT_STABILITY",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 4
+      },
+      {
+        "pair_key": "TWINS_T3_CONFLICT_STABILITY:9044f95302e93e25",
+        "group": "twins_streamlet:run-114",
+        "axis": "TWINS_T3_CONFLICT_STABILITY",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 28
+      },
+      {
+        "pair_key": "TWINS_T3_CONFLICT_STABILITY:fb273c6528f29225",
+        "group": "twins_streamlet:run-125",
+        "axis": "TWINS_T3_CONFLICT_STABILITY",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 6
+      },
+      {
+        "pair_key": "TWINS_T3_CONFLICT_STABILITY:e90ece230eef6871",
+        "group": "twins_streamlet:run-129",
+        "axis": "TWINS_T3_CONFLICT_STABILITY",
+        "source_non_decreasing_received": true,
+        "reversed_non_decreasing_received": false,
+        "distinct_received_values": 8
+      }
+    ]
+  },
+  "statistical_new_primary_recommendation": "Add signed-logit triple specificity contrast of treatment minus Gold-invariant native-token-count-matched N1B for conflicting_vote (true-vs-false), certificate_action (new-vs-old), evidence_level, clustered by run and split Q0/Q1. This improves on recognition error rate alone and is directly motivated by 4 old pilot triples where N1B itself shifted toward conflict/reject 4/4.",
+  "active_status": "V1 protocol committed before this QA; PROSPECTIVE_V2_AMENDMENT_REQUIRED_BEFORE_G0C_AND_FORWARD; NO_GPU_BY_REVIEW_AGENT",
+  "full_audit_checks": {
+    "all16": true,
+    "original_16_sorted": true,
+    "reverse_15_invalid": true,
+    "auth_claim_present": true,
+    "G3N1B_every": true,
+    "stopglobal": true,
+    "global_budget": true,
+    "RO": true,
+    "TS": true
+  },
+  "handoff": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "comment_id": 6394421442
+  },
+  "resources": {
+    "new_GPU": 0,
+    "new_model_forwards": 0,
+    "new_DEV_rows": 0,
+    "G0_archived_Twins_rows_read": 16
+  }
+}

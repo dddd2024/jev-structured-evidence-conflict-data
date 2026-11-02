@@ -1,0 +1,35 @@
+{
+  "round": "A461",
+  "date": "2026-10-25",
+  "files": {
+    "A461_CPU_evidence_gate_audit.json": {
+      "bytes": 1897,
+      "sha256": "edf0731116fb8fe9a2d919631b54fdd4d7cbf2a06f8d9f996c4215e9f01cb6b4"
+    },
+    "A461_candidate_registry.json": {
+      "bytes": 2447,
+      "sha256": "3b6521a79f99efe37272055e3f812b966f6b91c46814ca6a407293cb5ab531be"
+    },
+    "A461_experiment_protocol.json": {
+      "bytes": 2755,
+      "sha256": "8e22f32b769ee6e1286104ce3fa8bc5152e08137448066fb215030e2f12863cd"
+    },
+    "A461_literature_delta.json": {
+      "bytes": 1404,
+      "sha256": "f42b88fc5cfbe437f400f8dd9002053ab71ba60eee4fc061208f1c75089925fd"
+    },
+    "A461_literature_ledger.json": {
+      "bytes": 1054904,
+      "sha256": "141f5133bc1dda750197edccba4cc89138c8cce0a264b2c5702e4e09704e605b"
+    },
+    "A461_paper_screen.json": {
+      "bytes": 7724,
+      "sha256": "f7aa197ec7c1713e07e5a5cdeb0d4cc078b43f6369a64e7b7a4f23c39f98ffd5"
+    },
+    "A461_完整研究报告.md": {
+      "bytes": 9004,
+      "sha256": "7d44aa1004ceaa8114110b913a8e92f56c7da8dc8757ce206f5f6d626549a73f"
+    }
+  },
+  "note": "Manifest covers payload files before ZIP, not itself or ZIP."
+}

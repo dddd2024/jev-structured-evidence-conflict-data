@@ -1,0 +1,62 @@
+{
+  "schema": "JEV_A461_INDEPENDENT_MANIFEST_BUG_ARCHIVE_RECEIPT_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "source_code_blob": "c3dcc1949bdb2e8902689dafbba0ad4e78b33256",
+  "analyses": [
+    {
+      "path": "research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.json",
+      "sha1": "9e6b2f40ce7c5af6c8bedfa04fd7bb58b1670c7b",
+      "readback": true,
+      "parsed": true,
+      "integer_cases_verified": 4
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.md",
+      "sha1": "714b685f115e1df24b240b92feac5ee3d54a1ba7",
+      "readback": true
+    }
+  ],
+  "verified_findings": {
+    "current_comparator": "neutral versus old",
+    "required_comparator": "neutral versus treatment within same original state and experiment family",
+    "false_positive_example": [
+      100,
+      103,
+      100
+    ],
+    "false_negative_example": [
+      100,
+      103,
+      103
+    ],
+    "baseline_old_native_request_hash_is_null": true,
+    "baseline_old_gold_is_null": true,
+    "original_scene_sha_truncated_to_16hex": true,
+    "new_code_emitted_modified_arm_scenario_max": 65,
+    "baseline_pair_key_scenario_max": 34,
+    "planned_precision_replays": 4,
+    "total_conditional_G1_physical_forward_scenario_max": 103,
+    "G1_gpu_permitted": false,
+    "formal_G0_PASS_from_git_readback": false
+  },
+  "parallel_ack": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "ack_id": 6393454987,
+    "status": "PREPARING",
+    "bug_notice_id": 6393585183
+  },
+  "A463_provenance": {
+    "source": "research/literature/A463_20261025/A463_candidate_registry.json",
+    "git_sha1": "2c7f74cbff9bb08367176953c514fd45a821bc51",
+    "P1": "A461-PSMI/A463-VQPI",
+    "status": "REFINED_EXISTING_MAINLINE_NOT_NEW_GPU_BRANCH",
+    "real_model_forward": 0
+  },
+  "limitations": [
+    "Static examination; no model inference or server validation this session.",
+    "Proof uses synthetic integer matching cases, not alleged observed original model input token lengths.",
+    "Parallel agent may change manifest later; recheck current GitHub ref before conclusion.",
+    "No server or GPT Library backup verified."
+  ]
+}

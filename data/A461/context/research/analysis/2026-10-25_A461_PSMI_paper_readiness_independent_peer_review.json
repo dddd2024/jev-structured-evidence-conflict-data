@@ -1,0 +1,136 @@
+{
+  "schema": "JEV_A461_PSMI_PAPER_READINESS_INDEPENDENT_REVIEW_V1",
+  "date": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "frozen_execution_commit": "ca9eb88eda0339e412da74c67bae69c216af634b",
+  "verdict": {
+    "real_G0_G1_G2_finished_and_github_verified": true,
+    "ready_for_exploratory_technical_paper_draft": true,
+    "strong_peer_review_whitebox_mechanistic_security_paper_established": false,
+    "novel_mechanistic_causal_contribution_established": false,
+    "deployment_vulnerability_established": false,
+    "manuscript_factual_sections_verified": false,
+    "status": "EXPLORATORY_BEHAVIORAL_AUDIT_READY_FOR_DRAFT__MAIN_MECHANISM_NOT_YET_PROVEN"
+  },
+  "evidence": {
+    "G1_logits": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G1_REAL_20261025/raw_native_logits_103_requests.jsonl",
+      "git_blob": "5b4a6903171d0a5848162a335530492f6e1a6046",
+      "rows": 103
+    },
+    "G0_source_gold": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G0_REAL_20261025/pair_rows.jsonl",
+      "git_blob": "24526c643434544b9a02587abc2d57e2c13ef627",
+      "modified_arms": 65
+    },
+    "G2_action": {
+      "path": "research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/G2_REAL_20261025/analysis.json",
+      "git_blob": "e33f2306e5c4da8951993f438731a6a878ea7cba"
+    },
+    "prior_independent_typed": {
+      "path": "research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json",
+      "git_blob": "b937204f009bff675670ca904c5b076050c4006a"
+    },
+    "V2_amendment": {
+      "path": "research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "git_blob": "470349015b8d13c831db4afe3268187e9feb9871"
+    }
+  },
+  "exact_numbers": {
+    "physical_forwards": 103,
+    "main_treatment_arms": 31,
+    "original_unique_old_states": 30,
+    "original_unique_source_groups": 11,
+    "repeats": 4,
+    "Gold_changing_old_clean": 20,
+    "correct_new_action": 7,
+    "fail_to_update_action": 13,
+    "correct_signed_action_logit_delta": 19,
+    "Twins_T2_unique_source_runs": 6,
+    "Twins_T2_actions_reject_correct": 0,
+    "Twins_T2_conflict_gold_true_pred_false": 6,
+    "Twins_T2_quorum_gold_correct": 6,
+    "Twins_T2_evidence_level_gold_correct": 0,
+    "Twins_T2_matched_neutral_actually_forwarded": 4,
+    "Twins_T2_Q1_accept_to_reject_cores": 2,
+    "Twins_T2_Q1_cores_matched_neutral_actually_forwarded": 0,
+    "Twins_T2_negative_signed_action_margin_examples": 1,
+    "LANL_L1_burst_new_gold_correct": 3,
+    "LANL_L1_triage_new_gold_correct": 4,
+    "N1B_unconditional_wrong": 4,
+    "N1B_all": 14,
+    "N1B_old_clean_wrong": 2,
+    "N1B_old_clean_all": 12,
+    "N1B_Gold_changing_old_clean_wrong": 2,
+    "N1B_Gold_changing_old_clean_all": 9,
+    "real_N1_equal_treatment_neutral_native_state_token_length": 29,
+    "frozen_report_incorrect_N1_equal": 0,
+    "N2_real_Gold_preserved": 3,
+    "N2_model_pred_gold_correct": 3,
+    "source_group_overlap_A428": 5,
+    "G0_primary_axis_cases_in_previous_groups": 18
+  },
+  "statistical_note": {
+    "two_sided_exact_p_4_fully_neutral_matched_discordances": 0.125,
+    "two_sided_exact_p_6_old_vs_treatment_correctness_discordances": 0.03125,
+    "not_equivalent_comparisons": true,
+    "avoid_IID_and_external_generalization": true
+  },
+  "major_findings": [
+    {
+      "area": "causal_story",
+      "risk": "T2 C head wrong in 6/6; '19/20 action-logit-direction faithful means read evidence' is unsupported."
+    },
+    {
+      "area": "native_architecture",
+      "risk": "C/Q/A each question independent causal input row with shared backbone/pointer scorer; predicted C does not feed predicted A."
+    },
+    {
+      "area": "neutral_matched_core",
+      "risk": "Only 4/6 T2 have executed N1B neutral; both accept->reject Q=1 core samples no executed neutral."
+    },
+    {
+      "area": "N1_audit",
+      "risk": "Original 0/31 parity was comparing neutral against old; treatment-vs-neutral actual 29/31 equal state token counts."
+    },
+    {
+      "area": "pre_registration",
+      "risk": "V2 explicitly states failed_to_change is not direction-reversing monotonicity; one negative signed directional case, itself unpaired neutral."
+    },
+    {
+      "area": "numerical_stats",
+      "risk": "McNemar p=.03125 for six old->new correctness changes cannot be described as six neutral-matched discordances; four neutral-matched pairs yield p=.125 for simplistic two-sided sign test."
+    },
+    {
+      "area": "G2_N2",
+      "risk": "N2 old_gold computed from same edited state in G2 script; independent earlier reversible G0 check 3/3 still genuine."
+    },
+    {
+      "area": "generalization",
+      "risk": "One 0.8B model, 11 clusters, DEV-targeted and 18/31 previous-group overlap; no blind fresh source groups, no deployed attacker write-channel."
+    },
+    {
+      "area": "literature",
+      "risk": "Prior work on typed guardrails, entity tracking/state updates, monotonicity architectures and activation patching; 'NOVELTY_DELTA_TESTABLE' is not novelty proof."
+    }
+  ],
+  "paper_type_thresholds": {
+    "undergraduate_course_or_exploratory_report": "sufficient if accurately limited claims and proper source citations",
+    "preprint": "possible clearly labeled exploratory audit; not peer reviewed",
+    "competitive_security_or_mechanistic_ML_publication": "insufficient without independent fresh-group validation/causal intervention or new methodological contribution"
+  },
+  "next_name": "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE",
+  "next_status": "DRAFT_NOT_ADMITTED_NOT_EXECUTED; independent G-1 and CPU admissibility first; new GPU budget permission required",
+  "manuscript_path_claimed": "F:\\jev\\paper_a461_psmi\\A461_PSMI_audit_paper_draft.docx",
+  "manuscript_read": false,
+  "manuscript_unavailable_reason": "Remote Desktop Commander registered device offline and draft not found in GitHub; formatting postcheck report alone cannot validate research quality",
+  "peer_review_md": "research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.md",
+  "new_compute": {
+    "GPU": 0,
+    "model_forward": 0,
+    "training": 0,
+    "server_access": false,
+    "CAL_TEST_reads": 0
+  },
+  "notes": "Research outputs from existing frozen G1; do not edit executed GPU plan or rewrite original receipts."
+}

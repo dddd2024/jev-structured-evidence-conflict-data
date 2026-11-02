@@ -1,0 +1,40 @@
+{
+  "schema": "JEV_A461_INDEPENDENT_BUDGET_QA_READBACK_RECEIPT_V1",
+  "date_local": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "files_read_back": [
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.json",
+      "git_blob_sha1": "7d84a27bb61363d9657fb858d7af58b13dc04a6f",
+      "parsed": true,
+      "values_asserted": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.md",
+      "git_blob_sha1": "badd1dbae94f85d72f90b4f626c9f28a559635d8",
+      "readback": true
+    }
+  ],
+  "notified_parallel_agent_issue": {
+    "issue_url": "https://github.com/dddd2024/jev/issues/2",
+    "comment_id": 6393430806,
+    "sent": true
+  },
+  "verified_values": {
+    "full_V1_target_unshared_forwards": 160,
+    "conditional_V2_12_L3A_unshared_forwards": 208,
+    "V1_baseline_shared_forwards": 114,
+    "conditional_V2_12_L3A_shared_forwards": 150,
+    "conditional_forward_budget": 128,
+    "old_T3_clean": 1,
+    "old_T3_total_eligible": 4,
+    "old_T3_preexisting_wrong": 3,
+    "exact_McNemar_all_directional_discordant_needed_two_sided_alpha_005": 6
+  },
+  "limits": [
+    "Forward counts are design scenarios not executed model forwards; V2 L3A=12 is an illustrative quota, not frozen.",
+    "Paired exact significance calculation assumes independent units, not guaranteed with 3 LANL day groups.",
+    "No new CPU G0, no model inference, no GPU, no original corpus row scan and no server/Library dual backup."
+  ],
+  "next_step": "Parallel executing Agent should publish scripts, G0 admission and physical forward manifest; this session independent review only."
+}

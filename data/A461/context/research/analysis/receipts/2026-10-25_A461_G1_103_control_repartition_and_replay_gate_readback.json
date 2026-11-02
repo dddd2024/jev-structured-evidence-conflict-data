@@ -1,0 +1,52 @@
+{
+  "schema": "JEV_A461_G1_INDEPENDENT_REPARTITION_AND_REPLAY_READBACK_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "analysis": [
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.json",
+      "git_blob": "29999da8517d1e6b26f4e830128dbeeeab3bb50d",
+      "parsed": true,
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.md",
+      "git_blob": "f843bccd2b9134dd681f4c10c8c43386ea15974e",
+      "readback": true
+    }
+  ],
+  "latest_parallel_code": {
+    "old_none_fix_commit": "5be7c65e7f7afe8a79571e0e23e2151c5449da47",
+    "queue_5_tuple_fix_commit": "d8ab1e1278c78afaf1438ddaf088b5a1af227183",
+    "current_G1_script_blob": "159145ed35ac412bcda3a0867debb683a6323ce3",
+    "replay_bug_persists": true,
+    "old_none_bug_fixed": true,
+    "queue_five_tuple_bug_fixed": true,
+    "manifest_wrong_token_match_field_persists": true
+  },
+  "verified": {
+    "original_G0_31_treatment_arms": 31,
+    "original_G0_14_N1B": 14,
+    "original_G0_31_N1": 31,
+    "selected_N1_missing_N1B": 17,
+    "selected_N1_15_LANL_matched": 15,
+    "selected_N1_2_T2_unmatched": 2,
+    "total_physical_forward_plan": 103,
+    "complete_treatment_control_coverage": 31,
+    "pairs_with_native_state_equal_length": 29,
+    "critical_Q1_veto_T2_still_exploratory": 2,
+    "replay_broken_after_last_fix": true,
+    "runner_writes_raw_logits_after_replay_check": true,
+    "active_GPU_result_verified_in_repository": false
+  },
+  "parallel_issue_feedback": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "comment_id": 6393815075
+  },
+  "limitations": [
+    "GitHub-only static/code-source validation, not a real server test.",
+    "No authorization inferred from connected ZCode claim beyond literal recorded assertion.",
+    "No model outcome or causal mechanism result claimed.",
+    "Server and GPT Library double-backup not independently checked."
+  ]
+}

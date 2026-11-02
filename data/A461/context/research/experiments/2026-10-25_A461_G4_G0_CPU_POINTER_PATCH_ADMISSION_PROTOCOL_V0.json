@@ -1,0 +1,109 @@
+{
+  "schema": "JEV_A461_G4_G0_CPU_POINTER_PATCH_ADMISSION_PROTOCOL_V0",
+  "name": "A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING",
+  "stage": "G0_CPU_ONLY_DESIGN_AND_ADMISSION",
+  "state": "G0_STATIC_COHORT_AND_PRIOR_ART_DONE; SERVER_CPU_MODEL_TOKENIZER_AND_HOOK_SMOKE_NOT_DONE; GPU_NOT_ADMITTED",
+  "record_date": "2026-10-25",
+  "literature_gate": "research/literature_preflight/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G_MINUS_1_CPU_MECHANISM_GATE_V0.md",
+  "cohort_manifest": "research/experiments/2026-10-25_A461_G4_POINTER_HEAD_CAUSAL_CPU_COHORT_V0.json",
+  "scientific_question": "Does weak recognition of newly appended valid same-round validator equivocation arise predominantly from the pointer decision-marker query, candidate-end keys, their interaction, or upstream state-to-question feature aggregation?",
+  "architecture": {
+    "model": "SecJev-0.8B",
+    "upstream_kev_revision": "90990a5fac2995b9faa3190f7d437e84f2067768",
+    "pointer_dim": 256,
+    "pointer_query": "model.head.q( h_<decide> )",
+    "pointer_key": "model.head.k( h_<candidate_end_k> )",
+    "temperature": "model.head.temperature; verify same native calibration contract before deriving margins",
+    "scoring": "z_k = dot(query,key_k) / sqrt(256) / temperature in eval",
+    "critical": "Pointer Q/K linear projection not attention-head query/key; C/Q/A/E independent state+question causal rows; Qwen3.5 hybrid recurrent/attention, so use rows_of-anchored independent rows and never assume packed-mask equivalence.",
+    "layers": "Must discover actual pinned checkpoint layers/modules/LoRA and torch forward hooks on server; never invent verified layer indices"
+  },
+  "current_cpu_conclusions": {
+    "G3_pair_count": 26,
+    "identical_old_new_question_branch_sha": 26,
+    "identical_old_new_candidate_keys": 26,
+    "state_token_length_growth_histogram": {
+      "+33": 12,
+      "+34": 14
+    },
+    "strict_failed_T2_with_valid_matched_N1B_and_clean_old_and_clean_N1B": 11,
+    "valid_matched_T2_accept": 3,
+    "T3_preexisting_positive_contexts": 6,
+    "true_clean_to_conflict_success_with_valid_matched_neutral_clean": 0,
+    "Streamlet_DEV_touched_groups": 42,
+    "unseen_Streamlet_DEV_groups_remaining": 0
+  },
+  "cpu_execution_plan": [
+    {
+      "step": "G0A",
+      "task": "Freeze exact G3 raw logits, token manifest, model source, checksum inventory; independently recompute strict eleven T2 cohort and six T3 positive-context cohorts; report SHA",
+      "resources": "CPU only; 0 neural forwards",
+      "pass": "all source and row joins exact"
+    },
+    {
+      "step": "G0B",
+      "task": "On server under ~/wjc, inspect pinned checkpoint and Kev version: model.head.q/k dims, projection weights, scalar temperature, 22/actual hybrid layers and LoRA modules. Assert map from candidate end and decision marker to row offsets. Do not forward.",
+      "resources": "CPU model metadata or limited CPU checkpoint load; 0 GPU",
+      "pass": "every tensor/module name/shape pinned, no implicit fallback"
+    },
+    {
+      "step": "G0C",
+      "task": "Native pinned tokenizer rerender: for each old/new/N1B strict pair check branch token IDs/hash same, local branch offsets, state growth and first divergence, end-delimiter anchors, nontruncation; verify no changed candidate labels. Validate any chronology-preserving equal-time order controls separately.",
+      "resources": "CPU tokenizer only",
+      "pass": "26/26 old/new branch tokens, 11/11 strict triples, exact SHA and position map"
+    },
+    {
+      "step": "G0D",
+      "task": "Dry-run pointer readout algebra on deterministic fake q/k vectors without model weights, plus independent implementation to assert exact delta decomposition and candidate permutation sanity; no model activation capture.",
+      "resources": "CPU synthetic arithmetic",
+      "pass": "relative tolerance <=1e-6, zero forward"
+    },
+    {
+      "step": "G0E",
+      "task": "Independent blind methodological review of donor eligibility, confound and sample/power plan; check whether strong same-scene clean positive donors are available. Log stop vs approval to conduct readout-only first.",
+      "resources": "CPU only",
+      "pass": "formal review verdict"
+    }
+  ],
+  "readout_decomposition": {
+    "signed_metric": "M_C = z_true-z_false",
+    "d_old": "M_C(real conflict new) - M_C(old)",
+    "d_null": "M_C(real conflict new) - M_C(valid length-matched neutral)",
+    "query_key_vectors": "q_i = W_Q h_decide_i + b_Q; d_i = (W_K h_true_i+b_K) - (W_K h_false_i+b_K)",
+    "identity": "Delta_M = (Delta_q . d_old + q_old . Delta_d + Delta_q . Delta_d)/(sqrt(256)*T)",
+    "terms": [
+      "query delta",
+      "candidate key contrast delta",
+      "interaction"
+    ],
+    "interpretation": "Exact readout algebra, not by itself upstream causal mediation",
+    "reconstruction": "Before any patch, raw logits from model.forward_rows_batch and cached q,k must agree per candidate to chosen FP32 tolerance; verify marker positions/branch hashes; if not, STOP"
+  },
+  "future_bidirectional_gpu_gate": {
+    "current_status": "NOT_ADMITTED",
+    "required": "New independent review after G3 v3; fresh literature increment if mechanism claim changes; admissible matched donor positive and failure pairs; source-contract chronology/legal author; test fully crossed bidirectional patch directions and negative/sham matched controls; sample-size and GPU-forward count frozen before user-authorized execution",
+    "donor_limitation": "Strict G3 has 11 negative cases but zero positive same-scene clean-to-conflicted cases with clean valid matched null; T3 positive contexts are not same-scene donors and cannot establish semantic-specific causal rescue",
+    "recommendation": "If donor not resolved, restrict next GPU proposal to pointer-factor reconstruction and clearly exploratory cross-context patching, not bidirectional causal proof",
+    "forbidden": [
+      "GPU before review window and separate freeze",
+      "Claiming C causes A by neural mediation",
+      "Using fresh TEST/CAL to select hypotheses",
+      "Treating T3 across-scene donors as matched positives",
+      "Swapping hidden sequences by absolute indices without local token alignment",
+      "Calling 42 already-used DEV groups new unseen groups"
+    ]
+  },
+  "success_fail": {
+    "G0_pass": "CPU source/metadata/tokenizer/render/independent synthetic algebra checks, 0 GPU, archive hashes",
+    "G0_stop": "model source drift, tokenizer/branch mismatch, illegal edit/control, lack of verified checkpoint metadata, source-provenance ambiguity",
+    "G4_mechanism_paper_pass": "Only after correctly targeted bidirectional interventions with specificity controls, restoration/suppression across independent groups and robust literature novelty comparison",
+    "G4_mechanism_paper_fail": "No safe donor or patch controls, no causally specific effect, off-target flips dominate, all claims only descriptive"
+  },
+  "storage": {
+    "server_root": "~/wjc/a461-g4-pointer-patching-20261025-v0",
+    "git_root": "research/rounds/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/",
+    "dual_backup": "G0 CPU plan published GitHub now; server/GPT Library outputs NOT yet created or verified"
+  },
+  "gpu_budget": "NOT_ASSIGNED; freeze only after independent review and CPU acceptance",
+  "gpu_model_forwards_done": 0
+}

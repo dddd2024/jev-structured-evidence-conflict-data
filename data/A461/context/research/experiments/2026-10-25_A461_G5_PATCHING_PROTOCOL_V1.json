@@ -1,0 +1,61 @@
+{
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "id": "A461_G5_PATCHING_PROTOCOL_V1",
+  "study_line": "A461 (execution ledger round A468, stage 3)",
+  "g_minus_1": "carried: 36bb959 (G5 increment) and 54511ca (G4 mechanism gate); no new mechanism claim added",
+  "purpose": "Exploratory single-donor bidirectional activation patching to causally test the G1R key-side localization: does the recognized donor's appended-vote-span representation causally restore conflict recognition in failing scenes (sufficiency), and does the failing representation suppress the donor's correct read (necessity)?",
+  "prerequisites_met": {
+    "qualified_positive_donor": "1 (G5 donor search: wait cell, old C=false, new C=true, SA neutral C=false)",
+    "failing_targets": "31 (G5 failed cohort; 10 selected for patching per deterministic rules)",
+    "blind_review_input": "G0E_donor_eligibility_memo.md + this protocol, submitted for independent blind review",
+    "G1R_localization": "key-side dominant 25/26 (reconstruction-validated three-term decomposition)"
+  },
+  "donor_and_targets": {
+    "donor": "G5 qualified donor (pair hash 433890d1..., wait cell): old arm (C read false, clean) and new arm (C read true, appended conflict recognized)",
+    "targets": "10 failing scenes: 5 wait-cell + 5 accept-cell, deterministic selection (lowest row_id) from the 31 failed pairs; each target contributes its old arm (clean baseline) as the patch host",
+    "exclusions": "run-338 excluded from targets (its own neutral false-alarms; reserved as a described positive case)"
+  },
+  "intervention": {
+    "span_definition": "per scene, the appended-vote token span in the state = [first_divergence_vs_its_own_old_arm, state_len_new) measured by rerender (G4 G0C anchor method, branch-independent state positions)",
+    "sufficiency_direction": "patch host old-arm row hidden states at the host's appended-span positions with the donor NEW-arm states at the donor's appended-span positions, at backbone layer output L, then read the C head from the host row: does the host's conflict read flip toward true?",
+    "necessity_direction": "patch donor NEW-arm row at the donor's appended-span with each failing target's appended-span states: does the donor's conflict read flip away from true?",
+    "layers": "6 checkpoints evenly spaced over the 24 decoder layers: outputs of layers 4, 8, 12, 16, 20, 24 (0-indexed 3,7,11,15,19,23); frozen before execution",
+    "alignment": "span width may differ between donor and host (33/34-token growth); patch by relative position within span with linear index mapping and recorded width delta; hybrid-architecture warning respected: patching happens on independent per-question causal rows via forward_rows_batch-equivalent single-row forwards, never on packed sequences"
+  },
+  "controls": [
+    "SA-sham span control: patch the host with the donor's SA-arm appended-span states (same construction, gold-invariant content) - tests whether any appended-vote span suffices",
+    "random-token control: patch the host with token-shuffled donor states at the same span (preregistered permutation)",
+    "off-target metrics: quorum head and action head reads recorded on every patched forward (off-target flip rate is a specificity metric)",
+    "identity check: patching the host with its own states must reproduce the unpatched read (hook sanity, 2 pairs)"
+  ],
+  "budget": {
+    "sufficiency": "10 hosts x 6 layers x 1 donor = 60 forwards",
+    "necessity": "3 targets x 6 layers = 18 forwards",
+    "SA_sham_control": "10 hosts x 6 layers = 60 forwards",
+    "random_token_control": "5 hosts x 6 layers = 30 forwards",
+    "identity_sanity": "2 forwards",
+    "donor_capture_prepass": "2 forwards (donor old/new)",
+    "total": 172,
+    "cap_status": "EXCEEDS the single-round 128 cap; therefore executed as TWO budgeted sub-stages: 172A sufficiency+identity+prepass = 84 (60+2+2+20... see budget_split) and 172B necessity+controls = 88; each sub-stage separately admitted <=128",
+    "budget_split": {
+      "172A": {"prepass": 2, "identity": 2, "sufficiency": 60, "SA_sham": 20, "total": 84},
+      "172B": {"SA_sham_rest": 40, "random_token": 30, "necessity": 18, "total": 88}
+    },
+    "authorization": "user standing authorization series 2026-10-25; both sub-stage budgets frozen here before execution; submission for blind review precedes execution"
+  },
+  "analysis_preregistered": [
+    "sufficiency: per host x layer, signed C-margin change from host baseline; flip count; comparison vs SA-sham and random-token controls at the same layers (the causal claim requires sufficiency beats both controls)",
+    "necessity: donor C-margin change per target x layer",
+    "off-target flip rates for Q/A heads",
+    "layer profile: where in depth the restoration localizes (report all layers, no selection)",
+    "all results labeled exploratory single-donor case study"
+  ],
+  "stop_conditions": [
+    "STOP_SPAN_ALIGNMENT_FAILURE: appended-span extraction or index mapping fails on any host",
+    "STOP_IDENTITY_FAILURE: self-patch does not reproduce the unpatched read",
+    "STOP_RECONSTRUCTION_FAILURE: q/k algebra fails to reproduce native C logits on the donor prepass"
+  ],
+  "interpretation_boundaries": "single donor, single model, exploratory; a positive sufficiency result localizes the causal carrier to the patched span/layer but does not by itself establish the full mechanism paper claim; robust novelty comparison (Tang et al., Zhang & Nanda) is required in the manuscript; no deployment claims",
+  "submission_for_blind_review": "this protocol + G0E memo + G1R memo + G3 errata chain are submitted together; execution starts only after the blind review verdict",
+  "archive": "research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/ (patching artifacts under PATCHING_REAL/)"
+}

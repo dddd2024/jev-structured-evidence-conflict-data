@@ -1,0 +1,41 @@
+{
+  "schema": "JEV_A461_PAPER_READINESS_INDEPENDENT_REVIEW_GITHUB_READBACK_V1",
+  "date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "review_files": [
+    {
+      "path": "research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.md",
+      "git_blob_sha1": "8bcbe4c5cfb91d57a15375e634574ab38cbc775e",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.json",
+      "git_blob_sha1": "3a6a58f38bfc79f8d0d1a062446a3c6e14f9f284",
+      "readback": true,
+      "parsed_and_checks_pass": true
+    }
+  ],
+  "source_real_G1_git_blob_sha1": "5b4a6903171d0a5848162a335530492f6e1a6046",
+  "source_real_G0_gold_git_blob_sha1": "24526c643434544b9a02587abc2d57e2c13ef627",
+  "source_real_G2_analysis_git_blob_sha1": "e33f2306e5c4da8951993f438731a6a878ea7cba",
+  "major_checks": {
+    "forward_rows": 103,
+    "T2_conflict_true_pred_false": 6,
+    "T2_clean_old_to_wrong": 6,
+    "T2_actually_forwarded_N1B_neutral": 4,
+    "old_accept_reject_missing_N1B": 2,
+    "N1_true_match_treat_vs_neutral": 29,
+    "nonreverse_responsiveness_wrong": 13,
+    "N2_gold_true_stable": 3
+  },
+  "action_handoff": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "comment_id": 6394202183
+  },
+  "verdict": "Draftable exploratory empirical audit, but not proven mechanistic novelty/strong peer-reviewed paper",
+  "limitations": [
+    "Local Windows DOCX not available to independent review",
+    "Separate school server and GPT Library backup not verified by this review",
+    "No new model/GPU calls"
+  ]
+}

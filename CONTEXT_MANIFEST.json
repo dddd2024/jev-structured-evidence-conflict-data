@@ -1,0 +1,1160 @@
+{
+  "status": "CURATED",
+  "source_commit": "8c1fa486579c281bb802960e20b7da9c901c282a",
+  "total_candidates": 127,
+  "published": 127,
+  "withheld": 0,
+  "categories": {
+    "experiment_protocols": 14,
+    "independent_audits": 98,
+    "literature_reviews": 8,
+    "literature_preflight": 5,
+    "research_governance": 2
+  },
+  "files": [
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE_PROTOCOL_V1.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE_PROTOCOL_V1.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "800ed446712ebbcef3c59a4957a95d3aa085eb2fce1447137293fe217d80a1a0",
+      "public_worktree_sha256": "800ed446712ebbcef3c59a4957a95d3aa085eb2fce1447137293fe217d80a1a0",
+      "bytes": 7903,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G4_G0_CPU_POINTER_PATCH_ADMISSION_PROTOCOL_V0.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G4_G0_CPU_POINTER_PATCH_ADMISSION_PROTOCOL_V0.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "e2b5c036999c3a30e7e4d64696bdc44ae7c1b0a42e7be827d7aeb668442d4717",
+      "public_worktree_sha256": "e2b5c036999c3a30e7e4d64696bdc44ae7c1b0a42e7be827d7aeb668442d4717",
+      "bytes": 7462,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G4_POINTER_HEAD_CAUSAL_CPU_COHORT_V0.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G4_POINTER_HEAD_CAUSAL_CPU_COHORT_V0.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "245bff52426c8a9bc96707da9adbf807004b61d0c0f194f2095ae9e1331375f3",
+      "public_worktree_sha256": "245bff52426c8a9bc96707da9adbf807004b61d0c0f194f2095ae9e1331375f3",
+      "bytes": 27640,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G5_DONOR_RESOLUTION_PROTOCOL_V1.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G5_DONOR_RESOLUTION_PROTOCOL_V1.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "263cbe31d084bcc0fe1cf705e2ea784aa87dbb8db10b573cc9612f99f7085f31",
+      "public_worktree_sha256": "263cbe31d084bcc0fe1cf705e2ea784aa87dbb8db10b573cc9612f99f7085f31",
+      "bytes": 4735,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_CPU_GATE_DRAFT_V1.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_CPU_GATE_DRAFT_V1.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "12ba4961adde4ad63dbe7a8f4e7649002ff607bbf0b03411ed89ace6a46c8d20",
+      "public_worktree_sha256": "12ba4961adde4ad63dbe7a8f4e7649002ff607bbf0b03411ed89ace6a46c8d20",
+      "bytes": 3808,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G5_PATCHING_PROTOCOL_V1.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G5_PATCHING_PROTOCOL_V1.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "8df4dcac4c189a4d9f7cfd897ee0701383f574ec8e0f4d449ed2dcfb14c7c350",
+      "public_worktree_sha256": "8df4dcac4c189a4d9f7cfd897ee0701383f574ec8e0f4d449ed2dcfb14c7c350",
+      "bytes": 5880,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_G5_PATCHING_PROTOCOL_V2_SA_HOST.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_G5_PATCHING_PROTOCOL_V2_SA_HOST.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "3b9e22137d9048c9a6f498c927e85e6fde3378ad64e96a9a5f73648221d44377",
+      "public_worktree_sha256": "3b9e22137d9048c9a6f498c927e85e6fde3378ad64e96a9a5f73648221d44377",
+      "bytes": 4010,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_PSMI_CPU_GATE_AMENDMENT_V2_ENDPOINTS_AND_CHRONOLOGY.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "4dfb3db2d6b6a9f05391bd958f970cbb0b11fc3160d6a47abda40402cfad4000",
+      "public_worktree_sha256": "4dfb3db2d6b6a9f05391bd958f970cbb0b11fc3160d6a47abda40402cfad4000",
+      "bytes": 4742,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_PSMI_PARALLEL_AGENT_EXECUTION_HANDOFF.md",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_PSMI_PARALLEL_AGENT_EXECUTION_HANDOFF.md",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "f2256bfc1c32d7df335641dcbf3d20de48a773bbaf1dcc6e1bc63defaf0476da",
+      "public_worktree_sha256": "f2256bfc1c32d7df335641dcbf3d20de48a773bbaf1dcc6e1bc63defaf0476da",
+      "bytes": 2285,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_PROTOCOL_V1.json",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "8272d60c41a9ae64798ac4878608047d4c9835528e78a69833dfc5d422418511",
+      "public_worktree_sha256": "8272d60c41a9ae64798ac4878608047d4c9835528e78a69833dfc5d422418511",
+      "bytes": 14416,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_RUNBOOK.md",
+      "public_path": "data/A461/context/research/experiments/2026-10-25_A461_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE_RUNBOOK.md",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "5601b8ef93c6c668cf69539e44e1b94186af6fa687e0654944d333f198a968a3",
+      "public_worktree_sha256": "5601b8ef93c6c668cf69539e44e1b94186af6fa687e0654944d333f198a968a3",
+      "bytes": 3305,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/A461_MECH_G1_CAUSAL_ROUTE_VS_ENCODING_CPU_GATE_V1.md",
+      "public_path": "data/A461/context/research/experiments/A461_MECH_G1_CAUSAL_ROUTE_VS_ENCODING_CPU_GATE_V1.md",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "9a5d78269c940b4b9094a26f9de51fb4820ad94a44aff2774c1342858951a619",
+      "public_worktree_sha256": "9a5d78269c940b4b9094a26f9de51fb4820ad94a44aff2774c1342858951a619",
+      "bytes": 5071,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/A461_MECH_M5_CONTEXT_DOSE_AND_SOURCE_SPECIFICITY_DESIGN_DRAFT_V1.md",
+      "public_path": "data/A461/context/research/experiments/A461_MECH_M5_CONTEXT_DOSE_AND_SOURCE_SPECIFICITY_DESIGN_DRAFT_V1.md",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "567179f26f6ecf05f22ded7692a90415e6c6f0acabc060e6ecf192208a574065",
+      "public_worktree_sha256": "567179f26f6ecf05f22ded7692a90415e6c6f0acabc060e6ecf192208a574065",
+      "bytes": 8188,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/experiments/A461_MECH_M6_SHARED_BULK_TRANSFER_CPU_G_MINUS_1_DRAFT_V1.md",
+      "public_path": "data/A461/context/research/experiments/A461_MECH_M6_SHARED_BULK_TRANSFER_CPU_G_MINUS_1_DRAFT_V1.md",
+      "category": "experiment_protocols",
+      "source_worktree_sha256": "002c3141eee4df998fc8e4341669138ad7c09119909af3d82ce900416162613d",
+      "public_worktree_sha256": "002c3141eee4df998fc8e4341669138ad7c09119909af3d82ce900416162613d",
+      "bytes": 8519,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "7f5351c4f8d77e7373a455bc314b9c4a6e3db6be93a5aa50a305c2d7dc3638e4",
+      "public_worktree_sha256": "7f5351c4f8d77e7373a455bc314b9c4a6e3db6be93a5aa50a305c2d7dc3638e4",
+      "bytes": 9074,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_archived_LANL_timestamp_only_Gold_invariant_action_flip_and_length_confound.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a5202eabb71107400521ca652766c4b975082f843f680ce81c480bc5520e4907",
+      "public_worktree_sha256": "a5202eabb71107400521ca652766c4b975082f843f680ce81c480bc5520e4907",
+      "bytes": 8112,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "0c9c4c839bf3372d8ea7757aabb0963d46d0048c290106e0c7f3d1fd9249ddb3",
+      "public_worktree_sha256": "0c9c4c839bf3372d8ea7757aabb0963d46d0048c290106e0c7f3d1fd9249ddb3",
+      "bytes": 9298,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "3216a9f4ba9af1a274c854219e6bd97e26139ce13b0abb9a416d5e4a36040343",
+      "public_worktree_sha256": "3216a9f4ba9af1a274c854219e6bd97e26139ce13b0abb9a416d5e4a36040343",
+      "bytes": 6315,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "d9e232f767fb80b210dbbf66b7cd74f1e0b7bce48be6a97063ec7fe2816d1e4c",
+      "public_worktree_sha256": "d9e232f767fb80b210dbbf66b7cd74f1e0b7bce48be6a97063ec7fe2816d1e4c",
+      "bytes": 11528,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A461_LANL_archived_Gold_branch_support_boundary_seed_and_FP32_ledger.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "8f1c9df3668c2a51891220f74dff76fe39b77d4e670b7f33a42e887d982c4cab",
+      "public_worktree_sha256": "8f1c9df3668c2a51891220f74dff76fe39b77d4e670b7f33a42e887d982c4cab",
+      "bytes": 9094,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "b08622f36479d2518eebeaacd314363f7da061648e900b532bde083dcf777a87",
+      "public_worktree_sha256": "b08622f36479d2518eebeaacd314363f7da061648e900b532bde083dcf777a87",
+      "bytes": 15660,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "28bbfc93997cb2c60c13ea4b5ea956aed057aa2ef3f0221417f09adcb83c1193",
+      "public_worktree_sha256": "28bbfc93997cb2c60c13ea4b5ea956aed057aa2ef3f0221417f09adcb83c1193",
+      "bytes": 10312,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "3482d75e8c3430600cfa1786740293b792261aa47cf5cd79acd2ba448448fab9",
+      "public_worktree_sha256": "3482d75e8c3430600cfa1786740293b792261aa47cf5cd79acd2ba448448fab9",
+      "bytes": 13156,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_103_forward_control_partition_and_replay_fatality_shadow_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "92f11f4c0c73076523c22401ee17ee23c4b26313279fbefe73ff8c6728b542dd",
+      "public_worktree_sha256": "92f11f4c0c73076523c22401ee17ee23c4b26313279fbefe73ff8c6728b542dd",
+      "bytes": 5476,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_103_forward_reported_vs_uploaded_evidence_and_A428_overlap.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_103_forward_reported_vs_uploaded_evidence_and_A428_overlap.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "133ab0ca4131aa30ef748bc65e6a5babb87b4bb9edcb91dfa214b1e46a778953",
+      "public_worktree_sha256": "133ab0ca4131aa30ef748bc65e6a5babb87b4bb9edcb91dfa214b1e46a778953",
+      "bytes": 8930,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_103_forward_reported_vs_uploaded_evidence_and_A428_overlap.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_103_forward_reported_vs_uploaded_evidence_and_A428_overlap.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a1bbbecd8fc137b3a52e49fe22367818085d11695c0e2ec56553368f1bc9d0b4",
+      "public_worktree_sha256": "a1bbbecd8fc137b3a52e49fe22367818085d11695c0e2ec56553368f1bc9d0b4",
+      "bytes": 7865,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_architecture_independent_question_rows_G3_prior_art_boundary.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_architecture_independent_question_rows_G3_prior_art_boundary.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "17fd6436a27b784f2ce21539728533aa76c8959023d1bc9966a9dbb89d027195",
+      "public_worktree_sha256": "17fd6436a27b784f2ce21539728533aa76c8959023d1bc9966a9dbb89d027195",
+      "bytes": 5654,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_direct_raw_recompute_and_G3_static_admission_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_direct_raw_recompute_and_G3_static_admission_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "1177910ab72f5caecb5fe4e435b7609e522fc6502c144235df0e29bf864e6209",
+      "public_worktree_sha256": "1177910ab72f5caecb5fe4e435b7609e522fc6502c144235df0e29bf864e6209",
+      "bytes": 7965,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "4f069e819455c0db720fb0292a4a1b68e29a41e809b64c6b95b9245e49e1e2fb",
+      "public_worktree_sha256": "4f069e819455c0db720fb0292a4a1b68e29a41e809b64c6b95b9245e49e1e2fb",
+      "bytes": 9421,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_forward_budget_statistical_power_and_clean_baseline_gate.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "f0e105cfe148075637b93f659576eaed455cfde1ffa63f2e28e4ed1da57971f1",
+      "public_worktree_sha256": "f0e105cfe148075637b93f659576eaed455cfde1ffa63f2e28e4ed1da57971f1",
+      "bytes": 9183,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_raw_confidence_G3_budget_drift_followup.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_raw_confidence_G3_budget_drift_followup.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "56590e652d972b93c7d9707c0c8e06e287008279b00430dba113d30c2150e499",
+      "public_worktree_sha256": "56590e652d972b93c7d9707c0c8e06e287008279b00430dba113d30c2150e499",
+      "bytes": 14507,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_raw_confidence_G3_budget_drift_followup.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_raw_confidence_G3_budget_drift_followup.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a332153f33af5c08401cc7994f823f7caf0299189b6fa55bf5086dfd485ccb39",
+      "public_worktree_sha256": "a332153f33af5c08401cc7994f823f7caf0299189b6fa55bf5086dfd485ccb39",
+      "bytes": 7646,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "d588a84753847c919c1de97f8390c9bba5f81dae49ba518e9dde804168d7de91",
+      "public_worktree_sha256": "d588a84753847c919c1de97f8390c9bba5f81dae49ba518e9dde804168d7de91",
+      "bytes": 38207,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "9d9978288eafcb889b5de9ba8c1e36bf7e8723df596edab293f9cdd0e7fc1ef1",
+      "public_worktree_sha256": "9d9978288eafcb889b5de9ba8c1e36bf7e8723df596edab293f9cdd0e7fc1ef1",
+      "bytes": 8512,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G2_third_oracle_N2_self_comparison_and_action_head_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G2_third_oracle_N2_self_comparison_and_action_head_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "11875427a97db2b5e96c62884d9356769769688fdd1ff0f10ad206f13e5eb484",
+      "public_worktree_sha256": "11875427a97db2b5e96c62884d9356769769688fdd1ff0f10ad206f13e5eb484",
+      "bytes": 6581,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G2_third_oracle_N2_self_comparison_and_action_head_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G2_third_oracle_N2_self_comparison_and_action_head_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "76d2ce23ac072b339dfb8f0b1d7f2cbcff7bc89c79cc6765dfc654a2834623a8",
+      "public_worktree_sha256": "76d2ce23ac072b339dfb8f0b1d7f2cbcff7bc89c79cc6765dfc654a2834623a8",
+      "bytes": 6244,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_equal_received_tie_swap_CPU_candidates.jsonl",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_equal_received_tie_swap_CPU_candidates.jsonl",
+      "category": "independent_audits",
+      "source_worktree_sha256": "0a1269823a093e27a20e52e1fcf10948f40b6591321701fd70ccd034a08e7b42",
+      "public_worktree_sha256": "0a1269823a093e27a20e52e1fcf10948f40b6591321701fd70ccd034a08e7b42",
+      "bytes": 86489,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_manuscript_v2_independent_peer_review.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_manuscript_v2_independent_peer_review.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "10ad591c58456c5c1b8bce577129a5e04be4c46a1835000c1e64ff0b9237fa6b",
+      "public_worktree_sha256": "10ad591c58456c5c1b8bce577129a5e04be4c46a1835000c1e64ff0b9237fa6b",
+      "bytes": 13140,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_post_execution_independent_evidence_contract_audit_v1.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_post_execution_independent_evidence_contract_audit_v1.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "3a5066a4073747023f35c9e8bd05a3d07b0e8e44b973f6104cdde9a932ff5ae8",
+      "public_worktree_sha256": "3a5066a4073747023f35c9e8bd05a3d07b0e8e44b973f6104cdde9a932ff5ae8",
+      "bytes": 5408,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_post_execution_independent_evidence_contract_audit_v1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_post_execution_independent_evidence_contract_audit_v1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "3f3b707ab834d767fb03a74f93aa3209d193b61c55dd73a1e548cdbd91616445",
+      "public_worktree_sha256": "3f3b707ab834d767fb03a74f93aa3209d193b61c55dd73a1e548cdbd91616445",
+      "bytes": 8708,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_T2_quorum_satisfied_control_source_gold_shadow.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_T2_quorum_satisfied_control_source_gold_shadow.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "ea5ce670ce982efb48976f931de427d823f0cbd042619bc399062af6c96f7d8b",
+      "public_worktree_sha256": "ea5ce670ce982efb48976f931de427d823f0cbd042619bc399062af6c96f7d8b",
+      "bytes": 6609,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_time_tie_margin_and_action_persistence_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_time_tie_margin_and_action_persistence_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e3ae4323d098b4d05e6818757069178ee84fba308f51267b07d52e84d8cd8a56",
+      "public_worktree_sha256": "e3ae4323d098b4d05e6818757069178ee84fba308f51267b07d52e84d8cd8a56",
+      "bytes": 5462,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_time_tie_margin_and_action_persistence_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_time_tie_margin_and_action_persistence_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "2d21d462ea3ffc509fb868ad068b71006ae2775be8ac303884f1ae03d580a66a",
+      "public_worktree_sha256": "2d21d462ea3ffc509fb868ad068b71006ae2775be8ac303884f1ae03d580a66a",
+      "bytes": 11722,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G3_V1_forward_protocol_shadow_chronology_and_Q1_matching_gate.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G3_V1_forward_protocol_shadow_chronology_and_Q1_matching_gate.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e6bb061d359fbd6a0991c7164aee9ee612e94c3bdf8e24f42ee86bfd5108adad",
+      "public_worktree_sha256": "e6bb061d359fbd6a0991c7164aee9ee612e94c3bdf8e24f42ee86bfd5108adad",
+      "bytes": 9969,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_G2_CPU_FEASIBILITY_AND_DESIGN_INDEPENDENT_REVIEW_V1_HOLD_GPU.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_G2_CPU_FEASIBILITY_AND_DESIGN_INDEPENDENT_REVIEW_V1_HOLD_GPU.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "7c13844714f98c6af2d93b6c5d0f9f077b895a7f1915fcf04c9a9bad8132b288",
+      "public_worktree_sha256": "7c13844714f98c6af2d93b6c5d0f9f077b895a7f1915fcf04c9a9bad8132b288",
+      "bytes": 10377,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_G2_DESIGN_V2_NARROW_REVIEW_PASS_DESIGN_NOT_GPU.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_G2_DESIGN_V2_NARROW_REVIEW_PASS_DESIGN_NOT_GPU.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "29be8ad11d9cfd98e2e8fe0dc90d9c8d1324e631537198b423f465c3c751361a",
+      "public_worktree_sha256": "29be8ad11d9cfd98e2e8fe0dc90d9c8d1324e631537198b423f465c3c751361a",
+      "bytes": 6871,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_INDEPENDENT_BLIND_REVIEW_V1_REJECT.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_INDEPENDENT_BLIND_REVIEW_V1_REJECT.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "c9e210bd93ce16a653f047c793fc376c3f220f05e4c1a4bbfd3f2b3251251886",
+      "public_worktree_sha256": "c9e210bd93ce16a653f047c793fc376c3f220f05e4c1a4bbfd3f2b3251251886",
+      "bytes": 7074,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_INDEPENDENT_REVIEW_V2_PASS.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_INDEPENDENT_REVIEW_V2_PASS.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a95801a4e48f9b5932e11661bdd49d7cc1450223c6e0873cb5368dc199f7fdb0",
+      "public_worktree_sha256": "a95801a4e48f9b5932e11661bdd49d7cc1450223c6e0873cb5368dc199f7fdb0",
+      "bytes": 7454,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_REVIEW_V3_PASS_CODE_HOLD_AUTH.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_MINIMAL_PILOT_G1_NARROW_DELTA_REVIEW_V3_PASS_CODE_HOLD_AUTH.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "41e1ef67ad29f3c9de33adc925d9725d838b3cfd0a297c158b0006908769276e",
+      "public_worktree_sha256": "41e1ef67ad29f3c9de33adc925d9725d838b3cfd0a297c158b0006908769276e",
+      "bytes": 6515,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_PILOT_G1_POSTRUN_INDEPENDENT_RAW_LOGITS_AUDIT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_PILOT_G1_POSTRUN_INDEPENDENT_RAW_LOGITS_AUDIT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "f5dc976cf2468a5bc4385c00472ff30e0c68c061e072aaa65b7af76d7ffd7129",
+      "public_worktree_sha256": "f5dc976cf2468a5bc4385c00472ff30e0c68c061e072aaa65b7af76d7ffd7129",
+      "bytes": 9681,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_postfreeze_exclusion_and_patch_host_preflight_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_postfreeze_exclusion_and_patch_host_preflight_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a084cb87a2ff7010eb4c993ed5ca487ab52756e5f97fa906bf3fb6dc791afb25",
+      "public_worktree_sha256": "a084cb87a2ff7010eb4c993ed5ca487ab52756e5f97fa906bf3fb6dc791afb25",
+      "bytes": 8037,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_V2_runner_latest_execution_readiness_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_V2_runner_latest_execution_readiness_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "00ae40d48a831daaa8e3e323624c6951ecbbded97cb50cd14be56b5c31025b54",
+      "public_worktree_sha256": "00ae40d48a831daaa8e3e323624c6951ecbbded97cb50cd14be56b5c31025b54",
+      "bytes": 8484,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_V3_independent_blind_review_REJECT_before_GPU.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_V3_independent_blind_review_REJECT_before_GPU.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "80f85d3d1c679e5a4bb7094f709cbaaaa4b680e8f1bd240b6337448b471df9b2",
+      "public_worktree_sha256": "80f85d3d1c679e5a4bb7094f709cbaaaa4b680e8f1bd240b6337448b471df9b2",
+      "bytes": 9655,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_G5_V4_CPU_MOCK_AND_PRE_GPU_DELTA_AUDIT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_G5_V4_CPU_MOCK_AND_PRE_GPU_DELTA_AUDIT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "53438c92d2a2aebb955d7601403bbabea07cf92cd329162f6134bd259d8e0beb",
+      "public_worktree_sha256": "53438c92d2a2aebb955d7601403bbabea07cf92cd329162f6134bd259d8e0beb",
+      "bytes": 6605,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_MANUSCRIPT_V5_1_TARGETED_INDEPENDENT_REVIEW_V1_REVISE_ONE_P0.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_MANUSCRIPT_V5_1_TARGETED_INDEPENDENT_REVIEW_V1_REVISE_ONE_P0.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "df8aa6e9b69d7498a850f2fc64c20beef64c452d948c085aceac82b259bf3451",
+      "public_worktree_sha256": "df8aa6e9b69d7498a850f2fc64c20beef64c452d948c085aceac82b259bf3451",
+      "bytes": 6493,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_MANUSCRIPT_V5_2_DENOMINATOR_NARROW_REVIEW_PASS.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_MANUSCRIPT_V5_2_DENOMINATOR_NARROW_REVIEW_PASS.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "312152d0a318195baa3c1050b6e3a0e294c8e5f0f381945773e15ffa1feb59f7",
+      "public_worktree_sha256": "312152d0a318195baa3c1050b6e3a0e294c8e5f0f381945773e15ffa1feb59f7",
+      "bytes": 3694,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_MANUSCRIPT_V5_INDEPENDENT_SCIENTIFIC_AUDIT_V1_REVISE_REQUIRED.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_MANUSCRIPT_V5_INDEPENDENT_SCIENTIFIC_AUDIT_V1_REVISE_REQUIRED.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "00a108565fdd036121f871030a123517d35c7ceca60bf358c0fab15ed04fb39b",
+      "public_worktree_sha256": "00a108565fdd036121f871030a123517d35c7ceca60bf358c0fab15ed04fb39b",
+      "bytes": 11875,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_N1B_neutral_support_veto_quorum_selection_bias_cross_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_N1B_neutral_support_veto_quorum_selection_bias_cross_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e80d404459db1c9a4769d084876e670c7de42c98b3119853ef389bb1860e8de1",
+      "public_worktree_sha256": "e80d404459db1c9a4769d084876e670c7de42c98b3119853ef389bb1860e8de1",
+      "bytes": 11421,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_N1B_neutral_support_veto_quorum_selection_bias_cross_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_N1B_neutral_support_veto_quorum_selection_bias_cross_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "92df5f9665bc97eec6d67ed80e98e1bfe0b6a036dedc35b0b3906d7996c4330d",
+      "public_worktree_sha256": "92df5f9665bc97eec6d67ed80e98e1bfe0b6a036dedc35b0b3906d7996c4330d",
+      "bytes": 7292,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "be63b456171e3ab3ea8157c68ffb41a56a50c0d410085fefe5f0bd0a497b2f33",
+      "public_worktree_sha256": "be63b456171e3ab3ea8157c68ffb41a56a50c0d410085fefe5f0bd0a497b2f33",
+      "bytes": 8928,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_parallel_G_MINUS_1_chronology_and_endpoint_estimands_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "07423647fb9c63e4e61bb243c04b5372a81dae39a47cc5adfe024d5112cf6363",
+      "public_worktree_sha256": "07423647fb9c63e4e61bb243c04b5372a81dae39a47cc5adfe024d5112cf6363",
+      "bytes": 9374,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e456ffc39402aca64741dce6db6f62eaae94cc73a7f4e784aeb7bf4d58afd309",
+      "public_worktree_sha256": "e456ffc39402aca64741dce6db6f62eaae94cc73a7f4e784aeb7bf4d58afd309",
+      "bytes": 6548,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_physical_manifest_N1_wrong_comparator_and_baseline_provenance_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "240d87afaaa0e36ee45cd40efb434cd3cfd2a084b85b07db219f3264b94fe688",
+      "public_worktree_sha256": "240d87afaaa0e36ee45cd40efb434cd3cfd2a084b85b07db219f3264b94fe688",
+      "bytes": 6770,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_post_495dde0_G0_static_code_and_runbook_audit.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_post_495dde0_G0_static_code_and_runbook_audit.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "01b1425683749c38e9cfecaff90985bb6fa97fe4d77ed313ff988fb9c1ad5793",
+      "public_worktree_sha256": "01b1425683749c38e9cfecaff90985bb6fa97fe4d77ed313ff988fb9c1ad5793",
+      "bytes": 7862,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_post_commit_495dde0_static_code_admission_audit.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_post_commit_495dde0_static_code_admission_audit.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a2362388e17dc1909058675eac76502fe289afd186c02800b324efe754ac697a",
+      "public_worktree_sha256": "a2362388e17dc1909058675eac76502fe289afd186c02800b324efe754ac697a",
+      "bytes": 8108,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "ce94b7c83c50d7c089e3fb6557d7ad9770f70b523fc302401bf15af563153492",
+      "public_worktree_sha256": "ce94b7c83c50d7c089e3fb6557d7ad9770f70b523fc302401bf15af563153492",
+      "bytes": 6553,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_PSMI_paper_readiness_independent_peer_review.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e78037ff81657ea74c98935b6761c2437cedbf382779feafd57d56b8b27d7946",
+      "public_worktree_sha256": "e78037ff81657ea74c98935b6761c2437cedbf382779feafd57d56b8b27d7946",
+      "bytes": 12312,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "ce7d25ddcd985d30e4a638696af2d857df2275ac067096c95ba8ed95d8eec795",
+      "public_worktree_sha256": "ce7d25ddcd985d30e4a638696af2d857df2275ac067096c95ba8ed95d8eec795",
+      "bytes": 11520,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G0_N1_29of31_true_matched_veto_cell_gap_and_manifest_erratum.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "22445544e3b6f3200edcee5c8cc66c2515d4da101cc8716743204cb363559103",
+      "public_worktree_sha256": "22445544e3b6f3200edcee5c8cc66c2515d4da101cc8716743204cb363559103",
+      "bytes": 8796,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "7d851f4df8fb3dca5779442da29c44d9c62181b0d7b44677d822092a788cb5b1",
+      "public_worktree_sha256": "7d851f4df8fb3dca5779442da29c44d9c62181b0d7b44677d822092a788cb5b1",
+      "bytes": 11112,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G0_TWINS_2x2_edges_and_exact_shared_baseline.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "5f92da74a5aa12a2e11ed783bee449ddd42d2fe048f035c2e94bf6b3197406ef",
+      "public_worktree_sha256": "5f92da74a5aa12a2e11ed783bee449ddd42d2fe048f035c2e94bf6b3197406ef",
+      "bytes": 5791,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "f6938cef460f6987179de011ff7356d3e876469b4861542f3cd2777cf42a3b48",
+      "public_worktree_sha256": "f6938cef460f6987179de011ff7356d3e876469b4861542f3cd2777cf42a3b48",
+      "bytes": 56573,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "9171fd281129020273abfe281931fea933e08d5addd7fc12e0c4866e3919a760",
+      "public_worktree_sha256": "9171fd281129020273abfe281931fea933e08d5addd7fc12e0c4866e3919a760",
+      "bytes": 9268,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_runbook_runner_contract_and_N2_order_counterexample.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_runbook_runner_contract_and_N2_order_counterexample.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "97335252e159d50138cd03715cf54962ba3f30d494e1616c22a1ad97670e3b69",
+      "public_worktree_sha256": "97335252e159d50138cd03715cf54962ba3f30d494e1616c22a1ad97670e3b69",
+      "bytes": 4528,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.json",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "3b4e33791718fd028cc3ea33e22f03299be592ac7acfa7760ced733d88157c01",
+      "public_worktree_sha256": "3b4e33791718fd028cc3ea33e22f03299be592ac7acfa7760ced733d88157c01",
+      "bytes": 8001,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "76ac4942744244c72cc2e8c5956192530d53b55a097d59dfb48bd4200fc452d2",
+      "public_worktree_sha256": "76ac4942744244c72cc2e8c5956192530d53b55a097d59dfb48bd4200fc452d2",
+      "bytes": 8448,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-26_A461_G5_G2_STAGE_A_CPU_FREEZE_V3_INDEPENDENT_REVIEW_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-26_A461_G5_G2_STAGE_A_CPU_FREEZE_V3_INDEPENDENT_REVIEW_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "00e461ad0144335b0d1de05924338f3a857b04f02f58abd032b88c6f5aadfed3",
+      "public_worktree_sha256": "00e461ad0144335b0d1de05924338f3a857b04f02f58abd032b88c6f5aadfed3",
+      "bytes": 8919,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-26_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_G0_INDEPENDENT_REVIEW_V1_REJECT.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-26_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_G0_INDEPENDENT_REVIEW_V1_REJECT.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e9744c00e6e71fa719667ae2b3795b48d26d895fe266163a8dd53b001a12077f",
+      "public_worktree_sha256": "e9744c00e6e71fa719667ae2b3795b48d26d895fe266163a8dd53b001a12077f",
+      "bytes": 8547,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-26_A461_G5_G2_STAGE_A_OPTION_A_ADMISSION_DRAFT_NARROW_REVIEW_V1_PASS_DRAFT_HOLD_GPU.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-26_A461_G5_G2_STAGE_A_OPTION_A_ADMISSION_DRAFT_NARROW_REVIEW_V1_PASS_DRAFT_HOLD_GPU.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "98728a76c4d510c8e113e8dd4c7548d0855bb6bfdde15f8eaf9dc541e1da2d85",
+      "public_worktree_sha256": "98728a76c4d510c8e113e8dd4c7548d0855bb6bfdde15f8eaf9dc541e1da2d85",
+      "bytes": 7325,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V1_INDEPENDENT_FULL_AUDIT_REVISE_REQUIRED.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V1_INDEPENDENT_FULL_AUDIT_REVISE_REQUIRED.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "bd6f8373682893ef841ec7023ea90ebb760f78b26ad20952a81cb8126e7d7479",
+      "public_worktree_sha256": "bd6f8373682893ef841ec7023ea90ebb760f78b26ad20952a81cb8126e7d7479",
+      "bytes": 15115,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V2_INDEPENDENT_FULL_AUDIT_REVISE_REQUIRED.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V2_INDEPENDENT_FULL_AUDIT_REVISE_REQUIRED.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "ff85d215dcb6d8c10b64445d1a8453e73d93363b4458f29f79b8ab877fcfecab",
+      "public_worktree_sha256": "ff85d215dcb6d8c10b64445d1a8453e73d93363b4458f29f79b8ab877fcfecab",
+      "bytes": 10048,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V3_INDEPENDENT_FULL_AUDIT_PASS_SCOPED.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_G2_PAPER_CLAIM_V3_INDEPENDENT_FULL_AUDIT_PASS_SCOPED.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "ea9290741b8119395f4649e30c2646162f73c68423c8b761b83da3d581696ad5",
+      "public_worktree_sha256": "ea9290741b8119395f4649e30c2646162f73c68423c8b761b83da3d581696ad5",
+      "bytes": 9641,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_V2_INDEPENDENT_L2_NARROW_REVIEW_REJECT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_V2_INDEPENDENT_L2_NARROW_REVIEW_REJECT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "c07934ee544fa544d3254d04c72f084688703daa6b08ebf2b7712fa0aca42352",
+      "public_worktree_sha256": "c07934ee544fa544d3254d04c72f084688703daa6b08ebf2b7712fa0aca42352",
+      "bytes": 9249,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_V3_INDEPENDENT_L2_DELTA_REVIEW_REJECT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_G5_G2_STAGE_A_GPU_SCREEN_RUNNER_V3_INDEPENDENT_L2_DELTA_REVIEW_REJECT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "17b6e6c8ea4becf5b2c765e781c09d2cac8b8a57f30ae7835370a075b60a916e",
+      "public_worktree_sha256": "17b6e6c8ea4becf5b2c765e781c09d2cac8b8a57f30ae7835370a075b60a916e",
+      "bytes": 9402,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-10-27_A461_POSTPASS_MECHANISM_FOUR_HEAD_CPU_G0.md",
+      "public_path": "data/A461/context/research/analysis/2026-10-27_A461_POSTPASS_MECHANISM_FOUR_HEAD_CPU_G0.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "4584f557b97d441e1564b92c425c7909f25230c802124699e13f1a353bf5e692",
+      "public_worktree_sha256": "4584f557b97d441e1564b92c425c7909f25230c802124699e13f1a353bf5e692",
+      "bytes": 8433,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V4_INDEPENDENT_AUDIT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V4_INDEPENDENT_AUDIT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "0463c2b71cfdc6e35e246db5d9f8ca56c4d111783a1defe8680120a3be712b74",
+      "public_worktree_sha256": "0463c2b71cfdc6e35e246db5d9f8ca56c4d111783a1defe8680120a3be712b74",
+      "bytes": 13786,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V6_INDEPENDENT_AUDIT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V6_INDEPENDENT_AUDIT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "6e6295d1f9ac2a8c0d4524fbb517ddbb18cfc742977ade7b78458fb636ac0517",
+      "public_worktree_sha256": "6e6295d1f9ac2a8c0d4524fbb517ddbb18cfc742977ade7b78458fb636ac0517",
+      "bytes": 13917,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V7_INDEPENDENT_AUDIT_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_PAPER_CLAIM_PACKAGE_V7_INDEPENDENT_AUDIT_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "398d03bc71b5e758b8baeeb816a9cdba17e39db783732e1ddc795898e8e36e03",
+      "public_worktree_sha256": "398d03bc71b5e758b8baeeb816a9cdba17e39db783732e1ddc795898e8e36e03",
+      "bytes": 9464,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_V7_HIGH_QUALITY_REAUDIT_AND_EXIT_DECISION_V1.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_V7_HIGH_QUALITY_REAUDIT_AND_EXIT_DECISION_V1.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "eb32dd26fe42d9bf5fe9af441fa70268f18c62b825da940fa1b2fe4db42ba2af",
+      "public_worktree_sha256": "eb32dd26fe42d9bf5fe9af441fa70268f18c62b825da940fa1b2fe4db42ba2af",
+      "bytes": 11329,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_V8_INTERNAL_CLOSEOUT_AND_PENDING.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_V8_INTERNAL_CLOSEOUT_AND_PENDING.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "06fde6f2702dcffdb6532f2797c85516375dafa05f7e7cc88a55bca66f771e68",
+      "public_worktree_sha256": "06fde6f2702dcffdb6532f2797c85516375dafa05f7e7cc88a55bca66f771e68",
+      "bytes": 5081,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_V8_M23_NATIVE_INDEPENDENT_RECOUNT.json",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_V8_M23_NATIVE_INDEPENDENT_RECOUNT.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "022f0e488d7ccdb5e52b1d0c910db7aedb94118bb31e49dc8eab206846a8437f",
+      "public_worktree_sha256": "022f0e488d7ccdb5e52b1d0c910db7aedb94118bb31e49dc8eab206846a8437f",
+      "bytes": 1930,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/2026-11-01_A461_V8_M23_NATIVE_INDEPENDENT_RECOUNT.md",
+      "public_path": "data/A461/context/research/analysis/2026-11-01_A461_V8_M23_NATIVE_INDEPENDENT_RECOUNT.md",
+      "category": "independent_audits",
+      "source_worktree_sha256": "d40dc5f192c0255113055d180d3ecae73479ff4d7875e4401ca1b43e427e8a25",
+      "public_worktree_sha256": "d40dc5f192c0255113055d180d3ecae73479ff4d7875e4401ca1b43e427e8a25",
+      "bytes": 870,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-24_A461_archived_LANL_timestamp_invariant_flip_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-24_A461_archived_LANL_timestamp_invariant_flip_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "55c4f8f8ae596dd5cf3255f64913f9b5237374054cbff1535b6b533ef05410ae",
+      "public_worktree_sha256": "55c4f8f8ae596dd5cf3255f64913f9b5237374054cbff1535b6b533ef05410ae",
+      "bytes": 1989,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-24_A461_GPU_and_Gold_gate_github_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-24_A461_GPU_and_Gold_gate_github_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "34a44776ad98d92e710e4d9ee5c36cd83ebd99fb410a203779b85c7560660540",
+      "public_worktree_sha256": "34a44776ad98d92e710e4d9ee5c36cd83ebd99fb410a203779b85c7560660540",
+      "bytes": 1463,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-24_A461_LANL_archived_boundary_and_FP32_audit_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-24_A461_LANL_archived_boundary_and_FP32_audit_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e64536802fc7400e80f98f831856bec0105bcc6921142bc2d229efcfc47902b9",
+      "public_worktree_sha256": "e64536802fc7400e80f98f831856bec0105bcc6921142bc2d229efcfc47902b9",
+      "bytes": 3110,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-24_A462_native_trust_and_A461_partial_order_audit_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-24_A462_native_trust_and_A461_partial_order_audit_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "c6a2ead8384ed52a735624d4c64a53a422b622c4219b37d1499d874c63505f06",
+      "public_worktree_sha256": "c6a2ead8384ed52a735624d4c64a53a422b622c4219b37d1499d874c63505f06",
+      "bytes": 2838,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_2x2_edges_shared_baseline_and_G1_partial_replay_fix_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_2x2_edges_shared_baseline_and_G1_partial_replay_fix_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a54de2f5993f897d706b7c81eb9c123813d57c007a5188b16a135e8de2b8112e",
+      "public_worktree_sha256": "a54de2f5993f897d706b7c81eb9c123813d57c007a5188b16a135e8de2b8112e",
+      "bytes": 2425,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_G1_103_control_repartition_and_replay_gate_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_G1_103_control_repartition_and_replay_gate_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "70e0298bf0c41d79464422ab7349d5f3fa8415595aa9214b91ec09eb9c83a001",
+      "public_worktree_sha256": "70e0298bf0c41d79464422ab7349d5f3fa8415595aa9214b91ec09eb9c83a001",
+      "bytes": 2091,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_G1_forward_budget_power_clean_baseline_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_G1_forward_budget_power_clean_baseline_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "5392273c0de012248b2d8fe8d432e0254e075595b5e63a7de030cd04eb7ee01a",
+      "public_worktree_sha256": "5392273c0de012248b2d8fe8d432e0254e075595b5e63a7de030cd04eb7ee01a",
+      "bytes": 1745,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_G1_specificity_G3_V1_preexec_QA_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_G1_specificity_G3_V1_preexec_QA_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "916debd06ebd896bc206e4ac241237e1bc1a3308da9638afacb34534fa416467",
+      "public_worktree_sha256": "916debd06ebd896bc206e4ac241237e1bc1a3308da9638afacb34534fa416467",
+      "bytes": 2496,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_G1_three_arm_specificity_and_G3_shadow_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_G1_three_arm_specificity_and_G3_shadow_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a15c6201230f38c163042965fc1462ca43183d3aca588bfae1652ff86558218c",
+      "public_worktree_sha256": "a15c6201230f38c163042965fc1462ca43183d3aca588bfae1652ff86558218c",
+      "bytes": 2691,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_manifest_wrong_N1_match_and_A463_mainline_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_manifest_wrong_N1_match_and_A463_mainline_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "e6b055ddf945472989c7aaa461f5e3322c6a72173cab68c2da18d4babed9504a",
+      "public_worktree_sha256": "e6b055ddf945472989c7aaa461f5e3322c6a72173cab68c2da18d4babed9504a",
+      "bytes": 2321,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_paper_readiness_review_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_paper_readiness_review_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "5ab99b2502136231b09883e4d9442a5f73aae5079681f8d8c3cddf5246f021ec",
+      "public_worktree_sha256": "5ab99b2502136231b09883e4d9442a5f73aae5079681f8d8c3cddf5246f021ec",
+      "bytes": 1632,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_parallel_agent_ACK_after_code_QA.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_parallel_agent_ACK_after_code_QA.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "4ff806c9bf74526766f214ca521701c180c234bc8ab2b905b48eb2874b9aefd5",
+      "public_worktree_sha256": "4ff806c9bf74526766f214ca521701c180c234bc8ab2b905b48eb2874b9aefd5",
+      "bytes": 3001,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_parallel_G0_code_runbook_budget_QA_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_parallel_G0_code_runbook_budget_QA_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "af5582b0c52bdbfaf7d33be383a348c4f2b6b72b82d7dfb651bd83265289f44e",
+      "public_worktree_sha256": "af5582b0c52bdbfaf7d33be383a348c4f2b6b72b82d7dfb651bd83265289f44e",
+      "bytes": 2638,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_parallel_G_MINUS_1_endpoint_audit_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_parallel_G_MINUS_1_endpoint_audit_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "255fa0279289de2191b387135819f494b8ba5606fc21c6d3dc8dc9fa6922ab02",
+      "public_worktree_sha256": "255fa0279289de2191b387135819f494b8ba5606fc21c6d3dc8dc9fa6922ab02",
+      "bytes": 1952,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_real_G0_N1_29of31_G1_plan_QA_github_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_real_G0_N1_29of31_G1_plan_QA_github_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "a7268f45316b76ea3cca82f93aa26ab3928407760c91a69135c61b8d0f24c4c6",
+      "public_worktree_sha256": "a7268f45316b76ea3cca82f93aa26ab3928407760c91a69135c61b8d0f24c4c6",
+      "bytes": 3277,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_real_G1_103_multihead_and_architecture_G3_gate_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_real_G1_103_multihead_and_architecture_G3_gate_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "566ed187742152e8fc29e873a602478858f61a9e260eda5851142c3d41140989",
+      "public_worktree_sha256": "566ed187742152e8fc29e873a602478858f61a9e260eda5851142c3d41140989",
+      "bytes": 4986,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/receipts/2026-10-25_A461_V1_V2_parallel_shadow_QA_readback.json",
+      "public_path": "data/A461/context/research/analysis/receipts/2026-10-25_A461_V1_V2_parallel_shadow_QA_readback.json",
+      "category": "independent_audits",
+      "source_worktree_sha256": "9cb1c8d05e94b077f49fc808e632c4c60bd823e4979f88252f44aeb56ceddb26",
+      "public_worktree_sha256": "9cb1c8d05e94b077f49fc808e632c4c60bd823e4979f88252f44aeb56ceddb26",
+      "bytes": 1939,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/reproduce_A461_LANL_V2_archived_boundary_support.py",
+      "public_path": "data/A461/context/research/analysis/reproduce_A461_LANL_V2_archived_boundary_support.py",
+      "category": "independent_audits",
+      "source_worktree_sha256": "479960678b4a4bce094e8307b2365398c7ba6d02a50d564252fcb94a68f3eb38",
+      "public_worktree_sha256": "479960678b4a4bce094e8307b2365398c7ba6d02a50d564252fcb94a68f3eb38",
+      "bytes": 4977,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/scripts/A461_kc_fourhead_cpu_v1.js",
+      "public_path": "data/A461/context/research/analysis/scripts/A461_kc_fourhead_cpu_v1.js",
+      "category": "independent_audits",
+      "source_worktree_sha256": "2dc735fdac9fd2aeef9a4d6154020e12d73958ec4833a59a60498ab424b7634c",
+      "public_worktree_sha256": "2dc735fdac9fd2aeef9a4d6154020e12d73958ec4833a59a60498ab424b7634c",
+      "bytes": 6814,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/analysis/scripts/A461_v8_m23_native_independent_recount_20261101.py",
+      "public_path": "data/A461/context/research/analysis/scripts/A461_v8_m23_native_independent_recount_20261101.py",
+      "category": "independent_audits",
+      "source_worktree_sha256": "f10e85fb93da3ff96e53703fcfd79d9d0f7068a9ff9577673442024b4e3dfe2c",
+      "public_worktree_sha256": "f10e85fb93da3ff96e53703fcfd79d9d0f7068a9ff9577673442024b4e3dfe2c",
+      "bytes": 5147,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_archive_receipt.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_archive_receipt.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "7e4042f5bd8e23e8e0e5586bcdb73a62735aee960a7a4e05b205a7122d4475d6",
+      "public_worktree_sha256": "7e4042f5bd8e23e8e0e5586bcdb73a62735aee960a7a4e05b205a7122d4475d6",
+      "bytes": 2537,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_candidate_registry.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_candidate_registry.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "0e09482571a653f5a526ad47372675041ae4313a8bf311e1899f0e07dd63e35a",
+      "public_worktree_sha256": "0e09482571a653f5a526ad47372675041ae4313a8bf311e1899f0e07dd63e35a",
+      "bytes": 2495,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_CPU_evidence_gate_audit.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_CPU_evidence_gate_audit.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "ee1b7bad94af125dd0beb485d61254c97d9892c5a485068f45cf3b16dae8ff2e",
+      "public_worktree_sha256": "ee1b7bad94af125dd0beb485d61254c97d9892c5a485068f45cf3b16dae8ff2e",
+      "bytes": 1944,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_experiment_protocol.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_experiment_protocol.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "906cdaa2d1d304b11de619a1e5f8df4312110733ea9a1ea335aed85bd660b40a",
+      "public_worktree_sha256": "906cdaa2d1d304b11de619a1e5f8df4312110733ea9a1ea335aed85bd660b40a",
+      "bytes": 2810,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_literature_delta.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_literature_delta.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "3e09fd8a234d3ea0d00b67104cc9a03cfed74af03f7add7d0a6851ee9892e870",
+      "public_worktree_sha256": "3e09fd8a234d3ea0d00b67104cc9a03cfed74af03f7add7d0a6851ee9892e870",
+      "bytes": 1450,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_manifest.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_manifest.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "cd96f6994bc67416dac84ce8f99708cba271dfad47fc1507cd8a439daed6a729",
+      "public_worktree_sha256": "cd96f6994bc67416dac84ce8f99708cba271dfad47fc1507cd8a439daed6a729",
+      "bytes": 1213,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_paper_screen.json",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_paper_screen.json",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "e850b25f626efa070736204c61bb966cd82be4dff751c7998d5f58c10611aa32",
+      "public_worktree_sha256": "e850b25f626efa070736204c61bb966cd82be4dff751c7998d5f58c10611aa32",
+      "bytes": 7876,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature/A461_20261025/A461_完整研究报告.md",
+      "public_path": "data/A461/context/research/literature/A461_20261025/A461_完整研究报告.md",
+      "category": "literature_reviews",
+      "source_worktree_sha256": "4625b80f6f0ddf91556d56f42ef48451d5d7af55cce28c851c6b1cd770786316",
+      "public_worktree_sha256": "4625b80f6f0ddf91556d56f42ef48451d5d7af55cce28c851c6b1cd770786316",
+      "bytes": 9076,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+      "public_path": "data/A461/context/research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_DECISION.json",
+      "category": "literature_preflight",
+      "source_worktree_sha256": "6819670f8337f05d286cd8f9726805c7fb9c43864512560c764ed421504b2b22",
+      "public_worktree_sha256": "6819670f8337f05d286cd8f9726805c7fb9c43864512560c764ed421504b2b22",
+      "bytes": 13801,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_REPORT.md",
+      "public_path": "data/A461/context/research/literature_preflight/A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1/G_MINUS_1_PRIOR_ART_AND_NOVELTY_REPORT.md",
+      "category": "literature_preflight",
+      "source_worktree_sha256": "36d9208a2d17a435b31290c2d57a8396ba4531124f5b5b5f63429a20cd52c2f9",
+      "public_worktree_sha256": "36d9208a2d17a435b31290c2d57a8396ba4531124f5b5b5f63429a20cd52c2f9",
+      "bytes": 8458,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature_preflight/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G_MINUS_1_INCREMENT_DECISION.json",
+      "public_path": "data/A461/context/research/literature_preflight/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G_MINUS_1_INCREMENT_DECISION.json",
+      "category": "literature_preflight",
+      "source_worktree_sha256": "4bbdf93a320c9cf8b33b7888bf42026c2b23423241d93bb3e0d5ce22be40944a",
+      "public_worktree_sha256": "4bbdf93a320c9cf8b33b7888bf42026c2b23423241d93bb3e0d5ce22be40944a",
+      "bytes": 5260,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature_preflight/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G_MINUS_1_CPU_MECHANISM_GATE_V0.md",
+      "public_path": "data/A461/context/research/literature_preflight/A461_G4_POINTER_READOUT_AND_BIDIRECTIONAL_PATCHING/G_MINUS_1_CPU_MECHANISM_GATE_V0.md",
+      "category": "literature_preflight",
+      "source_worktree_sha256": "81dc2760b773a5ddf16913f80d751faf2418239c7d549e2f676d6488579d48e8",
+      "public_worktree_sha256": "81dc2760b773a5ddf16913f80d751faf2418239c7d549e2f676d6488579d48e8",
+      "bytes": 7917,
+      "redactions": 0
+    },
+    {
+      "source_path": "research/literature_preflight/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G_MINUS_1_INCREMENT_DECISION.json",
+      "public_path": "data/A461/context/research/literature_preflight/A461_G5_DONOR_RESOLUTION_AND_PATCHING/G_MINUS_1_INCREMENT_DECISION.json",
+      "category": "literature_preflight",
+      "source_worktree_sha256": "6a2b1bd5b83752c3ec2008c3d801d1c171724bacb1b24a1d60dc1ce69f1ae1d4",
+      "public_worktree_sha256": "6a2b1bd5b83752c3ec2008c3d801d1c171724bacb1b24a1d60dc1ce69f1ae1d4",
+      "bytes": 3897,
+      "redactions": 0
+    },
+    {
+      "source_path": "research_governance/2026-10-25_A461_G5_EXECUTION_PREP_REVIEW_AND_MINIMAL_CAUSAL_PILOT_POLICY_V1.md",
+      "public_path": "data/A461/context/research_governance/2026-10-25_A461_G5_EXECUTION_PREP_REVIEW_AND_MINIMAL_CAUSAL_PILOT_POLICY_V1.md",
+      "category": "research_governance",
+      "source_worktree_sha256": "9583ba9197d28b328082e194c8d8f4619b50c4a1a772ca310516bdb9ad2e83d9",
+      "public_worktree_sha256": "9583ba9197d28b328082e194c8d8f4619b50c4a1a772ca310516bdb9ad2e83d9",
+      "bytes": 10675,
+      "redactions": 0
+    },
+    {
+      "source_path": "research_governance/JEV_A461_POSTPASS_MECHANISM_PRIMARY_ROUTE_20261027_V1.md",
+      "public_path": "data/A461/context/research_governance/JEV_A461_POSTPASS_MECHANISM_PRIMARY_ROUTE_20261027_V1.md",
+      "category": "research_governance",
+      "source_worktree_sha256": "f8ebca35673a3ae91ef24a8c9f2952b11d94b8ea0639c3d21dac3fa91a31a211",
+      "public_worktree_sha256": "f8ebca35673a3ae91ef24a8c9f2952b11d94b8ea0639c3d21dac3fa91a31a211",
+      "bytes": 10509,
+      "redactions": 0
+    }
+  ],
+  "excluded": {}
+}

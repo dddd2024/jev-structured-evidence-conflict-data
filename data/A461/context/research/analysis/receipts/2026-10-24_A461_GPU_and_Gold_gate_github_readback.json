@@ -1,0 +1,39 @@
+{
+  "schema": "JEV_A461_GPU_GOLD_GITHUB_READBACK_V1",
+  "date_local": "2026-10-24",
+  "repo": "dddd2024/jev",
+  "files": [
+    {
+      "path": "research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.json",
+      "blob_sha1": "1fc662a097cef54af5213fc087bc5eb883654dce",
+      "readback": true,
+      "parsed": true,
+      "checks": "7 gate statuses and exact budget protocol names"
+    },
+    {
+      "path": "research/analysis/2026-10-24_A461_GPU_admission_and_Gold_terminology_decision.md",
+      "blob_sha1": "5fc2e413bfd900d5ddaf4e36b87ba69aa29a4f8b",
+      "readback": true,
+      "checks": "Gold glossary, G-1 preflight absence, distinct SOP G0 GPU field collision"
+    }
+  ],
+  "facts": {
+    "preflight_exists_for_A461_at_expected_location": false,
+    "original_gold_oracle_families": [
+      "twins_streamlet",
+      "lanl_auth_policy"
+    ],
+    "new_verified_counterfactual_pairs": 0,
+    "formal_g_minus_1": "HOLD_PRIOR_ART_INCOMPLETE",
+    "current_gpu_hours": 0,
+    "conditional_pilot_native_model_forwards_cap": 128,
+    "conditional_hook_forwards_cap": 64
+  },
+  "exclusions": [
+    "No new model/GPU experiment started",
+    "No new TRAIN/DEV/CAL/TEST original rows read",
+    "Server SHA and personal library backup unverified",
+    "Not a retroactive G-1 approval or new protocol freezing"
+  ],
+  "intent": "Standalone explanation and admission status audit; protocol immutable"
+}

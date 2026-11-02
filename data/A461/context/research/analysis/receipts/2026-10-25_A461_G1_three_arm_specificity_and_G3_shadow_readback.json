@@ -1,0 +1,65 @@
+{
+  "schema": "JEV_A461_THREE_ARM_SIGNED_SCORE_SPECIFICITY_GITHUB_READBACK_V1",
+  "date": "2026-10-25",
+  "repository": "dddd2024/jev",
+  "readback": [
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.json",
+      "git_blob_sha1": "7bed6f005ba0ae6dc23636a6d53ea7b5937e3e05",
+      "parsed": true,
+      "assertions_passed": 15
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G1_three_arm_logit_specificity_and_sham_dominance.md",
+      "git_blob_sha1": "32d83f3d443e0ecf46355a93a55a997c11d0254e",
+      "readback": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_G3_T2_quorum_satisfied_control_source_gold_shadow.json",
+      "git_blob_sha1": "1799dcd916c70c27202e550f5788e58d665626c5",
+      "parsed": true,
+      "assertions_passed": 7
+    }
+  ],
+  "underlying_Fp32_G1_logits_source_sha1": "5b4a6903171d0a5848162a335530492f6e1a6046",
+  "underlying_G0_Gold_source_sha1": "24526c643434544b9a02587abc2d57e2c13ef627",
+  "critical_claims": {
+    "LANL_L1_specific_positive": 9,
+    "LANL_L1_matched_neutral_total": 9,
+    "twins_T1_specific_positive": 6,
+    "twins_T1_matched_neutral_total": 6,
+    "twins_T2_specific_positive": 1,
+    "twins_T2_matched_neutral_total": 4,
+    "T2_source_Gold_invariant_N1B_push_conflict_margin_positive": 4,
+    "T2_source_Gold_invariant_N1B_push_reject_margin_positive": 4,
+    "T2_source_Relevant_versus_N1B_conflict_margin_negative": 3,
+    "T2_source_Relevant_versus_N1B_reject_margin_negative": 3,
+    "T2_core_no_forwarded_matched_neutral": [
+      "twins_streamlet:run-100",
+      "twins_streamlet:run-125"
+    ],
+    "run100_observed_other_round": 4,
+    "run125_no_observed_other_round": true,
+    "both_old_states_observed_proposal_type": true,
+    "provisional_gold_neutral_control_not_token_admitted": true
+  },
+  "handoff": {
+    "issue": "https://github.com/dddd2024/jev/issues/2",
+    "comment_id": 6394397983
+  },
+  "status": "EXPLORATORY_REANALYSIS_REAL_103_LOGITS; G3_CPU_GOLD_ONLY_SHADOW_NOT_ADMITTED",
+  "new_computation": {
+    "gpu": 0,
+    "model_forwards": 0,
+    "cpu_native_tokenizer_calls": 0,
+    "original_corpus_new_reads": 0,
+    "server_access": false
+  },
+  "limitations": [
+    "Cross-axis absolute logit magnitudes not commensurate for pooled estimates.",
+    "T2 4 distinct source runs small and selected DEV.",
+    "Token count parity not same as full nuisance/semantic matching.",
+    "Provisional proposal event might violate source message-chronology/intent contract; not yet admitted.",
+    "No new blind source groups, no bidirectional mechanism patching."
+  ]
+}

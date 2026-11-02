@@ -1,0 +1,33 @@
+{
+  "schema": "JEV_G_MINUS_1_PRIOR_ART_DECISION_V1",
+  "experiment_name": "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE",
+  "study_line": "A461-PSMI stage G3 (execution round A465)",
+  "kind": "G_MINUS_1_INCREMENT",
+  "review_utc": "2026-10-25",
+  "research_main_sha_inspected": "ed364d1fc226fe5dacbb80ad5b4ef0bc06676e40",
+  "trigger_for_increment": "Per PRE_EXPERIMENT_DIRECT_PRIOR_ART_GATE_V1 7: the mechanism target changed after the independent multihead screen - the G1/G2 phenotype on the conflict axis is reclassified from action-threshold under-response to APPENDED-CONFLICT RECOGNITION FAILURE (conflicting_vote head false 6/6 on lawfully conflicted scenes while quorum head is 6/6 correct and action equals the rule applied to the model's own C/Q values 6/6; same-run T3 contrast shows pre-existing conflicts ARE recognized). A new prior-art competitor was also identified by the independent paper-readiness review.",
+  "new_primary_papers_read": [
+    {
+      "title": "Do Language Models Track Entities Across State Changes?",
+      "url": "https://proceedings.mlr.press/v306/tang26ah.html",
+      "version": "ICML 2026, PMLR 306:119466-119503; abstract page read directly this session",
+      "solved": "Behavioral + mechanistic study of entity tracking across state-changing operations in non-toy LM settings; shows LMs do not incrementally track world states but aggregate in parallel at the last token; identifies a fragile global suppression tag for REMOVE with confirmed behavioral failure modes and a partial mechanistic fix.",
+      "not_covered": "No security decisions, no typed scorers, no executable per-scene rule oracles, no appended-evidence counterfactual pairs, no token-matched single-field controls, no conflict/equivocation or appended-message binding; no preregistered physical forward ledger.",
+      "our_delta": "We audit a security-typed scorer under lawfully gold-changing APPENDED evidence with source-local oracles, contrast appended vs pre-existing conflicts within the same run groups, and add token-matched single-field neutrals; Tang et al. supply the mechanism-methodology frame our future patching stage must cite and compare against.",
+      "duplicate_falsifier": "If Tang et al. or follow-ups already measure appended-evidence recognition failures on security-typed scorers with oracle gold, the behavioral contribution is redundant; our remaining delta would be the audit protocol only."
+    }
+  ],
+  "carried_over_competitors": "SecJev v2 (2610.03073), One Word Opens the Gate (2610.12292), Monotonicity as Architectural Bias (2602.02686), metamorphic safety testing (JCST 2026), plus the repository's own G2 erratum and independent multihead screen.",
+  "decision": "NOVELTY_DELTA_TESTABLE",
+  "decision_scope": "GO for the G3 CPU construction gate (scaled conflict axis on UNSEEN run groups, matched neutrals for every pair, preregistered gold-invariant SHAMs) and, after freeze + readback, the separately-budgeted forward stage. No GPU permission granted by this document alone; the round's forward budget must be frozen in the V3 protocol and covered by the user's standing authorization of 2026-10-25 ('给你授权...继续工作直到产出可支撑论文的完整成果'), recorded in the admission receipt.",
+  "falsifiable_hypothesis": "On UNSEEN Twins run groups, appending one valid equivocation vote (existing supporter votes a different observed block, same round, in-window) produces conflicting_vote-head recognition failures at a rate materially above the matched-null baseline (token-matched author-swap neutrals) and above the pre-existing-conflict contrast (T3 pairs from the same groups), with certificate_action following the model's own C/Q values; if recognition instead succeeds on most unseen pairs, the pilot's 6/6 is a sample-specific artifact and the paper claim collapses to a negative audit.",
+  "alternative_explanations_preregistered": [
+    "Format/position: the appended vote's token position or serialization flips heads regardless of semantics - controlled by token-matched author-swap neutrals and position recording",
+    "Recency/accumulation: any late in-window vote changes the readout - controlled by SHAM-SA (same-author duplicate vote), SHAM-TS (time-shifted valid vote), SHAM-RO (message-list order reversal), all gold-invariant",
+    "Sample artifact: pilot groups were A428-touched - controlled by restricting to unseen run groups, one pair per group where possible",
+    "Cross-head integration (separate small question): C/Q correct but action violating the explicit rule (pilot singleton run-121) - measured on every row, reported separately, not conflated with recognition"
+  ],
+  "statistical_plan": "One pair per run group where feasible (cluster = group); primary comparisons: recognition rate on T2 new arms vs N1B neutrals vs T3 pre-existing conflicts; exact tests at pair level with group-level caveat; deterministic-rule ceiling (100% by construction) and persist-at-old-decision baseline reported alongside.",
+  "permission": "No GPU permission implied beyond the frozen per-round budget recorded in the V3 protocol and admission receipt.",
+  "go_no_go": "GO (CPU construction gate + budgeted forward stage)"
+}

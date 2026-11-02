@@ -1,0 +1,101 @@
+{
+  "controls": [
+    {
+      "covers": "every T2 and T3 pair",
+      "design": "same treatment message with author replaced by a fresh non-supporting validator (T2) or, for T3, the same vote at a different observed round (round-shift, invisible to the round-scoped oracle); CPU tokenizer scan preregistered; token-count equality vs the TREATMENT arm is the recorded criterion",
+      "id": "N1B_AUTHOR_SWAP",
+      "purpose": "token-matched single-field null contrast"
+    },
+    {
+      "covers": "6 selected pairs (one per contrast group where available)",
+      "design": "as in the pilot: vote for the alternative block by a non-supporter (T2) / proposal append (T3); token counts recorded vs treatment under the corrected criterion",
+      "id": "N1_STRUCTURE_MATCHED"
+    },
+    {
+      "count": 6,
+      "design": "append a duplicate of an existing candidate vote (same author, block, round; received = max existing); gold provably invariant (same author cannot create equivocation with itself); probes sensitivity to vote multiplicity",
+      "id": "SHAM_SA_SAME_AUTHOR_DUPLICATE",
+      "purpose": "gold-invariant SHAM: accumulation/recency"
+    },
+    {
+      "count": 6,
+      "design": "the treatment message with received shifted to another unused in-window value (deterministic: nearest unused below the treatment value; fallback nearest above); gold invariant These are TREATMENT-FORMAT controls: built on the treatment state, their gold equals the treatment gold (reject_conflict); the contrast is prediction change under timestamp/order-only variation of the same conflict edit.",
+      "gold_reference": "treatment gold",
+      "id": "SHAM_TS_TIME_SHIFT",
+      "purpose": "gold-invariant SHAM: timestamp digits/position of the appended vote"
+    },
+    {
+      "count": 6,
+      "design": "reverse the received_messages list of the treatment state; set of messages identical; gold invariant by oracle construction These are TREATMENT-FORMAT controls: built on the treatment state, their gold equals the treatment gold (reject_conflict); the contrast is prediction change under timestamp/order-only variation of the same conflict edit.",
+      "gold_reference": "treatment gold",
+      "id": "SHAM_RO_ORDER_REVERSAL",
+      "purpose": "gold-invariant SHAM: message order/position sensitivity"
+    }
+  ],
+  "data": "Pinned DEV corpus only (SHA 2920e1c9...); Twins family only for pair axes (LANL has no unseen groups: its 3 day groups were all consumed by A428 - recorded as an external-validity boundary)",
+  "execution": {
+    "archive": "research/rounds/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/ with SHA manifests + readback receipts",
+    "independent_review": "fresh second-path verifier (no import of the primary implementation)",
+    "server_dir": "~/wjc/a461-g3-conflict-gate-20261025-v1/{G0C,G0C_VERIFY,G1C,G2C,manifests,receipts,logs}"
+  },
+  "falsifiable_hypothesis": "On UNSEEN run groups, appending one valid equivocation vote produces conflicting_vote-head recognition failures materially above token-matched neutral and pre-existing-conflict (T3) contrasts; certificate_action follows the model's own C/Q values.",
+  "g_minus_1_increment": "research/literature_preflight/A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE/G_MINUS_1_INCREMENT_DECISION.json (committed before this protocol)",
+  "hard_resource_bounds": {
+    "authorization": "User standing authorization 2026-10-25 ('给你授权，...继续工作直到产出可支撑论文的完整成果') recorded in the G3 admission receipt with this frozen budget; per-round cap 128 never exceeded",
+    "forward_stage_budget": 106,
+    "gpu_forwards_construction": 0,
+    "model_loads_construction": "1 CPU checkpoint load for tokenizer/render (A428 G0B precedent)",
+    "network": 0,
+    "protocol_cap": 128,
+    "test_or_calibration_rows": 0
+  },
+  "id": "A461_G3_APPENDED_CONFLICT_RECOGNITION_CAUSAL_GATE_V1",
+  "interpretation_boundaries": "Source-local policy consistency on simulator scenes; no deployment, attacker-reachability, or mechanism claim; white-box patching remains a separately gated future stage per the paper-readiness review.",
+  "pair_families": [
+    {
+      "baseline": "C=0, support < quorum (gold wait), support >= 1, observed alternative block, max(received) <= decision_time",
+      "count": 10,
+      "edit": "append valid vote for a different observed block by an existing supporter (deterministic: lowest-index supporter, lowest block id, received = max(existing received)); gold wait -> reject_conflict",
+      "id": "T2_WAIT_TO_REJECT",
+      "selection": "one pair per run group; groups drawn round-robin from unseen groups sorted by group id"
+    },
+    {
+      "baseline": "C=0, support >= quorum (gold accept), observed alternative block, append feasible",
+      "count": 10,
+      "edit": "same edit rule; gold accept -> reject_conflict",
+      "id": "T2_ACCEPT_TO_REJECT",
+      "note": "these are the two pilot cells (run-100/125) that lacked any executed neutral; the scaled cell is the paper's key missing control"
+    },
+    {
+      "baseline": "C=1 (gold reject_conflict), fresh voter exists",
+      "count": 6,
+      "edit": "append valid candidate vote from a fresh validator (gold stays reject_conflict)",
+      "id": "T3_PREEXISTING_CONTRAST",
+      "selection": "prefer run groups that also carry a T2 pair (within-group appended-vs-preexisting contrast); one pair per group"
+    }
+  ],
+  "paper_integration": "Results replace the pilot's conflict-axis section: pilot 6/6 becomes the discovery observation, G3 provides the unseen-group replication or its refutation; manuscript to be committed to the repository for auditability.",
+  "primary_endpoints": [
+    "conflicting_vote head correctness on T2 new arms (recognition; the reclassified primary)",
+    "certificate_action correctness on T2 new arms per recomputed gold, with the action-equals-f(predC,predQ) consistency check on every row",
+    "contrast rates: T2 recognition failure vs N1B neutral violation vs T3 pre-existing recognition, per run group (cluster = group)",
+    "SHAM violation rates (SA/TS/RO) as gold-invariant format bounds",
+    "baselines: deterministic rule ceiling (oracle, 100% by construction), persist-at-old-decision baseline, majority-class per cell"
+  ],
+  "reclassification_basis": "Independent multihead screen 2026-10-25_A461_REAL_G1_103_multihead_conflict_recognition_root_cause_screen.json: on the pilot's six conflict-axis pairs the conflicting_vote head was wrong 6/6, evidence_level 0/6, quorum 6/6 correct, and action equalled the rule applied to the model's own C/Q 6/6; same-run T3 pairs show pre-existing conflicts ARE recognized. G2 errata ed364d1 (N1 criterion, McNemar 4-pair p=0.125, failed_to_change != sign reversal, N2 third-oracle bug).",
+  "schema": "JEV_EXPERIMENT_PROTOCOL_V1",
+  "secondary": [
+    "signed head logit deltas (conflicting_vote true-minus-false; action option margins)",
+    "evidence_level and quorum head correctness",
+    "first-difference token indices and per-arm token counts under the corrected criterion"
+  ],
+  "stage": "G0C_CPU_THEN_BUDGETED_FORWARDS",
+  "stop_conditions": [
+    "STOP_INSUFFICIENT_UNSEEN_GROUPS: fewer than 6 unseen groups with eligible T2 scenes in a cell (freeze what exists, report)",
+    "STOP_GOLD_DISAGREEMENT",
+    "STOP_TOKEN_TRUNCATION",
+    "STOP_NEUTRAL_UNMATCHED_MAJORITY: fewer than half of T2 pairs achieving token-matched N1B (freeze and report the matched subset)"
+  ],
+  "study_line": "A461-PSMI stage G3 (execution round A465)",
+  "unseen_group_exclusion": "Exclude every run group touched by (a) the A428 frozen 12 Twins scenes (archived source_group values) and (b) the A461-PSMI pilot pair_rows source_groups. The exclusion list is frozen in G0C/census.json at construction time."
+}

@@ -1,0 +1,323 @@
+{
+  "schema": "JEV_A461_G1_PILOT_PRE_FORWARD_103_PLAN_AND_REPLAY_CONTRACT_AUDIT_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "checked_git_head": "5be7c65e7f7afe8a79571e0e23e2151c5449da47",
+  "source_blobs": {
+    "A461_psmi_g1_paired_pilot_fp32_v1.py": "2b3075aa2a86758b92ff166e369bd69b26a9ec8d",
+    "G0_FORWARD_MANIFEST_20261025/physical_forward_manifest.json": "f54bac29a1b90b663096ed900b356318062c3c86",
+    "G0_REAL_20261025/pair_rows.jsonl": "24526c643434544b9a02587abc2d57e2c13ef627",
+    "G0_REAL_20261025/token_audit.jsonl": "f2bd1e5de0a6cfeb69d9b6e2d90d9979c4e642f7",
+    "G0_N1B_REAL_20261025/n1b_rows.jsonl": "02342e1dc0a188dd7390d0fd911710d29622a358"
+  },
+  "scope": "Static independent analysis of frozen real G0 arms and latest G1 code. NO GPU/CPU model forward nor server access.",
+  "old_G1_plan": {
+    "n": 17,
+    "axes": {
+      "LANL_L1_B_THRESHOLD": 9,
+      "LANL_L3A_RISK_NONREGRESSION": 6,
+      "TWINS_T1_QUORUM_AXIS": 2
+    },
+    "matched": 17,
+    "important_T2": 0
+  },
+  "proposal_fixed_103_plan": {
+    "old_baselines": 34,
+    "treatments": 31,
+    "N1B_control_for_Twins_14": 14,
+    "N1_original_control_where_no_N1B": 17,
+    "N2_timestamp_control": 3,
+    "old_baseline_precision_replays": 4,
+    "total_forwards": 103,
+    "unique_source_pair_key_coverage": 31,
+    "source_pair_keys_with_equal_token_count": 29,
+    "source_pair_keys_with_unmatched_control_exploratory": 2,
+    "per_axis": {
+      "n": 17,
+      "axes": {
+        "LANL_L1_B_THRESHOLD": 9,
+        "LANL_L3A_RISK_NONREGRESSION": 6,
+        "TWINS_T2_CONFLICT_AXIS": 2
+      },
+      "matched": 15,
+      "important_T2": 2
+    },
+    "selected_N1_rows": [
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:1be5102b0f7b22b6",
+        "source_group": "lanl:day:50",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0014",
+        "treatment_row": "A461P_0013",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 580,
+        "neutral_token_len": 580,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:7465d5a079055d8b",
+        "source_group": "lanl:day:49",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0012",
+        "treatment_row": "A461P_0011",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 580,
+        "neutral_token_len": 580,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:7affc3f35f85fa15",
+        "source_group": "lanl:day:50",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0018",
+        "treatment_row": "A461P_0017",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 580,
+        "neutral_token_len": 580,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:7d0d542458e93847",
+        "source_group": "lanl:day:50",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0016",
+        "treatment_row": "A461P_0015",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 581,
+        "neutral_token_len": 581,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:8405be21110e3ceb",
+        "source_group": "lanl:day:48",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0002",
+        "treatment_row": "A461P_0001",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 580,
+        "neutral_token_len": 580,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:86b3c8c1022b4f14",
+        "source_group": "lanl:day:48",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0004",
+        "treatment_row": "A461P_0003",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 581,
+        "neutral_token_len": 581,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:9ffd190c8c9483e9",
+        "source_group": "lanl:day:49",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0008",
+        "treatment_row": "A461P_0007",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 581,
+        "neutral_token_len": 581,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:a130d2f53d664c52",
+        "source_group": "lanl:day:49",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0010",
+        "treatment_row": "A461P_0009",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 581,
+        "neutral_token_len": 581,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L1_B_THRESHOLD:a72a7fed4bffa02a",
+        "source_group": "lanl:day:48",
+        "axis": "LANL_L1_B_THRESHOLD",
+        "source_neutral_row": "A461P_0006",
+        "treatment_row": "A461P_0005",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "record_failed_attempt",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 581,
+        "neutral_token_len": 581,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:316ad9c214d93ced",
+        "source_group": "lanl:day:48",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0022",
+        "treatment_row": "A461P_0021",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 640,
+        "neutral_token_len": 640,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:7066ecae690fe43d",
+        "source_group": "lanl:day:49",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0024",
+        "treatment_row": "A461P_0023",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 700,
+        "neutral_token_len": 700,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:80fc84af3d0f7b03",
+        "source_group": "lanl:day:50",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0030",
+        "treatment_row": "A461P_0029",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 758,
+        "neutral_token_len": 758,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:ad9edc02d71c5e24",
+        "source_group": "lanl:day:49",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0026",
+        "treatment_row": "A461P_0025",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 641,
+        "neutral_token_len": 641,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:cb6958b659e9f26c",
+        "source_group": "lanl:day:48",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0020",
+        "treatment_row": "A461P_0019",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 998,
+        "neutral_token_len": 998,
+        "matched": true
+      },
+      {
+        "pair_key": "LANL_L3A_RISK_NONREGRESSION:d48e5d5fb80f313f",
+        "source_group": "lanl:day:50",
+        "axis": "LANL_L3A_RISK_NONREGRESSION",
+        "source_neutral_row": "A461P_0028",
+        "treatment_row": "A461P_0027",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "investigate",
+        "new_policy_Gold": "investigate",
+        "treatment_token_len": 700,
+        "neutral_token_len": 700,
+        "matched": true
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:47ab1e2e276380f6",
+        "source_group": "twins_streamlet:run-100",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_neutral_row": "A461P_0047",
+        "treatment_row": "A461P_0046",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "accept",
+        "new_policy_Gold": "reject_conflict",
+        "treatment_token_len": 1086,
+        "neutral_token_len": 1090,
+        "matched": false
+      },
+      {
+        "pair_key": "TWINS_T2_CONFLICT_AXIS:dce1d033e0c2a951",
+        "source_group": "twins_streamlet:run-125",
+        "axis": "TWINS_T2_CONFLICT_AXIS",
+        "source_neutral_row": "A461P_0057",
+        "treatment_row": "A461P_0056",
+        "has_N1B": false,
+        "old_policy_Gold_from_neutral": "accept",
+        "new_policy_Gold": "reject_conflict",
+        "treatment_token_len": 411,
+        "neutral_token_len": 415,
+        "matched": false
+      }
+    ]
+  },
+  "replay_failure_static_proof": {
+    "bug": "G1_REPLAY_STATE_ONLY_STORES_REPLAY_NOT_PRIMARY",
+    "evidence_lines": [
+      223,
+      226,
+      247,
+      248,
+      251,
+      252,
+      259
+    ],
+    "code_structure": "queue has one original old baseline plus ONE replay per selected old. replay_state is appended ONLY for kind='replay', so each of 4 entries has length=1. Test len(rrs)==2 inevitably fails after all 103 planned forwards.",
+    "checks": {
+      "primary_appended_to_replay_state": false,
+      "code_replay_only_predicate": true,
+      "code_one_replay_per_selected_old": true,
+      "code_len_two_assert": true,
+      "raw_logits_written_after_replay_check": true
+    },
+    "effect": "G1 returns FAIL after the expensive forwards, before writing raw_native_logits_103_requests.jsonl; receipt is saved but all in-memory per-forward logits may be lost.",
+    "corrective_design": "Include primary with replay keyed by identical base row before comparison, or compare the replay result against primary row in rows_out lookup. Count physical forwards as before. Persist append-only raw logits/journal while executing so an after-the-fact validation failure does not destroy records. Verify through independent dry run or unit test before any GPU."
+  },
+  "baseline_none_error": {
+    "prior_reported": true,
+    "fixed_in_current_git_head": true,
+    "git_commit": "5be7c65e7f7afe8a79571e0e23e2151c5449da47",
+    "note": "Do not continue claiming this first bug is present in current head."
+  },
+  "experimental_causality": {
+    "N1_control_correct_relation": "treatment vs neutral of same G0 pair key",
+    "current_N1_selection_flaw": "Uses n1_all[:17] and calls them N1_unmatched, but all 17 are matched; no Twins T2 neutrality control in plan.",
+    "corrected_N1_selection": "Deterministically use the N1 for the 17 G0 pair keys without N1B, including 15 LANL and 2 T2 accept->reject.",
+    "two_critical_T2": [
+      "twins_streamlet:run-100",
+      "twins_streamlet:run-125"
+    ],
+    "no_posthoc_rule": "Selection must be preregistered before actual model inference; do not change experiments after observing logits. If G1 already ran, preserve raw evidence and classify amended design as new prospective experiment.",
+    "no_model_positive_yet": true,
+    "source_Gold_vs_model_Gold": "Only CPU G0 labels observed; no new G1 behavioral policy error has been verified here.",
+    "paired_control_limit": "29 matched native-state token COUNTS, not proof that lexical/position/author/time nuisance fully controlled.",
+    "resource_contract": "Another session's G1 admission_receipt claims user approval of 103 GPU forwards; this audit cannot independently verify the interactive authorization; does not run any GPU."
+  },
+  "action": "Send to parallel agent in Issue #2 for pre-forward repair; source code/Runbook remain executor-owned.",
+  "resources": {
+    "model_loads": 0,
+    "CPU_forward": 0,
+    "GPU_forward": 0,
+    "new_raw_original_corpus_read": 0,
+    "archived_G0_rows_read": 65,
+    "archived_G0_token_rows_read": 65,
+    "archived_N1B_rows_read": 14,
+    "server_backup_verified": false,
+    "gpt_library_backup_verified": false
+  }
+}

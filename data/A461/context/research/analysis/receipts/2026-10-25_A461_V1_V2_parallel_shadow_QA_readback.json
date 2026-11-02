@@ -1,0 +1,47 @@
+{
+  "schema": "JEV_A461_PARALLEL_G0_PREEXECUTION_QA_GITHUB_READBACK_V1",
+  "local_date": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "frozen_parallel_base": "311b3490644d07df07b41cf1530cd35e600320bf",
+  "artifacts": [
+    {
+      "path": "research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.json",
+      "sha": "1c69b2164db5dae06ffe5004c1e42c498d29d3e8",
+      "readback": true,
+      "parsed": true
+    },
+    {
+      "path": "research/analysis/2026-10-25_A461_V1_V2_parallel_preexecution_shadow_QA.md",
+      "sha": "c4f570f63ecc8c82b23d77853e3de3ba1c210e0b",
+      "readback": true
+    }
+  ],
+  "summary": {
+    "new_parallel_V1_commit": "20898b807e518a004c9734926db186569510d357",
+    "new_parallel_V2_commit": "311b3490644d07df07b41cf1530cd35e600320bf",
+    "Twins_original_source_rows_checked": 12,
+    "Twins_static_rule_witness_axes": {
+      "T1": 1,
+      "T2": 4,
+      "T3": 4
+    },
+    "Twins_unique_old_scenes": 8,
+    "LANL_original_rows_checked": 12,
+    "LANL_L3A_old_candidates": 3,
+    "LANL_L3A_original_groups": 2,
+    "actual_G0_dual_gold_pairs": 0,
+    "actual_G0_native_token_audited_pairs": 0,
+    "gpu_permission": false
+  },
+  "remaining_pre_execution_QA": [
+    "Matched length N1 must be verified with true tokenizer and excluded if unmatched; N3 records but does not enforce.",
+    "N1 and N2 neutral/time control selection has unresolved deterministic tie-breaks.",
+    "Main G0 and independently written verifier Python script paths returned GitHub 404 at checked head."
+  ],
+  "limits": [
+    "Shadow source-local Gold simulation reused archived A428 native inputs, did NOT rerun SecJev model or G0.",
+    "No NEW original corpus rows, and no CAL/TEST reads.",
+    "GitHub readback does not verify the server or GPT Library backup.",
+    "Concurrent agent may submit new files immediately; always re-fetch main before new execution."
+  ]
+}

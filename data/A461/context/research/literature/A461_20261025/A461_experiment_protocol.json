@@ -1,0 +1,55 @@
+{
+  "id": "A461_20261025_POLICY_SEMANTIC_MONOTONICITY_CPU_G_MINUS_1",
+  "status": "DESIGNED_NOT_EXECUTED",
+  "route": "M_MODEL_INTERNAL_NOT_DEPLOYED_ATTACK",
+  "approved_gpu_hours": 0,
+  "data": "Only TRAIN/DEV; no CAL/TEST discovery; paper and repository metadata are not row-level access",
+  "admission": {
+    "source": [
+      "At least two independent source families with executable policy Gold; candidate Twins and LANL are not assumed equivalent",
+      "Freeze rule version, checkpoint, LoRA, head, tokenizer, calibration and precision hashes",
+      "Identify state transitions with deterministic rule oracle and preserve all unrelated fields",
+      "Check semantic comparability, source independence, option meanings and policy priority"
+    ],
+    "stop": [
+      "STOP_NO_ROW_LEVEL_ACCESS",
+      "STOP_NO_RULE_PRESERVING_PAIRS",
+      "STOP_FEWER_THAN_TWO_INDEPENDENT_FAMILIES",
+      "STOP_NO_NATURAL_STRICT_POSITIVE",
+      "STOP_ONLY_GENERIC_FORMAT_EFFECT",
+      "STOP_NO_CAUSAL_SPECIFICITY"
+    ]
+  },
+  "design": {
+    "twins": [
+      "Baseline no conflict/quorum below threshold -> add one authentic valid vote, verify no conflict: reject probability should not rise",
+      "Baseline no conflict/quorum present -> add observed conflicting voter: acceptance should not rise and Gold changes to reject",
+      "Sham edit with identical token length but unchanged semantic evidence"
+    ],
+    "lanl": [
+      "Increase only preceding failures in stated time window while holding current event and rule fixed; policy triage cannot become more permissive if rule is monotone",
+      "Keep same-second ambiguity and event chronology explicit; exclude nonmonotone policy cases"
+    ],
+    "negative_controls": [
+      "Equivalent serialization changes",
+      "Candidate order/name with semantic mapping fixed",
+      "Nonsecurity classification task",
+      "Matched-norm random state patches"
+    ],
+    "metrics": [
+      "strict policy false allow and false reject",
+      "directional margin Δ(z_allow-z_deny)",
+      "pairwise monotonicity violation rate and source-stratified confidence intervals",
+      "authorized retention and over-refusal",
+      "query-only/key-only/joint state patch necessity and sufficiency"
+    ]
+  },
+  "future_gpu_if_admitted": {
+    "status": "CONDITIONAL_NOT_APPROVED",
+    "stage_g0_max_native_forwards": 128,
+    "stage_g1_max_hook_forwards": 64,
+    "model": "0.8B or 2B frozen exact checkpoint after resource confirmation",
+    "stop_when": "No strict natural positive after pre-registered DEV search; do not tune on TEST"
+  },
+  "attack_claim_requires": "Independently verified attacker write control and deployment authorization Gold; absent these, label as model policy consistency only."
+}

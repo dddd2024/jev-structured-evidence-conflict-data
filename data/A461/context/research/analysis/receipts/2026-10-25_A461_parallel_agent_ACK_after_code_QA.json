@@ -1,0 +1,69 @@
+{
+  "schema": "JEV_A461_PARALLEL_G0_EXECUTOR_ACK_SYNC_V1",
+  "date_local": "2026-10-25",
+  "repo": "dddd2024/jev",
+  "delegated_issue": "https://github.com/dddd2024/jev/issues/2",
+  "ack_comment_id": 6393454987,
+  "ack_utc": "2026-10-25T04:30:30Z",
+  "ack_exact_run_id": "a461-psmi-counterfactual-cpu-gate-20261025-v1",
+  "ack_commit_sha_as_claimed": "495dde0",
+  "ack_status": "PREPARING",
+  "ack_provenance": "GitHub issue comment by connected account dddd2024 identifies itself as the original parallel A461 G-1/V1/V2 author. Acknowledgment is a self-reported status, not independent machine execution evidence.",
+  "ack_assertions_as_reported": {
+    "historical_LANL_crosschecks": "328/328",
+    "historical_Twins_crosschecks": "12/12",
+    "altered_emitted_arms": 65,
+    "stated_old_baseline_forwards": 34,
+    "stated_total_base_plus_changed_arms": 99,
+    "G1_conditional_max": 128,
+    "gpu_used": 0,
+    "future_promise": "Physical forward manifest and token matched flag will be exported in G0 outputs; not yet verified by actual readback."
+  },
+  "current_independent_QA_findings": [
+    {
+      "issue": "RUNBOOK_DIR_CREATION",
+      "state": "OPEN_IN_CODE_AT_CHECKED_SHA",
+      "source": "Runbook creates G0 and G0_VERIFY but scripts require absent paths"
+    },
+    {
+      "issue": "RUNBOOK_MISSING_VERIFIER_REPO_ROOT",
+      "state": "OPEN_IN_CODE_AT_CHECKED_SHA",
+      "source": "argparse requires --repo-root; runbook omits"
+    },
+    {
+      "issue": "G0_MODEL_LOADS_ZERO_VS_CPU_CHECKPOINT_LOAD",
+      "state": "OPEN_AT_CHECKED_SHA",
+      "source": "V1 freezes model_loads=0, main/verifier load CPU checkpoint"
+    },
+    {
+      "issue": "N1_EQUAL_NATIVE_TOKEN_MATCH",
+      "state": "AGENT_ACK_PROMISE_ONLY_NOT_YET_VERIFIED_IN_COMMITTED_CODE",
+      "source": "Only per-arm token-vs-old logged at current main; no new-vs-neutral match audit currently present"
+    },
+    {
+      "issue": "N2_CHRONOLOGY",
+      "state": "POTENTIAL_ERROR_PROVED_BY_SYNTHETIC_COUNTEREXAMPLE_ONLY",
+      "source": "Failure-only retime may break full prior event descending order; current corpus occurrences unverified"
+    }
+  ],
+  "experimental_status": {
+    "formal_G_MINUS_1": "NOVELTY_DELTA_TESTABLE_CPU_ONLY",
+    "formal_G0": "PREPARING__NOT_PROVEN_STARTED",
+    "server_experiment_receipt_read": false,
+    "independent_second_oracle_actual_G0_PASS_verified": false,
+    "G1_GPU": "NOT_ADMITTED",
+    "safe_action": "Wait for delegated executor to fix code/runbook and publish G0 receipt; our session independent reviewer only"
+  },
+  "previous_analysis_commits": [
+    "8a8de75efc3175f2f11dc849ac396ffc94d82e35",
+    "a035e1a0e6d35f2450ee3f59895c9824209fbd10"
+  ],
+  "resources": {
+    "new_original_corpus_rows_read": 0,
+    "model_loads_this_session": 0,
+    "model_forwards_this_session": 0,
+    "GPU_forwards_this_session": 0,
+    "training_runs_this_session": 0,
+    "server_access_this_session": false
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "JEV_RESEARCH_GITHUB_READBACK_RECEIPT_V1",
+  "local_date": "2026-10-24",
+  "repo": "dddd2024/jev",
+  "kind": "NO_NEW_CORPUS_READ_CROSS_ROUND_RULE_VS_TRUST_FIELD_ADMISSION_AUDIT",
+  "read_back": [
+    {
+      "path": "research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.json",
+      "blob_sha1": "bf50d96ba4fe7002a9d09ad532a99b39c4bab12c",
+      "parsed": true,
+      "assertions_pass": true
+    },
+    {
+      "path": "research/analysis/2026-10-24_A462_native_trust_field_rule_gold_intersection_and_A461_partial_order_audit.md",
+      "blob_sha1": "7fe7d52dcca36250fea8364c5c28b27e63c2935b",
+      "key_gate_present": true
+    }
+  ],
+  "primary_existing_raw_cpu_archives": [
+    {
+      "source": "R0 Native DEV eight-source state-key census",
+      "sha": "1842eeadbf0b1447b426f55f4b211e3533f11982"
+    },
+    {
+      "source": "R1 static Twins ingress",
+      "sha": "773fa2d5bd02025b5e630ad17b097e7eb41b2b0f"
+    },
+    {
+      "source": "LANL v2 source-local rule Gold",
+      "sha": "aaef32ed1df81c1f3300f6f4c32f160f340a5948"
+    },
+    {
+      "source": "Twins A430 v2 source-local action Gold",
+      "sha": "7bf5c4ce516a4db375f908591a4bad8f325a9ada"
+    },
+    {
+      "source": "A451 old strict FP32 mechanism candidate",
+      "sha": "4bdc6925279cc4aea3c68f39742d24253846ed62"
+    },
+    {
+      "source": "A462 original prereg",
+      "sha": "not copied; see audit JSON full source path and sha"
+    }
+  ],
+  "verified": {
+    "original_DEV_scenes": 9911,
+    "eight_sources_in_matrix": 8,
+    "local_gold_sources": [
+      "lanl_auth_policy",
+      "twins_streamlet"
+    ],
+    "explicit_untrusted_state_sources": [
+      "agentdojo_tool_outputs",
+      "injecagent"
+    ],
+    "capability_intersection": 0,
+    "A462_G_MINUS_1": "HOLD_NO_NATIVE_TRUST_POLICY_INTERSECTION",
+    "A461_G_MINUS_1": "HOLD_PRIOR_ART_INCOMPLETE",
+    "source_local_vs_deployed_distinguished": true,
+    "mathematical_rule_tables_are_not_model_empirical_results": true
+  },
+  "resource": {
+    "new_original_corpus_rows_read": 0,
+    "new_model_forwards": 0,
+    "new_gpu_forwards": 0,
+    "new_training_runs": 0,
+    "remote_server_login": false,
+    "gpt_library_synced": false
+  },
+  "limitations": [
+    "Github readback is not school-server archive SHA or personal Library backup.",
+    "Matrix is exact for known original top-level field schemas and existing Gold approvals, not a theorem about all nested inputs or possible new safe synthetic schemas.",
+    "Rule truth tables establish semantic oracle outcomes under fixed policy preconditions, not source-group natural counterfactual support or SecJev model monotonic behavior.",
+    "No new experimental G0, G1 or paper novelty admission."
+  ]
+}
