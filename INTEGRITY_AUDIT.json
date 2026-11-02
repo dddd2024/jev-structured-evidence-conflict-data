@@ -11,8 +11,12 @@
   "related_experiment_plans_and_analysis_published": 127,
   "related_exact_git_blob_sha1": 127,
   "related_unexpected_different": 0,
-  "public_release_large_capture_assets_verified": 0,
-  "raw_large_captures_status": "NOT_MIGRATED",
+  "public_release_large_capture_assets_verified": 31,
+  "raw_large_captures_status": "MIGRATED (G2 stages C-F, K-B, K-C; M1-M23)",
   "unpublished_round_artifacts": "24 historical DOCX/PDF manuscript drafts (not primary experiment protocols)",
-  "method": "Compare matching public and private Git tree blob SHA-1 for exact copies; compare sanitized set to separately disclosed ledger."
+  "method": "Compare matching public and private Git tree blob SHA-1 for exact copies; compare sanitized set to separately disclosed ledger.",
+  "server_workspace_files_scanned": 7011,
+  "server_files_already_covered_by_git_blob": 2166,
+  "server_supplement_published": 292,
+  "server_selftest_fixtures_not_published": 4553
 }

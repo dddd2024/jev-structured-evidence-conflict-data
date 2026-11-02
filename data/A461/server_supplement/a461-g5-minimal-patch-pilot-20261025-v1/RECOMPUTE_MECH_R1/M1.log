@@ -1,0 +1,22 @@
+{
+ "cross_group": {
+  "cells": 104,
+  "J_main": 53,
+  "J_round": 1,
+  "J_okalt": 66,
+  "J_doserand_r": 1,
+  "J_round_not_dose": 1,
+  "frac_dM_main_gt_round": 1.0,
+  "groups_majority_main_gt_round": 14,
+  "frac_dM_round_gt_dose": 0.0769,
+  "frac_dM_okalt_gt_round": 1.0,
+  "median_dM": {
+   "main": 0.3772,
+   "round": -1.134,
+   "okalt": 0.6352,
+   "doserand_r": -0.1047
+  }
+ },
+ "verdict_round": "REL_SUPPORTED",
+ "verdict_role": "ROLE_ABSTRACT"
+}

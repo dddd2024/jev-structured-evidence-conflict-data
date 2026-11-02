@@ -1,0 +1,33 @@
+{
+  "admission_fields_observed": {
+    "blind_review_verdict": null,
+    "cumulative_calls_already_consumed": 0,
+    "explicit_user_gpu_approval": false,
+    "mode": "L1_FAKE",
+    "runner_blob": null,
+    "self_blob": "c65e8c87cd7202e1a8ec6afa5b480e764f6938bf"
+  },
+  "backend": "fake",
+  "backprop_calls": 0,
+  "base_tokenizer_json_sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+  "batch_receipts": [],
+  "error_message": "slice is W31 tier",
+  "error_type": "RuntimeError",
+  "frozen_inputs": {
+    "corpus_sha256": "2920e1c9fd553e20458c0db1bf74db8fb7782124aa412009962c34e2e675ca56",
+    "g5v2_questions_blob": "8013081662cce3e73ba2d6b5b71bb6207eab0496",
+    "manifest_blob": "02952f018be5c3ad093f18d9a26c1edf47d03ac8",
+    "roster_blob": "7c87455c690b6ef59e5b2ef4d2ac562eddfda023"
+  },
+  "gpu_model_loads": 0,
+  "native_model_forward_calls": 0,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/T6_manual3",
+  "run_id": "A461_G5_G2_STAGE_A_DONOR_DISCOVERY_GPU_R1",
+  "schema": "JEV_A461_G5_G2_STAGE_A_SCREEN_RECEIPT_V2",
+  "status": "FAIL_A461_G5_G2_STAGE_A_SCREEN",
+  "test_or_calibration_rows": 0,
+  "tokenizer_source": "/REDACTED_RESEARCH_ROOT/kev08b-smoke-20261001-153041/models/base",
+  "tool_actions": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 229, in main\n    ck(r[\"frozen_width\"] == 31, \"slice is W31 tier\")\n  File \"/REDACTED_RESEARCH_ROOT/a461-g5-minimal-patch-pilot-20261025-v1/A461_g5_g2_stage_a_gpu_screen_runner_g0_v2.py\", line 52, in ck\n    raise RuntimeError(m)\nRuntimeError: slice is W31 tier\n"
+}

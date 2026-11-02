@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/A461_g5_g1s_donor_search_v1.py", line 285, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/A461_g5_g1s_donor_search_v1.py", line 97, in main
+    ck(out.parent.is_dir() and not out.exists(), "NEW out dir")
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/A461_g5_g1s_donor_search_v1.py", line 32, in ck
+    raise RuntimeError(m)
+RuntimeError: NEW out dir

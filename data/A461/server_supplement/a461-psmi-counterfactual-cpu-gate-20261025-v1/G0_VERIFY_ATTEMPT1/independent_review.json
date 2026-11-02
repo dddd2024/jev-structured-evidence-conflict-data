@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "archived_crosscheck": {
+      "lanl_rows": 328,
+      "twins_scenes": 12
+    },
+    "budget": {
+      "arms": 65,
+      "cap": 128
+    },
+    "row_verification": {
+      "by_family_arm": {
+        "LANL_L1_B_THRESHOLD:new": 9,
+        "LANL_L3A_RISK_NONREGRESSION:new": 6,
+        "LANL_N2_TIMESTAMP_INVARIANCE:retimed": 3,
+        "TWINS_T1_QUORUM_AXIS:new": 6,
+        "TWINS_T2_CONFLICT_AXIS:new": 6,
+        "TWINS_T3_CONFLICT_STABILITY:new": 4
+      },
+      "pairs": 34
+    }
+  },
+  "cpu_model_loads": 1,
+  "error_message": "token sha disagree 33",
+  "error_type": "AssertionError",
+  "gpu_forwards": 0,
+  "schema": "JEV_A461_PSMI_G0_INDEPENDENT_REVIEW_V1",
+  "status": "FAIL_A461_PSMI_G0_INDEPENDENT_VERIFICATION"
+}

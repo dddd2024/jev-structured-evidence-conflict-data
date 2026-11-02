@@ -1,0 +1,34 @@
+{
+ "consistency_gate": {
+  "S_all": 51,
+  "S_M2_mixer_L11": 51,
+  "main_JOINT_agreement": 104,
+  "max_abs_dM_diff_vs_M2": 6e-06,
+  "pass": true
+ },
+ "head_rules": {
+  "SUF": [],
+  "NEC": [
+   10
+  ],
+  "GSUF": [],
+  "verdict": "SPARSE_HEADS",
+  "H_star": [
+   10
+  ],
+  "H_star_source": "SUF_u_NEC"
+ },
+ "verdict": "SPARSE_HEADS",
+ "A1": {
+  "donors_positive": 14,
+  "hosts_positive": 8,
+  "DONOR_GATED": true,
+  "HOST_GATED": true,
+  "reading": "host deficit in what the heads carry, not where they look"
+ },
+ "A2": {
+  "median_mP_new_donors": 0.136244,
+  "median_mP_new_hosts": 0.109755,
+  "hosts_below_donor_min": 0
+ }
+}

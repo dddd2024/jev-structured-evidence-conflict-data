@@ -1,0 +1,116 @@
+{
+ "consistency_gate": {
+  "S_full": 51,
+  "S_M3_all": 51,
+  "full_rows_bitwise_eq_M3": 208,
+  "pass": true
+ },
+ "rules_applied": {
+  "BULK_SUF": true,
+  "BULK_NEC": true,
+  "D": [
+   "OTHER_ITEMS",
+   "BULK"
+  ],
+  "RAND_NULL": true,
+  "verdict": "BULK_DIRECTION",
+  "content": "XD_HOLDS"
+ },
+ "verdict": "BULK_DIRECTION",
+ "content": "XD_HOLDS",
+ "S": {
+  "full": 51,
+  "only_BULK": 39,
+  "drop_BULK": 4,
+  "dir_PARTNER": 9,
+  "dir_ROUND_PEERS": 4,
+  "dir_OTHER_ITEMS": 27,
+  "dir_CONTEXT": 17,
+  "dir_SELF": 0,
+  "dir_ROUNDVOTES": 4,
+  "dir_BULK": 48,
+  "dir_RAND": 1,
+  "xdonor_BULK": 51
+ },
+ "SPEC": {
+  "full": true,
+  "only_BULK": true,
+  "drop_BULK": true,
+  "dir_PARTNER": false,
+  "dir_ROUND_PEERS": false,
+  "dir_OTHER_ITEMS": true,
+  "dir_CONTEXT": true,
+  "dir_SELF": false,
+  "dir_ROUNDVOTES": false,
+  "dir_BULK": true,
+  "dir_RAND": false,
+  "xdonor_BULK": true
+ },
+ "alpha": {
+  "dir_BULK": {
+   "median_of_medians": 1.2388,
+   "max": 3.6198,
+   "min": 0.3541
+  },
+  "dir_CONTEXT": {
+   "median_of_medians": 2.5569,
+   "max": 16.1606,
+   "min": 1.0705
+  },
+  "dir_OTHER_ITEMS": {
+   "median_of_medians": 1.5312,
+   "max": 10.1575,
+   "min": 0.3563
+  },
+  "dir_PARTNER": {
+   "median_of_medians": 3.2414,
+   "max": 102.9712,
+   "min": 0.5277
+  },
+  "dir_ROUNDVOTES": {
+   "median_of_medians": 2.0329,
+   "max": 10.5957,
+   "min": 0.3646
+  },
+  "dir_ROUND_PEERS": {
+   "median_of_medians": 3.1473,
+   "max": 40.4104,
+   "min": 0.4368
+  },
+  "dir_SELF": {
+   "median_of_medians": 3.8506,
+   "max": 17.2055,
+   "min": 1.2918
+  }
+ },
+ "delta_geometry": {
+  "PARTNER": {
+   "median_norm_ratio_to_full_delta": 0.3582,
+   "median_cos_to_full_delta": 0.3459
+  },
+  "ROUND_PEERS": {
+   "median_norm_ratio_to_full_delta": 0.3595,
+   "median_cos_to_full_delta": 0.3329
+  },
+  "OTHER_ITEMS": {
+   "median_norm_ratio_to_full_delta": 0.6287,
+   "median_cos_to_full_delta": 0.6497
+  },
+  "SELF": {
+   "median_norm_ratio_to_full_delta": 0.2817,
+   "median_cos_to_full_delta": 0.3426
+  },
+  "CONTEXT": {
+   "median_norm_ratio_to_full_delta": 0.4105,
+   "median_cos_to_full_delta": 0.4342
+  },
+  "ROUNDVOTES": {
+   "median_norm_ratio_to_full_delta": 0.4981,
+   "median_cos_to_full_delta": 0.5001
+  },
+  "BULK": {
+   "median_norm_ratio_to_full_delta": 0.7868,
+   "median_cos_to_full_delta": 0.7792
+  }
+ }
+}

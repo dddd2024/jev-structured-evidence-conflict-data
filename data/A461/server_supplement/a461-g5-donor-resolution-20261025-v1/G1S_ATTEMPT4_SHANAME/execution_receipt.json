@@ -1,0 +1,22 @@
+{
+  "backprop_calls": 0,
+  "budget": 124,
+  "composition": {
+    "SA": 36,
+    "new": 36,
+    "old": 36
+  },
+  "elapsed_seconds": 29.614,
+  "gpu_free_bytes_after": 19281149952,
+  "gpu_model_loads": 1,
+  "native_model_forward_calls": 112,
+  "network_calls": 0,
+  "output_dir": "/REDACTED_RESEARCH_ROOT/a461-g5-donor-resolution-20261025-v1/G1S",
+  "physical_forwards": 112,
+  "replays": 4,
+  "run_id": "a461-g5-donor-resolution-20261025-v1",
+  "schema": "JEV_A461_G5_G1S_RECEIPT_V1",
+  "status": "COMPLETE_A461_G5_G1S_DONOR_SEARCH",
+  "test_or_calibration_rows": 0,
+  "tool_actions": 0
+}

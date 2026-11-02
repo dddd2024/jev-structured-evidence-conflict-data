@@ -1,0 +1,12 @@
+{
+  "C_ROW": 1,
+  "START": 4,
+  "W": 4,
+  "c_row_changed": true,
+  "others_unchanged": true,
+  "outside_span_unchanged": true,
+  "own_state_patch_is_identity": false,
+  "schema": "JEV_A461_G5_MOCK_PATCH_TEST_V1",
+  "span_changed": true,
+  "verdict": "FAIL"
+}

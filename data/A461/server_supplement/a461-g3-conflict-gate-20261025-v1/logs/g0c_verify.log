@@ -1,0 +1,1 @@
+{"checks": {"exclusions": {"a428_scenes": 12, "groups": 18}}, "error_message": "T3 groups not aligned", "error_type": "AssertionError", "schema": "JEV_A461_G3_G0C_INDEPENDENT_REVIEW_V1", "status": "FAIL_A461_G3_G0C_INDEPENDENT_VERIFICATION"}

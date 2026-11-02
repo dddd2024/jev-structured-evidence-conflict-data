@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py", line 600, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py", line 339, in main
+    need(out.parent.is_dir() and not out.exists(), "new out dir")
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_20261025_PSMI_RULE_PRESERVING_COUNTERFACTUAL_CPU_GATE/A461_psmi_independent_gate_verifier_v1.py", line 34, in need
+    raise AssertionError(msg)
+AssertionError: new out dir

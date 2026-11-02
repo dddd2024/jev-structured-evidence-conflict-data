@@ -1,0 +1,9 @@
+{
+  "backbone_forwards": 0,
+  "cpu_model_loads": 1,
+  "error_message": "list index out of range",
+  "error_type": "IndexError",
+  "gpu_forwards": 0,
+  "schema": "JEV_A461_PSMI_G0_N1B_RECEIPT_V1",
+  "status": "FAIL_A461_PSMI_G0_N1B"
+}

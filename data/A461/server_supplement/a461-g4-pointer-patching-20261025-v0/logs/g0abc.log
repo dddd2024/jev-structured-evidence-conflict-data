@@ -1,0 +1,2 @@
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights:   0%|          | 1/320 [00:00<01:12,  4.39it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 1322.36it/s]
+{"backbone_forwards":0,"cpu_model_loads":1,"gpu_forwards":0,"growth_histogram":{"33":12,"34":14},"network_calls":0,"output_dir":"/REDACTED_RESEARCH_ROOT/a461-g4-pointer-patching-20261025-v0/G0ABC","pairs":26,"schema":"JEV_A461_G4_G0ABC_CPU_RECEIPT_V1","status":"COMPLETE_A461_G4_G0ABC_CPU_ADMISSION","strict_pairs":11,"test_or_calibration_rows":0}

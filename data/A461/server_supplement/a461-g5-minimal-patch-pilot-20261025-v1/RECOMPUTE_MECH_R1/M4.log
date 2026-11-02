@@ -1,0 +1,55 @@
+{
+ "consistency_gate": {
+  "S_full": 51,
+  "S_M3_all": 51,
+  "full_rows_bitwise_eq_M3": 208,
+  "pass": true
+ },
+ "class_rules": {
+  "SUF": [],
+  "NEC": [
+   "OTHER_ITEMS",
+   "CONTEXT"
+  ],
+  "B": [
+   "CONTEXT",
+   "OTHER_ITEMS"
+  ],
+  "verdict": "LOCUS:CONTEXT+OTHER_ITEMS",
+  "value_swap": "V_NONE"
+ },
+ "verdict": "LOCUS:CONTEXT+OTHER_ITEMS",
+ "value_swap": "V_NONE",
+ "S": {
+  "full": 51,
+  "only_PARTNER": 1,
+  "only_ROUND_PEERS": 1,
+  "only_OTHER_ITEMS": 14,
+  "only_SELF": 0,
+  "only_CONTEXT": 5,
+  "drop_PARTNER": 41,
+  "drop_ROUND_PEERS": 40,
+  "drop_OTHER_ITEMS": 8,
+  "drop_SELF": 47,
+  "drop_CONTEXT": 23,
+  "only_ROUNDVOTES": 2,
+  "drop_ROUNDVOTES": 35,
+  "vswap_PARTNER": 0
+ },
+ "SPEC": {
+  "full": true,
+  "only_PARTNER": true,
+  "only_ROUND_PEERS": true,
+  "only_OTHER_ITEMS": false,
+  "only_SELF": false,
+  "only_CONTEXT": true,
+  "drop_PARTNER": true,
+  "drop_ROUND_PEERS": true,
+  "drop_OTHER_ITEMS": true,
+  "drop_SELF": true,
+  "drop_CONTEXT": false,
+  "only_ROUNDVOTES": true,
+  "drop_ROUNDVOTES": true,
+  "vswap_PARTNER": false
+ }
+}

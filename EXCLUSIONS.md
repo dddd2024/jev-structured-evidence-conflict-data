@@ -5,6 +5,8 @@
 - 24 historical DOCX/PDF manuscript drafts remain withheld pending author-review and publication considerations. All 24 paths are listed in `MIGRATION_MANIFEST.json`.
 - 127 additional original experiment protocol and research-context files are mirrored under `data/A461/context`, documented in `CONTEXT_MANIFEST.json`.
 
-**Not yet publicly migrated:** G2 and M1-M22 original large activation-capture tar archives from the private release assets; M23 server-side activation captures. These are listed separately in `CAPTURE_INVENTORY.json` and in the current GitHub issue.
+- All 28 original capture tar archives (G2 and M1-M22) are mirrored byte-for-byte to this repository's Releases, plus the M23 captures newly bundled from the research server (see `CAPTURE_INVENTORY.json`).
+- 292 server-only run records are published under `data/A461/server_supplement` (91 with machine paths redacted; original and published SHA-256 in `SERVER_SUPPLEMENT_MANIFEST.json`).
+- Not published: 4,553 runner self-test / L1 test outputs (~470 MB) produced on fake or deliberately tampered models to validate runners before GPU admission, and their test-capture tensors. They are not experimental observations; each is listed with size and git blob in `SERVER_SUPPLEMENT_MANIFEST.json`.
 
 Private originals remain untouched. This archive is not a redistribution license for model weights or third-party datasets.

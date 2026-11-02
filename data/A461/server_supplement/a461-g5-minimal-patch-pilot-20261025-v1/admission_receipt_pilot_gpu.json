@@ -1,0 +1,21 @@
+{
+  "schema": "JEV_A461_G5_PILOT_GPU_ADMISSION_RECEIPT_V1",
+  "date": "2026-10-25",
+  "stage": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU",
+  "run_id": "A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_GPU_R1",
+  "planned_native_forwards": 28,
+  "approved_max_native_forwards": 28,
+  "hard_cap_per_run": 128,
+  "blind_review_verdict": null,
+  "blind_review_comment": null,
+  "blind_review_runner_blob": "d2efc395f8c7279695e893930105bcc2f75ce72e",
+  "blind_review_scope_blobs": {
+    "gpu_runner": "d2efc395f8c7279695e893930105bcc2f75ce72e",
+    "cpu_closed_loop_runner": "a8b507c1d0f5890575f882930bfd5a145f5e1b29",
+    "protocol": "111595a31f3fb18268142501602cf6d91df848dd",
+    "g0_artifacts_dir": "research/rounds/A461_G5_MINIMAL_CAUSAL_PATCH_PILOT_G0_G1/G0_PILOT_CPU_GATE_REAL/"
+  },
+  "explicit_user_gpu_approval": false,
+  "approval_authority": null,
+  "notes": "Planning-only receipt. The GPU runner refuses to load the backbone until blind_review_verdict == 'PASS' (pinned to the committed runner blob), explicit_user_gpu_approval == true, and approved_max_native_forwards == 28. This receipt is not a GPU authorization."
+}

@@ -1,0 +1,111 @@
+{
+ "consistency_gate": {
+  "S_full": 51,
+  "S_M3_all": 51,
+  "full_rows_bitwise_eq_M3": 208,
+  "S_xdonor": 51,
+  "xdonor_rows_bitwise_eq_M5": 208,
+  "pass": true
+ },
+ "rules_applied": {
+  "SUF": {
+   "full": true,
+   "xdonor_BULK": true,
+   "meanD_host": true,
+   "meanD_donor": true,
+   "meanH_host": false,
+   "lr1": false,
+   "lr4": false,
+   "lr16": false,
+   "lr64": false,
+   "rand4": false,
+   "rand16": false,
+   "rand64": false
+  },
+  "shared": "SHARED_DONOR_COMPONENT",
+  "lowrank": "NOT_LOWRANK_LE64",
+  "k_star": null,
+  "null_arm": null
+ },
+ "shared_verdict": "SHARED_DONOR_COMPONENT",
+ "lowrank_verdict": "NOT_LOWRANK_LE64",
+ "S": {
+  "full": 51,
+  "xdonor_BULK": 51,
+  "meanD_host": 39,
+  "meanD_donor": 57,
+  "meanH_host": 17,
+  "lr1": 0,
+  "lr4": 0,
+  "lr16": 1,
+  "lr64": 10,
+  "rand4": 0,
+  "rand16": 1,
+  "rand64": 0
+ },
+ "SPEC": {
+  "full": true,
+  "xdonor_BULK": true,
+  "meanD_host": true,
+  "meanD_donor": true,
+  "meanH_host": true,
+  "lr1": false,
+  "lr4": false,
+  "lr16": false,
+  "lr64": true,
+  "rand4": false,
+  "rand16": false,
+  "rand64": false
+ },
+ "subspace_energy": {
+  "lr1": {
+   "energy_median_of_medians": 0.1415,
+   "energy_min": 0.0,
+   "basis_sv_share_median": 0.5068
+  },
+  "lr16": {
+   "energy_median_of_medians": 0.5014,
+   "energy_min": 0.0834,
+   "basis_sv_share_median": 0.8459
+  },
+  "lr4": {
+   "energy_median_of_medians": 0.3157,
+   "energy_min": 0.0243,
+   "basis_sv_share_median": 0.6678
+  },
+  "lr64": {
+   "energy_median_of_medians": 0.7023,
+   "energy_min": 0.1689,
+   "basis_sv_share_median": 0.9528
+  },
+  "rand16": {
+   "energy_median_of_medians": 0.5014,
+   "energy_min": 0.0834,
+   "basis_sv_share_median": 0.8459
+  },
+  "rand4": {
+   "energy_median_of_medians": 0.3157,
+   "energy_min": 0.0243,
+   "basis_sv_share_median": 0.6678
+  },
+  "rand64": {
+   "energy_median_of_medians": 0.7023,
+   "energy_min": 0.1689,
+   "basis_sv_share_median": 0.9528
+  }
+ },
+ "median_change_norm_rel_full": {
+  "full": 1.0,
+  "xdonor_BULK": 0.9818,
+  "meanD_host": 0.6194,
+  "meanD_donor": 0.8724,
+  "meanH_host": 0.6572,
+  "lr1": 0.1239,
+  "lr4": 0.2601,
+  "lr16": 0.4101,
+  "lr64": 0.5546,
+  "rand4": 0.2601,
+  "rand16": 0.4101,
+  "rand64": 0.5546
+ }
+}

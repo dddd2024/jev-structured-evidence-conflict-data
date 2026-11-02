@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/A461_g5_patching_runner_v4.py", line 386, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/REDACTED_RESEARCH_ROOT/jev-checkout/research/rounds/A461_G5_DONOR_RESOLUTION_AND_PATCHING/A461_g5_patching_runner_v4.py", line 65, in main
+    ck(ROOT.is_dir() and sha_file(CORPUS) == CORPUS_SHA and
+                         ^^^^^^^^
+NameError: name 'sha_file' is not defined
